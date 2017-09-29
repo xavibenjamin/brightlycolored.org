@@ -3,9 +3,8 @@
 // -------------------------------
 
 .container {
-  @extend %clearfix;
 
-  margin: 0 auto;
+  // margin: 0 auto;
   position: relative;
   width: 100%;
   @media #{$medium-up} {

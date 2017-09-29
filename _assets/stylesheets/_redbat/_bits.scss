@@ -11,11 +11,12 @@ $secondary-color: #19365e;
 $header-text-color: lighten($secondary-color, 50%);
 $header-footer-color: desaturate(darken($header-text-color, 20%), 30%);
 
-$dark-color: #555;
-$body-color: #555;
-$link-color: #429CD4;
+$body-color: desaturate(lighten($secondary-color, 20), 30);
+$dark-color: $body-color;
+
+$link-color: $primary-color;
 $jazz-color: #508FAB;
-$border-color: #EAECEF;
+$border-color: desaturate(lighten($secondary-color, 70), 30);
 $brand-color: #F88962;
 $slate: #383C40;
 

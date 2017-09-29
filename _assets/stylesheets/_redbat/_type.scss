@@ -175,9 +175,10 @@ sup {
 
 // BLOCKQUOTE --------------------
 blockquote {
-  border-left: 4px solid #EEE;
-  color: lighten($body-color, 20%);
-  margin: 0 auto 1.5625rem;
+  border-left: 4px solid $border-color;
+  color: lighten($body-color, 15%);
+  margin-left: 4rem;
+  margin-bottom: 1.1rem;
   padding-left: .75rem;
   width: 90%;
   @media #{$medium-up} {
