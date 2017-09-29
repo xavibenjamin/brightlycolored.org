@@ -121,66 +121,6 @@ h6 {
   text-transform: uppercase;
 }
 
-ul {
-  list-style-type: disc;
-  margin-bottom: 1.5625rem;
-  @media #{$medium-up} {
-    margin-bottom: 1.5625rem;
-    margin-left: 2.5rem;
-  }
-  li {
-    font-size: 1.1rem;
-    line-height: 1.7;
-    margin-bottom: .5rem;
-    margin-left: 2.3rem;
-    padding: .1875rem 0 0;
-    @media #{$medium-up} {
-      font-size: 1rem;
-    }
-    ul {
-      list-style-type: circle;
-      margin-bottom: 0;
-      width: 100%;
-      li {
-        font-size: inherit;
-      }
-    }
-    p {
-      font-size: inherit;
-      margin: 0 0 .625rem;
-    }
-    &:last-child {
-      padding: 1.25% 0 0;
-    }
-  }
-}
-
-ol {
-  list-style-type: decimal;
-  margin-bottom: 1.5625rem;
-  text-align: left;
-  li {
-    font-size: 1.1rem;
-    line-height: 1.7;
-    margin-bottom: .1875rem;
-    margin-left: 2.3rem;
-    @media #{$medium-up} {
-      font-size: 1rem;
-    }
-    ol {
-      list-style-type: lower-roman;
-      margin-bottom: 0;
-      width: 100%;
-    }
-    p {
-      font-size: inherit;
-      margin: 0 0 1.5625rem;
-      &:last-child {
-        margin-bottom: .9375rem;
-      }
-    }
-  }
-}
 
 .page__title {
   color: $dark-color;

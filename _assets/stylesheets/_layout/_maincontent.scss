@@ -426,31 +426,31 @@ $reddit-color: #FF4500;
 
 // Media Queries on Post Type ----
 
-h1,
-h2,
-h3,
-h4,
-h5,
-ol,
-ul,
-hr,
-.post__header,
-.post__footer,
-.post__entry > p,
-.search-results-list > p,
-.page__entry > p,
-.highlight,
-.extendout figcaption,
-.footnotes,
-.pagination,
-.site__footer small,
-.author,
-.fullwidth,
-.page__search {
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  @media #{$large-up} {
-    width: 65%;
-  }
-}
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// ol,
+// ul,
+// hr,
+// .post__header,
+// .post__footer,
+// .post__entry > p,
+// .search-results-list > p,
+// .page__entry > p,
+// .highlight,
+// .extendout figcaption,
+// .footnotes,
+// .pagination,
+// .site__footer small,
+// .author,
+// .fullwidth,
+// .page__search {
+//   margin-left: auto;
+//   margin-right: auto;
+//   width: 90%;
+//   @media #{$large-up} {
+//     width: 65%;
+//   }
+// }
