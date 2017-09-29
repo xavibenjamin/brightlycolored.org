@@ -5,6 +5,12 @@
 
 
 // COLORS ------------------------
+$primary-color: #fe5858;
+$secondary-color: #19365e;
+
+$header-text-color: lighten($secondary-color, 50%);
+$header-footer-color: desaturate(darken($header-text-color, 20%), 30%);
+
 $dark-color: #555;
 $body-color: #555;
 $link-color: #429CD4;
