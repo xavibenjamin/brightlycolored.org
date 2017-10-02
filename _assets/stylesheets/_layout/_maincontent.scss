@@ -3,6 +3,7 @@
 // -------------------------------
 
 .main {
+  padding: 2rem 0;
   @media #{$medium-up} {
     margin-left: 34%;
     padding: 5rem 0;
@@ -14,7 +15,10 @@
 
 .home-posts {
   &.type-post {
-    margin-bottom: 8rem;
+    margin-bottom: 4rem;
+    @media #{$medium-up} {
+      margin-bottom: 8rem;
+    }
   }
   .post {
     position: static;
@@ -29,6 +33,7 @@
   h1,
   h2 {
     width: 100%;
+    margin-left: 0;
   }
   h1 + h2 {
     margin-top: 0;
@@ -36,21 +41,18 @@
 }
 
 .post__meta {
-  color: lighten($dark-color, 25%);
+  color: lighten($dark-color, 15%);
   display: block;
   font-size: .8rem;
   line-height: 1;
-  margin-bottom: .5rem;
+  margin-top: 1rem;
   a,
   a:hover,
   a:focus {
-    color: lighten($dark-color, 25%);
+    color: lighten($dark-color, 15%);
   }
   @media #{$medium-up} {
     font-size: .75rem;
-  }
-  .post__lead + & {
-    margin-top: .8rem;
   }
 }
 
@@ -81,7 +83,7 @@
 
 .format-post {
   .post__header {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.8rem;
   }
   h1 {
     font-size: 2.4rem;
@@ -100,8 +102,8 @@
 }
 
 .post__subtitle {
-  color: lighten($dark-color, 20%);
-  font-size: 2rem;
+  color: lighten($dark-color, 15%);
+  font-size: 1.8rem;
   font-weight: 300;
   line-height: 1.1;
 }
@@ -116,7 +118,7 @@
     font-size: 1.7rem;
     font-weight: normal;
     line-height: 1.1;
-    margin-bottom: .3rem;
+    margin-bottom: .7rem;
     a {
       text-decoration: none;
     }
@@ -125,11 +127,10 @@
     }
   }
   .arrow {
-    color: lighten($dark-color, 50%);
+    color: lighten($dark-color, 35%);
     font-size: 1.3rem;
     line-height: 100%;
-    margin-left: $spacing-xs;
-    vertical-align: middle;
+    margin-left: .8rem;
   }
   .post__tags {
     margin-top: 1rem;
@@ -460,12 +461,8 @@ hr,
   margin-left: auto;
   margin-right: auto;
   width: 90%;
-  // @media #{$medium-up} {
-  //   margin-left: 2rem;
-  //   margin-right: 0;
-  // }
   @media #{$large-up} {
-    width: 68%;
+    width: 71.2%;
     margin-left: 3rem;
     margin-right: 0;
   }

@@ -7,14 +7,14 @@ custom_css_class: single
     {% if page.custom_type == 'post' %}
 
       <header class="post__header">
-        <small class="post__meta">
-          {% include small-author.html %}
-          {% include date.html %}
-        </small>
         <h1>{{ page.title | smartify }}</h1>
         {% if page.subtitle %}
           <h2 class="post__subtitle">{{ page.subtitle | smartify }}</h2>
         {% endif %}
+        <small class="post__meta">
+          {% include small-author.html %}
+          {% include date.html %}
+        </small>
       </header>
 
       <div class="post__entry">
