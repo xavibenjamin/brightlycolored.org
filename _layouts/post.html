@@ -17,27 +17,25 @@ custom_css_class: single
         </small>
       </header>
 
-      <div class="post__entry">
-        {{ content | improve }}
-      </div>
+      {{ content | improve }}
 
       <div class="post__closer">
         {% include icons/icon-closer.html %}
       </div>
+
+      <footer class="post__footer">
+        {% include social-links.html %}
+        {% if page.tags %}
+          {% include tags.html text="yes" %}
+        {% endif %}  
+      </footer>
 
       <section class="card card--light card--large">
         <h2>Those words be written good!</h2>
         {% include newsletter-form.html text="Get more of them in your inbox every Friday." %}
       </section>
 
-      <footer class="post__footer">
-        {% include social-links.html %}
-        {% if page.tags %}
-          {% include tags.html text="yes" %}
-        {% endif %}
-        {% include full-author.html %}
-        {% include related-posts.html %}
-      </footer>
+      {% include related-posts.html %}
 
     {% elsif page.custom_type == 'link' %}
 
@@ -50,16 +48,13 @@ custom_css_class: single
         </small>
       </header>
 
-      <div class="post__entry">
-        {{ content | improve }}
-      </div>
+      {{ content | improve }}
 
-
-        <footer class="post__footer">
-          {% include social-links.html %}
-          {% include tags.html text="yes" %}
-          {% include related-posts.html %}
-        </footer>
+      <footer class="post__footer">
+        {% include social-links.html %}
+        {% include tags.html text="yes" %}
+        {% include related-posts.html %}
+      </footer>
 
 
     {% endif %}

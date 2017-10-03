@@ -22,10 +22,9 @@
     text-decoration: none;
   }
   .pubdate {
-    @extend %sans;
-
     color: lighten($dark-color, 20%);
     display: block;
+    @extend %sans;
     font-size: .85rem;
     font-weight: normal;
     line-height: 1.5;
@@ -69,8 +68,6 @@
 
 .tag__section {
   border-bottom: 1px solid $border-color;
-  margin-left: auto;
-  margin-right: auto;
   padding: 4rem 0;
   position: relative;
   width: 90%;
@@ -125,10 +122,9 @@
 }
 
 .tag__return-home {
-  @extend %sans-con;
-
   bottom: 10px;
   color: $body-color;
+  @extend %sans-con;
   font-size: .9rem;
   opacity: 0;
   position: absolute;

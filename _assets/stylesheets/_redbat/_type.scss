@@ -14,9 +14,8 @@ html {
 }
 
 body {
-  @extend %sans;
-
   color: $body-color;
+  @extend %sans;
   -webkit-hyphens: auto;
   hyphens: auto;
   line-height: 140%;
@@ -45,7 +44,6 @@ h4,
 h5,
 h6 {
   @extend %sans-con;
-
   line-height: 130%;
 }
 
@@ -78,7 +76,7 @@ h2 {
   font-weight: 600;
   line-height: 1.2;
   margin: 2.3rem 0 0;
-  + h3 {
+   + h3 {
     margin-top: .3rem;
   }
 }
@@ -121,7 +119,8 @@ h6 {
   text-transform: uppercase;
 }
 
-ul {
+.post > ul,
+.page > ul {
   list-style-type: disc;
   margin-bottom: 1.5625rem;
   @media #{$medium-up} {
@@ -155,7 +154,8 @@ ul {
   }
 }
 
-ol {
+.post > ol,
+.page > ol {
   list-style-type: decimal;
   margin-bottom: 1.5625rem;
   text-align: left;
@@ -237,15 +237,13 @@ sup {
 blockquote {
   border-left: 4px solid $border-color;
   color: lighten($body-color, 15%);
-  margin-left: 2rem;
   margin-bottom: 1.1rem;
+  margin-left: 7.5%;
+  margin-right: 5%;
   padding-left: .75rem;
-  @media #{$medium-up} {
-    width: 85%;
-  }
   @media #{$large-up} {
-    margin-left: 4rem;
-    width: 60%;
+    margin-left: 9.5%;
+    margin-right: 21%;
   }
   small {
     display: block;

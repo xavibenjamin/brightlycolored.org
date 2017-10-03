@@ -32,8 +32,8 @@
 .post__header {
   h1,
   h2 {
-    width: 100%;
     margin-left: 0;
+    width: 100%;
   }
   h1 + h2 {
     margin-top: 0;
@@ -138,9 +138,12 @@
 }
 
 .post__closer {
-  margin: 5rem auto 0;
-  width: 50px;
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
   .svg-icon {
+    width: 50px;
     path {
       fill: lighten($border-color, 1%);
     }
@@ -161,9 +164,8 @@
     }
   }
   .post__lead {
-    @extend %sans;
-
     color: lighten($dark-color, 20%);
+    @extend %sans;
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 1.4;
@@ -386,7 +388,6 @@ $reddit-color: #FF4500;
     line-height: 1.2;
     a {
       @extend %sans-con;
-
       font-weight: 600;
     }
     .pubdate {
@@ -437,33 +438,13 @@ $reddit-color: #FF4500;
 
 // Media Queries on Post Type ----
 
-h1,
-h2,
-h3,
-h4,
-h5,
-ol,
-ul,
-hr,
-.post__header,
-.post__footer,
-.post__entry > p,
-.search-results-list > p,
-.page__entry > p,
-.highlight,
-.extendout figcaption,
-.footnotes,
-.pagination,
-.site__footer small,
-.author,
-.fullwidth,
-.page__search {
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
+.post > *:not(.iframe-container):not(blockquote):not(.card):not(.extendout),
+.page > *:not(.extendout),
+.card > * {
+  padding-left: 5%;
+  padding-right: 5%;
   @media #{$large-up} {
-    width: 71.2%;
-    margin-left: 3rem;
-    margin-right: 0;
+    padding-left: 7%;
+    padding-right: 20%;
   }
 }
