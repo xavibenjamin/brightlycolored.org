@@ -3,7 +3,7 @@ layout: default
 custom_css_class: single
 ---
 <div class="type-post format-{% if page.custom_type %}{{ page.custom_type }}{% endif %}">
-  <article class="post single-post">
+  <article class="bc-content post single-post">
     {% if page.custom_type == 'post' %}
 
       <header class="post__header">
@@ -27,7 +27,7 @@ custom_css_class: single
         {% include social-links.html %}
         {% if page.tags %}
           {% include tags.html text="yes" %}
-        {% endif %}  
+        {% endif %}
       </footer>
 
       <section class="card card--light card--large">

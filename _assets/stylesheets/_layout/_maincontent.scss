@@ -20,21 +20,9 @@
       margin-bottom: 8rem;
     }
   }
-  .post {
-    position: static;
-  }
-}
-
-.post {
-  position: relative;
 }
 
 .post__header {
-  h1,
-  h2 {
-    margin-left: 0;
-    width: 100%;
-  }
   h1 + h2 {
     margin-top: 0;
   }
@@ -63,11 +51,6 @@
   @media #{$medium-up} {
     font-size: .75rem;
   }
-  .author {
-    border-top: 1px solid $border-color;
-    margin-top: 1.5rem;
-    width: 100%;
-  }
 }
 
 .post__tags {
@@ -89,7 +72,6 @@
     font-size: 2.4rem;
     font-weight: 600;
     line-height: 1;
-    margin: 0;
     a {
       color: $dark-color;
       text-decoration: none;
@@ -131,9 +113,6 @@
     font-size: 1.3rem;
     line-height: 100%;
     margin-left: .8rem;
-  }
-  .post__tags {
-    margin-top: 1rem;
   }
 }
 
@@ -220,20 +199,13 @@
 }
 
 .authors {
-  .author {
-    &:last-child {
-      border-bottom: 0;
-      padding-bottom: 0;
-    }
-  }
+  margin-top: 1rem;
 }
 
 .author {
-  align-items: flex-start;
-  border-bottom: 1px solid $border-color;
-  display: flex;
-  padding: 1rem 0;
-  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 1rem;
   p {
     color: $body-color;
     font-size: .95rem;
@@ -241,30 +213,27 @@
       font-size: .85rem;
     }
   }
+  + .author {
+    border-top: 1px solid $border-color;
+    padding-top: 1rem;
+    margin-top: 1rem;
+  }
 }
 
 .author__picture {
   border-radius: 5px;
-  float: left;
-  margin-right: 1.5rem;
-  margin-top: .4rem;
-  width: 70px;
-  @media #{$medium-up} {
-    width: 130px;
-  }
 }
 
 .author__name {
   color: $body-color;
   font-size: 1.2rem;
   margin: 0;
-  position: relative;
   text-transform: none;
   width: 100%;
 }
 
 .author__title {
-  color: lighten($body-color, 20%);
+  color: lighten($body-color, 10%);
   font-size: 1rem;
   font-weight: normal;
   margin-left: .3rem;
@@ -380,12 +349,26 @@ $reddit-color: #FF4500;
 
 // Related Posts ----------------
 .related-posts {
+  margin-top: 3rem;
+  ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: .5rem;
+  }
   .post-list {
     width: 100%;
   }
   .post-list__item {
+    background-color: $light-bg-color;
+    padding: .5rem;
+    border-radius: $global-radius;
     font-size: 1rem;
     line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
     a {
       @extend %sans-con;
       font-weight: 600;
@@ -395,7 +378,7 @@ $reddit-color: #FF4500;
       font-size: .8rem;
       margin-top: .3rem;
       @media #{$medium-up} {
-        font-size: .75rem;
+        font-size: .7rem;
       }
     }
   }
@@ -403,8 +386,9 @@ $reddit-color: #FF4500;
 
 .related-posts__title {
   font-size: 1rem;
-  margin-top: 1.5rem;
-  width: 100%;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 1rem;
   &:before {
     display: none;
   }
@@ -438,13 +422,18 @@ $reddit-color: #FF4500;
 
 // Media Queries on Post Type ----
 
-.post > *:not(.iframe-container):not(blockquote):not(.card):not(.extendout),
-.page > *:not(.extendout),
-.card > * {
+.bc-content > *:not(.iframe-container):not(blockquote):not(.card):not(.extendout):not(.photo-grid):not(.alignleft):not(.alignright):not(.small__right):not(.highlighter-rouge),
+.card > *,
+.highlighter-rouge > *,
+.extendout > *:not(img),
+.photo-grid > *:not(img) {
   padding-left: 5%;
   padding-right: 5%;
   @media #{$large-up} {
     padding-left: 7%;
-    padding-right: 20%;
+    padding-right: 28%;
+  }
+  @media #{$xxlarge-up} {
+    padding-right: 36%;
   }
 }

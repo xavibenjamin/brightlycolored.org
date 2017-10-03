@@ -5,7 +5,7 @@ $monospace-font-stack: Operator Mono, Inconsolata, 'Inconsolata-g for Powerline'
 pre {
   background: #FCFCFC;
   border: 1px solid #F0F0F0;
-  border-radius: 3px;
+  border-radius: 0 $global-radius $global-radius 0;
   font-family: $monospace-font-stack;
   line-height: 1.5;
   overflow-x: auto;

@@ -3,14 +3,16 @@
 // -------------------------------
 
 .container {
-  // margin: 0 auto;
   position: relative;
   width: 100%;
   @media #{$medium-up} {
     max-width: 768px;
   }
   @media #{$large-up} {
-    max-width: 900px;
+    max-width: 1000px;
+  }
+  @media #{$xxlarge-up} {
+    max-width: 1300px;
   }
 }
 
