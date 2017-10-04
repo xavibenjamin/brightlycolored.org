@@ -81,16 +81,16 @@ iframe {
 }
 
 .card--jazz {
-  background-color: $jazz-color;
-  color: lighten($jazz-color, 20%);
+  background-color: $primary-color;
+  color: lighten($primary-color, 20%);
   h2 {
     color: white;
   }
   .button--primary {
-    background: $brand-color;
+    background: $secondary-color;
     &:focus,
     &:hover {
-      background: lighten($brand-color, 10%);
+      background: lighten($secondary-color, 10%);
     }
   }
 }
