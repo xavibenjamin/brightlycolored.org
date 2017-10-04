@@ -1,8 +1,8 @@
-# The Bold Report
+# Brightly Colored
 
 [![Code Climate](https://codeclimate.com/github/ttimsmith/theboldreport.net/badges/gpa.svg)](https://codeclimate.com/github/ttimsmith/theboldreport.net)
 
-*The Bold Report* is powered by [Jekyll](http://jekyllrb.com/). Feel free to browse the code and report any issues.
+*Brightly Colored* is powered by [Jekyll](http://jekyllrb.com/). Feel free to browse the code and report any issues.
 
 You're free to use whatever you'd like, **however**, posts found in the `_drafts` or `_posts` folder are copyright of Timothy B. Smith, and may not be used without proper attribution. Of course, the logo is also my copyright… you know what you can copy/paste and what you shouldn't. Be nice.
 
@@ -19,7 +19,7 @@ Voilà!
 
 ## Contributing
 
-Here are some guidelines for contributing to *The Bold Report*. First time contributors can open Pull Requests, once you’ve written a few times, I’ll add you as a contributor to this repo.
+Here are some guidelines for contributing to *Brightly Colored*. First time contributors can open Pull Requests, once you’ve written a few times, I’ll add you as a contributor to this repo.
 
 ### Writing CSS
 

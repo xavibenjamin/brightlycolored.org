@@ -177,3 +177,37 @@ iframe {
     width: 1.3em;
   }
 }
+
+// Slash List --------------------
+// List component with little sla-
+// shes in between items.
+// -------------------------------
+
+.slash-list {
+  display: flex;
+  font-size: .7rem;
+  font-weight: 600;
+  li {
+     + li {
+      margin-left: 2rem;
+      position: relative;
+      &:before {
+        color: darken($border-color, 3%);
+        content: '/';
+        font-size: 1.1rem;
+        font-weight: normal;
+        left: -23px;
+        position: absolute;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.slash-list__title {
+  @extend %sans;
+  font-size: .6rem;
+  line-height: 1;
+}
