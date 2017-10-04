@@ -117,6 +117,12 @@ redcarpet:
 ## Let's Test That Fluid Type
 Lorem ipsum dolor sit amet, consectetur adip*isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.
 
+<figure class="photo-grid">
+  <img src="{{ site.url }}/uploads/2016/01/kelly-punching.jpg" alt="" class="grid-thirds-tall" />
+  <img src="{{ site.url }}/uploads/2016/01/europe-group-on-the-bus.jpg" alt="" class="grid-two-thirds" />
+  <figcaption>Again use a <code>figure</code> with the class of <code>.photo-grid</code>. Then, use <code>.grid-thirds-tall</code> and <code>.grid-two-thirds</code> for this styling.</figcaption>
+</figure>
+
 And that's it. Oh wait… I forgot something.[^1]
 
 [^1]: Yep. These are footnotes, and this is what they look like. Not a huge deal, but sometimes very necessary.

@@ -44,16 +44,11 @@ figcaption {
   margin: 2rem auto;
 }
 
-.alignleft {
+.alignleft,
+.alignright {
   @media #{$medium-up} {
     align-items: flex-end;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 97%;
-  }
-  @media #{$large-up} {
-    width: 100%;
   }
   img {
     @media #{$medium-up} {
@@ -62,41 +57,18 @@ figcaption {
     }
   }
   figcaption {
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
     @media #{$medium-up} {
-      margin-left: $spacing-s;
+      padding-left: 1.8%;
+      padding-right: 1.8%;
     }
   }
 }
 
 .alignright {
-  @extend %clearfix;
   @media #{$medium-up} {
-    align-items: flex-end;
-    display: flex;
     flex-direction: row-reverse;
-    margin-left: auto;
-    margin-right: auto;
-    width: 97%;
-  }
-  @media #{$large-up} {
-    width: 100%;
-  }
-  img {
-    @media #{$medium-up} {
-      flex: 0 0 70%;
-      width: 70%;
-    }
-  }
-  figcaption {
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    @media #{$medium-up} {
-      margin-right: $spacing-s;
-    }
   }
 }
 
@@ -127,51 +99,34 @@ figcaption {
 }
 
 .photo-grid {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  figcaption {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    @media #{$medium-up} {
-      width: 90%;
-    }
-    @media #{$large-up} {
-      width: 65%;
-    }
-  }
-  @media #{$medium-up} {
-    width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+  grid-gap: 2px;
+  align-items: stretch;
+  grid-auto-flow: dense;
+  @media #{$large-up} {
+    grid-gap: 3px;
   }
   img {
-    padding-bottom: .375rem;
-    @media #{$medium-up} {
-      max-height: 340px;
-      object-fit: cover;
-      padding-left: .1875rem;
-      padding-right: .1875rem;
-    }
-    @media #{$large-up} {
-      max-height: 440px;
-    }
+    object-fit: cover;
   }
   .grid-thirds {
-    @media #{$medium-up} {
-      width: 33.3%;
-    }
+    grid-column: span 4;
   }
   .grid-two-thirds {
-    @media #{$medium-up} {
-      width: 66.7%;
-    }
+    grid-column: span 8;
+    grid-row: span 2;
   }
   .grid-half {
-    @media #{$medium-up} {
-      width: 50%;
-    }
+    grid-column: span 6;
+  }
+  .grid-thirds-tall {
+    grid-column: span 4;
+    grid-row: span 2;
+  }
+  figcaption {
+    grid-column: span 12;
+    align-self: start;
   }
 }

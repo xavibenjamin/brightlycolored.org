@@ -105,6 +105,7 @@
   }
   li {
     font-size: .85rem;
+    margin-left: 0;
     @media #{$medium-only} {
       font-size: .75rem;
        + li {

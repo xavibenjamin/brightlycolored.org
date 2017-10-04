@@ -3,41 +3,38 @@ layout: default
 custom_css_class: single
 ---
 <div class="type-post format-{% if page.custom_type %}{{ page.custom_type }}{% endif %}">
-  <article class="post single-post">
+  <article class="bc-content post single-post">
     {% if page.custom_type == 'post' %}
 
       <header class="post__header">
-        <small class="post__meta">
-          {% include small-author.html %}
-          {% include date.html %}
-        </small>
         <h1>{{ page.title | smartify }}</h1>
         {% if page.subtitle %}
           <h2 class="post__subtitle">{{ page.subtitle | smartify }}</h2>
         {% endif %}
+        <small class="post__meta">
+          {% include small-author.html %}
+          {% include date.html %}
+        </small>
       </header>
 
-      <div class="post__entry">
-        {{ content | improve }}
-      </div>
+      {{ content | improve }}
 
       <div class="post__closer">
         {% include icons/icon-closer.html %}
       </div>
 
-      <section class="card card--light card--large">
-        <h2>Those words be written good!</h2>
-        {% include newsletter-form.html text="Get more of them in your inbox every Friday." %}
-      </section>
-
       <footer class="post__footer">
-        {% include social-links.html %}
-        {% if page.tags %}
-          {% include tags.html text="yes" %}
-        {% endif %}
-        {% include full-author.html %}
+        {% include tags.html %}
+
+        <section class="card card--light card--large">
+          <h2>Those words be written good!</h2>
+          {% include newsletter-form.html text="Get more of them in your inbox every Friday." %}
+        </section>
+
         {% include related-posts.html %}
       </footer>
+
+
 
     {% elsif page.custom_type == 'link' %}
 
@@ -50,18 +47,18 @@ custom_css_class: single
         </small>
       </header>
 
-      <div class="post__entry">
-        {{ content | improve }}
-      </div>
+      {{ content | improve }}
 
+      <footer class="post__footer">
+        {% include tags.html %}
 
-        <footer class="post__footer">
-          {% include social-links.html %}
-          {% include tags.html text="yes" %}
-          {% include related-posts.html %}
-        </footer>
+        <section class="card card--light card--large">
+          <h2>Spicy links here!</h2>
+          {% include newsletter-form.html text="Get more of them in your inbox every Friday." %}
+        </section>
 
-
+        {% include related-posts.html %}
+      </footer>
     {% endif %}
   </article>
 </div>

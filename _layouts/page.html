@@ -3,8 +3,8 @@ layout: default
 custom_css_class: page
 ---
 
-<h1 class="page__title" id="page-title">{{ page.title | smartify }}</h1>
+<div class="bc-content page">
+  <h1 class="page__title" id="page-title">{{ page.title | smartify }}</h1>
 
-<div class="page__entry">
   {{ content }}
-</div><!-- /.page__entry -->
+</div>

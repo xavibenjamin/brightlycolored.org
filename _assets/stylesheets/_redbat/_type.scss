@@ -11,12 +11,14 @@ html {
   @media #{$medium-up} {
     font-size: 18px;
   }
+  @media #{$xxlarge-up} {
+    font-size: 19px;
+  }
 }
 
 body {
-  @extend %sans;
-
   color: $body-color;
+  @extend %sans;
   -webkit-hyphens: auto;
   hyphens: auto;
   line-height: 140%;
@@ -45,7 +47,6 @@ h4,
 h5,
 h6 {
   @extend %sans-con;
-
   line-height: 130%;
 }
 
@@ -78,7 +79,7 @@ h2 {
   font-weight: 600;
   line-height: 1.2;
   margin: 2.3rem 0 0;
-  + h3 {
+   + h3 {
     margin-top: .3rem;
   }
 }
@@ -121,6 +122,64 @@ h6 {
   text-transform: uppercase;
 }
 
+.post > ul,
+.page > ul:not(.tag-box) {
+  list-style-type: disc;
+  margin-bottom: 1.5625rem;
+  li {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: .5rem;
+    margin-left: 2rem;
+    padding: .1875rem 0 0;
+    @media #{$medium-up} {
+      font-size: 1rem;
+    }
+    ul {
+      list-style-type: circle;
+      margin-bottom: 0;
+      width: 100%;
+      li {
+        font-size: inherit;
+      }
+    }
+    p {
+      font-size: inherit;
+      margin: 0 0 .625rem;
+    }
+    &:last-child {
+      padding: 1.25% 0 0;
+    }
+  }
+}
+
+.post > ol,
+.page > ol {
+  list-style-type: decimal;
+  margin-bottom: 1.5625rem;
+  text-align: left;
+  li {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: .1875rem;
+    margin-left: 2rem;
+    @media #{$medium-up} {
+      font-size: 1rem;
+    }
+    ol {
+      list-style-type: lower-roman;
+      margin-bottom: 0;
+      width: 100%;
+    }
+    p {
+      font-size: inherit;
+      margin: 0 0 1.5625rem;
+      &:last-child {
+        margin-bottom: .9375rem;
+      }
+    }
+  }
+}
 
 .page__title {
   color: $dark-color;
@@ -130,12 +189,12 @@ h6 {
 }
 
 .subheader {
-  color: lighten($body-color, 30%);
+  color: lighten($body-color, 20%);
   font-weight: normal;
 }
 
 .light-text {
-  color: lighten($body-color, 30%);
+  color: lighten($body-color, 20%);
 }
 
 
@@ -175,16 +234,21 @@ sup {
 
 // BLOCKQUOTE --------------------
 blockquote {
-  border-left: 4px solid #EEE;
-  color: lighten($body-color, 20%);
-  margin: 0 auto 1.5625rem;
+  border-left: 4px solid $border-color;
+  color: lighten($body-color, 15%);
+  margin-bottom: 1.1rem;
+  margin-left: 7.5%;
+  margin-right: 5%;
   padding-left: .75rem;
-  width: 90%;
-  @media #{$medium-up} {
-    width: 85%;
-  }
   @media #{$large-up} {
-    width: 60%;
+    margin-right: 17%;
+  }
+  @media #{$xlarge-up} {
+    margin-left: 9.5%;
+    margin-right: 24%;
+  }
+  @media #{$xxlarge-up} {
+    margin-right: 36%;
   }
   small {
     display: block;
