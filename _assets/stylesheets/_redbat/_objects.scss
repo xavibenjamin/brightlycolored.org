@@ -3,9 +3,6 @@
 // -------------------------------
 
 .container {
-  @extend %clearfix;
-
-  margin: 0 auto;
   position: relative;
   width: 100%;
   @media #{$medium-up} {
@@ -13,6 +10,9 @@
   }
   @media #{$large-up} {
     max-width: 1000px;
+  }
+  @media #{$xxlarge-up} {
+    max-width: 1300px;
   }
 }
 
@@ -51,21 +51,17 @@ iframe {
 // -------------------------------
 
 .card {
-  padding: 2rem 1.5rem;
+  padding: 2.5rem 0;
   @media #{$medium-up} {
-    border-radius: $global-radius;
+    border-radius: 0 $global-radius $global-radius 0;
   }
   h2 {
     margin-top: 0;
-    width: 100%;
   }
 }
 
 .card--large {
-  margin: 2rem auto;
-  @media #{$large-up} {
-    width: 85%;
-  }
+  margin: 1.5rem 0;
 }
 
 .card--light {
@@ -85,16 +81,16 @@ iframe {
 }
 
 .card--jazz {
-  background-color: $jazz-color;
-  color: lighten($jazz-color, 20%);
+  background-color: $primary-color;
+  color: lighten($primary-color, 20%);
   h2 {
     color: white;
   }
   .button--primary {
-    background: $brand-color;
+    background: $secondary-color;
     &:focus,
     &:hover {
-      background: lighten($brand-color, 10%);
+      background: lighten($secondary-color, 10%);
     }
   }
 }
@@ -108,10 +104,6 @@ iframe {
   list-style: none;
   li {
     margin-bottom: .3rem;
-    margin-left: 0;
-    &:last-child {
-      padding: 0;
-    }
   }
 }
 
@@ -123,22 +115,12 @@ iframe {
 
 
 .post-list--inline {
-  display: flex;
-  flex-direction: column;
   @media #{$medium-up} {
-    flex-direction: row;
-    li {
-      padding-right: 1rem;
-      &:last-child {
-        padding-right: 0;
-      }
+    display: flex;
+    justify-content: space-between;
+    li + li {
+      margin-left: .5rem;
     }
-  }
-}
-
-.post-list--grid-thirds {
-  li {
-    flex: 0 1 33.333333333%;
   }
 }
 
@@ -194,4 +176,38 @@ iframe {
     transform: rotate(45deg);
     width: 1.3em;
   }
+}
+
+// Slash List --------------------
+// List component with little sla-
+// shes in between items.
+// -------------------------------
+
+.slash-list {
+  display: flex;
+  font-size: .7rem;
+  font-weight: 600;
+  li {
+     + li {
+      margin-left: 2rem;
+      position: relative;
+      &:before {
+        color: darken($border-color, 3%);
+        content: '/';
+        font-size: 1.1rem;
+        font-weight: normal;
+        left: -23px;
+        position: absolute;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.slash-list__title {
+  @extend %sans;
+  font-size: .6rem;
+  line-height: 1;
 }

@@ -3,11 +3,11 @@ layout: page
 title: Style Guide
 exclude_from_search: true
 permalink: /styleguide/
-excerpt: Style guide for The Bold Report.
+excerpt: Style guide for Brightly Colored.
 ---
 {% figure small__right /uploads/2013/09/tim_680x510.jpg "Use the <code>.small__right</code> class for this particular styling." %}
 
-This page exists to show the different components and pieces of *The Bold Report*. More than anything, I maintain it because I think style guides are interesting.
+This page exists to show the different components and pieces of *Brightly Colored*. More than anything, I maintain it because I think style guides are interesting.
 
 This website is currently set in Whitney for primary and secondary text, and Whitney Condensed for headings.
 
@@ -116,6 +116,12 @@ redcarpet:
 
 ## Let's Test That Fluid Type
 Lorem ipsum dolor sit amet, consectetur adip*isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.
+
+<figure class="photo-grid">
+  <img src="{{ site.url }}/uploads/2016/01/kelly-punching.jpg" alt="" class="grid-thirds-tall" />
+  <img src="{{ site.url }}/uploads/2016/01/europe-group-on-the-bus.jpg" alt="" class="grid-two-thirds" />
+  <figcaption>Again use a <code>figure</code> with the class of <code>.photo-grid</code>. Then, use <code>.grid-thirds-tall</code> and <code>.grid-two-thirds</code> for this styling.</figcaption>
+</figure>
 
 And that's it. Oh wait… I forgot something.[^1]
 

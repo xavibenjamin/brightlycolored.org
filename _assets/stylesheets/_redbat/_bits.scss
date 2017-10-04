@@ -5,12 +5,22 @@
 
 
 // COLORS ------------------------
-$dark-color: #555;
-$body-color: #555;
-$link-color: #429CD4;
+$primary-color: #fe5858;
+$secondary-color: #19365e;
+
+$header-text-color: lighten($secondary-color, 50%);
+$header-footer-color: desaturate(darken($header-text-color, 20%), 30%);
+
+$body-color: desaturate(lighten($secondary-color, 15), 30);
+$dark-color: darken($body-color, 15%);
+
+$link-color: $primary-color;
 $jazz-color: #508FAB;
-$border-color: #EAECEF;
-$brand-color: #F88962;
+
+$border-color: desaturate(lighten($secondary-color, 70), 30);
+$light-bg-color: lighten($border-color, 5%);
+
+$brand-color: $primary-color;
 $slate: #383C40;
 
 

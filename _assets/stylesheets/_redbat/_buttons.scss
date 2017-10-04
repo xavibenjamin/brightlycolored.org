@@ -3,16 +3,18 @@
 // -------------------------------
 
 .button {
-  @extend %sans;
-
   border: 0;
   border-radius: 3px;
   display: inline-block;
+  @extend %sans;
   font-size: .85rem;
   font-weight: 600;
   line-height: 1;
-  padding: .5rem .7rem;
+  padding: .625rem;
   text-decoration: none;
+  @media #{$large-up} {
+    padding: .5rem .7rem;
+  }
   &--primary {
     background: $brand-color;
     color: white;
@@ -29,25 +31,6 @@
   }
   .icon {
     margin-right: .2rem;
-  }
-}
-
-.button--outline {
-  border: 1px solid lighten($dark-color, 25%);
-  color: lighten($dark-color, 25%);
-  vertical-align: top;
-  &:hover,
-  &:focus {
-    background-color: $jazz-color;
-    border-color: $jazz-color;
-    color: white;
-    .icon {
-      fill: white;
-    }
-  }
-  .icon {
-    fill: lighten($dark-color, 25%);
-    vertical-align: text-top;
   }
 }
 

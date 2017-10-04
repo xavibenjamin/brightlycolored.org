@@ -1,38 +1,31 @@
-<footer class="site__footer" role="contentinfo">
+<footer class="footer" role="contentinfo">
   <div class="container">
-
     <div class="footer__sections">
-      <section class="footer__about">
-        <a href="/" class="footer__logo">
-          {% include boldreport-logo.html %}
-        </a>
-
-        <p><em>The Bold Report</em> is a blog written by Tim Smith and friends about design, development, technology, Apple, Star Wars, movies, comics, and other geekery.</p>
-      </section><!-- /.footer__about -->
-
       <section class="footer__subscribe">
         <h6>Subscribe</h6>
         <ul>
-          <li><a href="https://feedpress.me/theboldreport">Master Feed</a></li>
-          <li><a href="https://feedpress.me/theboldreport-articles">Articles-Only Feed</a></li>
-          <li><a href="https://twitter.com/theboldreport" title="The Bold Report on Twitter">@theboldreport</a></li>
+          <li><a href="https://feedpress.me/brightlycolored">Master Feed</a></li>
+          <li><a href="https://feedpress.me/brightlycolored-articles">Articles-Only Feed</a></li>
+          <li><a href="https://twitter.com/BrightlyColord" title="Brightly Colored on Twitter">@brightlycolord</a></li>
         </ul>
       </section><!-- /.footer__subscribe -->
 
       <section class="footer__links">
         <h6>Site Links</h6>
         <ul>
-          <li><a href="/archives">Archives</a></li>
           <li><a href="/styleguide/">Style Guide</a></li>
           <li><a href="/podcasting-equipment/">Podcast Gear Guide</a></li>
-          <li><a href="https://github.com/ttimsmith/theboldreport.net">View Source on GitHub</a></li>
+          <li><a href="https://github.com/smithtimmytim/brightlycolored.org">View Source on GitHub</a></li>
         </ul>
       </section><!-- /.footer__links -->
 
-    </div><!-- /.footer__sections -->
+      <section class="footer__copyright">
+        <small><em>Brightly Colored</em> &copy; 2013&ndash;{{ site.time | date: "%Y" }} Timothy B. Smith. All Rights Reserved. Hosted with <a href="https://www.netlify.com">Netlify</a>.</small>
 
-    <small class="site__copyright"><em>The Bold Report</em> &copy; 2013&ndash;{{ site.time | date: "%Y" }} Timothy B. Smith.</small>
-    <small>Made with {% include icons/icon-heart.html css_classes="icon--inline icon--medium" %} in Saint Paul, MN. Hosted with <a href="https://www.netlify.com">Netlify</a>.</small>
+        <small>Made with {% include icons/icon-heart.html css_classes="icon--inline icon--medium" %} in Saint Paul, MN.</small>
+      </section>
+
+    </div><!-- /.footer__sections -->
   </div><!-- /.container -->
 </footer>
 

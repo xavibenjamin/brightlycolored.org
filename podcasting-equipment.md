@@ -3,10 +3,10 @@ layout: page
 title: Podcasting Equipment List
 exclude_from_search: true
 permalink: /podcasting-equipment/
-excerpt: The Bold Report's podcasting equipment guide.
+excerpt: Brightly Colored's podcasting equipment guide.
 ---
- 
-I’ve composed an equipment list for podcasting. There are many like it, but this is mine. 
+
+I’ve composed an equipment list for podcasting. There are many like it, but this is mine.
 
 These are only my recommendations. Most of the equipment I’m recommending here, I’ve personally used, and like. Whenever I mention length of cables, feel free to go with the length that will be the best for your studio. Obviously, you can mix and match most of this equipment with other recommendations you receive.
 
@@ -50,11 +50,10 @@ When you record from Skype, you want to record from a separate machine to not ho
 - Cable from mixer to machine (so that the Skype guest can hear you): [Hosa CMP159 Stereo Breakout, 3.5 mm TRS to Dual 1/4 in TS, 10-Feet](http://www.amazon.com/gp/product/B005HGM1D6?psc=1&redirect=true&ref_=oh_aui_detailpage_o08_s00)
 - Cable from machine to mixer (so that you can hear the Skype guest): [Hosa Cable CMP105 1/8 Inch TRS to 1/4 Inch TS Cable - 5 Foot](http://www.amazon.com/gp/product/B000068O3F?psc=1&redirect=true&ref_=oh_aui_detailpage_o08_s00)
 
---- 
+---
 
 ## Software
 You only have two choices here in my opinion. Either [AVID ProTools](http://www.avid.com/us/products/family/pro-tools/) or [Logic Pro](http://www.apple.com/logic-pro/). Both have a bit of a learning curve, but having good software is imperative to a good sounding show. I use Logic Pro.
 
 ## Conclusion
 Well that’s it! All this equipment may seem a bit overwhelming at first, but I promise you, it’s not! If something isn’t completely clear or you have questions about setup, feel free to email me at [smith@ttimsmith.com](mailto:smith@ttimsmith.com). You can also contact me via Twitter [@smithtimmytim](https://twitter.com/smithtimmytim).
-

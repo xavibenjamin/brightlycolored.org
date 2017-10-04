@@ -2,68 +2,86 @@
 // MAIN CONTENT
 // -------------------------------
 
-.home-posts {
-  &.type-post {
-    margin-bottom: 8rem;
+.main {
+  padding: 2rem 0;
+  @media #{$medium-up} {
+    margin-left: 34%;
+    padding: 5rem 0;
   }
-  .post {
-    position: static;
+  @media #{$large-up} {
+    margin-left: 30%;
   }
 }
 
-.post {
-  position: relative;
+.home-posts {
+  &.type-post {
+    margin-bottom: 4rem;
+    @media #{$medium-up} {
+      margin-bottom: 8rem;
+    }
+  }
 }
 
 .post__header {
-  h1,
-  h2 {
-    width: 100%;
-  }
   h1 + h2 {
     margin-top: 0;
   }
 }
 
 .post__meta {
-  color: lighten($dark-color, 25%);
+  color: lighten($dark-color, 15%);
   display: block;
   font-size: .8rem;
   line-height: 1;
-  margin-bottom: .5rem;
+  margin-top: 1rem;
   a,
   a:hover,
   a:focus {
-    color: lighten($dark-color, 25%);
+    color: lighten($dark-color, 15%);
   }
   @media #{$medium-up} {
     font-size: .75rem;
-  }
-  .post__lead + & {
-    margin-top: .8rem;
   }
 }
 
 .post__footer {
   color: lighten($dark-color, 25%);
   font-size: .8rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
   @media #{$medium-up} {
     font-size: .75rem;
   }
-  .author {
-    border-top: 1px solid $border-color;
-    margin-top: 1.5rem;
-    width: 100%;
-  }
+}
+
+.post-tags__title {
+  @extend %sans;
+  font-size: .6rem;
 }
 
 .post__tags {
-  display: block;
+  display: flex;
+  margin-bottom: 1rem;
+  li {
+    font-size: .7rem;
+    font-weight: 600;
+     + li {
+      margin-left: 2rem;
+      position: relative;
+      &:before {
+        color: darken($border-color, 3%);
+        content: '/';
+        font-size: 1.1rem;
+        font-weight: normal;
+        left: -23px;
+        position: absolute;
+      }
+    }
+  }
   a,
   a:hover,
   a:focus {
     color: lighten($dark-color, 25%);
+    text-decoration: none;
   }
 }
 
@@ -71,13 +89,12 @@
 
 .format-post {
   .post__header {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.8rem;
   }
   h1 {
     font-size: 2.4rem;
     font-weight: 600;
     line-height: 1;
-    margin: 0;
     a {
       color: $dark-color;
       text-decoration: none;
@@ -90,8 +107,8 @@
 }
 
 .post__subtitle {
-  color: lighten($dark-color, 20%);
-  font-size: 2rem;
+  color: lighten($dark-color, 15%);
+  font-size: 1.8rem;
   font-weight: 300;
   line-height: 1.1;
 }
@@ -106,7 +123,7 @@
     font-size: 1.7rem;
     font-weight: normal;
     line-height: 1.1;
-    margin-bottom: .3rem;
+    margin-bottom: .7rem;
     a {
       text-decoration: none;
     }
@@ -115,21 +132,20 @@
     }
   }
   .arrow {
-    color: lighten($dark-color, 50%);
+    color: lighten($dark-color, 35%);
     font-size: 1.3rem;
     line-height: 100%;
-    margin-left: $spacing-xs;
-    vertical-align: middle;
-  }
-  .post__tags {
-    margin-top: 1rem;
+    margin-left: .8rem;
   }
 }
 
 .post__closer {
-  margin: 5rem auto 0;
-  width: 50px;
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
   .svg-icon {
+    width: 50px;
     path {
       fill: lighten($border-color, 1%);
     }
@@ -150,9 +166,8 @@
     }
   }
   .post__lead {
-    @extend %sans;
-
     color: lighten($dark-color, 20%);
+    @extend %sans;
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 1.4;
@@ -207,20 +222,13 @@
 }
 
 .authors {
-  .author {
-    &:last-child {
-      border-bottom: 0;
-      padding-bottom: 0;
-    }
-  }
+  margin-top: 1rem;
 }
 
 .author {
-  align-items: flex-start;
-  border-bottom: 1px solid $border-color;
-  display: flex;
-  padding: 1rem 0;
-  position: relative;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 4fr;
   p {
     color: $body-color;
     font-size: .95rem;
@@ -228,30 +236,27 @@
       font-size: .85rem;
     }
   }
+   + .author {
+    border-top: 1px solid $border-color;
+    margin-top: 1rem;
+    padding-top: 1rem;
+  }
 }
 
 .author__picture {
   border-radius: 5px;
-  float: left;
-  margin-right: 1.5rem;
-  margin-top: .4rem;
-  width: 70px;
-  @media #{$medium-up} {
-    width: 130px;
-  }
 }
 
 .author__name {
   color: $body-color;
   font-size: 1.2rem;
   margin: 0;
-  position: relative;
   text-transform: none;
   width: 100%;
 }
 
 .author__title {
-  color: lighten($body-color, 20%);
+  color: lighten($body-color, 10%);
   font-size: 1rem;
   font-weight: normal;
   margin-left: .3rem;
@@ -259,6 +264,7 @@
 
 .author--single {
   border-bottom: 1px solid $border-color;
+  padding-bottom: 2.3rem;
   padding-top: 0;
   .author__name {
     font-size: 1.4rem;
@@ -271,111 +277,29 @@
   }
 }
 
-// -------------------------------
-// SOCIAL LINKS
-// -------------------------------
-$twitter-color: #1DA1F2;
-$facebook-color: #3B5998;
-$reddit-color: #FF4500;
-
-.social-links {
-  display: flex;
-  list-style: none;
-  margin-bottom: 1rem;
-  width: 100%;
-  li {
-    border-bottom: 1px solid $border-color;
-    border-right: 1px solid $border-color;
-    border-top: 1px solid $border-color;
-    flex: 1;
-    font-size: .75rem;
-    margin: 0;
-    padding: 0;
-    &:first-child {
-      border-left: 1px solid $border-color;
-    }
-    &:last-child {
-      padding: 0;
-    }
-  }
-  a {
-    color: lighten($dark-color, 25%);
-    display: inline-block;
-    padding: .4rem .7rem;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
-    &:focus {
-      outline: 0;
-    }
-    .icon {
-      transition: fill 300ms ease-in-out;
-      vertical-align: text-top;
-      @media #{$medium-up} {
-        fill: lighten($dark-color, 25%);
-      }
-    }
-  }
-  .social--twitter:hover,
-  .social--twitter:focus {
-    color: $twitter-color;
-    .icon {
-      fill: $twitter-color;
-    }
-  }
-  .social--facebook:hover,
-  .social--facebook:focus {
-    color: $facebook-color;
-    .icon {
-      fill: $facebook-color;
-    }
-  }
-  .social--reddit:hover,
-  .social--reddit:focus {
-    color: $reddit-color;
-    .icon {
-      fill: $reddit-color;
-    }
-  }
-}
-
-@media #{$small-only} {
-  .social--twitter {
-    .icon {
-      fill: $twitter-color;
-    }
-  }
-  .social--facebook {
-    .icon {
-      fill: $facebook-color;
-    }
-  }
-  .social--reddit {
-    .icon {
-      fill: $reddit-color;
-    }
-  }
-}
-
-.social__label {
-  display: none;
-  @media #{$medium-up} {
-    display: inline-block;
-    margin-left: .2rem;
-  }
+.author-profiles {
+  margin-top: 1.5rem;
 }
 
 // Related Posts ----------------
 .related-posts {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  ul {
+    display: flex;
+  }
   .post-list {
     width: 100%;
   }
   .post-list__item {
     font-size: 1rem;
     line-height: 1.2;
+    max-width: 230px;
+    + .post-list__item {
+      margin-left: 2rem;
+    }
     a {
       @extend %sans-con;
-
       font-weight: 600;
     }
     .pubdate {
@@ -383,16 +307,16 @@ $reddit-color: #FF4500;
       font-size: .8rem;
       margin-top: .3rem;
       @media #{$medium-up} {
-        font-size: .75rem;
+        font-size: .7rem;
       }
     }
   }
 }
 
 .related-posts__title {
-  font-size: 1rem;
-  margin-top: 1.5rem;
-  width: 100%;
+  font-size: .95rem;
+  margin-bottom: .5rem;
+  margin-top: 0;
   &:before {
     display: none;
   }
@@ -426,31 +350,23 @@ $reddit-color: #FF4500;
 
 // Media Queries on Post Type ----
 
-h1,
-h2,
-h3,
-h4,
-h5,
-ol,
-ul,
-hr,
-.post__header,
-.post__footer,
-.post__entry > p,
-.search-results-list > p,
-.page__entry > p,
-.highlight,
-.extendout figcaption,
-.footnotes,
-.pagination,
-.site__footer small,
-.author,
-.fullwidth,
-.page__search {
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
+.bc-content > *:not(.iframe-container):not(blockquote):not(.card):not(.extendout):not(.photo-grid):not(.alignleft):not(.alignright):not(.small__right):not(.highlighter-rouge):not(.post__footer),
+.card > *,
+.highlighter-rouge > *,
+.extendout > *:not(img),
+.photo-grid > *:not(img),
+.post__footer > *:not(.card),
+.footer__sections > * {
+  padding-left: 5%;
+  padding-right: 5%;
   @media #{$large-up} {
-    width: 65%;
+    padding-right: 17%;
+  }
+  @media #{$xlarge-up} {
+    padding-left: 7%;
+    padding-right: 24%;
+  }
+  @media #{$xxlarge-up} {
+    padding-right: 36%;
   }
 }

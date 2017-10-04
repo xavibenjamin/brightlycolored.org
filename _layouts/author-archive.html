@@ -2,15 +2,16 @@
 layout: no-title
 ---
 
-{% include full-author.html %}
+<div class="page bc-content">
+  {% include full-author.html %}
 
-</div>
+  <h2 class="subheader">Recent Posts</h2>
 
-<h2 class="subheader">Recent Posts</h2>
+  <div class="archive-list">
+    {% assign posts = site.posts | where: 'author', page.author %}
+    {% for p in posts limit: 10 %}
+      <h3><a href="{{ site.url }}{{ p.url }}">{{ p.title }}</a><small class="pubdate"><time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%a, %b %d, %Y" }}</time></small></h3>
+    {% endfor %}
+  </div>
 
-<div class="archive-list">
-  {% assign posts = site.posts | where: 'author', page.author %}
-  {% for p in posts limit: 10 %}
-    <h3><a href="{{ site.url }}{{ p.url }}">{{ p.title }}</a><small class="pubdate"><time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%a, %b %d, %Y" }}</time></small></h3>
-  {% endfor %}
 </div>
