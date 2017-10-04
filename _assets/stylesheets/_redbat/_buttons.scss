@@ -11,8 +11,11 @@
   font-size: .85rem;
   font-weight: 600;
   line-height: 1;
-  padding: .5rem .7rem;
+  padding: .625rem;
   text-decoration: none;
+  @media #{$large-up} {
+    padding: .5rem .7rem;
+  }
   &--primary {
     background: $brand-color;
     color: white;
