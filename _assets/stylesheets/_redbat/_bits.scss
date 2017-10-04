@@ -11,7 +11,7 @@ $secondary-color: #19365e;
 $header-text-color: lighten($secondary-color, 50%);
 $header-footer-color: desaturate(darken($header-text-color, 20%), 30%);
 
-$body-color: desaturate(lighten($secondary-color, 20), 30);
+$body-color: desaturate(lighten($secondary-color, 15), 30);
 $dark-color: darken($body-color, 15%);
 
 $link-color: $primary-color;
