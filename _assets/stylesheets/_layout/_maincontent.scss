@@ -348,7 +348,8 @@
 .highlighter-rouge > *,
 .extendout > *:not(img),
 .photo-grid > *:not(img),
-.post__footer > *:not(.card) {
+.post__footer > *:not(.card),
+.footer__sections > * {
   padding-left: 5%;
   padding-right: 5%;
   @media #{$large-up} {
