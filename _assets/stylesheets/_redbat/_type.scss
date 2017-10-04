@@ -235,7 +235,7 @@ sup {
 // BLOCKQUOTE --------------------
 blockquote {
   border-left: 4px solid $border-color;
-  color: lighten($body-color, 15%);
+  color: desaturate(lighten($body-color, 15%), 10);
   margin-bottom: 1.1rem;
   margin-left: 7.5%;
   margin-right: 5%;
