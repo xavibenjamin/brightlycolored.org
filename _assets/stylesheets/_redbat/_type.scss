@@ -123,7 +123,7 @@ h6 {
 }
 
 .post > ul,
-.page > ul:not(.tag-box) {
+.page > ul:not(.tag-box):not(.post-list) {
   list-style-type: disc;
   margin-bottom: 1.5625rem;
   li {
