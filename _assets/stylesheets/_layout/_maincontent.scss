@@ -47,17 +47,40 @@
 .post__footer {
   color: lighten($dark-color, 25%);
   font-size: .8rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
   @media #{$medium-up} {
     font-size: .75rem;
   }
 }
 
+.post-tags__title {
+  @extend %sans;
+  font-size: .6rem;
+}
+
 .post__tags {
-  display: block;
+  display: flex;
+  margin-bottom: 1rem;
+  li {
+    font-weight: 600;
+    font-size: .7rem;
+    + li {
+      margin-left: 2rem;
+      position: relative;
+      &:before {
+        content: "/";
+        color: darken($border-color, 3%);
+        font-size: 1.1rem;
+        font-weight: normal;
+        position: absolute;
+        left: -23px;
+      }
+    }
+  }
   a,
   a:hover,
   a:focus {
+    text-decoration: none;
     color: lighten($dark-color, 25%);
   }
 }
@@ -253,122 +276,21 @@
   }
 }
 
-// -------------------------------
-// SOCIAL LINKS
-// -------------------------------
-$twitter-color: #1DA1F2;
-$facebook-color: #3B5998;
-$reddit-color: #FF4500;
-
-.social-links {
-  display: flex;
-  list-style: none;
-  margin-bottom: 1rem;
-  width: 100%;
-  li {
-    border-bottom: 1px solid $border-color;
-    border-right: 1px solid $border-color;
-    border-top: 1px solid $border-color;
-    flex: 1;
-    font-size: .75rem;
-    margin: 0;
-    padding: 0;
-    &:first-child {
-      border-left: 1px solid $border-color;
-    }
-    &:last-child {
-      padding: 0;
-    }
-  }
-  a {
-    color: lighten($dark-color, 25%);
-    display: inline-block;
-    padding: .4rem .7rem;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
-    &:focus {
-      outline: 0;
-    }
-    .icon {
-      transition: fill 300ms ease-in-out;
-      vertical-align: text-top;
-      @media #{$medium-up} {
-        fill: lighten($dark-color, 25%);
-      }
-    }
-  }
-  .social--twitter:hover,
-  .social--twitter:focus {
-    color: $twitter-color;
-    .icon {
-      fill: $twitter-color;
-    }
-  }
-  .social--facebook:hover,
-  .social--facebook:focus {
-    color: $facebook-color;
-    .icon {
-      fill: $facebook-color;
-    }
-  }
-  .social--reddit:hover,
-  .social--reddit:focus {
-    color: $reddit-color;
-    .icon {
-      fill: $reddit-color;
-    }
-  }
-}
-
-@media #{$small-only} {
-  .social--twitter {
-    .icon {
-      fill: $twitter-color;
-    }
-  }
-  .social--facebook {
-    .icon {
-      fill: $facebook-color;
-    }
-  }
-  .social--reddit {
-    .icon {
-      fill: $reddit-color;
-    }
-  }
-}
-
-.social__label {
-  display: none;
-  @media #{$medium-up} {
-    display: inline-block;
-    margin-left: .2rem;
-  }
-}
-
 // Related Posts ----------------
 .related-posts {
-  margin-top: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: .5rem;
+    grid-gap: 1rem;
   }
   .post-list {
     width: 100%;
   }
   .post-list__item {
-    background-color: $light-bg-color;
-    padding: .5rem;
-    border-radius: $global-radius;
     font-size: 1rem;
     line-height: 1.2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
     a {
       @extend %sans-con;
       font-weight: 600;
@@ -385,10 +307,9 @@ $reddit-color: #FF4500;
 }
 
 .related-posts__title {
-  font-size: 1rem;
+  font-size: .95rem;
   margin-top: 0;
-  text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
   &:before {
     display: none;
   }
@@ -422,16 +343,20 @@ $reddit-color: #FF4500;
 
 // Media Queries on Post Type ----
 
-.bc-content > *:not(.iframe-container):not(blockquote):not(.card):not(.extendout):not(.photo-grid):not(.alignleft):not(.alignright):not(.small__right):not(.highlighter-rouge),
+.bc-content > *:not(.iframe-container):not(blockquote):not(.card):not(.extendout):not(.photo-grid):not(.alignleft):not(.alignright):not(.small__right):not(.highlighter-rouge):not(.post__footer),
 .card > *,
 .highlighter-rouge > *,
 .extendout > *:not(img),
-.photo-grid > *:not(img) {
+.photo-grid > *:not(img),
+.post__footer > *:not(.card) {
   padding-left: 5%;
   padding-right: 5%;
   @media #{$large-up} {
+    padding-right: 17%;
+  }
+  @media #{$xlarge-up} {
     padding-left: 7%;
-    padding-right: 28%;
+    padding-right: 24%;
   }
   @media #{$xxlarge-up} {
     padding-right: 36%;

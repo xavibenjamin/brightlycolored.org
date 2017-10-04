@@ -123,7 +123,7 @@ h6 {
 }
 
 .post > ul,
-.page > ul {
+.page > ul:not(.tag-box) {
   list-style-type: disc;
   margin-bottom: 1.5625rem;
   li {
@@ -241,11 +241,13 @@ blockquote {
   margin-right: 5%;
   padding-left: .75rem;
   @media #{$large-up} {
+    margin-right: 17%;
+  }
+  @media #{$xlarge-up} {
     margin-left: 9.5%;
-    margin-right: 28%;
+    margin-right: 24%;
   }
   @media #{$xxlarge-up} {
-    margin-left: 9.5%;
     margin-right: 36%;
   }
   small {

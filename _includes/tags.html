@@ -1,11 +1,11 @@
 {% if page.tags.size > 0 %}
-  <span class="post__tags">
-    {% if include.text %}
-      Tags:
-    {% endif %}
+  <h6 class="post-tags__title">On the Topic of…</h6>
+  <ul class="post__tags">
     {% assign sortedTags = page.tags | sort %}
     {% for tag in sortedTags %}
-      <a href="{{ site.url }}/topics/#{{ tag | downcase | replace:' ','-'}}" title="Pages tagged {{ tag }}">{{ tag | titlecase }}</a>{% if forloop.last %}{% else %}, {% endif %}
+      <li>
+        <a href="{{ site.url }}/topics/#{{ tag | downcase | replace:' ','-'}}" title="Pages tagged {{ tag }}">{{ tag | titlecase }}</a>
+      </li>
     {% endfor %}
-  </span>
+  </ul>
 {% endif %}

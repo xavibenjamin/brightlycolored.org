@@ -3,28 +3,28 @@ layout: page
 title: Archives
 custom_css_class: archives
 exclude_from_search: true
-excerpt: The full archive of The Bold Report.
+excerpt: The full archive of Brightly Colored.
 ---
 
-<p><em>The Bold Report</em> has been published since 2013. If you’re looking for something specific, I recommend you search. I figured in addition to the list of posts since the beginning of time, I’d give you a few places to start.</p>
+<p>This site, previously called <em>The Bold Report</em>, has been published since 2013. If you know the exact post you’re looking for, I recommend you search. You can also browse the <a href="/topics/">Topics page</a> to find something that interests you. If not, here are some of my recommendations.</p>
 
 <h2 class="subheader">Best Of</h2>
 <ul class="post-list">
-  {% for post in site.categories.best %}
+  {% for post in site.categories.best limit: 3 %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
 
 <h2 class="subheader">Series: My Brief Review</h2>
 <ul class="post-list">
-  {% for post in site.categories.briefreview %}
+  {% for post in site.categories.briefreview limit: 3 %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
 
 <h2 class="subheader">Art-Directed Articles</h2>
 <ul class="post-list">
-  {% for post in site.categories.artdirect %}
+  {% for post in site.categories.artdirect limit: 3%}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
