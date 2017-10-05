@@ -60,6 +60,7 @@
 
 .post__tags {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 1rem;
   li {
     font-size: .7rem;
@@ -295,7 +296,7 @@
     font-size: 1rem;
     line-height: 1.2;
     max-width: 230px;
-    + .post-list__item {
+     + .post-list__item {
       margin-left: 2rem;
     }
     a {
