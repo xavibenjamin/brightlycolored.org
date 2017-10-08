@@ -1,14 +1,13 @@
 <!DOCTYPE html>
   <html>
     <head>
-
       <!--
       How much does a polar bear weigh? Just enough to break the ice.
 
       Made with love in beautiful Saint Paul, Minnesota.
       Brightly Colored © 2013—{{ site.time | date: "%Y" }} Anythin’ Goes and Timothy B. Smith.
-
       -->
+      
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>{% if page.title %}{{ page.title }} :: {% endif %}{{ site.name }}</title>
@@ -20,28 +19,37 @@
 
       <!-- Other Important Meta Info -->
       <link rel="canonical" href="https://brightlycolored.org{{ page.url }}" />
-      <meta name="description" property="og:description" name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 156 }}" />
+      <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 156 }}" />
 
       <!-- Facebook Article Info -->
-      <meta property="og:image" name="twitter:image" content="https://brightlycolored.org/{% if page.featured_image %}{{ page.featured_image }}{% else %}brightlycolored-avatar.png{% endif %}" />
-      <meta property="og:title" name="twitter:title" content="{% if page.title %}{{ page.title }}{% endif %}" />
-      <meta property="og:site_name" content="Brightly Colored" />
       <meta property="og:url" content="https://brightlycolored.org{{ page.url }}" />
       {% if page.custom_type %}
-      <meta property="og:type" content="article" />
+        <meta property="og:type" content="article" />
       {% endif %}
+      <meta property="og:title" content="{{ page.title }}" />
+      <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 156 }}" />
+      <meta property="og:image" content="https://brightlycolored.org/{% if page.featured_image %}{{ page.featured_image }}{% else %}brightlycolored-avatar.png{% endif %}" />
+      <meta property="og:site_name" content="Brightly Colored" />
+      <meta property="og:url" content="https://brightlycolored.org{{ page.url }}" />
+      <meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}" />
+      <meta property="fb:app_id" content="1777213929243354" />
+
 
       <!-- Twitter Info -->
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content="@brightlycolord" />
-      <meta name="twitter:creator" content="@smithtimmytim" />
+      <meta name="twitter:title" content="{{ page.title }}" />
+      <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 156 }}" />
+      <meta name="twitter:image" content="https://brightlycolored.org/{% if page.featured_image %}{{ page.featured_image }}{% else %}brightlycolored-avatar.png{% endif %}" />
 
       <!-- Micro.blog Verification -->
       <link href="https://micro.blog/smith" rel="me" />
 
+      <!-- RSS Feeds -->
       <link rel="alternate" type="application/rss+xml" title="Master Feed for Brightly Colored" href="https://feedpress.me/brightlycolored" />
       <link rel="alternate" type="application/rss+xml" title="Articles-Only Feed for Brightly Colored" href="https://feedpress.me/brightlycolored-articles" />
 
+      <!-- Custom Fonts -->
       <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6973314/6893552/css/fonts.css" />
 
       <style>
