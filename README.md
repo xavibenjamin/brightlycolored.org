@@ -1,6 +1,6 @@
 # Brightly Colored
 
-[![Code Climate](https://codeclimate.com/github/ttimsmith/theboldreport.net/badges/gpa.svg)](https://codeclimate.com/github/ttimsmith/theboldreport.net)
+[![Test Coverage](https://codeclimate.com/github/smithtimmytim/brightlycolored.org/badges/coverage.svg)](https://codeclimate.com/github/smithtimmytim/brightlycolored.org/coverage) [![Issue Count](https://codeclimate.com/github/smithtimmytim/brightlycolored.org/badges/issue_count.svg)](https://codeclimate.com/github/smithtimmytim/brightlycolored.org)
 
 *Brightly Colored* is powered by [Jekyll](http://jekyllrb.com/). Feel free to browse the code and report any issues.
 
