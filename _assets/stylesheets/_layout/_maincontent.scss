@@ -105,6 +105,21 @@
       }
     }
   }
+  .post > p:last-of-type {
+    position: relative;
+    &:after {
+      background-image: url('/uploads/post-closer.svg');
+      background-repeat: no-repeat;
+      background-size: 100%;
+      bottom: 6px;
+      content: '';
+      display: inline-block;
+      height: 20px;
+      margin-left: 7px;
+      position: absolute;
+      width: 20px;
+    }
+  }
 }
 
 .post__subtitle {
@@ -113,7 +128,6 @@
   font-weight: 300;
   line-height: 1.1;
 }
-
 
 // Format Link -------------------
 .format-link {
