@@ -8,33 +8,8 @@ excerpt: The full archive of Brightly Colored.
 
 <p>This site, previously called <em>The Bold Report</em>, has been published since 2013. If you know the exact post you’re looking for, I recommend you search. You can also browse the <a href="/topics/">Topics page</a> to find something that interests you. If not, here are some of my recommendations.</p>
 
-<h2 class="subheader">Best Of</h2>
-<ul class="post-list">
-  {% for post in site.categories.best limit: 3 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-<h2 class="subheader">Series: My Brief Review</h2>
-<ul class="post-list">
-  {% for post in site.categories.briefreview limit: 3 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-<h2 class="subheader">Art-Directed Articles</h2>
-<ul class="post-list">
-  {% for post in site.categories.artdirect limit: 3%}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-
-
-<hr />
-
 {% for month in page.months %}
-  <h2 class="subheader">{{ month | date:"%B" }} <small>{{ month | date:"%Y" }}</small></h2>
+  <h2>{{ month | date:"%B" }} <small>{{ month | date:"%Y" }}</small></h2>
   <div class="archive-list">
   {% for post in page.posts_by_month[month] %}
     <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a><small class="pubdate"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%a, %b %d, %Y" }}</time></small></h3>

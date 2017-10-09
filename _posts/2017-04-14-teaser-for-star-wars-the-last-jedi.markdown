@@ -2,7 +2,7 @@
 title: "Teaser for ‘Star Wars: The Last Jedi’"
 custom_type: link
 link_url: https://www.youtube.com/watch?v=zB4I68XVPzQ
-tags: [star wars, episode VII]
+tags: [star wars, episode VIII]
 date: 2017-04-14 11:44
 ---
 

@@ -7,7 +7,7 @@
 .topic-list {
   h3 {
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 1rem;
     margin-top: 0;
     text-transform: none;
@@ -35,26 +35,28 @@
 }
 
 .tag-box {
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-  list-style-type: none;
-  // width: 90%;
-  @media #{$medium-up} {
-    -webkit-column-count: 4;
-    -moz-column-count: 4;
-    column-count: 4;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
   li {
-    font-size: .85rem;
-    margin: 0 .1rem 0 0;
-    padding: 0;
-    @media #{$medium-up} {
-      font-size: .75rem;
+    font-size: .75rem;
+    &:not(:last-of-type) {
+      margin-right: 15px;
+      &:after {
+        color: darken($border-color, 5%);
+        content: '/';
+        font-size: 1.1rem;
+        font-weight: normal;
+        left: 7px;
+        position: relative;
+      }
     }
-    a {
-      text-decoration: none;
-    }
+  }
+  a,
+  a:hover,
+  a:focus {
+    color: lighten($dark-color, 25%);
+    text-decoration: none;
   }
 }
 
@@ -72,27 +74,29 @@
     }
   }
   p {
+    margin-top: .5rem;
     @media #{$medium-up} {
-      font-size: 1.2rem;
+      line-height: 1.4;
       margin-bottom: 0;
     }
   }
 }
 
 .tag__name {
-  font-size: 2rem;
-  display: flex;
   align-items: center;
+  display: flex;
+  font-weight: 400;
+  margin-top: 0;
 }
 
 .tag__count {
   background: darken($light-bg-color, 5%);
   border-radius: $global-radius;
   color: lighten($body-color, 10%);
-  font-size: 1rem;
+  font-size: .6em;
+  font-weight: 600;
   margin-left: .5rem;
-  padding: .4rem .6rem;
-  vertical-align: middle;
+  padding: .3rem .7rem;
 }
 
 .topic-list {
