@@ -3,6 +3,7 @@ title: Letter from the Wirecutter Team | Wirecutter
 custom_type: link
 link_url: https://thewirecutter.com/letter-from-the-wirecutter-team/
 tags: [design, sites i love]
+date: 2017-10-09 10:35
 ---
 The *Wirecutter* Team:
 
