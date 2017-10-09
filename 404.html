@@ -11,12 +11,21 @@ permalink: /404.html
 
 <p>My guess is, this isn't the page you're looking for. Should something be here? <a href="mailto:contact@brightlycolored.org">Email me</a> or <a href="https://github.com/ttimsmith/brightlycolored.org/issues">file an issue on GitHub</a>. Otherwise, let me point you to some cool stuff.</p>
 
-<h2 class="subheader">Recent Posts</h2>
-<ul class="post-list">
+<h2>Popular Topics</h2>
+<ul class="tag-box inline">
+{% capture tags %}
+  {% for tag in site.tags limit: 15 %}
+    <li data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}">
+       <a href="#{{ tag[0] | downcase | replace:' ','-' }}">{{ tag[0] | titlecase }}</a>
+    </li>
+  {% endfor %}
+{% endcapture %}
+{{ tags | split:'</li>' | sort | join:'</li>' }}
+</ul>
+
+<h2>Recent Posts</h2>
+<ul class="post-list post-list--mini">
   {% for post in site.posts limit:10 %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-<h2 class="subheader">Most Used Tags</h2>
-{% popular_tags %}
