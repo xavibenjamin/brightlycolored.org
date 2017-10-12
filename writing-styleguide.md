@@ -8,7 +8,6 @@ excerpt: Writing style guide for Brightly Colored.
 
 I can be a very forgetful person. Case in point, I tend to forget my personal rules and guidelines for my writing. Hence, here's a written guide for me to reference when I need it.
 
-
 ## Personality and Tone
 
 Articles and commentary on links written by me, should sound like me. My personality and tone is:
@@ -60,6 +59,5 @@ Blockquotes are used for quotes that are longer than one sentence. I hardly use 
 Footnotes are generally avoided unless the tangent provides context to the rest of the piece.[^piece] Links shouldn't have punctuation unless the circumstance calls for it (e.g [RubyGems.org](https://rubygems.org/)).
 
 Commands (e.g. `bundle install`), filenames (e.g. `index.html`), and parts that belong to a language syntax (e.g. `:not()` or `minmax()`) should use `<code>`.
-
 
 [^piece]: This for example wouldn't qualify. This doesn't add anything to the writing style guide. These are just words that mean nothing. UGH!!
