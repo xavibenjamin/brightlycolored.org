@@ -25,8 +25,14 @@ As normal, you've got styles for `inline code`, *italics*,  and **bold text**. I
 
 - This is an unordered list.
 - Second list item
-	- Here's a second-level list item
+  - Here's a second-level list item
+  - Here's another second-level list item
+
+---
+
 - I sometimes use lists in articles, but quite rare. Every once in a while, I use a list item that has a paragraph in it which has a little more information.
+
+- These are pretty cool sometimes, but like I said, don't really use them all that often.
 
 {% figure alignright /uploads/2013/10/1p4-mac-create-new-vault.png "Use the <code>.alignright</code> class for this image styling. Use of images is encouraged." %}
 
@@ -37,12 +43,18 @@ I use horizontal rules for separating ideas in an article.
 
 ---
 
-1. Here's a numbered list
-2. I don't use these much either, except for the annual review.
-  1. This is an indented list
-  2. another item on this list
-3. **Here's a Goal Title**     
-For the annual review, I use the list items to write goals and then write a little bit about them.
+1. **Goal title one**   
+Some text that explains the goal
+2. **Goal title two**   
+More text that explains the goal and gives context. Tells you why I'm setting this as a goal.
+
+^
+
+1. This is a numbered list
+2. It's got a few list items
+   1. This is a numbered list inside of a numbered list
+   2. And it's got two items people
+3. And this is the last item
 
 {% figure alignleft /uploads/2013/10/1p4-mac-1p-mini-item-details.png "For this image styling, use the <code>.alignleft</code> class. I like to use captions for the most part, not required though." %}
 
