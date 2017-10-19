@@ -3,6 +3,7 @@ title: Despite 26 From Wiggins, Wolves Fall To Spurs In Opener | Minnesota Timbe
 custom_type: link
 link_url: http://www.nba.com/timberwolves/despite-26-wiggins-wolves-fall-spurs-opener
 tags: [ NBA, timberwolves ]
+date: 2017-10-19 13:06
 ---
 Kyle Ratke on the Minnesota Timberwolves Blog:
 
