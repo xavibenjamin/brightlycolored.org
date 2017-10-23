@@ -14,4 +14,4 @@ The sports media went crazy [saying that Lonzo wasn't worth the hype](https://yo
 
 But let's be real here. This isn't about Lonzo Ball. This is about LaVar Ball. LaVar is a moron who cowardly talks trash on behalf of his son. Many players are now gunning for Lonzo because of the idiotic comments of his father. Why would a father do this to his son? Why would he write checks that Lonzo shouldn't be expected to cash?
 
-Yes, LaVar Ball undoubtedly created a lot of hype around his son and they got what they wanted—being picked by the Lakers—but now it's time to shut up and let the kid play. He's a great player and is only going to get better. Let his stats speak for the themselves, and if anyone's going to talk trash, let it be Lonzo.
+Yes, LaVar Ball undoubtedly created a lot of hype around his son and they got what they wanted—being picked by the Lakers—but now it's time to shut up and let the kid play. He's a great player and is only going to get better. Let the numbers speak for themselves, and if anyone's going to talk trash, let it be Lonzo.
