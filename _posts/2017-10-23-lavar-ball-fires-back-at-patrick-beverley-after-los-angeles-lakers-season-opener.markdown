@@ -1,6 +1,6 @@
 ---
 
-title: LaVar Ball fires back at Patrick Beverley after Los Angeles Lakers' season opener
+title: "Lavar Ball Fires Back at Patrick Beverley After Los Angeles Lakers’ Season Opener | NBA.com"
 custom_type: link
 link_url: https://www.nba.com/article/2017/10/20/lavar-ball-fires-back-patrick-beverley-season-opener
 tags: [ NBA ]
