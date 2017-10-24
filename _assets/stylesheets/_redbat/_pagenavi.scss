@@ -11,7 +11,6 @@
 
 .page-nav {
   @extend %sans;
-
   list-style-type: none;
   margin-bottom: 0;
   text-align: center;
@@ -25,24 +24,22 @@
   margin: 0;
   padding: 0;
   a {
-    @extend %nav-button;
-
     background-color: $dark-color;
     border-radius: 3px;
     color: white;
+    @extend %nav-button;
     text-decoration: none;
     &:hover,
     &:focus {
-      background-color: $brand-color;
+      background-color: $primary-color;
     }
     &:focus {
-      outline: 1px dotted $link-color;
+      outline: 1px dotted $primary-color;
     }
   }
 }
 
 .page-nav__disabled {
-  @extend %nav-button;
-
   color: lighten($dark-color, 30%);
+  @extend %nav-button;
 }
