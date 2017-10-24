@@ -5,23 +5,17 @@
 
 
 // COLORS ------------------------
-$primary-color: #fe5858;
-$secondary-color: #19365e;
-
-$header-text-color: lighten($secondary-color, 50%);
-$header-footer-color: desaturate(darken($header-text-color, 20%), 30%);
-
-$body-color: desaturate(lighten($secondary-color, 15), 30);
-$dark-color: darken($body-color, 15%);
-
+$primary-color: #35B1B4;
+$secondary-color: #452F50;
+$body-color: desaturate(lighten($secondary-color, 10), 10%);
+$dark-color: darken($body-color, 5%);
 $link-color: $primary-color;
 $jazz-color: #508FAB;
-
-$border-color: desaturate(lighten($secondary-color, 70), 30);
+$border-color: desaturate(lighten($secondary-color, 70), 25);
 $light-bg-color: lighten($border-color, 5%);
-
 $brand-color: $primary-color;
-$slate: #383C40;
+$slate: $secondary-color;
+$footer-text-color: desaturate(lighten($secondary-color, 25%), 20%);
 
 
 // SPACING -----------------------

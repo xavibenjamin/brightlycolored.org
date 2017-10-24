@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the Site
+title: Colophon
 exclude_from_search: true
 permalink: /about/
 excerpt: Find out more about Brightly Colored.

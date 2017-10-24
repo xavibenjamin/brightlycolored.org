@@ -2,8 +2,11 @@
   <form action="/search/" method="get">
     <input type="text" id="search-query" class="search-input" name="q" placeholder="Search…" autocomplete="off" autocorrect="off">
   </form>
-    <!-- <div class="popover popover--top popover--medium popover--search">
+  {% unless page.url == '/search/' %}
+    <div class="popover popover--top popover--medium popover--search">
       <h4 class="header-search__title">Posts</h4>
       <div id="results" class="search-results-list search-results-list--mini"></div>
-    </div> -->
+      <div class="popover__shadow"></div>
+    </div>
+  {% endunless %}
 </div><!-- .site__search-form -->

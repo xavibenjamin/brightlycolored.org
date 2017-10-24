@@ -4,13 +4,6 @@
 
 .main {
   padding: 2rem 0;
-  @media #{$medium-up} {
-    margin-left: 34%;
-    padding: 5rem 0;
-  }
-  @media #{$large-up} {
-    margin-left: 30%;
-  }
 }
 
 .home-posts {
@@ -33,14 +26,14 @@
   display: block;
   font-size: .8rem;
   line-height: 1;
-  margin-top: 1rem;
+  margin-top: .8rem;
   a,
   a:hover,
   a:focus {
     color: lighten($dark-color, 15%);
   }
   @media #{$medium-up} {
-    font-size: .75rem;
+    font-size: .7rem;
   }
 }
 
@@ -56,6 +49,7 @@
 .post-tags__title {
   @extend %sans;
   font-size: .6rem;
+  margin-bottom: .2rem;
 }
 
 .post__tags {
@@ -75,6 +69,7 @@
         font-weight: normal;
         left: -23px;
         position: absolute;
+        top: -6px;
       }
     }
   }
@@ -140,6 +135,8 @@
     line-height: 1.1;
     margin-bottom: .7rem;
     a {
+      -webkit-hyphens: none;
+      hyphens: none;
       text-decoration: none;
     }
     @media #{$medium-up} {
@@ -365,24 +362,20 @@
 
 // Media Queries on Post Type ----
 
-.bc-content > *:not(.iframe-container):not(blockquote):not(.card):not(.extendout):not(.photo-grid):not(.alignleft):not(.alignright):not(.small__right):not(.highlighter-rouge):not(.post__footer),
+.bc-content > *:not(.iframe-container):not(.card):not(.extendout):not(.photo-grid):not(.alignleft):not(.alignright):not(.small__right):not(.highlighter-rouge):not(.post__footer),
 .card > *,
 .highlighter-rouge > *,
 .extendout > *:not(img),
 .photo-grid > *:not(img),
 .post__footer > *:not(.card),
-.footer__sections > *,
 .pagination > * {
-  padding-left: 5%;
-  padding-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
   @media #{$large-up} {
-    padding-right: 31%;
-  }
-  @media #{$xlarge-up} {
-    padding-left: 7%;
-    padding-right: 24%;
+    width: 64%;
   }
   @media #{$xxlarge-up} {
-    padding-right: 36%;
+    width: 52%;
   }
 }

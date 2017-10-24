@@ -64,13 +64,13 @@ Ben Brooks on *The Brooks Review*:
 
 > There’s a lot of good looking options out there, but I wanted to be able to test something affordable for a change. So I reached out to Tom Bihn and asked if I could stop by to test out a few different bags, and possibly swipe one for a while to test out.
 
-<figure class="photo-grid">
-  <img src="{{ site.url }}/uploads/2016/01/eiffel-tower.jpg" alt="" class="grid-thirds" />
-  <img src="{{ site.url }}/uploads/2016/01/deannda-posing.jpg" alt="" class="grid-thirds" />
-  <img src="{{ site.url }}/uploads/2016/01/paris-pastry.jpg" alt="" class="grid-thirds" />
-  <img src="{{ site.url }}/uploads/2016/01/kelly-punching.jpg" alt="" class="grid-half" />
-  <img src="{{ site.url }}/uploads/2016/01/europe-group-on-the-bus.jpg" alt="" class="grid-half" />
-  <figcaption>Use a <code>figure</code> with the class of <code>.photo-grid</code>. Then, each image has their own class to determine size within the grid. I've got <code>.grid-thirds</code> and <code>.grid-half</code> at my disposal.</figcaption>
+<figure class="photo-grid photo-grid--one">
+  <img src="{{ site.url }}/uploads/2016/01/eiffel-tower.jpg" alt="" />
+  <img src="{{ site.url }}/uploads/2016/01/deannda-posing.jpg" alt="" />
+  <img src="{{ site.url }}/uploads/2016/01/paris-pastry.jpg" alt="" />
+  <img src="{{ site.url }}/uploads/2016/01/kelly-punching.jpg" alt="" />
+  <img src="{{ site.url }}/uploads/2016/01/europe-group-on-the-bus.jpg" alt="" />
+  <figcaption>Use a <code>figure</code> with the class of <code>.photo-grid .photo-grid--one</code>.</figcaption>
 </figure>
 
 I use Github Flavored Markdown for code blocks. In other words, I use three back ticks. I always declare the language that's being used in the code block.
@@ -83,6 +83,13 @@ markdown_ext:  markdown,mkdown,mkdn,mkd,md
 redcarpet:
   extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks", "no_intra_emphasis", "footnotes", "smart"]
 ```
+
+<figure class="photo-grid photo-grid--three">
+  <img src="{{ site.url }}/uploads/2016/01/eiffel-tower.jpg" alt="" />
+  <img src="{{ site.url }}/uploads/2016/01/deannda-posing.jpg" alt="" />
+  <img src="{{ site.url }}/uploads/2016/01/paris-pastry.jpg" alt="" />
+  <figcaption>Use a <code>figure</code> with the class of <code>.photo-grid .photo-grid--five-up</code>.</figcaption>
+</figure>
 
 ```scss
 //--------------------------------
@@ -129,10 +136,10 @@ redcarpet:
 ## Let's Test That Fluid Type
 Lorem ipsum dolor sit amet, consectetur adip*isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.
 
-<figure class="photo-grid">
-  <img src="{{ site.url }}/uploads/2016/01/kelly-punching.jpg" alt="" class="grid-thirds-tall" />
-  <img src="{{ site.url }}/uploads/2016/01/europe-group-on-the-bus.jpg" alt="" class="grid-two-thirds" />
-  <figcaption>Again use a <code>figure</code> with the class of <code>.photo-grid</code>. Then, use <code>.grid-thirds-tall</code> and <code>.grid-two-thirds</code> for this styling.</figcaption>
+<figure class="photo-grid photo-grid--two">
+  <img src="{{ site.url }}/uploads/2016/01/kelly-punching.jpg" alt="" />
+  <img src="{{ site.url }}/uploads/2016/01/europe-group-on-the-bus.jpg" alt="" />
+  <figcaption>Use a <code>figure</code> with the class of <code>.photo-grid .photo-grid--two</code>.</figcaption>
 </figure>
 
 And that's it. Oh wait… I forgot something.[^1]

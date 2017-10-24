@@ -6,14 +6,8 @@
 // BASE TYPE ---------------------
 
 html {
-  font-size: 16px;
+  font-size: calc(17px + .1vw);
   -webkit-font-smoothing: antialiased;
-  @media #{$medium-up} {
-    font-size: 18px;
-  }
-  @media #{$xxlarge-up} {
-    font-size: 19px;
-  }
 }
 
 body {
@@ -21,7 +15,7 @@ body {
   @extend %sans;
   -webkit-hyphens: auto;
   hyphens: auto;
-  line-height: 140%;
+  line-height: 1.4;
 }
 
 // FONTS -------------------------
@@ -59,13 +53,13 @@ h5 {
 // TEXT --------------------------
 
 p {
-  font-size: 1.1rem;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.7;
    + p {
     margin-top: 1.1rem;
   }
   @media #{$medium-up} {
-    font-size: 1rem;
+    // font-size: 1rem;
   }
 }
 
@@ -218,23 +212,13 @@ sup {
 
 // BLOCKQUOTE --------------------
 blockquote {
-  border-left: 4px solid $border-color;
-  color: desaturate(lighten($body-color, 15%), 10);
+  border-left: 3px solid $primary-color;
+  color: desaturate(lighten($body-color, 15%), 5);
+  font-style: italic;
   margin-bottom: 1.1rem;
-  margin-left: 7.5%;
-  margin-right: 5%;
+  margin-left: 2rem;
   margin-top: 1.1rem;
   padding-left: .75rem;
-  @media #{$large-up} {
-    margin-right: 31%;
-  }
-  @media #{$xlarge-up} {
-    margin-left: 9.5%;
-    margin-right: 24%;
-  }
-  @media #{$xxlarge-up} {
-    margin-right: 36%;
-  }
   small {
     display: block;
     font-size: .80rem;

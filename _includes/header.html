@@ -1,35 +1,22 @@
 {% include head.html %}
 
 <header class="header" role="banner">
-
-  <div class="header__wrapper">
-    <div class="header__branding">
-      <a href="/" class="logo">
-        {% include icons/icon-logo.html %}
-      </a>
-    </div>
-
-    <div class="site__statement">
-      <p><em>Brightly Colored</em> is a blog written by Tim Smith and friends about design, development, technology, Apple, Star Wars, movies, comics, and other geekery.</p>
-    </div>
-
-    <nav class="navigation" role="navigation">
-      <ul class="primary-navigation">
-        <li><a href="/about/">About</a></li>
-        <li><a href="/topics/">Topics</a></li>
-        <li><a href="/subscribe/">Subscribe</a></li>
-        <li class="show-small-only"><a href="/search/">Search</a></li>
-      </ul>
-    </nav>
-
-    {% unless page.url == '/search/' %}
-      {% include search-form.html css_classes="header__search js-show-menu" %}
-    {% endunless %}
-
-    <footer class="header__footer">
-      <small><em>Brightly Colored</em> &copy; 2013&ndash;{{ site.time | date: "%Y" }} Timothy B. Smith. All Rights Reserved. Hosted with <a href="https://www.netlify.com">Netlify</a>.</small>
-
-      <small>Made with {% include icons/icon-heart.html css_classes="icon--inline icon--medium" %} in Saint Paul, MN.</small>
-    </footer>
+  <div class="header__branding">
+    <a href="/" class="logo">
+      {% include icons/icon-logo.html %}
+    </a>
   </div>
+
+  <nav class="navigation" role="navigation">
+    <ul class="primary-navigation">
+      <li><a href="/topics/">Topics</a></li>
+      <li><a href="/about/">Colophon</a></li>
+      <li><a href="/subscribe/">Subscribe</a></li>
+      <li class="show-small-only"><a href="/search/">Search</a></li>
+    </ul>
+  </nav>
+
+  {% unless page.url == '/search/' %}
+    {% include search-form.html css_classes="header__search js-show-menu" %}
+  {% endunless %}
 </header><!-- .site__header-->

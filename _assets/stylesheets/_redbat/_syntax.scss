@@ -2,14 +2,19 @@ $monospace-font-stack: Operator Mono, Inconsolata, 'Inconsolata-g for Powerline'
 
 // -------------------------------
 
-pre {
+div.highlighter-rouge {
   background: #FCFCFC;
   border: 1px solid #F0F0F0;
-  border-radius: 0 $global-radius $global-radius 0;
+  border-radius: $global-radius;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+pre {
   font-family: $monospace-font-stack;
   line-height: 1.5;
   overflow-x: auto;
-  padding: 1rem;
   white-space: pre;
   code {
     background: none;
@@ -39,8 +44,6 @@ code {
 
 .highlight {
   color: #4D4D4C;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
   .c {
     color: #A7ADBA;
     font-style: italic;
