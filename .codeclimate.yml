@@ -47,6 +47,8 @@ engines:
         enabled: false
       PseudoElement:
         enabled: false
+      PropertyUnits:
+        enabled: false
   duplication:
     enabled: true
     config:
