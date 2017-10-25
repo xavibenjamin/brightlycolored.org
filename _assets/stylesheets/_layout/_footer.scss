@@ -3,69 +3,75 @@
 // -------------------------------
 
 .footer {
-  border-top: 1px solid $border-color;
+  background: lighten($primary-color, 5%);
   margin-top: 4rem;
-  padding: 1rem 0 3rem;
-  @media #{$medium-up} {
-    margin-left: 34%;
+   > * {
+    padding: 1.5rem;
   }
-  @media #{$large-up} {
-    margin-left: 30%;
+  @media #{$medium-up} {
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-columns: .5fr 1fr 2fr;
+     > :nth-child(1) {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+     > :nth-child(4) {
+      grid-column: 2 / span 2;
+    }
   }
   a {
     text-decoration: none;
   }
   small {
-    font-size: .85rem;
     display: block;
-    + small {
+    font-size: .7rem;
+     + small {
       margin-top: .5rem;
     }
   }
   .icon {
-    fill: $primary-color;
+    fill: white;
+  }
+  .slash-list li:before {
+    color: darken($border-color, 20%);
   }
 }
 
-.footer__sections {
-  ul {
-    @media #{$medium-up} {
-      display: flex;
-    }
-    li {
-      font-size: .85rem;
-      line-height: 1.4;
-      @media #{$medium-up} {
-        font-size: .75rem;
-        + li {
-          margin-left: 2rem;
-          position: relative;
-          &:before {
-            content: "/";
-            color: darken($border-color, 3%);
-            font-size: 1.1rem;
-            font-weight: normal;
-            position: absolute;
-            left: -23px;
-            top: -4px;
-          }
-        }
-      }
-    }
+.footer__about {
+  background-color: darken($slate, 5%);
+  padding: 2rem 1rem;
+  p {
+    color: $footer-text-color;
+    font-size: .8rem;
   }
-  h6 {
-    color: $dark-color;
-    margin-bottom: .1rem;
+}
+
+.footer__logo {
+  svg {
+    width: 220px;
+  }
+  .logo__first-word {
+    fill: $primary-color;
+  }
+  .logo__second-word {
+    fill: white;
   }
 }
 
 .footer__subscribe {
-  margin-bottom: 1.5rem;
+  background-color: lighten($border-color, 3%);
+}
+
+.footer__links {
+  background-color: desaturate(darken($border-color, 5%), 10%);
 }
 
 .footer__copyright {
-  margin-top: 1.5rem;
-  @media #{$medium-up} {
-    display: none;
+  background-color: $primary-color;
+  color: white;
+  a {
+    color: white;
+    text-decoration: underline;
   }
 }

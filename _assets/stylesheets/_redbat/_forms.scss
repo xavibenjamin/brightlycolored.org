@@ -37,7 +37,7 @@ input:focus::-moz-placeholder {
 }
 
 .search-input {
-  background-color: lighten($dark-color, 63%);
+  background-color: $border-color;
   border-radius: $global-radius;
   color: $dark-color;
   font-size: 1rem;
@@ -48,6 +48,16 @@ input:focus::-moz-placeholder {
   @media #{$medium-up} {
     font-size: .8rem;
     padding: .625rem;
+  }
+}
+
+.header__search .search-input {
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: 0 1px 0 $border-color;
+  padding: 0;
+  &:focus {
+    box-shadow: 0 2px 0 $primary-color;
   }
 }
 
@@ -92,7 +102,7 @@ input:focus::-moz-placeholder {
   }
   .form-group {
     flex: 1 1 50%;
-    + .form-group {
+     + .form-group {
       margin-left: .5rem;
     }
   }

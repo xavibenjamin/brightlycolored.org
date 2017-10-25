@@ -16,12 +16,12 @@
     padding: .5rem .7rem;
   }
   &--primary {
-    background: $brand-color;
+    background: $primary-color;
     color: white;
     transition: background 300ms ease;
     &:hover,
     &:focus {
-      background: darken($brand-color, 8%);
+      background: darken($primary-color, 8%);
       border-bottom: 0;
       color: white;
     }

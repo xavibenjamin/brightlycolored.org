@@ -3,6 +3,8 @@
 // -------------------------------
 
 .container {
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   width: 100%;
   @media #{$medium-up} {
@@ -53,7 +55,7 @@ iframe {
 .card {
   padding: 2.5rem 0;
   @media #{$medium-up} {
-    border-radius: 0 $global-radius $global-radius 0;
+    border-radius: $global-radius;
   }
   h2 {
     margin-top: 0;
@@ -141,50 +143,52 @@ iframe {
 
 .popover {
   background-color: white;
-  border: 1px solid rgba(black, .13);
+  border: 1px solid rgba($body-color, .13);
   border-radius: 3px;
-  box-shadow: 0 0 3px rgba(black, .1);
+  box-shadow: 0 0 5px rgba($body-color, .1);
   opacity: 0;
-  padding: .8rem 1.2rem;
+  padding: .8rem 1.2rem 0;
   position: absolute;
-  right: 0;
-  top: 65px;
-  transform: scale(0);
-  transform-origin: top;
-  transition: transform .15s ease, opacity .15s ease;
+  right: 1.5rem;
+  top: 60px;
+  transition: opacity .15s ease-in-out;
   z-index: 100;
   .header-search__title,
   h3 {
-    width: 100%;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    margin-top: 0;
   }
   &.is-open {
     opacity: 1;
-    transform: scale(1);
+  }
+
+  .search-results-list h3 {
+    @extend %sans;
+    font-size: .8rem;
+    font-weight: 600;
+  }
+
+  .search-results-list .pubdate {
+    font-size: .7rem;
   }
 }
 
 .popover--medium {
-  width: 300px;
+  width: 500px;
 }
 
 .popover--search {
+  max-height: 500px;
   min-height: 180px;
+  overflow: scroll;
 }
 
-.popover--top {
-  &:before {
-    background: white;
-    border-left: 1px solid rgba(black, .13);
-    border-top: 1px solid rgba(black, .13);
-    content: '';
-    display: block;
-    height: 1.3em;
-    position: absolute;
-    right: 40px;
-    top: -13px;
-    transform: rotate(45deg);
-    width: 1.3em;
-  }
+.popover__shadow {
+  background: linear-gradient(rgba(white, .0), white);
+  bottom: 0;
+  height: 40px;
+  position: sticky;
 }
 
 // Slash List --------------------
@@ -207,6 +211,7 @@ iframe {
         font-weight: normal;
         left: -23px;
         position: absolute;
+        top: -6px;
       }
     }
   }
@@ -219,4 +224,5 @@ iframe {
   @extend %sans;
   font-size: .6rem;
   line-height: 1;
+  margin-bottom: .2rem;
 }
