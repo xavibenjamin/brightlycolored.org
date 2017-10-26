@@ -1,5 +1,5 @@
 ---
-title: Apple’S iPhone Upgrade Program Gets More and More Convenient | Six Colors
+title: "Apple’s iPhone Upgrade Program Gets More and More Convenient | Six Colors"
 custom_type: link
 link_url: https://sixcolors.com/post/2017/10/apples-iphone-upgrade-program-gets-more-and-more-convenient/
 tags: [ apple, iPhone, iPhone upgrade program ]
