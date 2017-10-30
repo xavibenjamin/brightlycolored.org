@@ -14,4 +14,4 @@ Dave Rupert:
 >
 > I am responsible for the code that goes into the machine, I do not want to shirk the responsibility of what comes out.
 
-While the specifics of this example don't apply to me, the lesson sure does. We're responsible for what we put on the web and what the means for the people using it.
+While the specifics of this example don't apply to me, the lesson sure does. We're responsible for what we put on the web and what that means for the people using it.
