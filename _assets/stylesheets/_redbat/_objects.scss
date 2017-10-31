@@ -198,26 +198,49 @@ iframe {
 
 .slash-list {
   display: flex;
-  font-size: .7rem;
-  font-weight: 600;
+  flex-wrap: wrap;
   li {
-     + li {
-      margin-left: 2rem;
-      position: relative;
-      &:before {
-        color: darken($border-color, 3%);
+    align-items: center;
+    display: flex;
+    line-height: 1.2;
+    font-size: .75rem;
+    &:not(:last-of-type) {
+      margin-right: 15px;
+      &:after {
+        color: darken($border-color, 10%);
         content: '/';
         font-size: 1.1rem;
         font-weight: normal;
-        left: -23px;
-        position: absolute;
-        top: -6px;
+        left: 7px;
+        position: relative;
       }
     }
   }
   a {
     text-decoration: none;
   }
+}
+
+.slash-list--large {
+  li {
+    line-height: 1.3;
+    font-size: .85rem;
+  }
+}
+
+.slash-list--secondary {
+  color: lighten($dark-color, 25%);
+  a {
+    color: lighten($dark-color, 25%);
+    &:hover,
+    &:focus {
+      color: lighten($dark-color, 25%);
+    }
+  }
+}
+
+.slash-list--bold {
+  font-weight: 600;
 }
 
 .slash-list__title {

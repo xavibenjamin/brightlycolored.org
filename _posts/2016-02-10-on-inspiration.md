@@ -1,11 +1,12 @@
 ---
-layout: custom-post
 title: On Inspiration
-categories: articles artdirect
 custom_type: post
-custom_css: on-inspiration
-date: '2016-02-11 08:30:00'
 tags: [philosophy, work]
+date: 2016-02-11 08:30:00
+---
+
+*Originally published on The Branch in 2013.*
+
 ---
 
 What inspires you? I've been asked that question many times. Either by fellow creatives, in job interviews and here. I've never been able to give an answer I'm content with. However, I feel like this might be the perfect place to explore what my answer should be.
@@ -25,7 +26,3 @@ What really inspires me, what makes me analyze my own work and strive to do bett
 Completely changing direction, have you ever heard a disco song with a funky beat? What about the smell of freshly ground coffee? The way the lights reflect on a busy city street? The warmness you feel in your heart being surrounded by family and friends?
 
 After considering all things, living life should be inspiration enough.
-
----
-
-*Originally published on [The Branch](https://www.thebran.ch/articles/exploration) in 2013.*

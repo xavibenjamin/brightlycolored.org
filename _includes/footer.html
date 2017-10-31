@@ -45,11 +45,13 @@
 
 {% if page.lettering == 'reg' %}
   <script>
-  {% asset 'lettering' %}
-  jQuery(document).ready(function($) {
-    $(".post__title").lettering();
-  });
-  {% elsif page.lettering == 'words' %}
+    {% asset 'lettering' %}
+    jQuery(document).ready(function($) {
+      $(".post__title").lettering();
+    });
+  </script>
+{% elsif page.lettering == 'words' %}
+  <script>
     {% asset 'lettering' %}
     jQuery(document).ready(function($) {
       $(".post__title").lettering('words');
