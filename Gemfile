@@ -8,6 +8,7 @@ gem 'rake'
 gem 'uglifier'
 
 group :jekyll_plugins do
+  gem 'jekyll-admin'
   gem 'jekyll-assets', '~> 2.2', '>= 2.2.8'
   gem 'jekyll-compose', '~> 0.4.1'
   gem 'jekyll-livereload'
