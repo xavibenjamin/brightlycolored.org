@@ -115,7 +115,6 @@ h6 {
   text-transform: uppercase;
 }
 
-.p-body > ul,
 .p-body > ul:not(.tag-box):not(.post-list):not(.slash-list) {
   list-style-type: disc;
   margin-bottom: 1.1rem;
@@ -137,7 +136,6 @@ h6 {
   }
 }
 
-.p-body > ol,
 .p-body > ol {
   list-style-type: decimal;
   margin-bottom: 1.1rem;
