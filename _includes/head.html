@@ -7,7 +7,7 @@
       Made with love in beautiful Saint Paul, Minnesota.
       Brightly Colored © 2013—{{ site.time | date: "%Y" }} Anythin’ Goes and Timothy B. Smith.
       -->
-      
+
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>{% if page.title %}{{ page.title }} :: {% endif %}{{ site.name }}</title>
@@ -49,15 +49,20 @@
       <link rel="alternate" type="application/rss+xml" title="Master Feed for Brightly Colored" href="https://feedpress.me/brightlycolored" />
       <link rel="alternate" type="application/rss+xml" title="Articles-Only Feed for Brightly Colored" href="https://feedpress.me/brightlycolored-articles" />
 
-      <!-- Custom Fonts -->
-      <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6973314/6893552/css/fonts.css" />
-
       <style>
         {% asset 'global' %}
         {% if page.custom_css %}
           {% asset '{{ page.custom_css}}' %}
         {% endif %}
       </style>
+
+      <!-- preload the fonts -->
+      <link as="style" href="https://cloud.typography.com/6973314/6893552/css/fonts.css" onload="this.rel='stylesheet'" rel="preload" />
+
+      <!-- non-JS fallback -->
+      <noscript>
+        <link href="https:///cloud.typography.com/6973314/6893552/css/fonts.csss" media="screen" rel="stylesheet" type="text/css" />
+      </noscript>
     </head>
     <body>
     <!-- Don't read the source like a caveperson! It's all on GitHub: https://github.com/smithtimmytim/brightlycolored.org  -->
