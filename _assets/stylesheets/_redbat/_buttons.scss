@@ -34,6 +34,18 @@
   }
 }
 
+.button--paginate {
+  @extend %sans-con;
+  // font-size: .75rem;
+  text-transform: uppercase;
+  &[disabled] {
+    cursor: not-allowed;
+    background-color: $border-color;
+    color: rgba($body-color, .6);
+    pointer-events: none;
+  }
+}
+
 .button--small {
   font-size: .75rem;
   padding: .5rem;
