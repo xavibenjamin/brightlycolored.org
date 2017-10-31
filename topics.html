@@ -19,7 +19,7 @@ excerpt: Topics covered on Brightly Colored.
 {% for i in (1..tags_max) reversed %}
   {% for tag in site.tags limit: 35 %}
     {% if tag[1].size == i %}
-      <li><a href="#{{ tag[0] | downcase | replace:' ','_' }}" title="{{ i }} posts">{{ tag[0] | titlecase }}</a></li>
+      <li><a href="#{{ tag[0] | downcase | replace:' ','-' }}" title="{{ i }} posts">{{ tag[0] | titlecase }}</a></li>
     {% endif %}
   {% endfor %}
 {% endfor %}
@@ -34,7 +34,7 @@ excerpt: Topics covered on Brightly Colored.
   {% for i in (1..tags_max) reversed %}
     {% for tag in site.tags %}
       {% if tag[1].size == i %}
-        <section class="tag__section" id="{{ tag[0] | downcase | replace:' ','_' }}">
+        <section class="tag__section" id="{{ tag[0] | downcase | replace:' ','-' }}">
             <h2 class="tag__name">{{ tag[0] | titlecase }} <small class="tag__count">{{ i }}</small></h2>
             {% if tag[0] == 'brief review' %}<p>My series of reviews that I keep brief.</p>{% endif %}
             {% if tag[0] == 'apple' %}<p>It’s not an Apple blog, but I sure do talk about them a lot.</p>{% endif %}
