@@ -3,6 +3,8 @@ layout: default
 exclude_from_search: true
 custom_css_class: home
 excerpt: Brightly Colored is a personal blog written by Tim Smith about design, development, technology, Apple, and whatever else he finds himself curious about.
+pagination:
+  enabled: true
 ---
 
 
@@ -55,31 +57,13 @@ excerpt: Brightly Colored is a personal blog written by Tim Smith about design, 
   {% endfor %}
 </section>
 
-<div class="pagination">
-  <ul class="page-nav">
-  {% if paginator.previous_page %}
-    <li class="page-nav__previous">
-      {% if paginator.previous_page == 1 %}
-        <a href="/">Prev</a>
-      {% else %}
-        <a href="{{ paginator.previous_page_path }}">Prev</a>
-      {% endif %}
-    </li>
-  {% else %}
-    <li class="page-nav__previous page-nav__disabled">
-      Prev
-    </li>
-  {% endif %}
-
-
-  {% if paginator.next_page %}
-    <li class="page-nav__next">
-      <a href="{{ paginator.next_page_path }}">Next</a>
-    </li>
-  {% else %}
-    <li class="page-nav__next page-nav__disabled">
-      Next
-    </li>
-  {% endif %}
-  </ul>
-</div><!-- .pagination -->
+{% if paginator.total_pages > 1 %}
+<ul class="pagination">
+  <li>
+    <a class="button button--primary button--paginate" href="{{ paginator.previous_page_path | prepend: site.baseurl }}" {% unless paginator.previous_page %}disabled{% endunless %}>Newer</a>
+  </li>
+  <li>
+    <a class="button button--primary button--paginate" href="{{ paginator.next_page_path | prepend: site.baseurl }}" {% unless paginator.next_page %}disabled{% endunless %}>Older</a>
+  </li>
+</ul>
+{% endif %}
