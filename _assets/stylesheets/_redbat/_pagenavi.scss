@@ -2,44 +2,10 @@
 // PAGE NAVIGATION
 // -------------------------------
 
-%nav-button {
-  font-size: .85rem;
-  font-weight: 600;
-  margin: 0;
-  padding: 8px 14px;
-}
-
-.page-nav {
-  @extend %sans;
-  list-style-type: none;
-  margin-bottom: 0;
-  text-align: center;
-  li {
-    display: inline-block;
+.pagination {
+  display: flex;
+  justify-content: center;
+  li + li {
+    margin-left: .5rem;
   }
-}
-
-.page-nav__previous:not(.page-nav__disabled),
-.page-nav__next:not(.page-nav__disabled) {
-  margin: 0;
-  padding: 0;
-  a {
-    background-color: $dark-color;
-    border-radius: 3px;
-    color: white;
-    @extend %nav-button;
-    text-decoration: none;
-    &:hover,
-    &:focus {
-      background-color: $primary-color;
-    }
-    &:focus {
-      outline: 1px dotted $primary-color;
-    }
-  }
-}
-
-.page-nav__disabled {
-  color: lighten($dark-color, 30%);
-  @extend %nav-button;
 }
