@@ -35,21 +35,14 @@
 }
 
 .tag-box {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 1rem;
+  column-count: 5;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
   li {
     font-size: .75rem;
-    &:not(:last-of-type) {
-      margin-right: 15px;
-      &:after {
-        color: darken($border-color, 5%);
-        content: '/';
-        font-size: 1.1rem;
-        font-weight: normal;
-        left: 7px;
-        position: relative;
-      }
+    line-height: 1.2;
+     + li {
+      margin-top: .3rem;
     }
   }
   a,

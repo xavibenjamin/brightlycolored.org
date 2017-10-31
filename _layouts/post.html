@@ -2,59 +2,36 @@
 layout: default
 custom_css_class: single
 ---
-<div class="type-post format-{% if page.custom_type %}{{ page.custom_type }}{% endif %}">
-  <article class="bc-content post single-post">
-    {% if page.custom_type == 'post' %}
 
-      <header class="post__header">
-        <h1>{{ page.title | smartify }}</h1>
-        {% if page.subtitle %}
-          <h2 class="post__subtitle">{{ page.subtitle | smartify }}</h2>
-        {% endif %}
-        <small class="post__meta">
-          {% include small-author.html %}
-          {% include date.html %}
-        </small>
-      </header>
+<article class="post format-{% if page.custom_type %}{{ page.custom_type }}{% endif %} p-body">
 
-      {{ content | improve }}
-
-      <footer class="post__footer">
-        {% include tags.html %}
-
-        <section class="card card--light card--large">
-          <h2>Those words be written good!</h2>
-          {% include newsletter-form.html text="Get more of them in your inbox every Friday." %}
-        </section>
-
-        {% include related-posts.html %}
-      </footer>
-
-
-
-    {% elsif page.custom_type == 'link' %}
-
-      <header class="post__header">
-        <h1><a href="{{ page.link_url }}">{{ page.title | smartify }}</a><span class="arrow">&rarr;</span></h1>
-
-        <small class="post__meta">
-          {% include small-author.html %}
-          {% include date.html %}
-        </small>
-      </header>
-
-      {{ content | improve }}
-
-      <footer class="post__footer">
-        {% include tags.html %}
-
-        <section class="card card--light card--large">
-          <h2>Spicy links here!</h2>
-          {% include newsletter-form.html text="Get more of them in your inbox every Friday." %}
-        </section>
-
-        {% include related-posts.html %}
-      </footer>
+  <header class="post__header">
+    {% if page.link_url %}
+      <h1><a href="{{ page.link_url }}">{{ page.title | smartify }}</a><span class="arrow">&rarr;</span></h1>
+    {% else %}
+      <h1>{{ page.title | smartify }}</h1>
+      {% if page.subtitle %}
+        <h2 class="post__subtitle">{{ page.subtitle | smartify }}</h2>
+      {% endif %}
     {% endif %}
-  </article>
-</div>
+
+    <small class="post__meta">
+      {% include small-author.html %}
+      {% include date.html %}
+    </small>
+  </header>
+
+  {{ content | improve }}
+
+  <footer class="post__footer">
+    {% include tags.html %}
+
+    <section class="card card--light card--large">
+
+      <h2>{% if page.link_url %}Spicy links here!{% else %}Those words be written good!{% endif %}</h2>
+      {% include newsletter-form.html text="Get more of them in your inbox every Friday." %}
+    </section>
+
+    {% include related-posts.html %}
+  </footer>
+</article>

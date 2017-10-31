@@ -5,11 +5,10 @@ custom_css_class: home
 excerpt: Brightly Colored is a personal blog written by Tim Smith about design, development, technology, Apple, and whatever else he finds himself curious about.
 ---
 
-<!-- This loops through the paginated posts -->
-<div class="content__posts">
-{% for post in paginator.posts %}
-  <div class="home-posts type-post format-{% if post.custom_type %}{{ post.custom_type }}{% endif %}">
-    <article class="bc-content post">
+
+<section class="posts">
+  {% for post in paginator.posts %}
+    <article class="posts__post p-body format-{% if post.custom_type %}{{ post.custom_type }}{% endif %}">
 
       {% if post.custom_type == 'post' %}
         <header class="post__header">
@@ -21,7 +20,7 @@ excerpt: Brightly Colored is a personal blog written by Tim Smith about design, 
             {% include small-author.html %}
             {% include date.html %}
           </small>
-        </header><!-- /.post__header -->
+        </header>
 
         {{ post.content | improve }}
 
@@ -33,7 +32,7 @@ excerpt: Brightly Colored is a personal blog written by Tim Smith about design, 
             {% include small-author.html %}
             {% include date.html %}
           </small>
-        </header><!-- /.post__header -->
+        </header>
 
         {{ post.content | improve }}
 
@@ -48,14 +47,13 @@ excerpt: Brightly Colored is a personal blog written by Tim Smith about design, 
             {% include small-author.html %}
             {% include date.html %}
           </small>
-        </header><!-- /.post__header -->
+        </header>
 
 
       {% endif %}
-    </article><!-- /.post -->
-  </div><!-- .type-post -->
-{% endfor %}
-</div><!-- .content__posts -->
+    </article>
+  {% endfor %}
+</section>
 
 <div class="pagination">
   <ul class="page-nav">

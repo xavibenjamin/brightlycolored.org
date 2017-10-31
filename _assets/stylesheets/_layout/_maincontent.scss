@@ -6,8 +6,8 @@
   padding: 2rem 0;
 }
 
-.home-posts {
-  &.type-post {
+.posts {
+  .posts__post {
     margin-bottom: 4rem;
     @media #{$medium-up} {
       margin-bottom: 8rem;
@@ -100,21 +100,6 @@
       }
     }
   }
-  .post > p:last-of-type {
-    position: relative;
-    &:after {
-      background-image: url('/uploads/post-closer.svg');
-      background-repeat: no-repeat;
-      background-size: 100%;
-      bottom: 6px;
-      content: '';
-      display: inline-block;
-      height: 20px;
-      margin-left: 7px;
-      position: absolute;
-      width: 20px;
-    }
-  }
 }
 
 .post__subtitle {
@@ -148,19 +133,6 @@
     font-size: 1.3rem;
     line-height: 100%;
     margin-left: .8rem;
-  }
-}
-
-.post__closer {
-  align-items: flex-start;
-  display: flex;
-  justify-content: center;
-  margin-top: 3rem;
-  .svg-icon {
-    width: 50px;
-    path {
-      fill: lighten($border-color, 1%);
-    }
   }
 }
 
@@ -204,7 +176,7 @@
 }
 
 .custom-post__footer {
-  margin-top: 1rem;
+  margin-top: 4rem;
   text-align: center;
   .post__meta {
     margin: 0;
@@ -362,7 +334,7 @@
 
 // Media Queries on Post Type ----
 
-.bc-content > *:not(.iframe-container):not(.card):not(.extendout):not(.photo-grid):not(.alignleft):not(.alignright):not(.small__right):not(.highlighter-rouge):not(.post__footer),
+.p-body > *:not(.iframe-container):not(.card):not(.extendout):not(.photo-grid):not(.alignleft):not(.alignright):not(.small__right):not(.highlighter-rouge):not(.post__footer):not(.tag__section):not(.tag-box),
 .card > *,
 .highlighter-rouge > *,
 .extendout > *:not(img),

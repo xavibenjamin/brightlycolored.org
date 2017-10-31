@@ -116,7 +116,7 @@ h6 {
 }
 
 .post > ul,
-.page > ul:not(.tag-box):not(.post-list) {
+.page > ul:not(.tag-box):not(.post-list):not(.slash-list) {
   list-style-type: disc;
   margin-bottom: 1.1rem;
   margin-top: 1.1rem;
