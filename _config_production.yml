@@ -11,6 +11,15 @@ lunr_excludes: ['atom.xml', 'atom.articles.xml', 'sitemap.xml']
 # Where Things Are
 plugins_dir:  ./_plugins
 
+# Pagination
+pagination:
+  enabled: true
+  permalink: '/page/:num/'
+  sort_reverse: true
+  collection: 'posts'
+  per_page: 10
+  title: ':title - Page :num'
+
 # Syntax Highlighting
 highlighter: rouge
 
