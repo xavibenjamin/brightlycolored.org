@@ -1,6 +1,7 @@
 # Brightly Colored
 
-[![Test Coverage](https://codeclimate.com/github/smithtimmytim/brightlycolored.org/badges/coverage.svg)](https://codeclimate.com/github/smithtimmytim/brightlycolored.org/coverage) [![Issue Count](https://codeclimate.com/github/smithtimmytim/brightlycolored.org/badges/issue_count.svg)](https://codeclimate.com/github/smithtimmytim/brightlycolored.org)
+[![Code Climate](https://codeclimate.com/github/smithtimmytim/brightlycolored.org/badges/gpa.svg)](https://codeclimate.com/github/smithtimmytim/brightlycolored.org) [![Issue Count](https://codeclimate.com/github/smithtimmytim/brightlycolored.org/badges/issue_count.svg)](https://codeclimate.com/github/smithtimmytim/brightlycolored.org) [![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/) [![GitHub contributors](https://img.shields.io/github/contributors/smithtimmytim/brightlycolored.org.svg)]() [![license](https://img.shields.io/github/license/smithtimmytim/brightlycolored.org.svg)]()
+
 
 *Brightly Colored* is powered by [Jekyll](http://jekyllrb.com/). Feel free to browse the code and report any issues.
 
@@ -9,8 +10,8 @@ You're free to use whatever you'd like, **however**, posts found in the `_drafts
 ## Getting Started
 
 ```
-$ git clone git@github.com:smithtimmytim/theboldreport.net.git
-$ cd theboldreport.net
+$ git clone git@github.com:smithtimmytim/brightlycolored.org.git
+$ cd brightlycolored.org
 $ bundle install
 $ bundle exec jekyll serve -w -o
 ```
@@ -31,24 +32,19 @@ Posts are written in two major formats: links and articles. You can distinguish 
 
 ```yaml
 ---
-layout: post
-title: Apple iPhone Touchscreen Faster than Android Devices
+title: "Apple iPhone Touchscreen Faster than Android Devices"
+subtitle: Text Here # optional, only available for "post" types
 
-# the category is either “links” or “articles”
-categories: links
-
-# custom type is either “link” or “post”
-custom_type: link
+# custom type is either "link" or "post"
+custom_type: link # default is "link"
 
 # this is only needed on link posts
 link_url: http://venturebeat.com/2013/09/19/apples-iphone-5-touchscreen-is-2-5-times-faster-than-android-devices/
 
-date: '2013-09-23 14:17:25'
-tags: apple
+date: 2013-09-23 14:17:25
+tags: [ apple, tech ]
 ---
 ```
-
-The first line of an article post is formatted as a subheader, so keep that in mind when writing out your article. You can [reference this post](https://theboldreport.net/2016/06/pull-list-for-june0816/) to see what that looks like.
 
 #### Code Samples
 
@@ -64,4 +60,4 @@ Write them using the custom function.
 
 #### Everything Else
 
-If you need anything else, you can [check the styleguide](https://theboldreport.net/styleguide/). It’ll give you a good feel for how I use different components on the site.
+If you need anything else, you can [check the styleguide](https://brightlycolored.org/styleguide/). It’ll give you a good feel for how I use different components on the site.
