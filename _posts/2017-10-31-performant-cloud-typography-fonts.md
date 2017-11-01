@@ -26,10 +26,11 @@ We'll do the following:
 
 ### Adding the Polyfill to Our Project
 
-First, you need loadCSS. There a few ways of including it, but I personally added it to the asset pipeline.
+First, [you need loadCSS](https://github.com/filamentgroup/loadCSS/releases). There a few different ways of including it, but I personally added it to the asset pipeline.
 
 ```js
 //= require ./vendor/loadCSS.min
+//= require ./vendor/cssrelpreload.min
 ```
 
 ### Include the Cloud.typography Stylesheet
@@ -71,3 +72,7 @@ Just as suspected, the performance improvements are astonishing. This is a huge 
 I know there are even more optimizations I can make. I think a ServiceWorker might help. But I don't know enough about it to tinker just yet.
 
 For now, I'm kinda `:shrug:` about the FOUT because there still doesn't seem to be a great way of handling it. Overall however, it's a better experience with faster speeds without sacrificing beautiful type.
+
+---
+
+**Update on 11/01/2017 at 9:31am CDT**: Shout out to [James Dinsdale](https://molovo.co/) who gave me a heads up that I needed to add the `rel="preload"` polyfill script too.
