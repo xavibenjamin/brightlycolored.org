@@ -153,6 +153,7 @@ iframe {
   top: 60px;
   transition: opacity .15s ease-in-out;
   z-index: 100;
+  pointer-events: none;
   .header-search__title,
   h3 {
     font-size: 1rem;
@@ -160,6 +161,7 @@ iframe {
     margin-top: 0;
   }
   &.is-open {
+    pointer-events: auto;
     opacity: 1;
   }
 
