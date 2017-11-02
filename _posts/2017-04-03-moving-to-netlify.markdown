@@ -32,6 +32,7 @@ Holy moly. No, *seriously*. It's *one* click. You click a button and the certifi
 For some reason, Heroku hasn't implemented HTTP/2 yet. I don't know why or when it's going to happen, but Netlify automatically enables it on HTTPS sites.
 
 ### Post Processing
+
 Netlify gzips, minifies javascript, and performs lossless image compression if you want it to. Pretty cool.
 
 ### Static Site Friendly

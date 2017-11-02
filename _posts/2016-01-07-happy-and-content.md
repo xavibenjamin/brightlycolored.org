@@ -17,8 +17,6 @@ This was by far the best year in a long time. Kelly and I were married on May 9.
 
 We were surrounded by all of our friends and family who smothered us in so much love and happiness. If I could, I would live that day over and over. It sounds so sappy, but I just can't help it.
 
-
-
 ## Working Full-time Again
 
 {% figure small__right /uploads/2016/01/acl-hiking.jpg "ACL took us on a team-building excursion in May, which turned out to be awesome. Our team name was: The Totems." %}

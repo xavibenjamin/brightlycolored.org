@@ -132,7 +132,7 @@ figcaption {
 
 .photo-grid--two {
   grid-template-columns: 1fr 2fr;
-  grid-auto-rows: minmax(100px, 450px)
+  grid-template-rows: 450px max-content;
 }
 
 .photo-grid--three {
