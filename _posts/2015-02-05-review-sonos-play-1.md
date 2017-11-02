@@ -8,6 +8,10 @@ tags:
   - sonos
 date: '2015-02-05 13:03:15'
 ---
+
+* contents
+{:toc}
+
 Sonos is widely regarded as a premier speaker system for your home. Their newest product, the Play:1, is their most affordable one, and could potentially get more people into the Sonos ecosystem.
 
 ## First Impressions

@@ -6,6 +6,9 @@ tags: [development, jekyll, jekyll on heroku, jekyll on netlify]
 date: 2017-04-03 11:33
 ---
 
+* contents
+{:toc}
+
 In June 2015, I set out on a bold journey. One where no one had gone before. If you're thinking of space, hell yea that would be amazing, but no. I set out to host my Jekyll site on Heroku.
 
 I'd been paying money for my static site to be deployed. There had to be a better way. I searched what felt like every corner of the internet to find a way to do this. Heroku could build my site straight from git. That would be amazing!
@@ -16,22 +19,28 @@ Heroku has been an excellent home for my Jekyll sites. I've even [dedicated a se
 
 But the time has come to move on.
 
-## Oh So Melodramatic
+## Why the Move?
 
 It isn't so much of a complete move as it is living in two places. Heroku is still very great with sites I manage. I'm mostly moving my Jekyll projects over to Netlify which I seem to have more and more of. [I *love* Jekyll](https://theboldreport.net/topics/#jekyll).
 
-Here are some of the reasons I moved:
+### One Click SSL
 
-1. **One Click SSL**  
 Holy moly. No, *seriously*. It's *one* click. You click a button and the certificate is issued and uploaded to Netlify. This is how easy SSL *should* be everywhere.
-2. **HTTP 2.0**  
+
+### HTTP 2.0
+
 For some reason, Heroku hasn't implemented HTTP/2 yet. I don't know why or when it's going to happen, but Netlify automatically enables it on HTTPS sites.
-3. **Post Processing**  
+
+### Post Processing
 Netlify gzips, minifies javascript, and performs lossless image compression if you want it to. Pretty cool.
-4. **Static Site Welcoming**  
+
+### Static Site Friendly
+
 With Heroku, static sites are definitely not what it's built for. Heroku is built to handle applications and getting Jekyll to build and work involved a lot of research. On Netlify, all I need is to have my `Gemfile` and give it the build command. It takes care of the rest. Hosting a static site on Netlify doesn't feel like a hack like it did on Heroku.
 
 There are a few other reasons like easy deployment from GitHub, deploy previews which allow you to view a pull request on a dev server, snippet injection, and form handling. If you want to read about all these features, I encourage you to [read the docs](https://www.netlify.com/docs/).
+
+## Netlify Rocks
 
 The people over at Netlify are doing a pretty great job. It seems very smart to me to design and build for the needs of people building static sites. I'm sure that number is growing and will continue to do so. Also, I'd be remiss not to mention how well designed the UI is. The experience has been very well thought through. Kudos to [Rafael Conde](https://rafaelconde.net/).
 
