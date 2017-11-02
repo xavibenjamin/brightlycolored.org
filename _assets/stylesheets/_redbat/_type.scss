@@ -204,7 +204,8 @@ sup {
   }
 }
 
-p {
+p,
+li {
   .caps {
     @extend %sans-small;
   }
