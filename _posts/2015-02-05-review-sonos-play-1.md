@@ -8,13 +8,16 @@ tags:
   - sonos
 date: '2015-02-05 13:03:15'
 ---
+
+* contents
+{:toc}
+
 Sonos is widely regarded as a premier speaker system for your home. Their newest product, the Play:1, is their most affordable one, and could potentially get more people into the Sonos ecosystem.
 
 ## First Impressions
+
 - The speaker may be small, but it's loud. I was very surprised by the power of the small speaker.
-
 - The speaker weighs 4.08 lbs.[^1] Their is something about weight that makes me feel the product is made well, and will last.
-
 - The design of the speaker is quite beautiful, and really blends in with any type of decor.
 
 {% figure extendout /uploads/2014/01/sonos-top_view.jpg "The Sonos Play:1 from the top" %}

@@ -7,9 +7,13 @@ date: '2016-01-07 19:12:17'
 tags: [personal, year in review]
 subtitle: The title perfectly encapsulates my year. 2015 came and went, and as usual, here's my annual year in review.
 ---
+
 This was by far the best year in a long time. Kelly and I were married on May 9. It was the best day of my life.
 
 {% figure extendout /uploads/2016/01/smith-wedding-party-silly.jpg "With our amazing wedding party. (Photo by Cayan Brock)" %}
+
+* contents
+{:toc}
 
 We were surrounded by all of our friends and family who smothered us in so much love and happiness. If I could, I would live that day over and over. It sounds so sappy, but I just can't help it.
 
@@ -33,7 +37,7 @@ Podcasts have taken on a whole new life for me this year. Sure, they've been aro
 ## Summer Trip to Europe
 Kelly and I went to Europe for the first time this summer. It was the first time both as a couple and individually. Europe was wonderful. Visiting places you’ve only ever seen in pictures is quite the experience.
 
-<figure class="photo-grid">
+<figure class="photo-grid photo-grid--one">
   <img src="{{ site.url }}/uploads/2016/01/eiffel-tower.jpg" alt="" class="grid-thirds" />
   <img src="{{ site.url }}/uploads/2016/01/deannda-posing.jpg" alt="" class="grid-thirds" />
   <img src="{{ site.url }}/uploads/2016/01/paris-pastry.jpg" alt="" class="grid-thirds" />

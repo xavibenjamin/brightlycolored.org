@@ -5,6 +5,7 @@
 //= require bigfoot.min
 //= require inline-search
 //= require social
+//= require heading-anchors
 
 jQuery(document).ready(function($) {
   $.bigfoot();

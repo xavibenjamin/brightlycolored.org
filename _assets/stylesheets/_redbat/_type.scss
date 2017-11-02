@@ -204,9 +204,12 @@ sup {
   }
 }
 
-.caps {
-  @extend %sans-small;
+p {
+  .caps {
+    @extend %sans-small;
+  }
 }
+
 
 // BLOCKQUOTE --------------------
 blockquote {

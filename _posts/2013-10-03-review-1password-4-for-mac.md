@@ -9,6 +9,9 @@ tags:
   - review
 ---
 
+* contents
+{:toc}
+
 [1Password](https://agilebits.com/onepassword) is one of my favorite apps. The amount of time it has saved me is unmeasurable, and it's made my password strategy secure and delightful.
 
 For those of you who don't know about 1Password, it's a great utility app to store and generate passwords. For years, I was the person who had _the same password for everything_. With 1Password, I don't do that anymore, I'm able to search through weak passwords and generate stronger ones, making it less likely to get hacked. Even if that does happen, none of my passwords are the same, so I only need to reset the one that's been compromised.
@@ -16,9 +19,7 @@ For those of you who don't know about 1Password, it's a great utility app to sto
 ## First Impressions
 
 - The new interface is beautiful, and obviously influenced by the iOS version.
-
 - The Chrome extension got a facelift, and generated passwords are not only filled in forms, they're also copied to your clipboard.[^1]
-
 - 1Password Mini brings most of the power of the main app to the menubar. This is great for entering passwords into apps that aren't the browser. I disliked having to open the main app to do this in previous versions.
 
 ## Design
@@ -51,13 +52,11 @@ It's too early for me to say, but I think 1Password Mini could completely replac
 
 ## Other Features You Should Know About
 
-- **Shared Items**<br>
+- **Shared Items**  
   Till now, I haven't needed to ever share login items, but I can definitely see the practicality of this. You can share items with email or iMessage, and if the person makes changes, the item automatically updates when shared back.
-
-- **256-bit Authenticated Encryption**<br>
+- **256-bit Authenticated Encryption**  
   I have no idea what this means, except that 1Password is constantly being updated to be more and more secure. From what I'm told, this prevents attacks that don't even exist yet.
-
-- **Wifi Sync**<br>
+- **Wifi Sync**  
   This feature is back from previous versions. Personally, I use Dropbox to sync my Vault between my Mac, iPad and iPhone, but whatever floats your boat. They have iCloud sync too.
 
 ## Final Thoughts
@@ -72,6 +71,6 @@ It seems you can't currently purchase the new 1Password from [the AgileBits stor
 
 ##### Further Reading
 
-[How long should my passwords be?](http://blog.agilebits.com/2013/08/31/how-long-should-my-passwords-be/) - If you're interested in making generated passwords from 1Password very secure, I definitely recommend this article by the AgileBits team.
+[How long should my passwords be?](http://blog.agilebits.com/2013/08/31/how-long-should-my-passwords-be/) — If you're interested in making generated passwords from 1Password very secure, I definitely recommend this article by the AgileBits team.
 
 [^1]: This might seem like a small thing, but it's one of my favorite additions to 1Password. I used to copy the password then press the fill button, and now those two actions are done with one press. [^2]: By the way, you can use [Bartender](http://www.macbartender.com/) to clean that menubar up. [^3]: This is only speculation, but I wonder if they're required to give the App Store preference for a set amount of time. ime.
