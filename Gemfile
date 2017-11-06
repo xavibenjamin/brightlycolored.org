@@ -6,6 +6,7 @@ ruby '2.3.0'
 gem 'jekyll', '~> 3.5'
 gem 'rake'
 gem 'uglifier'
+gem 'nokogiri', '~> 1.8', '>= 1.8.1'
 
 group :jekyll_plugins do
   gem 'jekyll-admin'

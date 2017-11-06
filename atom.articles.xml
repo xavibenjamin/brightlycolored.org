@@ -19,7 +19,7 @@ layout: null
     </author>
   {% endfor %}
   {% for post in site.posts %}
-  {% if post.custom_type == 'post' or post.custom_type == 'artdirect' %}
+  {% if post.exclude_rss != true and post.custom_type == 'post' or post.custom_type == 'artdirect' %}
   <entry>
     <id>https://brightlycolored.org{{ post.id }}</id>
     <link type="text/html" rel="alternate" href="http://brightlycolored.org{{ post.url }}"/>
@@ -35,7 +35,7 @@ layout: null
         {% if post.subtitle %}
           <h2>{{ post.subtitle }}</h2>
         {% endif %}
-        {{ post.content }}
+        {{ post.content | strip_toc }}
         {% if post.custom_type == 'artdirect' %}
         <hr>
         <p>This is an art-directed post. <a href="{{ site.url | xml_escape }}{{ post.url | xml_escape }}">Check it out in the browser</a>.</p>

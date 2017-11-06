@@ -18,37 +18,38 @@ layout: null
       <email>{{ author[1].email }}</email>
     </author>
   {% endfor %}
-
-  {% for post in site.posts %}
-    <entry>
-      <id>https://brightlycolored.org{{ post.id }}</id>
-      {% if post.custom_type == 'link' %}
-        <link type="text/html" rel="alternate" href="{{ post.link_url }}"/>
-      {% else %}
-        <link type="text/html" rel="alternate" href="https://brightlycolored.org{{ post.url }}"/>
-      {% endif %}
-      <title>{% if post.custom_type == 'link' %}{{ post.title | xml_escape }} →{% else %}{{ post.title | xml_escape }}{% endif %}</title>
-      <published>{{ post.date | date_to_xmlschema }}</published>
-      <updated>{{ post.date | date_to_xmlschema }}</updated>
-      <author>
-        <name>{{ site.data.authors[post.author].display_name }}</name>
-        <uri>{{ site.data.authors[post.author].web }}</uri>
-      </author>
-      <content type="html">
-        <![CDATA[
-          {% if post.subtitle %}
-            <h2>{{ post.subtitle }}</h2>
-          {% endif %}
-          {{ post.content }}
-          {% if post.custom_type == 'link' %}
-            <p><a title="Permalink to ‘{{ post.title }}’" href="{{ site.url | xml_escape }}{{ post.url | xml_escape }}">∞ Read on <em>Brightly Colored</em></a></p>
-          {% endif %}
-          {% if post.custom_type == 'artdirect' %}
-          <hr>
-          <p>This is an art-directed post. <a href="{{ site.url | xml_escape }}{{ post.url | xml_escape }}">Check it out in the browser</a>.</p>
-          {% endif %}
-        ]]>
-      </content>
-    </entry>
+  {% for post in site.posts limit:20 %}
+    {% if post.exclude_rss != true %}
+      <entry>
+        <id>https://brightlycolored.org{{ post.id }}</id>
+        {% if post.custom_type == 'link' %}
+          <link type="text/html" rel="alternate" href="{{ post.link_url }}"/>
+        {% else %}
+          <link type="text/html" rel="alternate" href="https://brightlycolored.org{{ post.url }}"/>
+        {% endif %}
+        <title>{% if post.custom_type == 'link' %}{{ post.title | xml_escape }} →{% else %}{{ post.title | xml_escape }}{% endif %}</title>
+        <published>{{ post.date | date_to_xmlschema }}</published>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <author>
+          <name>{{ site.data.authors[post.author].display_name }}</name>
+          <uri>{{ site.data.authors[post.author].web }}</uri>
+        </author>
+        <content type="html">
+          <![CDATA[
+            {% if post.subtitle %}
+              <h2>{{ post.subtitle }}</h2>
+            {% endif %}
+            {{ post.content | strip_toc }}
+            {% if post.custom_type == 'link' %}
+              <p><a title="Permalink to ‘{{ post.title }}’" href="{{ site.url | xml_escape }}{{ post.url | xml_escape }}">∞ Read on <em>Brightly Colored</em></a></p>
+            {% endif %}
+            {% if post.custom_type == 'artdirect' %}
+            <hr>
+            <p>This is an art-directed post. <a href="{{ site.url | xml_escape }}{{ post.url | xml_escape }}">Check it out in the browser</a>.</p>
+            {% endif %}
+          ]]>
+        </content>
+      </entry>
+    {% endif %}
   {% endfor %}
 </feed>
