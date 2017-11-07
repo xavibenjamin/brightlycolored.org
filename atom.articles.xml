@@ -18,8 +18,8 @@ layout: null
       <email>{{ author[1].email }}</email>
     </author>
   {% endfor %}
-  {% for post in site.posts %}
-  {% if post.exclude_rss != true and post.custom_type == 'post' or post.custom_type == 'artdirect' %}
+  {% assign posts = site.posts | where_exp:"post", "post.exclude_rss != true" | where:"custom_type","post" %}
+  {% for post in posts limit:20 %}
   <entry>
     <id>https://brightlycolored.org{{ post.id }}</id>
     <link type="text/html" rel="alternate" href="http://brightlycolored.org{{ post.url }}"/>
@@ -43,6 +43,5 @@ layout: null
       ]]>
     </content>
   </entry>
-  {% endif %}
   {% endfor %}
 </feed>
