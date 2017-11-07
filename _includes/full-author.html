@@ -2,9 +2,9 @@
 <div class="author {% if page.layout == 'author-archive' %}author--single{% endif %}">
   <img src="//gravatar.com/avatar/{{ author.gravatar}}?s=200" alt="Picture of {{ author.display_name }}" class="author__picture" height="200" width="200" />
   <div class="author__info">
-    <h4 class="author__name">{{ author.display_name }} <small class="author__title">{{ author.title }}</small></h4>
-    {{ author.bio | markdownify }}
-
+    <h4 class="author__name">{{ author.display_name }}</h4>
+    <h5 class="author__title">{{ author.title | markdownify | remove: '<p>' }}</h5>
+    
     {% if page.layout == 'author-archive' %}
       {% include author-profiles.html %}
     {% endif %}

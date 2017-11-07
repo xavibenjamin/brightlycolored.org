@@ -15,6 +15,24 @@
   }
 }
 
+.current-day {
+  color: lighten($body-color, 10%);
+  display: block;
+  font-family: Operator Mono, Inconsolata, 'Inconsolata-g for Powerline', monospace;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  font-size: .8rem;
+  font-weight: bold;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 1px solid $border-color;
+  @media #{$large-up} {
+    position: absolute;
+    border-bottom: 0;
+  }
+}
+
 .post__header {
   h1 + h2 {
     margin-top: 0;
@@ -277,7 +295,7 @@
 .page__meta {
   display: grid;
   grid-template-columns: 50px 1fr;
-  grid-gap: .5rem;
+  grid-gap: .7rem;
   margin-bottom: 1.5rem;
   align-items: center;
 }
@@ -296,8 +314,10 @@
 }
 
 .author__name {
+  color: $dark-color;
   font-size: .7rem;
   font-weight: 600;
+  text-transform: none;
   margin: 0;
   a {
     color: $dark-color;
@@ -363,7 +383,14 @@
     font-size: 1.4rem;
   }
   .author__title {
+    color: lighten($body-color, 10%);
     font-size: 1.2rem;
+    text-transform: none;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    &:before {
+      content: none;
+    }
   }
   p {
     font-size: .9rem;
