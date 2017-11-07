@@ -6,6 +6,8 @@ custom_css_class: single
 <article class="post format-{% if page.custom_type %}{{ page.custom_type }}{% endif %} p-body">
 
   <header class="post__header">
+    {% include post-meta.html %}
+
     {% if page.link_url %}
       <h1><a href="{{ page.link_url }}">{{ page.title | smartify }}</a><span class="arrow">&rarr;</span></h1>
     {% else %}
@@ -14,11 +16,6 @@ custom_css_class: single
         <h2 class="post__subtitle">{{ page.subtitle | smartify }}</h2>
       {% endif %}
     {% endif %}
-
-    <small class="post__meta">
-      {% include small-author.html %}
-      {% include date.html %}
-    </small>
   </header>
 
   {{ content | improve }}

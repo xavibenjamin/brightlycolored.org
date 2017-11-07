@@ -85,7 +85,7 @@
 
 .format-post {
   .post__header {
-    margin-bottom: 1.8rem;
+    margin-bottom: 1rem;
   }
   h1 {
     font-size: 2.4rem;
@@ -273,6 +273,43 @@
   }
 }
 
+// Page Meta ---------------------
+.page__meta {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  grid-gap: .5rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.meta__text {
+  color: lighten($body-color, 10%);
+  span {
+    display: block;
+    font-size: .73rem;
+
+  }
+  .post__date {
+    font-family: Operator Mono, Inconsolata, 'Inconsolata-g for Powerline', monospace;
+    text-transform: uppercase;
+  }
+}
+
+.author__name {
+  font-size: .7rem;
+  font-weight: 600;
+  margin: 0;
+  a {
+    color: $dark-color;
+    text-decoration: none;
+  }
+}
+
+.author__title {
+  font-size: .7rem;
+  font-weight: normal;
+}
+
 // Post Author -------------------
 
 .post__author {
@@ -316,21 +353,6 @@
 
 .author__picture {
   border-radius: 5px;
-}
-
-.author__name {
-  color: $body-color;
-  font-size: 1.2rem;
-  margin: 0;
-  text-transform: none;
-  width: 100%;
-}
-
-.author__title {
-  color: lighten($body-color, 10%);
-  font-size: 1rem;
-  font-weight: normal;
-  margin-left: .3rem;
 }
 
 .author--single {
