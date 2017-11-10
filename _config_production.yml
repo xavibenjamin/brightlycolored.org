@@ -18,6 +18,9 @@ pagination:
   collection: 'posts'
   per_page: 10
   title: 'Page :num'
+  trail:
+    before: 2
+    after: 3
 
 # Syntax Highlighting
 highlighter: rouge
