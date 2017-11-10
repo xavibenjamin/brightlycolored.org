@@ -10,18 +10,25 @@ pagination:
 
 <section class="posts">
   {% for post in paginator.posts %}
-    <article class="posts__post p-body format-{% if post.custom_type %}{{ post.custom_type }}{% endif %}">
+    {% capture current_day %}{{ post.date | date: "%b·%d·%Y" }}{% endcapture %}
 
+    {% if current_day != previous_day %}
+      {% unless forloop.first %}
+        </div>
+      {% endunless %}
+
+      <span class="current-day">{{ current_day }}</span>
+      <div class="day-posts">
+
+      {% assign previous_day = current_day %}
+    {% endif %}
+    <article class="posts__post p-body format-{% if post.custom_type %}{{ post.custom_type }}{% endif %}">
       {% if post.custom_type == 'post' %}
         <header class="post__header">
           <h1><a href="{{ post.url }}">{{ post.title | smartify }}</a></h1>
           {% if post.subtitle %}
             <h2 class="post__subtitle">{{ post.subtitle | smartify }}</h2>
           {% endif %}
-          <small class="post__meta">
-            {% include small-author.html %}
-            {% include date.html %}
-          </small>
         </header>
 
         {{ post.content | improve }}
@@ -31,29 +38,16 @@ pagination:
           <h1><a href="{{ post.link_url }}">{{ post.title | smartify }}</a><span class="arrow">&rarr;</span></h1>
 
           <small class="post__meta">
-            {% include small-author.html %}
-            {% include date.html %}
+            <a href="{{ post.url }}">&infin; Permalink</a>
           </small>
         </header>
 
         {{ post.content | improve }}
-
-      {% elsif post.custom_type == 'artdirect' %}
-
-        {% include artdirect-type.html %}
-
-        <header class="post__header">
-          <h1 class="post__title"><a href="{{ post.url }}" style="color: #{{ post.artdirect_color }}">{{ post.title }}</a></h1>
-          <h2 class="post__lead">{{ post.lead }}</h2>
-          <small class="post__meta">
-            {% include small-author.html %}
-            {% include date.html %}
-          </small>
-        </header>
-
-
       {% endif %}
     </article>
+    {% if forloop.last %}
+    </div>
+    {% endif %}
   {% endfor %}
 </section>
 
