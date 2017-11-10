@@ -57,13 +57,4 @@ pagination:
   {% endfor %}
 </section>
 
-{% if paginator.total_pages > 1 %}
-<ul class="pagination">
-  <li>
-    <a class="button button--primary button--paginate" href="{{ paginator.previous_page_path | prepend: site.baseurl }}" {% unless paginator.previous_page %}disabled{% endunless %}>Newer</a>
-  </li>
-  <li>
-    <a class="button button--primary button--paginate" href="{{ paginator.next_page_path | prepend: site.baseurl }}" {% unless paginator.next_page %}disabled{% endunless %}>Older</a>
-  </li>
-</ul>
-{% endif %}
+{% include page-nav.html %}
