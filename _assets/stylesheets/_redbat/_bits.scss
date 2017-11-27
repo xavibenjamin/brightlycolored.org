@@ -7,12 +7,12 @@
 // COLORS ------------------------
 $primary-color: #FE5858;
 $secondary-color: #19365E;
-// $brand-color: $primary-color;
 
 // Body Colors -------------------
 $body-color: desaturate(lighten($secondary-color, 15), 30);
 $dark-color: darken($body-color, 15%);
-$link-color: $primary-color;
+// $link-color: #2574A8;
+$link-color: #429CD4;
 
 // Background & Border Colors ----
 $border-color: desaturate(lighten($secondary-color, 70), 30);

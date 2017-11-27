@@ -16,19 +16,15 @@
 }
 
 .current-day {
-  color: lighten($body-color, 10%);
-  display: block;
-  font-family: Operator Mono, Inconsolata, 'Inconsolata-g for Powerline', monospace;
-  text-transform: uppercase;
-  margin-bottom: 3rem;
-  font-size: .8rem;
-  font-weight: bold;
-  width: 90%;
-  margin-right: auto;
-  margin-left: auto;
   border-bottom: 1px solid $border-color;
+  color: lighten($body-color, 15%);
+  display: block;
+  @extend %sans-con;
+  font-size: .85rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 4rem;
+  text-transform: uppercase;
   @media #{$large-up} {
-    position: absolute;
     border-bottom: 0;
   }
 }
@@ -99,6 +95,21 @@
   }
 }
 
+.post__header {
+  h1 {
+    a {
+      color: $dark-color;
+      -webkit-hyphens: none;
+      hyphens: none;
+      text-decoration: none;
+      &:hover,
+      &:focus {
+        color: $link-color;
+      }
+    }
+  }
+}
+
 // Format Post -------------------
 
 .format-post {
@@ -109,14 +120,6 @@
     font-size: 2.4rem;
     font-weight: 600;
     line-height: 1;
-    a {
-      color: $dark-color;
-      text-decoration: none;
-      &:hover {
-        border-bottom: 0;
-        color: $link-color;
-      }
-    }
   }
 }
 
@@ -182,7 +185,7 @@
   }
 }
 
-.post > {
+.post {
   h2,
   h3,
   h4,
@@ -224,11 +227,6 @@
     font-weight: normal;
     line-height: 1.1;
     margin-bottom: .7rem;
-    a {
-      -webkit-hyphens: none;
-      hyphens: none;
-      text-decoration: none;
-    }
     @media #{$medium-up} {
       font-size: 1.6rem;
     }
@@ -293,11 +291,11 @@
 
 // Page Meta ---------------------
 .page__meta {
-  display: grid;
-  grid-template-columns: 50px 1fr;
-  grid-gap: .7rem;
-  margin-bottom: 1.5rem;
   align-items: center;
+  display: grid;
+  grid-gap: .7rem;
+  grid-template-columns: 50px 1fr;
+  margin-bottom: 1.5rem;
 }
 
 .meta__text {
@@ -305,7 +303,6 @@
   span {
     display: block;
     font-size: .73rem;
-
   }
   .post__date {
     font-family: Operator Mono, Inconsolata, 'Inconsolata-g for Powerline', monospace;
@@ -317,8 +314,8 @@
   color: $dark-color;
   font-size: .7rem;
   font-weight: 600;
-  text-transform: none;
   margin: 0;
+  text-transform: none;
   a {
     color: $dark-color;
     text-decoration: none;
@@ -385,9 +382,9 @@
   .author__title {
     color: lighten($body-color, 10%);
     font-size: 1.2rem;
-    text-transform: none;
-    margin-top: 0;
     margin-bottom: 1rem;
+    margin-top: 0;
+    text-transform: none;
     &:before {
       content: none;
     }
@@ -475,7 +472,8 @@
 .highlighter-rouge > *,
 .extendout > *:not(img),
 .photo-grid > *:not(img),
-.post__footer > *:not(.card) {
+.post__footer > *:not(.card),
+.posts__date > * {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
