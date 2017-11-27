@@ -10,14 +10,16 @@ pagination:
 
 <section class="posts">
   {% for post in paginator.posts %}
-    {% capture current_day %}{{ post.date | date: "%b·%d·%Y" }}{% endcapture %}
+    {% capture current_day %}{{ post.date | date: "%B·%d·%Y" }}{% endcapture %}
 
     {% if current_day != previous_day %}
       {% unless forloop.first %}
         </div>
       {% endunless %}
-
-      <span class="current-day">{{ current_day }}</span>
+      
+      <div class="posts__date">
+        <span class="current-day">{{ current_day }}</span>
+      </div>
       <div class="day-posts">
 
       {% assign previous_day = current_day %}
