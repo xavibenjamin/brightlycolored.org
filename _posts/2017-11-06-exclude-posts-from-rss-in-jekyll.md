@@ -20,7 +20,7 @@ We can use the `exclude_rss` variable to then filter out posts we don't want in 
 
 Open up your feed file, mine is called `atom.xml`.
 
-```xml
+```liquid
 <!-- atom.xml -->
 {% raw %}{% for post in site.posts %}
   {% if post.exclude_rss != true %}
@@ -39,7 +39,7 @@ We'll use the `where` and `where_exp` filter. [You can read a little bit more ab
 
 Again, we'll open up our feed file. The following is what mine looks like, but modify as you see necessary.
 
-```xml
+```liquid
 <!-- atom.articles.xml -->
 {% raw %}{% assign posts = site.posts | where_exp:"post", "post.exclude_rss != true" | where:"custom_type","post" %}
 {% for post in posts limit:20 %}
