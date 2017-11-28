@@ -56,7 +56,7 @@ h5 {
 p {
   font-size: 1rem;
   line-height: 1.7;
-   + p {
+  + p {
     margin-top: 1.1rem;
   }
   @media #{$medium-up} {
@@ -73,7 +73,7 @@ h2 {
   font-weight: 600;
   line-height: 1.2;
   margin: 2.3rem 0 0;
-   + h3 {
+  + h3 {
     margin-top: .3rem;
   }
 }
@@ -124,7 +124,7 @@ h6 {
     font-size: 1.1rem;
     line-height: 1.6;
     margin-left: 2rem;
-     + li {
+    + li {
       margin-top: .5rem;
     }
     @media #{$medium-up} {
@@ -145,7 +145,7 @@ h6 {
     font-size: 1.1rem;
     line-height: 1.6;
     margin-left: 2rem;
-     + li {
+    + li {
       margin-top: .5rem;
     }
     @media #{$medium-up} {
@@ -222,6 +222,9 @@ blockquote {
   margin-left: 2rem;
   margin-top: 1.1rem;
   padding-left: .75rem;
+  > blockquote {
+    margin-left: 0;
+  }
   small {
     display: block;
     font-size: .80rem;

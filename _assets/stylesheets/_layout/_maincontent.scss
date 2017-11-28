@@ -73,7 +73,7 @@
   li {
     font-size: .7rem;
     font-weight: 600;
-     + li {
+    + li {
       margin-left: 2rem;
       position: relative;
       &:before {
@@ -148,7 +148,7 @@
     padding: .5rem 1rem;
     text-transform: uppercase;
   }
-   > li {
+  > li {
     max-width: 72%;
     word-wrap: break-word;
   }
@@ -225,7 +225,7 @@
   h1 {
     font-size: 1.7rem;
     font-weight: normal;
-    line-height: 1.1;
+    line-height: 1.2;
     margin-bottom: .7rem;
     @media #{$medium-up} {
       font-size: 1.6rem;
@@ -361,7 +361,7 @@
       font-size: .85rem;
     }
   }
-   + .author {
+  + .author {
     border-top: 1px solid $border-color;
     margin-top: 1rem;
     padding-top: 1rem;
@@ -412,7 +412,7 @@
     font-size: 1rem;
     line-height: 1.2;
     max-width: 230px;
-     + .post-list__item {
+    + .post-list__item {
       margin-left: 2rem;
     }
     a {
