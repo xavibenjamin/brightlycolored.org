@@ -66,3 +66,16 @@
   <script src="https://use.typekit.net/{{ page.artdirect_typo }}.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
 {% endif %}
+
+<script>
+if (navigator.serviceWorker) {
+    navigator.serviceWorker.register('/serviceworker.js', {
+      scope: '/'
+    });
+    window.addEventListener('load', function () {
+      if (navigator.serviceWorker.controller) {
+        navigator.serviceWorker.controller.postMessage({ 'command': 'trimCaches' });
+      }
+    });
+  }
+</script>
