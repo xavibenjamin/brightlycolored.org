@@ -66,3 +66,16 @@
   <script src="https://use.typekit.net/{{ page.artdirect_typo }}.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
 {% endif %}
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('serviceworker.js')
+      .then(function (registration) {
+        console.log('Service Worker registration successful with scope: ',
+          registration.scope);
+      })
+      .catch(function (err) {
+        console.log('Service Worker registration failed: ', err);
+      });
+  }
+</script>
