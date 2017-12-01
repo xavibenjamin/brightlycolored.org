@@ -68,14 +68,14 @@
 {% endif %}
 
 <script>
-if (navigator.serviceWorker) {
-    navigator.serviceWorker.register('/serviceworker.js', {
-      scope: '/'
-    });
-    window.addEventListener('load', function () {
-      if (navigator.serviceWorker.controller) {
-        navigator.serviceWorker.controller.postMessage({ 'command': 'trimCaches' });
-      }
-    });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('serviceworker.js')
+      .then(function (registration) {
+        console.log('Service Worker registration successful with scope: ',
+          registration.scope);
+      })
+      .catch(function (err) {
+        console.log('Service Worker registration failed: ', err);
+      });
   }
 </script>
