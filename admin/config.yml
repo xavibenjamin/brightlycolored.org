@@ -1,5 +1,3 @@
-# Netlify CMS Config
-
 backend:
   name: git-gateway
   branch: master
