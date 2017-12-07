@@ -9,7 +9,6 @@ gem 'uglifier'
 gem 'nokogiri', '~> 1.8', '>= 1.8.1'
 
 group :jekyll_plugins do
-  gem 'jekyll-admin'
   gem 'jekyll-assets', '~> 2.2', '>= 2.2.8'
   gem 'jekyll-compose', '~> 0.4.1'
   gem 'jekyll-livereload'

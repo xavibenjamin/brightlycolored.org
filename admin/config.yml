@@ -26,24 +26,33 @@ collections:
     filter: {field: "custom_type", value: "post"}
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle, name: "subtitle", widget: "string" }
+      - {label: "Subtitle", name: "subtitle", widget: "string" }
       - {label: "Post Type", name: "custom_type", widget: "hidden", default: "post"}
       - {label: "Post Author", name: "author", widget: "relation", collection: "authors", searchFields: "[display_name]", valueField: "author_path" }
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "authors"
-    label: "Authors"
-    file: "_data/authors.yml"
-    extension: "yml"
-    description: "People who write on Brightly Colored"
-    fields:
-      - {label: "Display Name", name: "display_name", widget: "string"}
-      - {label: "Author Slug", name: "author_path", widget: "string"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Email Address", name: "email", widget: "string"}
-      - {label: "Site URL", name: "web", widget: "string"}
-      - {label: "Gravatar", name: "gravatar", widget: "string"}
-      - {label: "Twitter Profile", name: "twitter", widget: "string"}
-      - {label: "GitHub Profile", name: "github", widget: "string"}
-      - {label: "Biography", name: "bio", widget: "text"}
+  - name: "settings"
+    label: "Settings"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: "authors"
+        label: "Authors"
+        file: "_data/authors.yml"
+        description: "Author descriptions"
+        fields:
+          - name: authors
+            label: Authors
+            widget: list
+            fields:
+              - {label: "Display Name", name: "display_name", widget: "string"}
+              - {label: "Author Slug", name: "author_path", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Email Address", name: "email", widget: "string"}
+              - {label: "Site URL", name: "web", widget: "string"}
+              - {label: "Gravatar", name: "gravatar", widget: "string"}
+              - {label: "Twitter Profile", name: "twitter", widget: "string"}
+              - {label: "GitHub Profile", name: "github", widget: "string"}
+              - {label: "Biography", name: "bio", widget: "text"}
