@@ -5,31 +5,3 @@
 
 
 // COLORS ------------------------
-$primary-color: #FE5858;
-$secondary-color: #19365E;
-
-// Body Colors -------------------
-$body-color: desaturate(lighten($secondary-color, 15), 30);
-$dark-color: darken($body-color, 15%);
-// $link-color: #2574A8;
-$link-color: #429CD4;
-
-// Background & Border Colors ----
-$border-color: desaturate(lighten($secondary-color, 70), 30);
-$light-bg-color: lighten($border-color, 5%);
-
-// Foooter Colors ----------------
-$slate: desaturate($secondary-color, 40%);
-$footer-text-color: desaturate(lighten($secondary-color, 30%), 30%);
-
-
-// SPACING -----------------------
-$spacing-xxs: .3rem;
-$spacing-xs: .5rem;
-$spacing-s: 1rem;
-$spacing-m: 1.5rem;
-$spacing-l: 2rem;
-$spacing-xl: 2.5rem;
-
-// Other -------------------------
-$global-radius: 3px;
