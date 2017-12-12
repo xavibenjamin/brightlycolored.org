@@ -7,9 +7,15 @@ body {
 }
 
 .site__container {
-  display: grid;
-  grid-template-columns: 220px auto;
-  margin-left: auto;
   max-width: 1400px;
-  width: 97%;
+  @media #{$large-up} {
+    display: grid;
+    grid-template-columns: 220px auto;
+    margin-left: auto;
+    width: 97%;
+  }
+  @media #{$xlarge-up} {
+    margin-right: auto;
+    width: 100%;
+  }
 }

@@ -3,12 +3,72 @@
 // -------------------------------
 
 .footer {
-  background-color: darken($secondary-color, 9%);
-  // border-top: 2px solid lighten($secondary-color, 5%);
+  // background-color: darken($secondary-color, 9%);
+  background-color: $jazz-color;
   box-shadow: -10px 0 0 rgba(black, .1);
   display: grid;
   grid-column: span 2;
   @media #{$medium-up} {
-    // grid-template-columns: 
+    align-items: center;
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-columns: repeat(5, 1fr);
+  }
+  > * {
+    padding: 1.5rem;
+  }
+}
+
+.footer__about {
+  background-color: $jazz-color;
+  color: rgba(white, .8);
+  @media #{$medium-up} {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 2;
+  }
+}
+
+.footer__subscribe {
+  background-color: darken($secondary-color, 4%);
+  h6 {
+    color: white;
+    @extend %sans;
+    font-size: .7rem;
+  }
+  @media #{$medium-up} {
+    grid-column: span 2;
+  }
+}
+
+.footer__links {
+  background-color: white;
+  h6 {
+    color: $body-color;
+    @extend %sans;
+    font-size: .7rem;
+  }
+  @media #{$medium-up} {
+    grid-column: span 2;
+    grid-row: 2;
+  }
+}
+
+.footer__copyright {
+  background-color: darken($secondary-color, 8%);
+  small {
+    color: lighten($secondary-color, 30%);
+    font-size: .8rem;
+  }
+  .icon {
+    fill: $primary-color;
+  }
+  a {
+    color: lighten($secondary-color, 30%);
+    &:hover,
+    &:focus {
+      color: white;
+    }
+  }
+  @media #{$medium-up} {
+    grid-column: span 6;
   }
 }
