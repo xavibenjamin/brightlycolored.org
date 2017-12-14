@@ -13,4 +13,4 @@ Richard Trenholm for *CNET*:
 >
 > Before you see "The Last Jedi", we've rounded up everything you need to know in bite-size recaps. How did the Empire become the First Order? How did Luke, Leia and Han part ways? What's up with those new characters Rey, Finn and Poe? And what's happened since "The Force Awakens" ...?
 
-Be sure your ad-blocker is on because holy moly CNET's ads will bring your computer to its knees. That said, I found the actual content well worth the read as I head in to the Theater tonight. And I can't tell you how excited I am for this film. Tim and I plan to talk about this Rian Johnson directed Star Wars film with one other special guest on [Retake](https://nightowl.fm/retake) next week!
+Be sure your ad-blocker is on because holy moly CNET's ads will bring your computer to its knees. That said, I found the actual content well worth the read as I head in to the theater tonight. And I can't tell you how excited I am for this film. Tim and I plan to talk about this Rian Johnson directed Star Wars film with one other special guest on [Retake](https://nightowl.fm/retake) next week!
