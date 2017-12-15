@@ -2,7 +2,7 @@
 title: "Tenba Messenger Dna 15 Review: The Bag for Your Essential Gear"
 custom_type: link
 link_url: https://youtu.be/Y8blhwaDdA4
-tags: [review, camera bags, my videos]
+tags: [review, my videos]
 date: 2017-05-08 12:18
 ---
 

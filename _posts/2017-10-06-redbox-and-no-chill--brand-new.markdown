@@ -2,7 +2,7 @@
 title: Redbox and No Chill | Brand New
 custom_type: link
 link_url: http://www.underconsideration.com/brandnew/archives/new_logo_for_redbox_1.php
-tags: [design, logo design]
+tags: [ design ]
 date: 2017-10-06 11:40
 ---
 Armin Vit on *Brand New*:

@@ -5,7 +5,6 @@ categories: links
 custom_type: link
 link_url: http://thesweetsetup.com/
 tags:
-  - launch
   - apps
 date: '2013-11-26 12:56:52'
 ---

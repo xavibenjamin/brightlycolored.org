@@ -4,7 +4,7 @@ title: Simple Rolls Out Shared Bank Accounts That Work for Anyone, Including Roo
 categories: link
 custom_type: link
 link_url: https://techcrunch.com/2016/09/29/simple-rolls-out-shared-bank-accounts-that-work-for-anyone-including-roommates/
-tags: [banking, finance, tech]
+tags: [banking, tech]
 date: 2016-12-12 15:21
 ---
 

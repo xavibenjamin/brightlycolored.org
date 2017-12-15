@@ -2,7 +2,7 @@
 title: My Favorite TextExpander Snippets
 subtitle: Let's begin exploring automation with these simple and helpful keyboard shortcuts
 custom_type: post
-tags: [automation heaven, automation, TextExpander]
+tags: [automation heaven, automation]
 date: 2017-02-06 08:57
 ---
 *This post is part of a series on [creating automation heaven](/topics/#automation-heaven).*

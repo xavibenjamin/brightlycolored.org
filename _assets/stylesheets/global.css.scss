@@ -15,9 +15,9 @@
 // Reseting and bringing in the foundations of our CSS.
 // -----------------------------------------
 
-@import '_redbat/normalize';
-@import '_redbat/reset';
-@import '_redbat/mixins';
+@import '_vendor/normalize';
+@import '_base/reset';
+@import '_base/mixins';
 
 
 // VARIABLES
@@ -26,18 +26,7 @@
 // Setting up variables. Bringing in Colors and Spacing.
 // -----------------------------------------
 
-@import '_redbat/bits';
-
-
-// TOOLS
-// -----------------------------------------
-// @tools
-// Setting up tools. Bringing in Clearfix.
-// -----------------------------------------
-
-@import '_redbat/clearfix';
-@import '_redbat/hide';
-
+@import '_base/bits';
 
 // BASE STYLES
 // -----------------------------------------
@@ -45,12 +34,7 @@
 // Setting up base. Bringing in Type, Images, Forms, and Icons.
 // -----------------------------------------
 
-@import '_redbat/type';
-@import '_redbat/tables';
-@import '_redbat/images';
-@import '_redbat/forms';
-@import '_redbat/icons';
-
+@import '_base/type';
 
 // COMPONENTS
 // -----------------------------------------
@@ -58,9 +42,13 @@
 // Setting up components & reusable objects.
 // -----------------------------------------
 
-@import '_redbat/objects';
-@import '_redbat/buttons';
-@import '_redbat/pagenavi';
+@import '_components/tables';
+@import '_components/images';
+@import '_components/forms';
+@import '_components/icons';
+@import '_components/buttons';
+@import '_components/pagenavi';
+@import '_components/objects';
 
 
 // LAYOUT
@@ -68,9 +56,11 @@
 // @layout
 // -----------------------------------------
 
+@import '_base/base';
 @import '_layout/header';
 @import '_layout/maincontent';
 // @import '_redbat/bigfoot';
+@import '_layout/sidebar';
 @import '_layout/pages';
 @import '_layout/footer';
 
@@ -81,4 +71,4 @@
 // Code highlighting styles.
 // -----------------------------------------
 
-// @import '_redbat/syntax';
+@import '_base/syntax';

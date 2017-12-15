@@ -7,7 +7,6 @@ link_url: http://www.theverge.com/2013/11/26/5148024/x-men-viral-site-magneto-re
 tags:
   - movies
   - marvel
-  - X-Men
 date: '2013-11-27 09:48:03'
 ---
 Kwame Opam on *The Verge*:

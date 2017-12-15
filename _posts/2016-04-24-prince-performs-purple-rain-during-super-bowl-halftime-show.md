@@ -4,7 +4,6 @@ title: Prince Performs ‘Purple Rain’ During Super Bowl Halftime Show
 categories: articles
 custom_type: post
 tags:
-  - prince
   - music
 slug: /prince/
 date: 2016-04-24 01:08

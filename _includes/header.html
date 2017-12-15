@@ -1,4 +1,3 @@
-{% include head.html %}
 
 <header class="header" role="banner">
   <div class="header__branding">
@@ -6,17 +5,4 @@
       {% include icons/icon-logo.html %}
     </a>
   </div>
-
-  <nav class="navigation" role="navigation">
-    <ul class="primary-navigation">
-      <li><a href="/topics/">Topics</a></li>
-      <li><a href="/about/">Colophon</a></li>
-      <li><a href="/subscribe/">Subscribe</a></li>
-      <li class="show-small-only"><a href="/search/">Search</a></li>
-    </ul>
-  </nav>
-
-  {% unless page.url == '/search/' %}
-    {% include search-form.html css_classes="header__search js-show-menu" %}
-  {% endunless %}
 </header><!-- .site__header-->

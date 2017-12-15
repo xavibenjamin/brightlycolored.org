@@ -1,15 +1,19 @@
 ---
-layout: page
+layout: default
 title: Topics
 exclude_from_search: true
 permalink: /topics/
 excerpt: Topics covered on Brightly Colored.
 ---
 
-{{ "I love to talk about [Star Wars](#star-wars), [CSS](#css), [Jekyll](#jekyll), [the NBA](#nba), [tech](#tech), [design](#design), [Apple](#apple), and [development](#development). I also write a few series I recommend: [Brief Review](#brief-review), [Year in Review](#year-in-review), and [Jekyll on Heroku](#jekyll-on-heroku)." | markdownify }}
+<div class="page">
+  <header class="page__header page__header--full">
+    <h1 class="page-header__title" id="page-title">Topics</h1>
+    <p class="page-header__description">{{ "I love to talk about [Star Wars](#star-wars), [CSS](#css), [Jekyll](#jekyll), [the NBA](#nba), [tech](#tech), [design](#design), [Apple](#apple), and [development](#development). I also have a few series I recommend: [Brief Review](#brief-review), [Year in Review](#year-in-review), and [Jekyll on Heroku](#jekyll-on-heroku)." | markdownify | smartify | widont | remove: '<p>' | remove: '</p>' }}</p>
+  </header>
 
-<h2>Popular Topics</h2>
-<ul class="slash-list slash-list--secondary slash-list--large">
+
+<ul class="tag-list">
 {% assign tags_max = 0 %}
 {% for tag in site.tags %}
   {% if tag[1].size > tags_max %}
@@ -17,13 +21,19 @@ excerpt: Topics covered on Brightly Colored.
   {% endif %}
 {% endfor %}
 {% for i in (1..tags_max) reversed %}
-  {% for tag in site.tags limit: 35 %}
-    {% if tag[1].size == i %}
-      <li><a href="#{{ tag[0] | downcase | replace:' ','-' }}" title="{{ i }} posts">{{ tag[0] | titlecase }}</a></li>
+  {% for tag in site.tags %}
+    {% if tag[1].size == i  %}
+      <li>
+        <a href="#{{ tag[0] | downcase | replace:' ','-' }}" title="{{ i }} posts">
+          {{ tag[0] | titlecase }}
+          <span>{{ i }}</span>
+        </a>
+      </li>
     {% endif %}
   {% endfor %}
 {% endfor %}
 </ul>
+
 
 {% assign tags_max = 0 %}
 {% for tag in site.tags %}
@@ -36,6 +46,8 @@ excerpt: Topics covered on Brightly Colored.
       {% if tag[1].size == i %}
         <section class="tag__section" id="{{ tag[0] | downcase | replace:' ','-' }}">
             <h2 class="tag__name">{{ tag[0] | titlecase }} <small class="tag__count">{{ i }}</small></h2>
+            {% if tag[0] == 'development' %}<p>Since I do this for work, I have a <em>few</em> opinions about it.</p>{% endif %}
+            {% if tag[0] == 'movies' %}<p>I love watching movies, sometimes I write about them.</p>{% endif %}
             {% if tag[0] == 'brief review' %}<p>My series of reviews that I keep brief.</p>{% endif %}
             {% if tag[0] == 'apple' %}<p>It’s not an Apple blog, but I sure do talk about them a lot.</p>{% endif %}
             {% if tag[0] == 'jekyll' %}<p>This blog is built with it, so naturally I love to write about it.</p>{% endif %}
@@ -52,3 +64,4 @@ excerpt: Topics covered on Brightly Colored.
       {% endif %}
   {% endfor %}
 {% endfor %}
+</div>

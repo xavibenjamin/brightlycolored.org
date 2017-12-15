@@ -5,8 +5,8 @@ categories: links
 custom_type: link
 link_url: http://thenextweb.com/facebook/2013/10/11/instagram-longer-lets-users-disable-video-autoplay-small-important-step-towards-ads/
 tags:
-  - instagram
   - business
+  - tech
 date: '2013-10-11 13:05:20'
 ---
 Jon Russell reporting for *The Next Web*:

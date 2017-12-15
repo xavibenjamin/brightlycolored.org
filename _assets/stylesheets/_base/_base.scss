@@ -1,0 +1,15 @@
+// -------------------------------
+// BASE
+// -------------------------------
+
+body {
+  background-color: $secondary-color;
+}
+
+.site__container {
+  display: grid;
+  grid-template-columns: 220px auto;
+  margin-left: auto;
+  max-width: 1400px;
+  width: 97%;
+}

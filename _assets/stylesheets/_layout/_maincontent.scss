@@ -1,3 +1,317 @@
 // -------------------------------
 // MAIN CONTENT
 // -------------------------------
+
+.main {
+  background-color: white;
+}
+.content {
+  padding: 3rem 0;
+}
+
+// Shareable Post Styles ---------
+
+.posts__date {
+  margin-bottom: 3rem;
+
+  .current-day {
+    color: lighten($body-color, 15%);
+    display: block;
+    @extend %sans-con;
+    font-size: .95rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    @media #{$large-up} {
+      border-bottom: 0;
+    }
+  }
+}
+
+.post__header {
+  h1 {
+    a {
+      color: $heading-base-color;
+      -webkit-hyphens: none;
+      hyphens: none;
+      text-decoration: none;
+      &:hover,
+      &:focus {
+        color: $link-color;
+      }
+    }
+    + h2 {
+      margin-top: 0;
+    }
+  }
+}
+
+.post__subtitle {
+  color: lighten($heading-base-color, 15%);
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.post__permalink {
+  display: block;
+  margin-top: 1.8rem;
+  a {
+    color: lighten($body-color, 15%);
+  }
+}
+
+.post__footer {
+  margin-top: 3rem;
+}
+
+// Post Author -------------------
+
+.post__author {
+  align-items: center;
+  display: grid;
+  grid-gap: .7rem;
+  grid-template-columns: 50px auto;
+  margin-bottom: 2rem;
+}
+
+.author__text {
+  color: lighten($body-color, 15%);
+  span {
+    display: block;
+    font-size: .73rem;
+  }
+  .post__date {
+    @extend %code;
+    text-transform: uppercase;
+  }
+}
+
+.author__name {
+  color: $heading-base-color;
+  font-size: .7rem;
+  font-weight: 600;
+  margin: 0;
+  text-transform: none;
+  a {
+    color: $heading-base-color;
+    text-decoration: none;
+  }
+}
+
+.author__title {
+  font-size: .7rem;
+  font-weight: normal;
+}
+
+.author__picture {
+  border-radius: 5px;
+}
+
+// Format Post -------------------
+
+.format-post {
+  .post__header {
+    margin-bottom: 1rem;
+  }
+  h1 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1;
+  }
+}
+
+#markdown-toc {
+  border: 1px solid $border-color;
+  display: none;
+  margin-top: 0;
+  max-width: 220px;
+  padding-bottom: 1rem;
+  pointer-events: none;
+  visibility: hidden;
+  width: 100%;
+  &:before {
+    background-color: $border-color;
+    content: 'Table of Contents';
+    display: block;
+    font-size: .65rem;
+    font-weight: 600;
+    margin-bottom: .8rem;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+  }
+  > li {
+    max-width: 72%;
+    word-wrap: break-word;
+  }
+  li {
+    font-size: .7rem;
+    margin-left: 1.8rem;
+    li {
+      margin-left: 1.2rem;
+    }
+    a {
+      color: lighten($body-color, 10%);
+      text-decoration: none;
+    }
+  }
+
+  @media #{$medium-up} {
+    display: block;
+    float: left;
+    margin-right: 1.8rem;
+    pointer-events: auto;
+    visibility: visible;
+    width: 100%;
+  }
+
+  @media (min-width: 75em) {
+    float: none;
+    left: -30px;
+    margin-left: 0;
+    position: absolute;
+  }
+
+  @media #{$xxlarge-up} {
+    left: 52px;
+  }
+  ul {
+    margin-left: 0;
+  }
+}
+
+// Format Link -------------------
+
+.format-link {
+  .post__header {
+    margin-bottom: .8rem;
+  }
+  h1 {
+    font-size: 1.7rem;
+    font-weight: normal;
+    line-height: 1.2;
+    @media #{$medium-up} {
+      font-size: 1.6rem;
+    }
+  }
+  .arrow {
+    color: lighten($heading-base-color, 35%);
+    font-size: 1.3rem;
+    line-height: 100%;
+    margin-left: .8rem;
+  }
+}
+
+// Footnotes ---------------------
+
+.footnotes {
+  margin-top: 2rem;
+  &:before {
+    background-color: $primary-color;
+    content: '';
+    display: block;
+    height: 2px;
+    margin-bottom: 1rem;
+    width: 120px;
+  }
+  li,
+  p {
+    font-size: .8rem;
+  }
+  ol {
+    list-style-type: decimal-leading-zero;
+    padding-left: 2rem;
+  }
+  li + li {
+    margin-top: .5rem;
+  }
+}
+
+// Post Tags ---------------------
+
+.post-tags__title {
+  color: $heading-base-color;
+  @extend %sans;
+  font-size: .7rem;
+  margin-bottom: .2rem;
+}
+
+.post__tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  li {
+    font-size: .7rem;
+    font-weight: 600;
+    + li {
+      margin-left: 2rem;
+      position: relative;
+      &:before {
+        color: darken($border-color, 10%);
+        content: '/';
+        font-size: 1.1rem;
+        font-weight: normal;
+        left: -23px;
+        position: absolute;
+        top: -6px;
+      }
+    }
+  }
+  a,
+  a:hover,
+  a:focus {
+    text-decoration: none;
+  }
+}
+
+// Related Posts -----------------
+
+.related-posts {
+  margin-top: 1.5rem;
+  width: 60%;
+}
+
+.related-posts__title {
+  @extend %sans;
+  font-size: .7rem;
+  margin-top: 0;
+}
+
+.post-list__item {
+  font-size: .75rem;
+  a {
+    text-decoration: none;
+  }
+  .related__date {
+    color: lighten($body-color, 25%);
+    display: block;
+    font-size: .7rem;
+  }
+  .related__title {
+    font-weight: 600;
+  }
+  + .post-list__item {
+    margin-top: .5rem;
+  }
+}
+
+
+// TEXT GRID ---------------------
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  position: relative;
+}
+
+.p-body > *:not(.iframe-container):not(.card):not(.extendout):not(.photo-grid):not(.alignleft):not(.alignright):not(.small__right):not(.highlighter-rouge):not(.post__footer):not(.tag__section):not(table):not(.post__section):not(.page__header--full),
+.posts__date > .current-day,
+.post__footer,
+.highlighter-rouge,
+.photo-grid > *:not(img),
+.extendout > *:not(img),
+.card > * {
+  margin-left: auto;
+  margin-right: auto;
+  width: 57.5%;
+}

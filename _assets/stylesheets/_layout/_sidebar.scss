@@ -1,0 +1,28 @@
+// -------------------------------
+// SIDEBAR
+// -------------------------------
+
+.sidebar {
+  background-color: darken($secondary-color, 5%);
+  box-shadow: -10px 0 0 rgba(black, .1);
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  margin-top: 56.2px;
+  a {
+    border-top: 1px solid lighten($secondary-color, 5%);
+    color: lighten($secondary-color, 35%);
+    display: block;
+    font-size: .75rem;
+    font-weight: 600;
+    padding: 1rem 1.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      color: white;
+    }
+  }
+}

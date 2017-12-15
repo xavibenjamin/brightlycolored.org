@@ -1,3 +1,14 @@
 // -------------------------------
 // FOOTER
 // -------------------------------
+
+.footer {
+  background-color: darken($secondary-color, 9%);
+  // border-top: 2px solid lighten($secondary-color, 5%);
+  box-shadow: -10px 0 0 rgba(black, .1);
+  display: grid;
+  grid-column: span 2;
+  @media #{$medium-up} {
+    // grid-template-columns: 
+  }
+}

@@ -5,6 +5,7 @@ exclude_from_search: true
 permalink: /styleguide/
 excerpt: Style guide for Brightly Colored.
 ---
+
 {% figure small__right /uploads/2013/09/tim_680x510.jpg "Use the <code>.small__right</code> class for this particular styling." %}
 
 This page exists to show the different components and pieces of *Brightly Colored*. More than anything, I maintain it because I think style guides are interesting. There's also a [writing style guide](/styleguide/writing/) if you enjoy that type of stuff.

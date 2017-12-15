@@ -4,7 +4,6 @@ title: Kit Kats Fresh From the Factory
 categories: articles
 custom_type: post
 tags:
-  - chocolate
   - personal
 date: 2016-04-22 11:08
 subtitle: You can actually taste the difference.

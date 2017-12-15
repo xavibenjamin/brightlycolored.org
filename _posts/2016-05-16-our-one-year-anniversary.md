@@ -5,7 +5,6 @@ categories: articles
 custom_type: post
 tags:
   - personal
-  - tim and kelbel
 date: 2016-05-16 11:21
 subtitle: We've been married for a year now. It's flown by.
 ---
