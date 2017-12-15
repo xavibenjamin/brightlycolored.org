@@ -302,7 +302,10 @@
   margin-right: auto;
   max-width: 1000px;
   position: relative;
-  width: 94%;
+  width: 90%;
+  @media #{$medium-up} {
+    width: 94%;
+  }
 }
 
 .p-body > *:not(.iframe-container):not(.card):not(.extendout):not(.photo-grid):not(.alignleft):not(.alignright):not(.small__right):not(.highlighter-rouge):not(.post__footer):not(.tag__section):not(table):not(.post__section):not(.page__header--full),
@@ -314,5 +317,7 @@
 .card > * {
   margin-left: auto;
   margin-right: auto;
-  width: 57.5%;
+  @media #{$medium-up} {
+    max-width: 575px;
+  }
 }
