@@ -5,7 +5,7 @@ tags: [ movies, star wars, brief review ]
 rating: 5
 ---
 
-{% figure extendout uploads/media/luke-skywalker.jpg "Mark Hamill as Luke Skywalker (Disney/Lucasfilm)" %}
+{% figure extendout /uploads/media/luke-skywalker.jpg "Mark Hamill as Luke Skywalker (Disney/Lucasfilm)" %}
 
 As what's become tradition with films we're really looking forward to, Kelly and I with some friends and my cousin went to watch *Star Wars: The Last Jedi* on opening night. Here are some thoughts on the movie, careful for **spoilers**.
 
