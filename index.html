@@ -9,48 +9,49 @@ pagination:
 
 
 <section class="posts">
-  {% for post in paginator.posts %}
-    {% capture current_day %}{{ post.date | date: "%B·%d·%Y" }}{% endcapture %}
+  {% for post in site.posts %}
+    {% capture post_date %}{{ post.date | date: "%B·%d·%Y" }}{% endcapture %}
+    {% assign current_date = site.posts.first.date | date: "%B·%d·%Y" %}
 
-    {% if current_day != previous_day %}
-      {% unless forloop.first %}
+    {% if post_date == current_date %}
+
+      {% if forloop.first %}
+        <div class="posts__date">
+          <span class="current-day">{{ post_date }}</span>
         </div>
-      {% endunless %}
-      
-      <div class="posts__date">
-        <span class="current-day">{{ current_day }}</span>
-      </div>
-      <div class="day-posts">
-
-      {% assign previous_day = current_day %}
-    {% endif %}
-    <article class="posts__post p-body format-{% if post.custom_type %}{{ post.custom_type }}{% endif %}">
-      {% if post.custom_type == 'post' %}
-        <header class="post__header">
-          <h1><a href="{{ post.url }}">{{ post.title | smartify | widont }}</a></h1>
-          {% if post.subtitle %}
-            <h2 class="post__subtitle">{{ post.subtitle | smartify | widont }}</h2>
-          {% endif %}
-        </header>
-
-        {{ post.content | improve }}
-
-      {% elsif post.custom_type == 'link' %}
-        <header class="post__header">
-          <h1><a href="{{ post.link_url }}">{{ post.title | smartify | widont }}</a><span class="arrow">&rarr;</span></h1>
-
-          <small class="post__meta">
-            <a href="{{ post.url }}">&infin; Permalink</a>
-          </small>
-        </header>
-
-        {{ post.content | improve }}
       {% endif %}
-    </article>
-    {% if forloop.last %}
-    </div>
+
+      <div class="day-posts">
+        <article class="posts__post p-body format-{% if post.custom_type %}{{ post.custom_type }}{% endif %}">
+          {% if post.custom_type == 'post' %}
+          <header class="post__header">
+            <h1>
+              <a href="{{ post.url }}">{{ post.title | smartify }}</a>
+            </h1>
+            {% if post.subtitle %}
+            <h2 class="post__subtitle">{{ post.subtitle | smartify }}</h2>
+            {% endif %}
+          </header>
+        
+          {{ post.content | improve }}
+
+        {% elsif post.custom_type == 'link' %}
+          <header class="post__header">
+            <h1>
+              <a href="{{ post.link_url }}">{{ post.title | smartify }}</a>
+              <span class="arrow">&rarr;</span>
+            </h1>
+          </header>
+        
+          {{ post.content | improve }}
+
+          <small class="post__permalink">
+            <a href="{{ post.url }}">#</a>
+          </small>
+        {% endif %}
+        </article>
+      </div>
+
     {% endif %}
   {% endfor %}
 </section>
-
-{% include page-nav.html %}

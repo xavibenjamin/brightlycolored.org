@@ -4,8 +4,7 @@ title: On Managing Links
 categories: articles
 custom_type: post
 date: 2016-02-05 07:33
-subtitle: The title perfectly encapsulates my year. 2015 came and went, and as usual, here's my annual year in review.
-tags: [tools, workflow]
+tags: [tools]
 ---
 First off, let's just acknowledge how #firstworldproblem-sy this is. They're just links right? But I come across a lot of stuff on the web, and there's some of it that I need to categorize. Links usually fall into one of two categories:
 

@@ -4,7 +4,11 @@ custom_css_class: page
 ---
 
 <div class="page p-body">
-  <h1 class="page__title" id="page-title">{{ page.title | smartify }}</h1>
-
+  <header class="page__header">
+    <h1 class="page-header__title" id="page-title">{{ page.title | smartify | widont }}</h1>
+    {% if page.description %}
+      <p class="page-header__description">{{ page.description | markdownify | smartify | widont | remove: '<p>' | remove: '</p>' }}</p>
+    {% endif %}
+  </header>
   {{ content }}
 </div>

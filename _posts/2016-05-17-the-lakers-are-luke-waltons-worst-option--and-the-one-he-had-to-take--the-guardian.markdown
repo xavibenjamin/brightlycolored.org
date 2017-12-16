@@ -6,7 +6,6 @@ custom_type: link
 link_url: https://www.theguardian.com/sport/blog/2016/may/01/luke-walton-los-angeles-lakers-coach-nba
 tags:
   - NBA
-  - lakers
 date: 2016-05-17 09:48
 ---
 Les Carpenter writing for *The Guardian*:

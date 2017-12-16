@@ -2,7 +2,7 @@
 title: Displays for Designers and Developers | Bjango
 custom_type: link
 link_url: https://bjango.com/articles/macexternaldisplays/
-tags: [apple, displays, retina displays]
+tags: [apple, displays]
 date: 2017-01-11 18:36
 ---
 Marc Edwards on the Bjango blog:

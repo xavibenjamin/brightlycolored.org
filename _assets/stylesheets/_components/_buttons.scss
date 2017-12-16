@@ -1,0 +1,35 @@
+// -------------------------------
+// BUTTONS
+// -------------------------------
+
+.btn {
+  -webkit-appearance: none;
+  background-color: $light-bg-color;
+  border: 0;
+  border-radius: $global-radius;
+  font-size: .95rem;
+  padding: .65em .95em;
+  transition: background-color 300ms ease-in-out;
+}
+
+.btn--small {
+  font-size: .8rem;
+}
+
+.btn--primary {
+  background-color: $primary-color;
+  color: white;
+  &:hover,
+  &:focus {
+    background-color: darken($primary-color, 5%);
+  }
+  &.btn--outline {
+    background-color: transparent;
+    box-shadow: 0 0 0 1px $primary-color;
+    color: $primary-color;
+    &:hover,
+    &:focus {
+      background-color: rgba($primary-color, .05);;
+    }
+  }
+}

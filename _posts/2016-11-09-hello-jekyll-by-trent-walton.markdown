@@ -4,7 +4,7 @@ title: "Hello, Jekyll by Trent Walton"
 categories: link
 custom_type: link
 link_url: http://trentwalton.com/notes/2016/11/01/jekyll.html
-tags: [development, jekyll, WordPress]
+tags: [development, jekyll]
 date: 2016-11-09 11:45
 ---
 Trent Walton:

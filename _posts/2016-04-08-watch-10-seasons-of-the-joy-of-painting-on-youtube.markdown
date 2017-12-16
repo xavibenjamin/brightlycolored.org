@@ -6,7 +6,6 @@ custom_type: link
 link_url: http://mentalfloss.com/article/78175/watch-10-seasons-joy-painting-youtube-free
 tags:
   - ASMR
-  - bob ross
 date: 2016-04-08 15:30
 ---
 Mental Floss:

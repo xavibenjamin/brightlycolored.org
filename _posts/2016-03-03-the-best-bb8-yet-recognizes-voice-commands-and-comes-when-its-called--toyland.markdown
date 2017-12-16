@@ -6,7 +6,6 @@ custom_type: link
 link_url: http://toyland.gizmodo.com/the-best-bb-8-yet-recognizes-voice-commands-and-comes-w-1758410074
 tags:
   - star wars
-  - toys
 date: 2016-03-03 07:29
 ---
 Andrew Liszewski writing for *Toyland*:

@@ -6,8 +6,7 @@ custom_type: link
 link_url: https://brooksreview.net/2016/02/good-content/
 date: 2016-02-23 09:18
 tags:
-  - the brooks review
-  - reading
+  - opinion
 ---
 
  Ben Brooks on how difficult it is to find good content:

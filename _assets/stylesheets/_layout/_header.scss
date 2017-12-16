@@ -3,103 +3,35 @@
 // -------------------------------
 
 .header {
+  align-items: center;
+  background-color: $primary-color;
   display: flex;
-  padding: .8rem 5%;
-  position: relative;
-  &:before {
-    background-image: linear-gradient(to right, $secondary-color, $primary-color);
-    content: '';
-    display: block;
-    height: 3px;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+  transition: position 100ms ease 600ms;
+  &.js-menu-is-open {
     left: 0;
-    position: absolute;
+    position: fixed;
     right: 0;
-    top: 0;
-  }
-  a {
-    color: $body-color;
-    text-decoration: none;
-    &:hover,
-    &:focus {
-      color: $link-color;
-    }
-  }
-  @media #{$small-only} {
-    flex-direction: column;
-  }
-  @media #{$medium-up} {
-    align-items: center;
-    padding: .8rem 1.5rem;
-     > * + * {
-      margin-left: 2rem;
-    }
-  }
-  @media #{$large-up} {
-     > * + * {
-      margin-left: 3rem;
+    z-index: 4;
+    @media #{$large-up} {
+      position: static;
     }
   }
 }
 
 .header__branding {
-  flex: 1 1 auto;
-  .brightly-colored-logo {
-    max-width: 190px;
-    transition: opacity 300ms ease-in-out;
-    @media #{$medium-up} {
-      max-width: 180px;
-    }
-  }
-  .logo__first-word {
-    fill: $primary-color;
-  }
-  .logo__second-word {
-    fill: $secondary-color;
-  }
+  height: 35.8px;
 }
 
-.logo {
-  &:hover,
-  &:focus {
-    .brightly-colored-logo {
-      opacity: .8;
-    }
-  }
+.brightly-colored-logo {
+  width: 180px;
 }
 
-.navigation {
-  @media #{$small-only} {
-    margin-top: .8rem;
-  }
-  @media #{$medium-up} {
-    display: flex;
-    flex: 2 1 auto;
-    justify-content: flex-end;
-  }
+.logo__first-word {
+  fill: white;
 }
 
-.primary-navigation {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  li {
-    font-size: .75rem;
-    font-weight: 600;
-    text-transform: uppercase;
-     + li {
-      margin-left: 1rem;
-    }
-    @media #{$medium-up} {
-      font-size: .7rem;
-    }
-  }
-}
-
-.header__search {
-  display: none;
-  @media #{$medium-up} {
-    display: block;
-    flex: 1 1 110px;
-  }
+.logo__second-word {
+  fill: lightgoldenrodyellow;
 }
