@@ -4,12 +4,14 @@
 // a button is clicked.
 // -----------------------------------------
 
-var tagList = document.querySelector('.tag-list');
-var button = document.getElementById('tag-list-toggle');
+// var tagList = document.querySelector('.tag-list');
+// var tagButton = document.getElementById('tag-list-toggle');
 
-function tagListReveal() {
-  tagList.classList.add('js-is-open');
-  button.remove();
-}
+// function tagListReveal() {
+//   tagList.classList.add('js-is-open');
+//   tagButton.remove();
+// }
 
-button.addEventListener("click", tagListReveal);
+// window.onload=function() {
+//   tagButton.addEventListener("click", tagListReveal);
+// }

@@ -3,8 +3,25 @@
 // -------------------------------
 
 .header {
+  align-items: center;
   background-color: $primary-color;
+  display: flex;
+  justify-content: space-between;
   padding: .5rem 1rem;
+  transition: position 100ms ease 600ms;
+  &.js-menu-is-open {
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 4;
+    @media #{$large-up} {
+      position: static;
+    }
+  }
+}
+
+.header__branding {
+  height: 35.8px;
 }
 
 .brightly-colored-logo {
