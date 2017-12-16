@@ -7,7 +7,6 @@ link_url: https://medium.com/@taliajane/an-open-letter-to-my-ceo-fb73df021e7a#.y
 date: 2016-02-22 08:30
 tags:
   - tech
-  - yelp
 ---
 
 Talia Jane:

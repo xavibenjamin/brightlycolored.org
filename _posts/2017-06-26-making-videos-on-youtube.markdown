@@ -1,7 +1,7 @@
 ---
 title: Making Videos on YouTube
 custom_type: post
-tags: [YouTube, videos, personal]
+tags: [ personal ]
 date: 2017-06-26 12:46
 ---
 

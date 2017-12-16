@@ -6,7 +6,7 @@ custom_type: link
 link_url: https://www.alfredapp.com/blog/announcements/alfred-v3-is-coming/
 tags:
   - apps
-  - alfred
+  - tech
 date: 2016-03-07 09:00
 ---
 From the Alfred blog:

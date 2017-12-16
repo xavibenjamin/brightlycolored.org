@@ -6,6 +6,8 @@
 //= require inline-search
 //= require social
 //= require heading-anchors
+//= require tag-list
+//= require mobile-menu
 
 jQuery(document).ready(function($) {
   $.bigfoot();

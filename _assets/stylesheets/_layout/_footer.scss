@@ -3,75 +3,72 @@
 // -------------------------------
 
 .footer {
-  background: lighten($primary-color, 5%);
-  margin-top: 4rem;
-   > * {
-    padding: 1.5rem;
-  }
+  // background-color: darken($secondary-color, 9%);
+  background-color: $jazz-color;
+  box-shadow: -10px 0 0 rgba(black, .1);
+  display: grid;
+  grid-column: span 2;
   @media #{$medium-up} {
-    display: grid;
+    align-items: center;
     grid-auto-rows: minmax(50px, auto);
-    grid-template-columns: .5fr 1fr 2fr;
-     > :nth-child(1) {
-      grid-column: span 2;
-      grid-row: span 2;
-    }
-     > :nth-child(4) {
-      grid-column: 2 / span 2;
-    }
+    grid-template-columns: repeat(5, 1fr);
   }
-  a {
-    text-decoration: none;
-  }
-  small {
-    display: block;
-    font-size: .7rem;
-     + small {
-      margin-top: .5rem;
-    }
-  }
-  .icon {
-    fill: white;
-  }
-  .slash-list li:before {
-    color: darken($border-color, 20%);
+  > * {
+    padding: 1.5rem;
   }
 }
 
 .footer__about {
-  background-color: darken($slate, 5%);
-  padding: 2rem 1rem;
-  p {
-    color: $footer-text-color;
-    font-size: .8rem;
-  }
-}
-
-.footer__logo {
-  svg {
-    width: 220px;
-  }
-  .logo__first-word {
-    fill: $primary-color;
-  }
-  .logo__second-word {
-    fill: white;
+  background-color: $jazz-color;
+  color: rgba(white, .8);
+  @media #{$medium-up} {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 2;
   }
 }
 
 .footer__subscribe {
-  background-color: lighten($border-color, 3%);
+  background-color: darken($secondary-color, 4%);
+  h6 {
+    color: white;
+    @extend %sans;
+    font-size: .7rem;
+  }
+  @media #{$medium-up} {
+    grid-column: span 2;
+  }
 }
 
 .footer__links {
-  background-color: desaturate(darken($border-color, 5%), 10%);
+  background-color: white;
+  h6 {
+    color: $body-color;
+    @extend %sans;
+    font-size: .7rem;
+  }
+  @media #{$medium-up} {
+    grid-column: span 2;
+    grid-row: 2;
+  }
 }
 
 .footer__copyright {
-  background-color: $primary-color;
-  color: white;
+  background-color: darken($secondary-color, 8%);
+  small {
+    color: lighten($secondary-color, 30%);
+    font-size: .8rem;
+  }
+  .icon {
+    fill: $primary-color;
+  }
   a {
-    color: white;
-    text-decoration: underline;
+    color: lighten($secondary-color, 30%);
+    &:hover,
+    &:focus {
+      color: white;
+    }
+  }
+  @media #{$medium-up} {
+    grid-column: span 6;
   }
 }

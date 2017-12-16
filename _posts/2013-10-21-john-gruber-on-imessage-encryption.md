@@ -6,8 +6,6 @@ custom_type: link
 link_url: http://daringfireball.net/2013/10/imessage_encryption
 tags:
   - apple
-  - iMessage
-  - encryption
   - security
 date: '2013-10-21 13:02:22'
 ---

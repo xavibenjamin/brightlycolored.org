@@ -3,102 +3,34 @@
 // -------------------------------
 
 .main {
-  padding: 2rem 0;
+  background-color: white;
+}
+.content {
+  padding: 3rem 0;
 }
 
-.posts {
-  .posts__post {
-    margin-bottom: 4rem;
-    @media #{$medium-up} {
-      margin-bottom: 8rem;
+// Shareable Post Styles ---------
+
+.posts__date {
+  margin-bottom: 3rem;
+
+  .current-day {
+    color: lighten($body-color, 15%);
+    display: block;
+    @extend %sans-con;
+    font-size: .95rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    @media #{$large-up} {
+      border-bottom: 0;
     }
-  }
-}
-
-.current-day {
-  border-bottom: 1px solid $border-color;
-  color: lighten($body-color, 15%);
-  display: block;
-  @extend %sans-con;
-  font-size: .85rem;
-  letter-spacing: 1.5px;
-  margin-bottom: 4rem;
-  text-transform: uppercase;
-  @media #{$large-up} {
-    border-bottom: 0;
-  }
-}
-
-.post__header {
-  h1 + h2 {
-    margin-top: 0;
-  }
-}
-
-.post__meta {
-  color: lighten($dark-color, 15%);
-  display: block;
-  font-size: .8rem;
-  line-height: 1;
-  margin-top: .8rem;
-  a,
-  a:hover,
-  a:focus {
-    color: lighten($dark-color, 15%);
-  }
-  @media #{$medium-up} {
-    font-size: .7rem;
-  }
-}
-
-.post__footer {
-  color: lighten($dark-color, 25%);
-  font-size: .8rem;
-  margin-top: 4rem;
-  @media #{$medium-up} {
-    font-size: .75rem;
-  }
-}
-
-.post-tags__title {
-  @extend %sans;
-  font-size: .6rem;
-  margin-bottom: .2rem;
-}
-
-.post__tags {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 1rem;
-  li {
-    font-size: .7rem;
-    font-weight: 600;
-    + li {
-      margin-left: 2rem;
-      position: relative;
-      &:before {
-        color: darken($border-color, 3%);
-        content: '/';
-        font-size: 1.1rem;
-        font-weight: normal;
-        left: -23px;
-        position: absolute;
-        top: -6px;
-      }
-    }
-  }
-  a,
-  a:hover,
-  a:focus {
-    color: lighten($dark-color, 25%);
-    text-decoration: none;
   }
 }
 
 .post__header {
   h1 {
     a {
-      color: $dark-color;
+      color: $heading-base-color;
       -webkit-hyphens: none;
       hyphens: none;
       text-decoration: none;
@@ -107,7 +39,72 @@
         color: $link-color;
       }
     }
+    + h2 {
+      margin-top: 0;
+    }
   }
+}
+
+.post__subtitle {
+  color: lighten($heading-base-color, 15%);
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.post__permalink {
+  display: block;
+  margin-top: 1.8rem;
+  a {
+    color: lighten($body-color, 15%);
+  }
+}
+
+.post__footer {
+  margin-top: 3rem;
+}
+
+// Post Author -------------------
+
+.post__author {
+  align-items: center;
+  display: grid;
+  grid-gap: .7rem;
+  grid-template-columns: 50px auto;
+  margin-bottom: 2rem;
+}
+
+.author__text {
+  color: lighten($body-color, 15%);
+  span {
+    display: block;
+    font-size: .73rem;
+  }
+  .post__date {
+    @extend %code;
+    text-transform: uppercase;
+  }
+}
+
+.author__name {
+  color: $heading-base-color;
+  font-size: .7rem;
+  font-weight: 600;
+  margin: 0;
+  text-transform: none;
+  a {
+    color: $heading-base-color;
+    text-decoration: none;
+  }
+}
+
+.author__title {
+  font-size: .7rem;
+  font-weight: normal;
+}
+
+.author__picture {
+  border-radius: 5px;
 }
 
 // Format Post -------------------
@@ -120,12 +117,6 @@
     font-size: 2.4rem;
     font-weight: 600;
     line-height: 1;
-  }
-}
-
-.posts {
-  #markdown-toc {
-    display: none;
   }
 }
 
@@ -175,7 +166,7 @@
 
   @media (min-width: 75em) {
     float: none;
-    left: -80px;
+    left: -30px;
     margin-left: 0;
     position: absolute;
   }
@@ -183,304 +174,150 @@
   @media #{$xxlarge-up} {
     left: 52px;
   }
-}
-
-.post {
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    &:hover {
-      .heading-link {
-        opacity: 1;
-      }
-    }
+  ul {
+    margin-left: 0;
   }
 }
 
-.heading-link {
-  color: lighten($dark-color, 45%);
-  font-size: .75em;
-  margin-left: .35rem;
-  opacity: 0;
-  position: relative;
-  text-decoration: none;
-  top: -2px;
-  transition: opacity 300ms ease-in-out;
-}
-
-.post__subtitle {
-  color: lighten($dark-color, 15%);
-  font-size: 1.8rem;
-  font-weight: 300;
-  line-height: 1.1;
-}
-
 // Format Link -------------------
+
 .format-link {
   .post__header {
-    margin-bottom: 1.2rem;
+    margin-bottom: .8rem;
   }
   h1 {
     font-size: 1.7rem;
     font-weight: normal;
     line-height: 1.2;
-    margin-bottom: .7rem;
     @media #{$medium-up} {
       font-size: 1.6rem;
     }
   }
   .arrow {
-    color: lighten($dark-color, 35%);
+    color: lighten($heading-base-color, 35%);
     font-size: 1.3rem;
     line-height: 100%;
     margin-left: .8rem;
   }
 }
 
-// ArtDirect Post ----------------
-.format-artdirect {
-  background: rgba($slate, .03);
-  padding: 10rem 0;
-  position: relative;
-  transition: box-shadow 500ms ease;
-  .post__title {
-    font-size: 2.5rem;
-    font-weight: 300;
-    a {
-      text-decoration: none;
+// Footnotes ---------------------
+
+.footnotes {
+  margin-top: 2rem;
+  &:before {
+    background-color: $primary-color;
+    content: '';
+    display: block;
+    height: 2px;
+    margin-bottom: 1rem;
+    width: 120px;
+  }
+  li,
+  p {
+    font-size: .8rem;
+  }
+  ol {
+    list-style-type: decimal-leading-zero;
+    padding-left: 2rem;
+  }
+  li + li {
+    margin-top: .5rem;
+  }
+}
+
+// Post Tags ---------------------
+
+.post-tags__title {
+  color: $heading-base-color;
+  @extend %sans;
+  font-size: .7rem;
+  margin-bottom: .2rem;
+}
+
+.post__tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  li {
+    font-size: .7rem;
+    font-weight: 600;
+    + li {
+      margin-left: 2rem;
+      position: relative;
+      &:before {
+        color: darken($border-color, 10%);
+        content: '/';
+        font-size: 1.1rem;
+        font-weight: normal;
+        left: -23px;
+        position: absolute;
+        top: -6px;
+      }
     }
   }
-  .post__lead {
-    color: lighten($dark-color, 20%);
-    @extend %sans;
-    font-size: 1.25rem;
-    font-weight: 300;
-    line-height: 1.4;
-  }
-}
-
-.type-artdirect {
-  h1 {
-    font-size: 2.4rem;
-    font-weight: 600;
-  }
-}
-
-.artdirect__type {
-  color: white;
-  font-size: 1.4rem;
-  font-style: italic;
-  padding: 30px 45px;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.custom-post__footer {
-  margin-top: 4rem;
-  text-align: center;
-  .post__meta {
-    margin: 0;
-  }
-  .post__tags {
-    margin-top: .4rem;
-  }
-}
-
-// Page Meta ---------------------
-.page__meta {
-  align-items: center;
-  display: grid;
-  grid-gap: .7rem;
-  grid-template-columns: 50px 1fr;
-  margin-bottom: 1.5rem;
-}
-
-.meta__text {
-  color: lighten($body-color, 10%);
-  span {
-    display: block;
-    font-size: .73rem;
-  }
-  .post__date {
-    font-family: Operator Mono, Inconsolata, 'Inconsolata-g for Powerline', monospace;
-    text-transform: uppercase;
-  }
-}
-
-.author__name {
-  color: $dark-color;
-  font-size: .7rem;
-  font-weight: 600;
-  margin: 0;
-  text-transform: none;
-  a {
-    color: $dark-color;
+  a,
+  a:hover,
+  a:focus {
     text-decoration: none;
   }
 }
 
-.author__title {
-  font-size: .7rem;
-  font-weight: normal;
-}
+// Related Posts -----------------
 
-// Post Author -------------------
-
-.post__author {
-  margin-top: 6rem;
-  .author {
-    border: 0;
-    padding: 0;
-    &:before {
-      background-color: $border-color;
-      content: '';
-      display: block;
-      height: 2px;
-      position: absolute;
-      top: -2.5rem;
-      width: 40%;
-    }
-  }
-}
-
-.authors {
-  margin-top: 1rem;
-}
-
-.author {
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: 1fr 4fr;
-  p {
-    color: $body-color;
-    font-size: .95rem;
-    @media #{$medium-up} {
-      font-size: .85rem;
-    }
-  }
-  + .author {
-    border-top: 1px solid $border-color;
-    margin-top: 1rem;
-    padding-top: 1rem;
-  }
-}
-
-.author__picture {
-  border-radius: 5px;
-}
-
-.author--single {
-  border-bottom: 1px solid $border-color;
-  padding-bottom: 2.3rem;
-  padding-top: 0;
-  .author__name {
-    font-size: 1.4rem;
-  }
-  .author__title {
-    color: lighten($body-color, 10%);
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    margin-top: 0;
-    text-transform: none;
-    &:before {
-      content: none;
-    }
-  }
-  p {
-    font-size: .9rem;
-  }
-}
-
-.author-profiles {
-  margin-top: 1.5rem;
-}
-
-// Related Posts ----------------
 .related-posts {
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-  ul {
-    display: flex;
-  }
-  .post-list {
-    width: 100%;
-  }
-  .post-list__item {
-    font-size: 1rem;
-    line-height: 1.2;
-    max-width: 230px;
-    + .post-list__item {
-      margin-left: 2rem;
-    }
-    a {
-      @extend %sans-con;
-      font-weight: 600;
-    }
-    .pubdate {
-      display: block;
-      font-size: .8rem;
-      margin-top: .3rem;
-      @media #{$medium-up} {
-        font-size: .7rem;
-      }
-    }
-  }
+  margin-top: 1.5rem;
+  width: 60%;
 }
 
 .related-posts__title {
-  font-size: .95rem;
-  margin-bottom: .5rem;
+  @extend %sans;
+  font-size: .7rem;
   margin-top: 0;
-  &:before {
-    display: none;
-  }
 }
-// Footnotes ---------------------
 
-.footnotes {
-  margin: 2.5rem 0;
-  ol {
-    margin: 0 0 0 2rem;
-    width: 83%;
-    li {
-      font-size: .9rem;
-      margin: 0;
-      padding: 0;
-      @media #{$medium-up} {
-        font-size: .8rem;
-      }
-      code {
-        font-size: .8rem;
-      }
-    }
+.post-list__item {
+  font-size: .75rem;
+  a {
+    text-decoration: none;
   }
-  hr {
-    background: $border-color;
+  .related__date {
+    color: lighten($body-color, 25%);
     display: block;
-    margin: 20px 0;
-    width: 150px;
+    font-size: .7rem;
+  }
+  .related__title {
+    font-weight: 600;
+  }
+  + .post-list__item {
+    margin-top: .5rem;
   }
 }
 
-// Media Queries on Post Type ----
 
-.p-body > *:not(.iframe-container):not(.card):not(.extendout):not(.photo-grid):not(.alignleft):not(.alignright):not(.small__right):not(.highlighter-rouge):not(.post__footer):not(.tag__section):not(table),
-.card > *,
-.highlighter-rouge > *,
-.extendout > *:not(img),
-.photo-grid > *:not(img),
-.post__footer > *:not(.card),
-.posts__date > * {
+// TEXT GRID ---------------------
+
+.content {
   margin-left: auto;
   margin-right: auto;
+  max-width: 1000px;
+  position: relative;
   width: 90%;
-  @media #{$large-up} {
-    width: 64%;
+  @media #{$medium-up} {
+    width: 94%;
   }
-  @media #{$xxlarge-up} {
-    width: 52%;
+}
+
+.p-body > *:not(.iframe-container):not(.card):not(.extendout):not(.photo-grid):not(.alignleft):not(.alignright):not(.small__right):not(.highlighter-rouge):not(.post__footer):not(.tag__section):not(table):not(.post__section):not(.page__header--full),
+.posts__date > .current-day,
+.post__footer,
+.highlighter-rouge,
+.photo-grid > *:not(img),
+.extendout > *:not(img),
+.card > * {
+  margin-left: auto;
+  margin-right: auto;
+  @media #{$medium-up} {
+    max-width: 575px;
   }
 }

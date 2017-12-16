@@ -1,0 +1,133 @@
+// -------------------------------
+// OBJECTS
+// -------------------------------
+
+// Responsive iFrame -------------
+
+.iframe-container {
+  height: 0;
+  margin-bottom: 2rem;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+}
+
+.iframe-container iframe,
+.iframe-container object,
+.iframe-container embed {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+// Card --------------------------
+// Basically a reusable panel that
+// sits behind anything.
+// -------------------------------
+
+.card {
+  padding: 2.5rem 0;
+  @media #{$medium-up} {
+    border-radius: $global-radius;
+  }
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.card--large {
+  margin: 1.5rem 0;
+}
+
+.card--light {
+  background-color: $border-color;
+  color: darken($border-color, 40%);
+  h2 {
+    color: darken($border-color, 40%);
+  }
+}
+
+.card--dark {
+  background-color: $slate-color;
+  color: lighten($slate-color, 40%);
+  h2 {
+    color: white;
+  }
+}
+
+.card--jazz {
+  background-color: $primary-color;
+  color: lighten($primary-color, 30%);
+  h2 {
+    color: white;
+  }
+  .button--primary {
+    background: $secondary-color;
+    &:focus,
+    &:hover {
+      background: lighten($secondary-color, 10%);
+    }
+  }
+}
+
+
+// Slash List --------------------
+// List component with little sla-
+// shes in between items.
+// -------------------------------
+
+.slash-list {
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    align-items: center;
+    display: flex;
+    font-size: .75rem;
+    line-height: 1.2;
+    &:not(:last-of-type) {
+      margin-right: 15px;
+      &:after {
+        color: darken($border-color, 10%);
+        content: '/';
+        font-size: 1.1rem;
+        font-weight: normal;
+        left: 7px;
+        position: relative;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.slash-list--large {
+  li {
+    font-size: .85rem;
+    line-height: 1.4;
+  }
+}
+
+.slash-list--secondary {
+  color: lighten($heading-base-color, 25%);
+  a {
+    color: lighten($heading-base-color, 25%);
+    &:hover,
+    &:focus {
+      color: lighten($heading-base-color, 25%);
+    }
+  }
+}
+
+.slash-list--bold {
+  font-weight: 600;
+}
+
+.slash-list__title {
+  @extend %sans;
+  font-size: .6rem;
+  line-height: 1;
+  margin-bottom: .2rem;
+}

@@ -6,7 +6,6 @@ author: timsmith
 tags:
   - tech
   - personal
-  - opinion
 date: 2017-12-07T23:52:39.430Z
 ---
 Ben Brooks on _The Brooks Review_:
