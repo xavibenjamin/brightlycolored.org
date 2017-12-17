@@ -27,7 +27,7 @@ var store = [{% for post in site.posts %}{
 }{% unless forloop.last %},{% endunless %}{% endfor %}]
 // builds search
 
-$(document).ready(function() {
+jQuery(document).ready(function() {
   var $search_input = $('#search-query'),
       resultdiv     = $('#results'),
       $search_query = $search_input.val();
@@ -43,7 +43,7 @@ $(document).ready(function() {
     // Loop through, match, and add results
     for (var item in result) {
       var ref = result[item].ref;
-      var searchitem = '<h3><a href="'+store[ref].link+'" class="post-title">'+store[ref].title+'</a><small class="pubdate">'+store[ref].date+'</h3>';
+      var searchitem = '<h3><a href="' + store[ref].link + '" class="post-title"><small class="pubdate">' + store[ref].date +'</small>'+store[ref].title+'</a></h3>';
       resultdiv.append(searchitem);
     }
 

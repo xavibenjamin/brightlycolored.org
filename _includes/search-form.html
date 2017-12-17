@@ -1,10 +1,10 @@
 <div id="search" class="{% if include.css_classes %}{{ include.css_classes }}{% endif %}">
   <form action="/search/" method="get">
-    <input type="text" id="search-query" class="search-input" name="q" placeholder="Search…" autocomplete="off" autocorrect="off">
+    <input type="search" id="search-query" class="search-input" name="q" placeholder="Search…" autocomplete="off" autocorrect="off">
   </form>
   {% unless page.url == '/search/' %}
     <div class="popover popover--top popover--medium popover--search">
-      <h4 class="header-search__title">Posts</h4>
+      <h4 class="header-search__title">Search Results</h4>
       <div id="results" class="search-results-list search-results-list--mini"></div>
       <div class="popover__shadow"></div>
     </div>

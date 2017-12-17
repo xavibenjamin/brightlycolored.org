@@ -131,3 +131,84 @@
   line-height: 1;
   margin-bottom: .2rem;
 }
+
+// Popover -----------------------
+// Component that looks like a
+// tooltip, but has more info in
+// it.
+// -------------------------------
+
+.popover {
+  background-color: white;
+  border: 1px solid rgba($body-color, .13);
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgba($body-color, .1);
+  left: 1rem;
+  opacity: 0;
+  padding: .8rem 1.2rem 0;
+  pointer-events: none;
+  position: absolute;
+  right: 1rem;
+  top: 49px;
+  transition: opacity .15s ease-in-out;
+  z-index: 100;
+  @media #{$medium-up} {
+    right: auto;
+  }
+  .header-search__title,
+  h3 {
+    color: $heading-base-color;
+    @extend %sans;
+    font-size: .7rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    margin-top: 0;
+  }
+  &.is-open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .search-results-list {
+    a {
+      font-size: .75rem;
+      text-decoration: none;
+    }
+
+    h3 {
+      @extend %sans;
+      font-size: .8rem;
+      font-weight: 600;
+    }
+
+    .pubdate {
+      color: lighten($body-color, 25%);
+      display: block;
+      font-weight: normal;
+    }
+
+    p,
+    .light-text {
+      color: lighten($body-color, 25%);
+      font-size: .75rem;
+    }
+  }
+}
+
+.popover--medium {
+  @media #{$medium-up} {
+    width: 500px;
+  }
+}
+
+.popover--search {
+  max-height: 500px;
+  min-height: 180px;
+  overflow: scroll;
+}
+
+.popover__shadow {
+  background: linear-gradient(rgba(white, .0), white);
+  bottom: 0;
+  height: 40px;
+  position: sticky;
+}
