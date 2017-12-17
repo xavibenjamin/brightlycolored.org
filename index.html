@@ -3,11 +3,7 @@ layout: default
 exclude_from_search: true
 custom_css_class: home
 excerpt: Brightly Colored is a personal blog written by Tim Smith about design, development, technology, Apple, and whatever else he finds himself curious about.
-pagination:
-  enabled: true
 ---
-
-
 <section class="posts">
   {% for post in site.posts %}
     {% capture post_date %}{{ post.date | date: "%B·%d·%Y" }}{% endcapture %}
@@ -26,10 +22,10 @@ pagination:
           {% if post.custom_type == 'post' %}
           <header class="post__header">
             <h1>
-              <a href="{{ post.url }}">{{ post.title | smartify }}</a>
+              <a href="{{ post.url }}">{{ post.title | smartify | widont }}</a>
             </h1>
             {% if post.subtitle %}
-            <h2 class="post__subtitle">{{ post.subtitle | smartify }}</h2>
+            <h2 class="post__subtitle">{{ post.subtitle | smartify | widont }}</h2>
             {% endif %}
           </header>
         
@@ -38,7 +34,7 @@ pagination:
         {% elsif post.custom_type == 'link' %}
           <header class="post__header">
             <h1>
-              <a href="{{ post.link_url }}">{{ post.title | smartify }}</a>
+              <a href="{{ post.link_url }}">{{ post.title | smartify | widont }}</a>
               <span class="arrow">&rarr;</span>
             </h1>
           </header>

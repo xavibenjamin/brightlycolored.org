@@ -1,4 +1,3 @@
-
 <header id="header" class="header" role="banner">
   <div class="header__branding">
     <a href="/" class="logo">
@@ -6,5 +5,13 @@
     </a>
   </div>
 
+  <button id="search-input-toggle" class="no-button header__search-button">
+    {% include icons/icon-search.html %}
+  </button>
+
   {% include icons/icon-hamburger.html %}
+
+  {% include search-form.html css_classes="header__search" %}
 </header><!-- .site__header-->
+
+

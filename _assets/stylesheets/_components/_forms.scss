@@ -1,3 +1,17 @@
 // -------------------------------
 // FORMS
 // -------------------------------
+
+
+// -----------------------------------------
+// HEADER SEARCH
+// -----------------------------------------
+
+.header__search {
+  .search-input {
+    background-color: $light-bg-color;
+    border-bottom: 1px solid $border-color;
+    padding: .93rem 1rem;
+    width: 100%;
+  }
+}
