@@ -1,7 +1,7 @@
 ---
 title: "Thor: Ragnarok | Retake"
 link_url: https://nightowl.fm/retake/27
-tags: [ podcasts, movies, marvel ]
+tags: [ podcasts, movies, marvel, movie review ]
 date: 2017-12-13 10:57
 ---
 
