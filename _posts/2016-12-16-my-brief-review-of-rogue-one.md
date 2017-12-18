@@ -3,7 +3,7 @@ title: "My Brief Review of ‘Rogue One: A Star Wars Story’"
 custom_type: post
 categories: articles briefreview
 subtitle: The first of the non-saga <em>Star Wars</em> movies has finally come out, and I really liked it
-tags: [star wars, brief review, movies]
+tags: [star wars, brief review, movies, movie review]
 date: 2016-12-16 22:29
 director: Gareth Edwards
 mpaa_rating: PG-13
