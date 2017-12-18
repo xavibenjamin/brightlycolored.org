@@ -98,7 +98,7 @@ h5 {
   margin: 3rem 0 .1875rem;
   text-transform: uppercase;
   &:before {
-    // background: $border-color;
+    background-color: $border-color;
     content: '';
     display: block;
     height: 1px;
@@ -114,7 +114,7 @@ h6 {
   text-transform: uppercase;
 }
 
-.p-body > ul:not(.slash-list),
+.p-body > ul:not(.slash-list):not(.author-archive),
 blockquote > ul {
   list-style-type: square;
   margin-bottom: 1.1rem;

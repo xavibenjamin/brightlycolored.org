@@ -12,7 +12,6 @@ group :jekyll_plugins do
   gem 'jekyll-assets', '~> 2.2', '>= 2.2.8'
   gem 'jekyll-compose', '~> 0.4.1'
   gem 'jekyll-livereload'
-  gem 'jekyll-paginate-v2'
   gem 'jekyll-sitemap'
   gem 'jekyll-tagging-related_posts'
   gem 'jekyll-typogrify'

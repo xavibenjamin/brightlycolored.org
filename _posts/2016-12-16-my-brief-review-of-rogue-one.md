@@ -5,6 +5,10 @@ categories: articles briefreview
 subtitle: The first of the non-saga <em>Star Wars</em> movies has finally come out, and I really liked it
 tags: [star wars, brief review, movies]
 date: 2016-12-16 22:29
+director: Gareth Edwards
+mpaa_rating: PG-13
+genres: [action, adventure, sci-fi]
+rating: 3.5
 ---
 
 {% figure extendout /uploads/2016/12/rogue-one-jyn-erso.jpg "Felicity Jones as Jyn Erso in <em>Rogue One</em>." %}
@@ -26,8 +30,6 @@ Seriously people, **spoilers**. You've been warned.
 - The first two acts are a bit slow, and unfortunately don't use the time to give more information about the supporting characters.
 - Everyone dies. *Everyone*. That was a surprise for me, but made sense.
 - All in all, I really liked it, but *The Force Awakens* is still my favorite of the recent *Star Wars* movies.
-
-Rating: **B+**
 
 ---
 

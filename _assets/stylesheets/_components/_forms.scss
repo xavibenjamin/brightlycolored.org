@@ -8,10 +8,59 @@
 // -----------------------------------------
 
 .header__search {
+  overflow: hidden;
   .search-input {
     background-color: $light-bg-color;
     border-bottom: 1px solid $border-color;
     padding: .93rem 1rem;
     width: 100%;
+  }
+}
+
+// -------------------------------
+// NEWSLETTER INPUT
+// -------------------------------
+.newsletter {
+  form {
+    display: grid;
+    grid-gap: .5rem;
+    margin-top: 1rem;
+    @media #{$medium-up} {
+      grid-template-columns: auto 110px;
+    }
+  }
+  input {
+    border-radius: $global-radius;
+    color: $body-color;
+    font-size: .85rem;
+    max-height: 45px;
+    padding: .65rem;
+    transition: .2s ease-in-out;
+    width: 100%;
+    &:focus {
+      background: lighten(#FEFFDA, 3%);
+    }
+  }
+  .btn {
+    font-size: .85rem;
+    padding-bottom: .65rem;
+    padding-top: .65rem;
+    width: 100%;
+  }
+  p {
+    line-height: 1.3;
+  }
+}
+
+.newsletter__inputs {
+  display: grid;
+  grid-gap: .5rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.newsletter__thankyou {
+  margin-top: .8rem;
+  p {
+    font-size: .85rem;
   }
 }

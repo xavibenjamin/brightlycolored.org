@@ -12,7 +12,7 @@
 // Shareable Post Styles ---------
 
 .posts__date {
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 
   .current-day {
     color: lighten($body-color, 15%);
@@ -24,6 +24,14 @@
     @media #{$large-up} {
       border-bottom: 0;
     }
+  }
+}
+
+.day-posts {
+  + .day-posts {
+    border-top: 1px solid $border-color;
+    margin-top: 6rem;
+    padding-top: 6rem;
   }
 }
 
@@ -54,6 +62,7 @@
 
 .post__permalink {
   display: block;
+  font-size: .75rem;
   margin-top: 1.8rem;
   a {
     color: lighten($body-color, 15%);
@@ -164,7 +173,7 @@
     width: 100%;
   }
 
-  @media (min-width: 75em) {
+  @media (min-width: 80em) {
     float: none;
     left: -30px;
     margin-left: 0;
@@ -176,6 +185,75 @@
   }
   ul {
     margin-left: 0;
+  }
+}
+
+.post {
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    &:hover {
+      .heading-link {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.heading-link {
+  color: lighten($heading-base-color, 45%);
+  font-size: .85em;
+  margin-left: .4rem;
+  opacity: 0;
+  position: relative;
+  text-decoration: none;
+  // top: -2px;
+  transition: opacity 300ms ease-in-out;
+}
+
+// Movie Info --------------------
+
+.movie__info {
+  font-size: .7rem;
+  margin-top: .8rem;
+  @media #{$medium-up} {
+    display: flex;
+    margin-top: 1.5rem;
+  }
+  strong {
+    display: block;
+  }
+  > * {
+    display: block;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    @media #{$medium-up} {
+      padding-bottom: .4rem;
+      padding-top: .4rem;
+    }
+  }
+  > * + * {
+    border-top: 1px solid $border-color;
+    @media #{$medium-up} {
+      border-left: 1px solid $border-color;
+      border-top: none;
+      display: block;
+      margin-left: 1.1rem;
+      padding-left: 1.1rem;
+    }
+  }
+  .mpaa-rating {
+    @extend %code;
+  }
+}
+
+.post__rating {
+  align-items: center;
+  display: flex;
+  * + * {
+    margin-left: .15rem;
   }
 }
 
@@ -274,6 +352,9 @@
   @extend %sans;
   font-size: .7rem;
   margin-top: 0;
+  &:before {
+    content: none;
+  }
 }
 
 .post-list__item {
@@ -298,12 +379,12 @@
 // TEXT GRID ---------------------
 
 .content {
-  margin-left: auto;
-  margin-right: auto;
   max-width: 1000px;
   position: relative;
-  width: 90%;
+  // width: 90%;
   @media #{$medium-up} {
+    margin-left: auto;
+    margin-right: auto;
     width: 94%;
   }
 }
@@ -317,7 +398,9 @@
 .card > * {
   margin-left: auto;
   margin-right: auto;
+  width: 90%;
   @media #{$medium-up} {
     max-width: 575px;
+    width: 100%;
   }
 }
