@@ -25,3 +25,13 @@ body {
 svg {
   max-width: 100%;
 }
+
+// -------------------------------
+// HIDE
+// -------------------------------
+
+.screen-reader-hide {
+  left: -9999px;
+  position: absolute;
+  top: -9999px;
+}

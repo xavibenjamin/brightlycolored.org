@@ -28,7 +28,7 @@
 // -------------------------------
 
 .card {
-  padding: 2.5rem 0;
+  padding: 3.5rem 0;
   @media #{$medium-up} {
     border-radius: $global-radius;
   }
@@ -42,10 +42,10 @@
 }
 
 .card--light {
-  background-color: $border-color;
-  color: darken($border-color, 40%);
+  background-color: lighten($secondary-color, 75%);
+  color: $body-color;
   h2 {
-    color: darken($border-color, 40%);
+    color: $heading-base-color;
   }
 }
 
@@ -170,19 +170,20 @@
   }
   .search-results-list {
     a {
-      font-size: .75rem;
+      display: inline-block;
       text-decoration: none;
     }
 
     h3 {
       @extend %sans;
-      font-size: .8rem;
+      font-size: .75rem;
       font-weight: 600;
     }
 
     .pubdate {
       color: lighten($body-color, 25%);
       display: block;
+      font-size: .7rem;
       font-weight: normal;
     }
 
