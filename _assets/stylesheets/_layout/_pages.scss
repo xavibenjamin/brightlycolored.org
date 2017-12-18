@@ -7,6 +7,11 @@
 }
 
 .page__header--full {
+  @media #{$small-only} {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
   @media #{$medium-up} {
     width: 70%;
   }
@@ -26,7 +31,11 @@
 
 // Archive -----------------------
 .post__section {
-  grid-column: 1 / -1;
+  @media #{$small-only} {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
   + .post__section {
     margin-top: 5rem;
   }
@@ -80,6 +89,11 @@
   max-height: 224px;
   overflow: hidden;
   position: relative;
+  @media #{$small-only} {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
   @media #{$medium-up} {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -124,9 +138,23 @@
   }
 }
 
+#tag-list-toggle {
+  @media #{$small-only} {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+}
+
 .tag__section {
   padding: 3rem 0;
   position: relative;
+  @media #{$small-only} {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
   &:hover {
     .tag__return-home {
       opacity: 1;
