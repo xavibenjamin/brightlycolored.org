@@ -228,3 +228,59 @@
   transition: opacity .2s ease-in-out;
   vertical-align: middle;
 }
+
+// -----------------------------------------
+// AUTHOR PAGE
+// -----------------------------------------
+
+.author {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 100px auto;
+  margin-bottom: 3rem;
+}
+
+.author--single {
+  align-items: center;
+  .author__name {
+    font-size: 1.4rem;
+  }
+
+  .author__title {
+    color: lighten($body-color, 15%);
+    @extend %sans;
+    font-size: .9rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    text-transform: none;
+    &:before {
+      content: none;
+    }
+  }
+}
+
+.author-archive {
+  list-style: none;
+  margin-top: 1rem;
+
+  li {
+    + li {
+      margin-top: 1rem;
+    }
+  }
+
+  a {
+    display: block;
+    font-size: .8rem;
+    font-weight: 600;
+    line-height: 1.4;
+    text-decoration: none;
+  }
+
+  .pubdate {
+    color: lighten($body-color, 20%);
+    display: block;
+    font-size: .7rem;
+    font-weight: normal;
+  }
+}

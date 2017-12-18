@@ -173,7 +173,7 @@
     width: 100%;
   }
 
-  @media (min-width: 75em) {
+  @media (min-width: 80em) {
     float: none;
     left: -30px;
     margin-left: 0;
@@ -186,6 +186,31 @@
   ul {
     margin-left: 0;
   }
+}
+
+.post {
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    &:hover {
+      .heading-link {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.heading-link {
+  color: lighten($heading-base-color, 45%);
+  font-size: .85em;
+  margin-left: .4rem;
+  opacity: 0;
+  position: relative;
+  text-decoration: none;
+  // top: -2px;
+  transition: opacity 300ms ease-in-out;
 }
 
 // Movie Info --------------------
@@ -327,6 +352,9 @@
   @extend %sans;
   font-size: .7rem;
   margin-top: 0;
+  &:before {
+    content: none;
+  }
 }
 
 .post-list__item {

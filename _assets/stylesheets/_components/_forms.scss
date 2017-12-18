@@ -8,6 +8,7 @@
 // -----------------------------------------
 
 .header__search {
+  overflow: hidden;
   .search-input {
     background-color: $light-bg-color;
     border-bottom: 1px solid $border-color;
