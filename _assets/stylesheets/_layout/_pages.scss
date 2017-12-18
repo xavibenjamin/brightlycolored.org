@@ -101,7 +101,7 @@
     grid-template-columns: repeat(4, 1fr);
   }
   &:after {
-    background-image: linear-gradient(transparent, #FFF 90%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0px, #FFF 100%, #FFF 100%) repeat-x scroll 0 0 transparent;
     bottom: 0;
     content: '';
     grid-column: 1 / -1;
