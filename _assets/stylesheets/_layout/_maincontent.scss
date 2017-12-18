@@ -12,7 +12,7 @@
 // Shareable Post Styles ---------
 
 .posts__date {
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 
   .current-day {
     color: lighten($body-color, 15%);
@@ -24,6 +24,14 @@
     @media #{$large-up} {
       border-bottom: 0;
     }
+  }
+}
+
+.day-posts {
+  + .day-posts {
+    border-top: 1px solid $border-color;
+    margin-top: 6rem;
+    padding-top: 6rem;
   }
 }
 
@@ -54,6 +62,7 @@
 
 .post__permalink {
   display: block;
+  font-size: .75rem;
   margin-top: 1.8rem;
   a {
     color: lighten($body-color, 15%);

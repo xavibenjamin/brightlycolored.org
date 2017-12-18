@@ -6,8 +6,8 @@ excerpt: Brightly Colored is a personal blog written by Tim Smith about design, 
 ---
 <section class="posts">
   {% for post in site.posts %}
-    {% capture post_date %}{{ post.date | date: "%B·%d·%Y" }}{% endcapture %}
-    {% assign current_date = site.posts.first.date | date: "%B·%d·%Y" %}
+    {% capture post_date %}{{ post.date | date: "%A, %B %d, %Y" }}{% endcapture %}
+    {% assign current_date = site.posts.first.date | date: "%A, %B %d, %Y" %}
 
     {% if post_date == current_date %}
 
@@ -44,7 +44,7 @@ excerpt: Brightly Colored is a personal blog written by Tim Smith about design, 
           {{ post.content | improve }}
 
           <small class="post__permalink">
-            <a href="{{ post.url }}">#</a>
+            <a href="{{ post.url }}" title="Permalink for {{ post.title }}">Permalink</a>
           </small>
         {% endif %}
 
