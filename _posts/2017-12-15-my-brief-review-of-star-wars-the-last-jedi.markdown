@@ -3,7 +3,10 @@ title: "My Brief Review of ‘Star Wars: The Last Jedi’"
 subtitle: The latest of the Star Wars saga films is a fresh, new, and exciting chapter of my favorite franchise
 custom_type: post
 tags: [ movies, star wars, brief review ]
-rating: 5
+rating: 4.5
+director: Rian Johnson
+genres: [ action, adventure, sci-fi ]
+mpaa_rating: PG-13
 ---
 
 {% figure extendout /uploads/media/luke-skywalker.jpg "Mark Hamill as Luke Skywalker (Disney/Lucasfilm)" %}

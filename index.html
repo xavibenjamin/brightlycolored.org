@@ -27,6 +27,8 @@ excerpt: Brightly Colored is a personal blog written by Tim Smith about design, 
             {% if post.subtitle %}
             <h2 class="post__subtitle">{{ post.subtitle | smartify | widont }}</h2>
             {% endif %}
+
+            {% include movie-info.html %}
           </header>
         
           {{ post.content | improve }}
@@ -45,6 +47,11 @@ excerpt: Brightly Colored is a personal blog written by Tim Smith about design, 
             <a href="{{ post.url }}">#</a>
           </small>
         {% endif %}
+
+          <footer class="post__footer">
+            {% include tags.html %}
+          </footer>
+
         </article>
       </div>
 

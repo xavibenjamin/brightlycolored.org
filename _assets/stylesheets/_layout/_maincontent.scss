@@ -179,6 +179,50 @@
   }
 }
 
+// Movie Info --------------------
+
+.movie__info {
+  font-size: .7rem;
+  margin-top: .8rem;
+  @media #{$medium-up} {
+    display: flex;
+    margin-top: 1.5rem;
+  }
+  strong {
+    display: block;
+  }
+  > * {
+    display: block;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    @media #{$medium-up} {
+      padding-bottom: .4rem;
+      padding-top: .4rem;
+    }
+  }
+  > * + * {
+    border-top: 1px solid $border-color;
+    @media #{$medium-up} {
+      border-left: 1px solid $border-color;
+      border-top: none;
+      display: block;
+      margin-left: 1.1rem;
+      padding-left: 1.1rem;
+    }
+  }
+  .mpaa-rating {
+    @extend %code;
+  }
+}
+
+.post__rating {
+  align-items: center;
+  display: flex;
+  * + * {
+    margin-left: .15rem;
+  }
+}
+
 // Format Link -------------------
 
 .format-link {
@@ -298,12 +342,12 @@
 // TEXT GRID ---------------------
 
 .content {
-  margin-left: auto;
-  margin-right: auto;
   max-width: 1000px;
   position: relative;
-  width: 90%;
+  // width: 90%;
   @media #{$medium-up} {
+    margin-left: auto;
+    margin-right: auto;
     width: 94%;
   }
 }
@@ -317,7 +361,9 @@
 .card > * {
   margin-left: auto;
   margin-right: auto;
+  width: 90%;
   @media #{$medium-up} {
     max-width: 575px;
+    width: 100%;
   }
 }
