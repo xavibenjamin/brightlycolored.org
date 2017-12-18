@@ -28,6 +28,11 @@ figcaption {
 
 .alignleft,
 .alignright {
+  @media #{$small-only} {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
   @media #{$medium-up} {
     align-items: flex-end;
     display: flex;
@@ -38,12 +43,10 @@ figcaption {
     }
   }
   figcaption {
-    padding-left: 5%;
-    padding-right: 5%;
-    width: 25%;
     @media #{$medium-up} {
       padding-left: 1.8%;
       padding-right: 1.8%;
+      width: 25%;
     }
   }
 }
