@@ -125,6 +125,7 @@ blockquote > ul {
     + li {
       margin-top: .5rem;
     }
+
     @media #{$medium-up} {
       font-size: 1rem;
     }
@@ -132,6 +133,11 @@ blockquote > ul {
       list-style: circle;
       margin-left: 1.5rem;
       margin-top: .5rem;
+    }
+  }
+  > li {
+    @media #{$small-only} {
+      margin-left: 1.3rem;
     }
   }
 }
@@ -153,6 +159,11 @@ blockquote > ol {
       list-style-type: lower-roman;
       margin-left: 1.5rem;
       margin-top: .5rem;
+    }
+  }
+  > li {
+    @media #{$small-only} {
+      margin-left: 1.5rem;
     }
   }
 }
