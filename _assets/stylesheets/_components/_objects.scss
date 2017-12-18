@@ -1,0 +1,216 @@
+// -------------------------------
+// OBJECTS
+// -------------------------------
+
+// Responsive iFrame -------------
+
+.iframe-container {
+  height: 0;
+  margin-bottom: 2rem;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+}
+
+.iframe-container iframe,
+.iframe-container object,
+.iframe-container embed {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+// Card --------------------------
+// Basically a reusable panel that
+// sits behind anything.
+// -------------------------------
+
+.card {
+  padding: 3.5rem 0;
+  @media #{$medium-up} {
+    border-radius: $global-radius;
+  }
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.card--large {
+  margin: 1.5rem 0;
+}
+
+.card--light {
+  background-color: lighten($secondary-color, 75%);
+  color: $body-color;
+  h2 {
+    color: $heading-base-color;
+  }
+}
+
+.card--dark {
+  background-color: $slate-color;
+  color: lighten($slate-color, 40%);
+  h2 {
+    color: white;
+  }
+}
+
+.card--jazz {
+  background-color: $primary-color;
+  color: lighten($primary-color, 30%);
+  h2 {
+    color: white;
+  }
+  .button--primary {
+    background: $secondary-color;
+    &:focus,
+    &:hover {
+      background: lighten($secondary-color, 10%);
+    }
+  }
+}
+
+
+// Slash List --------------------
+// List component with little sla-
+// shes in between items.
+// -------------------------------
+
+.slash-list {
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    align-items: center;
+    display: flex;
+    font-size: .75rem;
+    line-height: 1.2;
+    &:not(:last-of-type) {
+      margin-right: 15px;
+      &:after {
+        color: darken($border-color, 10%);
+        content: '/';
+        font-size: 1.1rem;
+        font-weight: normal;
+        left: 7px;
+        position: relative;
+        top: -2px;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.slash-list--large {
+  li {
+    font-size: .85rem;
+    line-height: 1.4;
+  }
+}
+
+.slash-list--secondary {
+  color: lighten($heading-base-color, 25%);
+  a {
+    color: lighten($heading-base-color, 25%);
+    &:hover,
+    &:focus {
+      color: lighten($heading-base-color, 25%);
+    }
+  }
+}
+
+.slash-list--bold {
+  font-weight: 600;
+}
+
+.slash-list__title {
+  @extend %sans;
+  font-size: .6rem;
+  line-height: 1;
+  margin-bottom: .2rem;
+}
+
+// Popover -----------------------
+// Component that looks like a
+// tooltip, but has more info in
+// it.
+// -------------------------------
+
+.popover {
+  background-color: white;
+  border: 1px solid rgba($body-color, .13);
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgba($body-color, .1);
+  left: 1rem;
+  opacity: 0;
+  padding: .8rem 1.2rem 0;
+  pointer-events: none;
+  position: absolute;
+  right: 1rem;
+  top: 49px;
+  transition: opacity .15s ease-in-out;
+  z-index: 100;
+  @media #{$medium-up} {
+    right: auto;
+  }
+  .header-search__title,
+  h3 {
+    color: $heading-base-color;
+    @extend %sans;
+    font-size: .7rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    margin-top: 0;
+  }
+  &.is-open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .search-results-list {
+    a {
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    h3 {
+      @extend %sans;
+      font-size: .75rem;
+      font-weight: 600;
+    }
+
+    .pubdate {
+      color: lighten($body-color, 25%);
+      display: block;
+      font-size: .7rem;
+      font-weight: normal;
+    }
+
+    p,
+    .light-text {
+      color: lighten($body-color, 25%);
+      font-size: .75rem;
+    }
+  }
+}
+
+.popover--medium {
+  @media #{$medium-up} {
+    width: 500px;
+  }
+}
+
+.popover--search {
+  max-height: 500px;
+  min-height: 180px;
+  overflow: scroll;
+}
+
+.popover__shadow {
+  background: linear-gradient(rgba(white, .0), white);
+  bottom: 0;
+  height: 40px;
+  position: sticky;
+}

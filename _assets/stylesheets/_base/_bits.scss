@@ -1,0 +1,25 @@
+
+// -------------------------------
+// BITS
+// -------------------------------
+
+
+// COLORS ------------------------
+$primary-color: #F30F4C;
+// $primary-color: #C93A90;
+// $secondary-color: #1C1439;
+$secondary-color: #212836;
+$slate-color: #383C40;
+$jazz-color: #F30F4C;
+
+// TEXT COLOR --------------------
+$body-color: #444;
+$heading-base-color: $body-color;
+$link-color: #0881B3;
+
+// BG AND BORDER COLORS ----------
+$border-color: #EEE;
+$light-bg-color: lighten($border-color, 4%);
+
+// GLOBAL RADIUS
+$global-radius: 2px;

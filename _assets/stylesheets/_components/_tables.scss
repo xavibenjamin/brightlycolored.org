@@ -3,26 +3,26 @@
 // -------------------------------
 
 table {
-  border-collapse: collapse;
   border: 1px solid $border-color;
-  width: 90%;
-  margin: 1.5rem auto;
-  font-family: "Operator Mono", Inconsolata, 'Inconsolata-g for Powerline', monospace;
+  border-collapse: collapse;
+  font-family: 'Operator Mono', Inconsolata, 'Inconsolata-g for Powerline', monospace;
   font-size: .9rem;
+  margin: 1.5rem auto;
+  width: 90%;
   tbody tr:nth-child(odd) {
     background-color: lighten($border-color, 4%);
   }
 }
 
 thead th {
+  color: $body-color;
   font-weight: 600;
   min-width: 90px;
-  color: $dark-color;
 }
 
 th,
 td {
-  padding: .5rem .8rem;
   border-bottom: 1px solid $border-color;
   border-right: 1px solid $border-color;
+  padding: .5rem .8rem;
 }

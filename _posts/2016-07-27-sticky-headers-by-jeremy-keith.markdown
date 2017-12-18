@@ -5,7 +5,6 @@ categories: link
 custom_type: link
 link_url: https://adactio.com/journal/10877
 tags:
-  - accessibility
   - CSS
 date: 2016-07-27 00:31
 ---

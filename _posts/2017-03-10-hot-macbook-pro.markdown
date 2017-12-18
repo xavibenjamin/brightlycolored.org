@@ -3,7 +3,7 @@ title: MacBook Pro Running Hot
 subtitle: How to improve performance and prevent early death
 author: tjdraper
 custom_type: post
-tags: [MacBook Pro, heat issues, computer performance]
+tags: [MacBook Pro, tech]
 date: 2017-03-10 10:30
 ---
 

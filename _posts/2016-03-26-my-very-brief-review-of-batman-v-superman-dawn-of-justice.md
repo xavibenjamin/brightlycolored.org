@@ -10,6 +10,10 @@ tags:
   - movies
 date: '2016-03-26 01:06:42'
 subtitle: Didn't love it, didn't hate it.
+director: Zack Snyder
+mpaa_rating: PG-13
+genres: [action, adventure, sci-fi]
+rating: 2.5
 ---
 {% figure extendout /uploads/2016/03/batmanvsuperman.jpg "I specifically chose an image that had Wonder Woman in the center. She was my favorite character." %}
 
@@ -20,5 +24,3 @@ Ben Affleck as Batman is great. He's tough, rugged, and jaded. I was very impres
 The score is really good. Wonder Woman's and Lex Luthor's theme's feel perfect. In fact, Luthor's theme is so good that Eisenberg's performance doesn't come close to doing it justice. I was disappointed with Batman's theme though. In fact, I couldn't actually tell if he had one. To be fair, I was expecting Hans Zimmer to compose something similar to that of *The Dark Knight* trilogy.
 
 All in all, I'd say to watch this once, and be done.
-
-Rating: **C-**

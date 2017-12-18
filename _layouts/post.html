@@ -4,30 +4,26 @@ custom_css_class: single
 ---
 
 <article class="post format-{% if page.custom_type %}{{ page.custom_type }}{% endif %} p-body">
-
   <header class="post__header">
-    {% include post-meta.html %}
+    {% include post-author.html %}
 
     {% if page.link_url %}
-      <h1><a href="{{ page.link_url }}">{{ page.title | smartify }}</a><span class="arrow">&rarr;</span></h1>
+      <h1><a href="{{ page.link_url }}">{{ page.title | smartify | widont }}</a><span class="arrow">&rarr;</span></h1>
     {% else %}
-      <h1>{{ page.title | smartify }}</h1>
+      <h1>{{ page.title | smartify | widont }}</h1>
       {% if page.subtitle %}
-        <h2 class="post__subtitle">{{ page.subtitle | smartify }}</h2>
+        <h2 class="post__subtitle">{{ page.subtitle | smartify | widont }}</h2>
       {% endif %}
     {% endif %}
+
+    {% include movie-info.html %}
+    
   </header>
 
   {{ content | improve }}
 
   <footer class="post__footer">
     {% include tags.html %}
-
-    <section class="card card--light card--large">
-
-      <h2>{% if page.link_url %}Spicy links here!{% else %}Those words be written good!{% endif %}</h2>
-      {% include newsletter-form.html text="Get more of them in your inbox every Friday." %}
-    </section>
 
     {% include related-posts.html %}
   </footer>
