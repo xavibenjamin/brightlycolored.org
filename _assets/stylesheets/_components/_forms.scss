@@ -12,8 +12,10 @@
     overflow: hidden;
   }
   .search-input {
+    -webkit-appearance: none;
     background-color: $light-bg-color;
     border-bottom: 1px solid $border-color;
+    border-radius: 0;
     padding: .93rem 1rem;
     width: 100%;
   }

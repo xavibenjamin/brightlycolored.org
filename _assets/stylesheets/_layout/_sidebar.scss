@@ -6,19 +6,17 @@
   background-color: darken($secondary-color, 4%);
   bottom: 0;
   box-shadow: -10px 0 0 rgba(black, .1);
-  left: 0;
-  position: fixed;
-  right: 0;
-  top: 51.8px;
-  transform: translateX(-100%);
-  transition: transform 600ms ease;
+  height: 0;
+  overflow: hidden;
+  transition: height 300ms ease;
   z-index: 4;
   @media #{$large-up} {
+    height: auto;
+    overflow: auto;
     position: static;
-    transform: translateX(0);
   }
   &.js-menu-is-open {
-    transform: translateX(0);
+    height: 196px;
   }
 }
 
