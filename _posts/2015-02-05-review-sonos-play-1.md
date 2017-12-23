@@ -1,12 +1,16 @@
 ---
-layout: post
 title: 'Review: Sonos Play:1'
-categories: articles best
+subtitle: Sonos adds an excellent and affordable product to their lineup
 custom_type: post
 tags:
   - review
   - sonos
 date: '2015-02-05 13:03:15'
+rating: 4
+brand: Sonos
+vendor: Amazon
+price: 147
+review_url: http://amzn.to/2zmQvRd
 ---
 
 * contents

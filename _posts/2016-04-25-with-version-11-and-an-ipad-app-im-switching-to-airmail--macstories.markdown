@@ -6,7 +6,7 @@ custom_type: link
 link_url: http://www.macstories.net/reviews/with-version-1-1-and-an-ipad-app-im-switching-to-airmail/
 tags:
   - apps
-  - review
+  - reviews
 date: 2016-04-25 14:43
 ---
 Federico Viticci on *MacStories*:

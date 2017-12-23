@@ -60,8 +60,14 @@ excerpt: Topics covered on Brightly Colored.
             {% if tag[0] == 'NBA' %}<p>Basketball is my favorite sport. I like the way they dribble up and down the court.</p>{% endif %}
             {% if tag[0] == 'year in review' %}<p>My yearly tradition of summing up what I’ve done in the past year.</p>{% endif %}
             {% if tag[0] == 'CSS' %}<p>The frontend technology I’ve focused my career on.</p>{% endif %}
+            {% if tag[0] == 'review' %}<p>A collection of all the movie, app, product, and book reviews I’ve done.</p>{% endif %}
+            {% if tag[0] == 'reviews' %}<p>These are all reviews I’ve linked to and <strong>were not</strong> written by me.</p>{% endif %}
             <ul class="topic-list">
-              {% for post in tag.last %}<li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+              {% for post in tag.last %}
+                <li>
+                  <a href="{{ post.url }}">{{ post.title | caps }}</a>
+                </li>
+              {% endfor %}
             </ul>
             <a href="#page-title" class="tag__return-home">Back to Top &uarr;</a>
         </section>
