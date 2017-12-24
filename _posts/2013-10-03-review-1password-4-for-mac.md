@@ -1,12 +1,16 @@
 ---
 layout: post
 title: 'Review: 1Password 4 for Mac'
+subtitle: The best password manager gets a great update
 categories: articles best
 custom_type: post
 tags:
   - 1Password
   - apps
   - review
+rating: 4
+review_dev: AgileBits
+price: 49
 ---
 
 * contents
@@ -66,11 +70,18 @@ The AgileBits team have definitely outdone themselves. Not only is this update t
 If you've never used 1Password, this is a perfect time to purchase. In this day and age, it's crucial to have secure passwords. This is an app you'll later wonder how you did without.
 
 It seems you can't currently purchase the new 1Password from [the AgileBits store](https://agilebits.com/store), but that is where it'll be very soon.[^3] You can also purchase from [the Mac App Store](https://itunes.apple.com/us/app/1password/id443987910?mt=12).
-
-**Update:** You can now purchase and/or upgrade on [the AgileBits store](https://agilebits.com/store). Seems my speculation was wrong.
-
 ##### Further Reading
 
 [How long should my passwords be?](http://blog.agilebits.com/2013/08/31/how-long-should-my-passwords-be/) — If you're interested in making generated passwords from 1Password very secure, I definitely recommend this article by the AgileBits team.
 
-[^1]: This might seem like a small thing, but it's one of my favorite additions to 1Password. I used to copy the password then press the fill button, and now those two actions are done with one press. [^2]: By the way, you can use [Bartender](http://www.macbartender.com/) to clean that menubar up. [^3]: This is only speculation, but I wonder if they're required to give the App Store preference for a set amount of time. ime.
+---
+
+**Update:** You can now purchase and/or upgrade on [the AgileBits store](https://agilebits.com/store). Seems my speculation was wrong.
+
+**Update on 12/23/2017 at 3:21pm CST:** Since writing this review, 1Password has moved over to subscription pricing. You can view details [on the website](https://1password.com/). 1Password continues to be the best password manager in my opinion.
+
+[^1]: This might seem like a small thing, but it's one of my favorite additions to 1Password. I used to copy the password then press the fill button, and now those two actions are done with one press. 
+
+[^2]: By the way, you can use [Bartender](http://www.macbartender.com/) to clean that menubar up. 
+
+[^3]: This is only speculation, but I wonder if they're required to give the App Store preference for a set amount of time.

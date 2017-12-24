@@ -1,11 +1,18 @@
 ---
-title: "Tenba Messenger Dna 15 Review: The Bag for Your Essential Gear"
-custom_type: link
-link_url: https://youtu.be/Y8blhwaDdA4
-tags: [review, my videos]
+title: "Review: Tenba Messenger DNA 15"
+subtitle: The bag for your essential gear
+custom_type: post
+tags: [review, my videos, camera bags]
 date: 2017-05-08 12:18
+rating: 3.5
+brand: Tenba
+price: 155.25
+vendor: Amazon
+review_url: http://amzn.to/2DErRio
 ---
 
-Kelly bought me a camera bag for all my new camera gear, and it's awesome. It can carry a DSLR with 2-3 lenses together with your 15" laptop and tablet.
+<div class="iframe-container">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y8blhwaDdA4?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
 
-[Watch the full video review](https://youtu.be/Y8blhwaDdA4).
+Kelly bought me a camera bag for all my new camera gear, and it's awesome. It can carry a DSLR with 2-3 lenses together with your 15" laptop and tablet.

@@ -1,0 +1,130 @@
+{% if page.rating %}
+  <div class="review__info">
+    {% include star-rating.html %}
+    {% if page.director %}
+      <span class="movie__director">
+        <strong>Directed by</strong>
+        {{ page.director }}
+      </span>
+    {% endif %}
+    {% if page.brand %}
+      <span class="review__brand">
+        <strong>Brand</strong>
+        {{ page.brand }}
+      </span>
+    {% endif %}
+    {% if page.mpaa_rating %}
+      <span>
+        <strong>MPAA Rating</strong>
+        <span class="mpaa-rating">{{ page.mpaa_rating }}</span>
+      </span>
+    {% endif %}
+    {% if page.genres.size > 0 %}
+      <span>
+        <strong>Genre</strong>
+        {% assign sortedGenres = page.genres | sort %}
+        {% for genre in sortedGenres %}
+          {% if forloop.last %}
+            {{ genre | titlecase }}
+          {% else %}
+            {{ genre | titlecase }},
+          {% endif %}
+        {% endfor %}
+      </span>
+    {% endif %}
+    {% if page.review_author %}
+      <span class="review__author">
+        <strong>Author</strong>
+        {{ page.review_author }}
+      </span>
+    {% endif %}
+    {% if page.review_publisher %}
+      <span class="review__publisher">
+        <strong>Publisher</strong>
+        {{ page.review_publisher }}
+      </span>
+    {% endif %}
+    {% if page.review_dev %}
+      <span class="review__developer">
+        <strong>Developer</strong>
+        {{ page.review_dev }}
+      </span>
+    {% endif %}
+    {% if page.price %}
+      <span class="review__price">
+        <strong>Price</strong>
+        <span class="num">${{ page.price }} USD</span>
+      </span>
+    {% endif %}
+    {% if page.review_url %}
+      <span class="review__cta">
+        <a href="{{ page.review_url }}">Buy on {{ page.vendor }}</a>
+      </span>
+    {% endif %}
+  </div>
+{% endif %}
+{% if post.rating %}
+  <div class="review__info">
+    {% include star-rating.html %}
+    {% if post.director %}
+      <span class="movie__director">
+        <strong>Directed by</strong>
+        {{ post.director }}
+      </span>
+    {% endif %}
+    {% if post.brand %}
+      <span class="review__brand">
+        <strong>Brand</strong>
+        {{ post.brand }}
+      </span>
+    {% endif %}
+    {% if post.mpaa_rating %}
+      <span>
+        <strong>MPAA Rating</strong>
+        <span class="mpaa-rating">{{ post.mpaa_rating }}</span>
+      </span>
+    {% endif %}
+    {% if post.genres.size > 0 %}
+      <span>
+        <strong>Genre</strong>
+        {% assign sortedGenres = post.genres | sort %}
+        {% for genre in sortedGenres %}
+          {% if forloop.last %}
+            {{ genre | titlecase }}
+          {% else %}
+            {{ genre | titlecase }},
+          {% endif %}
+        {% endfor %}
+      </span>
+    {% endif %}
+    {% if post.review_author %}
+      <span class="review__author">
+        <strong>Author</strong>
+        {{ post.review_author }}
+      </span>
+    {% endif %}
+    {% if post.review_publisher %}
+      <span class="review__publisher">
+        <strong>Publisher</strong>
+        {{ post.review_publisher }}
+      </span>
+    {% endif %}
+    {% if post.review_dev %}
+      <span class="review__developer">
+        <strong>Developer</strong>
+        {{ post.review_dev }}
+      </span>
+    {% endif %}
+    {% if post.price %}
+      <span class="review__price">
+        <strong>Price</strong>
+        <span class="num">${{ post.price }} USD</span>
+      </span>
+    {% endif %}
+    {% if post.review_url %}
+      <span class="review__cta">
+        <a href="{{ post.review_url }}">Buy on {{ post.vendor }}</a>
+      </span>
+    {% endif %}
+  </div>
+{% endif %}

@@ -215,7 +215,7 @@
 
 // Movie Info --------------------
 
-.movie__info {
+.review__info {
   font-size: .7rem;
   margin-top: .8rem;
   @media #{$medium-up} {
@@ -244,8 +244,13 @@
       padding-left: .9rem;
     }
   }
-  .mpaa-rating {
+  .mpaa-rating,
+  .num {
     @extend %code;
+  }
+  .review__cta {
+    align-items: center;
+    display: flex;
   }
 }
 

@@ -6,7 +6,7 @@ custom_type: link
 link_url: http://thesweetsetup.com/apps/the-best-third-party-email-app-for-ios/
 tags:
   - apps
-  - review
+  - reviews
 date: 2016-03-10 01:23
 ---
 Bradley Chambers writing for *The Sweet Setup*:

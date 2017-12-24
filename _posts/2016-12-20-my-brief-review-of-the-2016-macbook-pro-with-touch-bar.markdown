@@ -5,6 +5,11 @@ custom_type: post
 tags: [MacBook pro, brief review]
 subtitle: Earlier this year, Apple updated its MacBook Pro. Here are my thoughts on the new computer
 date: 2016-12-20 15:19
+rating: 4.5
+brand: Apple
+price: 2799
+vendor: the Apple Store
+review_url: https://www.apple.com/shop/buy-mac/macbook-pro/15-inch
 ---
 
 {% figure extendout /uploads/2016/12/macbook-pro-2016.jpg "Taking a good picture of this laptop is hard" %}

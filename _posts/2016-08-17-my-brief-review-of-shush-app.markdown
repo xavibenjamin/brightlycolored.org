@@ -6,8 +6,14 @@ custom_type: post
 tags:
   - apps
   - brief review
+  - review
 date: 2016-08-17 11:17
 subtitle: The app your remote-working self has been searching for.
+rating: 4
+review_dev: Mizage
+vendor: the Mac App Store
+price: 4.99
+review_url: https://itunes.apple.com/us/app/shush-microphone-manager/id496437906?mt=12
 ---
 Yes, this *is* the app you’ve been looking for. Using it is incredibly easy, and forget having to search for the tab the Google Hangout is on, wait for controls to appear on hover,[^hover] then finally unmute. By this time, your co-workers are convinced you’ve either disconnected or weren’t paying attention.
 

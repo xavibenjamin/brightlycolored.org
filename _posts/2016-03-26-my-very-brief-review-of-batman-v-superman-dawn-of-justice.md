@@ -9,6 +9,7 @@ tags:
   - brief review
   - movies
   - movie review
+  - review
 date: '2016-03-26 01:06:42'
 subtitle: Didn't love it, didn't hate it.
 director: Zack Snyder
