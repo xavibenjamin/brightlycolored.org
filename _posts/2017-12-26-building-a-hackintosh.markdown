@@ -62,7 +62,7 @@ Why not run Windows or Linux? Before I built my computer, I tried out various fl
 
 ### What About the (Upcoming) Mac Pro
 
-At this point, the upcoming modular and user expandable Mac Pro is still vapor ware. All we know for sure is that Apple said they're working on it and it's coming. We don't know when and we don't know what it will look like. Given that, I have no guarantees that it will be the computer I want.I believe it will be at least as expensive as an iMac Pro and I’d be willing to bet all my money it will be less configurable and upgradable than the computer I built. I will not discount the possibility that I will own one in the future, but right now I doubt it.
+At this point, the upcoming modular and user expandable Mac Pro is still vapor ware. All we know for sure is that Apple said they're working on it and it's coming. We don't know when and we don't know what it will look like. Given that, I have no guarantees that it will be the computer I want. I believe it will be at least as expensive as an iMac Pro and I’d be willing to bet all my money it will be less configurable and upgradable than the computer I built. I will not discount the possibility that I will own one in the future, but right now I doubt it.
 
 ## How Did I Do this?
 
