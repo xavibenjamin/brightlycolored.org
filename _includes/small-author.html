@@ -1,0 +1,10 @@
+{% assign author = site.data.authors[post.author] %}
+
+<small class="small-author">
+  {% if post.custom_type == 'post' %}
+    Written by
+  {% else %}
+    Linked by
+  {% endif %}
+    <a href="/authors/{{ author.author_path }}" title="Profile for {{ author.display_name}}">{{ author.display_name }}</a>
+</small>
