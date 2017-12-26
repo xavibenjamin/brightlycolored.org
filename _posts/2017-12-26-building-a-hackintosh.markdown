@@ -1,5 +1,6 @@
 ---
 title: Building a Hackintosh
+subtitle: My journey to an affordable, upgradable, and extensible Mac
 author: tjdraper
 custom_type: post
 tags: [ apple, mac, hackintosh ]
