@@ -1,0 +1,70 @@
+---
+---
+$primary-color: #F88962;
+$secondary-color: #383C40;
+
+body {
+  background-color: #508FAB;
+}
+
+.footer__subscribe {
+  background-color: $secondary-color;
+}
+
+.sidebar {
+  background-color: lighten($secondary-color, 75%);
+  border-right-color: lighten($secondary-color, 68%)
+}
+
+.navigation a {
+  border-top-color: lighten($secondary-color, 68%);
+  color: lighten($secondary-color, 20%);
+  &:hover,
+  &:focus {
+    color: #444;
+  }
+}
+
+.header,
+.footer {
+  background-color: $primary-color;
+}
+
+.footer__copyright {
+  background-color: darken($secondary-color, 8%);
+
+  small,
+  a {
+    color: lighten($secondary-color, 20%);
+  }
+
+  .icon {
+    fill: $primary-color;
+  }
+}
+
+.card--light {
+  background-color: lighten($secondary-color, 70%);
+}
+
+blockquote {
+  border-left-color: $primary-color;
+}
+
+.btn--primary {
+  background-color: $primary-color;
+  &:hover,
+  &:focus {
+    background-color: darken($primary-color, 5%);
+  }
+}
+
+.btn--primary.btn--outline {
+  box-shadow: 0 0 0 1px $primary-color;
+  color: $primary-color;
+  &:hover,
+  &:focus {
+    background-color: rgba($primary-color, 0.05);
+  }
+}
+

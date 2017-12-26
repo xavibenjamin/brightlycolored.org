@@ -1,0 +1,70 @@
+---
+---
+$primary-color: #FF6978;
+$secondary-color: #894CBF;
+
+body {
+  background-color: $secondary-color;
+}
+
+.footer__subscribe {
+  background-color: darken($secondary-color, 35%);
+}
+
+.sidebar {
+  background-color: lighten($secondary-color, 43%);
+  border-right-color: lighten($secondary-color, 38%);
+}
+
+.navigation a {
+  border-top-color: lighten($secondary-color, 38%);
+  color: lighten($secondary-color, 10%);
+  &:hover,
+  &:focus {
+    color: $secondary-color;
+  }
+}
+
+.header,
+.footer {
+  background-color: $primary-color;
+}
+
+.footer__copyright {
+  background-color: darken($secondary-color, 25%);
+
+  small,
+  a {
+    color: desaturate(lighten($secondary-color, 40%), 10%);
+  }
+
+  .icon {
+    fill: $primary-color;
+  }
+}
+
+.card--light {
+  background-color: lighten($secondary-color, 73%);
+}
+
+blockquote {
+  border-left-color: $primary-color;
+}
+
+.btn--primary {
+  background-color: $primary-color;
+  &:hover,
+  &:focus {
+    background-color: darken($primary-color, 5%);
+  }
+}
+
+.btn--primary.btn--outline {
+  box-shadow: 0 0 0 1px $primary-color;
+  color: $primary-color;
+  &:hover,
+  &:focus {
+    background-color: rgba($primary-color, 0.05);
+  }
+}
+

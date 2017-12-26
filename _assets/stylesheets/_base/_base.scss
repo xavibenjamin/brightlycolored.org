@@ -3,16 +3,19 @@
 // -------------------------------
 
 body {
-  background-color: $secondary-color;
+  background-color: $jazz-color;
 }
 
 .site__container {
   max-width: 1400px;
 
-  @media #{$large-up} {
+  @media #{$medium-up} {
     display: grid;
-    grid-template-columns: 170px auto;
+    grid-template-columns: 125px 1fr;
     margin-left: auto;
+  }
+  @media #{$large-up} {
+    grid-template-columns: 170px auto;
     width: 97%;
   }
   @media #{$xlarge-up} {

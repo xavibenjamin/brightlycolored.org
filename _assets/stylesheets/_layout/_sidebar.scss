@@ -3,14 +3,15 @@
 // -------------------------------
 
 .sidebar {
-  background-color: darken($secondary-color, 4%);
+  background-color: lighten($jazz-color, 43%);
   bottom: 0;
   box-shadow: -10px 0 0 rgba(black, .1);
   height: 0;
   overflow: hidden;
   transition: height 300ms ease;
   z-index: 4;
-  @media #{$large-up} {
+  @media #{$medium-up} {
+    border-right: 1px solid lighten($jazz-color, 33%);
     height: auto;
     overflow: auto;
     position: static;
@@ -23,13 +24,13 @@
 .navigation {
   display: flex;
   flex-direction: column;
-  @media #{$large-up} {
+  @media #{$medium-up} {
     margin-top: 51.8px;
   }
 
   a {
-    border-top: 1px solid lighten($secondary-color, 5%);
-    color: lighten($secondary-color, 35%);
+    border-top: 1px solid lighten($jazz-color, 33%);
+    color: lighten($jazz-color, 5%);
     display: block;
     font-size: .75rem;
     font-weight: 600;
@@ -38,7 +39,7 @@
     text-transform: uppercase;
 
     &:hover {
-      color: white;
+      color: $secondary-color;
     }
   }
 }
