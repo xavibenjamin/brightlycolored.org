@@ -4,7 +4,7 @@ subtitle: My journey to an affordable, upgradable, and extensible Mac
 author: tjdraper
 custom_type: post
 tags: [ apple, mac, hackintosh ]
-date: 2017-12-26 10:00
+date: 2017-12-27 9:00
 ---
 
 {% figure extendout /uploads/2017/12/hackintosh.jpg %}
