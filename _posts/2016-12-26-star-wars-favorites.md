@@ -2,23 +2,28 @@
 title: My Favorite Star Wars Movies
 custom_type: post
 tags: [star wars, movies]
-date: 2016-12-26 02:09
+date: 2017-12-26 15:29
 ---
 
-I recently recorded [an episode of *Retake* about *Rogue One*][0178-0001]. At the end of the episode, TJ and I started talking about where the movie fell within our personal favorites list. I realized I don't have this list written down somewhere.
+After recording [an episode of *Retake* about *Rogue One*][0178-0001], TJ and I started talking about where the movie fell within our personal favorites list. I realized I didn't have my list written somewhere.
 
-You'll notice that certain *Star Wars* movies are missing. I love this franchise, so I have good things to say about all the movies, but some just didn't belong here. I'm sure you'll understand. Here's my list:
+Here's my list that'll be updated as new movies come out.
 
-1. ***[The Empire Strikes Back][0178-0002]***  
-This should go without saying. *The Empire Strikes Back* is *Star Wars* in all of its glory. The film is written very well, Vader has his best lines, and John Williams adds the iconic "Imperial March" to the list of *Star Wars* themes.
-2. ***[The Force Awakens][0178-0003]***  
-The opening line of this movie is literally, "This will begin to make things right." Hell yea it did! After years of mostly-terrible *Star Wars* movies, this one made me excited about the franchise once again.
-3. ***[Rogue One][0178-0004]***  
-The first of many (I hope) spin-off movies that explore other parts of the *Star Wars* universe. [The film has its flaws][0178-0005], but still a great *Star Wars* film.
-4. ***[A New Hope][0178-0006]***  
-I didn't plan it this way, but right now *A New Hope* is fourth on my list. I love this movie, but you can tell it didn't understand how big it would be.
+1. *[The Last Jedi][0178-0007]*
+2. *[The Empire Strikes Back][0178-0002]*
+3. *[The Force Awakens][0178-0003]*
+4. *[A New Hope][0178-0006]*
+5. *[Rogue One][0178-0004]*
+6. *[Return of the Jedi][4169-0001]*
+7. *[Revenge of the Sith][4169-0002]*
+8. *[Attack of the Clones][4169-0003]*
+9. *[The Phantom Menace][4169-0004]*
 
-This list will obviously change as more movies come out. What about you? [Send me an email](mailto:tim@theboldreport.net) with your thoughts.
+My list will change as more movies come out. What about you? [Send me an email](mailto:smith@ttimsmith.com) with your thoughts.
+
+---
+
+**Update on 12/26/2017 at 3:30pm**: I updated the list after the release of *The Last Jedi*.
 
 [0178-0001]: https://nightowl.fm/retake/15
 [0178-0002]: https://en.wikipedia.org/wiki/The_Empire_Strikes_Back
@@ -26,3 +31,10 @@ This list will obviously change as more movies come out. What about you? [Send m
 [0178-0004]: https://en.wikipedia.org/wiki/Rogue_One
 [0178-0005]: https://theboldreport.net/2016/12/my-brief-review-of-rogue-one/
 [0178-0006]: https://en.wikipedia.org/wiki/A_New_Hope
+[0178-0007]: https://en.wikipedia.org/wiki/Star_Wars:_The_Last_Jedi
+
+[4169-0001]: https://en.wikipedia.org/wiki/Return_of_the_Jedi
+[4169-0002]: https://en.wikipedia.org/wiki/Star_Wars:_Episode_III_%E2%80%93_Revenge_of_the_Sith
+[4169-0003]: https://en.wikipedia.org/wiki/Star_Wars:_Episode_II_%E2%80%93_Attack_of_the_Clones
+[4169-0004]: https://en.wikipedia.org/wiki/Star_Wars:_Episode_I_%E2%80%93_The_Phantom_Menace
+
