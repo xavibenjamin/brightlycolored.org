@@ -6,6 +6,8 @@ tags: [ apple, mac, hackintosh ]
 date: 2017-12-26 10:00
 ---
 
+{% figure extendout /uploads/2017/12/hackintosh.jpg %}
+
 * contents
 {:toc}
 
