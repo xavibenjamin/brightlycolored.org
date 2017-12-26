@@ -7,6 +7,9 @@
     'search.js',
     'index.html',
     'offline/index.html',
+    'themes/theme-001.css',
+    'themes/theme-002.css',
+    'themes/theme-003.css',
     '404.html'
   ];
 

@@ -136,8 +136,9 @@ blockquote > ul {
     }
   }
   > li {
-    @media #{$small-only} {
-      margin-left: 1.3rem;
+    margin-left: 1.3rem;
+    @media #{$large-up} {
+      margin-left: 0;
     }
   }
 }
@@ -162,8 +163,9 @@ blockquote > ol {
     }
   }
   > li {
-    @media #{$small-only} {
-      margin-left: 1.5rem;
+    margin-left: 1.5rem;
+    @media #{$large-up} {
+      margin-left: 0;
     }
   }
 }

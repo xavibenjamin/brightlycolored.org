@@ -56,6 +56,12 @@
         {% endif %}
       </style>
 
+      <script> 
+        var siteThemes = ['theme-001.css', 'theme-002.css', 'theme-003.css', 'theme-004.css'];
+        var siteTheme = siteThemes[Math.floor(Math.random() * siteThemes.length)];
+        document.write('<link rel="stylesheet" href="/themes/' + siteTheme + '">');  
+      </script>
+
       <!-- preload the fonts -->
       <link as="style" href="https://cloud.typography.com/6973314/6893552/css/fonts.css" onload="this.rel='stylesheet'" rel="preload" />
 
