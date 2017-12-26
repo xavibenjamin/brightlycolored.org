@@ -151,7 +151,7 @@ The other aspect is that I have somewhere in the neighborhood of $2,100 in this 
 
 As you will note if you read through all of my article thus far, it can be a little fiddly to get stuff to work. It hasn't been fiddly since getting things set up, but updates can be fiddly too. You have to make sure you turn off auto-updates and read up on the updates. WAIT to update. Make sure tonymacx86 has written about the update. Make sure all your drivers are compatible, etc. This is particularly true if you are using NVIDIA graphics cards like I am. The NVIDIA drivers are macOS build specific [^graphicsupdatesnotnew]. When an update first comes out, it will take a week or three for the NVIDIA drivers to be updated. Hackintoshes come with a bit of a maintenance tag that real Macintoshes do not. It's a trade off you have to be willing to make.
 
-[^graphicsupdatesnotnew]: This is actually not new. At the film company where I used to work, we had a high end NVIDIA card of some kind in the big MacPro. Even though it was a legit MacPro, because of that aftermarket NVIDIA graphics card, we had to be careful with OS X updates.
+[^graphicsupdatesnotnew]: This is actually not new. At the film company where I used to work, we had a high end NVIDIA card of some kind in the big Mac Pro. Even though it was a legit Mac Pro, because of that aftermarket NVIDIA graphics card, we had to be careful with OS X updates.
 
 ### Recommend?
 
