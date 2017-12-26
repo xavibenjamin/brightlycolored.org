@@ -37,7 +37,7 @@ Apple thinks all-in-ones are cool—and they kind of are… for consumers. Apple
 
 I have yet to get the fans on my new build to do more than idle. And I’ve done some stress testing on the CPU and GPU. Because there's lots of room in the case—and I was able to choose a damn efficient liquid cooler—this baby runs extremely cool. The cooler those parts stay, the more likely they are to operate longer without failure—which is what makes this custom build with lots of airflow and thermal headroom so appealing. When I’m in my office at my desk, I don't need the thing to be as compact as possible. Space is not at a premium. I need it to run as fast as possible and cool as fast and efficiently as possible.
 
-### Throw-Away Culture — I Don't Like It
+### Throw-Away Culture—I Don't Like It
 
 I’m becoming more and more disillusioned with the throw-away culture of modern computing. There is no part of my MacBook Pro that is upgradable, not even the RAM. I mostly forgive this on laptops where space is at a premium,[^excusingnonupgradeableram] but I’m at a loss to figure out how building a desktop computer in this manner is excusable—particularly for pros. If any part of an iMac (or a MacBook Pro) becomes too outdated, you have to chuck the whole thing and buy an all new one. For the machines I need and want, that comes with a pretty hefty price tag. The displays Apple is making right now are gorgeous. They're also expensive. And unfortunately those displays are attached to expensive parts that age more quickly than the display itself. 16 GB of RAM may be (mostly) adequate now, but those big beautiful retina displays will still be worth using long after that stops being enough RAM.
 
@@ -81,7 +81,7 @@ macOS and the onboard bluetooth on the logic board don't get along great. It wor
 macOS does not have the appropriate drivers for the on-board wi-fi at all.
 - SSD: [Samsung 850 EVO 250GB 2.5-Inch SATA III Internal SSD](https://www.amazon.com/gp/product/B00OBRFFAS)
 - Graphics: [EVGA GeForce GTX 1060 GAMING, ACX 2.0 (Single Fan), 6GB GDDR5, DX12 OSD Support (PXOC)](https://www.amazon.com/gp/product/B01IPVSGEC)   
-This graphics card is amazing — at least to me.
+This graphics card is amazing—at least to me.
 - Case: [Corsair Obsidian Series Black 450D High Airflow Mid-Tower Computer Case](https://www.amazon.com/gp/product/B00I6BJ8MQ)   
 I still gravitate (generally) toward Apple hardware design aesthetics. This case falls short of what I consider real beauty, but it's not offensive and has really effective airflow.
 
