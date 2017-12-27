@@ -8,18 +8,18 @@ body {
 
 .site__container {
   max-width: 1400px;
+  position: relative;
 
   @media #{$medium-up} {
     display: grid;
-    grid-template-columns: 125px 1fr;
+    grid-template-columns: 170px 1fr;
     margin-left: auto;
   }
   @media #{$large-up} {
-    grid-template-columns: 170px auto;
-    width: 97%;
+    grid-template-columns: 200px 1fr;
+    width: 98%;
   }
   @media #{$xlarge-up} {
-    grid-template-columns: 220px auto;
     margin-right: auto;
     width: 100%;
   }
