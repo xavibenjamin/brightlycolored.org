@@ -4,6 +4,12 @@
 
 .main {
   background-color: white;
+  @media #{$medium-up} {
+    min-height: calc( 100vh - 370px );
+  }
+  @media #{$large-up} {
+    min-height: calc( 100vh - 237px );
+  }
 }
 .content {
   padding-bottom: 8rem;
@@ -103,17 +109,15 @@
   color: lighten($body-color, 15%);
   span {
     display: block;
-    font-size: .73rem;
   }
   .post__date {
-    @extend %code;
-    text-transform: uppercase;
+    font-size: .7rem;
   }
 }
 
 .author__name {
   color: $heading-base-color;
-  font-size: .7rem;
+  font-size: .75rem;
   font-weight: 600;
   margin: 0;
   text-transform: none;
@@ -124,7 +128,7 @@
 }
 
 .author__title {
-  font-size: .7rem;
+  font-size: .75rem;
   font-weight: normal;
 }
 

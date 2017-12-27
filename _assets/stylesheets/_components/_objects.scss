@@ -225,7 +225,6 @@
   @media #{$small-only} {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1.8rem;
     max-width: 425px;
     width: 90%;
   }
@@ -236,6 +235,10 @@
     width: 130px;
     z-index: 4;
   }
+}
+
+#carbonads {
+  margin-top: 1.8rem;
 }
 
 .carbon-wrap {

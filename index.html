@@ -59,3 +59,16 @@ excerpt: Brightly Colored is a personal blog written by Tim Smith about design, 
     {% endif %}
   {% endfor %}
 </section>
+
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
