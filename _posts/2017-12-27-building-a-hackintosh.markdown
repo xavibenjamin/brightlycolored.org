@@ -82,7 +82,7 @@ Though macOS seems to recognize the logic board's onboard audio interface, I can
 macOS and the onboard bluetooth on the logic board don't get along great. It works sometimes, but other times not. This device works flawlessly so far.
 - Wi-Fi: [TP-Link Wireless Dual Band PCI Express Adapter](https://www.amazon.com/gp/product/B007GMPZ0A)   
 macOS does not have the appropriate drivers for the on-board wi-fi at all.
-- SSD: [Samsung 850 EVO 250GB 2.5-Inch SATA III Internal SSD](https://www.amazon.com/gp/product/B00OBRFFAS)
+- SSD: [Samsung 850 EVO 1TB 2.5-Inch SATA III Internal SSD](https://www.amazon.com/gp/product/B00OBRFFAS)
 - Graphics: [EVGA GeForce GTX 1060 GAMING, ACX 2.0 (Single Fan), 6GB GDDR5, DX12 OSD Support (PXOC)](https://www.amazon.com/gp/product/B01IPVSGEC)   
 This graphics card is amazing—at least to me.
 - Case: [Corsair Obsidian Series Black 450D High Airflow Mid-Tower Computer Case](https://www.amazon.com/gp/product/B00I6BJ8MQ)   
@@ -161,3 +161,7 @@ As you will note if you read through all of my article thus far, it can be a lit
 A qualified *yes* so far. If you love tinkering, you love the idea of building a computer, of replacing individual parts as they become outdated, and you're not afraid to dive in and troubleshoot. Yes. Build a Hackintosh. I found it a very fulfilling experience, and I still find it rewarding. If any of that scares you, stay away. Stay far away.
 
 Remember too that, what the future holds for the Mac is uncertain. We're seeing Apple embrace a path for the Mac with things like the [T2 controller](https://www.macrumors.com/2017/12/14/imac-pro-has-t2-chip-with-secure-boot/) that may make future macOS compatibility with Hackintosh systems less tenable. Then again, maybe not. We just don't know. It's working great for me right now, and I would do it again.
+
+---
+
+**Update on 12/27/2017 at 11:12am CST**: Updated SSD to reflect the one actually purchased. Changed from 250GB to 1TB.
