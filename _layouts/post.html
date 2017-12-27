@@ -8,7 +8,7 @@ custom_css_class: single
     {% include post-author.html %}
 
     {% if page.link_url %}
-      <h1><a href="{{ page.link_url }}">{{ page.title | smartify | widont }}</a><span class="arrow">&rarr;</span></h1>
+      <h1><a href="{{ page.link_url }}">{{ page.title | smartify | widont }}</a>&nbsp;<span class="arrow">&rarr;</span></h1>
     {% else %}
       <h1>{{ page.title | smartify | widont }}</h1>
       {% if page.subtitle %}
