@@ -215,3 +215,72 @@
   height: 40px;
   position: sticky;
 }
+
+
+// -----------------------------------------
+// CARBON AD STYLES
+// -----------------------------------------
+
+.bc-ad-container {
+  @media #{$small-only} {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.8rem;
+    max-width: 425px;
+    width: 90%;
+  }
+  @media #{$medium-up} {
+    left: 1.3rem;
+    position: absolute;
+    top: 18rem;
+    width: 130px;
+    z-index: 4;
+  }
+}
+
+.carbon-wrap {
+  @media #{$small-only } {
+    align-items: center;
+    background-color: $light-bg-color;
+    border-radius: $global-radius;
+    display: grid;
+    grid-column-gap: 15px;
+    grid-template-columns: 130px minmax(auto, 247px);
+    padding: 1rem;
+  }
+  a {
+    color: $body-color;
+    text-decoration: none;
+  }
+}
+
+.carbon-img {
+  display: block;
+}
+
+.carbon-text {
+  display: block;
+  font-size: .85rem;
+  line-height: 1.5;
+  text-align: left;
+  @media #{$medium-up} {
+    font-size: .75rem;
+    margin-top: .5rem;
+  }
+}
+
+.carbon-poweredby {
+  color: lighten($body-color, 20%);
+  display: block;
+  font-size: .65rem;
+  line-height: 1;
+  margin-top: .5rem;
+  right: 0;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  @media #{$medium-up} {
+    margin-top: 1rem;
+    text-align: left;
+  }
+}
