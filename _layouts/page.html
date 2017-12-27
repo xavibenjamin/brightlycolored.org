@@ -10,5 +10,5 @@ custom_css_class: page
       <p class="page-header__description">{{ page.description | markdownify | smartify | widont | remove: '<p>' | remove: '</p>' }}</p>
     {% endif %}
   </header>
-  {{ content }}
+  {{ content | improve }}
 </div>

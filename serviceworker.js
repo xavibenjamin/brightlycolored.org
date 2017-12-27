@@ -13,7 +13,7 @@
     '404.html'
   ];
 
-  var staticCacheName = 'cache';
+  var staticCacheName = 'cachev2';
 
   var addToCache = function(request, response) {
     caches.open(staticCacheName)

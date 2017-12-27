@@ -5,9 +5,9 @@ categories: articles best
 custom_type: post
 date: 2016-01-05 01:25
 tags: [development, jekyll, iOS]
-subtitle: I figured out how to publish to <em>The Bold Report</em> from iOS!
+subtitle: Finding a relatively easy setup for publishing on iOS
 ---
-**Disclaimer:** This method will only work if you have an external build process. If you host your Jekyll site on Github pages, for example, you're good to go. If you'd like to learn how to setup your site to deploy and build on something like Heroku, [I wrote about that](/2015/06/hosting-a-jekyll-site-on-heroku/).
+**Disclaimer:** This method will only work if you have an external build process. If you host your Jekyll site on Github pages, for example, you're good to go. If you'd like to learn how to setup your site to deploy and build on something like Heroku, [I wrote about that](/2015/06/hosting-a-jekyll-site-on-heroku/). [Netlify](https://www.netlify.com/) is a great option too.
 
 ---
 
@@ -125,9 +125,13 @@ else:
   console.alert("No YAML header found.\n\nAction Halted.")
 ```
 
-And that's it! Create a new post with the first workflow, and publish it with the second one. If you have any issues or have questions, I'm [@ttimsmith](https://twitter.com/smithtimmytim) on Twitter.
+And that's it! Create a new post with the first workflow, and publish it with the second one. If you have any issues or have questions, I'm [@smithtimmytim](https://twitter.com/smithtimmytim) on Twitter.
 
 Happy blogging!
 
 ---
 *Btdubs… this post was written completely on my iPad, and I loved every minute of it.*
+
+---
+
+**Update on 12/27/2017 at 4:03pm**: Remove reference to *The Bold Report*, fix Tim's username on Twitter, and add link to Netlify.
