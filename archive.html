@@ -1,47 +1,39 @@
 ---
 layout: default
-title: The Archive
+title: Post Archive
 custom_css_class: archives
 exclude_from_search: true
 ---
 
-<div class="page p-body">
+<div class="page">
   <header class="page__header page__header--full">
-    <h1 class="page-header__title">The Archive</h1>
-    <p class="page-header__description">This site has been published since 2013. If you know the exact post you’re looking for, I recommend you search. You can
-      also browse the
-      <a href="/topics/">Topics page</a> to find something that interests you.</p>
+    <h1 class="page-header__title">{{ page.title }}</h1>
+    <p class="page-header__description">This site has been published since 2013, and has <strong>{{ site.posts | size }}</strong> entries. If you know the exact post you’re looking for, I recommend you search. You can browse the <a href="/topics/">Topics page</a> if you’re feeling adventurous.</p>
   </header>
 
-  {% for post in site.posts  %}
-  {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-  {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+<ul class="year-list">
+  {% assign postsInYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% for year in postsInYear %}
+    <li><a href="#{{ year.name }}">{{ year.name }} <span>{{ year.items | size }}</span></a></li>
+  {% endfor %}
+</ul>
 
-  {% if forloop.first %}
-  <section class="post__section {{ this_year }}-posts">
-    <h2 class="post-section__title" id="{{ this_year }}">{{this_year}}</h2>
-    <ul class="archive__posts">
-  {% endif %}
+{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
+{% for year in postsByYear %}
+<section class="post__section">
+  <h2 class="post-section__title" id="{{ year.name }}">{{ year.name }}<small class="year__count">{{ year.items | size }}</small></h2>
 
-    <li class="post">
-      <a href="{{ post.url }}">
-        <span class="post__date">{{ post.date | date: "%a, %b %d, %Y" }}</span>
-        {{ post.title | smartify | widont }}
-      </a>
-  </li>
-
-  {% if forloop.last %}
-    </ul>
-  </section>
-  {% else %}
-    {% if this_year != next_year %}
-    </ul>
-    </section>
-    <section class="post__section {{ next_year }}-posts">
-    <h2 class="post-section__title" id="{{ next_year }}">{{next_year}}</h2>
-    <ul class="archive__posts">
-    {% endif %}
-  {% endif %}
+  <ul class="archive__posts">
+    {% for post in year.items %}
+      <li class="post">
+        <a href="{{ post.url }}">
+          <span class="post__date">{{ post.date | date: '%a, %b %d'}}</span>
+          {{ post.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
 {% endfor %}
 
 </div>
