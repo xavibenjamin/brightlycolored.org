@@ -14,64 +14,33 @@ excerpt: Topics covered on Brightly Colored.
 
 
 <ul class="tag-list">
-{% assign tags_max = 0 %}
-{% for tag in site.tags %}
-  {% if tag[1].size > tags_max %}
-    {% assign tags_max = tag[1].size %}
-  {% endif %}
-{% endfor %}
-{% for i in (1..tags_max) reversed %}
   {% for tag in site.tags %}
-    {% if tag[1].size == i  %}
-      <li>
-        <a href="#{{ tag[0] | downcase | replace:' ','-' }}" title="{{ i }} posts">
-          {{ tag[0] | titlecase }}
-          <span>{{ i }}</span>
-        </a>
-      </li>
-    {% endif %}
+    <li>
+      <a href="#{{ tag[0] | downcase | replace:' ','-' }}" title="{{ tag[1] | size }} posts">
+        {{ tag[0] | titlecase }}
+        <span>{{ tag[1] | size }}</span>
+      </a>
+    </li>
   {% endfor %}
-{% endfor %}
 </ul>
 
 <button class="btn btn--primary btn--outline btn--small" id="tag-list-toggle">
   View All Tags
 </button>
 
-
-{% assign tags_max = 0 %}
-{% for tag in site.tags %}
-  {% if tag[1].size > tags_max %}
-    {% assign tags_max = tag[1].size %}
-  {% endif %}
-{% endfor %}
-  {% for i in (1..tags_max) reversed %}
-    {% for tag in site.tags %}
-      {% if tag[1].size == i %}
-        <section class="tag__section" id="{{ tag[0] | downcase | replace:' ','-' }}">
-            <h2 class="tag__name">{{ tag[0] | titlecase }} <small class="tag__count">{{ i }}</small></h2>
-            {% if tag[0] == 'development' %}<p>Since I do this for work, I have a <em>few</em> opinions about it.</p>{% endif %}
-            {% if tag[0] == 'movies' %}<p>I love watching movies, sometimes I write about them.</p>{% endif %}
-            {% if tag[0] == 'brief review' %}<p>My series of reviews that I keep brief.</p>{% endif %}
-            {% if tag[0] == 'apple' %}<p>It’s not an Apple blog, but I sure do talk about them a lot.</p>{% endif %}
-            {% if tag[0] == 'jekyll' %}<p>This blog is built with it, so naturally I love to write about it.</p>{% endif %}
-            {% if tag[0] == 'jekyll on heroku' %}<p>Series on hosting Jekyll with Heroku.</p>{% endif %}
-            {% if tag[0] == 'star wars' %}<p>These <em>are</em> the words you’re looking for.</p>{% endif %}
-            {% if tag[0] == 'NBA' %}<p>Basketball is my favorite sport. I like the way they dribble up and down the court.</p>{% endif %}
-            {% if tag[0] == 'year in review' %}<p>My yearly tradition of summing up what I’ve done in the past year.</p>{% endif %}
-            {% if tag[0] == 'CSS' %}<p>The frontend technology I’ve focused my career on.</p>{% endif %}
-            {% if tag[0] == 'review' %}<p>A collection of all the movie, app, product, and book reviews I’ve done.</p>{% endif %}
-            {% if tag[0] == 'reviews' %}<p>These are all reviews I’ve linked to and <strong>were not</strong> written by me.</p>{% endif %}
-            <ul class="topic-list">
-              {% for post in tag.last %}
-                <li>
-                  <a href="{{ post.url }}">{{ post.title | caps }}</a>
-                </li>
-              {% endfor %}
-            </ul>
-            <a href="#page-title" class="tag__return-home">Back to Top &uarr;</a>
-        </section>
-      {% endif %}
+  {% for tag in site.tags %}
+  <section class="tag__section" id="{{ tag[0] | downcase | replace:' ','-' }}">
+    <h2 class="tag__name">{{ tag[0] | titlecase }}<small class="tag__count">{{ tag[1] | size }}</small></h2>
+    <ul class="topic-list">
+      {% for post in tag[1] %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title | caps }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <a href="#page-title" class="tag__return-home">Back to Top &uarr;</a>
+  </section>
+  
   {% endfor %}
-{% endfor %}
+
 </div>
