@@ -20,7 +20,7 @@
 .page-header__title {
   color: $heading-base-color;
   font-size: 2.5rem;
-  font-weight: 300;
+  margin-bottom: .65rem;
 }
 
 .page-header__description {
@@ -29,23 +29,84 @@
   line-height: 1.5;
 }
 
-// Archive -----------------------
+// -----------------------------------------
+// ARCHIVE
+// -----------------------------------------
+
+// -----------------------------------------
+// YEAR LIST STYLES
+// -----------------------------------------
+
+.year-list {
+  display: grid;
+  grid-column-gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  // margin-bottom: 5rem;
+  margin-top: 1rem;
+  @media #{$small-only} {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  @media #{$medium-up} {
+    max-width: 70%;
+  }
+  @media #{$large-up} {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  a {
+    border-top: 2px solid $border-color;
+    color: lighten($body-color, 20%);
+    display: flex;
+    font-size: .75rem;
+    font-weight: 600;
+    justify-content: space-between;
+    padding: .4rem 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover,
+    &:focus {
+      color: $primary-color;
+    }
+  }
+  span {
+    @extend %code;
+  }
+}
+
 .post__section {
   @media #{$small-only} {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
   }
-  + .post__section {
-    margin-top: 5rem;
-  }
 }
 
 .post-section__title {
+  align-items: center;
+  display: flex;
   @extend %sans;
-  font-size: 1.6rem;
-  font-weight: 300;
-  margin-top: 0;
+  font-size: .9rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  text-transform: uppercase;
+}
+
+.year__count {
+  background: darken($light-bg-color, 1%);
+  border-radius: $global-radius;
+  color: lighten($body-color, 10%);
+  @extend %code;
+  font-size: .9em;
+  font-weight: 400;
+  line-height: 1;
+  margin-left: .5rem;
+  padding: .4rem .7rem;
+  position: relative;
+  top: 1px;
 }
 
 .archive__posts {
@@ -70,7 +131,6 @@
       display: block;
       font-size: .7rem;
       font-weight: 400;
-      // text-transform: uppercase;
     }
     + .post {
       margin-top: .9rem;
