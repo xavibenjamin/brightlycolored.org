@@ -8,16 +8,22 @@
 // -----------------------------------------
 
 .header__search {
-  form {
-    overflow: hidden;
-  }
   .search-input {
-    -webkit-appearance: none;
-    background-color: $light-bg-color;
-    border-bottom: 1px solid $border-color;
-    border-radius: 0;
-    padding: .93rem 1rem;
+    -webkit-appearance: searchfield;
+    background-color: white;
+    border-radius: $global-radius;
+    box-shadow: 0 2px 4px rgba(black, .15);
+    font-size: .9rem;
+    padding: .7rem;
     width: 100%;
+    &:focus {
+      &::placeholder {
+        color: lighten($body-color, 40%);
+      }
+    }
+    &::placeholder {
+      transition: color 300ms ease-in-out;
+    }
   }
 }
 

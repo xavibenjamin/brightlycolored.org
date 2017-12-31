@@ -1,7 +1,5 @@
 <div id="search" class="{% if include.css_classes %}{{ include.css_classes }}{% endif %}">
-  <form onsubmit="return false;" novalidate="novalidate">
-    <input type="search" id="search-query" class="search-input" name="q" placeholder="Search…" autocomplete="off" autocorrect="off">
-  </form>
+  <input type="search" id="search-query" class="search-input" placeholder="Search…">
   <div class="popover popover--top popover--medium popover--search">
     <h4 class="header-search__title">Search Results</h4>
     <div id="results" class="search-results-list search-results-list--mini"></div>
