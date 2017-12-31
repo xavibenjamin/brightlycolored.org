@@ -43,6 +43,9 @@
   svg {
     fill: white;
   }
+  @media #{$medium-up} {
+    display: none;
+  }
 }
 
 // -----------------------------------------
@@ -50,17 +53,33 @@
 // -----------------------------------------
 
 .header__search {
-  left: 0;
   opacity: 0;
   pointer-events: none;
   position: absolute;
-  right: 0;
-  top: 100%;
-  transition: opacity 300ms ease;
+  right: 6rem;
+  transition: width 300ms ease, opacity 300ms ease;
+  width: 0;
   z-index: 4;
+  @media #{$medium-up} {
+    left: auto;
+    opacity: 1;
+    pointer-events: auto;
+    right: 1rem;
+    width: 300px;
+  }
+
   &.js-search-is-open {
     opacity: 1;
     pointer-events: auto;
+    right: 6rem;
+    width: calc(100% - 7rem);
+    @media #{$medium-up} {
+      left: auto;
+      opacity: 1;
+      pointer-events: auto;
+      right: 1rem;
+      width: 300px;
+    }
   }
 }
 

@@ -358,9 +358,6 @@ input[type='radio'] {
 
 input[type='search'] {
   -webkit-appearance: textfield; /* 1 */
-  -webkit-box-sizing: content-box; /* 2 */
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
 }
 
 /**
