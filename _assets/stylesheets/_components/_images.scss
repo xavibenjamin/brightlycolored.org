@@ -70,6 +70,19 @@ figcaption {
   }
 }
 
+.small__left {
+  float: left;
+  margin-right: 1.875rem;
+  width: 40%;
+  @media #{$large-up} {
+    width: 45%;
+  }
+  figcaption {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+
 .photo-grid {
   align-items: stretch;
   display: grid;
@@ -109,7 +122,6 @@ figcaption {
 }
 
 .photo-grid--three {
-  grid-gap: 15px;
   grid-template-columns: 2fr 2fr 3fr;
   grid-template-rows: 200px 180px auto;
   @media #{$large-up} {
@@ -121,6 +133,8 @@ figcaption {
       grid-column: 4 / span 1;
       grid-row: 1;
       margin: 0 !important;
+      padding-bottom: 15px;
+      padding-left: 15px;
       width: 100% !important;
     }
   }
