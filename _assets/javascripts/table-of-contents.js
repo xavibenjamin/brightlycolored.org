@@ -3,8 +3,8 @@
 // Toggles the table of contents.
 // -----------------------------------------
 
-let tocToggle = document.getElementById('toc-toggle');
-let tableOfContents = document.getElementById('markdown-toc');
+var tocToggle = document.getElementById('toc-toggle');
+var tableOfContents = document.getElementById('markdown-toc');
 
 function showToc(elem) {
   function getHeight() {
