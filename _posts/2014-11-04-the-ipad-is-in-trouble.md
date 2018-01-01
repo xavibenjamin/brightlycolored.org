@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'The iPad Is in Trouble?'
-categories: links
+
 custom_type: link
 link_url: http://www.subtraction.com/2014/10/28/ipad-at-a-crossroads/
 date: '2014-11-04 14:31:19'

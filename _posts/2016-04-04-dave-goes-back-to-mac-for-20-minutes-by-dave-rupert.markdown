@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Dave Goes Back to Mac for 20 Minutes by Dave Rupert
-categories: link
+
+
 custom_type: link
 link_url: http://daverupert.com/2016/03/dave-goes-back-to-mac-for-20-minutes/
 slug: /dave-goes-back-to-mac-for-20-minutes/

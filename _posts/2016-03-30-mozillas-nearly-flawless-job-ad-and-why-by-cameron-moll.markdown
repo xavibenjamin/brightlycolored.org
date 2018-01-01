@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Mozilla’s Nearly Flawless Job Ad, and Why by Cameron Moll
-categories: link
+
+
 custom_type: link
 link_url: https://medium.com/come-in-we-re-hiring/mozilla-s-nearly-flawless-job-ad-and-why-5b11b3e0489#.ggjteono0
 tags:

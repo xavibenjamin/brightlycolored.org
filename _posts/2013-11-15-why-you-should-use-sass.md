@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Why You Should Use Sass'
-categories: links
+
 custom_type: link
 link_url: http://alistapart.com/article/why-sass
 tags:

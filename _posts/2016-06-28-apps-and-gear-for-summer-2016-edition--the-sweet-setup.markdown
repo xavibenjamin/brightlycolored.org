@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Apps and Gear for Summer (2016 Edition) | The Sweet Setup
-categories: link
+
+
 custom_type: link
 link_url: http://thesweetsetup.com/articles/apps-and-gear-for-summer-2016-edition/
 tags:

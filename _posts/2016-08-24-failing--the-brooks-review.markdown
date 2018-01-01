@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Failing | The Brooks Review
-categories: link
+
+
 custom_type: link
 link_url: http://brooksreview.net/2016/08/failing/
 tags:

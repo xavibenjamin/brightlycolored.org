@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "‘Feline Maximization’"
-categories: link
+
+
 custom_type: link
 link_url: http://barelylegally.com/post/feline-maximization/
 date: '2016-01-13 00:27:12'

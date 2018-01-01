@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "‘Hamburger, Hamburger, Hamburger’"
-categories: link
+
+
 custom_type: link
 link_url: https://adactio.com/journal/1012
 date: 2016-01-22 09:25

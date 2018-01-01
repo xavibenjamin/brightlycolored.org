@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "iOS 10: Wishes and Concept Video | MacStories"
-categories: link
+
+
 custom_type: link
 link_url: https://www.macstories.net/stories/ios-10-wishes/
 tags:

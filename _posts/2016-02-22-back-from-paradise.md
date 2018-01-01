@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Back From Paradise
-categories: articles
+
 custom_type: post
 date: '2016-02-22 00:38:25'
 tags:

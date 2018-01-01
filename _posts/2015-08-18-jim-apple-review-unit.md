@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Year Jim Dalrymple Received His First Apple Review Unit
-categories: links
+
 custom_type: link
 link_url: https://soundcloud.com/ttimsmith/for-the-record-promo-1
 date: '2015-08-18 23:20:36'

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'A Look Back on Our First Month'
-categories: articles
+
 custom_type: post
 tags:
   - site news

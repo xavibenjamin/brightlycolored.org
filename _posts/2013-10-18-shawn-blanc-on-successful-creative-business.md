@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Shawn Blanc on Successful Creative Business'
-categories: links
 custom_type: link
 link_url: http://shawnblanc.net/2013/10/the-rough-elements-of-a-successful-creataive-business
 tags:

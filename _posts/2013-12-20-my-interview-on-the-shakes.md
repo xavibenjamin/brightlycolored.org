@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'My Interview on The Shakes'
-categories: links
+
 custom_type: link
 link_url: http://misfitrad.io/theshakes/33
 tags:

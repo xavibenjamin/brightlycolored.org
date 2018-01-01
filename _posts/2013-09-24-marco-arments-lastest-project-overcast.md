@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Marco Arment’s Latest Project: Overcast'
-categories: links
 custom_type: link
 link_url: http://www.marco.org/2013/09/23/overcast-coming-soon
 tags: [ podcasts]

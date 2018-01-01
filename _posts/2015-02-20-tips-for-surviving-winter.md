@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ‘Don't Snuggle Your Space Heater, And Other Tips For Surviving Winter’
-categories: links
+
 custom_type: link
 link_url: http://gothamist.com/2015/02/03/life_hack_how_to_not_die.php
 date: '2015-02-20 14:47:13'

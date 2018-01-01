@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Sleep Deprivation Is Not a Badge of Honor by DHH
-categories: link
+
+
 custom_type: link
 link_url: https://m.signalvnoise.com/sleep-deprivation-is-not-a-badge-of-honor-f24fbff47a75?gi=cde9108bf866
 tags:

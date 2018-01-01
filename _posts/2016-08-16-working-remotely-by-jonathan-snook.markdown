@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Working Remotely by Jonathan Snook
-categories: link
+
+
 custom_type: link
 link_url: https://snook.ca/archives/other/working-remotely
 tags:

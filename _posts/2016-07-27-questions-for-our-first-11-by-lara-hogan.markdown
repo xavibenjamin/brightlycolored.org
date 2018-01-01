@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Questions for Our First 1:1 by Lara Hogan"
-categories: link
+
+
 custom_type: link
 link_url: http://larahogan.me/blog/first-one-on-one-questions/
 tags:

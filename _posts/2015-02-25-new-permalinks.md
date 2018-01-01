@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Permalinks
-categories: links
+
 custom_type: link
 link_url: http://mattgemmell.com/permalinks/
 date: '2015-02-25 16:18:53'

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: More Contributions on Your Profile | GitHub
-categories: link
+
+
 custom_type: link
 link_url: https://github.com/blog/2173-more-contributions-on-your-profile
 tags:

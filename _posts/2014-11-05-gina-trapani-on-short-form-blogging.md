@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Gina Trapani on Short-Form Blogging'
-categories: links
+
 custom_type: link
 link_url: http://scribbling.net/2014/10/16/short-form-blogging/
 date: '2014-11-05 12:25:21'

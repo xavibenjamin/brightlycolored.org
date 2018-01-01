@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Some Changes Here at Macminicolo | Macminicolo Blog
-categories: link
+
+
 custom_type: link
 link_url: https://macminicolo.net/blog/files/Some-changes-here-at-Macminicolo.html
 tags:

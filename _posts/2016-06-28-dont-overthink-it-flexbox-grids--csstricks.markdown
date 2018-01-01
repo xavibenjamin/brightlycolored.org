@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Don't Overthink It (Flexbox) Grids | CSS-Tricks
-categories: link
+
+
 custom_type: link
 link_url: https://css-tricks.com/dont-overthink-flexbox-grids
 tags:

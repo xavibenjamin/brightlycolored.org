@@ -1,7 +1,8 @@
 ---
 layout: post
 title: What Is the Apple Watch Good For? |The Syndicate
-categories: link
+
+
 custom_type: link
 link_url: https://medium.com/martiancraft-s-syndicate/what-is-the-apple-watch-good-for-6bf037638620#.ww47ojq8a
 tags:

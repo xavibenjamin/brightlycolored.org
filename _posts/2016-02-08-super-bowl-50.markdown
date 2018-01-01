@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Super Bowl 50
-categories: articles
+
 custom_type: post
 date: 2016-02-08 09:38
 subtitle: My thoughts on this year's Super Bowl.

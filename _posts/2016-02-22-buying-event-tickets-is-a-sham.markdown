@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Buying Event Tickets Is a Sham
-categories: link
+
+
 custom_type: link
 link_url: https://www.theguardian.com/us-news/2016/jan/28/hamilton-adele-tickets-new-york-fixed-game
 date: 2016-02-22 08:32

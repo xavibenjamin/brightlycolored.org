@@ -4,7 +4,7 @@ custom_type: post
 rating: 3
 director: Kyle Balda & Pierre Coffin
 mpaa_rating: PG
-genres: [ animation, action, adventure ]
+categories: [ animation, action, adventure ]
 tags: [ movies, movie review, review, my videos ]
 ---
 

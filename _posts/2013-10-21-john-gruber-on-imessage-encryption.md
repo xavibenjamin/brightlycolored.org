@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'John Gruber on iMessage Encryption'
-categories: links
 custom_type: link
 link_url: http://daringfireball.net/2013/10/imessage_encryption
 tags:

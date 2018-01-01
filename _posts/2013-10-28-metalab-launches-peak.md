@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'MetaLab Launches Peak'
-categories: links
 custom_type: link
 link_url: http://www.usepeak.com
 tags:

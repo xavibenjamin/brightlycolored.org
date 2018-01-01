@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Two Weeks Notice Is for Sandwich Artists | Dear Design Student
-categories: link
+
+
 custom_type: link
 link_url: https://deardesignstudent.com/two-weeks-notice-is-for-sandwich-artists-e25a78bece1e?gi=e538e781e7fd
 tags:

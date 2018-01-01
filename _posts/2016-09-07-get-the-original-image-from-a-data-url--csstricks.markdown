@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Get the Original Image from a Data URL | CSS-Tricks
-categories: link
+
+
 custom_type: link
 link_url: https://css-tricks.com/get-original-image-data-url/
 tags:

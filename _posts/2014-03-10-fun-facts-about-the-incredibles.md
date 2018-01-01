@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '‘Fun Facts About The Incredibles’'
-categories: links
+
 custom_type: link
 link_url: http://imgur.com/gallery/oiNg9
 date: '2014-03-10 08:38:37'

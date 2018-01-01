@@ -1,7 +1,8 @@
 ---
 layout: post
 title: How We Designed Our Interview Process | ReadMe.io Blog
-categories: link
+
+
 custom_type: link
 link_url: https://blog.readme.io/how-we-designed-our-interview-process/
 tags:

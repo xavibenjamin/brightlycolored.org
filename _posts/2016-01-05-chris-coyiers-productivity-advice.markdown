@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Chris Coyier’s Productivity Advice"
-categories: link
+
+
 custom_type: link
 link_url: https://css-tricks.com/sit-and-do-it/
 date: 2016-01-05 21:42

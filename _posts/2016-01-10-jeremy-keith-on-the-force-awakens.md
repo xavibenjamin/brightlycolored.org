@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Jeremy Keith on ‘The Force Awakens’"
-categories: link
+
+
 custom_type: link
 link_url: https://adactio.com/journal/10067
 date: '2016-01-10 20:25:26'

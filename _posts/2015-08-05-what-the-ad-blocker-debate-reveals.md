@@ -1,7 +1,8 @@
 ---
 layout: post
 title: ‘What The Ad Blocker Debate Reveals’
-categories: link
+
+
 custom_type: link
 link_url: http://www.mondaynote.com/2015/08/03/what-the-ad-blocker-debate-reveals/
 date: '2015-08-05 10:10:23'

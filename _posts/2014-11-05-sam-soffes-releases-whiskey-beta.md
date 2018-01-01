@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Sam Soffes Releases Whiskey Beta'
-categories: links
+
 custom_type: link
 link_url: http://sam.roon.io/value-of-beta
 date: '2014-11-05 12:12:38'

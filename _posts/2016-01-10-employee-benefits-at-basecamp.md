@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "‘Employee Benefits at Basecamp’"
-categories: link
+
+
 custom_type: link
 link_url: https://m.signalvnoise.com/employee-benefits-at-basecamp-d2d46fd06c58?gi=ccfbe6430075
 date: '2016-01-10 18:28:27'

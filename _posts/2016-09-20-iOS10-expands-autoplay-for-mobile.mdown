@@ -2,7 +2,8 @@
 layout: post
 author: keatontaylor
 title: New Policies for iOS | Webkit Blog
-categories: link
+
+
 custom_type: link
 link_url: https://webkit.org/blog/6784/new-video-policies-for-ios/
 tags: [development, iOS]

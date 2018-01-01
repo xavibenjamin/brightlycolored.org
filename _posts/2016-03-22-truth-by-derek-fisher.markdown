@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Truth by Derek Fisher
-categories: link
+
+
 custom_type: link
 link_url: https://thecauldron.si.com/truth-9ebb66ca8990?gi=86bd2dcf1c04
 tags:

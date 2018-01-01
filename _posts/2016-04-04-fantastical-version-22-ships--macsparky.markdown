@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Fantastical Version 2.2 Ships | MacSparky
-categories: link
+
+
 custom_type: link
 link_url: http://macsparky.com/blog/2016/3/fantastical-version-22-ships
 tags:

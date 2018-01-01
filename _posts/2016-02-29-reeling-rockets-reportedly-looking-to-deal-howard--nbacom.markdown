@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Reeling Rockets Reportedly Looking to Deal Howard | NBA.com
-categories: link
+
+
 custom_type: link
 link_url: http://www.nba.com/2016/news/features/fran_blinebury/02/11/houston-rockets-reaching-out-to-teams-to-see-about-deal-for-dwight-howard/index.html
 tags:

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Building Remote-First Teams by Karolina Szczur
-categories: link
+
+
 custom_type: link
 link_url: https://medium.com/@fox/building-remote-first-teams-a98bf8581db
 tags:

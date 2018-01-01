@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Organize that Sass!'
-categories: links
+
 custom_type: link
 link_url: http://alistapart.com/blog/post/organize-that-sass
 tags:

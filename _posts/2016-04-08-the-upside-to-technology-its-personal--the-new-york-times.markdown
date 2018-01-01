@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The Upside to Technology? It’s Personal | The New York Times
-categories: link
+
+
 custom_type: link
 link_url: http://www.nytimes.com/2016/03/31/fashion/social-media-technology.html
 tags:

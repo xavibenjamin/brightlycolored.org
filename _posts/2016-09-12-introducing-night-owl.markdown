@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducing Night Owl
-categories: links
+
 custom_type: link
 link_url: https://nightowl.fm/
 tags:

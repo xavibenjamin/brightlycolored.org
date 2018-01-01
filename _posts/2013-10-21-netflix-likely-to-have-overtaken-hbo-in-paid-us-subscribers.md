@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Netflix Likely to Have Overtaken HBO in Paid US Subscribers'
-categories: links
 custom_type: link
 link_url: http://www.theverge.com/2013/10/21/4861624/netflix-has-likely-overtaken-hbo-in-paid-us-subscribers-analysts-say
 tags:

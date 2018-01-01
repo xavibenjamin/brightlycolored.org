@@ -5,7 +5,7 @@ custom_type: post
 tags: [ movies, movie review, star wars, brief review, episode VIII, review ]
 rating: 4.5
 director: Rian Johnson
-genres: [ action, adventure, sci-fi ]
+categories: [ action, adventure, sci-fi ]
 mpaa_rating: PG-13
 ---
 

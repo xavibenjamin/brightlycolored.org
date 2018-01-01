@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ‘Jim Dalrymple on Family and Losing Weight’
-categories: links
+
 custom_type: link
 link_url: http://towermedia.org/ftr/1
 date: '2015-09-17 11:18:10'

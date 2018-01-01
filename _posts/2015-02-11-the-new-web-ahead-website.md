@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The New Web Ahead Website
-categories: links
+
 custom_type: link
 link_url: http://thewebahead.net
 date: '2015-02-11 10:53:17'

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: For a Generation, Kobe Was ‘Our Michael Jordan’ | NBA.com
-categories: link
+
+
 custom_type: link
 link_url: http://www.nba.com/news/features/shaun_powell/kobe-bryant-los-angeles-lakers-became-michael-jordan-for-a-generation/index.html
 tags:

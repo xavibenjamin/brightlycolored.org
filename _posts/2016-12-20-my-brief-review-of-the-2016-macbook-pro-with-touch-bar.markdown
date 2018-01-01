@@ -1,6 +1,6 @@
 ---
 title: My Brief Review of the 2016 MacBook Pro with Touch Bar
-categories: articles briefreview
+ briefreview
 custom_type: post
 tags: [MacBook pro, brief review]
 subtitle: Earlier this year, Apple updated its MacBook Pro. Here are my thoughts on the new computer

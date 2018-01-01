@@ -1,7 +1,7 @@
 ---
 layout: post
 title: People Still Read Blogs
-categories: links
+
 custom_type: link
 link_url: http://justinjackson.ca/blogs/
 date: '2015-02-16 22:58:29'

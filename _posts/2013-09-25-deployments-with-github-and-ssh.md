@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Deployments with GitHub and SSH'
-categories: links
 custom_type: link
 link_url: http://kennedysgarage.com/articles/github-deployment
 date: '2013-09-25 11:12:03'

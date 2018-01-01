@@ -2,7 +2,7 @@
 layout: post
 title: 'Review: 1Password 4 for Mac'
 subtitle: The best password manager gets a great update
-categories: articles best
+
 custom_type: post
 tags:
   - 1Password

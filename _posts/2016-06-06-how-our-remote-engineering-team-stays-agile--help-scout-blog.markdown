@@ -1,7 +1,8 @@
 ---
 layout: post
 title: How Our Remote Engineering Team Stays Agile | Help Scout Blog
-categories: link
+
+
 custom_type: link
 link_url: https://www.helpscout.net/blog/agile-remote-teams/
 tags:

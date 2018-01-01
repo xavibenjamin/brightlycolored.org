@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'James Christie on Sustainable Web Design'
-categories: links
 custom_type: link
 link_url: http://alistapart.com/article/sustainable-web-design
 date: '2013-09-24 10:10:39'

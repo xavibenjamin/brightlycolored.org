@@ -1,6 +1,7 @@
 ---
 title: "How Apple Lost My $1,000 by Katie Floyd"
-categories: link
+
+
 custom_type: link
 link_url: https://katiefloyd.com/blog/how-apple-lost-my-1000
 tags: apple

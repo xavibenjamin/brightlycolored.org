@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Owning My Words by Jeremy Keith
-categories: link
+
+
 custom_type: link
 link_url: https://adactio.com/journal/10675
 tags:

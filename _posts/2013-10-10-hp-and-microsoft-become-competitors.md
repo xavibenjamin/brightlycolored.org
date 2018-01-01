@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'HP and Microsoft Become ‘Competitors’'
-categories: links
 custom_type: link
 link_url: http://www.theverge.com/2013/10/10/4823088/hp-attack-microsoft-in-public-as-outright-competitors
 tags:

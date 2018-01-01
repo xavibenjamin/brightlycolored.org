@@ -1,7 +1,8 @@
 ---
 layout: post
 title: CSS and Scalability by Adam Morse
-categories: link
+
+
 custom_type: link
 link_url: http://mrmrs.io/writing/2016/03/24/scalable-css/
 tags:

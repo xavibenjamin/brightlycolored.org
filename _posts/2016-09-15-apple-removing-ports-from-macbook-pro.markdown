@@ -2,7 +2,8 @@
 layout: post
 author: tjdraper
 title: "Apple Removing Ports from MacBook Pro?"
-categories: link
+
+
 custom_type: link
 link_url: http://www.macrumors.com/2016/09/14/apple-macbook-pro-survey/
 tags:

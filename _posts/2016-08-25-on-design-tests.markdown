@@ -1,7 +1,7 @@
 ---
 layout: post
 title: On Design Tests
-categories: articles
+
 custom_type: post
 tags:
   - design

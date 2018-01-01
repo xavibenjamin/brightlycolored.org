@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '‘Retailers Are Disabling NFC to Block Apple Pay’'
-categories: links
+
 custom_type: link
 link_url: http://daringfireball.net/2014/10/nfc_apple_pay
 date: '2014-10-27 14:18:49'

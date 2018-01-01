@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Does the Web Industry Have a Drinking Problem?'
-categories: links
 custom_type: link
 link_url: http://alistapart.com/column/does-our-industry-have-a-drinking-problem
 tags:

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: ‘On The Verge’
-categories: link
+
+
 custom_type: link
 link_url: http://adactio.com/journal/9312
 date: '2015-07-28 10:08:48'

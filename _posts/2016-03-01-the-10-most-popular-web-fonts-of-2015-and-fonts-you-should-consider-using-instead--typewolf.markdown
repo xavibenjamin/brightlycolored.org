@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The 10 Most Popular Web Fonts of 2015 (And Fonts You Should Consider Using Instead) | Typewolf
-categories: link
+
+
 custom_type: link
 link_url: https://www.typewolf.com/blog/most-popular-fonts-of-the-year
 permalink: /most-popular-fonts-2015/

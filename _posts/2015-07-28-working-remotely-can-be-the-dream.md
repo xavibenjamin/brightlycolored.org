@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Working Remotely Can Be the Dream
-categories: link
+
+
 custom_type: link
 link_url: https://medium.com/digital-nomad-stories/working-remotely-isn-t-always-a-dream-151619ae45dc
 date: '2015-07-28 09:37:14'

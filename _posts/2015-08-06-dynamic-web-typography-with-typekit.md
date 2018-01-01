@@ -1,7 +1,8 @@
 ---
 layout: post
 title: ‘Dynamic Web Typography with Typekit’
-categories: link
+
+
 custom_type: link
 link_url: http://www.iamtomnewton.com/blog/dynamic-typography/
 date: '2015-08-06 10:25:46'

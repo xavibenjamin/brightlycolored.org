@@ -1,7 +1,8 @@
 ---
 layout: post
 title: iOS 10 is A Major Shift for iOS | The Brooks Review
-categories: link
+
+
 custom_type: link
 link_url: https://brooksreview.net/2016/09/ios-10/
 tags:

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Bill Simmons Breaks Free: His “F—ing Sh**ty” ESPN Exit, Who Courted Him and Details of His HBO Show | Hollywood Reporter"
-categories: link
+
+
 custom_type: link
 link_url: http://www.hollywoodreporter.com/features/bill-simmons-breaks-free-his-900291
 tags:

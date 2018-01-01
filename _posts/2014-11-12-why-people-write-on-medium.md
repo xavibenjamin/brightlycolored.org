@@ -1,6 +1,6 @@
 ---
 title: 'Why People Write on Medium'
-categories: articles
+
 custom_type: post
 date: '2014-11-12 13:05:11'
 tags: [jekyll, writing]

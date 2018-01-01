@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "For The Record: Beauty Is in the Imperfection"
-categories: links
+
 custom_type: link
 link_url: http://towermedia.org/ftr/2
 date: '2015-10-05 12:51:23'

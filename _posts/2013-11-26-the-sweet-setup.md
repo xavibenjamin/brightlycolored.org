@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'The Sweet Setup'
-categories: links
+
 custom_type: link
 link_url: http://thesweetsetup.com/
 tags:

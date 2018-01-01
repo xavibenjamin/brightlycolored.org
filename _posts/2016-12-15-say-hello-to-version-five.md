@@ -1,7 +1,6 @@
 ---
 title: Say Hello to Version Five
 custom_type: post
-categories: article
 tags: [from the editor, site news]
 subtitle: What's new in the newest version of the site.
 date: 2016-12-15 13:15

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Make the Web Better by Helping the Beginners
-categories: link
+
+
 custom_type: link
 link_url: http://bradcolbow.com/blog/index.php/how-to-make-the-web-better
 date: 2016-02-08 08:58

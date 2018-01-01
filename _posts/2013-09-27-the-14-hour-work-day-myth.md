@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'The 14-Hour Work Day Myth'
-categories: links
 custom_type: link
 link_url: http://www.studentguidewebdesign.com/the-myth-of-the-14-hour-work-day/
 date: '2013-09-27 16:02:02'

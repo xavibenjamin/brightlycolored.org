@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Maybe I Should Be Living in Switzerland
-categories: links
+
 custom_type: link
 link_url: http://www.vox.com/2015/7/21/8974435/switzerland-work-life-balance
 date: '2015-07-30 18:40:33'

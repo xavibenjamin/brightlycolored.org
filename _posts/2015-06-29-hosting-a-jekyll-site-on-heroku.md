@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hosting a Jekyll Site on Heroku
-categories: articles best
+
 custom_type: post
 date: '2015-06-29 11:11:30'
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Beyond Ink'
-categories: links
+
 custom_type: link
 link_url: http://www.beyondink.co.uk/
 tags:

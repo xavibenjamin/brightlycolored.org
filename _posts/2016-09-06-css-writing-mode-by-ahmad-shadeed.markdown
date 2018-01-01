@@ -1,7 +1,8 @@
 ---
 layout: post
 title: CSS Writing Mode by Ahmad Shadeed
-categories: link
+
+
 custom_type: link
 link_url: https://ishadeed.com/article/css-writing-mode/
 tags:

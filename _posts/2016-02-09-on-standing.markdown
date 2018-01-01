@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "‘On Standing’"
-categories: link
+
+
 custom_type: link
 link_url: http://chrisbowler.com/journal/on-standing
 date: 2016-02-09 08:30

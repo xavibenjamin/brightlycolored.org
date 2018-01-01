@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Instacast Discontinued as Vemedio Runs out of Money
-categories: links
+
 custom_type: link
 link_url: http://9to5mac.com/2015/06/14/instacast-shuts-down-vemedio-podcast-app/
 date: '2015-06-15 13:54:43'

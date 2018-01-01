@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Twitter Facing Monetary Challenges in Japan and Korea'
-categories: links
+
 custom_type: link
 link_url: http://thenextweb.com/twitter/2013/11/04/twitter-is-facing-challenges-making-money-in-japan-and-korea
 tags:

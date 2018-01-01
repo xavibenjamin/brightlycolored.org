@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Hello Again World by Jen Simmons
-categories: link
+
+
 custom_type: link
 link_url: http://jensimmons.com/post/nov-7-2016/hello-again-world
 tags: [personal, twitter]

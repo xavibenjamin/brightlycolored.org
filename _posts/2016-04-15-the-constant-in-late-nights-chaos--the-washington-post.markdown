@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The Constant in Late Night’s Chaos | The Washington Post
-categories: link
+
+
 custom_type: link
 link_url: http://www.washingtonpost.com/sf/style/2016/03/03/conan-obrien/
 tags:

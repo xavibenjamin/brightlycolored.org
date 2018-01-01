@@ -1,7 +1,8 @@
 ---
 layout: post
 title: TextExpander 6 and TextExpander.com by Michael Tsai
-categories: link
+
+
 custom_type: link
 link_url: http://mjtsai.com/blog/2016/04/06/textexpander-6-and-textexpander-com/
 tags:

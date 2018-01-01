@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2016's Subscription Drive Winners"
-categories: articles
+
 custom_type: post
 tags: [from the editor, site news]
 date: 2016-10-04 12:33

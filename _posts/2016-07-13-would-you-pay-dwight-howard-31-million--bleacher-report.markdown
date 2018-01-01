@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Would You Pay Dwight Howard $31 Million? | Bleacher Report
-categories: link
+
+
 custom_type: link
 link_url: http://thelab.bleacherreport.com/would-you-pay-dwight-howard-31-million/
 tags:

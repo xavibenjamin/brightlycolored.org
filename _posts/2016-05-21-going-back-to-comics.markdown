@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Going Back To Comics
-categories: articles
+
 custom_type: post
 tags:
   - comics

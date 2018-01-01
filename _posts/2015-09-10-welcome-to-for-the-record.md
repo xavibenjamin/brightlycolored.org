@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to ‘For The Record’
-categories: links
+
 custom_type: link
 link_url: http://towermedia.org/ftr/0
 date: '2015-09-10 22:13:57'

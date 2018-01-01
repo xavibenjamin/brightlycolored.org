@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Nylas Pro | The Nylas Blog
-categories: link
+
+
 custom_type: link
 link_url: https://nylas.com/blog/nylas-pro/
 tags:

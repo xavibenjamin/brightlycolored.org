@@ -1,7 +1,8 @@
 ---
 layout: post
 title: NBA Shoe Deals
-categories: link
+
+
 custom_type: link
 link_url: http://sports.yahoo.com/news/inside-the-sneaker-industry--how-nba-shoe-deals-work-032155839.html
 date: 2016-02-26 00:57

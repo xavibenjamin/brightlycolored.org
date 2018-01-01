@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Alfred Version 3
-categories: link
+
+
 custom_type: link
 link_url: https://www.alfredapp.com/blog/announcements/alfred-v3-is-coming/
 tags:

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Patience and Impatience in the Tech Industry by Manton Reece
-categories: link
+
+
 custom_type: link
 link_url: http://www.manton.org/2016/04/patience-and-impatience-in-the-tech-industry.html
 tags:

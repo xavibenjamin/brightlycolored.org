@@ -1,7 +1,8 @@
 ---
 layout: post
 title: On Standing Up for Yourself by Nicole Dominguez
-categories: link
+
+
 custom_type: link
 link_url: https://medium.com/@sodevious/on-standing-up-for-yourself-a56d87d977dc#.q3rt99z8m
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pebble Pre-Sells its New Watch on Kickstarter
-categories: links
+
 custom_type: link
 link_url: https://www.kickstarter.com/projects/597507018/pebble-time-awesome-smartwatch-no-compromises
 date: '2015-02-26 12:17:39'

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Sticky Headers by Jeremy Keith
-categories: link
+
+
 custom_type: link
 link_url: https://adactio.com/journal/10877
 tags:

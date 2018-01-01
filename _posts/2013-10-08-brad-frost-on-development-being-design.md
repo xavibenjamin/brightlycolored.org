@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Brad Frost on Development Being Design'
-categories: links
 custom_type: link
 link_url: http://bradfrostweb.com/blog/post/development-is-design/
 tags: [design, development]

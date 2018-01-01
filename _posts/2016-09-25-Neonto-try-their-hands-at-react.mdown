@@ -2,7 +2,8 @@
 layout: post
 author: keatontaylor
 title: Neonto Tries Their Hand at React
-categories: link
+
+
 custom_type: link
 link_url: https://reactstudio.com/
 tags: [design, development, tools]

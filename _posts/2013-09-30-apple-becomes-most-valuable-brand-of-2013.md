@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Apple Becomes ‘Most Valuable Brand’ of 2013'
-categories: links
 custom_type: link
 link_url: http://thenextweb.com/apple/2013/09/30/apple-overtakes-coca-cola-to-become-most-valuable-brand-of-2013/
 date: '2013-09-30 12:05:04'

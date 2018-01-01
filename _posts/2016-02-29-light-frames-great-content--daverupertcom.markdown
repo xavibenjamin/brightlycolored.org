@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Light Frames, Great Content | daverupert.com
-categories: link
+
+
 custom_type: link
 link_url: http://daverupert.com/2016/02/light-frames-great-content/
 tags:

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Marco Arment on Apple’s Recent Event'
-categories: links
 custom_type: link
 link_url: http://www.marco.org/2013/10/24/off
 tags:

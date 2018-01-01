@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "‘Samantha Bee Prepares to Break Up Late-Night TV’s Boys Club’"
-categories: link
+
+
 custom_type: link
 link_url: http://www.nytimes.com/2016/01/10/arts/television/samantha-bee-prepares-to-break-up-late-night-tvs-boys-club.html
 date: '2016-01-10 22:56:23'

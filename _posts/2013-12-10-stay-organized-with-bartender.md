@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Stay Organized with Bartender'
-categories: links
+
 custom_type: link
 link_url: http://thesweetsetup.com/apps/great-app-keeping-macs-menu-bar-organized/
 tags:

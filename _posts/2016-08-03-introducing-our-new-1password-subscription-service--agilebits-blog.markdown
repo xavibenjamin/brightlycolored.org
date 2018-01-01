@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducing our new 1Password subscription service | AgileBits Blog
-categories: links
+
 custom_type: link
 link_url: https://blog.agilebits.com/2016/08/03/new-1password-hosted-service/
 tags:

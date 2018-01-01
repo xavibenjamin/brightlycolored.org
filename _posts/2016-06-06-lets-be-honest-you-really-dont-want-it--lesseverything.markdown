@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Let's Be Honest, You Really Don’t Want It | LessEverything
-categories: link
+
+
 custom_type: link
 link_url: http://lesseverything.com/blog/archives/2016/05/10/lets-be-honest-you-really-dont-want-it/
 tags:

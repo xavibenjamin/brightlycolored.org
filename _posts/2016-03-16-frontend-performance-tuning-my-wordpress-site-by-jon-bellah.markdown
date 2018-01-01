@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Front-end Performance Tuning My WordPress Site by Jon Bellah
-categories: link
+
+
 custom_type: link
 link_url: https://jonbellah.com/front-end-performance-tuning/
 tags:

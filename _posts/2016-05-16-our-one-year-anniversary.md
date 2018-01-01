@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Our One Year Anniversary
-categories: articles
+
 custom_type: post
 tags:
   - personal

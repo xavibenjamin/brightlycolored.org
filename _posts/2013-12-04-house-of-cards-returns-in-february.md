@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '‘House of Cards’ Returns in February'
-categories: links
+
 custom_type: link
 link_url: http://youtu.be/1lc6QzxTeZM
 tags:

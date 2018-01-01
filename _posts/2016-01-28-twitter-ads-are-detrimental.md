@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Twitter Implies Their Ads Suck
-categories: links
+
 custom_type: link
 link_url: http://mattgemmell.com/tiered-social-media/
 date: '2016-01-28 10:28:57'

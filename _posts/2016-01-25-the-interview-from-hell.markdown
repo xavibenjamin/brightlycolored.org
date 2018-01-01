@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The Interview from Hell
-categories: link
+
+
 custom_type: link
 link_url: http://deliberate-software.com/on-defeat/
 date: 2016-01-25 02:05

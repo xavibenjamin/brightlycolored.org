@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Amazon’s Biodome Approved in Seattle'
-categories: links
 custom_type: link
 link_url: http://www.theverge.com/2013/10/24/5023454/amazon-giant-biodome-design-board-approval
 tags:

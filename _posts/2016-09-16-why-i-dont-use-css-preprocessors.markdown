@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Why I don’t use CSS preprocessors
-categories: link
+
+
 custom_type: link
 link_url: http://www.456bereastreet.com/archive/201603/why_i_dont_use_css_preprocessors/
 tags: [CSS, development]

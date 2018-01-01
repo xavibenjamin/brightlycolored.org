@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Billy Joel Interviewed on Here’s the Thing'
-categories: links
+
 custom_type: link
 link_url: http://www.wnyc.org/story/billy-joel/
 tags:

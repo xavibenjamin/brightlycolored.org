@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '‘The Top 10 Worst Albums of the Year’'
-categories: links
+
 custom_type: link
 link_url: http://henrysmusicblog.com/post/71922799693/the-top-10-worst-albums-of-the-year
 date: '2014-01-02 10:43:33'

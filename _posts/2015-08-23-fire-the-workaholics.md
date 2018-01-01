@@ -1,7 +1,8 @@
 ---
 layout: post
 title: ‘Fire the Workaholics’
-categories: link
+
+
 custom_type: link
 link_url: https://signalvnoise.com/posts/902-fire-the-workaholics
 date: '2015-08-24 07:43:00'

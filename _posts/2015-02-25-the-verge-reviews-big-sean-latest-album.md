@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Verge Reviews Big Sean’s Latest Album
-categories: links
+
 custom_type: link
 link_url: http://www.theverge.com/2015/2/23/8079261/dark-sky-paradise-review
 date: '2015-02-25 15:47:13'

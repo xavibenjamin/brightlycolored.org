@@ -1,7 +1,8 @@
 ---
 layout: post
 title: What Is a Front End Developer?
-categories: link
+
+
 custom_type: link
 link_url: http://learntocodewith.me/web-dev/front-end-developer-skills/
 date: 2016-01-05 01:58

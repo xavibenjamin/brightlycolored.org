@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "‘Permission Slips’"
-categories: link
+
+
 custom_type: link
 link_url: http://emilymall.blogspot.com/2016/01/permission-slips.html
 date: 2016-01-25 01:37

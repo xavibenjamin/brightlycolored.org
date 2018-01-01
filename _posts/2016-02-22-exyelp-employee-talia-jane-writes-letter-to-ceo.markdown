@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Ex-Yelp Employee, Talia Jane, Writes Letter to CEO
-categories: link
+
+
 custom_type: link
 link_url: https://medium.com/@taliajane/an-open-letter-to-my-ceo-fb73df021e7a#.yx2gy2uur
 date: 2016-02-22 08:30

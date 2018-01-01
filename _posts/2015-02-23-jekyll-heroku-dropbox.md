@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ‘Deploy a Password Protected Jekyll Site on Heroku with Dropbox’
-categories: links
+
 custom_type: link
 link_url: http://daverupert.com/2015/02/jekyll-heroku-dropbox/
 date: '2015-02-23 13:36:32'

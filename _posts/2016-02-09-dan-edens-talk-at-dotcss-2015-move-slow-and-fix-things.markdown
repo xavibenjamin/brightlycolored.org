@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Dan Eden's Talk at dotCSS 2015: Move Slow and Fix Things"
-categories: link
+
+
 custom_type: link
 link_url: http://www.thedotpost.com/2015/12/daniel-eden-move-slow-and-fix-things
 date: 2016-02-09 08:29

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: ‘Fantastic Four’ Sucked
-categories: link
+
+
 custom_type: link
 link_url: http://www.nytimes.com/2015/08/10/movies/fantastic-four-lacks-superpowers-at-box-office.html
 date: '2015-08-24 09:51:07'

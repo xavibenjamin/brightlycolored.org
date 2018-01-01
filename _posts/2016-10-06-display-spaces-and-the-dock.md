@@ -2,7 +2,7 @@
 layout: post
 author: tjdraper
 title: "Display Spaces and The Dock"
-categories: articles
+
 custom_type: post
 tags:
   - apple

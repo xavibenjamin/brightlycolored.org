@@ -1,7 +1,6 @@
 ---
 layout: post
 title: '‘Minor’ Upgrade to Instagram No Longer Lets Users Disable Video Autoplay'
-categories: links
 custom_type: link
 link_url: http://thenextweb.com/facebook/2013/10/11/instagram-longer-lets-users-disable-video-autoplay-small-important-step-towards-ads/
 tags:

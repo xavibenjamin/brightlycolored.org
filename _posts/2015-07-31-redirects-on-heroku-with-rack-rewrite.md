@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Heroku Redirects with rack-rewrite
-categories: articles best
+
 custom_type: post
 tags: [development, jekyll, jekyll on heroku]
 subtitle: Moved this blog to Heroku, now what?

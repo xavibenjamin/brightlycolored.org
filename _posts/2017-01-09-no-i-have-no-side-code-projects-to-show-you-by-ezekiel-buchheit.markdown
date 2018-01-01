@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "No, I Have No Side Code Projects to Show You by Ezekiel Buchheit"
-categories: link
+
+
 custom_type: link
 link_url: https://www.linkedin.com/pulse/i-have-side-code-projects-show-you-ezekiel-buchheit
 date: 2017-01-09 00:13
