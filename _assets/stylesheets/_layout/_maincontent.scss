@@ -149,66 +149,7 @@
   }
 }
 
-#markdown-toc {
-  border: 1px solid $border-color;
-  display: none;
-  margin-top: 0;
-  max-width: 220px;
-  padding-bottom: 1rem;
-  pointer-events: none;
-  visibility: hidden;
-  width: 100%;
-  &:before {
-    background-color: $border-color;
-    content: 'Table of Contents';
-    display: block;
-    font-size: .65rem;
-    font-weight: 600;
-    margin-bottom: .8rem;
-    padding: .5rem 1rem;
-    text-transform: uppercase;
-  }
-  > li {
-    max-width: 72%;
-    word-wrap: break-word;
-  }
-  li {
-    font-size: .7rem;
-    margin-left: 1.8rem;
-    li {
-      margin-left: 1.2rem;
-    }
-    a {
-      color: lighten($body-color, 10%);
-      text-decoration: none;
-    }
-  }
-
-  @media #{$medium-up} {
-    display: block;
-    float: left;
-    margin-right: 1.8rem;
-    pointer-events: auto;
-    visibility: visible;
-    width: 100%;
-  }
-
-  @media (min-width: 80em) {
-    float: none;
-    left: -30px;
-    margin-left: 0;
-    position: absolute;
-  }
-
-  @media #{$xxlarge-up} {
-    left: 52px;
-  }
-  ul {
-    margin-left: 0;
-  }
-}
-
-.post {
+.post > {
   h2,
   h3,
   h4,
@@ -216,7 +157,9 @@
   h6 {
     &:hover {
       .heading-link {
+        display: inline-block;
         opacity: 1;
+        pointer-events: auto;
       }
     }
   }
@@ -224,13 +167,64 @@
 
 .heading-link {
   color: lighten($heading-base-color, 45%);
+  display: none;
   font-size: .85em;
   margin-left: .4rem;
   opacity: 0;
+  pointer-events: none;
   position: relative;
   text-decoration: none;
-  // top: -2px;
   transition: opacity 300ms ease-in-out;
+}
+
+.toc-wrapper {
+  border: 1px solid rgba($body-color, .1);
+  border-radius: $global-radius;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  h2 {
+    align-items: center;
+    background-color: rgba($body-color, .05);
+    cursor: pointer;
+    display: flex;
+    @extend %sans;
+    font-size: .75rem;
+    justify-content: space-between;
+    margin-top: 0;
+    padding: .6rem 1rem;
+    text-transform: uppercase;
+    svg {
+      fill: lighten($body-color, 30%);
+      transition: transform 500ms ease;
+      width: 16px;
+    }
+    &.js-toc-is-open {
+      svg {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  #markdown-toc {
+    display: none;
+    height: 0;
+    overflow: hidden;
+    transition: height 500ms ease;
+    &.js-toc-is-open {
+      display: block;
+      height: auto;
+    }
+  }
+  li a {
+    display: block;
+    font-size: .75rem;
+    font-weight: 600;
+    padding: .4rem 1rem;
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      background-color: rgba($body-color, .03);
+    }
+  }
 }
 
 // Movie Info --------------------
