@@ -8,6 +8,7 @@
 //= require heading-anchors
 //= require tag-list
 //= require mobile-menu
+//= require table-of-contents
 
 jQuery(document).ready(function($) {
   $.bigfoot();

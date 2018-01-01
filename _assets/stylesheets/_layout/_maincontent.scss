@@ -149,66 +149,7 @@
   }
 }
 
-#markdown-toc {
-  border: 1px solid $border-color;
-  display: none;
-  margin-top: 0;
-  max-width: 220px;
-  padding-bottom: 1rem;
-  pointer-events: none;
-  visibility: hidden;
-  width: 100%;
-  &:before {
-    background-color: $border-color;
-    content: 'Table of Contents';
-    display: block;
-    font-size: .65rem;
-    font-weight: 600;
-    margin-bottom: .8rem;
-    padding: .5rem 1rem;
-    text-transform: uppercase;
-  }
-  > li {
-    max-width: 72%;
-    word-wrap: break-word;
-  }
-  li {
-    font-size: .7rem;
-    margin-left: 1.8rem;
-    li {
-      margin-left: 1.2rem;
-    }
-    a {
-      color: lighten($body-color, 10%);
-      text-decoration: none;
-    }
-  }
-
-  @media #{$medium-up} {
-    display: block;
-    float: left;
-    margin-right: 1.8rem;
-    pointer-events: auto;
-    visibility: visible;
-    width: 100%;
-  }
-
-  @media (min-width: 80em) {
-    float: none;
-    left: -30px;
-    margin-left: 0;
-    position: absolute;
-  }
-
-  @media #{$xxlarge-up} {
-    left: 52px;
-  }
-  ul {
-    margin-left: 0;
-  }
-}
-
-.post {
+.post > {
   h2,
   h3,
   h4,
@@ -216,7 +157,9 @@
   h6 {
     &:hover {
       .heading-link {
+        display: inline-block;
         opacity: 1;
+        pointer-events: auto;
       }
     }
   }
@@ -224,13 +167,75 @@
 
 .heading-link {
   color: lighten($heading-base-color, 45%);
+  display: none;
   font-size: .85em;
   margin-left: .4rem;
   opacity: 0;
+  pointer-events: none;
   position: relative;
   text-decoration: none;
-  // top: -2px;
   transition: opacity 300ms ease-in-out;
+}
+
+.toc-wrapper {
+  border: 1px solid rgba($body-color, .1);
+  border-radius: $global-radius;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  h2 {
+    align-items: center;
+    background-color: rgba($body-color, .05);
+    cursor: pointer;
+    display: flex;
+    @extend %sans;
+    font-size: .75rem;
+    justify-content: space-between;
+    margin-top: 0;
+    padding: .6rem 1rem;
+    text-transform: uppercase;
+    svg {
+      fill: lighten($body-color, 30%);
+      transition: transform 350ms ease;
+      width: 16px;
+    }
+    &.js-toc-is-open {
+      svg {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  #markdown-toc {
+    display: none;
+    font-size: .75rem;
+    height: 0;
+    list-style: decimal-leading-zero;
+    overflow: hidden;
+    padding-left: 2.5rem;
+    transition: height 350ms ease;
+    &.js-toc-is-open {
+      display: block;
+      height: auto;
+    }
+  }
+  li {
+    padding: .3rem 0;
+    a {
+      border-bottom: 1px dotted transparent;
+      display: inline-block;
+      font-size: .75rem;
+      font-weight: 600;
+      text-decoration: none;
+      &:hover,
+      &:focus {
+        background-color: rgba($link-color, .1);
+        border-bottom: 1px dotted $link-color;
+      }
+    }
+    ol {
+      list-style-type: lower-roman;
+      padding-left: .5rem;
+    }
+  }
 }
 
 // Movie Info --------------------

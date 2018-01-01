@@ -12,11 +12,9 @@ rating: 4
 review_dev: AgileBits
 price: 49
 ---
-
-* contents
-{:toc}
-
 [1Password](https://agilebits.com/onepassword) is one of my favorite apps. The amount of time it has saved me is unmeasurable, and it's made my password strategy secure and delightful.
+
+{% include toc.html %}
 
 For those of you who don't know about 1Password, it's a great utility app to store and generate passwords. For years, I was the person who had _the same password for everything_. With 1Password, I don't do that anymore, I'm able to search through weak passwords and generate stronger ones, making it less likely to get hacked. Even if that does happen, none of my passwords are the same, so I only need to reset the one that's been compromised.
 

@@ -5,11 +5,9 @@ exclude_from_search: true
 permalink: /styleguide/writing/
 excerpt: Writing style guide for Brightly Colored.
 ---
-
-* contents
-{:toc}
-
 I can be a very forgetful person. Case in point, I tend to forget my personal rules and guidelines for my writing. Hence, here's a written guide for me to reference when I need it.
+
+{% include toc.html %}
 
 ## Personality and Tone
 
