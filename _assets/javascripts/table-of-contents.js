@@ -23,7 +23,7 @@ function showToc(elem) {
 
   window.setTimeout(function() {
     elem.style.height = '';
-  }, 500);
+  }, 350);
 };
 
 function hideToc(elem) {
@@ -35,7 +35,7 @@ function hideToc(elem) {
 
   window.setTimeout(function() {
     elem.classList.remove('js-toc-is-open');
-  }, 500);
+  }, 350);
 };
 
 function toggleToc(elem) {

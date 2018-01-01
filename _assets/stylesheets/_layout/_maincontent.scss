@@ -195,7 +195,7 @@
     text-transform: uppercase;
     svg {
       fill: lighten($body-color, 30%);
-      transition: transform 500ms ease;
+      transition: transform 350ms ease;
       width: 16px;
     }
     &.js-toc-is-open {
@@ -206,23 +206,34 @@
   }
   #markdown-toc {
     display: none;
+    font-size: .75rem;
     height: 0;
+    list-style: decimal-leading-zero;
     overflow: hidden;
-    transition: height 500ms ease;
+    padding-left: 2.5rem;
+    transition: height 350ms ease;
     &.js-toc-is-open {
       display: block;
       height: auto;
     }
   }
-  li a {
-    display: block;
-    font-size: .75rem;
-    font-weight: 600;
-    padding: .4rem 1rem;
-    text-decoration: none;
-    &:hover,
-    &:focus {
-      background-color: rgba($body-color, .03);
+  li {
+    padding: .3rem 0;
+    a {
+      border-bottom: 1px dotted transparent;
+      display: inline-block;
+      font-size: .75rem;
+      font-weight: 600;
+      text-decoration: none;
+      &:hover,
+      &:focus {
+        background-color: rgba($link-color, .1);
+        border-bottom: 1px dotted $link-color;
+      }
+    }
+    ul {
+      list-style-type: lower-roman;
+      padding-left: 1rem;
     }
   }
 }

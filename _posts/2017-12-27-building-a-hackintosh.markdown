@@ -9,10 +9,9 @@ date: 2017-12-27 9:00
 
 {% figure extendout /uploads/2017/12/hackintosh.jpg %}
 
-* contents
-{:toc}
-
 So I really gave it away in the title, but, uhh, I built a computer. And that computer allegedly runs macOS. Why would I do this? How did I do this? What was my experience like? I intend to answer all these questions my friends.
+
+{% include toc.html %}
 
 ## Why Would I Do This?
 
