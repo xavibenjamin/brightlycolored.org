@@ -5,11 +5,9 @@ custom_type: post
 tags: [development, jekyll, jekyll on heroku, jekyll on netlify]
 date: 2017-04-03 11:33
 ---
-
-* contents
-{:toc}
-
 In June 2015, I set out on a bold journey. One where no one had gone before. If you're thinking of space, hell yea that would be amazing, but no. I set out to host my Jekyll site on Heroku.
+
+{% include toc.html %}
 
 I'd been paying money for my static site to be deployed. There had to be a better way. I searched what felt like every corner of the internet to find a way to do this. Heroku could build my site straight from git. That would be amazing!
 

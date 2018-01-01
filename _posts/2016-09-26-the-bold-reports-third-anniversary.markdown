@@ -14,8 +14,7 @@ I published [the first post](https://theboldreport.net/2013/09/welcome/) on *The
 
 {% figure extendout /uploads/2016/09/original-boldreport-design.jpg "Can you believe I thought that looked good? Also, boy has Google Chrome changed!" %}
 
-* contents
-{:toc}
+{% include toc.html %}
 
 ## Personal Growth
 

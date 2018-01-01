@@ -5,11 +5,9 @@ custom_type: post
 tags: [ development, web performance, typography ]
 date: 2017-10-31 22:21
 ---
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
-
 I've used fonts from [Cloud.typography](https://www.typography.com/cloud/welcome/) for about two years now. I love Hoefler & Co.'s family of typefaces—this site uses Whitney. But the problem has always been the performance hog these fonts are to serve.
+
+{% include toc.html %}
 
 On most days, it doesn't bother me much because of my high internet speed. That's a very privileged way of thinking, so it was time to fix things. I don't run any analytics here, so I'm not sure how many people visit this site on a slow connection. Really, it doesn't matter. Any one of us can have a slow connection at a moments notice.
 
