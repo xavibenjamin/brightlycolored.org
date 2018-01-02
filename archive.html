@@ -33,7 +33,7 @@ exclude_from_search: true
       <li class="group-post__item group-post__item--bold">
         <a href="{{ post.url }}">
           <span class="group-post__meta-info">{{ post.date | date: '%a, %b %d'}}</span>
-          {{ post.title }}
+          {{ post.title | caps  }}
         </a>
       </li>
     {% endfor %}
