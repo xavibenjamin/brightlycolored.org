@@ -1,0 +1,200 @@
+// -----------------------------------------
+// GROUP PAGES
+// -----------------------------------------
+// Styles for group pages. Archive, Topics,
+// and Genres all use these styles.
+// -----------------------------------------
+
+// -----------------------------------------
+// GROUPS LIST
+
+.groups-list {
+  display: grid;
+  grid-column-gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  @media #{$small-only} {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  @media #{$large-up} {
+    max-width: 70%;
+  }
+  a {
+    border-top: 2px solid $border-color;
+    color: lighten($body-color, 20%);
+    display: flex;
+    font-size: .75rem;
+    font-weight: 600;
+    justify-content: space-between;
+    padding: .4rem 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover,
+    &:focus {
+      color: $primary-color;
+    }
+  }
+  span {
+    @extend %code;
+  }
+}
+
+.groups-list--space-saver {
+  max-height: 224px;
+  overflow: hidden;
+  position: relative;
+  &:after {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0px, #FFF 100%, #FFF 100%) repeat-x scroll 0 0 transparent;
+    bottom: 0;
+    content: '';
+    grid-column: 1 / -1;
+    height: 50px;
+    margin-top: -50px;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+  }
+  &.js-is-open {
+    max-height: none;
+    overflow: auto;
+    &:after {
+      content: none;
+    }
+  }
+}
+
+.groups-list--full {
+  max-width: none;
+}
+
+.groups-list--3-col {
+  @media #{$medium-up} {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.groups-list--4-col {
+  @media #{$medium-up} {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media #{$large-up} {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+// -----------------------------------------
+// GROUP DISPLAY OF POSTS
+
+.group-section {
+  padding: 3rem 0;
+  position: relative;
+  @media #{$small-only} {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  &:hover {
+    .group__return-home {
+      opacity: 1;
+    }
+  }
+  p {
+    margin-top: .3rem;
+    @media #{$medium-up} {
+      line-height: 1.4;
+      margin-bottom: 0;
+    }
+  }
+  + .group-section {
+    border-top: 1px solid $border-color;
+  }
+}
+
+.group__name {
+  align-items: center;
+  display: flex;
+  @extend %sans;
+  font-size: .9rem;
+  font-weight: 600;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.group__count {
+  background: darken($light-bg-color, 1%);
+  border-radius: $global-radius;
+  color: lighten($body-color, 10%);
+  @extend %code;
+  font-size: .9em;
+  font-weight: 400;
+  line-height: .8;
+  margin-left: .5rem;
+  padding: .4rem .7rem;
+  position: relative;
+  top: 1px;
+}
+
+.group__post-list {
+  list-style-type: none;
+  margin-top: 1.2rem;
+  width: 100%;
+}
+
+.group__post-list--2-col {
+  @media #{$medium-up} {
+    column-count: 2;
+    column-gap: 4rem;
+  }
+}
+
+.group__post-list--3-col {
+  @media #{$medium-up} {
+    column-count: 2;
+    column-gap: 3rem;
+    column-rule: 1px solid $border-color;
+  }
+  @media #{$large-up} {
+    column-count: 3;
+  }
+}
+
+.group-post__item {
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  display: block;
+  font-size: .75rem;
+  line-height: 1.5;
+  margin-bottom: .4rem;
+  page-break-inside: avoid;
+  a {
+    text-decoration: none;
+  }
+}
+
+.group-post__item--bold {
+  font-weight: 600;
+}
+
+.group-post__meta-info {
+  color: lighten($body-color, 25%);
+  display: block;
+  font-size: .7rem;
+  font-weight: 400;
+}
+
+.group__return-home {
+  bottom: 10px;
+  color: $body-color;
+  font-size: .7rem;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: opacity .2s ease-in-out;
+  vertical-align: middle;
+}
