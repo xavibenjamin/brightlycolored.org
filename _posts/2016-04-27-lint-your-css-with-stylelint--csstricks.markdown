@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Lint Your CSS with stylelint | CSS-Tricks
-categories: link
+
+
 custom_type: link
 link_url: https://css-tricks.com/stylelint/
 tags:

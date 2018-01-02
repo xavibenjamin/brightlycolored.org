@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '‘Making Fussy Coffee’'
-categories: links
+
 custom_type: link
 link_url: http://peterbinks.net/blog/making-fussy-coffee
 date: '2014-11-05 13:07:35'

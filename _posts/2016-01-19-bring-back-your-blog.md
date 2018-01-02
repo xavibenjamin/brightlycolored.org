@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "‘An Invitation to Bring Back Your Personal Site’"
-categories: link
+
+
 custom_type: link
 link_url: http://www.elezea.com/2016/01/an-invitation/
 date: '2016-01-19 23:50:00'

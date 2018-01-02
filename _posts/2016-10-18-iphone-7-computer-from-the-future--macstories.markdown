@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "iPhone 7: Computer from the Future | MacStories"
-categories: link
+
+
 custom_type: link
 link_url: https://www.macstories.net/stories/iphone-7-computer-from-the-future
 tags: [apple, iPhone]

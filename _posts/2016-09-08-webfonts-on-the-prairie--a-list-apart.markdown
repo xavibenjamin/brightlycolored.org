@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Webfonts on the Prairie | A List Apart
-categories: link
+
+
 custom_type: link
 link_url: http://alistapart.com/article/webfonts-on-the-prairie
 tags:

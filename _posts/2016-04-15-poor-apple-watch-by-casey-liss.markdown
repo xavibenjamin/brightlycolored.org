@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Poor Apple Watch by Casey Liss
-categories: link
+
+
 custom_type: link
 link_url: https://www.caseyliss.com/2016/4/11/poor-apple-watch
 tags:

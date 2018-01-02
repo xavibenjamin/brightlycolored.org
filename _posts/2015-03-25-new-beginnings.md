@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Beginnings
-categories: articles
+
 custom_type: post
 date: '2015-03-25 12:37:24'
 tags: [jobs, personal]

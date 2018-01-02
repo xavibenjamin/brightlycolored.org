@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Looking Forward'
-categories: articles
+
 custom_type: post
 date: '2014-01-01 14:27:15'
 tags: [year in review, personal]

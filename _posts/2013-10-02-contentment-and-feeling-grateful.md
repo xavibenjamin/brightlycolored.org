@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Contentment and Being Grateful'
-categories: articles
+
 custom_type: post
 tags: personal
 date: '2013-10-02 14:56:56'

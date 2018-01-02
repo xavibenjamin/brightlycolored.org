@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'New York Magazine Interviews Jon Stewart'
-categories: links
+
 custom_type: link
 link_url: http://nymag.com/daily/intelligencer/2014/10/jon-stewart-rosewater-in-conversation.html
 date: '2014-11-04 13:57:59'

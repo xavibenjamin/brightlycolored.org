@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Style Guide for ‘The Bold Report’
-categories: links
+
 custom_type: link
 link_url: /styleguide/
 date: '2016-01-10 18:03:17'

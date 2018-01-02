@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '‘The Silent Subcontractor’'
-categories: links
+
 custom_type: link
 link_url: http://alistapart.com/column/the-silent-subcontractor
 date: '2014-01-02 11:09:02'

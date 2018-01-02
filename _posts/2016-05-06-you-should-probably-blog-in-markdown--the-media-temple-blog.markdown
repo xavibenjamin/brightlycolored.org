@@ -1,7 +1,8 @@
 ---
 layout: post
 title: You Should Probably Blog in Markdown | The Media Temple Blog
-categories: link
+
+
 custom_type: link
 link_url: http://mediatemple.net/blog/tips/you-should-probably-blog-in-markdown/
 tags:

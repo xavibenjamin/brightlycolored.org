@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Unboxing the Sony MDR-7506 Headphones
-categories: links
+
 custom_type: link
 link_url: https://youtu.be/rAqCZFD9KT4
 date: '2015-07-30 17:50:38'

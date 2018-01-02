@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Spark Launches on iPad | MacStories
-categories: link
+
+
 custom_type: link
 link_url: https://www.macstories.net/reviews/spark-launches-on-ipad/
 tags:

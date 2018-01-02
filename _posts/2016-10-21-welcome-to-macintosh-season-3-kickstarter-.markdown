@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Welcome to Macintosh Season 3 Kickstarter "
-categories: link
+
+
 custom_type: link
 link_url: https://www.kickstarter.com/projects/bramhill/welcome-to-macintosh-season-3
 tags: [apple, podcasts]

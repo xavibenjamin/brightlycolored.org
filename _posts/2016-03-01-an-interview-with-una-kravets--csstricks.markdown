@@ -1,7 +1,8 @@
 ---
 layout: post
 title: An Interview with Una Kravets | CSS-Tricks
-categories: link
+
+
 custom_type: link
 link_url: https://css-tricks.com/an-interview-with-una-kravets/
 tags:

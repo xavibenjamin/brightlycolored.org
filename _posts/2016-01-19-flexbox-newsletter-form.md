@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building a Newsletter Form Using Flexbox and Javascript
-categories: articles
+
 custom_type: post
 ---
 

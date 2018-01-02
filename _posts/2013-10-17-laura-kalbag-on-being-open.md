@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Laura Kalbag on Being Open'
-categories: links
 custom_type: link
 link_url: http://alistapart.com/column/open-for-business
 tags:

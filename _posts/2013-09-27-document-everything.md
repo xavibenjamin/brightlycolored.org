@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Document Everything'
-categories: articles
+
 custom_type: post
 date: '2013-09-27 14:35:13'
 tags: [ design ]

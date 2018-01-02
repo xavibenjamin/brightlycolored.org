@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "‘Influencing Web Layouts with Print Layouts’"
-categories: link
+
+
 custom_type: link
 link_url: https://css-tricks.com/print-magazine-layouts-converted-to-web-layouts/
 date: 2016-01-22 09:24

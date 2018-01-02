@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Shaping Your Job Search by Tara Mann
-categories: link
+
+
 custom_type: link
 link_url: https://medium.com/@taramann/shaping-your-job-search-9359ae7a71da
 tags: [jobs, work]

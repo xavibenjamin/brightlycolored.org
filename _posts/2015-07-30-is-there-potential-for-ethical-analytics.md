@@ -1,7 +1,8 @@
 ---
 layout: post
 title: ‘Is There Potential for “Ethical Analytics”?’
-categories: link
+
+
 custom_type: link
 link_url: http://laurakalbag.com/is-there-potential-for-ethical-analytics/
 date: '2015-07-30 18:22:05'

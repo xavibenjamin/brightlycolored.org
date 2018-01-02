@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Version 2.0'
-categories: articles
+
 custom_type: post
 date: '2014-01-01 13:29:19'
 tags: [from the editor, site news]

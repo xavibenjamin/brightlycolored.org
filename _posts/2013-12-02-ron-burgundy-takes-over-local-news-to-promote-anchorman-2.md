@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Ron Burgundy Takes Over Local News to Promote ‘Anchorman 2’'
-categories: links
+
 custom_type: link
 link_url: http://www.theverge.com/2013/12/1/5163560/ron-burgundy-invades-local-news-to-promote-anchorman-2
 tags:

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: How a TV Sitcom Triggered the Downfall of Western Civilization by David Hopkins
-categories: link
+
+
 custom_type: link
 link_url: https://medium.com/@thatdavidhopkins/how-a-tv-sitcom-triggered-the-downfall-of-western-civilization-336e8ccf7dd0
 tags:

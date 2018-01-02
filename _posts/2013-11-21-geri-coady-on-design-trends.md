@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Geri Coady on Design Trends'
-categories: links
+
 custom_type: link
 link_url: http://the-pastry-box-project.net/geri-coady/2013-november-21/
 tags:

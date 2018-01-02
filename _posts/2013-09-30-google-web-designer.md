@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Google Web Designer'
-categories: links
 custom_type: link
 link_url: https://www.google.com/webdesigner/
 date: '2013-09-30 11:41:11'

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Spotify Says Apple Won’t Approve a New Version of Its App because It Doesn’t Want Competition for Apple Music | Recode
-categories: link
+
+
 custom_type: link
 link_url: http://www.recode.net/2016/6/30/12067578/spotify-apple-app-store-rejection
 tags:

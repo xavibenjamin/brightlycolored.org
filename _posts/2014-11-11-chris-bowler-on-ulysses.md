@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Chris Bowler on Ulysses'
-categories: links
+
 custom_type: link
 link_url: http://chrisbowler.com/journal/ulysses
 date: '2014-11-11 13:38:55'

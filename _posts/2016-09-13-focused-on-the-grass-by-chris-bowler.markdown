@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Focused on the Grass by Chris Bowler
-categories: link
+
+
 custom_type: link
 link_url: http://chrisbowler.com/journal/greener-grass
 tags:

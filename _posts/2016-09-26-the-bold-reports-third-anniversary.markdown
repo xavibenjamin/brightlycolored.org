@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Bold Report’s Third Anniversary
-categories: articles
+
 custom_type: post
 tags: [from the editor, site news]
 date: 2016-09-26 07:19

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Bill Nye Back with a YouTube Series on NASA’s Mission to Jupiter'
-categories: links
 custom_type: link
 link_url: http://www.theverge.com/2013/10/10/4823030/bill-nye-the-science-guy-youtube-miniseries
 tags:

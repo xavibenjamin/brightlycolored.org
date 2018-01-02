@@ -1,7 +1,8 @@
 ---
 layout: post
 title: ‘Let’s Talk Money’
-categories: link
+
+
 custom_type: link
 link_url: http://helentran.com/lets-talk-money
 excerpt: One of the most displeasing sentiments out there is that if you are passionate about something, the money shouldn't matter. People will fall all over themselves agreeing to this.

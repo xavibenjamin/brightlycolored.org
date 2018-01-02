@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Freelancing and Saying “No”'
-categories: articles
+
 custom_type: post
 tags:
   - freelancing

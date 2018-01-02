@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Yahoo’s ‘Year in Review’ Report'
-categories: links
+
 custom_type: link
 link_url: http://thenextweb.com/insider/2013/12/03/yahoo-reveals-tumblrs-viral-blogs-2013-annual-year-review-report/
 tags:

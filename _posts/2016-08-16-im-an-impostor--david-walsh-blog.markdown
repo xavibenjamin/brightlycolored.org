@@ -1,7 +1,8 @@
 ---
 layout: post
 title: I'm an Impostor | David Walsh Blog
-categories: link
+
+
 custom_type: link
 link_url: https://davidwalsh.name/impostor-syndrome
 tags:

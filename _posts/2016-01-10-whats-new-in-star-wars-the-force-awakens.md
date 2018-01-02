@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "‘What’s new in Star Wars: The Force Awakens’"
-categories: link
+
+
 custom_type: link
 link_url: http://mattheweppelsheimer.com/2016/01/whats-new-in-star-wars-the-force-awakens/
 date: '2016-01-10 18:51:50'

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Magneto Blamed for JFK Murder'
-categories: links
+
 custom_type: link
 link_url: http://www.theverge.com/2013/11/26/5148024/x-men-viral-site-magneto-responsible-for-jfk-murder
 tags:

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Still Rendering | Erin Lee Carr
-categories: link
+
+
 custom_type: link
 link_url: https://medium.com/@erinleecarr/lessons-dbbaa0c8294d#.cy6q1awqj
 date: 2016-02-24 09:25

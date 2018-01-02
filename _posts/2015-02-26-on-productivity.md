@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ‘On Productivity’
-categories: links
+
 custom_type: link
 link_url: http://krogsgard.com/2015/on-productivity/
 date: '2015-02-26 15:49:28'

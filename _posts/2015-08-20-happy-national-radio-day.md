@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Happy National Radio Day!
-categories: articles
+
 custom_type: post
 date: '2015-08-20 23:23:45'
 excerpt: There's only an hour left in National Radio Day, but I wanted to post a little something I made for it.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'BlackBerry Secures $1 Billion in Funding'
-categories: links
+
 custom_type: link
 link_url: http://www.theverge.com/2013/11/4/5064278/blackberry-ceo-steps-down-as-company-secures-1-billion-funding-from
 tags:

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Apple Sells Nine Million iPhones in a Weekend'
-categories: links
 custom_type: link
 link_url: http://www.apple.com/pr/library/2013/09/23First-Weekend-iPhone-Sales-Top-Nine-Million-Sets-New-Record.html
 tags: [apple, iPhone]

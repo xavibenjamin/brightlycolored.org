@@ -1,7 +1,8 @@
 ---
 layout: post
 title: What Will They Say About Me? | Cognition
-categories: link
+
+
 custom_type: link
 link_url: http://cognition.happycog.com/article/what-will-they-say-about-me
 tags:

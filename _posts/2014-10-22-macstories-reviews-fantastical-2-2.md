@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'MacStories Reviews Fantastical 2.2'
-categories: links
+
 custom_type: link
 link_url: http://www.macstories.net/reviews/fantastical-2-2-interactive-notifications-share-extension-and-today-widget/
 date: '2014-10-22 12:06:17'

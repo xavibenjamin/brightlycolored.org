@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'My Brief Review of ‘Batman v Superman: Dawn of Justice’'
-categories: articles briefreview
 custom_type: post
 slug: /bvs-review/
 tags:
@@ -14,7 +13,7 @@ date: '2016-03-26 01:06:42'
 subtitle: Didn't love it, didn't hate it.
 director: Zack Snyder
 mpaa_rating: PG-13
-genres: [action, adventure, sci-fi]
+categories: [action, adventure, sci-fi]
 rating: 2.5
 ---
 {% figure extendout /uploads/2016/03/batmanvsuperman.jpg "I specifically chose an image that had Wonder Woman in the center. She was my favorite character." %}

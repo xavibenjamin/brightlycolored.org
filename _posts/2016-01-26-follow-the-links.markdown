@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "‘Follow the Links’"
-categories: link
+
+
 custom_type: link
 link_url: http://aworkinglibrary.com/writing/follow-the-links/
 date: 2016-01-26 09:06

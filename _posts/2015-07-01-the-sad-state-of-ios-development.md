@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Sad State of iOS Development
-categories: links
+
 custom_type: link
 link_url: http://inessential.com/2015/06/30/love
 date: '2015-07-01 10:42:51'

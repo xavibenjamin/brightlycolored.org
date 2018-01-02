@@ -1,7 +1,7 @@
 ---
 layout: post
 title: On Managing Links
-categories: articles
+
 custom_type: post
 date: 2016-02-05 07:33
 tags: [tools]

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Fitbit Tracker Becoming More Like a Smartwatch'
-categories: links
 custom_type: link
 link_url: http://thenextweb.com/insider/2013/10/17/fitbit-ceo-inching-closer-closer-smart-watch/
 tags:

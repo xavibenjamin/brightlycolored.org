@@ -1,6 +1,6 @@
 ---
 title: Questions to Ask in Interviews
-categories: articles
+
 custom_type: post
 tags: [jobs]
 date: 2016-12-13 07:19

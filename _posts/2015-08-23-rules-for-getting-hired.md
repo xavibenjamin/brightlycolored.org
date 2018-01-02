@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Rules for Getting Hired
-categories: link
+
+
 custom_type: link
 link_url: http://cognition.happycog.com/article/get-hired
 date: '2015-08-24 08:58:59'

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Clean Up Your Metadata
-categories: link
+
+
 custom_type: link
 link_url: https://adactio.com/journal/9881
 date: '2015-12-01 10:30:01'

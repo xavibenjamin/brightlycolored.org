@@ -1,7 +1,8 @@
 ---
 layout: post
 title: How to Make Money From Your Tiny Podcast by Justin Jackson
-categories: link
+
+
 custom_type: link
 link_url: https://justinjackson.ca/tinypodcast/
 tags:

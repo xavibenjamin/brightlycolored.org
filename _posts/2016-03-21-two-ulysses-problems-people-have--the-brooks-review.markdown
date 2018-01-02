@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Two Ulysses “Problems” People Have | The Brooks Review
-categories: link
+
+
 custom_type: link
 link_url: https://brooksreview.net/2016/03/ulysses-problems/
 tags:

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Netflix’s Opaque Disruption Annoys Rivals on TV | The New York Times
-categories: link
+
+
 custom_type: link
 link_url: http://www.nytimes.com/2016/01/18/business/media/disruption-by-netflix-irks-tv-foes.html
 tags:

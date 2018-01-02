@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Benefits Are the Bedrock of Great Company Culture | Savvy Inbox
-categories: link
+
+
 custom_type: link
 link_url: https://savvyinbox.com/benefits-are-the-bedrock-of-great-company-culture-10c94bb81cb2#.nyopznw8e
 tags: [work, work life]

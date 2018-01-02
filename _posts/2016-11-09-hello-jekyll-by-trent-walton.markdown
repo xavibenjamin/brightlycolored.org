@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Hello, Jekyll by Trent Walton"
-categories: link
+
+
 custom_type: link
 link_url: http://trentwalton.com/notes/2016/11/01/jekyll.html
 tags: [development, jekyll]

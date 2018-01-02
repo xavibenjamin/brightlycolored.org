@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Kobe Bryant Signs 2-Year Extension with Los Angeles Lakers'
-categories: links
+
 custom_type: link
 link_url: http://espn.go.com/los-angeles/nba/story/_/id/10034589/kobe-bryant-signs-two-year-contract-extension-los-angeles-lakers
 tags:

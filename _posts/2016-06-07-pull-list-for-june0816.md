@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pull List for June 8, 2016"
-categories: articles
+
 custom_type: post
 tags:
   - comics

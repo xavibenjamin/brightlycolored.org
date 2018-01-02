@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "‘Confidence and Overwhelm’"
-categories: link
+
+
 custom_type: link
 link_url: https://rachelandrew.co.uk/archives/2015/08/14/confidence-and-overwhelm
 date: '2016-01-15 00:00:13'

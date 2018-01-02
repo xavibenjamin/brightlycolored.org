@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '‘Not Just a Boy Scout’'
-categories: links
+
 custom_type: link
 link_url: http://www.esn.fm/giantsize/6
 tags: [podcasts, marvel, comics]

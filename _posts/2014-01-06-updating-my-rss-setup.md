@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Updating My RSS Setup'
-categories: articles
+
 custom_type: post
 date: '2014-01-06 12:49:32'
 tags: [RSS, reading, apps]

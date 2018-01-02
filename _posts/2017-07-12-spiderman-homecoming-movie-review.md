@@ -5,7 +5,7 @@ custom_type: post
 rating: 5
 director: Jon Watts
 mpaa_rating: PG-13
-genres: [ action, adventure, sci-fi ]
+categories: [ action, adventure, sci-fi ]
 tags: [ movies, marvel, movie review, review, my videos ]
 ---
 

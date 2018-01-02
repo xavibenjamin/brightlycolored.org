@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Chris Bowler on Blogging Tools
-categories: link
+
+
 custom_type: link
 link_url: http://chrisbowler.com/journal/blogging-tools
 date: '2015-07-02 21:14:33'

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Refactoring CSS Without Losing Your Mind | Speaker Deck
-categories: link
+
+
 custom_type: link
 link_url: https://speakerdeck.com/csswizardry/refactoring-css-without-losing-your-mind
 tags:

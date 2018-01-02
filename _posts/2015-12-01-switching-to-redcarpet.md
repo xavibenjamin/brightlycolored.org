@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Switching to Redcarpet
-categories: articles
 custom_type: post
 date: '2015-12-01 00:28:46'
 tags: [development, jekyll, markdown]

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Emotionally Complicated Class Names | CSS-Tricks
-categories: link
+
+
 custom_type: link
 link_url: https://css-tricks.com/emotionally-complicated-class-names/
 tags:

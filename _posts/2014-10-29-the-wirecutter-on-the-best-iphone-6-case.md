@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'The Wirecutter on The Best iPhone 6 Case'
-categories: links
+
 custom_type: link
 link_url: http://thewirecutter.com/reviews/best-iphone-6-case/
 date: '2014-10-29 13:35:07'

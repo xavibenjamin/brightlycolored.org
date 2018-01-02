@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '‘Fired? Speak No Evil’'
-categories: links
+
 custom_type: link
 link_url: http://www.nytimes.com/2014/01/03/opinion/fired-speak-no-evil.html
 date: '2014-01-06 12:36:25'

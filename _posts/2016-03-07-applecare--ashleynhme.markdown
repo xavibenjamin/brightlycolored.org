@@ -1,7 +1,8 @@
 ---
 layout: post
 title: AppleCare+ | ashleynh.me
-categories: link
+
+
 custom_type: link
 link_url: http://ashleynh.me/applecare-plus/
 tags:

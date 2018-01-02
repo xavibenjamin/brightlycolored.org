@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Apple Cons f.lux With Night Shift
-categories: link
+
+
 custom_type: link
 link_url: http://www.512pixels.net/blog/2016/1/flux-responds-to-apples-night-shift
 date: '2016-01-18 00:10:00'

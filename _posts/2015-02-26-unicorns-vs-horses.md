@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Andrew Wilkinson on Building a Lifestyle Business
-categories: links
+
 custom_type: link
 link_url: https://medium.com/@awilkinson/unicorns-vs-horses-f81d8dd61f17
 date: '2015-02-26 16:04:54'

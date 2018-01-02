@@ -1,7 +1,8 @@
 ---
 layout: post
 title: CSS Shorthand Syntax Considered an Anti-Pattern by Harry Roberts
-categories: link
+
+
 custom_type: link
 link_url: http://csswizardry.com/2016/12/css-shorthand-syntax-considered-an-anti-pattern/
 tags: [CSS, development]

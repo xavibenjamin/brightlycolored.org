@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'OS X Mavericks Review'
-categories: links
 custom_type: link
 link_url: http://512pixels.net/2013/10/mavericks-review/
 tags:

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Popular Science’s Apple TV Wishlist
-categories: link
+
+
 custom_type: link
 link_url: http://www.popsci.com/what-we-want-new-apple-tv
 date: '2015-08-05 09:57:37'

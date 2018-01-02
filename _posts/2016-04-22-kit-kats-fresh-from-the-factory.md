@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kit Kats Fresh From the Factory
-categories: articles
+
 custom_type: post
 tags:
   - personal

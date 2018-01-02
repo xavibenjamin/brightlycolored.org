@@ -1,7 +1,8 @@
 ---
 layout: post
 title: ‘On Passion’
-categories: link
+
+
 custom_type: link
 link_url: https://the-pastry-box-project.net/noah-stokes/2015-august-21
 date: '2015-08-24 06:30:00'

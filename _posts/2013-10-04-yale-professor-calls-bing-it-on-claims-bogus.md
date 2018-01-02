@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Yale Professor Calls ‘Bing It On’ Claims Bogus'
-categories: links
 custom_type: link
 link_url: http://www.theverge.com/2013/10/2/4796830/microsoft-fires-back-at-yale-professor-who-calls-bing-it-on-claims
 tags: [microsoft]

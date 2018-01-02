@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "iPad-only: Month One by Matt Gemmell"
-categories: link
+
+
 custom_type: link
 link_url: http://mattgemmell.com/ipad-only-month-one/
 tags: [iOS, iPad Only, tech]

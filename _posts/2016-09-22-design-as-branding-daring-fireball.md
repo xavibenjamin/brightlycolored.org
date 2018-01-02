@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Design as Branding | Daring Fireball
-categories: link
+
+
 custom_type: link
 link_url: http://daringfireball.net/2016/09/design_as_branding
 tags: [apple, design]

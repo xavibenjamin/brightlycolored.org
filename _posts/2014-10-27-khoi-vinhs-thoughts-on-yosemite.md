@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Khoi Vinh’s Thoughts on Yosemite'
-categories: links
+
 custom_type: link
 link_url: http://www.subtraction.com/2014/10/21/thoughts-on-yosemites-look-and-feel/
 date: '2014-10-27 15:46:53'

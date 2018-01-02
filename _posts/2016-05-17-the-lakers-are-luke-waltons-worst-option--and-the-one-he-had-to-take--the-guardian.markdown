@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The Lakers Are Luke Walton's Worst Option – and the One He Had to Take | The Guardian
-categories: link
+
+
 custom_type: link
 link_url: https://www.theguardian.com/sport/blog/2016/may/01/luke-walton-los-angeles-lakers-coach-nba
 tags:

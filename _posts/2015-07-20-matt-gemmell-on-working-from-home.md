@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Matt Gemmell on Working from Home
-categories: link
+
+
 custom_type: link
 link_url: http://mattgemmell.com/working-from-home/
 ---

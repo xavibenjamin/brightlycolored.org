@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Signed Git Commits with Tower by Aaron Parecki
-categories: link
+
+
 custom_type: link
 link_url: https://aaronparecki.com/2016/07/29/10/git-tower
 tags:

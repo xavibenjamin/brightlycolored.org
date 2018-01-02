@@ -13,7 +13,7 @@ excerpt: Topics covered on Brightly Colored.
   </header>
 
 
-<ul class="tag-list">
+<ul class="groups-list groups-list--full groups-list--space-saver groups-list--4-col">
 {% assign tags_max = 0 %}
 {% for tag in site.tags %}
   {% if tag[1].size > tags_max %}
@@ -34,7 +34,7 @@ excerpt: Topics covered on Brightly Colored.
 {% endfor %}
 </ul>
 
-<button class="btn btn--primary btn--outline btn--small" id="tag-list-toggle">
+<button class="btn btn--primary btn--outline btn--small" id="groups-list-toggle">
   View All Tags
 </button>
 
@@ -48,8 +48,8 @@ excerpt: Topics covered on Brightly Colored.
   {% for i in (1..tags_max) reversed %}
     {% for tag in site.tags %}
       {% if tag[1].size == i %}
-        <section class="tag__section" id="{{ tag[0] | downcase | replace:' ','-' }}">
-            <h2 class="tag__name">{{ tag[0] | titlecase }} <small class="tag__count">{{ i }}</small></h2>
+        <section class="group-section" id="{{ tag[0] | downcase | replace:' ','-' }}">
+            <h2 class="group__name">{{ tag[0] | titlecase }} <small class="group__count">{{ i }}</small></h2>
             {% if tag[0] == 'development' %}<p>Since I do this for work, I have a <em>few</em> opinions about it.</p>{% endif %}
             {% if tag[0] == 'movies' %}<p>I love watching movies, sometimes I write about them.</p>{% endif %}
             {% if tag[0] == 'brief review' %}<p>My series of reviews that I keep brief.</p>{% endif %}
@@ -62,14 +62,14 @@ excerpt: Topics covered on Brightly Colored.
             {% if tag[0] == 'CSS' %}<p>The frontend technology I’ve focused my career on.</p>{% endif %}
             {% if tag[0] == 'review' %}<p>A collection of all the movie, app, product, and book reviews I’ve done.</p>{% endif %}
             {% if tag[0] == 'reviews' %}<p>These are all reviews I’ve linked to and <strong>were not</strong> written by me.</p>{% endif %}
-            <ul class="topic-list">
+            <ul class="group__post-list group__post-list--2-col">
               {% for post in tag.last %}
-                <li>
+                <li class="group-post__item">
                   <a href="{{ post.url }}">{{ post.title | caps }}</a>
                 </li>
               {% endfor %}
             </ul>
-            <a href="#page-title" class="tag__return-home">Back to Top &uarr;</a>
+            <a href="#page-title" class="group__return-home">Back to Top &uarr;</a>
         </section>
       {% endif %}
   {% endfor %}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Podcasting Equipment List
-categories: links
+
 custom_type: link
 link_url: /podcasting-equipment
 date: '2015-07-30 17:58:15'

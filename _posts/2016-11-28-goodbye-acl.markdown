@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Goodbye ACL
-categories: articles
+
 custom_type: post
 tags: [jobs, personal]
 date: 2016-11-28 12:03

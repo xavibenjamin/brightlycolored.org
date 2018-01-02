@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "A Year of Ruby, Together by André Arko | EuRuKo 2016"
-categories: link
+
+
 custom_type: link
 link_url: https://www.youtube.com/watch?v=SJddsEfvcW8
 tags: [development]

@@ -1,6 +1,6 @@
 ---
 title: Speeding Up Your New Mac Setup
-categories: articles
+
 custom_type: post
 tags: [development, setup]
 date: 2016-12-14 08:43

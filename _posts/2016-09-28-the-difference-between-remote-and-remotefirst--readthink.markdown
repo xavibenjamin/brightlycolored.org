@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "The Difference Between “Remote” and “Remote-First” | ReadThink"
-categories: link
+
+
 custom_type: link
 link_url: https://readthink.com/the-difference-between-remote-and-remote-first-7dd38458855f?gi=bc9be0e8887e
 tags: [remote work, work]

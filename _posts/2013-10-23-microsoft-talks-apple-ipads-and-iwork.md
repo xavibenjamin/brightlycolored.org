@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Microsoft Talks Apple iPads and iWork'
-categories: links
 custom_type: link
 link_url: http://blogs.technet.com/b/microsoft_blog/archive/2013/10/23/apples-and-oranges.aspx
 tags:

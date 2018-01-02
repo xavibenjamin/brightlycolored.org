@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Sonos Announces the Play:1'
-categories: links
 custom_type: link
 link_url: http://www.theverge.com/2013/10/14/4835286/sonos-play1-its-most-affordable-wireless-speaker-price-availability
 tags:

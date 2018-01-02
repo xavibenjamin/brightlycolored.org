@@ -1,7 +1,8 @@
 ---
 layout: post
 title: We own you by Justin Jackson
-categories: link
+
+
 custom_type: link
 link_url: https://medium.com/mega-maker/we-own-you-9a97819ad292
 tags: [jobs, work, work life]

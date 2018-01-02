@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The Best App for Managing Personal Finances and Budgets | The Sweet Setup
-categories: link
+
+
 custom_type: link
 link_url: http://thesweetsetup.com/apps/favorite-app-managing-personal-finances-budgets/
 tags:

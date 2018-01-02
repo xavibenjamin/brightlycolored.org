@@ -1,0 +1,63 @@
+---
+layout: default
+title: Genres
+exclude_from_search: true
+permalink: /genres/
+excerpt: Genres covered on Brightly Colored.
+---
+
+<div class="page">
+
+  <header class="page__header page__header--full">
+    <h1 class="page-header__title" id="page-title">Genres</h1>
+    <p class="page-header__description">I watch a lot of movies, listen to a lot of music, and (sometimes) read books. Here’s where to find movie, music and book reviews by genre.</p>
+  </header>
+
+  <ul class="groups-list groups-list--3-col">
+  {% assign categories_max = 0 %}
+  {% for genre in site.categories %}
+    {% if genre[1].size > categories_max %}
+      {% assign categories_max = genre[1].size %}
+    {% endif %}
+  {% endfor %}
+  {% for i in (1..categories_max) reversed %}
+    {% for genre in site.categories %}
+      {% if genre[1].size == i  %}
+        <li>
+          <a href="#{{ genre[0] | downcase | replace:' ','-' }}" title="{{ i }} posts">
+            {{ genre[0] | titlecase }}
+            <span>{{ i }}</span>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  </ul>
+
+  {% assign categories_max = 0 %}
+  {% for genre in site.categories %}
+    {% if genre[1].size > categories_max %}
+      {% assign categories_max = genre[1].size %}
+    {% endif %}
+  {% endfor %}
+    {% for i in (1..categories_max) reversed %}
+      {% for genre in site.categories %}
+        {% if genre[1].size == i %}
+          <section class="group-section" id="{{ genre[0] | downcase | replace:' ','-' }}">
+              <h2 class="group__name">{{ genre[0] | titlecase }} <small class="group__count">{{ i }}</small></h2>
+              <ul class="group__post-list group__post-list--2-col">
+                {% for post in genre.last %}
+                  <li class="group-post__item group-post__item--bold">
+                    <a href="{{ post.url }}">
+                      <span class="group-post__meta-info">Movie Review</span>
+                      {{ post.title | caps }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+              <a href="#page-title" class="group__return-home">Back to Top &uarr;</a>
+          </section>
+        {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>

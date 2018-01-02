@@ -1,6 +1,7 @@
 ---
 title: "Using the iPad for: Blogging with Jekyll by Matt Gemmell"
-categories: link
+
+
 custom_type: link
 link_url: http://mattgemmell.com/using-the-ipad-for-blogging-with-jekyll/
 tags: [development, jekyll, iOS]

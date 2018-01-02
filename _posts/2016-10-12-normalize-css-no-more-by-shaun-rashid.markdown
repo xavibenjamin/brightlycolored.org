@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Normalize (CSS) No More by Shaun Rashid"
-categories: link
+
+
 custom_type: link
 link_url: http://shaunrashid.com/2015/09/15/normalize-css-no-more/
 tags: [CSS, development]

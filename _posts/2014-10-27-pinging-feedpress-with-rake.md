@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Pinging FeedPress with Rake'
-categories: links
+
 custom_type: link
 link_url: https://gist.github.com/maximevalette/8b9c3cd4545cc62d5b80
 date: '2014-10-27 16:08:45'

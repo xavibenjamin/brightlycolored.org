@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Godzilla Official Trailer'
-categories: links
+
 custom_type: link
 link_url: http://youtu.be/QjKO10hKtYw
 tags:

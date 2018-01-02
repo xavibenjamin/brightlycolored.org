@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'On Getting the Work You Want'
-categories: links
+
 custom_type: link
 link_url: http://danielmall.com/articles/how-to-get-the-work-you-want/
 date: '2014-01-02 12:50:21'

@@ -6,7 +6,7 @@
 //= require inline-search
 //= require social
 //= require heading-anchors
-//= require tag-list
+//= require group-list
 //= require mobile-menu
 //= require table-of-contents
 

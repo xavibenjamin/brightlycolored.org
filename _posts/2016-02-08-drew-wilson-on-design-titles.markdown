@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Drew Wilson on Design Titles
-categories: link
+
+
 custom_type: link
 link_url: http://blog.drewwilson.com/design-titles
 date: 2016-02-08 08:57

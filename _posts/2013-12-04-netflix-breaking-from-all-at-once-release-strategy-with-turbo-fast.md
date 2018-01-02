@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Netflix Breaking From All-At-Once Release Strategy with ‘Turbo Fast’'
-categories: links
+
 custom_type: link
 link_url: http://www.theverge.com/2013/12/3/5170230/netflix-breaking-from-all-at-once-release-strategy-with-turbo-fast
 tags:

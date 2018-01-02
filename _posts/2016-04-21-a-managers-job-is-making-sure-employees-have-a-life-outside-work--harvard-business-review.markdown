@@ -1,7 +1,8 @@
 ---
 layout: post
 title: A Manager’s Job Is Making Sure Employees Have a Life Outside Work | Harvard Business Review
-categories: link
+
+
 custom_type: link
 link_url: https://hbr.org/2016/03/a-managers-job-is-making-sure-employees-have-a-life-outside-work
 tags:

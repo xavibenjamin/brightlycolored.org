@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The Trouble with Twitter — MacSparky
-categories: link
+
+
 custom_type: link
 link_url: http://macsparky.com/blog/2016/8/the-trouble-with-twitter
 tags:

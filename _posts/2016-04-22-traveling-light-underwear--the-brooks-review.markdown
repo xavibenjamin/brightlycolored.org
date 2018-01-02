@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Traveling Light: Underwear | The Brooks Review"
-categories: link
+
+
 custom_type: link
 link_url: https://brooksreview.net/2016/04/tl-underwear/
 tags:

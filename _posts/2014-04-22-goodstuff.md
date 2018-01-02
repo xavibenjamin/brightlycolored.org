@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Presenting Goodstuff Broadcasting'
-categories: articles
+
 custom_type: post
 tags:
   - podcasts

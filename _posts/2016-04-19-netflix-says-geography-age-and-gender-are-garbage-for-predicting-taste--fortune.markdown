@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Netflix Says Geography, Age, and Gender Are “Garbage” for Predicting Taste | Fortune
-categories: link
+
+
 custom_type: link
 link_url: http://fortune.com/2016/03/27/netflix-predicts-taste/
 tags:

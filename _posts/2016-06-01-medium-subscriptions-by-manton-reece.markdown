@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Medium Subscriptions by Manton Reece
-categories: link
+
+
 custom_type: link
 link_url: http://www.manton.org/2016/05/medium-subscriptions.html
 tags:

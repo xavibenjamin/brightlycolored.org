@@ -1,7 +1,8 @@
 ---
 layout: post
 title: You Don't Need JavaScript for That! | Thoughtbot Blog
-categories: link
+
+
 custom_type: link
 link_url: https://robots.thoughtbot.com/you-don-t-need-javascript-for-that
 tags:

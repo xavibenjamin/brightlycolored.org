@@ -1,7 +1,8 @@
 ---
 layout: post
 title: ‘The Gray Gray Ghost That I Call Home’
-categories: link
+
+
 custom_type: link
 link_url: https://css-tricks.com/the-gray-gray-ghost-that-i-call-home/
 date: '2015-08-05 10:28:17'

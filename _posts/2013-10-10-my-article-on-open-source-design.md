@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Open Source Design: Using GitHub for Design Collaboration'
-categories: links
+
 custom_type: link
 link_url: http://opendesign.foundation/articles/using-github-for-design-collaboration/
 tags:

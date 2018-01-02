@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Marvel Creating Superhero Shows for Netflix'
-categories: links
+
 custom_type: link
 link_url: http://www.theverge.com/2013/11/7/5076712/marvel-creating-four-superhero-tv-series-netflix-exclusives
 tags:

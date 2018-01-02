@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Don’t Listen to the Experts by Chris Enns
-categories: link
+
+
 custom_type: link
 link_url: http://www.chrisenns.com/2016/07/dont-listen-experts/
 tags:

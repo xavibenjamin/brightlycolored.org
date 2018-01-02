@@ -1,7 +1,8 @@
 ---
 layout: post
 title: How to Make Firing People Suck Less for Them and Suck More for You | Signal v. Noise
-categories: link
+
+
 custom_type: link
 link_url: https://m.signalvnoise.com/how-to-make-firing-people-suck-less-for-them-and-suck-more-for-you-977afb9ad15d?gi=244bf223123
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Rules of Tech Journalism'
-categories: links
+
 custom_type: link
 link_url: http://curiousrat.com/the-new-rules-of-tech-journalism
 tags:

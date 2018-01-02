@@ -1,7 +1,8 @@
 ---
 layout: post
 title: With Version 1.1 and an iPad App, I’m Switching to Airmail | MacStories
-categories: link
+
+
 custom_type: link
 link_url: http://www.macstories.net/reviews/with-version-1-1-and-an-ipad-app-im-switching-to-airmail/
 tags:

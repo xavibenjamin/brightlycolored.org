@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Why I Quit Twitter — and Left Behind 35,000 Followers | Th New York Times
-categories: link
+
+
 custom_type: link
 link_url: http://www.nytimes.com/2016/06/10/insider/why-i-quit-twitter-and-left-behind-35000-followers.html
 tags:

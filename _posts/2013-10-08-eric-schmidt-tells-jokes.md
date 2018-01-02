@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Eric Schmidt Tells Jokes'
-categories: links
+
 custom_type: link
 link_url: http://www.theverge.com/2013/10/7/4814422/eric-schmidt-says-android-is-more-secure-than-iphone
 tags: google

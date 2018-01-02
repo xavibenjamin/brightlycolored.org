@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Expressive Type for Copy Blocks | Cognition
-categories: link
+
+
 custom_type: link
 link_url: http://cognition.happycog.com/article/expressive-type-for-copy-blocks
 tags:

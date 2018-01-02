@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The Best Third-Party Email App for iOS | The Sweet Setup
-categories: link
+
+
 custom_type: link
 link_url: http://thesweetsetup.com/apps/the-best-third-party-email-app-for-ios/
 tags:

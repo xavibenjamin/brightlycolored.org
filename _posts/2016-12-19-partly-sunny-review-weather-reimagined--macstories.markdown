@@ -1,6 +1,7 @@
 ---
 title: "Partly Sunny Review: Weather Reimagined | MacStories"
-categories: link
+
+
 custom_type: link
 link_url: https://www.macstories.net/reviews/partly-sunny-review-weather-reimagined/
 tags: apps

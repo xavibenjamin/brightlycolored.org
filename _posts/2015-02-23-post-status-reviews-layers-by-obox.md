@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Post Status Reviews Layers by Obox
-categories: links
+
 custom_type: link
 link_url: https://poststatus.com/layers-theme-obox/
 date: '2015-02-23 13:28:09'

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "‘Star Wars: Episode VIII to Open December 15, 2017’"
-categories: link
+
+
 custom_type: link
 link_url: http://www.starwars.com/news/star-wars-episode-viii-to-open-december-15-2017
 date: 2016-01-21 13:56

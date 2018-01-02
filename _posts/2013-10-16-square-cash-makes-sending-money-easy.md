@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Square Cash Makes Sending Money Easy'
-categories: links
 custom_type: link
 link_url: http://www.theverge.com/2013/10/15/4842518/square-cash-send-money-over-email-iphone-android
 tags:

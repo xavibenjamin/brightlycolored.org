@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Tapbots Launches New Tweetbot'
-categories: links
 custom_type: link
 link_url: http://tapbots.com/software/tweetbot
 tags:

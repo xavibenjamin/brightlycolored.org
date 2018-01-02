@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Review: Human Solution Uplift Desk'
-categories: articles best
+
 custom_type: post
 tags:
   - furniture

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Newsstand Isn’t the Problem'
-categories: links
+
 custom_type: link
 link_url: http://brooksreview.net/2013/11/the-blame-apple-game/
 tags:

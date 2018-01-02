@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Finding Good Content | The Brooks Review
-categories: link
+
+
 custom_type: link
 link_url: https://brooksreview.net/2016/02/good-content/
 date: 2016-02-23 09:18

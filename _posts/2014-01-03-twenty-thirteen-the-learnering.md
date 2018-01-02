@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '‘Twenty Thirteen, The Learnering’'
-categories: links
+
 custom_type: link
 link_url: http://armstrongcircus.com/blog/893/
 date: '2014-01-03 12:13:03'

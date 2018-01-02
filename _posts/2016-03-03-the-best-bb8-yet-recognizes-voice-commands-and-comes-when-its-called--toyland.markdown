@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The Best BB-8 Yet Recognizes Voice Commands and Comes When It's Called | Toyland
-categories: link
+
+
 custom_type: link
 link_url: http://toyland.gizmodo.com/the-best-bb-8-yet-recognizes-voice-commands-and-comes-w-1758410074
 tags:

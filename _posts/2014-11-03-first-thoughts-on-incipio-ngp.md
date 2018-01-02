@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'First Thoughts on Incipio NGP'
-categories: articles
+
 custom_type: post
 date: '2014-11-03 16:07:45'
 tags: [iPhone, iPhone cases, review]

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: How to Lint Your Sass/CSS Properly with Stylelint | Creative Nightly
-categories: link
+
+
 custom_type: link
 link_url: http://www.creativenightly.com/2016/02/How-to-lint-your-css-with-stylelint/
 tags:

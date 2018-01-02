@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Apple Event Day'
-categories: articles
+
 custom_type: post
 tags:
  - apple

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Happy And Content
-categories: articles
+
 custom_type: post
 date: '2016-01-07 19:12:17'
 tags: [personal, year in review]

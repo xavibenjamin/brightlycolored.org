@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Pocket Casts Gets an Update'
-categories: links
+
 custom_type: link
 link_url: http://blog.shiftyjelly.com/2014/11/07/pocket-casts-5-for-ios-bigger-than-the-biggest/
 date: '2014-11-07 00:56:57'

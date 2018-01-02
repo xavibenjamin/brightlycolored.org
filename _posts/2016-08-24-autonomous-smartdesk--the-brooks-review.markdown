@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Autonomous SmartDesk | The Brooks Review
-categories: link
+
+
 custom_type: link
 link_url: https://brooksreview.net/2016/08/autonomous-smartdesk/
 tags:

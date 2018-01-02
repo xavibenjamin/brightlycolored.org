@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Ideas for Building a Family Friendly Culture | Wildbit Blog
-categories: link
+
+
 custom_type: link
 link_url: http://wildbit.com/blog/2016/03/24/ideas-for-building-a-family-friendly-culture
 tags:

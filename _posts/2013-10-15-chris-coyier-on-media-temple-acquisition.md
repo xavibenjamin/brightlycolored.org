@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Chris Coyier on Media Temple Acquisition'
-categories: links
 custom_type: link
 link_url: http://css-tricks.com/thoughts-godaddy-buying-mediatemple/
 tags:
