@@ -5,19 +5,23 @@ custom_css_class: home
 excerpt: Brightly Colored is a personal blog written by Tim Smith about design, development, technology, Apple, and whatever else he finds himself curious about.
 ---
 <section class="posts">
-  {% for post in site.posts %}
-    {% capture post_date %}{{ post.date | date: "%A, %B %d, %Y" }}{% endcapture %}
-    {% assign current_date = site.posts.first.date | date: "%A, %B %d, %Y" %}
-
-    {% if post_date == current_date %}
-
-      {% if forloop.first %}
-        <div class="posts__date">
-          <span class="current-day">{{ post_date }}</span>
+  {% assign filteredPosts = site.posts | where_exp: "item", "item.rss_only != true" %}
+  {% for post in filteredPosts limit: 5 %}
+    {% assign current_day = post.date | date: "%A, %B %d, %Y" %}
+    
+    {% if current_day != previous_day %}
+      {% unless forloop.first %}
         </div>
-      {% endif %}
+      {% endunless %}
+
+      <div class="posts__date">
+        <span class="current-day">{{ current_day }}</span>
+      </div>
 
       <div class="day-posts">
+
+      {% assign previous_day = current_day %}
+    {% endif %}
         <article class="posts__post p-body format-{% if post.custom_type %}{{ post.custom_type }}{% endif %}">
           {% if post.custom_type == 'post' %}
           <header class="post__header">
@@ -56,11 +60,15 @@ excerpt: Brightly Colored is a personal blog written by Tim Smith about design, 
           </footer>
 
         </article>
-      </div>
-
-    {% endif %}
+        {% if forloop.last %}
+        </div>
+        {% endif %}
   {% endfor %}
 </section>
+
+<div class="archive-link">
+  <a href="/archive/" class="btn btn--primary btn--small btn--outline">Visit Full Archive</a>
+</div>
 
 
 <script>
