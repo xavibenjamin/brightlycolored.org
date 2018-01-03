@@ -1,9 +1,12 @@
 ---
-title: "Review: Despicable Me 3"
+title: "Despicable Me 3"
 custom_type: post
-rating: 3
-director: Kyle Balda & Pierre Coffin
-mpaa_rating: PG
+review:
+  rating: 3
+  type: movie
+  movie:
+    director: Kyle Balda & Pierre Coffin
+    rating: PG
 categories: [ animation, action, adventure ]
 tags: [ movies, movie review, review, my videos ]
 ---

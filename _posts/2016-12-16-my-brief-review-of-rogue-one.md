@@ -1,14 +1,16 @@
 ---
 title: "My Brief Review of ‘Rogue One: A Star Wars Story’"
 custom_type: post
- briefreview
 subtitle: The first of the non-saga <em>Star Wars</em> movies has finally come out, and I really liked it
 tags: [star wars, brief review, movies, movie review, review]
 date: 2016-12-16 22:29
-director: Gareth Edwards
-mpaa_rating: PG-13
+review:
+  type: movie
+  rating: 3.5
+  movie:
+    director: Gareth Edwards
+    rating: PG-13
 categories: [action, adventure, sci-fi]
-rating: 3.5
 ---
 
 {% figure extendout /uploads/2016/12/rogue-one-jyn-erso.jpg "Felicity Jones as Jyn Erso in <em>Rogue One</em>." %}

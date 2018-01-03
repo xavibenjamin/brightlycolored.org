@@ -1,18 +1,20 @@
 ---
 layout: post
 title: 'Review: Human Solution Uplift Desk'
-
 custom_type: post
 tags:
   - furniture
   - review
 date: '2016-04-28 01:51'
 subtitle: Back in August of 2015, I decided to buy a standing desk. Here are some of my thoughts.
-rating: 4.5
-brand: Human Solution
-price: 495
-review_url: https://www.thehumansolution.com/stand-up-desk-with-bamboo-top.html
-vendor: Human Solution
+review:
+  type: product
+  rating: 4.5
+  product:
+    brand: Human Solution
+  price: 495
+  url: https://www.thehumansolution.com/stand-up-desk-with-bamboo-top.html
+  vendor: Human Solution
 ---
 I've worked from home for about 6 years. In that time, I've invested real money into my office for about two. I'm grateful I did, and wish I would've started sooner. A few years ago, I bought myself a [Herman Miller Mirra](http://www.hermanmiller.com/products/seating/performance-work-chairs/mirra-2-chairs.html) chair.[^1]
 

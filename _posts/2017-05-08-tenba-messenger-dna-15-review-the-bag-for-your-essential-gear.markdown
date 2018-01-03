@@ -1,14 +1,17 @@
 ---
-title: "Review: Tenba Messenger DNA 15"
+title: "Tenba Messenger DNA 15"
 subtitle: The bag for your essential gear
 custom_type: post
 tags: [review, my videos, camera bags]
 date: 2017-05-08 12:18
-rating: 3.5
-brand: Tenba
-price: 155.25
-vendor: Amazon
-review_url: http://amzn.to/2DErRio
+review:
+  type: product
+  rating: 3.5
+  product:
+    brand: Tenba
+  price: 155.25
+  vendor: Amazon
+  url: http://amzn.to/2DErRio
 ---
 
 <div class="iframe-container">

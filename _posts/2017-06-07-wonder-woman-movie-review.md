@@ -1,9 +1,12 @@
 ---
-title: "Review: Wonder Woman"
+title: "Wonder Woman"
 custom_type: post
-rating: 4.5
-director: Patty Jenkins
-mpaa_rating: PG-13
+review:
+  type: movie
+  rating: 4.5
+  movie:
+    director: Patty Jenkins
+    rating: PG-13
 categories: [ action, adventure, fantasy ]
 tags: [ movies, DC comics, movie review, review, my videos ]
 ---
