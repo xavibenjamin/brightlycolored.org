@@ -1,0 +1,80 @@
+// -----------------------------------------
+// REVIEW INFO
+// -----------------------------------------
+// Styles for the info that you see on rev-
+// iew posts.
+// -----------------------------------------
+
+.review-info {
+  font-size: .7rem;
+  margin-top: .8rem;
+
+  @media #{$medium-up} {
+    border-top: 1px solid $border-color;
+    display: flex;
+    margin-top: 1.5rem;
+  }
+}
+
+.review-info__item {
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+
+
+  @media #{$medium-up} {
+    padding-bottom: .2rem;
+    padding-top: .7rem;
+  }
+
+  + .review-info__item {
+    border-top: 1px solid $border-color;
+    @media #{$medium-up} {
+      border-left: 1px solid $border-color;
+      border-top: none;
+      margin-left: .7rem;
+      padding-left: .7rem;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.review-info__item--best-song {
+  @media #{$medium-up} {
+    max-width: 145px;
+  }
+}
+
+.review-info__item--genres {
+  @media #{$medium-up} {
+    max-width: 175px;
+    width: 100%;
+  }
+}
+
+.review-info__item--one-line {
+  align-items: center;
+  display: flex;
+  min-width: 110px;
+}
+
+.review-info__heading {
+  display: block;
+}
+
+.review-info--rating {
+  min-width: 95px;
+  span {
+    display: flex;
+    margin-top: .2rem;
+  }
+  svg {
+    height: 17px;
+    width: 17px;
+    + svg {
+      margin-left: .15rem;
+    }
+  }
+}
