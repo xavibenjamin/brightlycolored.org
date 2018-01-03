@@ -89,7 +89,7 @@ redcarpet:
   <img src="{{ site.url }}/uploads/2016/01/eiffel-tower.jpg" alt="" />
   <img src="{{ site.url }}/uploads/2016/01/deannda-posing.jpg" alt="" />
   <img src="{{ site.url }}/uploads/2016/01/paris-pastry.jpg" alt="" />
-  <figcaption>Use a <code>figure</code> with the class of <code>.photo-grid .photo-grid--five-up</code>.</figcaption>
+  <figcaption>Use a <code>figure</code> with the class of <code>.photo-grid .photo-grid--three</code>.</figcaption>
 </figure>
 
 ```scss
