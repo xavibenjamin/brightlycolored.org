@@ -37,8 +37,18 @@
 .day-posts {
   + .day-posts {
     border-top: 1px solid $border-color;
-    margin-top: 6rem;
-    padding-top: 6rem;
+    margin-top: 4rem;
+    padding-top: 4rem;
+  }
+  + .posts__date {
+    border-top: 1px solid $border-color;
+    margin-top: 4rem;
+    padding-top: 4rem;
+  }
+  .posts__post + .posts__post {
+    border-top: 1px solid $border-color;
+    margin-top: 4rem;
+    padding-top: 4rem;
   }
 }
 
@@ -93,6 +103,27 @@
 
 .post__footer {
   margin-top: 3rem;
+}
+
+.archive-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+.post__rss-only {
+  background-color: $light-bg-color;
+  border-radius: $global-radius;
+  margin-bottom: 1.1rem;
+  margin-top: 2rem;
+  padding: .4rem;
+  p {
+    color: lighten($body-color, 10%);
+    font-size: .85rem;
+    a {
+      color: lighten($body-color, 10%);
+    }
+  }
 }
 
 // Post Author -------------------

@@ -19,8 +19,13 @@ custom_css_class: single
     {% if page.review %}
       {% include review-info.html %}
     {% endif %}
-    
   </header>
+
+  {% if page.rss_only %}
+  <aside class="post__rss-only">
+    <p>This article is top secret! <a href="/2018/01/rss-club/">Learn more about <span class="caps">RSS</span> Club.</a></p>
+  </aside>
+  {% endif %}
 
   {{ content | improve }}
 
