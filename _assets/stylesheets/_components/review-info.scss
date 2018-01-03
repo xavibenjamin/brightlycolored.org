@@ -30,7 +30,7 @@
     border-top: 1px solid $border-color;
     @media #{$medium-up} {
       border-left: 1px solid $border-color;
-      border-top: none;
+      border-top: 0;
       margin-left: .7rem;
       padding-left: .7rem;
     }
