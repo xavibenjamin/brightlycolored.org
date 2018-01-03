@@ -49,7 +49,7 @@ excerpt: Genres covered on Brightly Colored.
                 {% for post in genre.last %}
                   <li class="group-post__item group-post__item--bold">
                     <a href="{{ post.url }}">
-                      <span class="group-post__meta-info">Movie Review</span>
+                      <span class="group-post__meta-info">{{ post.review.type | titlecase }} Review</span>
                       {{ post.title | caps }}
                     </a>
                   </li>

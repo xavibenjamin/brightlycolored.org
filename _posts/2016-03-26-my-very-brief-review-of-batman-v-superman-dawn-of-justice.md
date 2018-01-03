@@ -11,10 +11,13 @@ tags:
   - review
 date: '2016-03-26 01:06:42'
 subtitle: Didn't love it, didn't hate it.
-director: Zack Snyder
-mpaa_rating: PG-13
+review:
+  type: movie
+  rating: 2.5
+  movie:
+    director: Zack Snyder
+    rating: PG-13
 categories: [action, adventure, sci-fi]
-rating: 2.5
 ---
 {% figure extendout /uploads/2016/03/batmanvsuperman.jpg "I specifically chose an image that had Wonder Woman in the center. She was my favorite character." %}
 

@@ -15,8 +15,10 @@ custom_css_class: single
         <h2 class="post__subtitle">{{ page.subtitle | smartify | widont }}</h2>
       {% endif %}
     {% endif %}
-
-    {% include review-info.html %}
+    
+    {% if page.review %}
+      {% include review-info.html %}
+    {% endif %}
     
   </header>
 

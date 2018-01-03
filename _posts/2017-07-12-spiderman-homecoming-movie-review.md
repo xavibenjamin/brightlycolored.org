@@ -1,10 +1,13 @@
 ---
-title: "Review: Spider-Man: Homecoming"
+title: "Spider-Man: Homecoming"
 subtitle: "<em>Finally</em> a fun and well-done Spidey movie."
 custom_type: post
-rating: 5
-director: Jon Watts
-mpaa_rating: PG-13
+review:
+  rating: 5
+  type: movie
+  movie:
+    director: Jon Watts
+    rating: PG-13
 categories: [ action, adventure, sci-fi ]
 tags: [ movies, marvel, movie review, review, my videos ]
 ---
