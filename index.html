@@ -28,8 +28,10 @@ excerpt: Brightly Colored is a personal blog written by Tim Smith about design, 
             {% if post.subtitle %}
             <h2 class="post__subtitle">{{ post.subtitle | smartify | widont }}</h2>
             {% endif %}
-
-            {% include review-info.html %}
+            
+            {% if post.review %}
+              {% include review-info.html %}
+            {% endif %}
           </header>
         
           {{ post.content | improve }}

@@ -1,57 +1,63 @@
-<div class="post__rating">
-  {% if page.rating == 1 or post.rating == 1 %}
+{% if page.layout == 'post' %}
+  {% assign myPage = page %}
+{% else %} 
+  {% assign myPage = post %}
+{% endif %}
+
+<span>
+  {% if myPage.review.rating == 1 %}
     {% include stars.html %}
     {% include stars.html empty='true' %}
     {% include stars.html empty='true' %}
     {% include stars.html empty='true' %}
     {% include stars.html empty='true' %}
-  {% elsif page.rating == 1.5 or post.rating == 1.5 %}
+  {% elsif myPage.review.rating == 1.5 %}
     {% include stars.html %}
     {% include stars.html half="true" %}
     {% include stars.html empty='true' %}
     {% include stars.html empty='true' %}
     {% include stars.html empty='true' %}
-  {% elsif page.rating == 2 or post.rating == 2 %}
+  {% elsif myPage.review.rating == 2 %}
     {% include stars.html %}
     {% include stars.html %}
     {% include stars.html empty='true' %}
     {% include stars.html empty='true' %}
     {% include stars.html empty='true' %}
-  {% elsif page.rating == 2.5 or post.rating == 2.5%}
+  {% elsif myPage.review.rating == 2.5 %}
     {% include stars.html %}
     {% include stars.html %}
     {% include stars.html half="true" %}
     {% include stars.html empty='true' %}
     {% include stars.html empty='true' %}
-  {% elsif page.rating == 3 or post.rating == 3 %}
+  {% elsif myPage.review.rating == 3 %}
     {% include stars.html %}
     {% include stars.html %}
     {% include stars.html %}
     {% include stars.html empty='true' %}
     {% include stars.html empty='true' %}
-  {% elsif page.rating == 3.5 or post.rating == 3.5 %}
+  {% elsif myPage.review.rating == 3.5 %}
     {% include stars.html %}
     {% include stars.html %}
     {% include stars.html %}
     {% include stars.html half="true" %}
     {% include stars.html empty='true' %}
-  {% elsif page.rating == 4 or post.rating == 4 %}
+  {% elsif myPage.review.rating == 4 %}
     {% include stars.html %}
     {% include stars.html %}
     {% include stars.html %}
     {% include stars.html %}
     {% include stars.html empty='true' %}
-  {% elsif page.rating == 4.5 or post.rating == 4.5 %}
+  {% elsif myPage.review.rating == 4.5 %}
     {% include stars.html %}
     {% include stars.html %}
     {% include stars.html %}
     {% include stars.html %}
     {% include stars.html half="true" %}
-  {% elsif page.rating == 5 or post.rating == 5 %}
+  {% elsif myPage.review.rating == 5 %}
     {% include stars.html %}
     {% include stars.html %}
     {% include stars.html %}
     {% include stars.html %}
     {% include stars.html %}
   {% endif %}
-</div>
+</span>
