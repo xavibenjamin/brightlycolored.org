@@ -18,7 +18,7 @@ layout: null
       <email>{{ author[1].email }}</email>
     </author>
   {% endfor %}
-  {% assign posts = site.posts | where_exp:"post","post.exclude_rss != true" %}
+  {% assign posts = site.posts %}
   {% for post in posts limit:20 %}
     <entry>
       <id>https://brightlycolored.org{{ post.id }}</id>
@@ -42,6 +42,10 @@ layout: null
           {{ post.content | strip_toc }}
           {% if post.custom_type == 'link' %}
             <p><a title="Permalink to ‘{{ post.title }}’" href="{{ site.url | xml_escape }}{{ post.url | xml_escape }}">∞ Read on <em>Brightly Colored</em></a></p>
+          {% endif %}
+          {% if post.rss_only %}
+          <hr>
+          <p><em>This article is top secret! <a href="https://brightlycolored.org/2018/01/rss-club/">Learn more about RSS Club.</a></em></p>
           {% endif %}
           {% if post.custom_type == 'artdirect' %}
           <hr>

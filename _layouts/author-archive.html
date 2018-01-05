@@ -2,23 +2,21 @@
 layout: no-title
 ---
 
-<div class="page p-body">
-  {% include full-author.html %}
 
-  <h2 class="subheader">Recent Posts</h2>
+{% include full-author.html %}
 
-  <ul class="author-archive">
-    {% assign posts = site.posts | where: 'author', page.author %}
-    {% for p in posts limit: 10 %}
-      <li>
-        <a href="{{ site.url }}{{ p.url }}">
-          <small class="pubdate">
-            <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%a, %b %d, %Y" }}</time>
-          </small>
-          {{ p.title }}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
+<h2 class="subheader">Recent Posts</h2>
 
-</div>
+<ul class="author-archive">
+  {% assign posts = site.posts | where_exp: "item", "item.rss_only != true" | where: 'author', page.author %}
+  {% for p in posts limit: 10 %}
+    <li>
+      <a href="{{ site.url }}{{ p.url }}">
+        <small class="pubdate">
+          <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%a, %b %d, %Y" }}</time>
+        </small>
+        {{ p.title }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
