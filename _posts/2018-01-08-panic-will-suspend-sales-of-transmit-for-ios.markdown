@@ -1,5 +1,6 @@
 ---
 title: Panic Will Suspend Sales of Transmit for iOS
+author: tjdraper
 link_url: https://panic.com/blog/the-future-of-transmit-ios/
 tags: [ Apple, iOS, development ]
 date: 2018-01-08 8:00
