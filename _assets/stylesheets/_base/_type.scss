@@ -217,6 +217,20 @@ blockquote {
   > blockquote {
     margin-left: 0;
   }
+  > ul {
+    margin-left: 0;
+    @media #{$large-up} {
+      margin-left: 1.3rem;
+    }
+  }
+  > ol {
+    @media #{$small-only} {
+      margin-left: .3rem;
+    }
+    @media #{$medium-only} {
+      margin-left: .3rem;
+    }
+  }
 }
 
 // HR ----------------------------
