@@ -13,10 +13,10 @@ This isn't the complete list, but it includes the apps I'd be lost without.
 Last November after working with [Atom][5830-0002] for over a year, I decided to try out Visual Studio Code. I've really enjoyed the experience. Without actually running any tests, VS Code feels faster than Atom. I'm really enjoying some of the Packages (or Extensions as VS Code calls them) that are available. I also think it's great that I can install the Atom keymap and use all the keyboard shortcuts I'd gotten used to. 
 
 - [**iTerm2**][5830-0003]:
-I tried out Hyper for a few months and was pretty happy with it. I loved how easy Hyper made it to version control my preferences. You're reading about a huge geek here, I version control everything I can. *But*, Hyper was really buggy for me. It was also slow. Plus, I couldn't get Hyper to look the way I wanted it to. So I'm back on iTerm. Unfortunately, there's no way to version control my iTerm preferences (or I haven't found it), but oh well.
+I tried out Hyper for a few months and was pretty happy with it. I loved how easy Hyper made it to version control my preferences. You're reading about a huge geek here, I version control everything I can. *But*, Hyper was really buggy for me. It was also slow. Plus, I couldn't get Hyper to look the way I wanted it to. So I'm back on iTerm. Unfortunately, there's no way to version control my iTerm preferences (or I haven't found it).
 
 - [**Airmail 3**][5830-0004]:
-Here's an app that I'm not all that happy with, but it's the best of the worst you know? [Newton](https://newtonhq.com/) caught my attention and I *love* the design, but it can't archive from a folder/label. How does an email app not have that feature? Feels like one of the MVP features, but ok. When I reached out to the Newton team about this, they didn't seem to care. So I'm stuck with Airmail for now.
+Here's an app that I'm not all that happy with, but it's the best of the worst you know? [Newton](https://newtonhq.com/) caught my attention and I *love* the design, but it can't archive from a folder/label. How does an email app not have that feature? That would seem to be critical. When I reached out to the Newton team about this, they didn't seem to care. So I'm stuck with Airmail for now.
 
 - [**TextExpander**][5830-0005]:
 I purchased TextExpander back in 2012 and have never regretted it. It saves me a lot of time. Over the years, I've added more and more snippets that prevent me from unnecessary typing. [I even wrote about some of my favorite snippets](https://theboldreport.net/2017/02/my-favorite-textexpander-snippets/). And here's the thing, I love TextExpander not so much for the typing, but for the fact that I don't have to remember specific formats.
@@ -40,7 +40,7 @@ This is a recent addition to the Mac and was very helpful. TripMode allows you t
 Who knows how long I've been using Alfred, but it's one of the first apps I download on a new Mac. To make a long story short, Alfred helps me input events into my calendar, eject drives, search GIFs, search for RubyGems.org, create slugs, launch apps depending on what task I'm working on, and much more. If you're interested in a separate post about my favorite Alfred extensions, let me know.
 
 - [**Fantastical**][5830-0012]:
-The Calendar app on the Mac is a mess (and on iOS, but that's a separate article). I used BusyCal for a while, and it was ok. In 2012, I didn't feel their app was *that* much better. When Fantastical came about, I fell in love. At the time, just a simple menu bar app that listed the day's events. Fast forward almost six years and the Flexibits team continue to make Fantastical even better.
+The Calendar app on the Mac is a mess (and on iOS, but that's a separate article). I used BusyCal for a while, and it was okay. In 2012, I didn't feel their app was *that* much better. When Fantastical came about, I fell in love. At the time, it was just a simple menu bar app that listed the day's events. Fast forward almost six years and the Flexibits team continues to make Fantastical even better.
 
 - [**Gifox**](https://gifox.io/):
 Gifox is a handy menu bar app that records your screen and creates a GIF of that recording. This app has been insanely useful in GitHub pull requests. I'll often record an interaction for the person reviewing the PR. This has proved to be helpful to ensure things are working as they're supposed to.
@@ -61,7 +61,7 @@ Tweetbot is easily the biggest reason I still use Twitter. I don't see any of th
 If you enjoy wallpapers, Kuvva is a perfect menubar app that changes your wallpaper periodically. You can set it to change your wallpaper daily or even every thirty minutes. [Rachel](https://twitter.com/missrachilli) was the one to tell me about this one.
 
 - [**EncryptMe**](https://encrypt.me/):
-I think it's a good idea to use a VPN if you're not on a secured network. Hell, it might even be a good idea to use a VPN even if you are. My tinfoil hat aside, EncryptMe (formerly Cloak) makes it incredibly easy to use a VPN and to give them money with the variety of pricing options. One of the many is bound to suit your needs.
+I think it's a good idea to use a VPN if you're not on a secured network. Hell, it might be a good idea to use a VPN even if you are. My tinfoil hat aside, EncryptMe (formerly Cloak) makes it incredibly easy to use a VPN and to give them money with the variety of pricing options. One of the plans is bound to suit your needs.
 
 What about you? What are some of your favorite or crucial apps? Send an email to [smith@ttimsmith.com](mailto:smith@ttimsmith.com) and let me know.
 
