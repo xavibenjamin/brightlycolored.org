@@ -13,6 +13,7 @@ body {
   @extend %sans;
   -webkit-hyphens: auto;
   hyphens: auto;
+  letter-spacing: -.3px;
   line-height: 1.4;
 }
 
@@ -24,10 +25,6 @@ body {
 
 %sans-small {
   font-family: 'Whitney SSm Small A', 'Whitney SSm Small B', system, -apple-system, BlinkMacSystemFont, Avenir, sans-serif;
-}
-
-%sans-con {
-  font-family: 'Whitney Cond A', 'Whitney Cond B', system, -apple-system, BlinkMacSystemFont, Avenir, sans-serif;
 }
 
 %code {
@@ -42,7 +39,6 @@ h3,
 h4,
 h5,
 h6 {
-  @extend %sans-con;
   line-height: 1.3;
 }
 
@@ -50,6 +46,7 @@ h1,
 h2,
 h5 {
   color: $heading-base-color;
+  letter-spacing: -1px;
 }
 
 // TEXT --------------------------
@@ -67,35 +64,37 @@ h1 {
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 600;
   line-height: 1.2;
-  margin: 2rem 0 0;
+  margin: 2.5rem 0 .6rem;
   + h3 {
-    margin-top: .3rem;
+    margin-top: 1.3rem;
   }
 }
 
 h3 {
-  color: lighten($heading-base-color, 20%);
-  font-size: 1.3rem;
+  color: lighten($heading-base-color, 8%);
+  font-size: .9rem;
   font-weight: 600;
-  margin: 1.8rem 0 0;
+  margin: 2.5rem 0 .6rem;
+  text-transform: uppercase;
 }
 
 
 h4 {
   color: lighten($heading-base-color, 30%);
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 600;
   margin: 2.2rem 0 .1875rem;
   text-transform: uppercase;
 }
 
 h5 {
-  font-size: 1.1rem;
-  font-weight: bold;
-  margin: 3rem 0 .1875rem;
+  font-size: .9rem;
+  font-weight: 600;
+  letter-spacing: .3px;
+  margin: 3rem 0 .6rem;
   text-transform: uppercase;
   &:before {
     background-color: $border-color;
@@ -174,6 +173,7 @@ blockquote > ol {
 
 strong {
   font-weight: 600;
+  letter-spacing: -.4px;
   em {
     font-style: italic;
     font-weight: 600;

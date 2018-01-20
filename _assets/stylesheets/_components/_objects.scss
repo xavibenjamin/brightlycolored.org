@@ -7,6 +7,7 @@
 .iframe-container {
   height: 0;
   margin-bottom: 2rem;
+  margin-top: 2rem;
   padding-bottom: 56.25%;
   padding-top: 30px;
   position: relative;
@@ -187,7 +188,8 @@
       @extend %sans;
       font-size: .75rem;
       font-weight: 600;
-      margin-top: 0;
+      margin: 0;
+      text-transform: none;
     }
 
     .pubdate {
@@ -278,7 +280,7 @@
 
 .carbon-text {
   display: block;
-  font-size: .85rem;
+  font-size: .8rem;
   line-height: 1.5;
   text-align: left;
   @media #{$medium-up} {
