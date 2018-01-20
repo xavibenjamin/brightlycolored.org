@@ -2,6 +2,7 @@
 title: Our Family Cruise in Pictures
 custom_type: post
 tags: [ photography ]
+date: 2018-01-19 18:14
 ---
 
 Earlier this week, I promised to share some of my favorite photos from the cruise. This was only the second time I'd taken my camera on a trip, and as you might be able to tell, much to learn I still have.
