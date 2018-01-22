@@ -45,7 +45,7 @@ layout: null
           {% endif %}
           {% if post.rss_only %}
           <hr>
-          <p><em>This article is top secret! <a href="https://brightlycolored.org/2018/01/rss-club/">Learn more about RSS Club.</a></em></p>
+          <p><em>This article is top secret! <a href="https://brightlycolored.org/rss-club/">Read more RSS Club posts.</a></em></p>
           {% endif %}
           {% if post.custom_type == 'artdirect' %}
           <hr>
