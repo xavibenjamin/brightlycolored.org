@@ -13,6 +13,7 @@ review:
 tags: [ productivity, apps, review ]
 date: 2018-01-31 09:00
 featured_image: uploads/2018/01/things-review-01.jpg
+excerpt: A task manager you will actually want to use
 ---
 
 {% figure extendout /uploads/2018/01/things-review-01.jpg "Things 3 on iPad." %}
