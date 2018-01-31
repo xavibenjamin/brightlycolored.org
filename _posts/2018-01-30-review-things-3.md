@@ -12,6 +12,7 @@ review:
   url: https://itunes.apple.com/us/app/things-3/id904280696?mt=12
 tags: [ productivity, apps, review ]
 date: 2018-01-31 09:00
+featured_image: uploads/2018/01/things-review-01.jpg
 ---
 
 {% figure extendout /uploads/2018/01/things-review-01.jpg "Things 3 on iPad." %}
