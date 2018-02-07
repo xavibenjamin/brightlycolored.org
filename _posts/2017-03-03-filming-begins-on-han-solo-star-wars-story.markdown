@@ -5,7 +5,7 @@ link_url: http://www.starwars.com/news/han-solo-smuggler-scoundrel-hero-new-star
 tags: [star wars]
 date: 2017-03-03 11:07
 ---
-Here's another one I missed while [under the weather](https://theboldreport.net/2017/02/under-the-weather/). From StarWars.com:
+Here's another one I missed while [under the weather](/2017/02/under-the-weather/). From StarWars.com:
 
 > Cameras are rolling on the adventure-filled past of the iconic scoundrel and everyone’s favorite Wookiee; principal photography on the untitled Han Solo *Star Wars* Story officially began February 20 at Pinewood Studios, London.
 >
@@ -13,6 +13,6 @@ Here's another one I missed while [under the weather](https://theboldreport.net/
 
 How exciting! I love how all these spin-offs are exploring backstory we'd never known before. Together with the announcement was the first cast photo too.
 
-![First cast photo of the Han Solo movie](https://a.dilcdn.com/bl/wp-content/uploads/sites/6/2017/02/han-solo-cast-photo.jpg)
+![First cast photo of the Han Solo movie]({{ "/uploads/2018/02/solo-cast.jpg " | prepend: site.url }})
 
 The Han Solo movie comes out May 25, 2018.
