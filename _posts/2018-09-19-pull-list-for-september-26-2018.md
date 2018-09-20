@@ -17,3 +17,7 @@ date: 2018-09-25T15:30:24.929Z
 **Favorite of the week:** West Coast Avengers #2
 
 ## Picking up this week
+
+- **The Amazing Spider-Man #6**
+- **Jessica Jones #3**
+- **X-Men: Red #8**
