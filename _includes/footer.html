@@ -31,7 +31,7 @@
 </footer>
 
 <!-- JS libraries -->
-{% js 'app' async:true %}
+{% asset app.js async:true %}
 
 {% if page.fittext %}
   <script>
@@ -59,7 +59,7 @@
   </script>
 {% endif %}
 
-{% js 'vendor/lunr.min' async:true %}
+{% asset vendor/lunr.min.js async:true %}
 <script type="text/javascript" src="/search.js" async></script>
 
 {% if page.artdirect_typo %}
