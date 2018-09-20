@@ -6,6 +6,6 @@ author: timsmith
 tags:
   - comics
   - pull list
-date: 2018-09-20T04:50:24.929Z
+date: 2018-09-25T15:30:24.929Z
 ---
 hello
