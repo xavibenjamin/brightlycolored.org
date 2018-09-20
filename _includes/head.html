@@ -54,9 +54,9 @@
       <link rel="alternate" type="application/rss+xml" title="Articles-Only Feed for Brightly Colored" href="https://feedpress.me/brightlycolored-articles" />
 
       <style>
-        {% asset 'global' %}
+        {% asset global.css @inline %}
         {% if page.custom_css %}
-          {% asset '{{ page.custom_css}}' %}
+          {% asset {{ page.custom_css}}.css @inline %}
         {% endif %}
       </style>
 
