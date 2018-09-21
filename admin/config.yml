@@ -17,7 +17,7 @@ collections:
       - {label: "Post Author", name: "author", widget: "string", default: "timsmith" }
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown", required: falsew}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "article_posts"
     label: "Article Posts"
     folder: "_posts"
