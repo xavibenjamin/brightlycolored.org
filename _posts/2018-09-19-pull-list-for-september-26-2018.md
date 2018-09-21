@@ -1,6 +1,6 @@
 ---
 title: 'Pull List for September 26, 2018'
-subtitle: lkjl
+subtitle: ''
 custom_type: post
 author: timsmith
 tags:
