@@ -6,7 +6,7 @@ author: timsmith
 tags:
   - comics
   - pull list
-date: 2018-09-25T15:30:24.929Z
+date: 2018-09-21T15:30:24.929Z
 ---
 ## What I read last week
 
