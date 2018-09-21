@@ -4,7 +4,7 @@ url: https://brightlycolored.org
 description: 'An exploration of design, development, tech, Geek culture, Apple, and more.'
 timezone: America/Chicago
 permalink: /:year/:month/:title/
-exclude: ['README.md', 'Rakefile', 'Gemfile', 'Gemfile.lock', 'vendor', '.asset-cache', 'bin']
+exclude: ['README.md', 'Rakefile', 'vendor', '.asset-cache', 'bin']
 lunr_excludes: ['atom.xml', 'atom.articles.xml', 'sitemap.xml']
 
 # Where Things Are
