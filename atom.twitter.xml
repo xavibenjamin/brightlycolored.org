@@ -22,11 +22,7 @@ layout: null
   {% for post in posts limit:20 %}
     <entry>
       <id>https://brightlycolored.org{{ post.id }}</id>
-      {% if post.custom_type == 'link' %}
-        <link type="text/html" rel="alternate" href="{{ post.link_url }}"/>
-      {% else %}
-        <link type="text/html" rel="alternate" href="https://brightlycolored.org{{ post.url }}"/>
-      {% endif %}
+      <link type="text/html" rel="alternate" href="https://brightlycolored.org{{ post.url }}"/>
       <title>{% if post.custom_type == 'link' %}{{ post.title | xml_escape }} →{% else %}{{ post.title | xml_escape }}{% endif %}</title>
       <published>{{ post.date | date_to_xmlschema }}</published>
       <updated>{{ post.date | date_to_xmlschema }}</updated>
@@ -40,9 +36,6 @@ layout: null
             <h2>{{ post.subtitle }}</h2>
           {% endif %}
           {{ post.content | strip_toc }}
-          {% if post.custom_type == 'link' %}
-            <p><a title="Permalink to ‘{{ post.title }}’" href="{{ site.url | xml_escape }}{{ post.url | xml_escape }}">∞ Read on <em>Brightly Colored</em></a></p>
-          {% endif %}
         ]]>
       </content>
     </entry>
