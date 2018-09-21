@@ -14,3 +14,5 @@ date: 2018-09-21T22:25:32.159Z
 Kelly Sue DeConnick in an interview with Susan Polo for *Polygon*:
 
 > “And so I called Jamie and was like, ‘Alright, I want you to make a bet with me. I bet if you do a Carol Danvers redesign for Captain Marvel that Marvel will buy the design from you. And if I win this bet, then I get a redesign and you get paid. And if I lose this bet, I will pay for the redesign.’”
+
+Interesting story on how the new Captain Marvel costume came to be. I love the mohawk.
