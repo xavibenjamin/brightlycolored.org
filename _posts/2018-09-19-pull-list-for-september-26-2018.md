@@ -8,6 +8,8 @@ tags:
   - pull list
 date: 2018-09-21T15:30:24.929Z
 ---
+It's that time again! New comics come out tomorrow, so here's what I read last week and what I'm picking up this week.
+
 ## What I read last week
 
 - **Mr. & Mrs. X #3** - Love Kelly Thompson, but I'm just feeling Rogue and Gambit as characters. Dropping this title at the end of the arc.
