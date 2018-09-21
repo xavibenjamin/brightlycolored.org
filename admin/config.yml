@@ -15,9 +15,9 @@ collections:
       - {label: "Post Type", name: "custom_type", widget: "hidden", default: "link"}
       - {label: "Link URL", name: "link_url", widget: "string"}
       - {label: "Post Author", name: "author", widget: "string", default: "timsmith" }
-      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "article_posts"
     label: "Article Posts"
     folder: "_posts"
@@ -26,9 +26,9 @@ collections:
     filter: {field: "custom_type", value: "post"}
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string" }
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
       - {label: "Post Type", name: "custom_type", widget: "hidden", default: "post"}
-      - {label: "Post Author", name: "author", widget: "string", default: "timsmith" }
-      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Post Author", name: "author", widget: "string", default: "timsmith"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
