@@ -4,7 +4,7 @@ url: http://localhost:4000
 description: 'An exploration of design, development, tech, Geek culture, Apple, and more.'
 timezone: America/Chicago
 permalink: /:year/:month/:title/
-exclude: ['README.md', 'Rakefile', '.asset-cache']
+exclude: ['README.md', 'Rakefile', 'Gemfile.lock', '.asset-cache']
 lunr_excludes: ['atom.xml', 'atom.articles.xml', 'sitemap.xml']
 
 # Where Things Are
