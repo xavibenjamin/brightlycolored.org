@@ -17,15 +17,9 @@ highlighter: rouge
 port: 4000
 
 # Assets
-assets:
-  compress:
-    css: true
-    js: true
-  digest: true
-  sources:
-    - _assets/fonts
-    - _assets/javascripts
-    - _assets/stylesheets
+sass:
+  sass_dir: assets/stylesheets
+  style: :compressed
 
 # Markdown Rendering
 markdown: kramdown

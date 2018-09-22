@@ -1,12 +1,5 @@
-// -----------------------------------------
-// GLOBAL STYLESHEET
-// -----------------------------------------
-// Created and Authored by Tim Smith.
-// -----------------------------------------
-// This stylesheet should only be a table of contents of styles.
-// The meat of the styles will be in the individual partials in
-// an effort to keep the CSS as dry as possible.
-// -----------------------------------------
+---
+---
 
 
 // RESET THIS MUTHA!
@@ -61,7 +54,6 @@
 @import '_base/base';
 @import '_layout/header';
 @import '_layout/maincontent';
-@import '_vendor/bigfoot';
 @import '_layout/sidebar';
 @import '_layout/pages';
 @import '_layout/footer';
@@ -74,3 +66,4 @@
 // -----------------------------------------
 
 @import '_base/syntax';
+  

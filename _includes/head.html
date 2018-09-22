@@ -53,12 +53,7 @@
       <link rel="alternate" type="application/rss+xml" title="Master Feed for Brightly Colored" href="https://feedpress.me/brightlycolored" />
       <link rel="alternate" type="application/rss+xml" title="Articles-Only Feed for Brightly Colored" href="https://feedpress.me/brightlycolored-articles" />
 
-      <style>
-        {% asset global.css @inline %}
-        {% if page.custom_css %}
-          {% asset {{ page.custom_css}}.css @inline %}
-        {% endif %}
-      </style>
+      <link rel="stylesheet" href="/assets/stylesheets/global.css">
 
       <script> 
         var siteThemes = ['theme-001.css', 'theme-002.css', 'theme-003.css', 'theme-004.css'];

@@ -31,54 +31,9 @@
 </footer>
 
 <!-- JS libraries -->
-{% asset app.js async:true %}
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/loadCSS/2.0.1/loadCSS.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/loadCSS/2.0.1/cssrelpreload.min.js"></script>
 
-{% if page.fittext %}
-  <script>
-  {% asset 'fittext' %}
-
-  jQuery(document).ready(function($) {
-    $(".post__title").fitText();
-  });
-  </script>
-{% endif %}
-
-{% if page.lettering == 'reg' %}
-  <script>
-    {% asset 'lettering' %}
-    jQuery(document).ready(function($) {
-      $(".post__title").lettering();
-    });
-  </script>
-{% elsif page.lettering == 'words' %}
-  <script>
-    {% asset 'lettering' %}
-    jQuery(document).ready(function($) {
-      $(".post__title").lettering('words');
-    });
-  </script>
-{% endif %}
-
-{% asset vendor/lunr.min.js async:true %}
-<script type="text/javascript" src="/search.js" async></script>
-
-{% if page.artdirect_typo %}
-  <script src="https://use.typekit.net/{{ page.artdirect_typo }}.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
-{% endif %}
-
-{% if jekyll.environment == "production" %}
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('serviceworker.js')
-        .then(function (registration) {
-          console.log('Service Worker registration successful with scope: ',
-            registration.scope);
-        })
-        .catch(function (err) {
-          console.log('Service Worker registration failed: ', err);
-        });
-    }
-  </script>
-{% endif %}
-
+<script src="/assets/app.js"></script>

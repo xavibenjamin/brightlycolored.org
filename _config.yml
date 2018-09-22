@@ -36,13 +36,6 @@ lunr_excludes:
 plugins_dir: "./_plugins"
 highlighter: rouge
 port: 4200
-assets:
-  js_compressor: uglifier
-  css_compressor: sass
-  sources:
-  - _assets/fonts
-  - _assets/javascripts
-  - _assets/stylesheets
 post:
   extension: md
 livereload: true
@@ -50,9 +43,6 @@ markdown: kramdown
 markdown_ext: markdown,mkdown,mkdn,mkd,md,mdown
 kramdown:
   input: GFM
-gems:
-- jekyll-assets
-- jekyll-compose
-- jekyll-sitemap
-- jekyll-tagging-related_posts
-- jekyll-typogrify
+sass:
+  sass_dir: assets/stylesheets
+  style: :compressed
