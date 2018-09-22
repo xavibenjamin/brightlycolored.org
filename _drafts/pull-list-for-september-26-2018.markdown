@@ -1,6 +1,7 @@
 ---
 title: Pull List for September 26, 2018
 date: 2018-09-21 19:53:00 -05:00
+custom_type: post
 ---
 
 It's that time again! New comics come out tomorrow, so here's what I read last week and what I'm picking up this week.
