@@ -1,13 +1,14 @@
 ---
-layout: post
 title: Design as Branding | Daring Fireball
-
-
+date: 2016-09-22 09:56:13 -05:00
+tags:
+- apple
+- design
+layout: post
 custom_type: link
 link_url: http://daringfireball.net/2016/09/design_as_branding
-tags: [apple, design]
-date: 2016-09-22 14:56:13
 ---
+
 Farhad Manjoo, in his column for *The New York Times*:
 
 > And while Apple has slowed its design cadence, its rivals have sped up. Last year Samsung remade its lineup of Galaxy smartphones in a new glass-and-metal design that looked practically identical to the iPhone. Then it went further. Over the course of a few months, Samsung put out several design refinements, culminating in the Note 7, a big phone that has been universally praised by critics. With its curved sides and edge-to-edge display, the Note 7 pulls off a neat trick: Though it is physically smaller than Apple’s big phone, it actually has a larger screen. So thanks to clever design, you get more from a smaller thing — exactly the sort of advance we once looked to Apple for.

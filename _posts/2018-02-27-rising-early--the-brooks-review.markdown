@@ -1,9 +1,12 @@
 ---
 title: Rising Early | The Brooks Review
+date: 2018-02-27 21:58:00 -06:00
+tags:
+- work
+- life
+- sleep
 custom_type: link
 link_url: https://brooksreview.net/2018/02/rising-early/
-tags: [ work, life, sleep ]
-date: 2018-02-27 21:58
 ---
 
 Ben Brooks on *The Brooks Review*:

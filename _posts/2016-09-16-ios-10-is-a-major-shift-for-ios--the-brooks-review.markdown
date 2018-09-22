@@ -1,15 +1,14 @@
 ---
-layout: post
 title: iOS 10 is A Major Shift for iOS | The Brooks Review
-
-
+date: 2016-09-16 11:43:00 -05:00
+tags:
+- iOS
+- macOS
+layout: post
 custom_type: link
 link_url: https://brooksreview.net/2016/09/ios-10/
-tags:
-  - iOS
-  - macOS
-date: 2016-09-16 11:43
 ---
+
 Ben Brooks:
 
 > We’ve seen a shift where macOS is now looking and acting like a manual transmission — robust, accurate, and putting the user in full control. On the other hand iOS is very much acting like an automatic transmission — anticipatory, seamless, and convenient. What kind of transmission does your car have?

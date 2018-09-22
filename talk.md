@@ -1,8 +1,8 @@
 ---
-layout: page
 title: Azarías. Tuvo una fe firme desde su juventud
+permalink: "/talk/"
+layout: page
 exclude_from_search: true
-permalink: /talk/
 ---
 
 - De niño se le llevara cautivo

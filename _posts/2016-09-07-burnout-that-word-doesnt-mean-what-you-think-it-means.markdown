@@ -1,14 +1,14 @@
 ---
-layout: post
-title: "Burnout. That Word Doesn’t Mean What You Think it Means"
-
-custom_type: post
+title: Burnout. That Word Doesn’t Mean What You Think it Means
+date: 2016-09-07 11:06:00 -05:00
 tags:
-  - personal
-  - work and life
-date: 2016-09-07 11:06
+- personal
+- work and life
+layout: post
+custom_type: post
 subtitle: Let’s clarify what’s actually being said.
 ---
+
 I saw [this tweet thread](https://twitter.com/sarahmei/status/771093162676727808), and it really inspired some thoughts in me. Here were the parts [Sarah Mei](http://www.sarahmei.com/blog/) said that really resonated with me:
 
 > As an industry we've been talking quite a bit about how to avoid burnout & how to come back from it. But we're using the wrong word.

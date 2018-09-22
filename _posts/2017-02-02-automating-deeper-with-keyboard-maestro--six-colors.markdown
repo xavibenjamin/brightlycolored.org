@@ -1,10 +1,13 @@
 ---
 title: Automating Deeper With Keyboard Maestro | Six Colors
+date: 2017-02-02 17:07:00 -06:00
+tags:
+- automation
+- productivity
 custom_type: link
 link_url: https://sixcolors.com/post/2017/01/automating-deeper-with-keyboard-maestro/
-date: 2017-02-02 17:07
-tags: [automation, productivity]
 ---
+
 Jason Snell on *Six Colors*:
 
 > I write a lot about [automating](https://sixcolors.com/offsite/2016/11/all-the-ways-i-automate/) repetitive computer tasks, but most of my history with automation has involved using AppleScript (and later, Automator) to control applications. The fact is, many Mac apps—and more every day!—aren’t really accessible via scripting interfaces. It’s been a black hole of automation for me, a no-go zone, but a little while ago I decided I was wasting time with some of the tasks I perform every week and I was going to dive in and take control of the situation, scripting be damned.

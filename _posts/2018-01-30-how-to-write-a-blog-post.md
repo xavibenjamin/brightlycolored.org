@@ -1,10 +1,12 @@
 ---
 title: How to Write a Blog Post | Rands in Repose
+date: 2018-01-30 17:16:00 -06:00
+tags:
+- writing
 custom_type: link
 link_url: http://randsinrepose.com/archives/how-to-write-a-blog-post/
-tags: [ writing ]
-date: 2018-01-30 17:16
 ---
+
 Michael Lopp:
 
 > Randomly think of a thing. Let it bump around your head a bit. If the bumping gets too loud, start writing the words with the nearest writing device. See how far you get.

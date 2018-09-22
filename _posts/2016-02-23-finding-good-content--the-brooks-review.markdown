@@ -1,13 +1,11 @@
 ---
-layout: post
 title: Finding Good Content | The Brooks Review
-
-
+date: 2016-02-23 09:18:00 -06:00
+tags:
+- opinion
+layout: post
 custom_type: link
 link_url: https://brooksreview.net/2016/02/good-content/
-date: 2016-02-23 09:18
-tags:
-  - opinion
 ---
 
  Ben Brooks on how difficult it is to find good content:

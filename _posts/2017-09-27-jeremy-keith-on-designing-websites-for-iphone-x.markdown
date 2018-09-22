@@ -1,9 +1,11 @@
 ---
 title: Jeremy Keith on Designing Websites for iPhone X
+date: 2017-09-27 08:35:00 -05:00
+tags:
+- apple
+- iPhone X
 custom_type: link
 link_url: https://adactio.com/links/12873
-tags: [apple, iPhone X]
-date: 2017-09-27 08:35
 ---
 
 Jeremy Keith:

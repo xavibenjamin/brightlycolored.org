@@ -1,10 +1,15 @@
 ---
 title: Moving to Netlify
+date: 2017-04-03 11:33:00 -05:00
+tags:
+- development
+- jekyll
+- jekyll on heroku
+- jekyll on netlify
 subtitle: My time hosting Jekyll sites on Heroku draws to a close
 custom_type: post
-tags: [development, jekyll, jekyll on heroku, jekyll on netlify]
-date: 2017-04-03 11:33
 ---
+
 In June 2015, I set out on a bold journey. One where no one had gone before. If you're thinking of space, hell yea that would be amazing, but no. I set out to host my Jekyll site on Heroku.
 
 {% include toc.html %}

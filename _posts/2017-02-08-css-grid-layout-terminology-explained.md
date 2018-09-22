@@ -1,10 +1,14 @@
 ---
 title: CSS Grid Layout Terminology, Explained by Ire Aderinokun
+date: 2017-02-08 14:58:00 -06:00
+tags:
+- CSS
+- grid layout
+- development
 custom_type: link
 link_url: https://bitsofco.de/css-grid-terminology/
-tags: [CSS, grid layout, development]
-date: 2017-02-08 14:58
 ---
+
 Ire Aderinokun:
 
 > CSS Grid Layout introduces a lot of new concepts; there are 17 new properties to learn, and many more new terms to understand. This can make getting started with CSS Grid Layout difficult, as new terms reference other terms and you can get into a spiral of confusion. So, here are the basic concepts and terminology of CSS Grid Layout, explained.

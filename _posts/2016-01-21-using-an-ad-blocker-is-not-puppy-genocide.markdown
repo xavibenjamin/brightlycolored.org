@@ -1,12 +1,11 @@
 ---
+title: Using an Ad Blocker is Not ‘Puppy Genocide’
+date: 2016-01-21 14:28:00 -06:00
 layout: post
-title: "Using an Ad Blocker is Not ‘Puppy Genocide’"
-
-
 custom_type: link
 link_url: https://www.techdirt.com/articles/20151229/08111133184/gq-forbes-go-after-adblocker-users-rather-than-their-own-shitty-advertising-inventory.shtml
-date: 2016-01-21 14:28
 ---
+
 Timothy Geigner on *Techdirt*:
 
 > Lots of sites have recently made ad blocking software a target of their ire, complaining that such software ruins everything and is a form of puppy genocide or whatever. 

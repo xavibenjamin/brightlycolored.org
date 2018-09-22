@@ -1,10 +1,12 @@
 ---
 title: Five Ways to Automate Your Day One Journal with TextExpander | Day One Blog
+date: 2017-02-02 22:03:00 -06:00
+tags:
+- automation
 custom_type: link
 link_url: http://dayoneapp.com/2017/01/five-ways-to-automate-your-day-one-journal-with-textexpander/
-tags: [automation]
-date: 2017-02-02 22:03
 ---
+
 Josh Ginter on the Day One Blog:
 
 > With TextExpander’s potential in mind, the app becomes a natural fit for creating consistency, structure, and organization inside Day One. I have a plethora of quick Day One-specific snippets to help track fitness, time, reviews, and other personal bits of information I’ll want to draw on again in the future.

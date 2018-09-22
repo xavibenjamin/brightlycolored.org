@@ -1,14 +1,13 @@
 ---
-layout: post
 title: Don't Overthink It (Flexbox) Grids | CSS-Tricks
-
-
-custom_type: link
-link_url: https://css-tricks.com/dont-overthink-flexbox-grids
+date: 2016-06-28 09:11:00 -05:00
 tags:
 - development
-date: 2016-06-28 09:11
+layout: post
+custom_type: link
+link_url: https://css-tricks.com/dont-overthink-flexbox-grids
 ---
+
 Chris Coyier:
 
 > Four years ago I posted ["Don't Overthink it Grids"](https://css-tricks.com/dont-overthink-it-grids/) and it resonated with quite a few people. Even back then, I thought we might have been at Peak Grid. Someone was promoting a new grid framework practically every week.

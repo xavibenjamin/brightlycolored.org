@@ -1,15 +1,14 @@
 ---
+title: Questions for Our First 1:1 by Lara Hogan
+date: 2016-07-27 00:26:00 -05:00
+tags:
+- management
+- work
 layout: post
-title: "Questions for Our First 1:1 by Lara Hogan"
-
-
 custom_type: link
 link_url: http://larahogan.me/blog/first-one-on-one-questions/
-tags:
-  - management
-  - work
-date: 2016-07-27 00:26
 ---
+
 Lara Hogan:
 
 > In the last few years, I’ve had the pleasure of kicking off lots of new reporting relationships with both engineers and engineering managers. Over time, I’ve learned that getting some particular data during an initial 1:1 can be really helpful, as I can refer back to the answers as I need to give a person feedback, recognize them, and find creative ways to support them. Most of these I’ve stolen from some really amazing Etsy coworkers.

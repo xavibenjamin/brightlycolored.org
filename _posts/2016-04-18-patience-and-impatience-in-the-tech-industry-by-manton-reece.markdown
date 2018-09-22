@@ -1,15 +1,14 @@
 ---
-layout: post
 title: Patience and Impatience in the Tech Industry by Manton Reece
-
-
+date: 2016-04-18 08:34:00 -05:00
+tags:
+- apple
+- tech
+layout: post
 custom_type: link
 link_url: http://www.manton.org/2016/04/patience-and-impatience-in-the-tech-industry.html
-tags:
-  - apple
-  - tech
-date: 2016-04-18 08:34
 ---
+
 Manton Reece:
 
 > It has taken 6 years from the original iPad introduction to the iPad Pros we have today that fulfill what I had hoped a tablet could be. Was it worth the wait? Yes. But that’s a long time, and a more impatient company might’ve taken a different path to get here, and they wouldn’t have been wrong.

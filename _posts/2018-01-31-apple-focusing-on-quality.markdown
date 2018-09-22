@@ -1,10 +1,14 @@
 ---
 title: Apple to Delay new Features and Focus on Software Quality
+date: 2018-01-31 09:00:00 -06:00
+tags:
+- Apple
+- iOS
+- macOS
 author: tjdraper
 link_url: https://www.bloomberg.com/news/articles/2018-01-30/apple-is-said-to-push-back-some-key-iphone-software-features
-tags: [ Apple, iOS, macOS ]
-date: 2018-01-31 9:00
 ---
+
 Mark Gurman writing for _Bloomberg_:
 
 > Apple Inc. executives, seeking to improve the performance of iPhone software after months of reported quality issues, have decided to delay some key features originally planned for this fall’s update, according to a person familiar with the matter.

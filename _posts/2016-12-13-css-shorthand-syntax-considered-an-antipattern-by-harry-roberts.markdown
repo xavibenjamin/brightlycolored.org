@@ -1,13 +1,14 @@
 ---
-layout: post
 title: CSS Shorthand Syntax Considered an Anti-Pattern by Harry Roberts
-
-
+date: 2016-12-13 12:42:00 -06:00
+tags:
+- CSS
+- development
+layout: post
 custom_type: link
 link_url: http://csswizardry.com/2016/12/css-shorthand-syntax-considered-an-anti-pattern/
-tags: [CSS, development]
-date: 2016-12-13 12:42
 ---
+
 Harry Roberts:
 
 > There’s a very small but surprisingly significant (and even more surprisingly frequent) issue I spot a lot in other peoples’ code, either when working directly with it, refactoring it, or auditing it: the use of shorthand syntax in CSS.

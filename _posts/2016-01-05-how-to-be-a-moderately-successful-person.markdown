@@ -1,12 +1,11 @@
 ---
-layout: post
 title: "‘How To Be a Moderately Successful Person’"
-
-
+date: 2016-01-05 22:09:00 -06:00
+layout: post
 custom_type: link
 link_url: https://www.theguardian.com/commentisfree/2016/jan/01/how-to-be-moderately-successful-person-like-me
-date: 2016-01-05 22:09
 ---
+
 Emer O'Toole:
 
 > I hope it will not seem conceited if I say that I am a moderately successful person. I have a job I like. I wrote a book that is doing quite well. I have managed to trick a human I love into believing that it is a good idea to live with me. I’m reasonably happy most of the time, and think anyone who says they never feel like crap is lying.

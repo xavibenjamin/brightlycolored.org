@@ -1,8 +1,13 @@
 ---
 title: 'Star Wars: The Last Jedi | Retake'
+date: 2017-12-26 15:26:00 -06:00
+tags:
+- episode VII
+- star wars
+- movie review
+- podcasts
+- review
 link_url: https://nightowl.fm/retake/28
-tags: [ episode VII, star wars, movie review, podcasts, review  ]
-date: 2017-12-26 15:26
 ---
 
 Official episode description:

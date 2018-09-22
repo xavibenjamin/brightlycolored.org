@@ -1,11 +1,11 @@
 ---
 title: 'Review: Sonos Play:1'
+date: 2015-02-05 13:03:15 -06:00
+tags:
+- review
+- sonos
 subtitle: Sonos adds an excellent and affordable product to their lineup
 custom_type: post
-tags:
-  - review
-  - sonos
-date: '2015-02-05 13:03:15'
 review:
   type: product
   rating: 4
@@ -15,6 +15,7 @@ review:
   price: 147
   url: http://amzn.to/2zmQvRd
 ---
+
 Sonos is widely regarded as a premier speaker system for your home. Their newest product, the Play:1, is their most affordable one, and could potentially get more people into the Sonos ecosystem.
 
 {% include toc.html %}

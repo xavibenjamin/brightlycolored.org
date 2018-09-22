@@ -1,12 +1,12 @@
 ---
-title: "Partly Sunny Review: Weather Reimagined | MacStories"
-
-
+title: 'Partly Sunny Review: Weather Reimagined | MacStories'
+date: 2016-12-19 15:49:00 -06:00
+tags:
+- apps
 custom_type: link
 link_url: https://www.macstories.net/reviews/partly-sunny-review-weather-reimagined/
-tags: apps
-date: 2016-12-19 15:49
 ---
+
 Jake Underwood writing for *MacStories*:
 
 > Partly Sunny, like other paid weather apps, is loaded with data. At its most informative, the app will give you temperature (high, low, “feels like,” and current), precipitation chances, sunrise and sunset, cloud cover, humidity, visibility, and multiple charts and graphs. That sounds cluttered, but Partly Sunny’s interface is designed to only provide you as much information as you want for it to show.

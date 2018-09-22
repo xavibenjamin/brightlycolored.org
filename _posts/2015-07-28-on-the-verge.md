@@ -1,12 +1,11 @@
 ---
+title: "‘On The Verge’"
+date: 2015-07-28 10:08:48 -05:00
 layout: post
-title: ‘On The Verge’
-
-
 custom_type: link
 link_url: http://adactio.com/journal/9312
-date: '2015-07-28 10:08:48'
 ---
+
 Jeremy Keith:
 
 > If the message coming down from above is that performance concerns and business concerns are fundamentally at odds, then I just don’t know how the developers are ever going to create [a culture of performance](http://alistapart.com/article/performance-showing-versus-telling) (which is a real shame, because they sound like a great bunch). It’s a particularly bizarre false dichotomy to be foisting when you consider that [all the evidence](http://www.impressivewebs.com/importance-of-website-performance-sources/) points to performance as being a key differentiator when it comes to making moolah.

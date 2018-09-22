@@ -1,14 +1,14 @@
 ---
-layout: post
 title: Introducing our new 1Password subscription service | AgileBits Blog
-
+date: 2016-08-03 15:01:00 -05:00
+tags:
+- 1Password
+- apps
+layout: post
 custom_type: link
 link_url: https://blog.agilebits.com/2016/08/03/new-1password-hosted-service/
-tags:
-  - 1Password
-  - apps
-date: 2016-08-03 15:01
 ---
+
 Dave Teare on the AgileBits Blog:
 
 > Today is a very exciting day in the world of passwords! We have not one, not two, but three(!) incredible things to announce:

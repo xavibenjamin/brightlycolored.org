@@ -1,10 +1,13 @@
 ---
-title: "Star Wars Recap | CNET"
+title: Star Wars Recap | CNET
+date: 2017-12-14 09:00:00 -06:00
+tags:
+- movies
+- star wars
 author: tjdraper
 link_url: https://www.cnet.com/news/star-wars-recap-catch-up-on-the-saga-before-last-jedi/
-tags: [ movies, star wars ]
-date: 2017-12-14 9:00
 ---
+
 Richard Trenholm for *CNET*:
 
 > Are you ready for "The Last Jedi"?

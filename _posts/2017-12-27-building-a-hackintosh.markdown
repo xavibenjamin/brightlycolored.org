@@ -1,10 +1,13 @@
 ---
 title: Building a Hackintosh
+date: 2017-12-27 09:00:00 -06:00
+tags:
+- apple
+- mac
+- hackintosh
 subtitle: My journey to an affordable, upgradable, and extensible Mac
 author: tjdraper
 custom_type: post
-tags: [ apple, mac, hackintosh ]
-date: 2017-12-27 9:00
 ---
 
 {% figure extendout /uploads/2017/12/hackintosh.jpg %}

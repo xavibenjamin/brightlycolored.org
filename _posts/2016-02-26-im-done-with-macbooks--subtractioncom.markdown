@@ -1,15 +1,14 @@
 ---
-layout: post
 title: I’m Done with MacBooks | Subtraction.com
-
-
+date: 2016-02-26 00:48:00 -06:00
+tags:
+- tech
+- iPad
+layout: post
 custom_type: link
 link_url: http://www.subtraction.com/2016/02/05/im-done-with-macbooks/
-date: 2016-02-26 00:48
-tags:
-  - tech
-  - iPad
 ---
+
 Khoi Vinh:
 
 > What I’m starting to believe is that desktop operating systems like OS X might not be all that well suited for these away-from-your-desk use cases, that in spite of the overwhelming success of laptops as a form factor, they’re really not what we should be using on the go. Granted, it’s true that iOS has a ways to go before it can replace OS X for everyone, but that doesn’t mean that OS X is the really the right long-term solution for mobile productivity.

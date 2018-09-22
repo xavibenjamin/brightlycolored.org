@@ -1,10 +1,13 @@
 ---
-title: "Apple’s iPhone Upgrade Program Gets More and More Convenient | Six Colors"
+title: Apple’s iPhone Upgrade Program Gets More and More Convenient | Six Colors
+date: 2017-10-26 14:25:00 -05:00
+tags:
+- apple
+- iPhone
 custom_type: link
 link_url: https://sixcolors.com/post/2017/10/apples-iphone-upgrade-program-gets-more-and-more-convenient/
-tags: [ apple, iPhone ]
-date: 2017-10-26 14:25
 ---
+
 Dan Moren on *Six Colors*:
 
 > Yesterday, Apple rolled out the ability to go through the pre-approval process for your loan in the Apple Store app, making it simpler for customers to choose the model they want and get all the upgrade program paperwork squared away ahead of time. That way we can blearily wake up in the middle of the night on Friday and stab at our phone to order a new one like everybody else.

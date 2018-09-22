@@ -1,14 +1,13 @@
 ---
-layout: post
 title: You Should Probably Blog in Markdown | The Media Temple Blog
-
-
+date: 2016-05-06 13:08:00 -05:00
+tags:
+- writing
+layout: post
 custom_type: link
 link_url: http://mediatemple.net/blog/tips/you-should-probably-blog-in-markdown/
-tags:
-  - writing
-date: 2016-05-06 13:08
 ---
+
 Chris Coyier on the Media Temple Blog:
 
 > Maybe you’ll read that title and think:

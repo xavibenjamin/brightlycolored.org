@@ -1,8 +1,10 @@
 ---
 title: How to Read the Internet by Robin Rendle
+date: 2018-01-25 12:34:00 -06:00
+tags:
+- publishing
+- writing
 link_url: https://robinrendle.com/notes/how-to-read-the-internet/
-tags: [ publishing, writing ]
-date: 2018-01-25 12:34
 ---
 
 Robin Rendle:

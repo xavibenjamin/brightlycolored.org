@@ -1,8 +1,10 @@
 ---
-title: "Trailer for ‘Star Wars: The Last Jedi’"
+title: 'Trailer for ‘Star Wars: The Last Jedi’'
+date: 2017-10-09 23:35:00 -05:00
+tags:
+- episode VIII
+- star wars
 custom_type: post
-tags: [episode VIII, star wars]
-date: 2017-10-09 23:35
 ---
 
 <div class="iframe-container">

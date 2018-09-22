@@ -1,13 +1,14 @@
 ---
-layout: post
 title: Benefits Are the Bedrock of Great Company Culture | Savvy Inbox
-
-
+date: 2016-10-12 10:43:00 -05:00
+tags:
+- work
+- work life
+layout: post
 custom_type: link
 link_url: https://savvyinbox.com/benefits-are-the-bedrock-of-great-company-culture-10c94bb81cb2#.nyopznw8e
-tags: [work, work life]
-date: 2016-10-12 10:43
 ---
+
 Paul Farnell is on a roll these days:
 
 > In the early days of running a startup, it’s hard to focus on things that don’t directly lead to revenue. The environment is plastic, so the little things you do can establish the foundation of a great culture. Great benefits start with the intangibles, so any effort you make to let people know you care about their well-being is appreciated.

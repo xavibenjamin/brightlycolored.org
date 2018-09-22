@@ -1,12 +1,14 @@
 ---
+title: "‘Another Week; Another Debate About Podcasts’"
+date: 2015-02-17 14:58:07 -06:00
+tags:
+- podcasts
+- hot drama
 layout: post
-title: ‘Another Week; Another Debate About Podcasts’
-
 custom_type: link
 link_url: http://www.512pixels.net/blog/2015/2/another-week-another-debate-about-podcasts
-date: '2015-02-17 14:58:07'
-tags: [podcasts, hot drama]
 ---
+
 Stephen Hackett:
 
 > I’d rather people listen a little faster and consume more of our content than hear every single beat, as it comes out of Logic.

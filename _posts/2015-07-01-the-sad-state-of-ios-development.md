@@ -1,11 +1,11 @@
 ---
-layout: post
 title: The Sad State of iOS Development
-
+date: 2015-07-01 10:42:51 -05:00
+layout: post
 custom_type: link
 link_url: http://inessential.com/2015/06/30/love
-date: '2015-07-01 10:42:51'
 ---
+
 Brent Simmons:
 
 > Yes, there are strategies for making a living, and nobody’s entitled to anything. But it’s also true that the economics of a thing may be generally favorable or generally unfavorable — and the iOS App Store is, to understate the case, generally unfavorable. Indies don’t have a fighting chance.

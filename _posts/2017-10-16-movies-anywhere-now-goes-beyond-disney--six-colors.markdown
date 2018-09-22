@@ -1,10 +1,13 @@
 ---
 title: Movies Anywhere Now Goes Beyond Disney | Six Colors
+date: 2017-10-16 10:34:00 -05:00
+tags:
+- tech
+- movies
 custom_type: link
 link_url: https://sixcolors.com/post/2017/10/movies-anywhere-now-goes-beyond-disney/
-tags: [tech, movies]
-date: 2017-10-16 10:34
 ---
+
 Dan Moren on *Six Colors*:
 
 > Movies Anywhere promises a pretty sizable library, though there are still holdouts—Paramount being the largest, along with other significant players like Lionsgate. But the service is sweetening the pot by offering users a handful of free movies when you link an account.

@@ -1,10 +1,13 @@
 ---
 title: It Isn't Millennials Who Are Entitled
+date: 2017-02-15 21:28:00 -06:00
+tags:
+- work life
+- work
 custom_type: link
 link_url: http://www.independent.co.uk/life-style/millennials-struggling-work-careers-because-their-parents-gave-them-medals-for-coming-last-simon-a7537121.html
-tags: [work life, work]
-date: 2017-02-15 21:28
 ---
+
 Rachel Hosie writes on some thoughts from author and motivational speaker [Brian Sinek](https://www.startwithwhy.com/Home.aspx):
 
 > And another problem is that we’ve been brought up to focus on having a healthy work/life balance - “the message is correct, but it seems to have been exaggerated and misinterpreted,” Sinek explains.

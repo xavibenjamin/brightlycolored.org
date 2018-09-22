@@ -1,15 +1,14 @@
 ---
-layout: post
 title: Building Remote-First Teams by Karolina Szczur
-
-
+date: 2016-05-16 11:24:00 -05:00
+tags:
+- remote work
+- work
+layout: post
 custom_type: link
 link_url: https://medium.com/@fox/building-remote-first-teams-a98bf8581db
-tags:
-  - remote work
-  - work
-date: 2016-05-16 11:24
 ---
+
 Karolina Szczur on "I can’t get this ASAP," one of the excuses against remote work:
 
 > Circling back to Basecamp and their earlier publication, “Rework”, we can bring in a killer quote:

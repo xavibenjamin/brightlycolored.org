@@ -1,10 +1,13 @@
 ---
 title: Our Caribbean Cruise
+date: 2016-12-12 14:55:00 -06:00
+tags:
+- personal
+- vacation
 custom_type: post
-tags: [personal, vacation]
-date: 2016-12-12 14:55
 subtitle: I went on my first cruise and loved it.
 ---
+
 <figure class="photo-grid photo-grid--one">
   <img class="grid-thirds" src="{{ site.url }}/uploads/2016/12/james-and-kristin.jpg" alt="James and Kristin">
   <img class="grid-thirds" src="{{ site.url }}/uploads/2016/12/peacock.jpg" alt="Peacock">

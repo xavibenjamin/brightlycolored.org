@@ -1,19 +1,21 @@
 ---
-layout: post
 title: 'Review: 1Password 4 for Mac'
+date: 2013-10-03 00:00:00 -05:00
+tags:
+- 1Password
+- apps
+- review
+layout: post
 subtitle: The best password manager gets a great update
 custom_type: post
-tags:
-  - 1Password
-  - apps
-  - review
 review:
   type: app
   rating: 4
-  app: 
+  app:
     developer: AgileBits
   price: 49
 ---
+
 [1Password](https://agilebits.com/onepassword) is one of my favorite apps. The amount of time it has saved me is unmeasurable, and it's made my password strategy secure and delightful.
 
 {% include toc.html %}

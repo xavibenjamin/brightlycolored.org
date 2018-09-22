@@ -1,8 +1,10 @@
 ---
-title: ‘Black Panther’ Official Trailer
+title: "‘Black Panther’ Official Trailer"
+date: 2017-11-06 10:42:00 -06:00
+tags:
+- movies
+- marvel
 custom_type: post
-tags: [ movies, marvel ]
-date: 2017-11-06 10:42
 ---
 
 <div class="iframe-container">

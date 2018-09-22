@@ -1,12 +1,11 @@
 ---
-layout: post
 title: Drew Wilson on Design Titles
-
-
+date: 2016-02-08 08:57:00 -06:00
+layout: post
 custom_type: link
 link_url: http://blog.drewwilson.com/design-titles
-date: 2016-02-08 08:57
 ---
+
 Drew Wilson: 
 
 > Currently in the software industry any title that has "Design" somewhere in it refers to someone that arranges pixels on a screen. I propose that any title with "Design" in it should be applicable to anyone working on any aspect of software.

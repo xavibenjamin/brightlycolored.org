@@ -1,14 +1,13 @@
 ---
-layout: post
 title: "‘Bulls’ Gasol Replaces Injured Butler on All-Star Team’"
-
-
+date: 2016-02-12 00:48:00 -06:00
+tags:
+- NBA
+layout: post
 custom_type: link
 link_url: http://www.nba.com/2016/news/as.game/02/09/bulls-pau-gasol-replaces-jimmy-butler-on-all-star-team/index.html
-date: 2016-02-12 00:48
-tags:
-  - NBA
 ---
+
 From NBA.com:
 
 > Chicago Bulls center Pau Gasol has been named by NBA Commissioner Adam Silver to replace his teammate, injured Eastern Conference All-Star reserve Jimmy Butler (strained left knee), in the 2016 NBA All-Star Game on Sunday, Feb. 14 at Air Canada Centre in Toronto.

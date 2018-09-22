@@ -1,10 +1,13 @@
 ---
-title: "Hassle-free Full Bleed with *:not() by Dave Rupert"
+title: Hassle-free Full Bleed with *:not() by Dave Rupert
+date: 2017-03-29 15:40:00 -05:00
+tags:
+- CSS
+- development
 custom_type: link
 link_url: http://daverupert.com/2017/03/full-bleed-with-not/
-tags: [CSS, development]
-date: 2017-03-29 15:40
 ---
+
 Dave wrote this the day I went to Vegas and I haven't had time to write about it.
 
 > Let’s say you’re making a blog post layout. Content is entered into a CMS inside a WYSIWYG editor field. You echo that content to the page. You pull it up on a mobile device and notice the paragraphs go edge-to-edge. Yikes, it’s a little uncomfortable. So you add some kind of left/right padding maybe using a `div.container`.

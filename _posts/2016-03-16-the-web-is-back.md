@@ -1,9 +1,13 @@
 ---
 title: The Web Is Back!
-subtitle: With the great layout tools we now have on the web, art direction is making a comeback.
+date: 2016-03-16 23:33:59 -05:00
+tags:
+- design
+- development
+- site news
+subtitle: With the great layout tools we now have on the web, art direction is making
+  a comeback.
 custom_type: post
-tags: [ design, development, site news ]
-date: '2016-03-16 23:33:59'
 ---
 
 Creativity on the web has been on a bit of a vacation. I'm not pointing fingers, I'm guilty. Many of us are culprits in making some pretty homogenous-looking websites. We played the hand we were dealt. Technology hadn't been very kind to us, so we ended up using grid frameworks that forced us into similar layouts. I don't know about you, but I got tired of hacking CSS for every project. Frameworks were easy.

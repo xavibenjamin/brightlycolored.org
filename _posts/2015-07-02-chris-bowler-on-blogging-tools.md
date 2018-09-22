@@ -1,12 +1,11 @@
 ---
-layout: post
 title: Chris Bowler on Blogging Tools
-
-
+date: 2015-07-02 21:14:33 -05:00
+layout: post
 custom_type: link
 link_url: http://chrisbowler.com/journal/blogging-tools
-date: '2015-07-02 21:14:33'
 ---
+
 Chris Bowler:
 
 > I realize many folks consider talking about your blogging toolset is akin to talking about your relationship issues in public. Loudly. But I appreciate hearing how the writers I respect get content on their site and hopefully someone can benefit from hearing about my own.

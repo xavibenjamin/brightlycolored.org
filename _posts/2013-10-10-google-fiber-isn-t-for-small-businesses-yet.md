@@ -1,11 +1,13 @@
 ---
+title: Google Fiber Won’t Be Available for Small Businesses… Yet
+date: 2013-10-10 10:55:31 -05:00
+tags:
+- google
 layout: post
-title: "Google Fiber Won’t Be Available for Small Businesses… Yet"
 custom_type: link
 link_url: http://thenextweb.com/google/2013/10/10/google-promises-fiber-for-small-businesses-in-the-future-but-you-can-use-the-isp-if-you-work-from-home/
-tags: google
-date: '2013-10-10 10:55:31'
 ---
+
 >Google today decided to clarify its stance for small businesses using Google Fiber. In short, small businesses aren’t allowed to take advantage of the ISP, at least not yet.
 >
 >…

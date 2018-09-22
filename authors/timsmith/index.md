@@ -1,5 +1,6 @@
 ---
+title: Timothy B. Smith
 layout: author-archive
 author: timsmith
-title: Timothy B. Smith
 ---
+

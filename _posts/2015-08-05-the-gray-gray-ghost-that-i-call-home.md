@@ -1,13 +1,13 @@
 ---
+title: "‘The Gray Gray Ghost That I Call Home’"
+date: 2015-08-05 10:28:17 -05:00
 layout: post
-title: ‘The Gray Gray Ghost That I Call Home’
-
-
 custom_type: link
 link_url: https://css-tricks.com/the-gray-gray-ghost-that-i-call-home/
-date: '2015-08-05 10:28:17'
-excerpt: The problem is we haven’t learned how to have constructive conversations online
+excerpt: The problem is we haven’t learned how to have constructive conversations
+  online
 ---
+
 Chris Coyier nails it:
 
 > Discussions are always worth having. Weighing options is always interesting. Demonstrating what has worked (and what hasn't) for you is always useful. There are ways to communicate that don't resort to dogmatism.

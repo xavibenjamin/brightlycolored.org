@@ -1,14 +1,13 @@
 ---
-layout: post
 title: Signed Git Commits with Tower by Aaron Parecki
-
-
+date: 2016-09-13 10:38:00 -05:00
+tags:
+- development
+layout: post
 custom_type: link
 link_url: https://aaronparecki.com/2016/07/29/10/git-tower
-tags:
-  - development
-date: 2016-09-13 10:38
 ---
+
 Aaron Parecki:
 
 > My favorite Git client is [Tower](https://www.git-tower.com/). I wanted to find a way to sign my git commits despite that [not being a supported feature](https://twitter.com/gittower/status/751065612517044224) of Tower. Turns out it only took a couple configuration options to make it work.

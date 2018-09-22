@@ -1,12 +1,11 @@
 ---
-layout: post
 title: "‘Follow the Links’"
-
-
+date: 2016-01-26 09:06:00 -06:00
+layout: post
 custom_type: link
 link_url: http://aworkinglibrary.com/writing/follow-the-links/
-date: 2016-01-26 09:06
 ---
+
 Mandy Brown on what happens when an app tries to keep you within that app: 
 
 > Because what Twitter (or Facebook, or Apple, or whomever) is also doing when they bring the web to users’ feeds, rather than letting those feeds serve as maps to elsewhere, is diminish the hyperlink. You remember the hyperlink, right? It’s supposed to take you somewhere, to move you from one place to another.

@@ -1,9 +1,11 @@
 ---
 title: I Like to Teach
+date: 2017-01-09 22:47:00 -06:00
+tags:
+- jobs
+- personal
 custom_type: post
-date: 2017-01-09 22:47
 subtitle: "…and I cannot lie"
-tags: [jobs, personal]
 ---
 
 For years, I've loved teaching what I learn. I believe it to be my duty to help others, as I've been helped. It's one of the main reasons I started *The Bold Report*, it's the reason I created [Tim Likes to Teach](http://web.archive.org/web/20141008052815/http://timlikestoteach.com/),[^timlikestoteach] and why I've told people for years that [my calendar is available to them](http://calendly.com/smithtimmytim).

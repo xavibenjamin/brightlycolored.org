@@ -1,10 +1,12 @@
 ---
-title: My Brief Review of the 2016 MacBook Pro with Touch Bar
- briefreview
+title: My Brief Review of the 2016 MacBook Pro with Touch Bar briefreview
+date: 2016-12-20 15:19:00 -06:00
+tags:
+- MacBook pro
+- brief review
 custom_type: post
-tags: [MacBook pro, brief review]
-subtitle: Earlier this year, Apple updated its MacBook Pro. Here are my thoughts on the new computer
-date: 2016-12-20 15:19
+subtitle: Earlier this year, Apple updated its MacBook Pro. Here are my thoughts on
+  the new computer
 rating: 4.5
 brand: Apple
 price: 2799

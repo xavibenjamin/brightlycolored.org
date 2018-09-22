@@ -1,9 +1,10 @@
 ---
-title: "My Weekend in Photos"
-subtitle: "January 26–28, 2018"
+title: My Weekend in Photos
+date: 2018-01-30 10:55:00 -06:00
+tags:
+- photography
+subtitle: January 26–28, 2018
 custom_type: post
-tags: [ photography ]
-date: 2018-01-30 10:55
 featured_image: uploads/2018/01/20180127-IMG_1906.jpg
 ---
 

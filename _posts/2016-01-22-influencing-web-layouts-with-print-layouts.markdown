@@ -1,12 +1,11 @@
 ---
-layout: post
 title: "‘Influencing Web Layouts with Print Layouts’"
-
-
+date: 2016-01-22 09:24:00 -06:00
+layout: post
 custom_type: link
 link_url: https://css-tricks.com/print-magazine-layouts-converted-to-web-layouts/
-date: 2016-01-22 09:24
 ---
+
 Chris Coyier on *CSS-Tricks*:
 
 > Print design, despite so often being dubbed "dead" or in massive decline by those of us in web design, still excels in quality and variety of layout.

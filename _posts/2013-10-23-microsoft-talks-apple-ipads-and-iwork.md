@@ -1,14 +1,15 @@
 ---
+title: Microsoft Talks Apple iPads and iWork
+date: 2013-10-23 16:30:34 -05:00
+tags:
+- microsoft
+- apple
+- iPad
 layout: post
-title: 'Microsoft Talks Apple iPads and iWork'
 custom_type: link
 link_url: http://blogs.technet.com/b/microsoft_blog/archive/2013/10/23/apples-and-oranges.aspx
-tags:
-  - microsoft
-  - apple
-  - iPad
-date: '2013-10-23 16:30:34'
 ---
+
 Frank Shaw on *The Official Microsoft Blog*:
 
 >Surface and Surface 2 both include Office, the world’s most popular, most powerful productivity software for free and are priced below both the iPad 2 and iPad Air respectively. Making Apple’s decision to build the price of their less popular and less powerful iWork into their tablets not a very big (or very good) deal.

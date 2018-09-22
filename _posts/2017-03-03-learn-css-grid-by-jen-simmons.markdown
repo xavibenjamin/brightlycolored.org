@@ -1,9 +1,11 @@
 ---
 title: Learn CSS Grid by Jen Simmons
+date: 2017-03-03 10:47:00 -06:00
+tags:
+- CSS
+- grid layout
 custom_type: link
 link_url: http://jensimmons.com/post/feb-27-2017/learn-css-grid
-tags: [CSS, grid layout]
-date: 2017-03-03 10:47
 ---
 
 Jen Simmons:

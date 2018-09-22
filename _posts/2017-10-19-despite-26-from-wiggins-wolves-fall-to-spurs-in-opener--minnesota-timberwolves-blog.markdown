@@ -1,10 +1,14 @@
 ---
-title: Despite 26 From Wiggins, Wolves Fall To Spurs In Opener | Minnesota Timberwolves Blog
+title: Despite 26 From Wiggins, Wolves Fall To Spurs In Opener | Minnesota Timberwolves
+  Blog
+date: 2017-10-19 13:06:00 -05:00
+tags:
+- NBA
+- timberwolves
 custom_type: link
 link_url: http://www.nba.com/timberwolves/despite-26-wiggins-wolves-fall-spurs-opener
-tags: [ NBA, timberwolves ]
-date: 2017-10-19 13:06
 ---
+
 Kyle Ratke on the Minnesota Timberwolves Blog:
 
 > The Wolves kept it close and it looked like they were turning a corner in the fourth quarter, but they fell to the Spurs in Wednesday’s season opener in San Antonio.

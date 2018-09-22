@@ -1,15 +1,18 @@
 ---
-layout: post
 title: 'My Brief Review of ‘Batman v Superman: Dawn of Justice’'
-custom_type: post
-slug: /bvs-review/
+date: 2016-03-26 01:06:42 -05:00
+categories:
+- action
+- adventure
+- sci-fi
 tags:
-  - DC comics
-  - brief review
-  - movies
-  - movie review
-  - review
-date: '2016-03-26 01:06:42'
+- DC comics
+- brief review
+- movies
+- movie review
+- review
+layout: post
+custom_type: post
 subtitle: Didn't love it, didn't hate it.
 review:
   type: movie
@@ -17,8 +20,8 @@ review:
   movie:
     director: Zack Snyder
     rating: PG-13
-categories: [action, adventure, sci-fi]
 ---
+
 {% figure extendout /uploads/2016/03/batmanvsuperman.jpg "I specifically chose an image that had Wonder Woman in the center. She was my favorite character." %}
 
 Is it good? The answer is underwhelming, and frankly I'm ambivalent. I didn't hate it, but I didn't like it either. Although the movie has some great moments, in the end, the story is all over the place. So many things are happening, and the *Justice League* setup takes precious time from this film standing on its own.

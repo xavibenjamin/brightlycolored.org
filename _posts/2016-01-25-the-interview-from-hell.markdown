@@ -1,12 +1,11 @@
 ---
-layout: post
 title: The Interview from Hell
-
-
+date: 2016-01-25 02:05:00 -06:00
+layout: post
 custom_type: link
 link_url: http://deliberate-software.com/on-defeat/
-date: 2016-01-25 02:05
 ---
+
 Steve Shogren:
 
 > This story fills me with an overwhelming desire to never continue the cycle of abuse. I strive every interview to try to respectfully work with the candidate, and never humiliate them. I want every person I interview to leave feeling loved as a human and respected, even if they are completely incapable to perform the duties of the job.

@@ -1,15 +1,15 @@
 ---
+title: Twitter Facing Monetary Challenges in Japan and Korea
+date: 2013-11-04 10:39:46 -06:00
+tags:
+- twitter
+- tech
+- business
 layout: post
-title: 'Twitter Facing Monetary Challenges in Japan and Korea'
-
 custom_type: link
 link_url: http://thenextweb.com/twitter/2013/11/04/twitter-is-facing-challenges-making-money-in-japan-and-korea
-tags:
-  - twitter
-  - tech
-  - business
-date: '2013-11-04 10:39:46'
 ---
+
 Reported on *The Next Web*:
 
 >Twitter is strong in Japan (as [we noted back in 2011](http://thenextweb.com/socialmedia/2011/02/02/why-twitter-outguns-facebook-in-japan/)) where it’s used by one-third of the Internet population — but the country accounts for under 10 percent of its global revenue and one ad exec told WSJ that many Japanese brands “don’t think Twitter is something to pay money for.”

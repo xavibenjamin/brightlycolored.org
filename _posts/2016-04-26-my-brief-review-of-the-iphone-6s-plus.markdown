@@ -1,20 +1,20 @@
 ---
-layout: post
-title: My Brief Review of the iPhone 6s Plus
- briefreview
-custom_type: post
-slug: /iphone-6s-plus-brief-review/
+title: My Brief Review of the iPhone 6s Plus briefreview
+date: 2016-04-26 08:54:00 -05:00
 tags:
-  - iPhone
-  - brief review
-date: 2016-04-26 08:54
-subtitle: The iPhone 6s Plus is my favorite iPhone. I was hesitant, but I’m glad I decided to try it.
+- iPhone
+- brief review
+layout: post
+custom_type: post
+subtitle: The iPhone 6s Plus is my favorite iPhone. I was hesitant, but I’m glad I
+  decided to try it.
 rating: 5
 brand: Apple
 price: 549
 review_url: https://www.apple.com/shop/buy-iphone/iphone6s
 vendor: the Apple Store
 ---
+
 {% figure extendout /uploads/2016/04/iphone-6s-plus.jpg "My iPhone 6s Plus in all its glory." %}
 
 The bigger size is definitely noticeable in my hand. Using buttons in the upper part of the screen is a little difficult at first, but the awkwardness of the bigger size went away in a couple weeks. Keep in mind that I’m 6’2” with large hands, but I have friends with smaller hands that still love this phone. It’s whether you’re comfortable using it with two hands or not.

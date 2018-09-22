@@ -1,9 +1,15 @@
 ---
-title: "Avengers: Infinity War Trailer | Retake"
+title: 'Avengers: Infinity War Trailer | Retake'
+date: 2017-12-06 11:22:00 -06:00
+tags:
+- podcasts
+- retake
+- movies
+- marvel
+- trailers
 link_url: https://nightowl.fm/retake/26
-tags: [ podcasts, retake, movies, marvel, trailers ]
-date: 2017-12-06 11:22
 ---
+
 Official episode description from NightOwl.fm:
 
 > TJ and Tim are here as earth's mightiest heroes to avenge us all from infinity, or something like that. Join them to chat about the upcoming film 'Avengers: Infinity War' and its recently released trailer.

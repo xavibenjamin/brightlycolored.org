@@ -1,12 +1,11 @@
 ---
-layout: post
 title: Cozumel Vacation
-
-custom_type: post
-date: 2016-02-15 22:39
+date: 2016-02-15 22:39:00 -06:00
 tags:
-  - personal
-  - vacation
+- personal
+- vacation
+layout: post
+custom_type: post
 ---
 
 Dear Reader,

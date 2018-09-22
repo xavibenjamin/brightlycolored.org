@@ -1,12 +1,11 @@
 ---
-layout: post
 title: What Is a Front End Developer?
-
-
+date: 2016-01-05 01:58:00 -06:00
+layout: post
 custom_type: link
 link_url: http://learntocodewith.me/web-dev/front-end-developer-skills/
-date: 2016-01-05 01:58
 ---
+
 Laurence Bradford:
 
 > At this point, after looking through multiple job descriptions, I am totally confused.

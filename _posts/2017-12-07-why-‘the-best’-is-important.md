@@ -1,13 +1,14 @@
 ---
 title: Why ‘The Best’ is Important
-custom_type: link
-link_url: 'https://brooksreview.net/2017/12/stop-messing-about-with-crap/'
-author: timsmith
+date: 2017-12-07 17:52:39.430000000 -06:00
 tags:
-  - tech
-  - personal
-date: 2017-12-07T23:52:39.430Z
+- tech
+- personal
+custom_type: link
+link_url: https://brooksreview.net/2017/12/stop-messing-about-with-crap/
+author: timsmith
 ---
+
 Ben Brooks on _The Brooks Review_:
 
 > I search for, and try to buy, the best of each item I use extensively because I don’t like to be annoyed by the things I use often. This is the deciding factor for me, but not all the factors. It’s a bit of a balancing act, deciding if and when to expand the budget on something to get an item which is better. Often, I’ll forgo buying something I want or need, and wait until I can buy the best of that item.

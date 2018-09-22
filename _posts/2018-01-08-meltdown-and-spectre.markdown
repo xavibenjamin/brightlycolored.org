@@ -1,10 +1,14 @@
 ---
 title: Meltdown and Spectre
+date: 2018-01-08 09:40:00 -06:00
+tags:
+- tech
+- security
+- development
 author: tjdraper
 link_url: https://stratechery.com/2018/meltdown-spectre-and-the-state-of-technology/
-tags: [ tech, security, development ]
-date: 2018-01-08 9:40
 ---
+
 Ben Thompson writing about the Meltdown and Spectre processor vulnerabilities:
 
 > Faced with a fundamental imbalance (data fetch slowness versus execution speed), processor engineers devised an ingenious system optimized for performance, but having failed to envision the possibility of bad actors abusing the system, everyone was left vulnerable.

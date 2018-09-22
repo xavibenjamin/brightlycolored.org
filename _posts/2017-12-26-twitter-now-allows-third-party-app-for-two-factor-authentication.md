@@ -1,9 +1,12 @@
 ---
 title: Twitter Now Allows Third-Party App for Two-Factor Authentication
+date: 2017-12-26 15:14:00 -06:00
+tags:
+- Twitter
+- tech
 link_url: https://mobile.twitter.com/TwitterSafety/status/943542421698125824
-tags: [ Twitter, tech ]
-date: 2017-12-26 15:14
 ---
+
 From the Twitter Safety account:
 
 > We’re rolling out an update to login verification.

@@ -1,12 +1,14 @@
 ---
+title: MacStories Reviews Fantastical 2.2
+date: 2014-10-22 12:06:17 -05:00
+tags:
+- apps
+- reviews
 layout: post
-title: 'MacStories Reviews Fantastical 2.2'
-
 custom_type: link
 link_url: http://www.macstories.net/reviews/fantastical-2-2-interactive-notifications-share-extension-and-today-widget/
-date: '2014-10-22 12:06:17'
-tags: [apps, reviews]
 ---
+
 Federico Viticci writing on *MacStories*:
 
 > With version 2.2, Flexibits has built a powerful share extension that brings the full Fantastical interface to any app that can share text and links. From Safari, Drafts, Digg, and other iOS 8 apps that properly support share extensions, you'll be able to tap the Fantastical icon to get the app's complete UI for event and reminder creation.

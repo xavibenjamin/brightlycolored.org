@@ -1,8 +1,10 @@
 ---
 title: The Meaning of AMP by Jeremy Keith
+date: 2017-11-06 13:17:00 -06:00
+tags:
+- development
+- industry issues
 link_url: https://adactio.com/journal/13035
-tags: [ development, industry issues ]
-date: 2017-11-06 13:17
 ---
 
 Jeremy Keith:

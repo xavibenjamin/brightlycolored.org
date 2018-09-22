@@ -1,10 +1,14 @@
 ---
 title: Panic Will Suspend Sales of Transmit for iOS
+date: 2018-01-08 09:00:00 -06:00
+tags:
+- Apple
+- iOS
+- development
 author: tjdraper
 link_url: https://panic.com/blog/the-future-of-transmit-ios/
-tags: [ Apple, iOS, development ]
-date: 2018-01-08 9:00
 ---
+
 Cabel Sasser on the Panic Blog:
 
 > Transmit iOS made about $35k in revenue in the last year, representing a minuscule fraction of our overall 2017 app revenue. That’s not enough to cover even a half-time developer working on the app. And the app needs full-time work — we’d love to be adding all of the new protocols we added in Transmit 5, as well as some dream features, but the low revenue would render that effort a guaranteed money-loser. Also, paid upgrades are still a matter of great debate and discomfort in the iOS universe, so the normally logical idea of a paid “Transmit 2 for iOS” would be unlikely to help. Finally, the new Files app in iOS 10 overlaps a lot of file-management functionality Transmit provides, and feels like a more natural place for that functionality. It all leads to one hecka murky situation.

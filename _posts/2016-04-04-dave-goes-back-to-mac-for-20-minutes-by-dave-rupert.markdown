@@ -1,16 +1,14 @@
 ---
-layout: post
 title: Dave Goes Back to Mac for 20 Minutes by Dave Rupert
-
-
+date: 2016-04-04 08:50:00 -05:00
+tags:
+- microsoft
+- web performance
+layout: post
 custom_type: link
 link_url: http://daverupert.com/2016/03/dave-goes-back-to-mac-for-20-minutes/
-slug: /dave-goes-back-to-mac-for-20-minutes/
-tags:
-  - microsoft
-  - web performance
-date: 2016-04-04 08:50
 ---
+
 Uncle Dave:
 
 > When I opened up my Macbook I hadn’t charged it in weeks or months, but instantly the screen came on and there was still 54% battery. I couldn’t help but contrast this to my Surface which takes an embarassing 30+ seconds to awake from sleep and seems to only have a half day hour battery life even shutdown.

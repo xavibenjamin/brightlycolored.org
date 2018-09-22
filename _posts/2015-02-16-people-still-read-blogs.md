@@ -1,12 +1,14 @@
 ---
-layout: post
 title: People Still Read Blogs
-
+date: 2015-02-16 22:58:29 -06:00
+tags:
+- reading
+- blogging
+layout: post
 custom_type: link
 link_url: http://justinjackson.ca/blogs/
-date: '2015-02-16 22:58:29'
-tags: [reading, blogging]
 ---
+
 Justin Jackson:
 
 > Yes, Google’s changes over the past 2 years have affected how people discover content. But I don’t think people have moved on to “dicking around in apps and snacking on bite-sized social content.”

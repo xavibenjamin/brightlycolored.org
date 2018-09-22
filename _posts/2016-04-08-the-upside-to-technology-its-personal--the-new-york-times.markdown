@@ -1,14 +1,13 @@
 ---
-layout: post
 title: The Upside to Technology? It’s Personal | The New York Times
-
-
+date: 2016-04-08 15:31:00 -05:00
+tags:
+- tech
+layout: post
 custom_type: link
 link_url: http://www.nytimes.com/2016/03/31/fashion/social-media-technology.html
-tags:
-  - tech
-date: 2016-04-08 15:31
 ---
+
 Nick Bilton in his last column for *The New York Times*:
 
 > As a longtime tech columnist, I’ve seen the dark side of technology. I’ve written about the privacy minefields of Facebook and other social networks. I’ve looked at the hate and bullying that people inflict on Twitter. I’ve seen how the front-facing camera on our smartphones can turn us into [narcissists](http://www.nytimes.com/2014/11/13/style/alex-from-target-the-other-side-of-fame.html).

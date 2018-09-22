@@ -1,15 +1,14 @@
 ---
+title: 'Lego Star Wars: The Force Awakens Review (PS4) | PlayStation Insider'
+date: 2016-07-25 08:53:00 -05:00
+tags:
+- star wars
+- video games
 layout: post
-title: "Lego Star Wars: The Force Awakens Review (PS4) | PlayStation Insider"
-
-
 custom_type: link
 link_url: http://playstationinsider.com/2016/07/lego-star-wars-the-force-awakens-review-ps4/
-tags:
-  - star wars
-  - video games
-date: 2016-07-25 08:53
 ---
+
 Logan Moore writing for *PlayStation Insider*:
 
 > There’s a line in the original Star Wars movie where Obi-Wan Kenobi tells a young Luke Skywalker, “You’ve taken your first step into a larger world.” I couldn’t help but think of this quote after my time with Lego Star Wars: The Force Awakens. This new Lego game is so much more expansive and more mechanically sound than any Lego game that has come before it. While it’s probably close to being the 20th game in the Lego franchise, this new entry truly does feel like a first step into a brave, new direction for the franchise.

@@ -1,11 +1,13 @@
 ---
+title: " The Bold Report Version 3.0.0"
+date: 2014-10-22 11:39:03 -05:00
+tags:
+- from the editor
+- site news
 layout: post
-title: ' The Bold Report Version 3.0.0'
-
 custom_type: post
-date: '2014-10-22 11:39:03'
-tags: [from the editor, site news]
 ---
+
 Hi Reader,
 
 I'm taking a quick moment to write you about the new design on *The Bold Report*. This is the second redesign of this site, and its third major incarnation. If you normally read links and articles via your RSS reader, please take a moment to take a look.

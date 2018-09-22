@@ -1,8 +1,9 @@
 ---
 title: Under the Weather
+date: 2017-02-27 11:46:00 -06:00
+tags:
+- from the editor
 custom_type: post
-tags: [from the editor]
-date: 2017-02-27 11:46
 ---
 
 Hello Dear Reader,

@@ -1,8 +1,9 @@
 ---
 title: Our Family Cruise in Pictures
+date: 2018-01-19 18:14:00 -06:00
+tags:
+- photography
 custom_type: post
-tags: [ photography ]
-date: 2018-01-19 18:14
 featured_image: uploads/2018/01/cruise-featured.jpg
 ---
 

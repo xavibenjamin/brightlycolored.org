@@ -1,12 +1,14 @@
 ---
+title: Sam Soffes Releases Whiskey Beta
+date: 2014-11-05 12:12:38 -06:00
+tags:
+- apps
+- markdown
 layout: post
-title: 'Sam Soffes Releases Whiskey Beta'
-
 custom_type: link
 link_url: http://sam.roon.io/value-of-beta
-date: '2014-11-05 12:12:38'
-tags: [apps, markdown]
 ---
+
 [Whiskey](http://usewhiskey.com/) is a new Markdown editor that Sam has been working on. I got in on the beta quite early because I love his work. Whiskey is looking to be an awesome app, and Sam has been updating almost daily recently.
 
 The app is great for many reasons, but the most important is this: you can tell it's been designed and built by someone who writes a lot of Markdown. It makes a difference.

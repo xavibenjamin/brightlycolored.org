@@ -1,8 +1,7 @@
 ---
-layout: post
 title: Matt Gemmell on Working from Home
-
-
+date: 2015-07-20 00:00:00 -05:00
+layout: post
 custom_type: link
 link_url: http://mattgemmell.com/working-from-home/
 ---

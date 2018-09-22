@@ -1,15 +1,14 @@
 ---
-layout: post
 title: How to Make Money From Your Tiny Podcast by Justin Jackson
-
-
+date: 2016-09-09 11:18:00 -05:00
+tags:
+- business
+- podcasts
+layout: post
 custom_type: link
 link_url: https://justinjackson.ca/tinypodcast/
-tags:
-  - business
-  - podcasts
-date: 2016-09-09 11:18
 ---
+
 Justin Jackson:
 
 > The general consensus right now is that if your show doesn’t have 30,000 – 50,000 downloads per month, you can’t get any sponsor to look at you seriously. To really get the big advertisers (MailChimp, Squarespace) you need 50,000 downloads per episode.

@@ -1,9 +1,10 @@
 ---
-layout: page
 title: Contribution Guidelines
-description: Helpful information for authors or soon-to-be-authors when writing content for *Brightly Colored*.
+permalink: "/contribute/"
+layout: page
+description: Helpful information for authors or soon-to-be-authors when writing content
+  for *Brightly Colored*.
 exclude_from_search: true
-permalink: /contribute/
 excerpt: Guidelines for writing on Brightly Colored.
 ---
 

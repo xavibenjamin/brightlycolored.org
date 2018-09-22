@@ -1,12 +1,11 @@
 ---
-layout: post
 title: "‘Pushing Against a Tidal Wave’"
-
-
+date: 2016-01-13 10:28:00 -06:00
+layout: post
 custom_type: link
 link_url: https://rachsmith.com/2016/pushing-against-a-tidal-wave
-date: '2016-01-13 10:28:00'
 ---
+
 Rachel Smith:
 
 > The web design and development industry has grown out of infancy and is moving in to what I like to think of as the awkward teenage years. We are maturing, rebelling against the limitations set by our elders and trying to make sense of an industry where the demands are constantly evolving.

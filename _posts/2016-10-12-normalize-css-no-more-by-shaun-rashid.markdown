@@ -1,13 +1,14 @@
 ---
+title: Normalize (CSS) No More by Shaun Rashid
+date: 2016-10-12 10:49:00 -05:00
+tags:
+- CSS
+- development
 layout: post
-title: "Normalize (CSS) No More by Shaun Rashid"
-
-
 custom_type: link
 link_url: http://shaunrashid.com/2015/09/15/normalize-css-no-more/
-tags: [CSS, development]
-date: 2016-10-12 10:49
 ---
+
 Shaun Rashid:
 
 > Like many web developers, I have used a reset/normalize style sheet in a variety of projects with the intention of having a common starting point for all browsers when it comes to styling CSS. It’s been useful. It works great for setting a baseline to create web pages that are pixel-perfect reproductions of mockups from designs.

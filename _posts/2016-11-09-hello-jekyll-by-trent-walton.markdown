@@ -1,13 +1,14 @@
 ---
+title: Hello, Jekyll by Trent Walton
+date: 2016-11-09 11:45:00 -06:00
+tags:
+- development
+- jekyll
 layout: post
-title: "Hello, Jekyll by Trent Walton"
-
-
 custom_type: link
 link_url: http://trentwalton.com/notes/2016/11/01/jekyll.html
-tags: [development, jekyll]
-date: 2016-11-09 11:45
 ---
+
 Trent Walton:
 
 > I’ve logged quite a lot of hours battling databases, plugins, and a GUI editor to write (and occasionally design) blog posts. Wordpress has served me well, but to simplify the process I’ve ported my blog to [Jekyll](https://jekyllrb.com/). It’s great to be static! Writing already feels more casual and enjoyable.

@@ -1,11 +1,13 @@
 ---
-layout: post
 title: 'Marco Arment’s Latest Project: Overcast'
+date: 2013-09-24 11:29:01 -05:00
+tags:
+- podcasts
+layout: post
 custom_type: link
 link_url: http://www.marco.org/2013/09/23/overcast-coming-soon
-tags: [ podcasts]
-date: '2013-09-24 11:29:01'
 ---
+
 >If you need tons of features or anything I’m choosing not to do, you’ll probably be happier with one of the others. (Before I started using Overcast full-time, Downcast was my podcast app of choice.)
 >
 >I’m adding some new stuff that I haven’t seen before in podcast players, and implementing what I think is the best set of core features from the existing apps. It’s my ideal podcast app.

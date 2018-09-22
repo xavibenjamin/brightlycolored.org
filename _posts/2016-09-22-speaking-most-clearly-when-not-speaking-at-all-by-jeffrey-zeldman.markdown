@@ -1,12 +1,12 @@
 ---
-layout: post
 title: Speaking Most Clearly When Not Speaking At All by Jeffrey Zeldman
-
-
+date: 2016-09-22 10:24:00 -05:00
+tags:
+- personal
+- writing
+layout: post
 custom_type: link
 link_url: http://www.zeldman.com/2016/08/09/hear-the-silence/
-tags: [personal, writing]
-date: 2016-09-22 10:24
 ---
 
 Jeffrey Zeldman:

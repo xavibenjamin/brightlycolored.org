@@ -1,11 +1,13 @@
 ---
+title: An Argument for App.net
+date: 2013-09-30 16:17:17 -05:00
+tags:
+- tech
 layout: post
-title: 'An Argument for App.net'
 custom_type: link
 link_url: http://www.chrisenns.com/2013/09/favd/
-date: '2013-09-30 16:17:17'
-tags: [tech]
 ---
+
 Chris Enns:
 
 >The peo­ple who scoff at App​.net and won­der “why do we need another Twit­ter?” are missing the point. Actu­ally, they’re miss­ing the point of the inter­net. There’s plenty of room for another social net­work. You don’t have to use it but that doesn’t make it invalid. For every per­son that makes fun of Google+, there’s another 5 peo­ple get­ting a lot of com­mu­nity and fun out of it.

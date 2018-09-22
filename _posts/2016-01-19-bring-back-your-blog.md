@@ -1,12 +1,11 @@
 ---
-layout: post
 title: "‘An Invitation to Bring Back Your Personal Site’"
-
-
+date: 2016-01-19 23:50:00 -06:00
+layout: post
 custom_type: link
 link_url: http://www.elezea.com/2016/01/an-invitation/
-date: '2016-01-19 23:50:00'
 ---
+
 Rian van der Merwe:
 
 > The point is that publishing on Medium and Twitter and Facebook gives you an immediate shortcut to a huge audience, but of course those companies’ interests are in themselves, not in building *your* audience, so it’s very easy for them to change things around in a way that totally screws you over

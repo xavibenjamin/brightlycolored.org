@@ -1,13 +1,14 @@
 ---
+title: 'Welcome to Macintosh Season 3 Kickstarter '
+date: 2016-10-21 10:19:00 -05:00
+tags:
+- apple
+- podcasts
 layout: post
-title: "Welcome to Macintosh Season 3 Kickstarter "
-
-
 custom_type: link
 link_url: https://www.kickstarter.com/projects/bramhill/welcome-to-macintosh-season-3
-tags: [apple, podcasts]
-date: 2016-10-21 10:19
 ---
+
 Mark Bramhill:
 
 > Season 3 of Welcome to Macintosh is the most ambitious season to date. The stories I'm working on require traveling across the country, reporting on events, working with designers — and these expenses add up. Advertising helps, but the money only comes in after the episodes have been released. In the past, I've paid for expenses out of pocket and just trusted that things would work out. But that's not sustainable, and it limits what I'm able to do and what stories I can tell.

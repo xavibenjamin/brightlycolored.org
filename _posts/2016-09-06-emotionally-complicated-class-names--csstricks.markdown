@@ -1,14 +1,12 @@
 ---
-layout: post
 title: Emotionally Complicated Class Names | CSS-Tricks
-
-
+date: 2016-09-06 12:27:00 -05:00
+tags:
+- development
+- work
+layout: post
 custom_type: link
 link_url: https://css-tricks.com/emotionally-complicated-class-names/
-tags:
-  - development
-  - work
-date: 2016-09-06 12:27
 ---
 
 This list is pretty hilarious. I'll add my own just for fun.

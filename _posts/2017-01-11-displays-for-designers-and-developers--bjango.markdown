@@ -1,10 +1,13 @@
 ---
 title: Displays for Designers and Developers | Bjango
+date: 2017-01-11 18:36:00 -06:00
+tags:
+- apple
+- displays
 custom_type: link
 link_url: https://bjango.com/articles/macexternaldisplays/
-tags: [apple, displays]
-date: 2017-01-11 18:36
 ---
+
 Marc Edwards on the Bjango blog:
 
 > If you’re considering an external display for your Mac, there’s a few important decisions to make. Apple doesn’t sell external displays any more, so you can’t just default to their wisdom. That’s an issue, because not all displays are well suited for Macs.

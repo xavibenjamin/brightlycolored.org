@@ -1,8 +1,10 @@
 ---
-title: Jahlil Okafor Hoping for Resolution of His Future With Philadelphia 76ers | NBA.com
+title: Jahlil Okafor Hoping for Resolution of His Future With Philadelphia 76ers |
+  NBA.com
+date: 2017-11-28 12:24:00 -06:00
+tags:
+- NBA
 link_url: http://www.nba.com/article/2017/11/27/philadelphia-76ers-jahlil-okafor-hoping-resolution-future-team-nba
-tags: [ NBA ]
-date: 2017-11-28 12:24
 ---
 
 From NBA.com:

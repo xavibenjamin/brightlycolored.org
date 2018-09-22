@@ -1,14 +1,14 @@
 ---
+title: Netflix Breaking From All-At-Once Release Strategy with ‘Turbo Fast’
+date: 2013-12-04 12:17:50 -06:00
+tags:
+- netflix
+- TV
 layout: post
-title: 'Netflix Breaking From All-At-Once Release Strategy with ‘Turbo Fast’'
-
 custom_type: link
 link_url: http://www.theverge.com/2013/12/3/5170230/netflix-breaking-from-all-at-once-release-strategy-with-turbo-fast
-tags:
-  - netflix
-  - TV
-date: '2013-12-04 12:17:50'
 ---
+
 Chris Welch on *The Verge*:
 
 >Netflix is deviating from the all-at-once release strategy it's followed for House of Cards, Orange is the New Black, and the fourth season of Arrested Development. Instead of releasing an entire season on day one, just five episodes of Turbo Fast will be available for streaming on Christmas Eve. Additional new episodes will follow "throughout the year" according to Netflix.

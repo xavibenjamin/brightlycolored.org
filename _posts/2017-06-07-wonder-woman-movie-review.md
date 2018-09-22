@@ -1,5 +1,16 @@
 ---
-title: "Wonder Woman"
+title: Wonder Woman
+date: 2017-06-07 00:00:00 -05:00
+categories:
+- action
+- adventure
+- fantasy
+tags:
+- movies
+- DC comics
+- movie review
+- review
+- my videos
 custom_type: post
 review:
   type: movie
@@ -7,8 +18,6 @@ review:
   movie:
     director: Patty Jenkins
     rating: PG-13
-categories: [ action, adventure, fantasy ]
-tags: [ movies, DC comics, movie review, review, my videos ]
 ---
 
 <div class="iframe-container">

@@ -1,8 +1,8 @@
 ---
-layout: page
 title: About Brightly Colored
+permalink: "/about/"
+layout: page
 exclude_from_search: true
-permalink: /about/
 excerpt: Find out more about Brightly Colored.
 ---
 

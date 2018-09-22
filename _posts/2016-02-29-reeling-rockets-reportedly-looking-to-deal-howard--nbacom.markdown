@@ -1,14 +1,13 @@
 ---
-layout: post
 title: Reeling Rockets Reportedly Looking to Deal Howard | NBA.com
-
-
+date: 2016-02-29 01:16:00 -06:00
+tags:
+- NBA
+layout: post
 custom_type: link
 link_url: http://www.nba.com/2016/news/features/fran_blinebury/02/11/houston-rockets-reaching-out-to-teams-to-see-about-deal-for-dwight-howard/index.html
-tags:
-  - NBA
-date: 2016-02-29 01:16
 ---
+
 Fran Blinebury reporting for NBA.com:
 
 >After another listless, desultory effort in a loss at Portland that sent them staggering into the All-Star break with a record below .500 and out of the Western Conference playoff seedings, interim coach J.B. Bickerstaff said his team was "broken."

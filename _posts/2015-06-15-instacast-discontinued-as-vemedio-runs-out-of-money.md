@@ -1,11 +1,11 @@
 ---
-layout: post
 title: Instacast Discontinued as Vemedio Runs out of Money
-
+date: 2015-06-15 13:54:43 -05:00
+layout: post
 custom_type: link
 link_url: http://9to5mac.com/2015/06/14/instacast-shuts-down-vemedio-podcast-app/
-date: '2015-06-15 13:54:43'
 ---
+
 Benjamin Mayo reporting for *[9to5Mac](http://9to5mac.com/2015/06/14/instacast-shuts-down-vemedio-podcast-app/)*:
 
 > Popular podcasting app [Instacast for iOS](https://itunes.apple.com/us/app/id577056377?mt=8) and Mac is shutting down as the founders can no longer fund it or any of Vemedio’s other projects.

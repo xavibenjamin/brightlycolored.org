@@ -1,10 +1,12 @@
 ---
 title: Gordon Hayward Injury Casts Pall Over Opening Night Thriller | NBA.com
+date: 2017-10-19 12:03:00 -05:00
+tags:
+- NBA
 custom_type: link
 link_url: http://www.nba.com/article/2017/10/18/gordon-hayward-injury-casts-pall-over-opening-night-thriller
-tags: [ NBA ]
-date: 2017-10-19 12:03
 ---
+
 Steve Aschburner on NBA.com:
 
 > Five Cavaliers players scattered like roaches bugging out over a light bulb. Several Boston players stood still, crouched low or leaned in, incredulous at what they were seeing. In that instant, the guys over on the Cleveland bench – with the nearest and clearest view of Gordon Hayward’s hideously twisted left leg and ankle – recoiled, turning away in unison as if choreographed.

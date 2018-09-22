@@ -1,9 +1,11 @@
 ---
 title: A New Beginning
+date: 2017-10-04 15:21:00 -05:00
+tags:
+- from the editor
+- site news
 subtitle: Fresh coat of paint and a new name
 custom_type: post
-tags: [from the editor, site news]
-date: 2017-10-04 15:21
 ---
 
 For a while now, I've been feeling like the name *The Bold Report* was too official for what I'd been writing. I'd always meant it ironically[^ironically], but I never felt like it come off that way. The logo was pretty bad too, with the word "Bold" in bold… real subtle Tim.

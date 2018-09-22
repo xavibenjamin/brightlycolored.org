@@ -1,13 +1,14 @@
 ---
+title: 'iPhone 7: Computer from the Future | MacStories'
+date: 2016-10-18 10:56:00 -05:00
+tags:
+- apple
+- iPhone
 layout: post
-title: "iPhone 7: Computer from the Future | MacStories"
-
-
 custom_type: link
 link_url: https://www.macstories.net/stories/iphone-7-computer-from-the-future
-tags: [apple, iPhone]
-date: 2016-10-18 10:56
 ---
+
 As per usual, Viticci's review of the iPhone 7 is thought-out and thorough:
 
 > Beyond anticipated camera improvements, speed bumps, and design tweaks, the iPhone 7 is planting the seeds of future technologies that will ripple through the entire Apple ecosystem. Years from now, every photo we'll capture and view will be in wide color; Apple's wireless headphones will have advantages wired models never had; and interfaces without tactile feedback will feel as outdated as non-Retina graphics do today.

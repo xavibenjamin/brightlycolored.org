@@ -1,12 +1,11 @@
 ---
+title: "‘Is There Potential for “Ethical Analytics”?’"
+date: 2015-07-30 18:22:05 -05:00
 layout: post
-title: ‘Is There Potential for “Ethical Analytics”?’
-
-
 custom_type: link
 link_url: http://laurakalbag.com/is-there-potential-for-ethical-analytics/
-date: '2015-07-30 18:22:05'
 ---
+
 Laura Kalbag has some interesting thoughts that I’ve been pondering myself:
 
 > Are all analytics bad analytics? Is there room for “ethical analytics” that only tracks anonymous data with limited uses?

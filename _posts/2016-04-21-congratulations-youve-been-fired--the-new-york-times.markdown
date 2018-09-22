@@ -1,15 +1,14 @@
 ---
-layout: post
 title: Congratulations! You’ve Been Fired | The New York Times
-
-
+date: 2016-04-21 00:43:00 -05:00
+tags:
+- industry issues
+- work
+layout: post
 custom_type: link
 link_url: http://www.nytimes.com/2016/04/10/opinion/sunday/congratulations-youve-been-fired.html
-tags:
-  - industry issues
-  - work
-date: 2016-04-21 00:43
 ---
+
 Dan Lyons writing for *The New York Times*:
 
 > Unfortunately, working at a start-up all too often involves getting bossed around by undertrained (or untrained) managers and fired on a whim. Bias based on age, race and gender is rampant, as is sexual harassment. The free snacks are nice, but you also must tolerate having your head stuffed with silly jargon and ideology about being on a mission to change the world…

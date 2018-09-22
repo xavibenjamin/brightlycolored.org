@@ -1,10 +1,13 @@
 ---
-title: New York Knicks Trade Carmelo Anthony to Oklahoma City Thunder in Three-Player Deal | NBA.com
+title: New York Knicks Trade Carmelo Anthony to Oklahoma City Thunder in Three-Player
+  Deal | NBA.com
+date: 2017-09-26 10:21:00 -05:00
+tags:
+- NBA
 custom_type: link
 link_url: http://www.nba.com/article/2017/09/25/new-york-knicks-trade-carmelo-anthony-oklahoma-city-thunder
-tags: [NBA]
-date: 2017-09-26 10:21
 ---
+
 From NBA.com:
 
 > The New York Knickerbockers announced today that the team has acquired center Enes Kanter, forward Doug McDermott and Chicago’s 2018 second-round draft pick from the Oklahoma City Thunder in exchange for forward Carmelo Anthony.

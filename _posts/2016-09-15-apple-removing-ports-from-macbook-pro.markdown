@@ -1,16 +1,15 @@
 ---
-layout: post
-author: tjdraper
-title: "Apple Removing Ports from MacBook Pro?"
-
-
-custom_type: link
-link_url: http://www.macrumors.com/2016/09/14/apple-macbook-pro-survey/
+title: Apple Removing Ports from MacBook Pro?
+date: 2016-09-15 11:00:00 -05:00
 tags:
 - MacBook pro
 - headphone jack
-date: 2016-09-15 11:00
+layout: post
+author: tjdraper
+custom_type: link
+link_url: http://www.macrumors.com/2016/09/14/apple-macbook-pro-survey/
 ---
+
 Juli Clover at MacRumors:
 
 > In recent weeks, Apple has been sending out surveys to users asking about MacBook Pro features, most notably the headphone jack. A survey question shared by MacRumors reader Blake asks "Do you ever use the headphone port on your MacBook Pro with Retina display?"

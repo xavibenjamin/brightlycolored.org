@@ -1,8 +1,14 @@
 ---
-title: "Week in Review: March 10, 2017"
+title: 'Week in Review: March 10, 2017'
+date: 2017-03-10 11:56:00 -06:00
+tags:
+- CSS
+- microblogging
+- apple
+- development
+- writing
+- sexual harassment
 custom_type: post
-tags: [CSS, microblogging, apple, development, writing, sexual harassment]
-date: 2017-03-10 11:56
 ---
 
 Greetings, you fine-looking people!

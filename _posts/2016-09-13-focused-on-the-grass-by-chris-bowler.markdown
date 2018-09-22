@@ -1,15 +1,14 @@
 ---
-layout: post
 title: Focused on the Grass by Chris Bowler
-
-
+date: 2016-09-13 11:09:00 -05:00
+tags:
+- jobs
+- work life
+layout: post
 custom_type: link
 link_url: http://chrisbowler.com/journal/greener-grass
-tags:
-  - jobs
-  - work life
-date: 2016-09-13 11:09
 ---
+
 Chris Bowler:
 
 > I’ve noticed an issue with our young industry. I’m not sure of the exact problem, but the symptom is this: people rarely stay at a job for long periods of time.

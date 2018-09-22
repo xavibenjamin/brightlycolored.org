@@ -1,12 +1,11 @@
 ---
-layout: post
 title: Being the Boss Is Tough
-
-
+date: 2016-02-02 21:42:00 -06:00
+layout: post
 custom_type: link
 link_url: https://blog.knowyourcompany.com/what-to-remember-when-you-re-the-boss-949bbc37929b#.5y5c0zbpw
-date: 2016-02-02 21:42
 ---
+
 Claire Lew on being the boss:
 
 > How are you coming across? What’s your body language? Do you ask questions? Do you listen? Do you go out of the way to help one of your employees? How accessible are you?

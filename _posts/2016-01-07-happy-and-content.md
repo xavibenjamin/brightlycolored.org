@@ -1,11 +1,13 @@
 ---
-layout: post
 title: Happy And Content
-
+date: 2016-01-07 19:12:17 -06:00
+tags:
+- personal
+- year in review
+layout: post
 custom_type: post
-date: '2016-01-07 19:12:17'
-tags: [personal, year in review]
-subtitle: The title perfectly encapsulates my year. 2015 came and went, and as usual, here's my annual year in review.
+subtitle: The title perfectly encapsulates my year. 2015 came and went, and as usual,
+  here's my annual year in review.
 ---
 
 This was by far the best year in a long time. Kelly and I were married on May 9. It was the best day of my life.

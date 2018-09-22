@@ -1,8 +1,9 @@
 ---
 title: Jenn Schiffer's Awesome XOXO Talk
+date: 2017-01-18 07:55:00 -06:00
+tags:
+- industry issues
 custom_type: post
-tags: [industry issues]
-date: 2017-01-18 07:55
 ---
 
 <figure class="iframe-container">

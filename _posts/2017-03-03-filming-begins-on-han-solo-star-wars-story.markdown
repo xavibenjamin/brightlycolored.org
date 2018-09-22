@@ -1,10 +1,12 @@
 ---
 title: Filming Begins on Han Solo Star Wars Story
+date: 2017-03-03 11:07:00 -06:00
+tags:
+- star wars
 custom_type: link
 link_url: http://www.starwars.com/news/han-solo-smuggler-scoundrel-hero-new-star-wars-story-begins
-tags: [star wars]
-date: 2017-03-03 11:07
 ---
+
 Here's another one I missed while [under the weather](/2017/02/under-the-weather/). From StarWars.com:
 
 > Cameras are rolling on the adventure-filled past of the iconic scoundrel and everyone’s favorite Wookiee; principal photography on the untitled Han Solo *Star Wars* Story officially began February 20 at Pinewood Studios, London.

@@ -1,15 +1,26 @@
 ---
-title: "My Brief Review of ‘Star Wars: The Last Jedi’"
-subtitle: The latest of the Star Wars saga films is a fresh, new, and exciting chapter of my favorite franchise
+title: 'My Brief Review of ‘Star Wars: The Last Jedi’'
+date: 2017-12-15 00:00:00 -06:00
+categories:
+- action
+- adventure
+- sci-fi
+tags:
+- movies
+- movie review
+- star wars
+- brief review
+- episode VIII
+- review
+subtitle: The latest of the Star Wars saga films is a fresh, new, and exciting chapter
+  of my favorite franchise
 custom_type: post
-tags: [ movies, movie review, star wars, brief review, episode VIII, review ]
 review:
   type: movie
   rating: 4.5
   movie:
     director: Rian Johnson
     rating: PG-13
-categories: [ action, adventure, sci-fi ]
 ---
 
 {% figure extendout /uploads/media/luke-skywalker.jpg "Mark Hamill as Luke Skywalker (Disney/Lucasfilm)" %}

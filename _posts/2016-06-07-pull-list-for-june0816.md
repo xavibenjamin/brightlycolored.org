@@ -1,14 +1,14 @@
 ---
-layout: post
-title: "Pull List for June 8, 2016"
-
-custom_type: post
+title: Pull List for June 8, 2016
+date: 2016-06-07 10:34:00 -05:00
 tags:
-  - comics
-  - pull list
-date: 2016-06-07 10:34
+- comics
+- pull list
+layout: post
+custom_type: post
 subtitle: Comics I’m picking up this week.
 ---
+
 First off… let me come clean: I totally bought Civil War II last week. I really wasn’t going to because it is expensive, but I just couldn’t help myself. I’m so glad I bought it. Issue #1 of Civil War II is excellent. It sets up a story that I’m looking forward to seeing unfold.
 
 Now, let’s get to books I’m picking up!

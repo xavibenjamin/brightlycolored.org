@@ -1,13 +1,13 @@
 ---
-layout: post
 title: Discontinuing Support for Check the Weather by David Smith
-
-
+date: 2016-10-21 12:00:00 -05:00
+tags:
+- apps
+layout: post
 custom_type: link
 link_url: https://david-smith.org/blog/2016/10/17/discontinuing-support-for-check-the-weather/
-tags: [apps]
-date: 2016-10-21 12:00
 ---
+
 David Smith:
 
 > Four years ago today I [introduced](https://twitter.com/_DavidSmith/status/258558679526285313) a weather app called *Check the Weather*. I was really proud of how it turned out. It was my first app where I was able to do everything ‘right’ from the beginning.

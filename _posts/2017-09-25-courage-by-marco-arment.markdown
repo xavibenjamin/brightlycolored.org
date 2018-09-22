@@ -1,10 +1,14 @@
 ---
 title: Courage by Marco Arment
+date: 2017-09-25 11:15:00 -05:00
+tags:
+- apple
+- tech
+- iPhone X
 custom_type: link
 link_url: https://marco.org/2017/09/18/courage
-tags: [apple, tech, iPhone X]
-date: 2017-09-25 11:15
 ---
+
 Marco Arment on the iPhone X's "notch":
 
 > Many app developers are planning to hide the notch in the UI with black bars. But Apple explicitly [says not to](https://developer.apple.com/ios/human-interface-guidelines/overview/iphone-x/).

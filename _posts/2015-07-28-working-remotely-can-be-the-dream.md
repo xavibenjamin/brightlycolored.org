@@ -1,12 +1,11 @@
 ---
-layout: post
 title: Working Remotely Can Be the Dream
-
-
+date: 2015-07-28 09:37:14 -05:00
+layout: post
 custom_type: link
 link_url: https://medium.com/digital-nomad-stories/working-remotely-isn-t-always-a-dream-151619ae45dc
-date: '2015-07-28 09:37:14'
 ---
+
 Mark Nichols:
 
 > During the hardest times, working remotely can feel like a punishment. For what, though? Your defection from the norm? Your overconfidence, maybe — your inability to do something that seems so easy? You suddenly have all these questions and insecurities keeping you up at night. What’s happening?

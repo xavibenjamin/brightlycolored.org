@@ -1,13 +1,13 @@
 ---
-layout: post
 title: Kit Kats Fresh From the Factory
-
-custom_type: post
+date: 2016-04-22 11:08:00 -05:00
 tags:
-  - personal
-date: 2016-04-22 11:08
+- personal
+layout: post
+custom_type: post
 subtitle: You can actually taste the difference.
 ---
+
 When I first read [Casey's post on buying chocolate directly from the Hershey's Factory](https://www.caseyliss.com/2015/9/24/its-reeses-time), I was skeptical. Back in 2015, they were doing a run of Reese's Peanut Butter Cups. Casey had this to say:
 
 > Though Reese’s cups are not my favorite candy (that would probably be [Kit Kat](https://en.wikipedia.org/wiki/Kit_Kat) or a [Cadbury’s Dairy Milk bar](https://en.wikipedia.org/wiki/Cadbury_Dairy_Milk)), I do quite like them. Even as a non-connoisseur, I can assure you that the fresh from the factory Reese’s taste *noticeably* better. The chocolate is obviously fresher, the peanut butter better.

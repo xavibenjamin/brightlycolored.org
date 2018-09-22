@@ -1,15 +1,14 @@
 ---
-layout: post
 title: Day One 2 Review | MacStories
-
-
+date: 2016-02-23 09:22:00 -06:00
+tags:
+- apps
+- reviews
+layout: post
 custom_type: link
 link_url: https://www.macstories.net/reviews/day-one-2-review/
-date: 2016-02-23 09:22
-tags:
-  - apps
-  - reviews
 ---
+
 Jake Underwood writing for *MacStories*:
 
 > Is Day One 2 worth the purchase? I think so. Even though its functionality centers around text editing, it offers so many other features that are worth checking out. The overall experience of Day One is similar to flipping through a physical journal, albeit one that's organized not by date but by criteria you decide. With the addition of pictures and more metadata, Day One 2 stands up well against other apps that don't have the range of functionalities that Day One offers.

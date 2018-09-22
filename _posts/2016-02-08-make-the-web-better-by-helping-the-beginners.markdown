@@ -1,12 +1,11 @@
 ---
-layout: post
 title: Make the Web Better by Helping the Beginners
-
-
+date: 2016-02-08 08:58:00 -06:00
+layout: post
 custom_type: link
 link_url: http://bradcolbow.com/blog/index.php/how-to-make-the-web-better
-date: 2016-02-08 08:58
 ---
+
 Brad Colbow:
 
 > I know that I can do some killer animations without Javascript. I know I can build a blog without a css framework. I know I should be able to make changes to a CSS file without spending half a day setting up an environment. These tools exist to make expert’s lives easier, but they create a huge barrier for the less experienced.

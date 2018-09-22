@@ -1,16 +1,15 @@
 ---
+title: Apple Echo
+date: 2016-09-23 13:55:00 -05:00
+tags:
+- tech
+- apple
 layout: post
 author: tjdraper
-title: "Apple Echo"
-
-
 custom_type: link
 link_url: http://www.bloomberg.com/news/articles/2016-09-23/apple-said-to-step-up-plans-for-echo-style-smart-home-device-itfnod11
-tags:
-  - tech
-  - apple
-date: 2016-09-23 13:55
 ---
+
 Mark Gurman and Ian King on Bloomberg:
 
 > Apple Inc. is pressing ahead with the development of an Echo-like smart-home device based on the Siri voice assistant, according to people familiar with the matter.

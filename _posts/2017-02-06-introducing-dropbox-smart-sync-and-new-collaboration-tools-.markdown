@@ -1,10 +1,13 @@
 ---
-title: Introducing Dropbox Smart Sync and New Collaboration Tools | Dropbox Business Blog
+title: Introducing Dropbox Smart Sync and New Collaboration Tools | Dropbox Business
+  Blog
+date: 2017-02-06 13:52:00 -06:00
+tags:
+- tech
 custom_type: link
 link_url: https://blogs.dropbox.com/business/2017/01/introducing-smart-sync-and-new-collaboration-tools/
-tags: [ tech ]
-date: 2017-02-06 13:52
 ---
+
 Rob Baesman on the Dropbox Business Blog:
 
 > As more people work together in teams, the need for storage space grows exponentially. This presents big challenges. But with our new Smart Sync feature, users can see all their files and folders right from their desktop, whether they’re stored in the cloud or synced locally.

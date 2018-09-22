@@ -1,13 +1,14 @@
 ---
+title: Does the Web Industry Have a Drinking Problem?
+date: 2013-10-24 11:49:34 -05:00
+tags:
+- a list apart
+- industry issues
 layout: post
-title: 'Does the Web Industry Have a Drinking Problem?'
 custom_type: link
 link_url: http://alistapart.com/column/does-our-industry-have-a-drinking-problem
-tags:
-  - a list apart
-  - industry issues
-date: '2013-10-24 11:49:34'
 ---
+
 Rachel Andrew writing on *A List Apart*:
 
 >Almost every conference’s second day opens with attendees being asked how their hangovers are. Second day early-slot speakers joke that no one will turn up anyway, or they’ll all just be staring into their coffee. It has become normal, in fact expected, that drinking and staying out late is what we do while at conferences.

@@ -1,10 +1,14 @@
 ---
-layout: post
 title: Switching to Redcarpet
+date: 2015-12-01 00:28:46 -06:00
+tags:
+- development
+- jekyll
+- markdown
+layout: post
 custom_type: post
-date: '2015-12-01 00:28:46'
-tags: [development, jekyll, markdown]
 ---
+
 I've always hated the way Jekyll uses liquid tags to highlight code snippets. I found a way to do this, which until today, I never knew existed.
 
 Redcarpet is the answer here. Here's what I wanted to do:

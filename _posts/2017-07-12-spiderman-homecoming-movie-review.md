@@ -1,5 +1,16 @@
 ---
-title: "Spider-Man: Homecoming"
+title: 'Spider-Man: Homecoming'
+date: 2017-07-12 00:00:00 -05:00
+categories:
+- action
+- adventure
+- sci-fi
+tags:
+- movies
+- marvel
+- movie review
+- review
+- my videos
 subtitle: "<em>Finally</em> a fun and well-done Spidey movie."
 custom_type: post
 review:
@@ -8,8 +19,6 @@ review:
   movie:
     director: Jon Watts
     rating: PG-13
-categories: [ action, adventure, sci-fi ]
-tags: [ movies, marvel, movie review, review, my videos ]
 ---
 
 <div class="iframe-container">

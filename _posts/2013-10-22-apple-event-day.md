@@ -1,13 +1,13 @@
 ---
-layout: post
-title: 'Apple Event Day'
-
-custom_type: post
+title: Apple Event Day
+date: 2013-10-22 10:40:36 -05:00
 tags:
- - apple
- - apple event
-date: '2013-10-22 10:40:36'
+- apple
+- apple event
+layout: post
+custom_type: post
 ---
+
 Apple Event Days are always exciting for me, and this one will be no different.
 
 You'll be able to [watch the event live](http://www.apple.com/apple-events/october-2013/) on your iOS device, Mac, or Apple TV. [^1] During the event, I'll be in the *#ssktn* iRC chatroom, as a kind of virtual-viewing party.

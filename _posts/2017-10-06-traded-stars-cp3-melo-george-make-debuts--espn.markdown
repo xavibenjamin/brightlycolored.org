@@ -1,10 +1,12 @@
 ---
 title: Traded Stars CP3, Melo, George Make Debuts | ESPN
+date: 2017-10-06 12:05:00 -05:00
+tags:
+- NBA
 custom_type: link
 link_url: http://www.espn.com/nba/story/_/id/20910057
-tags: [NBA]
-date: 2017-10-06 12:05
 ---
+
 Tim MacMahon and Royce Young writing for *ESPN*:
 
 > A fresh era officially started for three of the NBA's stars on Tuesday night at Tulsa's BOK Center, as [Carmelo Anthony](http://www.espn.com/nba/player/_/id/1975/carmelo-anthony), [Paul George](http://www.espn.com/nba/player/_/id/4251/paul-george) and [Chris Paul](http://www.espn.com/nba/player/_/id/2779/chris-paul) made their preseason debuts for their new teams following offseason trades.

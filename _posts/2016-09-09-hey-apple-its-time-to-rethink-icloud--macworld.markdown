@@ -1,15 +1,14 @@
 ---
+title: 'Hey, Apple: It’s Time to Rethink iCloud | Macworld'
+date: 2016-09-09 11:19:00 -05:00
+tags:
+- apple
+- iOS
 layout: post
-title: "Hey, Apple: It’s Time to Rethink iCloud | Macworld"
-
-
 custom_type: link
 link_url: http://www.macworld.com/article/3115792/ios/hey-apple-it-s-time-to-rethink-icloud.html
-tags:
-  - apple
-  - iOS
-date: 2016-09-09 11:19
 ---
+
 Dan Moren writing for *Macworld* on the problems with iCloud:
 
 > It’s not just that the amount of space is a little sparse—especially for people looking to store, say, all the data that fits on their phones—it’s that iCloud can be pretty obnoxious about making sure you get the message.

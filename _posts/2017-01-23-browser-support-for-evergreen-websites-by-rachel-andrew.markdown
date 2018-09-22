@@ -1,10 +1,14 @@
 ---
 title: Browser Support for Evergreen Websites by Rachel Andrew
+date: 2017-01-23 11:25:00 -06:00
+tags:
+- CSS
+- development
+- industry issues
 custom_type: link
 link_url: http://www.rachelandrew.co.uk/archives/2017/01/12/browser-support-for-evergreen-websites/
-tags: [CSS, development, industry issues]
-date: 2017-01-23 11:25
 ---
+
 Rachel Andrew:
 
 > If I built a site today that uses shape-outside to curve text around an image, Firefox users are going to see squared off text around that floated image. Chrome users will get the curved shape. As Firefox are currently [implementing Shapes](https://groups.google.com/forum/#!topic/mozilla.dev.platform/PhG4Upk4Mo4), at some point in the near future Firefox users will find their browser has updated underneath them, my website will suddenly look that little bit more finessed to them, yet I won’t have shipped any code.

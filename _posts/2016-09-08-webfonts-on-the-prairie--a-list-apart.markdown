@@ -1,15 +1,14 @@
 ---
-layout: post
 title: Webfonts on the Prairie | A List Apart
-
-
+date: 2016-09-08 15:16:00 -05:00
+tags:
+- industry issues
+- typography
+layout: post
 custom_type: link
 link_url: http://alistapart.com/article/webfonts-on-the-prairie
-tags:
-  - industry issues
-  - typography
-date: 2016-09-08 15:16
 ---
+
 Richard Fink on *A List Apart*:
 
 > If you can only be certain of what’s under your control on your server, which would you rather have—the certainty of webfonts that are precisely what you and your users want and need, or the crapshoot of fonts preinstalled by makers of operating systems that present you with moving targets that vary from platform to platform?

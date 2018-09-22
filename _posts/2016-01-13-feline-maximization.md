@@ -1,12 +1,11 @@
 ---
-layout: post
 title: "‘Feline Maximization’"
-
-
+date: 2016-01-13 00:27:12 -06:00
+layout: post
 custom_type: link
 link_url: http://barelylegally.com/post/feline-maximization/
-date: '2016-01-13 00:27:12'
 ---
+
 Dominic Mauro on his site *Barely Legally*:
 
 > Here’s an interesting tale of copyright gone weird from [Ars Technica](http://arstechnica.com/tech-policy/2016/01/the-big-bang-theory-sued-for-using-soft-kitty-lyrics-in-hit-tv-show/). The interminable CBS sitcom The Big Bang Theory is being sued for copyright infringement of a children’s poem called “Soft Kitty”.

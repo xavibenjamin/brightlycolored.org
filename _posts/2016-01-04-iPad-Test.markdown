@@ -1,11 +1,14 @@
 ---
-layout: post
 title: iPad Test
-
+date: 2016-01-04 10:56:00 -06:00
+tags:
+- development
+- jekyll
+- iOS
+layout: post
 custom_type: post
-date: 2016-01-04 10:56
-tags: [development, jekyll, iOS]
 ---
+
 Dear Reader,
 
 If you're seeing this, it means I'm publishing from my iPad. Oh, hell yes. Tutorial coming soon.

@@ -1,15 +1,14 @@
 ---
-layout: post
 title: Mozilla’s Nearly Flawless Job Ad, and Why by Cameron Moll
-
-
+date: 2016-03-30 08:50:00 -05:00
+tags:
+- hiring
+- writing
+layout: post
 custom_type: link
 link_url: https://medium.com/come-in-we-re-hiring/mozilla-s-nearly-flawless-job-ad-and-why-5b11b3e0489#.ggjteono0
-tags:
-  - hiring
-  - writing
-date: 2016-03-30 08:50
 ---
+
 Cameron Moll dissects a job ad and finds some great lessons:
 
 > A job ad is a invitation to chat. Nothing more. Exhaustive requirement lists may filter out unwanted candidates and lessen the load on your inbox, but they’ll also drive away potential superstars. Error on the side of more applications filling your inbox, not fewer.

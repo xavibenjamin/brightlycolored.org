@@ -1,14 +1,13 @@
 ---
-layout: post
 title: Some Changes Here at Macminicolo | Macminicolo Blog
-
-
+date: 2016-04-10 01:57:00 -05:00
+tags:
+- tech
+layout: post
 custom_type: link
 link_url: https://macminicolo.net/blog/files/Some-changes-here-at-Macminicolo.html
-tags:
-  - tech
-date: 2016-04-10 01:57
 ---
+
 Brian Stucki:
 
 > Now, I could just announce this with no explanation and be done with it. I could also write one of those generic acquisition posts focused on sunsets and brands and blah. Instead, I’ll be forthright and real like I’ve always tried to be with customers.

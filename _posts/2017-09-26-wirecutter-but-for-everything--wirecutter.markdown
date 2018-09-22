@@ -1,10 +1,13 @@
 ---
 title: Wirecutter, but for Everything | Wirecutter
+date: 2017-09-26 09:32:00 -05:00
+tags:
+- tech
+- sites i love
 custom_type: link
 link_url: http://thewirecutter.com/blog/wirecutter-but-for-everything/
-tags: [tech, sites i love]
-date: 2017-09-26 09:32
 ---
+
 Jacqui Cheng:
 
 > Since The Wirecutter was founded in 2011 and The Sweethome in 2013, we haven’t wavered from our mission to help people effortlessly choose and buy the stuff they need in order to live a better life. Until today, we’ve carried out that mission on two separate sites primarily covering tech and home.

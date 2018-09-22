@@ -1,47 +1,51 @@
-# General Info
+---
+title: Brightlycolored.Org
+timezone: America/Chicago
+collections:
+  posts:
+    title: Posts
+    output: true
+    custom_type: link
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    author: timsmith
+    custom_type: link
 name: Development | Brightly Colored
 url: http://localhost:4000
-description: 'An exploration of design, development, tech, Geek culture, Apple, and more.'
-timezone: America/Chicago
-permalink: /:year/:month/:title/
-exclude: ['README.md', 'Rakefile', 'Gemfile.lock', '.asset-cache']
-lunr_excludes: ['atom.xml', 'atom.articles.xml', 'sitemap.xml']
-
-# Where Things Are
-plugins_dir:  ./_plugins
-
-# Syntax Highlighting
+description: An exploration of design, development, tech, Geek culture, Apple, and
+  more.
+permalink: "/:year/:month/:title/"
+exclude:
+- README.md
+- Rakefile
+- Gemfile
+- Gemfile.lock
+- ".asset-cache"
+lunr_excludes:
+- atom.xml
+- atom.articles.xml
+- sitemap.xml
+plugins_dir: "./_plugins"
 highlighter: rouge
-
-# Server
 port: 4200
-
-# Build Info
 assets:
   js_compressor: uglifier
   css_compressor: sass
   sources:
-    - _assets/fonts
-    - _assets/javascripts
-    - _assets/stylesheets
+  - _assets/fonts
+  - _assets/javascripts
+  - _assets/stylesheets
 post:
   extension: md
 livereload: true
-
-# Markdown Rendering
 markdown: kramdown
-markdown_ext:  markdown,mkdown,mkdn,mkd,md,mdown
-
+markdown_ext: markdown,mkdown,mkdn,mkd,md,mdown
 kramdown:
   input: GFM
-
-# Defaults
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post
-      author: timsmith
-      custom_type: link

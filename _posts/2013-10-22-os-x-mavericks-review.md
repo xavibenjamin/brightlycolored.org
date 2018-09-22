@@ -1,13 +1,14 @@
 ---
+title: OS X Mavericks Review
+date: 2013-10-22 17:34:20 -05:00
+tags:
+- apple
+- reviews
 layout: post
-title: 'OS X Mavericks Review'
 custom_type: link
 link_url: http://512pixels.net/2013/10/mavericks-review/
-tags:
-  - apple
-  - reviews
-date: '2013-10-22 17:34:20'
 ---
+
 Stephen Hackett on *512 Pixels*:
 
 >The bones haven’t changed all that much over the last 13 years, but every time Apple updates OS X, it continues to improve and refine features and the underlying technologies that make them possible.

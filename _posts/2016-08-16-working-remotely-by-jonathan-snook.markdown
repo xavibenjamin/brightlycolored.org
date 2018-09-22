@@ -1,15 +1,14 @@
 ---
-layout: post
 title: Working Remotely by Jonathan Snook
-
-
+date: 2016-08-16 10:02:00 -05:00
+tags:
+- culture
+- remote work
+layout: post
 custom_type: link
 link_url: https://snook.ca/archives/other/working-remotely
-tags:
-  - culture
-  - remote work
-date: 2016-08-16 10:02
 ---
+
 Jonathan Snook:
 
 > I’ve been fortunate over the past decade to have been able to, in various capacities, work from home—or [work in place](http://mobile.nytimes.com/2016/06/19/jobs/remote-thats-no-way-to-describe-this-work.html), as some like to call it. First as a freelancer, then Yahoo!, then again when I went to work at Xero, and now back to working for myself.

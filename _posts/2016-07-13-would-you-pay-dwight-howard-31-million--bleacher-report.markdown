@@ -1,14 +1,13 @@
 ---
-layout: post
 title: Would You Pay Dwight Howard $31 Million? | Bleacher Report
-
-
+date: 2016-07-13 21:07:00 -05:00
+tags:
+- NBA
+layout: post
 custom_type: link
 link_url: http://thelab.bleacherreport.com/would-you-pay-dwight-howard-31-million/
-tags:
-  - NBA
-date: 2016-07-13 21:07
 ---
+
 Howard Beck writing for the *Bleacher Report*:
 
 > Howard—an eight-time All-Star and three-time Defensive Player of the Year—is about to enter free agency and based on his resume should be one of the most coveted players on the market, right after Oklahoma City's Kevin Durant.

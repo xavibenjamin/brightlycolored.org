@@ -1,15 +1,14 @@
 ---
-layout: post
 title: Poor Apple Watch by Casey Liss
-
-
+date: 2016-04-15 00:57:00 -05:00
+tags:
+- apple
+- tech
+layout: post
 custom_type: link
 link_url: https://www.caseyliss.com/2016/4/11/poor-apple-watch
-tags:
-  - apple
-  - tech
-date: 2016-04-15 00:57
 ---
+
 Casey Liss:
 
 > Thinking of the Apple Watch as a standalone device that replaces the functionality of your phone is a fool’s errand. The Apple Watch improves your visibility into what is happening in your phone, like a satellite giving you a bird’s eye view of the earth. Neither will give you great detail about what is happening, but either can give you a lot of general information very quickly.

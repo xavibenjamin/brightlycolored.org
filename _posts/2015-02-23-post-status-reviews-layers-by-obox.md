@@ -1,12 +1,14 @@
 ---
-layout: post
 title: Post Status Reviews Layers by Obox
-
+date: 2015-02-23 13:28:09 -06:00
+tags:
+- reviews
+- tech
+layout: post
 custom_type: link
 link_url: https://poststatus.com/layers-theme-obox/
-date: '2015-02-23 13:28:09'
-tags: [reviews, tech]
 ---
+
 Brian Krogsgard:
 
 > I am definitely not on the bandwagon for page builders, though it seems the WordPress product world is. Where traditional options heavy theme sales have died away, page builders have risen from their ashes.[…]

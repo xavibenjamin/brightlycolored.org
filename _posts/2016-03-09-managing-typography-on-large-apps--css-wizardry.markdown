@@ -1,15 +1,14 @@
 ---
-layout: post
 title: Managing Typography on Large Apps | CSS Wizardry
-
-
+date: 2016-03-09 09:09:00 -06:00
+tags:
+- development
+- typography
+layout: post
 custom_type: link
 link_url: http://csswizardry.com/2016/02/managing-typography-on-large-apps
-tags:
-  - development
-  - typography
-date: 2016-03-09 09:09
 ---
+
 Harry Roberts:
 
 > I’ve [written before](http://csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css) about managing typographical styles across larger projects, but an issue that I still see clients continually coming up against is that of specifically managing their headings across larger and more complex apps.

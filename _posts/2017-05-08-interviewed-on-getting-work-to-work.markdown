@@ -1,9 +1,11 @@
 ---
 title: Interviewed on ‘Getting Work to Work’
+date: 2017-05-08 12:08:00 -05:00
+tags:
+- podcasts
+- interview
 custom_type: link
 link_url: http://www.chrismartinstudios.com/gwtw/interview-tim-smith-gwtw56/
-tags: [podcasts, interview]
-date: 2017-05-08 12:08
 ---
 
 This past week, I was honored to be interviewed on Chris Martin's show, *Getting Work to Work*. Here's how Chris describes what we talked about:

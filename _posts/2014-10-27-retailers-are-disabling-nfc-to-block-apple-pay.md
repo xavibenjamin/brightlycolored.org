@@ -1,12 +1,14 @@
 ---
+title: "‘Retailers Are Disabling NFC to Block Apple Pay’"
+date: 2014-10-27 14:18:49 -05:00
+tags:
+- apple
+- tech
 layout: post
-title: '‘Retailers Are Disabling NFC to Block Apple Pay’'
-
 custom_type: link
 link_url: http://daringfireball.net/2014/10/nfc_apple_pay
-date: '2014-10-27 14:18:49'
-tags: [apple, tech]
 ---
+
 John Gruber on *Daring Fireball*:
 
 > Think about what they’re doing. They’re turning off NFC payment systems — the whole thing — only because people were actually using them with Apple Pay. Apple Pay works so well that it even works with non-partner systems. These things have been installed for years and so few people used them, apparently, that these retailers would rather block everyone than allow Apple Pay to continue working. I can’t imagine a better validation of Apple Pay’s appeal.

@@ -1,9 +1,11 @@
 ---
 title: Another Way to Avoid Writing Unnecessary :last-child's
+date: 2017-03-06 14:53:00 -06:00
+tags:
+- CSS
+- development
 subtitle: The Lobotomized Owl Selector
 custom_type: post
-tags: [CSS, development]
-date: 2017-03-06 14:53
 ---
 
 About two weeks ago, I wrote a post on how you [can use `:not` in your CSS to simplify life](https://theboldreport.net/2017/02/css-tip-use-not-to-save-time-and-lines-of-code/). Lots of people really liked the article, and I'm so glad! This method is pretty awesome.

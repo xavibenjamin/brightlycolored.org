@@ -1,13 +1,15 @@
 ---
+title: 'Visualizing a Job Search or: How to Find a Job as a Software Engineer by Kelly
+  Sutton'
+date: 2016-10-25 11:32:00 -05:00
+tags:
+- jobs
+- work
 layout: post
-title: "Visualizing a Job Search or: How to Find a Job as a Software Engineer by Kelly Sutton"
-
-
 custom_type: link
 link_url: http://kellysutton.com/2016/10/20/visualizing-a-job-search-or-how-to-find-a-job-as-a-software-engineer.html
-tags: [jobs, work]
-date: 2016-10-25 11:32
 ---
+
 Kelly Sutton:
 
 > Today, I start a new job at [Gusto](https://gusto.com/). This concludes the most comprehensive search I’ve done for a new job. My job search lasted a total of 35 days from start to signed offer letter.

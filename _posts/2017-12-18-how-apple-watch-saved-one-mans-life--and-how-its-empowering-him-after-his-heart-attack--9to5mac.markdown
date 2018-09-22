@@ -1,9 +1,13 @@
 ---
-title: How Apple Watch Saved One Man’s Life — and How It’s Empowering Him After His Heart Attack | 9to5Mac
+title: How Apple Watch Saved One Man’s Life — and How It’s Empowering Him After His
+  Heart Attack | 9to5Mac
+date: 2017-12-18 10:43:00 -06:00
+tags:
+- tech
+- apple watch
 link_url: https://9to5mac.com/2017/12/15/apple-watch-saves-life-managing-heart-attack/
-tags: [ tech, apple watch ]
-date: 2017-12-18 10:43
 ---
+
 Zac Hall for *9to5Mac*:
 
 > Scott Killian never imagined his Apple Watch might save his life, but that’s exactly what happened a few weeks ago when he had a heart attack in the middle of the night.

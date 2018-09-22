@@ -1,10 +1,12 @@
 ---
 title: Kuzma Showing Lakers Have Another Rookie to Watch | ESPN
+date: 2017-10-09 10:53:00 -05:00
+tags:
+- NBA
 custom_type: link
 link_url: http://www.espn.com/nba/story/_/id/20891274
-tags: [NBA]
-date: 2017-10-09 10:53
 ---
+
 Ohm Youngmisuk:
 
 > The 6-foot-9 forward has looked like a potential steal in the draft for the Lakers, who picked him 27th overall with the first-rounder they acquired from the Brooklyn Nets in the D'Angelo Russell-Brook Lopez deal.

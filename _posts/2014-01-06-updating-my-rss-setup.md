@@ -1,11 +1,14 @@
 ---
+title: Updating My RSS Setup
+date: 2014-01-06 12:49:32 -06:00
+tags:
+- RSS
+- reading
+- apps
 layout: post
-title: 'Updating My RSS Setup'
-
 custom_type: post
-date: '2014-01-06 12:49:32'
-tags: [RSS, reading, apps]
 ---
+
 Back in June, I wrote [a post on my RSS consumption setup](https://ttimsmith.com/2013/06/a-new-rss-setup). The setup has changed a little, so I wanted to write an updated version that I can point people to.
 
 When I wrote the first post, there were a couple of apps and services that I was using. In case you don't want to go read the previous post, the gist was that I was using [Feed Wrangler](https://feedwrangler.net/) to power the backend, [Mr. Reader](http://www.curioustimes.de/mrreader/) on the iPad, and [ReadKit](http://readkitapp.com/) on the Mac.

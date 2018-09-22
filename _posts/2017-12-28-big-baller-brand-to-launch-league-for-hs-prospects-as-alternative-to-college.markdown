@@ -1,9 +1,12 @@
 ---
 title: Big Baller Brand to Launch League for HS Prospects as Alternative to College
+date: 2017-12-28 15:26:00 -06:00
+tags:
+- NBA
+- basketball
 link_url: https://twitter.com/bigballerbrand/status/943562116513931264
-tags: [ NBA, basketball ]
-date: 2017-12-28 15:26
 ---
+
 From the Big Baller Brand Twitter account:
 
 > BREAKING: LaVar Ball Launches League That Will Pay Top HS Prospects Up to $10K Per Month & Serve As An Alternative to College

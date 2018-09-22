@@ -1,15 +1,14 @@
 ---
-layout: post
 title: What Is the Apple Watch Good For? |The Syndicate
-
-
+date: 2016-04-27 08:48:00 -05:00
+tags:
+- apple watch
+- tech
+layout: post
 custom_type: link
 link_url: https://medium.com/martiancraft-s-syndicate/what-is-the-apple-watch-good-for-6bf037638620#.ww47ojq8a
-tags:
-  - apple watch
-  - tech
-date: 2016-04-27 08:48
 ---
+
 Richard Turton on *The Syndicate*:
 
 > The Apple Watch is almost a year old now. Thousands of apps have been developed for it. What have we learnt so far? What makes a good user experience for a watch app? What works, and what doesn’t? Which apps should you be building for the watch?

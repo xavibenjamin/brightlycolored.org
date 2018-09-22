@@ -1,9 +1,12 @@
 ---
 title: CSS is Not Broken by Keith J. Grant
+date: 2017-03-31 14:04:00 -05:00
+tags:
+- CSS
+- development
+- industry issues
 custom_type: link
 link_url: http://keithjgrant.com/posts/2017/03/css-is-not-broken/
-tags: [CSS, development, industry issues]
-date: 2017-03-31 14:04
 ---
 
 Keith J. Grant:

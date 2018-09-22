@@ -1,12 +1,11 @@
 ---
-layout: post
 title: "‘Confidence and Overwhelm’"
-
-
+date: 2016-01-15 00:00:13 -06:00
+layout: post
 custom_type: link
 link_url: https://rachelandrew.co.uk/archives/2015/08/14/confidence-and-overwhelm
-date: '2016-01-15 00:00:13'
 ---
+
 Rachel Andrew:
 
 > A lot of folk feel overwhelmed right now. Things seem to be changing so quickly. It doesn’t seem enough to be a good designer, or to know HTML and CSS well. Do we need to learn all of those frameworks? Are we “doing it wrong” if we don’t adopt that methodology and toolkit we were told is the way to do things by that big name speaker at the conference we attended?

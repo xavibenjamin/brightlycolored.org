@@ -1,14 +1,14 @@
 ---
+title: The Lakers Are Luke Walton's Worst Option – and the One He Had to Take | The
+  Guardian
+date: 2016-05-17 09:48:00 -05:00
+tags:
+- NBA
 layout: post
-title: The Lakers Are Luke Walton's Worst Option – and the One He Had to Take | The Guardian
-
-
 custom_type: link
 link_url: https://www.theguardian.com/sport/blog/2016/may/01/luke-walton-los-angeles-lakers-coach-nba
-tags:
-  - NBA
-date: 2016-05-17 09:48
 ---
+
 Les Carpenter writing for *The Guardian*:
 
 > Riley started with Magic and Kareem. Jackson began with Kobe and Shaq. Walton gets the kid who [videotaped a team-mate nicknamed Swaggy P](http://espn.go.com/nba/story/_/id/15100584/dangelo-russell-los-angeles-lakers-apologizes-recording-nick-young-conversation) talking about cheating on his fiancée. The worst of the Clippers never seemed as bad as these Lakers. The team Walton takes over is nothing like the Warriors, who are one of the most cohesive, unselfish teams the NBA has ever seen. Any reasonable person would stay far away from the Lakers(*sic*)

@@ -1,10 +1,14 @@
 ---
 title: MacBook Pro USB-C Move Is a New Gold Rush | Computerworld
+date: 2017-01-16 15:08:00 -06:00
+tags:
+- displays
+- MacBook pro
+- tech
 custom_type: link
 link_url: http://www.computerworld.com/article/3154468/apple-mac/macbook-pro-usb-c-move-is-a-new-gold-rush.html
-tags: [displays, MacBook pro, tech]
-date: 2017-01-16 15:08
 ---
+
 Jonny Evans writing for *Computerworld*:
 
 > Apple’s decision to move [to Thunderbolt 3/USB-C](http://www.computerworld.com/article/3144518/apple-mac/10-reasons-to-love-the-usb-c-ports-on-the-new-macbook-pro.html) in its new MacBook Pro with Touch bar models generated some heat but is also fostering a boom in [MacBook Pro](http://www.apple.com/macbook-pro/) hubs. These hubs are designed to add support for earlier flavors of USB, Lightning, HDMI and other interconnect standards.

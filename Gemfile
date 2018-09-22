@@ -15,3 +15,7 @@ group :jekyll_plugins do
   gem 'jekyll-tagging-related_posts'
   gem 'jekyll-typogrify'
 end
+
+group :development do
+  gem 'siteleaf', '~> 2.1'
+end

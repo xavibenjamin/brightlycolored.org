@@ -1,12 +1,13 @@
 ---
+title: Woman Documents Sexual Harassment; Receives Rape Threats
+date: 2014-10-29 17:12:35 -05:00
+tags:
+- sexual harassment
 layout: post
-title: 'Woman Documents Sexual Harassment; Receives Rape Threats'
-
 custom_type: link
 link_url: http://boingboing.net/2014/10/29/woman-who-documented-sexual-ha.html
-date: '2014-10-29 17:12:35'
-tags: [sexual harassment]
 ---
+
 Cory Doctorow reporting for *Boing Boing*:
 
 > Shoshana B Roberts spent 10 hours walking the streets of New York with a hidden camera crew, documenting over 100 catcalls (plus countless less-visible forms of harassment), as part of a campaign from Hollaback, who work to fight street harassment of women.

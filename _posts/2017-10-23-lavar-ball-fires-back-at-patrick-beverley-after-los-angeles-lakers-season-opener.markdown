@@ -1,11 +1,13 @@
 ---
-
-title: "LaVar Ball Fires Back at Patrick Beverley After Los Angeles Lakers’ Season Opener | NBA.com"
+title: LaVar Ball Fires Back at Patrick Beverley After Los Angeles Lakers’ Season
+  Opener | NBA.com
+date: 2017-10-23 13:43:00 -05:00
+tags:
+- NBA
 custom_type: link
 link_url: https://www.nba.com/article/2017/10/20/lavar-ball-fires-back-patrick-beverley-season-opener
-tags: [ NBA ]
-date: 2017-10-23 13:43
 ---
+
 From NBA.com
 
 > Los Angeles Lakers rookie guard Lonzo Ball had a quiet statistical start to his NBA career last night, finishing with three points (on 1-for-6 shooting), nine rebounds, four assists, a steal, a block and two turnovers in a 108-92 home loss to the LA Clippers. A good portion of Ball's struggles could be attributed to the job Clippers point guard Patrick Beverley, a noted defensive stalwart, did in guarding him.

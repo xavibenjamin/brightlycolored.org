@@ -1,9 +1,12 @@
 ---
-title: "U.S. Out of Excuses After Defeat in Trinidad Leaves It Out of World Cup | ESPN FC"
+title: U.S. Out of Excuses After Defeat in Trinidad Leaves It Out of World Cup | ESPN
+  FC
+date: 2017-10-11 13:47:00 -05:00
+tags:
+- sports
+- football soccer
 custom_type: link
 link_url: http://www.espnfc.com/blog/the-match/60/post/3226598
-tags: [sports, football soccer]
-date: 2017-10-11 13:47
 ---
 
 Jeff Carlisle on *ESPN FC*:

@@ -1,11 +1,14 @@
 ---
+title: Google Web Designer
+date: 2013-09-30 11:41:11 -05:00
+tags:
+- google
+- design
 layout: post
-title: 'Google Web Designer'
 custom_type: link
 link_url: https://www.google.com/webdesigner/
-date: '2013-09-30 11:41:11'
-tags: [google, design]
 ---
+
 Interestingly, I see a tool like this from Google, and my whole opinion changes. I had some pretty harsh things to say about Macaw.[^1]
 
 Google—in many ways—is the reason I do my job the way I do it. They're advocates for building the web well, and fast. It's hard for me to believe they'll make a tool that does the opposite.

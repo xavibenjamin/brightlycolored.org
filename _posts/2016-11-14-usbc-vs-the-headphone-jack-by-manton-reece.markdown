@@ -1,13 +1,15 @@
 ---
+title: USB-C vs. the Headphone Jack by Manton Reece
+date: 2016-11-14 14:57:00 -06:00
+tags:
+- apple
+- headphone jack
+- tech
 layout: post
-title: "USB-C vs. the Headphone Jack by Manton Reece"
-
-
 custom_type: link
 link_url: http://www.manton.org/2016/11/usb-c-vs-the-headphone-jack.html
-tags: [apple, headphone jack, tech]
-date: 2016-11-14 14:57
 ---
+
 Manton Reece on whether Apple's decision to move away from USB-A and the 3.5mm headphone jack are the same:
 
 > USB-C is a standard that is already used in many devices from different vendors. It will become universal. The immediate replacement for the 3.5mm headphone jack on the iPhone 7 is the Lightning EarPods which come in the box. Lightning is a proprietary cable that will never be used in non-Apple phones, and in fact is not even used on Macs.

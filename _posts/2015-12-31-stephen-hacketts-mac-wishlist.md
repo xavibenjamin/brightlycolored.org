@@ -1,12 +1,11 @@
 ---
-layout: post
 title: Stephen Hackett’s Mac Wishlist
-
-
+date: 2015-12-31 00:28:50 -06:00
+layout: post
 custom_type: link
 link_url: http://www.512pixels.net/blog/2015/12/2016-wishlist-the-mac
-date: '2015-12-31 00:28:50'
 ---
+
 Stephen on wanting a Retina Display:
 
 > Despite the technical hurdles in driving such a display over a cable, I really hope 2016 is the year that Apple's lonely Thunderbolt Display is updated with a Retina screen. Such a screen will require the DisplayPort 1.3 specification to be implemented with Thunderbolt 3, so this may still be a little way off, but I hope that by the time I need to replace my Mid 2015 MacBook Pro, I can buy a 5K display to use with it.

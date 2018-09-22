@@ -1,10 +1,13 @@
 ---
-title: "Reports: Dwyane Wade and Bulls to Part Ways, Cavaliers ‘Frontrunner’ to Sign Him | NBA.com"
+title: 'Reports: Dwyane Wade and Bulls to Part Ways, Cavaliers ‘Frontrunner’ to Sign
+  Him | NBA.com'
+date: 2017-09-26 09:52:00 -05:00
+tags:
+- NBA
 custom_type: link
 link_url: http://www.nba.com/article/2017/09/24/report-dwyane-wade-bulls-buyout-agreement-spurs-heat-cavaliers-frontrunners
-tags: [NBA]
-date: 2017-09-26 09:52
 ---
+
 Tim Reynolds for *The Associated Press* and NBA.com:
 
 > Wade and the Chicago Bulls agreed to terms on a buyout agreement Sunday, a person with direct knowledge of the talks told *The Associated Press*. Wade is considering several options, including a potential return to Miami or a reunion with longtime friend LeBron James in Cleveland, according to the person who spoke on condition of anonymity because the buyout has not been formally announced.

@@ -1,10 +1,12 @@
 ---
 title: MacBook Pro Running Hot
+date: 2017-03-10 10:30:00 -06:00
+tags:
+- MacBook Pro
+- tech
 subtitle: How to improve performance and prevent early death
 author: tjdraper
 custom_type: post
-tags: [MacBook Pro, tech]
-date: 2017-03-10 10:30
 ---
 
 I've had an interesting history with my MacBook Pros. Most of them have needed to go in for service and have the logic board replaced under warranty or recall at some point during their lifecycle. Call me naive or whatever, but I've had a big breakthrough in the last few days that may make this a thing of the past.

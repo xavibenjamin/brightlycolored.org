@@ -1,10 +1,13 @@
 ---
 title: Say Hello to Version Five
+date: 2016-12-15 13:15:00 -06:00
+tags:
+- from the editor
+- site news
 custom_type: post
-tags: [from the editor, site news]
 subtitle: What's new in the newest version of the site.
-date: 2016-12-15 13:15
 ---
+
 2017 is almost here, and as has become customary, I usually address some of the bigger issues with the site on a yearly basis and redesign the whole thing. Except this year, I was really happy with the design of this site, so while it is the next major version of *The Bold Report*, it's not a complete rewrite. Instead, it's a thoughtful iteration on what I felt to be a great foundation. Here's what changed:
 
 ## Bug Fixes

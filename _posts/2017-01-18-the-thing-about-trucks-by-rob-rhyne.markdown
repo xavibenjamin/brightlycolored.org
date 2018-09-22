@@ -1,10 +1,14 @@
 ---
 title: The Thing about Trucks by Rob Rhyne
+date: 2017-01-18 07:54:00 -06:00
+tags:
+- iOS
+- iPad Only
+- tech
 custom_type: link
 link_url: http://rd2.io/2017/01/macs-and-trucks/
-tags: [iOS, iPad Only, tech]
-date: 2017-01-18 07:54
 ---
+
 Rob Rhyne explains why he'd take his Mac if he could only take one device with him:
 
 > My thinking goes like this: I can borrow someone else’s phone if I need to make a call, but I want *my* Mac if I need to do any sort of deep thinking. This feeling of personalization runs deep in a desktop operating system. It’s much more than wallpaper, or color schemes. My Mac is loaded with software and utilities that *I have written* custom for my specific use. I’m not talking about general software development, but scripting, and automation which ease my everyday tasks.

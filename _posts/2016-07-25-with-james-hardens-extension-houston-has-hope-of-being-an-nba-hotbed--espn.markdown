@@ -1,14 +1,12 @@
 ---
-layout: post
 title: With James Harden's Extension, Houston Has Hope of Being an NBA Hotbed | ESPN
-
-
+date: 2016-07-25 08:54:00 -05:00
+tags:
+- NBA
+- sports
+layout: post
 custom_type: link
 link_url: http://espn.go.com/blog/houston-rockets/post/_/id/2718/with-james-hardens-extension-houston-has-hope-of-being-an-nba-hotbed
-tags:
-  - NBA
-  - sports
-date: 2016-07-25 08:54
 ---
 
 > Harden is staying.

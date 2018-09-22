@@ -1,9 +1,12 @@
 ---
-title: "Why display: contents Is Not CSS Grid Layout subgrid by Rachel Andrew"
+title: 'Why display: contents Is Not CSS Grid Layout subgrid by Rachel Andrew'
+date: 2018-01-23 10:57:00 -06:00
+tags:
+- CSS
+- grid layout
 link_url: https://rachelandrew.co.uk/archives/2017/07/20/why-display-contents-is-not-css-grid-layout-subgrid/
-tags: [ CSS, grid layout ]
-date: 2018-01-23 10:57
 ---
+
 Rachel Andrew:
 
 > You won’t get far through a conversation about subgrid in CSS Grid Layout without someone suggesting that display: contents solves most of the problems anyway, so do we really need subgrid? This really isn’t the case, display: contents does indeed solve a class of problems, but these are different problems to those that subgrid would help us with.

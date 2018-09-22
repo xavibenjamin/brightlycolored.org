@@ -1,9 +1,13 @@
 ---
-title: ‘Justice League’ Cinematographer Endorses Zack Snyder’s Cut as Fan Petition Crosses 75,000 Signatures
+title: "‘Justice League’ Cinematographer Endorses Zack Snyder’s Cut as Fan Petition
+  Crosses 75,000 Signatures"
+date: 2017-11-27 16:08:00 -06:00
+tags:
+- movies
+- DC comics
 link_url: https://batman-news.com/2017/11/21/justice-league-zack-snyder-cut-fan-petition/
-tags: [ movies, DC comics ]
-date: 2017-11-27 16:08
 ---
+
 Chris Begley on Batman News:
 
 > By now you know the story: Zack Snyder turned in a cut of Justice League earlier this year but Warner Bros. wasn’t satisfied with it. Joss Whedon was brought in to rewrite the script, and WB CEO Kevin Tsujihara [reportedly mandated that the movie be no longer than two hours](https://batman-news.com/2017/11/06/new-justice-league-details-wb-ceo-demanded-it-be-under-two-hours-plus-more-interesting-info/).

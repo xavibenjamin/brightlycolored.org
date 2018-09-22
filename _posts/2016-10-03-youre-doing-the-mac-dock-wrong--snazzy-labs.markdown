@@ -1,11 +1,11 @@
 ---
-layout: post
 title: You're Doing the Mac Dock Wrong | Snazzy Labs
-
+date: 2016-10-03 12:51:00 -05:00
+tags:
+- macOS
+layout: post
 custom_type: link
 link_url: https://www.youtube.com/watch?v=ZaxkqlRE-NI
-tags: [macOS]
-date: 2016-10-03 12:51
 ---
 
 I found this great YouTube video to change the animation speed of the dock on macOS. Hiding the dock is great for screen real estate, but the animation is slow. Thankfully you can easily fix this with two commands in the terminal. I figured I'd write it out here so it's easier for you to copy paste.

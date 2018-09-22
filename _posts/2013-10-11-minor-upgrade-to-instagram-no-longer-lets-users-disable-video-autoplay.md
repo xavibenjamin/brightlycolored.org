@@ -1,13 +1,14 @@
 ---
+title: "‘Minor’ Upgrade to Instagram No Longer Lets Users Disable Video Autoplay"
+date: 2013-10-11 13:05:20 -05:00
+tags:
+- business
+- tech
 layout: post
-title: '‘Minor’ Upgrade to Instagram No Longer Lets Users Disable Video Autoplay'
 custom_type: link
 link_url: http://thenextweb.com/facebook/2013/10/11/instagram-longer-lets-users-disable-video-autoplay-small-important-step-towards-ads/
-tags:
-  - business
-  - tech
-date: '2013-10-11 13:05:20'
 ---
+
 Jon Russell reporting for *The Next Web*:
 
 >Instagram announced earlier this month that it will begin serving in-feed advertising before the end of the year, and the Facebook-owned photo and video app has made a subtle, but important, change after it removed the option to switch off autoplay for videos on iOS.

@@ -1,15 +1,14 @@
 ---
-layout: post
 title: Ideas for Building a Family Friendly Culture | Wildbit Blog
-
-
+date: 2016-04-15 00:54:00 -05:00
+tags:
+- business
+- culture
+layout: post
 custom_type: link
 link_url: http://wildbit.com/blog/2016/03/24/ideas-for-building-a-family-friendly-culture
-tags:
-  - business
-  - culture
-date: 2016-04-15 00:54
 ---
+
 Natalie Nagele explains what happens when you don't give employees workplace flexibility. Ya know, 'cause life happens:
 
 > In places without this flexibility, you’re actually doing yourself more damage. If a call from the nurse is greeted with “Shit, who's going to pick them up”, you’ve caused stress and anxiety. This will absolutely make that person lose focus on the task at hand. They’re not going to be present mentally, so why ask them to stay?

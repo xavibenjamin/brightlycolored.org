@@ -1,14 +1,15 @@
 ---
+title: Netflix Likely to Have Overtaken HBO in Paid US Subscribers
+date: 2013-10-21 12:19:57 -05:00
+tags:
+- netflix
+- HBO
+- TV
 layout: post
-title: 'Netflix Likely to Have Overtaken HBO in Paid US Subscribers'
 custom_type: link
 link_url: http://www.theverge.com/2013/10/21/4861624/netflix-has-likely-overtaken-hbo-in-paid-us-subscribers-analysts-say
-tags:
-  - netflix
-  - HBO
-  - TV
-date: '2013-10-21 12:19:57'
 ---
+
 Amar Toor reporting for *The Verge*:
 
 >According to analysis from Needham & Co., it's likely that Netflix's paid US subscriber base reached 30 million by the end of September. That may be enough to overtake HBO, which has an estimated 28.7 million subscribers in the US…

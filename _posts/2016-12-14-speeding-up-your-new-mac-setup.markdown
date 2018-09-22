@@ -1,11 +1,14 @@
 ---
 title: Speeding Up Your New Mac Setup
-
+date: 2016-12-14 08:43:00 -06:00
+tags:
+- development
+- setup
 custom_type: post
-tags: [development, setup]
-date: 2016-12-14 08:43
-subtitle: I bought my first new Mac since 2010, and thanks to Past-Tim, it was pretty simple.
+subtitle: I bought my first new Mac since 2010, and thanks to Past-Tim, it was pretty
+  simple.
 ---
+
 Past-Me has been a jerk many times. Past-Tim doesn't think about Future-Tim, saving him time, money, and sometimes even heartache. Setting up a new Mac can be a huge pain, and thankfully Past-Me *finally* did something nice for Future-Me.
 
 I left great documentation and resources that helped me get this new machine setup in about thirty minutes. That's *unheard of*. But as with everything, there are still some holes that need patching, so I thought I'd write something up, to document the process even better for next time. After all, Past-Tim is now me.

@@ -1,9 +1,12 @@
 ---
-title: "CSS Tip: Use :not to Save Time and Lines of Code"
+title: 'CSS Tip: Use :not to Save Time and Lines of Code'
+date: 2017-02-16 15:25:00 -06:00
+tags:
+- CSS
+- development
 custom_type: post
-tags: [CSS, development]
-date: 2017-02-16 15:25
 ---
+
 I saw [this tweet from Matt Griffin](https://twitter.com/elefontpress/status/832308947054903296):
 
 > Finally started making my life easier by using :not(:last-of-type) rather than overriding with a separate :last-of-type rule. Huzzah!

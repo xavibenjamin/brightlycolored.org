@@ -1,13 +1,13 @@
 ---
+title: Newsstand Isn’t the Problem
+date: 2013-12-05 19:20:33 -06:00
+tags:
+- apple
 layout: post
-title: 'Newsstand Isn’t the Problem'
-
 custom_type: link
 link_url: http://brooksreview.net/2013/11/the-blame-apple-game/
-tags:
-  - apple
-date: '2013-12-05 19:20:33'
 ---
+
 Ben Brooks on *The Brooks Review*:
 
 >[A post on PandoDaily] blames the Newsstand icon and design on faltering sales. Perceived lack of attention from Apple, and lack of icon badging (I assume, because it is never explicitly said) were other ‘excuses’ mentioned.

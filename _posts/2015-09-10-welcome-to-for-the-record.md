@@ -1,12 +1,13 @@
 ---
-layout: post
 title: Welcome to ‘For The Record’
-
+date: 2015-09-10 22:13:57 -05:00
+tags:
+- podcasts
+layout: post
 custom_type: link
 link_url: http://towermedia.org/ftr/0
-date: '2015-09-10 22:13:57'
-tags: podcasts
 ---
+
 The premiere of my new show, *For The Record*, is only a few days away! I'm so excited, and I really hope you like it. Until then, you can listen to the preview, and find out what I plan this show to be all about.
 
 This show has been a huge experiment of how to promote a new show, and get people excited about it. Honestly, I suck at promoting things, but I sincerely hope it hasn't come off as overbearing.

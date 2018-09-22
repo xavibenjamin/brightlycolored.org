@@ -1,15 +1,14 @@
 ---
-layout: post
 title: You Don't Need JavaScript for That! | Thoughtbot Blog
-
-
-custom_type: link
-link_url: https://robots.thoughtbot.com/you-don-t-need-javascript-for-that
+date: 2016-06-01 09:27:00 -05:00
 tags:
 - CSS
 - development
-date: 2016-06-01 09:27
+layout: post
+custom_type: link
+link_url: https://robots.thoughtbot.com/you-don-t-need-javascript-for-that
 ---
+
 Cristina Silva on the Thoughtbot Blog:
 
 > Every project has different needs, so make sure you’re picking solutions that work best for your project’s goals. No single solution will work for all projects. In the meantime, it’s great to see what CSS can accomplish on its own.

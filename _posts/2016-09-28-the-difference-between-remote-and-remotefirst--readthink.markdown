@@ -1,12 +1,14 @@
 ---
+title: The Difference Between “Remote” and “Remote-First” | ReadThink
+date: 2016-09-28 00:00:00 -05:00
+tags:
+- remote work
+- work
 layout: post
-title: "The Difference Between “Remote” and “Remote-First” | ReadThink"
-
-
 custom_type: link
 link_url: https://readthink.com/the-difference-between-remote-and-remote-first-7dd38458855f?gi=bc9be0e8887e
-tags: [remote work, work]
 ---
+
 Paul Farnell on the misconception that remote work prevents collaboration:
 
 > In my experience, the inverse is more likely: *offices hinder independent work*. Collaboration tends to happen in short bursts, followed by longer periods of writing, designing, coding and thinking. It’s more important to give employees quiet time than it is to cram them into an open office.

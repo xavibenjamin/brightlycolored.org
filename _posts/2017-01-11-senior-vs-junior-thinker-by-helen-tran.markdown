@@ -1,10 +1,12 @@
 ---
-title: "Senior vs. Junior Thinker by Helen Tran"
+title: Senior vs. Junior Thinker by Helen Tran
+date: 2017-01-11 18:52:00 -06:00
+tags:
+- design
 custom_type: link
 link_url: http://helentran.com/senior-vs-junior-thinker
-tags: [design]
-date: 2017-01-11 18:52
 ---
+
 Helen Tran on how Senior Designers identify a problem differently from Junior Designers:
 
 > When being described a problem, a Senior Designer will likely ask more questions than their Junior counterpart. This is to ensure that the person describing the problem is clear about the problem to begin with. Sometimes what’s being described is a *symptom* of a problem.

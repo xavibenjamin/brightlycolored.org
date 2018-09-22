@@ -1,11 +1,11 @@
 ---
+title: "‘On Productivity’"
+date: 2015-02-26 15:49:28 -06:00
 layout: post
-title: ‘On Productivity’
-
 custom_type: link
 link_url: http://krogsgard.com/2015/on-productivity/
-date: '2015-02-26 15:49:28'
 ---
+
 Brian Krogsgard:
 
 > I should admit something: I have almost no such hacks and I do not focus heavily on my processes and how to streamline them.

@@ -1,12 +1,12 @@
 ---
-layout: post
 title: The Value of Writing CSS
-
-
+date: 2016-10-12 10:23:00 -05:00
+tags:
+- CSS
+- development
+layout: post
 custom_type: link
 link_url: https://twitter.com/EliFitch/status/781248935562186753
-tags: [CSS, development]
-date: 2016-10-12 10:23
 ---
 
 Eli Fitch in a tweet:

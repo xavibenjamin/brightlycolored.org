@@ -1,13 +1,13 @@
 ---
 title: Sexual Misconduct Claims, Suggests Accusers Motivated by ‘Peer Pressure’ |
   The Verge
-layout: post
-author: timsmith
-custom_type: link
+date: 2017-10-30 23:00:00 -05:00
 tags:
 - sexual harassment
 - tech
-date: '2017-10-30 23:00:00'
+layout: post
+author: timsmith
+custom_type: link
 link_url: https://www.theverge.com/2017/10/25/16547332/robert-scoble-sexual-harassment-misconduct-response-blog-post
 ---
 

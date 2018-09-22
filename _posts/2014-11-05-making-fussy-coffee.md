@@ -1,12 +1,13 @@
 ---
+title: "‘Making Fussy Coffee’"
+date: 2014-11-05 13:07:35 -06:00
+tags:
+- coffee
 layout: post
-title: '‘Making Fussy Coffee’'
-
 custom_type: link
 link_url: http://peterbinks.net/blog/making-fussy-coffee
-date: '2014-11-05 13:07:35'
-tags: coffee
 ---
+
 Peter Binkowski:
 
 > There are a lot of people on the internet that enjoy making fussy coffee. I’m definitely one of them. However, getting into coffee doesn’t have to a pursuit in snobby-ness and complexity. I’ve found a fairly simple setup, that’s inexpensive, and produces better coffee than 80% of the coffee shops out there.

@@ -1,11 +1,13 @@
 ---
-layout: post
 title: The Bold Report’s Third Anniversary
-
+date: 2016-09-26 07:19:00 -05:00
+tags:
+- from the editor
+- site news
+layout: post
 custom_type: post
-tags: [from the editor, site news]
-date: 2016-09-26 07:19
-subtitle: The third anniversary is upon us. Here's an update on what's been happening with the site, what's coming, and a special giveaway for readers.
+subtitle: The third anniversary is upon us. Here's an update on what's been happening
+  with the site, what's coming, and a special giveaway for readers.
 ---
 
 I published [the first post](https://theboldreport.net/2013/09/welcome/) on *The Bold Report* on September 23, 2013. It was an introduction to this new site, and a migration from the personal site where I’d been writing for about five years. As usual, [I got a little overly sentimental](https://ttimsmith.com/2013/09/moving-to-the-bold-report).

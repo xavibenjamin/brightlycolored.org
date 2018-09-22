@@ -1,15 +1,14 @@
 ---
-layout: post
 title: Apple, It’s Time to Move on From “OS X” by Pauli Olavi Ojala
-
-
+date: 2016-03-16 09:54:00 -05:00
+tags:
+- apple
+- macOS
+layout: post
 custom_type: link
 link_url: https://medium.com/@pauli/apple-it-s-time-to-move-on-from-os-x-cb94d167c77d
-tags:
-  - apple
-  - macOS
-date: 2016-03-16 09:54
 ---
+
 Pauli Olavi Ojala:
 
 > … a whole generation of users have come to the Mac platform with no previous contact to Mac OS versions 1 through 9, and no idea that “X” means something else than what it looks like. Its pronounciation has become a kind of secret handshake: if you’re a “real” Mac user, you say “ten”.

@@ -1,10 +1,9 @@
 ---
-layout: post
 title: Twitter Implies Their Ads Suck
-
+date: 2016-01-28 10:28:57 -06:00
+layout: post
 custom_type: link
 link_url: http://mattgemmell.com/tiered-social-media/
-date: '2016-01-28 10:28:57'
 ---
 
 Matt Gemmell on what he’s calling “tiered social media”:

@@ -1,13 +1,14 @@
 ---
-layout: post
 title: Hello Again World by Jen Simmons
-
-
+date: 2016-11-09 12:05:00 -06:00
+tags:
+- personal
+- twitter
+layout: post
 custom_type: link
 link_url: http://jensimmons.com/post/nov-7-2016/hello-again-world
-tags: [personal, twitter]
-date: 2016-11-09 12:05
 ---
+
 Jen Simmons:
 
 > I worry about Twitter. The company doesn't care about things I care about. It will do whatever it needs to for the money it wants. It might go away. It might get even worse. By outsourcing our whole means of connecting to each other to a company we seem to agree we hate... we are putting our relationships at risk. So I'm determined to at least start getting away from the monopoly of Twitter by posting to my website. A lot. I'll setup RSS (or double check that it's already been setup, or setup multiple options or whatever something better) and I'll try for the dozen-teenth time to get the CMS that runs this site to connect to Twitter and crosspost in some way. But... all of that is a delay. An excuse to not write until all is perfect. Forget that. I'm posting this. Resetting expectations. Building a habit.

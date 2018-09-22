@@ -1,12 +1,15 @@
 ---
+title: 2016's Subscription Drive Winners
+date: 2016-10-04 12:33:00 -05:00
+tags:
+- from the editor
+- site news
 layout: post
-title: "2016's Subscription Drive Winners"
-
 custom_type: post
-tags: [from the editor, site news]
-date: 2016-10-04 12:33
-subtitle: The first annual subscription drive on <em>The Bold Report</em> has come to an end. Here is what happened.
+subtitle: The first annual subscription drive on <em>The Bold Report</em> has come
+  to an end. Here is what happened.
 ---
+
 What an awesome week. I published the anniversary post last Monday, and we had quite a few new people visit the site and subscribe. Thank you! We've got some great stuff publishing soon.
 
 ## The Winners

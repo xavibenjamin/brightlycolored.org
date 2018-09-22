@@ -1,11 +1,13 @@
 ---
+title: Yale Professor Calls ‘Bing It On’ Claims Bogus
+date: 2013-10-04 11:42:35 -05:00
+tags:
+- microsoft
 layout: post
-title: 'Yale Professor Calls ‘Bing It On’ Claims Bogus'
 custom_type: link
 link_url: http://www.theverge.com/2013/10/2/4796830/microsoft-fires-back-at-yale-professor-who-calls-bing-it-on-claims
-tags: [microsoft]
-date: '2013-10-04 11:42:35'
 ---
+
 > This week, a Yale law professor took aim at Microsoft's "[Bing It On](http://www.bingiton.com/)" campaign…
 >
 >And [Ayres' results differed sharply](http://islandia.law.yale.edu/ayres/BingItOn_Draft%209.pdf) from Microsoft's: "We found that, to the contrary of Microsoft's claim, 53 percent of subjects preferred Google and 41 percent Bing (6 percent of results were "ties"). This is not even close to the advertised claim that people prefer Bing 'nearly two-to-one.'"

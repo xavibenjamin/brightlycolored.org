@@ -1,14 +1,13 @@
 ---
-layout: post
 title: Nylas Pro | The Nylas Blog
-
-
+date: 2016-04-26 08:53:00 -05:00
+tags:
+- apps
+layout: post
 custom_type: link
 link_url: https://nylas.com/blog/nylas-pro/
-tags:
-  - apps
-date: 2016-04-26 08:53
 ---
+
 Michael Grinich on the Nylas Blog:
 
 > Today we’re announcing a premium version of N1 that is both affordable for our users and will cover server costs. It follows an old idea: you pay us money every month, and we run the servers for you. We will also continue to improve N1, scale the Nylas Cloud, and develop exciting new features and products.

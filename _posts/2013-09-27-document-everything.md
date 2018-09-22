@@ -1,11 +1,12 @@
 ---
+title: Document Everything
+date: 2013-09-27 14:35:13 -05:00
+tags:
+- design
 layout: post
-title: 'Document Everything'
-
 custom_type: post
-date: '2013-09-27 14:35:13'
-tags: [ design ]
 ---
+
 Something I've been thinking about a lot recently is documentation. And yes, I'm thinking a little bit about legacy—documenting our life, and the things we make. However, I also mean documenting our process.
 
 There's a lot of mystery surrounding what we do. I remember being a newcomer and feeling overwhelmed by everything it seemed that I needed to learn. This is where I think documentation can help us a lot.

@@ -1,8 +1,9 @@
 ---
 title: Making Videos on YouTube
+date: 2017-06-26 12:46:00 -05:00
+tags:
+- personal
 custom_type: post
-tags: [ personal ]
-date: 2017-06-26 12:46
 ---
 
 Dear Reader,

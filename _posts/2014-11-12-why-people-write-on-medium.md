@@ -1,10 +1,12 @@
 ---
-title: 'Why People Write on Medium'
-
+title: Why People Write on Medium
+date: 2014-11-12 13:05:11 -06:00
+tags:
+- jekyll
+- writing
 custom_type: post
-date: '2014-11-12 13:05:11'
-tags: [jekyll, writing]
 ---
+
 I just saw [this post on UpThemes](https://upthemes.com/blog/2014/11/medium-to-wordpress/) about migrating your content from Medium to WordPress. Now, I know that they’re just trying to sell their themes, but their comprehension of why people write on Medium is completely wrong.
 
 Before I get into why they’re fundamentally wrong,[^1] I’ll go ahead and say that their reasons why you might not want to be publishing on Medium, are sound. I’m all for owning your content. However, they’re also telling you that you can have everything you have on Medium with WordPress, which is a lie.

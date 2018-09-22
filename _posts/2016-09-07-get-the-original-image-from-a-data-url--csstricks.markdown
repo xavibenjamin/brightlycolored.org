@@ -1,14 +1,13 @@
 ---
-layout: post
 title: Get the Original Image from a Data URL | CSS-Tricks
-
-
+date: 2016-09-07 09:21:00 -05:00
+tags:
+- development
+layout: post
 custom_type: link
 link_url: https://css-tricks.com/get-original-image-data-url/
-tags:
-  - development
-date: 2016-09-07 09:21
 ---
+
 Chris Coyier:
 
 > Someone wrote in asking how they might get the "original image" when all they had was the data URL version of the image. I'm not exactly sure how you get into that situation, but hey, I woke up in a trunk more than once.

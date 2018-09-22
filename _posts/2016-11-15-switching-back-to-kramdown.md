@@ -1,10 +1,14 @@
 ---
 title: Switching Back to Kramdown
+date: 2016-11-15 16:42:00 -06:00
+tags:
+- development
+- jekyll
+- markdown
 custom_type: post
-tags: [development, jekyll, markdown]
-date: 2016-11-15 16:42
 subtitle: Quick update on my markdown woes.
 ---
+
 I've written previously on [switching to Redcarpet to process markdown](/2015/12/switching-to-redcarpet/). Since then, I was determined to find out if I could do the same thing with [Kramdown](https://github.com/gettalong/kramdown) since it's already a dependency of [Jekyll](http://jekyllrb.com/).[^sidenote]
 
 Turns out, that writing Github Flavored Markdown is super easy with Kramdown. So easy in fact, that I don't understand how I didn't figure this out earlier. Here are the markdown-related lines in my `_config.yml`:

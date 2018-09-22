@@ -1,14 +1,17 @@
 ---
+title: Sonos Announces the Play:1
+date: 2013-10-14 11:57:23 -05:00
+tags:
+- sonos
+- tech
 layout: post
-title: 'Sonos Announces the Play:1'
 custom_type: link
 link_url: http://www.theverge.com/2013/10/14/4835286/sonos-play1-its-most-affordable-wireless-speaker-price-availability
-tags:
-  - sonos
-  - tech
-excerpt: Compared to the similarly priced Jambox, the Play:1 is considerably louder, crisper, and more present. The more expensive Big Jambox offers a wider range and better separation than a single Play:1 thanks to its larger speakers and configuration.
-date: '2013-10-14 11:57:23'
+excerpt: Compared to the similarly priced Jambox, the Play:1 is considerably louder,
+  crisper, and more present. The more expensive Big Jambox offers a wider range and
+  better separation than a single Play:1 thanks to its larger speakers and configuration.
 ---
+
 Dan Seifert from *The Verge*:
 
 >Compared to the similarly priced Jambox, the Play:1 is considerably louder, crisper, and more present. The more expensive Big Jambox offers a wider range and better separation than a single Play:1 thanks to its larger speakers and configuration. But the Play:1 is still louder and sounds bigger, if slightly more muddled because of the lack of speaker separation.

@@ -1,12 +1,14 @@
 ---
+title: The iPad Is in Trouble?
+date: 2014-11-04 14:31:19 -06:00
+tags:
+- apple
+- iPad
 layout: post
-title: 'The iPad Is in Trouble?'
-
 custom_type: link
 link_url: http://www.subtraction.com/2014/10/28/ipad-at-a-crossroads/
-date: '2014-11-04 14:31:19'
-tags: [apple, iPad]
 ---
+
 Khoi Vinh on *Subtraction.com*:
 
 >  It’s now more than ten days after they went on sale, and yet there have been no sales figure announcements, no bragging about new record-breaking numbers of iPads pre-ordered, no new milestones in adoption reached. There’s just silence. In and of itself that might not be remarkable, but the lack of news around sales numbers seems especially suspicious given that iPad sales have declined now for three quarters in a row.

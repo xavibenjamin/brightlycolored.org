@@ -1,12 +1,11 @@
 ---
-layout: post
 title: Time Off Leads to Better Work, Duh
-
-
+date: 2015-08-04 10:30:52 -05:00
+layout: post
 custom_type: link
 link_url: http://shawnblanc.net/2015/08/concerning-the-ebb-and-flow-of-work/
-excerpt: There is no shame in taking time “off” of your work, in order to learn something, experience something, and be inspired.
-date: '2015-08-04 10:30:52'
+excerpt: There is no shame in taking time “off” of your work, in order to learn something,
+  experience something, and be inspired.
 ---
 
 Shawn Blanc:

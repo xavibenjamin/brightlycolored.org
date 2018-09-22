@@ -1,8 +1,12 @@
 ---
-title: "Review: Jabra Move Wireless Headphones"
-subtitle: The Jabra Move Wireless are a well-built and affordable pair of wireless headphones you shouldn't ignore
+title: 'Review: Jabra Move Wireless Headphones'
+date: 2018-03-04 00:00:00 -06:00
+tags:
+- headphones
+- review
+subtitle: The Jabra Move Wireless are a well-built and affordable pair of wireless
+  headphones you shouldn't ignore
 custom_type: post
-tags: [ headphones, review ]
 review:
   type: product
   rating: 4

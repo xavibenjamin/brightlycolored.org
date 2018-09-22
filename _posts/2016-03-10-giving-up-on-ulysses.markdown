@@ -1,10 +1,14 @@
 ---
 title: Giving Up On Ulysses
+date: 2016-03-10 01:48:00 -06:00
+tags:
+- apps
+- blogging
+- writing
 subtitle: Ulysses and I have parted and gone our separate ways, but we’re still friends.
 custom_type: post
-tags: [ apps, blogging, writing ]
-date: 2016-03-10 01:48
 ---
+
 Ulysses and I have parted and gone our separate ways, but we’re still friends.
 
 I’ve enjoyed writing for as long as I can remember, but the whole experience has been traumatic at times. I started out using Microsoft Word when I was still in middle school. When I started blogging, I used the WordPress interface, which if you remember in the early days was horrible. Once I moved to Jekyll, I started using Byword exclusively and life was really great for some time.

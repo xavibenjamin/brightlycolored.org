@@ -1,13 +1,13 @@
 ---
+title: "‘What The Ad Blocker Debate Reveals’"
+date: 2015-08-05 10:10:23 -05:00
 layout: post
-title: ‘What The Ad Blocker Debate Reveals’
-
-
 custom_type: link
 link_url: http://www.mondaynote.com/2015/08/03/what-the-ad-blocker-debate-reveals/
-date: '2015-08-05 10:10:23'
-excerpt: We feel cheated and rightly so. As users, we understand that we’re not really entitled to free browsing
+excerpt: We feel cheated and rightly so. As users, we understand that we’re not really
+  entitled to free browsing
 ---
+
 Jean-Louis Gassée on the *Monday Note*:
 
 > We feel cheated and rightly so. As users, we understand that we’re not really entitled to free browsing; we pay our bills with our selves: When The Product Is Free, We Are the Product. The problem is that we feel betrayed when we find out we’ve been overpaying. We’re being exploited — and it’s not even done nicely. (Apply your favorite metaphor, here.)

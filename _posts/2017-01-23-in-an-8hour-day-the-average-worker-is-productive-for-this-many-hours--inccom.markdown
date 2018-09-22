@@ -1,10 +1,13 @@
 ---
 title: In an 8-Hour Day, the Average Worker Is Productive for This Many Hours | Inc.com
+date: 2017-01-23 11:26:00 -06:00
+tags:
+- productivity
+- work life
 custom_type: link
 link_url: http://www.inc.com/melanie-curtin/in-an-8-hour-day-the-average-worker-is-productive-for-this-many-hours.html
-tags: [productivity, work life]
-date: 2017-01-23 11:26
 ---
+
 Melanie Curtin for Inc.com:
 
 > In the late 18th century, 10-16 hour workdays were normal because factories "needed" to be run 24/7. When it became clear that such long days were both brutal and unsustainable, leaders like Welsh activist Robert Owen advocated for shorter workdays. In 1817, his slogan became: "Eight hours labour, eight hours recreation, eight hours rest."

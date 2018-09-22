@@ -1,5 +1,15 @@
 ---
-title: "Despicable Me 3"
+title: Despicable Me 3
+date: 2017-07-05 00:00:00 -05:00
+categories:
+- animation
+- action
+- adventure
+tags:
+- movies
+- movie review
+- review
+- my videos
 custom_type: post
 review:
   rating: 3
@@ -7,8 +17,6 @@ review:
   movie:
     director: Kyle Balda & Pierre Coffin
     rating: PG
-categories: [ animation, action, adventure ]
-tags: [ movies, movie review, review, my videos ]
 ---
 
 <div class="iframe-container">

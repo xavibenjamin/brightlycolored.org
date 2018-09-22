@@ -1,11 +1,14 @@
 ---
+title: Third ‘Avengers’ Split Into Two Films
+date: 2014-10-28 00:00:00 -05:00
+tags:
+- movies
+- marvel
 layout: post
-title: 'Third ‘Avengers’ Split Into Two Films'
-
 custom_type: link
 link_url: http://www.theverge.com/2014/10/28/7085447/avengers-3-split-into-two-films-infinity-war
-tags: [movies, marvel]
 ---
+
 Some awesome news on *The Verge* today:
 
 > Everyone expected a third Avengers film a few years from now, but Marvel has a surprise for you: you'll be getting two of them. The third Avengers film is called Avengers: Infinity War, and it's being broken into two parts: its first part is being released on May 4th, 2018, and its second part is being released on May 3rd, 2019.

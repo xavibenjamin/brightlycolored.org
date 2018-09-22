@@ -1,13 +1,13 @@
 ---
-layout: post
-title: 'Presenting Goodstuff Broadcasting'
-
-custom_type: post
+title: Presenting Goodstuff Broadcasting
+date: 2014-04-22 17:01:40 -05:00
 tags:
-  - podcasts
-  - personal
-date: '2014-04-22 17:01:40'
+- podcasts
+- personal
+layout: post
+custom_type: post
 ---
+
 On March 17th, I launched [Goodstuff Broadcasting](http://goodstuff.fm/) together with my good friends [Chris Enns](https://twitter.com/ichris) and [Adam Clark](https://twitter.com/avclark).
 
 On April 8th we did a more official launch where we did live broadcasting for eight hours, and it was one of the funnest things I've done in a long time. We finally got to see this thing that we've planned and worked on for months, in the wild. The best part? People seemed to like it.

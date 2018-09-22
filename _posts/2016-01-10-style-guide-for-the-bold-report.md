@@ -1,10 +1,9 @@
 ---
-layout: post
 title: Style Guide for ‘The Bold Report’
-
+date: 2016-01-10 18:03:17 -06:00
+layout: post
 custom_type: link
-link_url: /styleguide/
-date: '2016-01-10 18:03:17'
+link_url: "/styleguide/"
 ---
 
 I created a style guide for *The Bold Report* and wanted to quickly tell you about it. It's not much, but an explanation of the different elements that exist through out this site. 

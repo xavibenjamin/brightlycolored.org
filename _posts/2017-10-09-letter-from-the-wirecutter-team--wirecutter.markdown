@@ -1,10 +1,13 @@
 ---
 title: Letter from the Wirecutter Team | Wirecutter
+date: 2017-10-09 10:35:00 -05:00
+tags:
+- design
+- sites i love
 custom_type: link
 link_url: https://thewirecutter.com/letter-from-the-wirecutter-team/
-tags: [design, sites i love]
-date: 2017-10-09 10:35
 ---
+
 The *Wirecutter* Team:
 
 > Today we are relaunching our website to make it easier for our readers to find and buy the things they need. The new site is the result of months of research, design, coding, and—critically—dozens of conversations with readers to make sure we focused on what really matters.

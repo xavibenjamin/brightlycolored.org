@@ -1,15 +1,14 @@
 ---
-layout: post
 title: Netflix’s Opaque Disruption Annoys Rivals on TV | The New York Times
-
-
+date: 2016-03-09 09:13:00 -06:00
+tags:
+- netflix
+- tech
+layout: post
 custom_type: link
 link_url: http://www.nytimes.com/2016/01/18/business/media/disruption-by-netflix-irks-tv-foes.html
-tags:
-  - netflix
-  - tech
-date: 2016-03-09 09:13
 ---
+
 John Koblin reporting for *The New York Times*:
 
 > Television executives have been frustrated because Mr. Sarandos has at times suggested Netflix shows would fare better than what is on cable and broadcast television. Last month, for instance, he said the Netflix show “Narcos” would be the most-viewed show on cable, not HBO’s “Game of Thrones.”

@@ -1,15 +1,14 @@
 ---
-layout: post
 title: Autonomous SmartDesk | The Brooks Review
-
-
+date: 2016-08-24 20:00:00 -05:00
+tags:
+- furniture
+- reviews
+layout: post
 custom_type: link
 link_url: https://brooksreview.net/2016/08/autonomous-smartdesk/
-tags:
-  - furniture
-  - reviews
-date: 2016-08-24 20:00
 ---
+
 Ben Brooks:
 
 > When I last wrote about sit-stand electric desks, I took a look at the [Jarvis desk](https://brooksreview.net/2014/02/jarvis-standing-desk/) — at the time one of the cheapest desks you could get, while still getting a very quality product. I left that desk behind when I changed careers, and went without an electric desk for quite some time.

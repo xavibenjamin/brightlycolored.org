@@ -1,12 +1,14 @@
 ---
+title: "‘Freelancing and Premium Beef’"
+date: 2015-02-17 10:59:19 -06:00
+tags:
+- freelancing
+- business
 layout: post
-title: ‘Freelancing and Premium Beef’
-
 custom_type: link
 link_url: http://andyadams.org/freelancing-premium-beef/
-date: '2015-02-17 10:59:19'
-tags: [freelancing, business]
 ---
+
 Andy Adams:
 
 > Price changes aren’t easy, but if you’re ever going to break out of being a commodity freelancer, you’re going to have to be nervous. You’ll have to say goodbye to clients you love who can’t afford you any more. That hurts.

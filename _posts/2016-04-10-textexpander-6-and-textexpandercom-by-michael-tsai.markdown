@@ -1,15 +1,14 @@
 ---
-layout: post
 title: TextExpander 6 and TextExpander.com by Michael Tsai
-
-
+date: 2016-04-10 02:00:00 -05:00
+tags:
+- apps
+- tech
+layout: post
 custom_type: link
 link_url: http://mjtsai.com/blog/2016/04/06/textexpander-6-and-textexpander-com/
-tags:
-  - apps
-  - tech
-date: 2016-04-10 02:00
 ---
+
 Michael Tsai:
 
 > The new service makes it really easy to share snippets with other people, and it sounds like there are big plans for more team/collaborative features in future versions. This is really cool, but I have no personal interest in using those features. It seems like the product is being refocused for a different audience.

@@ -1,10 +1,14 @@
 ---
-title: "Karolina Szczur: ‘Your Tech Job Posting is Broken’"
+title: 'Karolina Szczur: ‘Your Tech Job Posting is Broken’'
+date: 2017-08-17 10:11:00 -05:00
+tags:
+- jobs
+- tech
+- hiring
 custom_type: link
 link_url: https://medium.com/@fox/your-tech-job-posting-is-broken-heres-how-to-fix-it-6db06b9769cb
-tags: [jobs, tech, hiring]
-date: 2017-08-17 10:11
 ---
+
 Karolina Szczur:
 
 > Over a year ago [I wrote on the subject of empathetic hiring](https://medium.com/@fox/a-guide-to-empathetic-hiring-processes-c11c7ce0cd49) and how we’re still failing to make it efficient, respectful and inclusive.

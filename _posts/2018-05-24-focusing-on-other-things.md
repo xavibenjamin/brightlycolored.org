@@ -1,8 +1,10 @@
 ---
 title: Focusing on Other Things
+date: 2018-05-24 12:52:00 -05:00
+tags:
+- site news
+- from the editor
 custom_type: post
-tags: [site news, from the editor]
-date: 2018-05-24 12:52
 ---
 
 Hello peeps,

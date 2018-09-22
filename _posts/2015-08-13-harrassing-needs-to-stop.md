@@ -1,13 +1,14 @@
 ---
+title: "‘We Still Let Harassers Participate In Our Community’"
+date: 2015-08-13 11:52:50 -05:00
 layout: post
-title: ‘We Still Let Harassers Participate In Our Community’
-
-
 custom_type: link
 link_url: http://kovalc.in/2015/08/12/harassers.html
-excerpt: We have a problem. A really big problem. If reporting someone does nothing, if organizers are not fit to deal with these tough situations, and if no one is warning others of those who endanger our community
-date: '2015-08-13 11:52:50'
+excerpt: We have a problem. A really big problem. If reporting someone does nothing,
+  if organizers are not fit to deal with these tough situations, and if no one is
+  warning others of those who endanger our community
 ---
+
 Katie Kovalcin:
 
 > We have a problem. A really big problem. If reporting someone does nothing, if organizers are not fit to deal with these tough situations, and if no one is warning others of those who endanger our community—we’re going to keep losing a lot of really great diverse voices.

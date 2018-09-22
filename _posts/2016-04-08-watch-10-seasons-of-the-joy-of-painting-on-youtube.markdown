@@ -1,14 +1,13 @@
 ---
-layout: post
 title: Watch 10 Seasons of ‘the Joy of Painting’ on Youtube
-
-
+date: 2016-04-08 15:30:00 -05:00
+tags:
+- ASMR
+layout: post
 custom_type: link
 link_url: http://mentalfloss.com/article/78175/watch-10-seasons-joy-painting-youtube-free
-tags:
-  - ASMR
-date: 2016-04-08 15:30
 ---
+
 Mental Floss:
 
 > First produced by local public television broadcasters WNVC in Falls Church, Virginia in 1983, The Joy of Painting turned Ross, an unassuming art instructor, into an international celebrity and pop culture icon. The series ran for a whopping 403 episodes over 31 seasons (though [Ross could film](http://mentalfloss.com/article/23260/5-happy-little-things-you-didnt-know-about-bob-ross) an entire 13-episode season in just over two days, freeing himself up to spend the rest of the year teaching).

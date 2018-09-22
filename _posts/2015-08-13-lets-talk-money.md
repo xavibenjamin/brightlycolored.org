@@ -1,13 +1,14 @@
 ---
+title: "‘Let’s Talk Money’"
+date: 2015-08-13 11:15:28 -05:00
 layout: post
-title: ‘Let’s Talk Money’
-
-
 custom_type: link
 link_url: http://helentran.com/lets-talk-money
-excerpt: One of the most displeasing sentiments out there is that if you are passionate about something, the money shouldn't matter. People will fall all over themselves agreeing to this.
-date: '2015-08-13 11:15:28'
+excerpt: One of the most displeasing sentiments out there is that if you are passionate
+  about something, the money shouldn't matter. People will fall all over themselves
+  agreeing to this.
 ---
+
 Helen Tran:
 
 > One of the most displeasing sentiments out there is that if you are passionate about something, the money shouldn't matter. People will fall all over themselves agreeing to this. Why not? It sounds so good. If anyone admits that they do care about money, then that must mean they're not passionate or that their intentions aren't altruistic.

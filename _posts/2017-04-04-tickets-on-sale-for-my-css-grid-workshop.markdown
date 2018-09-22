@@ -1,9 +1,12 @@
 ---
 title: Tickets on Sale for My CSS Grid Workshop
+date: 2017-04-04 11:36:00 -05:00
+tags:
+- workshops
+- CSS
+- grid layout
 custom_type: link
 link_url: https://www.eventbrite.com/e/lets-learn-css-grid-tickets-33351798126
-tags: [workshops, CSS, grid layout]
-date: 2017-04-04 11:36
 ---
 
 You may have noticed that [I’m obsessed with CSS Grid](https://theboldreport.net/topics/#grid-layout). I’ve been making all types of things with it and loving it. When you see the new things possible for us with this new spec, I think you’ll be just as excited.

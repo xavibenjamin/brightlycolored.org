@@ -1,10 +1,12 @@
 ---
-custom_type: post
 title: Colorado with The Prados
-tags: [photography]
-date: 2018-09-19 22:33
+date: 2018-09-19 22:33:00 -05:00
+tags:
+- photography
+custom_type: post
 featured_image: uploads/2018/09/IMG_0040.jpg
 ---
+
 We went with some friends to Colorado to scope it out. We've been thinking of moving out of Minnesota, and Colorado was a possible destination. After seeing it for ourselves, that was definitely confirmed. It's beautiful.
 
 **Camera:** Sony α7 III   

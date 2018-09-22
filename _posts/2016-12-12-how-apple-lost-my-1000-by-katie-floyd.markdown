@@ -1,11 +1,10 @@
 ---
-title: "How Apple Lost My $1,000 by Katie Floyd"
-
-
+title: How Apple Lost My $1,000 by Katie Floyd
+date: 2016-12-12 15:15:00 -06:00
+tags:
+- apple
 custom_type: link
 link_url: https://katiefloyd.com/blog/how-apple-lost-my-1000
-tags: apple
-date: 2016-12-12 15:15
 ---
 
 Katie Floyd on the [LG UltraFine 5K Display](http://www.apple.com/shop/product/HKN62LL/A/lg-ultrafine-5k-display?fnode=7c):

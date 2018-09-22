@@ -1,15 +1,14 @@
 ---
-layout: post
 title: The Best Third-Party Email App for iOS | The Sweet Setup
-
-
+date: 2016-03-10 01:23:00 -06:00
+tags:
+- apps
+- reviews
+layout: post
 custom_type: link
 link_url: http://thesweetsetup.com/apps/the-best-third-party-email-app-for-ios/
-tags:
-  - apps
-  - reviews
-date: 2016-03-10 01:23
 ---
+
 Bradley Chambers writing for *The Sweet Setup*:
 
 > Email apps are highly personal. Everyone manages their email differently. For some, it’s a to-do list. For others, it’s a temporary holding place until emails are processed into a task management system. One thing is for sure: everyone with an iOS device probably uses email.

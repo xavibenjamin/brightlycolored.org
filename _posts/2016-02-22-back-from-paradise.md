@@ -1,14 +1,14 @@
 ---
-layout: post
 title: Back From Paradise
-
-custom_type: post
-date: '2016-02-22 00:38:25'
+date: 2016-02-22 00:38:25 -06:00
 tags:
-  - personal
-  - vacation
+- personal
+- vacation
+layout: post
+custom_type: post
 subtitle: My island vacation is over.
 ---
+
 <figure class="photo-grid photo-grid--one">
   <img src="{{site.url}}/uploads/2016/02/cozumel-1.jpg" alt="Cozumel Resort" class="grid-half" />
   <img src="{{site.url}}/uploads/2016/02/cozumel-2.jpg" alt="Ocean" class="grid-half" />

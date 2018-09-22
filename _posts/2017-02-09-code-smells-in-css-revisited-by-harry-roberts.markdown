@@ -1,10 +1,13 @@
 ---
 title: Code Smells in CSS Revisited by Harry Roberts
+date: 2017-02-09 17:08:00 -06:00
+tags:
+- CSS
+- development
 custom_type: link
 link_url: https://csswizardry.com/2017/02/code-smells-in-css-revisited/
-tags: [CSS, development]
-date: 2017-02-09 17:08
 ---
+
 Harry Roberts:
 
 > Way back in 2012, I wrote a post about potential CSS anti-patterns called [Code Smells in CSS](https://csswizardry.com/2012/11/code-smells-in-css/). Looking back on that piece, I still agree with all of it even four years later, but I do have some new things to add to the list. Again, these aren’t necessarily always bad things, hence referring to them as code smells: they might be perfectly acceptable in your use case, but they still smell kinda funny.

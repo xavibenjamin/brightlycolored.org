@@ -1,15 +1,14 @@
 ---
-layout: post
 title: The Evolution of Linkblogging by Manton Reece
-
-
+date: 2016-03-10 01:47:00 -06:00
+tags:
+- blogging
+- linkblogging
+layout: post
 custom_type: link
 link_url: http://www.manton.org/2016/03/the-evolution-of-linkblogging.html
-tags:
-  - blogging
-  - linkblogging
-date: 2016-03-10 01:47
 ---
+
 Manton Reece:
 
 > Good conventions for blogging have been at a standstill for years. While part of the appeal of indie blogging is there’s no one “right” way to do it, and authors can have a strong voice and design that isn’t controlled by a platform vendor, we must accept that Twitter has taken off because it has a great user experience compared to blogs. It’s effortless to tweet and the timeline is consistent. For blogging to improve and thrive, it should have just as straightforward a user experience as social networks wherever possible.

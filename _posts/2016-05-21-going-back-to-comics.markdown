@@ -1,13 +1,13 @@
 ---
-layout: post
 title: Going Back To Comics
-
-custom_type: post
+date: 2016-05-21 23:24:00 -05:00
 tags:
-  - comics
-date: 2016-05-21 23:24
+- comics
+layout: post
+custom_type: post
 subtitle: Let's talk comic books!
 ---
+
 {% figure extendout /uploads/2016/05/comics-stacked.jpg "It’s a lot harder to take a picture of comics than I thought" %}
 
 The last time I picked up a comic, was when I was still a kid. I never collected, but I read the ones I could get my hands on. About a year ago, I read the whole Civil War event in anticipation of this year's movie, and then the Age of Ultron event. I was hooked. I realized I’d been missing out on so much story absent from the movies. I learned more about characters that were friends, were romantically involved, then come together to solve a problem. I was seeing characters I’d liked in film (and some that I wasn’t too fond of) in a whole new light.

@@ -1,15 +1,14 @@
 ---
-layout: post
 title: Truth by Derek Fisher
-
-
+date: 2016-03-22 09:10:00 -05:00
+tags:
+- NBA
+- sports
+layout: post
 custom_type: link
 link_url: https://thecauldron.si.com/truth-9ebb66ca8990?gi=86bd2dcf1c04
-tags:
-  - NBA
-  - sports
-date: 2016-03-22 09:10
 ---
+
 Derek Fisher:
 
 > It’s been a few weeks since I was let go by the New York Knicks. In the time that’s passed, there’s been a lot written and said about me, most of it amounting to nothing more than rumors and gossip.

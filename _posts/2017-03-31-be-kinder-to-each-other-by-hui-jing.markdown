@@ -1,10 +1,15 @@
 ---
 title: Be Kinder to Each Other by Hui Jing
+date: 2017-03-31 14:46:00 -05:00
+tags:
+- CSS
+- Microsoft
+- grid layout
+- industry issues
 custom_type: link
 link_url: https://www.chenhuijing.com/blog/a-little-more-kindness/
-tags: [CSS, Microsoft, grid layout, industry issues]
-date: 2017-03-31 14:46 
 ---
+
 Hui Jing after reading some negative comments on the [Update CSS Grid page of the Windows Developer Feedback site](https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer/suggestions/6514853-update-css-grid):
 
 > The world is not a perfect place. Life is not fair. But the matter of fact is, we live in this world together. All 7 billion (and more) of us share this planet. Nobody asked to be born, but we’re all here now. We all have a choice on how we want to behave, and these choices will have an impact on someone else, whether we are aware of it or not.

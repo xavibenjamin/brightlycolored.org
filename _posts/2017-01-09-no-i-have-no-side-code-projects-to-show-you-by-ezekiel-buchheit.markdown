@@ -1,12 +1,11 @@
 ---
+title: No, I Have No Side Code Projects to Show You by Ezekiel Buchheit
+date: 2017-01-09 00:13:00 -06:00
 layout: post
-title: "No, I Have No Side Code Projects to Show You by Ezekiel Buchheit"
-
-
 custom_type: link
 link_url: https://www.linkedin.com/pulse/i-have-side-code-projects-show-you-ezekiel-buchheit
-date: 2017-01-09 00:13
 ---
+
 Ezekiel Buchheit:
 
 > I have no presence on github(sic). I have no open-source projects with which I whittle away my evenings. I have exactly zero pull requests for any of the latest sexy codebases all the cool coders are in on. I don't mess around with exercises in Haskel. And I loathe hackathons.

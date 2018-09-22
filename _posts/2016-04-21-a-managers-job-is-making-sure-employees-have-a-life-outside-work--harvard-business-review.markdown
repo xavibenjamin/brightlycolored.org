@@ -1,15 +1,15 @@
 ---
+title: A Manager’s Job Is Making Sure Employees Have a Life Outside Work | Harvard
+  Business Review
+date: 2016-04-21 00:44:00 -05:00
+tags:
+- business
+- work
 layout: post
-title: A Manager’s Job Is Making Sure Employees Have a Life Outside Work | Harvard Business Review
-
-
 custom_type: link
 link_url: https://hbr.org/2016/03/a-managers-job-is-making-sure-employees-have-a-life-outside-work
-tags:
-  - business
-  - work
-date: 2016-04-21 00:44
 ---
+
 Arjun Dev Arora and Raman Frey writing for the *Harvard Business Review*:
 
 > …we want to see [our employees] thrive both in and out of the workplace. It’s a magnanimous attitude with no self-evident ROI, and brings to mind Gary Vaynerchuk’s quip with a venture capital professional who was quizzing him on the worthiness of his new business. She kept repeating, “But what is the ROI on this spend?” and he finally snapped and retorted, “What’s the ROI on your mother?!” In other words, not all the value of a company can be quantified.

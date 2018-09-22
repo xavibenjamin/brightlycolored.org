@@ -1,10 +1,13 @@
 ---
 title: Wait, You Don’t Control Your Calendar? | Signal v. Noise
+date: 2017-02-15 16:31:00 -06:00
+tags:
+- work
+- productivity
 custom_type: link
 link_url: https://m.signalvnoise.com/wait-you-dont-control-your-calendar-3a40f8f642fe
-tags: [work, productivity]
-date: 2017-02-15 16:31
 ---
+
 Jason Fried on controlling your calendar:
 
 > As many people know — and as I didn’t — in most companies people don’t really control their own time. Everyone can see everyone else’s calendar, and people can pick away at each other’s time.

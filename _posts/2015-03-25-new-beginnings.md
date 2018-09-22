@@ -1,11 +1,13 @@
 ---
-layout: post
 title: New Beginnings
-
+date: 2015-03-25 12:37:24 -05:00
+tags:
+- jobs
+- personal
+layout: post
 custom_type: post
-date: '2015-03-25 12:37:24'
-tags: [jobs, personal]
 ---
+
 For the past two years, I've run my own business, [Anythin’ Goes](http://anythingo.es/). I've been so incredibly happy to work on some awesome projects with great people. On Monday, I begin a new chapter.
 
 As some of you know, [I'm getting married to my best friend in May](http://timandkelbel.com/). Since December, I'd been looking for a great company to join. Looking for a job is a difficult process. You end up reading a lot of job descriptions; some are written well, others are really not.

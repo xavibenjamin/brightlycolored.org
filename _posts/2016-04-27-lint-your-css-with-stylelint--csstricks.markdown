@@ -1,15 +1,14 @@
 ---
-layout: post
 title: Lint Your CSS with stylelint | CSS-Tricks
-
-
+date: 2016-04-27 08:45:00 -05:00
+tags:
+- CSS
+- development
+layout: post
 custom_type: link
 link_url: https://css-tricks.com/stylelint/
-tags:
-  - CSS
-  - development
-date: 2016-04-27 08:45
 ---
+
 David Clark on *CSS-Tricks*:
 
 > You write CSS. Probably a lot of CSS. And you make mistakes. Probably a lot of mistakes. Somebody needs to stop you from making mistakes in your CSS.

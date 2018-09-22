@@ -1,9 +1,9 @@
 ---
+title: Honest Slogans
+date: 2013-10-28 12:07:43 -05:00
 layout: post
-title: 'Honest Slogans'
-
 custom_type: link
 link_url: http://honestslogans.com
-date: '2013-10-28 12:07:43'
 ---
+
 Hilarious, and true. This is Tumblr at its best. 
