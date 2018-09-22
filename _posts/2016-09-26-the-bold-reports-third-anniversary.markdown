@@ -34,7 +34,7 @@ So I’ve been using normal git flow by creating branches, then merging via pull
 
 ## Contributions
 
-September saw the first ever contributions to the site by someone other than me! TJ Draper wrote about [Apple removing ports from the MacBook Pro]({% post_url 2016-09-15-apple-removing-ports-from-macbook-pro %}) and Keaton Taylor wrote about [new `<video>` capabilities in iOS 10]({% post_url 2016-09-20-iOS10-expands-autoplay-for-mobile %}). These are exactly the type of contributions I was looking for. I wanted posts that were important and affected the individual writer. This blog is about personal interest, and that creates a path for a beautifully eclectic collection of topics.
+September saw the first ever contributions to the site by someone other than me! TJ Draper wrote about [Apple removing ports from the MacBook Pro]({% post_url 2016-09-15-apple-removing-ports-from-macbook-pro %}) and Keaton Taylor wrote about [new `<video>` capabilities in iOS 10]({% post_url 2016-09-21-iOS10-expands-autoplay-for-mobile %}). These are exactly the type of contributions I was looking for. I wanted posts that were important and affected the individual writer. This blog is about personal interest, and that creates a path for a beautifully eclectic collection of topics.
 
 How contributions from other writers shape the site will be interesting to watch. If that worries you at all, I assure you that I’m still *very* interested in writing here and I have the final say on whatever gets published. If you’re interested in writing on *The Bold Report*, email me at [tim@theboldreport.net](mailto:tim@theboldreport.net).
 
