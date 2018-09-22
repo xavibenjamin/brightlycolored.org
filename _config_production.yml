@@ -44,3 +44,4 @@ defaults:
       layout: post
       author: timsmith
       custom_type: link
+      subtitle:

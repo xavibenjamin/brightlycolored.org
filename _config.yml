@@ -17,6 +17,7 @@ defaults:
     layout: post
     author: timsmith
     custom_type: link
+    subtitle: 
 name: Development | Brightly Colored
 url: http://localhost:4000
 description: An exploration of design, development, tech, Geek culture, Apple, and
@@ -49,3 +50,9 @@ markdown: kramdown
 markdown_ext: markdown,mkdown,mkdn,mkd,md,mdown
 kramdown:
   input: GFM
+gems:
+- jekyll-assets
+- jekyll-compose
+- jekyll-sitemap
+- jekyll-tagging-related_posts
+- jekyll-typogrify
