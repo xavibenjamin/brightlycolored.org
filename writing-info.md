@@ -10,8 +10,6 @@ excerpt: Guidelines for writing on Brightly Colored.
 
 First of all, thank you for your interest in contributing! That means a lot. This guide was made to make contributing to *Brightly Colored* easier. If you feel there's something missing here or you have questions, you can send an email to: [smith@ttimsmith.com](mailto:smith@ttimsmith.com?subject=[brightlycolored.org] Question about contributing) or [add an issue to the repo](https://github.com/smithtimmytim/brightlycolored.org/issues/new).
 
-{% include toc.html %}
-
 ## Getting Setup
 
 If you want to run the site on your local machine, here are the steps to follow.

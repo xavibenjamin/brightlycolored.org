@@ -12,8 +12,6 @@ subtitle: Let's talk comic books!
 
 The last time I picked up a comic, was when I was still a kid. I never collected, but I read the ones I could get my hands on. About a year ago, I read the whole Civil War event in anticipation of this year's movie, and then the Age of Ultron event. I was hooked. I realized I’d been missing out on so much story absent from the movies. I learned more about characters that were friends, were romantically involved, then come together to solve a problem. I was seeing characters I’d liked in film (and some that I wasn’t too fond of) in a whole new light.
 
-{% include toc.html %}
-
 Fast forward a year, and I'm reading comics on a regular basis now. I started my collection about a month ago, and wanted to share what I was reading. But I also wanted to share how easy it actually is to get into comics, if like me, you’d been intimidated to do so in the past.
 
 ## First, Let’s Start with Some Vocabulary

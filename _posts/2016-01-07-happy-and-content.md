@@ -14,8 +14,6 @@ This was by far the best year in a long time. Kelly and I were married on May 9.
 
 {% figure extendout /uploads/2016/01/smith-wedding-party-silly.jpg "With our amazing wedding party. (Photo by Cayan Brock)" %}
 
-{% include toc.html %}
-
 We were surrounded by all of our friends and family who smothered us in so much love and happiness. If I could, I would live that day over and over. It sounds so sappy, but I just can't help it.
 
 ## Working Full-time Again

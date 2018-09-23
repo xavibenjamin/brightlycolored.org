@@ -23,8 +23,6 @@ excerpt: A task manager you will actually want to use
 
 I've never been a fan of to-do apps. I don't use them. People everywhere seem to swear by these things. There's much talk about the whole GTD mentality, and what app is the best for getting things done.
 
-{% include toc.html %}
-
 The methodology didn't make sense to me, and I condescendingly felt that the key to getting things done was just action. Then I grew up, and realized that when you're juggling a plethora of responsibilities, it's incredibly easy for tasks to fall through the cracks. Writing down what needs to get done is not just smart, it's necessary.
 
 I came across Things years ago. I owned the first version of the app, but didn't end up using it. Someone I know recently started using Things 3 and I was intrigued. I'd been using Trello to keep track of my ideas for articles on this site, video ideas, and jobs that I'd applied to. I have a love/hate relationship with Trello. I feel that parts of the app are very well designed, and others not so much.

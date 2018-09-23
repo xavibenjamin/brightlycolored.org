@@ -7,9 +7,6 @@ permalink: /:year/:month/:title/
 exclude: ['README.md', 'Rakefile', 'vendor', 'Gemfile.lock', '.asset-cache', 'bin']
 lunr_excludes: ['atom.xml', 'atom.articles.xml', 'sitemap.xml']
 
-# Where Things Are
-plugins_dir:  ./_plugins
-
 # Syntax Highlighting
 highlighter: rouge
 

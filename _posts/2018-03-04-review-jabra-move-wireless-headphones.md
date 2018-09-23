@@ -22,8 +22,6 @@ featured_image: uploads/2018/03/jabra-featured.jpg
 
 Audio is important to me. If I'm going somewhere, working, cleaning, taking a shower, or just needing to relax, you'll likely find me listening to something. Sometimes it's music with a great beat, and other times it's a riveting podcast.
 
-{% include toc.html %}
-
 A while back, I was commuting on the train to a co-working space, and needed a good pair of wireless headphones. They needed to take some sweat from the walk, have great battery life, and handle being thrown into my backpack.
 
 I decided to purchase the Jabra Move Wireless headphones. If you're in the market for a great pair of wireless headphones, these may be the ones for you.

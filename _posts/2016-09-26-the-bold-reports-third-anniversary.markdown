@@ -16,8 +16,6 @@ I published [the first post](https://theboldreport.net/2013/09/welcome/) on *The
 
 {% figure extendout /uploads/2016/09/original-boldreport-design.jpg "Can you believe I thought that looked good? Also, boy has Google Chrome changed!" %}
 
-{% include toc.html %}
-
 ## Personal Growth
 
 When I started this site, I wanted to be the next John Gruber. Since then, I’ve come to the conclusion that there is only one Gruber and any attempt to imitate him is futile. Plus, I don’t actually want to write this site for a living; I love to discuss a wide range of things and this is my safe place to do that.

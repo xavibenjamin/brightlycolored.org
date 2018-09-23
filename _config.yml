@@ -33,7 +33,6 @@ lunr_excludes:
 - atom.xml
 - atom.articles.xml
 - sitemap.xml
-plugins_dir: "./_plugins"
 highlighter: rouge
 port: 4200
 post:

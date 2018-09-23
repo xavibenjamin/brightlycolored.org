@@ -13,8 +13,6 @@ custom_type: post
 ---
 I wanted to get away from Twitter. If you don't get why, that's ok. It's not the point of this post. I want to talk about creating a microblog. What's a microblog? In essence, it's a place where you write small tweet-like posts, except the content lives on a server you pay for. You are in control.
 
-{% include toc.html %}
-
 [Jekyll][6056-0001] makes it easy to setup a microblog. [I recently created my own microblog](https://ttimsmith.com/microblog/), and made videos about it. There's a [part one](https://youtu.be/-B0BOxXnmOc) and [part two](https://youtu.be/ZdRurBOmZLs). I thought I'd show you how I made mine. It's not the only way, it's just one way. Let's get started.
 
 [6056-0001]: http://jekyllrb.com/
