@@ -18,6 +18,7 @@ review:
 featured_image: uploads/2018/01/things-review-01.jpg
 excerpt: A task manager you will actually want to use
 ---
+
 <figure class="extendout">
   <img src="{{ site.url }}/uploads/2018/01/things-review-01.jpg" alt="Things 3 on iPad">
   <figcaption>Things 3 on iPad</figcaption>

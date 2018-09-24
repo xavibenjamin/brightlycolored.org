@@ -7,6 +7,7 @@ layout: post
 custom_type: post
 subtitle: Let's talk comic books!
 ---
+
 <figure class="extendout">
   <img src="{{ site.url }}/uploads/2016/05/comics-stacked.jpg" alt="It’s a lot harder to take a picture of comics than I thought">
   <figcaption>It’s a lot harder to take a picture of comics than I thought</figcaption>

@@ -1,5 +1,6 @@
 ---
 ---
+
 {% capture scripts %}
   {% include javascripts/newsletter.js %}
   {% include javascripts/heading-anchors.js %}

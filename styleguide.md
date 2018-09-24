@@ -5,6 +5,7 @@ layout: page
 exclude_from_search: true
 excerpt: Style guide for Brightly Colored.
 ---
+
 <figure class="small__right">
   <img src="{{ site.url }}/uploads/2013/09/tim_680x510.jpg" alt="Tim Smith">
   <figcaption>Use the <code>.small__right</code> class for this particular styling</figcaption>

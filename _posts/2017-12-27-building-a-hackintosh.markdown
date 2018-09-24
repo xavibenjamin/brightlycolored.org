@@ -9,6 +9,7 @@ subtitle: My journey to an affordable, upgradable, and extensible Mac
 author: tjdraper
 custom_type: post
 ---
+
 <figure class="extendout">
   <img src="{{ site.url }}/uploads/2017/12/hackintosh.jpg" alt="Hackintosh">
 </figure>

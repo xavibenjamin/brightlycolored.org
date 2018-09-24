@@ -13,6 +13,7 @@ price: 2799
 vendor: the Apple Store
 review_url: https://www.apple.com/shop/buy-mac/macbook-pro/15-inch
 ---
+
 <figure class="extendout">
   <img src="{{ site.url }}/uploads/2016/12/macbook-pro-2016.jpg" alt="Taking a good picture of this laptop is hard">
   <figcaption>Taking a good picture of this laptop is hard</figcaption>

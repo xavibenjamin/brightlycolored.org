@@ -17,25 +17,25 @@ defaults:
     layout: post
     author: timsmith
     custom_type: link
-    subtitle:
+    subtitle: 
     review:
-      type:
-      rating:
+      type: 
+      rating: 
       movie:
-        director:
-        rating:
+        director: 
+        rating: 
       product:
-        brand:
+        brand: 
       app:
-        developer:
+        developer: 
       album:
-        artist:
-        favesong:
+        artist: 
+        favesong: 
       book:
-        author:
-      price:
-      url:
-      vendor:
+        author: 
+      price: 
+      url: 
+      vendor: 
 name: Development | Brightly Colored
 url: http://localhost:4000
 description: An exploration of design, development, tech, Geek culture, Apple, and

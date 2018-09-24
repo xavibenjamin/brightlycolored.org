@@ -14,6 +14,7 @@ price: 549
 review_url: https://www.apple.com/shop/buy-iphone/iphone6s
 vendor: the Apple Store
 ---
+
 <figure class="extendout">
   <img src="{{ site.url }}/uploads/2016/04/iphone-6s-plus.jpg" alt="My iPhone 6s Plus in all its glory.">
   <figcaption>My iPhone 6s Plus in all its glory.</figcaption>

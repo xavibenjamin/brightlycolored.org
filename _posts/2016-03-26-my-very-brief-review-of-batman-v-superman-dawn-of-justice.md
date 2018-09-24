@@ -21,6 +21,7 @@ review:
     director: Zack Snyder
     rating: PG-13
 ---
+
 <figure class="extendout">
   <img src="{{ site.url }}/uploads/2016/03/batmanvsuperman.jpg" alt="I specifically chose an image that had Wonder Woman in the center. She was my favorite character.">
   <figcaption>I specifically chose an image that had Wonder Woman in the center. She was my favorite character.</figcaption>

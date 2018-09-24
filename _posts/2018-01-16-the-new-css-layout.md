@@ -13,6 +13,7 @@ review:
   vendor: A Book Apart
   url: https://abookapart.com/products/the-new-css-layout
 ---
+
 <figure class="extendout">
   <img src="{{ site.url }}/uploads/2018/01/css-layout-book.jpg" alt="The New CSS Layout by Rachel Andrew. Photo taken in Cozumel, Mexico">
   <figcaption><em>The New CSS Layout</em> by Rachel Andrew. Photo taken in Cozumel, Mexico</figcaption>

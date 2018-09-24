@@ -17,6 +17,7 @@ review:
   vendor: Amazon
 featured_image: uploads/2018/03/jabra-featured.jpg
 ---
+
 <figure class="extendout">
   <img src="{{ site.url }}/uploads/2018/03/jabra-5.jpg" alt="The Jabra Move Wireless headphones">
   <figcaption>The Jabra Move Wireless headphones</figcaption>

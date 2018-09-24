@@ -7,6 +7,7 @@ layout: post
 custom_type: post
 subtitle: We've been married for a year now. It's flown by.
 ---
+
 <figure class="extendout">
   <img src="{{ site.url }}/uploads/2016/05/kelly-and-i-laughing.jpg" alt="I don't know what was said or done, but apparently we found it hilarious.">
   <figcaption>I don't know what was said or done, but apparently we found it hilarious.</figcaption>

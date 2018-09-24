@@ -22,6 +22,7 @@ review:
     director: Rian Johnson
     rating: PG-13
 ---
+
 <figure class="extendout">
   <img src="{{ site.url }}/uploads/media/luke-skywalker.jpg" alt="Mark Hamill as Luke Skywalker (Disney/Lucasfilm)">
   <figcaption>Mark Hamill as Luke Skywalker <em>(Disney/Lucasfilm)</em></figcaption>
