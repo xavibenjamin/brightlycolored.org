@@ -20,5 +20,5 @@ It's that time again! New comics come out tomorrow, so here's what I read last w
 ## Picking up this week
 
 - **The Amazing Spider-Man #6** - New arc! I wasn't all that happy with how easy the last arc wrapped up, but Nick Spencer is overall doing an excellent job with this book. Sad to see Ryan Ottley won't be back on art till issue #11.
-- **Jessica Jones #3**
+- **Jessica Jones #3** - Love how Kelly Thompson has been writing Jessica. This is the last issue of this arc, and I'll be picking up the trade when it comes out too.
 - **X-Men: Red #8** - Seriously thinking of framing the cover of this issue. Laura looks badass. Tom Taylor keeps doing great with this title. I hope the other X-titles don't mess with this one.
