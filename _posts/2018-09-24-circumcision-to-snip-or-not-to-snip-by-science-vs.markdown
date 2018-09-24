@@ -7,4 +7,4 @@ link_url: https://www.gimletmedia.com/science-vs/circumcision-to-snip-or-not-to-
 featured_image: "/uploads/xr4smljwy24x2q1j7x3s.jpeg"
 ---
 
-Fascinating episode of *Science Vs* on the health and sexual pros and cons of circumcision.
+Fascinating episode of *Science Vs* on the health and sexual benefits (or drawbacks!) of circumcision. Circumcision has a lot of religious things around it, but this episode focuses on the science behind it.
