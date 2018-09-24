@@ -14,7 +14,9 @@ I felt name *Brightly Colored* matched my personality. You'll normally find me w
 
 ## About Tim
 
-{% figure small__right /uploads/2013/09/tim_680x510.jpg %}
+<figure class="small__right">
+  <img src="{{ site.url }}/uploads/2013/09/tim_680x510.jpg" alt="Tim Smith">
+</figure>
 
 Writing about yourself is tough, but here we go.
 
@@ -55,12 +57,14 @@ Send me an email anytime. I love getting email from actual people. If you have a
 
 ### Cameras
 
-- [Canon EOS Rebel T7i](http://amzn.to/2EWr3VV)
+- [Sony α7 III](https://amzn.to/2QSa7GG)
 
 ### Lenses
 
-- [Canon EF 50mm ƒ/1.8 STM](http://amzn.to/2DnsHiR)
 - [Sigma 18-35mm ƒ/1.8](http://amzn.to/2DlWGYu)
+- [Sony FE 24-70mm ƒ/2.8 GM](https://amzn.to/2xBLPZy)
+- [Sony FE 50mm ƒ/1.8](https://amzn.to/2NCmYyP)
+- [Sony FE 85mm ƒ/1.8](https://amzn.to/2I9zNLf)
 
 The site is hosted by [Netlify](https://www.netlify.com/), and powered by [Jekyll](http://jekyllrb.com). *Brightly Colored* is typeset in Whitney by [Hoefler & Co.](http://www.typography.com/)
 

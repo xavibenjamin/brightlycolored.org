@@ -189,13 +189,13 @@ cite {
 sup {
   font-size: .7rem;
   a {
-    background: $light-bg-color;
+    background: darken($light-bg-color, 10%);
     border-radius: 50%;
     font-weight: 600;
     padding: 1px 6px;
     text-decoration: none;
     &:hover {
-      background: darken($light-bg-color, 5%);
+      background: darken($light-bg-color, 15%);
     }
   }
 }
@@ -239,7 +239,7 @@ hr {
   border-width: 1px 0 0;
   display: block;
   height: 0;
-  margin: 1rem auto;
+  margin: 1.8rem auto;
   padding: 0;
 }
 

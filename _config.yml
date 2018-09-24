@@ -17,7 +17,25 @@ defaults:
     layout: post
     author: timsmith
     custom_type: link
-    subtitle: 
+    subtitle:
+    review:
+      type:
+      rating:
+      movie:
+        director:
+        rating:
+      product:
+        brand:
+      app:
+        developer:
+      album:
+        artist:
+        favesong:
+      book:
+        author:
+      price:
+      url:
+      vendor:
 name: Development | Brightly Colored
 url: http://localhost:4000
 description: An exploration of design, development, tech, Geek culture, Apple, and
@@ -33,16 +51,8 @@ lunr_excludes:
 - atom.xml
 - atom.articles.xml
 - sitemap.xml
-plugins_dir: "./_plugins"
 highlighter: rouge
 port: 4200
-assets:
-  js_compressor: uglifier
-  css_compressor: sass
-  sources:
-  - _assets/fonts
-  - _assets/javascripts
-  - _assets/stylesheets
 post:
   extension: md
 livereload: true
@@ -50,9 +60,6 @@ markdown: kramdown
 markdown_ext: markdown,mkdown,mkdn,mkd,md,mdown
 kramdown:
   input: GFM
-gems:
-- jekyll-assets
-- jekyll-compose
-- jekyll-sitemap
-- jekyll-tagging-related_posts
-- jekyll-typogrify
+sass:
+  sass_dir: assets/stylesheets
+  style: :compressed

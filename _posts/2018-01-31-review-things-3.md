@@ -18,12 +18,12 @@ review:
 featured_image: uploads/2018/01/things-review-01.jpg
 excerpt: A task manager you will actually want to use
 ---
-
-{% figure extendout /uploads/2018/01/things-review-01.jpg "Things 3 on iPad." %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2018/01/things-review-01.jpg" alt="Things 3 on iPad">
+  <figcaption>Things 3 on iPad</figcaption>
+</figure>
 
 I've never been a fan of to-do apps. I don't use them. People everywhere seem to swear by these things. There's much talk about the whole GTD mentality, and what app is the best for getting things done.
-
-{% include toc.html %}
 
 The methodology didn't make sense to me, and I condescendingly felt that the key to getting things done was just action. Then I grew up, and realized that when you're juggling a plethora of responsibilities, it's incredibly easy for tasks to fall through the cracks. Writing down what needs to get done is not just smart, it's necessary.
 
@@ -51,7 +51,10 @@ Cultured Code has achieved an incredible feat here. These are four different app
 
 Where most to-do apps only allow you to create lists, Things 3 recognizes two types of lists: Projects and Areas. You can create tasks in both, but this type of organization has helped my workflow.
 
-{% figure extendout /uploads/2018/01/things-review-04.jpg "Things 3 gives you verious ways to manage to-dos." %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2018/01/things-review-04.jpg" alt="Things 3 gives you verious ways to manage to-dos">
+  <figcaption>Things 3 gives you verious ways to manage to-dos</figcaption>
+</figure>
 
 An area can be used to group projects and to-dos based on general responsibilities. For example, I have areas for work, side projects, personal, and family. Inside those areas I have projects for this site, my job search, etc.
 
@@ -61,7 +64,10 @@ Furthermore, you can organize tasks inside a project with headings. I often use 
 
 Each person will have their own way of using tags, I tend to use mine for quick bits of information that I can see at a glance.
 
-{% figure alignleft /uploads/2018/01/things-review-05.jpg "Tags can be a very powerful way of organizing your tasks." %}
+<figure class="alignleft">
+  <img src="{{ site.url }}/uploads/2018/01/things-review-05.jpg" alt="Tags can be a very powerful way of organizing your tasks">
+  <figcaption>Tags can be a very powerful way of organizing your tasks</figcaption>
+</figure>
 
 For example, I tag jobs that I apply for as either "remote" or "onsite". This helps me keep track of what types of jobs I'm applying for. I tag YouTube video ideas with the category the video fits into. It helps me plan videos so I don't do too much of the same.
 
@@ -71,7 +77,10 @@ Overall, I like the implementation of tags. I wish I could make certain tags lim
 
 Any modern to-do app needs some way to sync. Things does this via Things Cloud and doesn't offer any alternate way of syncing. Thankfully, [Cultured Code has a whole page explaining what this service is](https://culturedcode.com/things/cloud/) and how they've ensured its security.
 
-{% figure alignright /uploads/2018/01/things-review-03.jpg "Things Cloud allows you to see all your tasks on any device." %}
+<figure class="alignright">
+  <img src="{{ site.url }}/uploads/2018/01/things-review-03.jpg" alt="Things Cloud allows you to see all your tasks on any device">
+  <figcaption>Things Cloud allows you to see all your tasks on any device</figcaption>
+</figure>
 
 Syncing works flawlessly. The best type of syncing is the syncing you don't think about, and Things Cloud achieves this. I input tasks on iOS either via the app or share sheet, then organize those tasks on the Mac. Not once have I arrived at my Mac with tasks missing.
 

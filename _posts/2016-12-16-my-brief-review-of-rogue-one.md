@@ -21,8 +21,10 @@ review:
     director: Gareth Edwards
     rating: PG-13
 ---
-
-{% figure extendout /uploads/2016/12/rogue-one-jyn-erso.jpg "Felicity Jones as Jyn Erso in <em>Rogue One</em>." %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2016/12/rogue-one-jyn-erso.jpg" alt="Felicity Jones as Jyn Erso in Rogue One.">
+  <figcaption>Felicity Jones as Jyn Erso in <em>Rogue One</em>.</figcaption>
+</figure>
 
 Kelly and I went to go watch *Rogue One* on opening night. I purposely didn't read anything about the film, and was completely spoiler-free going in. Here are my thoughts, **that are full of spoilers**.
 

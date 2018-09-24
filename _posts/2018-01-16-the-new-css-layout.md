@@ -13,8 +13,10 @@ review:
   vendor: A Book Apart
   url: https://abookapart.com/products/the-new-css-layout
 ---
-
-{% figure extendout /uploads/2018/01/css-layout-book.jpg "<em>The New CSS Layout</em> by Rachel Andrew. Photo taken in Cozumel, Mexico." %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2018/01/css-layout-book.jpg" alt="The New CSS Layout by Rachel Andrew. Photo taken in Cozumel, Mexico">
+  <figcaption><em>The New CSS Layout</em> by Rachel Andrew. Photo taken in Cozumel, Mexico</figcaption>
+</figure>
 
 If you've been working on the web for the past few years, you've noticed how quickly our layout tools have improved. I gave four talks last year on CSS Grid. In just 2017, the feature went from being behind flags to having support in most modern browsers.
 

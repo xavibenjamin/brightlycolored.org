@@ -21,8 +21,10 @@ review:
     director: Zack Snyder
     rating: PG-13
 ---
-
-{% figure extendout /uploads/2016/03/batmanvsuperman.jpg "I specifically chose an image that had Wonder Woman in the center. She was my favorite character." %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2016/03/batmanvsuperman.jpg" alt="I specifically chose an image that had Wonder Woman in the center. She was my favorite character.">
+  <figcaption>I specifically chose an image that had Wonder Woman in the center. She was my favorite character.</figcaption>
+</figure>
 
 Is it good? The answer is underwhelming, and frankly I'm ambivalent. I didn't hate it, but I didn't like it either. Although the movie has some great moments, in the end, the story is all over the place. So many things are happening, and the *Justice League* setup takes precious time from this film standing on its own.
 

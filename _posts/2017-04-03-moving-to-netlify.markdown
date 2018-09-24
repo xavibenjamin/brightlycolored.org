@@ -12,8 +12,6 @@ custom_type: post
 
 In June 2015, I set out on a bold journey. One where no one had gone before. If you're thinking of space, hell yea that would be amazing, but no. I set out to host my Jekyll site on Heroku.
 
-{% include toc.html %}
-
 I'd been paying money for my static site to be deployed. There had to be a better way. I searched what felt like every corner of the internet to find a way to do this. Heroku could build my site straight from git. That would be amazing!
 
 After hours of reading blog posts and comments on all types of web forums (those still exist by the way), I found what I needed. As is often the case, finding the solution took way more time than actually implementing it. In just a few minutes I had deployed my site to Heroku and it was building directly from the latest commit on GitHub.

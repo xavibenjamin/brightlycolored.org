@@ -14,9 +14,10 @@ I published [the first post](https://theboldreport.net/2013/09/welcome/) on *The
 
 *The Bold Report* was created as a new Jekyll site—I was done using WordPress to blog. This is what it looked like when I started writing:
 
-{% figure extendout /uploads/2016/09/original-boldreport-design.jpg "Can you believe I thought that looked good? Also, boy has Google Chrome changed!" %}
-
-{% include toc.html %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2016/09/original-boldreport-design.jpg" alt="Can you believe I thought that looked good? Also, boy has Google Chrome changed!">
+  <figcaption>Can you believe I thought that looked good? Also, boy has Google Chrome changed!</figcaption>
+</figure>
 
 ## Personal Growth
 
@@ -51,7 +52,7 @@ In three years, I’ve published some pieces that I’m really proud of:
 
 In three years, I’ve written more than 300 posts, so this is a very short list of my favorites. Really, they’re all my favorites. I wouldn’t have published any of my pieces if I wasn’t proud of them.
 
-## Now for Some Stats!
+## Now for Some Stats
 
 [I did this about a month after launching the site]({% post_url 2013-10-23-our-first-month %}), and it’s time for an update. Unfortunately, I stopped using Google Analytics for a while and just started using it again, so some of their stats only cover the past few weeks. I figured I’d share the numbers that most people want to know: subscribers.
 
@@ -79,7 +80,9 @@ This box comes complete with an [AeroPress](http://www.aerobie.com/product/aerop
 
 This gift comes with a copy of [Issue 3 of *The Great Discontent*](https://shop.thegreatdiscontent.com/collections/issues/products/the-great-discontent-issue-three), a copy of [*Responsive Design: Patterns and Principles* by Ethan Marcotte](https://abookapart.com/products/responsive-design-patterns-principles), and a [Moleskine Grid Notebook](https://www.amazon.com/Moleskine-Classic-Notebook-Squared-Notebooks/dp/8883701135/ref=sr_1_1?ie=UTF8&qid=1474648471&sr=8-1&keywords=moleskine+grid+notebook). This box will inspire you, teach you new things, and then help you get your ideas down on paper.
 
-{% figure small__right /uploads/2016/09/spider-man-box.jpg %}
+<figure class="small__right">
+  <img src="{{ site.url }}/uploads/2016/09/spider-man-box.jpg" alt="Spider-Man Box">
+</figure>
 
 ### Spider-Man Box
 

@@ -17,6 +17,9 @@ Michael Lopp:
 
 I liked this. When I was in school, I'd often print out essays and edit them. For the first time in a long time, I did just that.
 
-{% figure extendout /uploads/2018/01/editing-things-review.jpg "Editing my upcoming review of Things 3" %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2018/01/editing-things-review.jpg" alt="Editing my upcoming review of Things 3">
+  <figcaption>Editing my upcoming review of Things 3</figcaption>
+</figure>
 
 The technique is supposed to put you in a different space. It allows you to separate yourself from the work and critique it as if it were someone else's. Try it. My soon to be published review is better because of it.

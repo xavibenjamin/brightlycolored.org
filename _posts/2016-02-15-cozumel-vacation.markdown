@@ -10,6 +10,9 @@ custom_type: post
 
 Dear Reader,
 
-{% figure extendout /uploads/2016/02/cozumel-drinks.jpg "I could really get used to this." %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2016/02/cozumel-drinks.jpg" alt="I could really get used to this.">
+  <figcaption>I could really get used to this.</figcaption>
+</figure>
 
 I'm in Cozumel at an all-inclusive this week. I'm busy enjoying the clear ocean water, having some great food, and unlimited drinks. Back to normal posting next week.

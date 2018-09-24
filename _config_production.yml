@@ -7,9 +7,6 @@ permalink: /:year/:month/:title/
 exclude: ['README.md', 'Rakefile', 'vendor', 'Gemfile.lock', '.asset-cache', 'bin']
 lunr_excludes: ['atom.xml', 'atom.articles.xml', 'sitemap.xml']
 
-# Where Things Are
-plugins_dir:  ./_plugins
-
 # Syntax Highlighting
 highlighter: rouge
 
@@ -17,15 +14,9 @@ highlighter: rouge
 port: 4000
 
 # Assets
-assets:
-  compress:
-    css: true
-    js: true
-  digest: true
-  sources:
-    - _assets/fonts
-    - _assets/javascripts
-    - _assets/stylesheets
+sass:
+  sass_dir: assets/stylesheets
+  style: :compressed
 
 # Markdown Rendering
 markdown: kramdown

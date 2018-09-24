@@ -34,14 +34,14 @@ code {
   }
 }
 
-.highlight {
+pre.highlight {
   background: #FCFCFC;
   border: 1px solid #F0F0F0;
   border-radius: $global-radius;
   color: #4D4D4C;
-  padding: 1rem;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
+  padding: 1rem;
   .c {
     color: #A7ADBA;
     font-style: italic;

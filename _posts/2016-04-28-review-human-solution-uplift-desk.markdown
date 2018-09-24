@@ -20,8 +20,6 @@ review:
 
 I've worked from home for about 6 years. In that time, I've invested real money into my office for about two. I'm grateful I did, and wish I would've started sooner. A few years ago, I bought myself a [Herman Miller Mirra](http://www.hermanmiller.com/products/seating/performance-work-chairs/mirra-2-chairs.html) chair.[^1]
 
-{% include toc.html %}
-
 [^1]: This is another great investment I recommend. You sit a lot. Even if you're trying to sit less, you need a good chair. This particular chair has been with me now for three years, and is as comfortable as it was on day one.
 
 We sit about 8 hours a day, and anything to minimize that is a good thing. Plus, my motto this year is: Live Healthy. Buying a standing desk is only one of the changes I've been trying to make.
@@ -36,7 +34,10 @@ Before I tell you why I love the desk I bought, I thought I'd tell you how I wen
 
 With that criteria in mind, I bought the [Human Solution Uplift with a bamboo top](http://www.thehumansolution.com/stand-up-desk-with-bamboo-top.html). Let me tell you a little about why I've liked it.
 
-{% figure extendout /uploads/2016/04/human-solution-uplift.jpg "The Human Solution Uplift in my office." %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2016/04/human-solution-uplift.jpg" alt="The Human Solution Uplift in my office.">
+  <figcaption>The Human Solution Uplift in my office.</figcaption>
+</figure>
 
 ## Quality
 
@@ -60,7 +61,10 @@ Daily use is easy. I chose the controller with defined presets. I'm the only one
 
 Configuring new presets is simple. You adjust it to the height you want, and you press and hold on the number you'd like to assign that height to. That's it. I'm telling you, they've made it very simple.
 
-{% figure alignright /uploads/2016/04/uplift-controller.jpg "The uplift controller makes it very simple to add new presets. Keep in mind that this controller is the upgrade to the standard one that comes with the desk." %}
+<figure class="alignright">
+  <img src="{{ site.url }}/uploads/2016/04/uplift-controller.jpg" alt="The uplift controller makes it very simple to add new presets. Keep in mind that this controller is the upgrade to the standard one that comes with the desk.">
+  <figcaption>The uplift controller makes it very simple to add new presets. Keep in mind that this controller is the upgrade to the standard one that comes with the desk.</figcaption>
+</figure>
 
 ## Price
 

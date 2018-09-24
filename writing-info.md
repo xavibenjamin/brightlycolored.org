@@ -10,8 +10,6 @@ excerpt: Guidelines for writing on Brightly Colored.
 
 First of all, thank you for your interest in contributing! That means a lot. This guide was made to make contributing to *Brightly Colored* easier. If you feel there's something missing here or you have questions, you can send an email to: [smith@ttimsmith.com](mailto:smith@ttimsmith.com?subject=[brightlycolored.org] Question about contributing) or [add an issue to the repo](https://github.com/smithtimmytim/brightlycolored.org/issues/new).
 
-{% include toc.html %}
-
 ## Getting Setup
 
 If you want to run the site on your local machine, here are the steps to follow.
@@ -74,13 +72,16 @@ Code is written with GitHub Formatted Markdown.
 
 ### Images
 
-Use the custom function if you only need one image.
+Use the `<figure>` element for images.
 
-```liquid
-{% raw %}{% figure classname path/to/image.png "Caption Goes Here" %}{% endraw %}
+```html
+{% raw %}<figure class="extendout">
+  <img src="{{ site.url }}/path/to/image.jpg" alt="Alt text here">
+  <figcaption>Caption here</figcaption>
+</figure>{% endraw %}
 ```
 
-If you want a photo grid, you'll need to use HTML in your post. You can find possible photo grid options on the [Style Guide](/styleguide). It'll look something like this:
+You can find possible photo grid options on the [Style Guide](/styleguide). It'll look something like this:
 
 ```html
 {% raw %}<figure class="photo-grid photo-grid--three">

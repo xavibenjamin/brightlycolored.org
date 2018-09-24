@@ -5,8 +5,10 @@ layout: page
 exclude_from_search: true
 excerpt: Style guide for Brightly Colored.
 ---
-
-{% figure small__right /uploads/2013/09/tim_680x510.jpg "Use the <code>.small__right</code> class for this particular styling." %}
+<figure class="small__right">
+  <img src="{{ site.url }}/uploads/2013/09/tim_680x510.jpg" alt="Tim Smith">
+  <figcaption>Use the <code>.small__right</code> class for this particular styling</figcaption>
+</figure>
 
 This page exists to show the different components and pieces of *Brightly Colored*. More than anything, I maintain it because I think style guides are interesting. There's also a [writing style guide](/styleguide/writing/) if you enjoy that type of stuff.
 
@@ -15,12 +17,10 @@ This website is currently set in Whitney for primary and secondary text, and Whi
 ## Heading Two
 Secondary headings are used to separate portions of text. I don't ever use links in headings unless it's a link post. Primary headings are only used once in the page title or post title. Links in regular text look like [this](/styleguide).
 
-{% figure extendout /uploads/2014/01/sonos-top_view.jpg "This image style can be used with the <code>.extendout</code> class." %}
-
-```liquid
-# This is how you use the figure tag
-{% raw %}{% figure className /path/to/img.jpg "Caption in quotes" %}{% endraw %}
-```
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2014/01/sonos-top_view.jpg" alt="Sonos top view">
+  <figcaption>This image style can be used with the <code>.extendout</code> class</figcaption>
+</figure>
 
 As normal, you've got styles for `inline code`, *italics*,  and **bold text**. Inline code is used when the code isn't multi-line. Italics are used for emphasis, and bold is hardly used but when it is, it's used for the necessary visual contrast.
 
@@ -35,7 +35,10 @@ As normal, you've got styles for `inline code`, *italics*,  and **bold text**. I
 
 - These are pretty cool sometimes, but like I said, don't really use them all that often.
 
-{% figure alignright /uploads/2013/10/1p4-mac-create-new-vault.png "Use the <code>.alignright</code> class for this image styling. Use of images is encouraged." %}
+<figure class="alignright">
+  <img src="{{ site.url }}/uploads/2013/10/1p4-mac-create-new-vault.png" alt="Create new vault in 1Password 4">
+  <figcaption>Use the <code>.alignright</code> class for this image styling. Use of images is encouraged</figcaption>
+</figure>
 
 ##### Heading Five
 Level five headings are not used often, but are used to list articles of further reading. When that's the case, we [display the link](/styleguide) — then give a bit of context to the article separated by an em dash.
@@ -57,7 +60,10 @@ More text that explains the goal and gives context. Tells you why I'm setting th
    2. And it's got two items people
 3. And this is the last item
 
-{% figure alignleft /uploads/2013/10/1p4-mac-1p-mini-item-details.png "For this image styling, use the <code>.alignleft</code> class. I like to use captions for the most part, not required though." %}
+<figure class="alignleft">
+  <img src="{{ site.url }}/uploads/2013/10/1p4-mac-1p-mini-item-details.png" alt="1Password Mini details">
+  <figcaption>For this image styling, use the <code>.alignleft</code> class. I like to use captions for the most part, not required though</figcaption>
+</figure>
 
 Here's a `blockquote` for you. These are mostly used in link posts to quote writing from elsewhere. They're usually preceded by the person who said or wrote the quote.
 

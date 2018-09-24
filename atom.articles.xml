@@ -36,7 +36,7 @@ layout:
         {% if post.subtitle %}
           <h2>{{ post.subtitle }}</h2>
         {% endif %}
-        {{ post.content | strip_toc }}
+        {{ post.content }}
         {% if post.rss_only %}
         <hr>
         <p><em>This article is top secret! <a href="https://brightlycolored.org/2018/01/rss-club/">Learn more about RSS Club.</a></em></p>

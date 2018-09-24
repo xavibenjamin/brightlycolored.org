@@ -9,12 +9,11 @@ subtitle: My journey to an affordable, upgradable, and extensible Mac
 author: tjdraper
 custom_type: post
 ---
-
-{% figure extendout /uploads/2017/12/hackintosh.jpg %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2017/12/hackintosh.jpg" alt="Hackintosh">
+</figure>
 
 So I really gave it away in the title, but, uhh, I built a computer. And that computer allegedly runs macOS. Why would I do this? How did I do this? What was my experience like? I intend to answer all these questions my friends.
-
-{% include toc.html %}
 
 ## Why Would I Do This?
 
