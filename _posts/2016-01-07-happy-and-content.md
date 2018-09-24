@@ -12,13 +12,19 @@ subtitle: The title perfectly encapsulates my year. 2015 came and went, and as u
 
 This was by far the best year in a long time. Kelly and I were married on May 9. It was the best day of my life.
 
-{% figure extendout /uploads/2016/01/smith-wedding-party-silly.jpg "With our amazing wedding party. (Photo by Cayan Brock)" %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2016/01/smith-wedding-party-silly.jpg" alt="With our amazing wedding party. (Photo by Cayan Brock)">
+  <figcaption>With our amazing wedding party. (Photo by Cayan Brock)</figcaption>
+</figure>
 
 We were surrounded by all of our friends and family who smothered us in so much love and happiness. If I could, I would live that day over and over. It sounds so sappy, but I just can't help it.
 
 ## Working Full-time Again
 
-{% figure small__right /uploads/2016/01/acl-hiking.jpg "ACL took us on a team-building excursion in May, which turned out to be awesome. Our team name was: The Totems." %}
+<figure class="small__right">
+  <img src="{{ site.url }}/uploads/2016/01/acl-hiking.jpg" alt="ACL took us on a team-building excursion in May, which turned out to be awesome. Our team name was: The Totems.">
+  <figcaption>ACL took us on a team-building excursion in May, which turned out to be awesome. Our team name was: The Totems.</figcaption>
+</figure>
 
 Having a "regular" day job has its pros and cons. After running my own business for so long, having a more rigid schedule where I work 5 days a week has been difficult to get used to.
 

@@ -15,7 +15,10 @@ But, you might also feel that you don't know where to get started. How do you le
 
 Let's say you want two columns. I was working on basic two column layout for my resume on my site. The layout for that is essentially this:
 
-{% figure extendout /uploads/2017/01/column-layout.jpg "Pretty simple right? A main column and a sidebar." %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2017/01/column-layout.jpg" alt="Pretty simple right? A main column and a sidebar">
+  <figcaption>Pretty simple right? A main column and a sidebar</figcaption>
+</figure>
 
 Till now, we've used hacks using Float and even Flexbox to make this layout possible. Funnily enough, even Flexbox isn't the ideal solution for this layout, it's actually Grid. Using Flexbox, you'd have to code it up something like this:
 

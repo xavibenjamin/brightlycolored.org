@@ -7,8 +7,10 @@ layout: post
 custom_type: post
 subtitle: Let's talk comic books!
 ---
-
-{% figure extendout /uploads/2016/05/comics-stacked.jpg "It’s a lot harder to take a picture of comics than I thought" %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2016/05/comics-stacked.jpg" alt="It’s a lot harder to take a picture of comics than I thought">
+  <figcaption>It’s a lot harder to take a picture of comics than I thought</figcaption>
+</figure>
 
 The last time I picked up a comic, was when I was still a kid. I never collected, but I read the ones I could get my hands on. About a year ago, I read the whole Civil War event in anticipation of this year's movie, and then the Age of Ultron event. I was hooked. I realized I’d been missing out on so much story absent from the movies. I learned more about characters that were friends, were romantically involved, then come together to solve a problem. I was seeing characters I’d liked in film (and some that I wasn’t too fond of) in a whole new light.
 
@@ -102,7 +104,6 @@ There are two drawbacks though. I’ve noticed that trades become available on A
 ### ComiXology
 
 I used [this app](https://www.comixology.com/) once before it was acquired by Amazon. I wouldn’t recommend this route. I hear purchasing comics through this app has become very difficult, and feel it takes away from the comic book reading experience. I love to feel the comic in my hand and then put them on my shelf. But that’s just me. I’m including it as an option because I know of others who use it and like it.
-
 
 ## What Now?
 

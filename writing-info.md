@@ -72,13 +72,16 @@ Code is written with GitHub Formatted Markdown.
 
 ### Images
 
-Use the custom function if you only need one image.
+Use the `<figure>` element for images.
 
-```liquid
-{% raw %}{% figure classname path/to/image.png "Caption Goes Here" %}{% endraw %}
+```html
+{% raw %}<figure class="extendout">
+  <img src="{{ site.url }}/path/to/image.jpg" alt="Alt text here">
+  <figcaption>Caption here</figcaption>
+</figure>{% endraw %}
 ```
 
-If you want a photo grid, you'll need to use HTML in your post. You can find possible photo grid options on the [Style Guide](/styleguide). It'll look something like this:
+You can find possible photo grid options on the [Style Guide](/styleguide). It'll look something like this:
 
 ```html
 {% raw %}<figure class="photo-grid photo-grid--three">

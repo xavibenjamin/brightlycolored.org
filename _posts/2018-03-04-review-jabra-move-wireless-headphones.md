@@ -17,8 +17,10 @@ review:
   vendor: Amazon
 featured_image: uploads/2018/03/jabra-featured.jpg
 ---
-
-{% figure extendout /uploads/2018/03/jabra-5.jpg "The Jabra Move Wireless headphones." %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2018/03/jabra-5.jpg" alt="The Jabra Move Wireless headphones">
+  <figcaption>The Jabra Move Wireless headphones</figcaption>
+</figure>
 
 Audio is important to me. If I'm going somewhere, working, cleaning, taking a shower, or just needing to relax, you'll likely find me listening to something. Sometimes it's music with a great beat, and other times it's a riveting podcast.
 
@@ -39,7 +41,10 @@ I decided to purchase the Jabra Move Wireless headphones. If you're in the marke
 
 The headphones are very well-built. The band combines a stainless steel frame with a soft material that cushions the top. The ear cups are plastic on the outside and soft pleather on the inside.
 
-{% figure alignright /uploads/2018/03/jabra-1.jpg "The stainless steel frame and the soft fabric of the headband, make for an aesthetically-pleasing look in addition to a quality build you can&nbsp;feel." %}
+<figure class="alignright">
+  <img src="{{ site.url }}/uploads/2018/03/jabra-1.jpg" alt="The stainless steel frame and the soft fabric of the headband make for an aesthetically-pleasing look in addition to a quality build you can feel">
+  <figcaption>The stainless steel frame and the soft fabric of the headband, make for an aesthetically-pleasing look in addition to a quality build you can&nbsp;feel</figcaption>
+</figure>
 
 The Jabra Move Wireless headphones feel light but not cheap or easily breakable. They could definitely handle being thrown into your backpack or bag, and they can equally handle being dropped with minor (if any) evidence.
 
@@ -51,7 +56,10 @@ Bluetooth audio sucks. It just does. There is no comparison to wired audio. Blue
 
 Still, Bluetooth audio is not created equal. Some headphones I've tested don't sound good at all, even when not compared to a wired connection. Not the case with the Jabra Move Wireless headphones. The audio they produce is full and rich, and they handle a variety of musical styles excellently. Additionally, the headphones manage podcasts and talk radio very well.
 
-{% figure alignleft /uploads/2018/03/jabra-4.jpg "Labeled earcups help you make sure you have the headphones on&nbsp;right." %}
+<figure class="alignleft">
+  <img src="{{ site.url }}/uploads/2018/03/jabra-4.jpg" alt="Labeled earcups help you make sure you have the headphones on right">
+  <figcaption>Labeled earcups help you make sure you have the headphones on&nbsp;right</figcaption>
+</figure>
 
 I never felt like I was missing sounds I could’ve heard on other headphones. For me, it comes down to the fact that all Bluetooth audio is compressed—some headphones do a better job of hiding that fact.
 
@@ -60,7 +68,10 @@ I was nervous buying over-ear headphones. In the past I had bought a pair of Bea
 
 These headphones changed my mind. Yes, they are over-ear headphones, but they’re comfortable. The ear cups are comfy and soft, and the headband is flexible enough to accommodate my large head. When I first got them, I tested the headphones for two hours straight and didn’t feel any ear pain or discomfort on the top of my head.
 
-{% figure extendout /uploads/2018/03/jabra-3.jpg "Jabra's minimal branding helps these look great wherever you have them." %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2018/03/jabra-3.jpg" alt="Jabra's minimal branding helps these look great wherever you have them">
+  <figcaption>Jabra's minimal branding helps these look great wherever you have them</figcaption>
+</figure>
 
 That being said, I do wish Jabra offered an around-ear option. Headphones like the [Bose QC35](http://amzn.to/2oPewNn) or the [Sony MDR-1000X](http://amzn.to/2H07PzF) still beat these headphones in the comfort department because they don't apply any pressure to the ears.
 

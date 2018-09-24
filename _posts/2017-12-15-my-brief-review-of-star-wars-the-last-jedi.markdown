@@ -22,8 +22,10 @@ review:
     director: Rian Johnson
     rating: PG-13
 ---
-
-{% figure extendout /uploads/media/luke-skywalker.jpg "Mark Hamill as Luke Skywalker (Disney/Lucasfilm)" %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/media/luke-skywalker.jpg" alt="Mark Hamill as Luke Skywalker (Disney/Lucasfilm)">
+  <figcaption>Mark Hamill as Luke Skywalker <em>(Disney/Lucasfilm)</em></figcaption>
+</figure>
 
 As what's become tradition with films we're really looking forward to, Kelly and I with some friends and my cousin went to watch *Star Wars: The Last Jedi* on opening night. Here are some thoughts on the movie, careful for **spoilers**.
 

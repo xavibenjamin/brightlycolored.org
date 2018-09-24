@@ -12,11 +12,17 @@ link_url: http://thewirecutter.com/reviews/best-iphone-6-case/
 
 Yesterday, I went out and got myself an iPhone 6.[^1] I've had an iPhone since the iPhone 4, and at first I had a screen protector on it, and a bulky case.[^2] When I upgraded to an 5s last year, I decided that I wasn't going to use a case anymore. I wanted it naked so as to not devalue the beauty and design of the phone.
 
-{% figure extendout /uploads/2014/10/iPhone5s-front.jpg "My iPhone 5s on the front side. You'll notice no huge scratches or dings." %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2014/10/iPhone5s-front.jpg" alt="My iPhone 5s on the front side. You'll notice no huge scratches or dings.">
+  <figcaption>My iPhone 5s on the front side. You'll notice no huge scratches or dings.</figcaption>
+</figure>
 
 It wasn't that bad. The phone did pretty well on some minor drops. I made it a point to treat the phone as if it had a case, but still take care of it as much as possible. In my opinion, the phone still looks pretty great, but I've included some pictures[^3] for you to judge yourself.
 
-{% figure alignright /uploads/2014/10/iPhone5s-back.jpg "The back side of my iPhone 5s. Again no scratches! I've had this phone for a year, and that it's in such great condition without a case, is pretty surprising." %}
+<figure class="alignright">
+  <img src="{{ site.url }}/uploads/2014/10/iPhone5s-back.jpg" alt="The back side of my iPhone 5s. Again no scratches! I've had this phone for a year, and that it's in such great condition without a case, is pretty surprising.">
+  <figcaption>The back side of my iPhone 5s. Again no scratches! I've had this phone for a year, and that it's in such great condition without a case, is pretty surprising.</figcaption>
+</figure>
 
 With that said, when I got the new iPhone, I decided to look into cases just for kicks. *The Wirecutter* did an amazing review of cases, and in fact they recommend one as "the best (so far)". I've linked the full article and review above. If you're also looking for a case, I think you'll find their opinions interesting. I ordered one, and will write something on it once I've used it for a month or two.[^4]
 

@@ -5,8 +5,10 @@ layout: post
 custom_type: post
 subtitle: My thoughts on this year's Super Bowl.
 ---
-
-{% figure extendout /uploads/2016/02/super-bowl-50.jpg "Friends and family who came over for our Super Bowl party." %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2016/02/super-bowl-50.jpg" alt="Friends and family who came over for our Super Bowl party.">
+  <figcaption>Friends and family who came over for our Super Bowl party.</figcaption>
+</figure>
 
 I'll keep this brief:
 

@@ -34,7 +34,10 @@ Before I tell you why I love the desk I bought, I thought I'd tell you how I wen
 
 With that criteria in mind, I bought the [Human Solution Uplift with a bamboo top](http://www.thehumansolution.com/stand-up-desk-with-bamboo-top.html). Let me tell you a little about why I've liked it.
 
-{% figure extendout /uploads/2016/04/human-solution-uplift.jpg "The Human Solution Uplift in my office." %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2016/04/human-solution-uplift.jpg" alt="The Human Solution Uplift in my office.">
+  <figcaption>The Human Solution Uplift in my office.</figcaption>
+</figure>
 
 ## Quality
 
@@ -58,7 +61,10 @@ Daily use is easy. I chose the controller with defined presets. I'm the only one
 
 Configuring new presets is simple. You adjust it to the height you want, and you press and hold on the number you'd like to assign that height to. That's it. I'm telling you, they've made it very simple.
 
-{% figure alignright /uploads/2016/04/uplift-controller.jpg "The uplift controller makes it very simple to add new presets. Keep in mind that this controller is the upgrade to the standard one that comes with the desk." %}
+<figure class="alignright">
+  <img src="{{ site.url }}/uploads/2016/04/uplift-controller.jpg" alt="The uplift controller makes it very simple to add new presets. Keep in mind that this controller is the upgrade to the standard one that comes with the desk.">
+  <figcaption>The uplift controller makes it very simple to add new presets. Keep in mind that this controller is the upgrade to the standard one that comes with the desk.</figcaption>
+</figure>
 
 ## Price
 

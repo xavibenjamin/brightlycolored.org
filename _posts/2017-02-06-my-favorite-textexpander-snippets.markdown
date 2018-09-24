@@ -25,15 +25,24 @@ What's greater, I can use TextExpander anywhere: on my Mac, iPad, and iPhone. He
 
 By typing `;foodreview`, I get a form that asks me if I'd go back, how pricey the restaurant was, who I went with, what I ordered, and a general summary.
 
-{% figure alignleft /uploads/2017/02/restaurant-review-snippet.jpg "Ever go back to a restaurant you really liked, but don't remember what you ordered? No longer!" %}
+<figure class="alignleft">
+  <img src="{{ site.url }}/uploads/2017/02/restaurant-review-snippet.jpg" alt="Ever go back to a restaurant you really liked, but don't remember what you ordered? No longer!">
+  <figcaption>Ever go back to a restaurant you really liked, but don't remember what you ordered? No longer!</figcaption>
+</figure>
 
 My movie review snippet is similar. By typing `;moviereview`, I easily log movies I've watched. Some of those movies end up getting their own [brief review](/topics/#brief-review) here on *The Bold Report*, but for those that don't, my thoughts are recorded somewhere. [This one was originally made by David Sparks](https://www.macsparky.com/blog/2013/9/textexpander-snippets-media-review), but I modified it and formatted a few things in Markdown.
 
-{% figure alignright /uploads/2017/02/movie-review-snippet.jpg "I watch a lot of movies, so giving these reviews some structure is very helpful." %}
+<figure class="alignright">
+  <img src="{{ site.url }}/uploads/2017/02/movie-review-snippet.jpg" alt="I watch a lot of movies, so giving these reviews some structure is very helpful">
+  <figcaption>I watch a lot of movies, so giving these reviews some structure is very helpful.</figcaption>
+</figure>
 
 My last Day One snippet is an end of the day summary. I downloaded this snippet from [Chuck Grimmett](http://cagrimmett.com/2015/12/02/five-minute-journal-textexpander.html) and modified them for my use. I only do this once a day in the evening and it helps me remember key things that happened that day. A little reflection each day feels healthy to me, and reminds me there is so much to be grateful for.
 
-{% figure alignleft /uploads/2017/02/five-minute-journal-snippet.jpg "This is so easy to fill out, and helps me reflect on the day" %}
+<figure class="alignleft">
+  <img src="{{ site.url }}/uploads/2017/02/five-minute-journal-snippet.jpg" alt="This is so easy to fill out, and helps me reflect on the day">
+  <figcaption>This is so easy to fill out, and helps me reflect on the day</figcaption>
+</figure>
 
 [Download my Day One snippets](https://app.textexpander.com/public/0d970e960bbcf44b686e84e06dd918a4).
 

@@ -14,8 +14,10 @@ price: 549
 review_url: https://www.apple.com/shop/buy-iphone/iphone6s
 vendor: the Apple Store
 ---
-
-{% figure extendout /uploads/2016/04/iphone-6s-plus.jpg "My iPhone 6s Plus in all its glory." %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2016/04/iphone-6s-plus.jpg" alt="My iPhone 6s Plus in all its glory.">
+  <figcaption>My iPhone 6s Plus in all its glory.</figcaption>
+</figure>
 
 The bigger size is definitely noticeable in my hand. Using buttons in the upper part of the screen is a little difficult at first, but the awkwardness of the bigger size went away in a couple weeks. Keep in mind that I’m 6’2” with large hands, but I have friends with smaller hands that still love this phone. It’s whether you’re comfortable using it with two hands or not.
 

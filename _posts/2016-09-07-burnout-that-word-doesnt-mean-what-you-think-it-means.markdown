@@ -23,8 +23,6 @@ I saw [this tweet thread](https://twitter.com/sarahmei/status/771093162676727808
 
 This is the stage I find myself in. I'm not super involved in the conversations inside the web space, and its kind of been like this for about 3 years now. Guess what? I regret nothing!
 
-{% figure small__right http://i.giphy.com/p837FJ0slt0eQ.gif "I regret nothing!" %}
-
 What Sarah brings out so eloquently is that you go through ebb and flows of activity—it's normal. Even more importantly, trying to diagnose it as burnout just reinforces the idea that you somehow need to “prevent” it. You don't need to prevent it, do what you want to do. The consistency of change in life is something you can count on. Priorities will change, and things that were important to you at one point, will no longer be. Being involved in important web conversations was so important to me at one point, but it’s not anymore.
 
 I wrote articles, spoke at conferences, podcasted, made all sorts of things—spent every waking moment thinking about the web, and it didn't make me happy. I made some pretty high profile friends, and was at the table with some amazingly smart people, but the void in my life only grew. There I was in the middle of my 15 seconds of web fame, feeling like I was missing out on something better.

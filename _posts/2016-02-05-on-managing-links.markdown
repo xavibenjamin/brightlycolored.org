@@ -20,7 +20,10 @@ So what's my system? I use [Pocket](https://getpocket.com/) and [IFTTT](https://
 ## Links I'm Going to Write About
 When I've read something interesting and want to write about it, I save the link to Pocket and tag it `link`. IFTTT watches Pocket for items marked `link`, and creates a text file in Dropbox with all the YAML front matter it needs. Here's what the recipe looks like:
 
-{% figure extendout /uploads/2016/02/pocket-to-dropbox.jpg "Pocket to Dropbox IFTTT Recipe" %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2016/02/pocket-to-dropbox.jpg" alt="Pocket to Dropbox IFTTT Recipe">
+  <figcaption>Pocket to Dropbox IFTTT Recipe</figcaption>
+</figure>
 
 The beauty of this system is that these links are accessible from any device. If all I have is my iPad, I can write. If all I have is my phone, I can still write. The setup leaves me no excuse not to write… unless I haven't seen anything interesting of course. And recently, [when I figured out how to publish from iOS](/2016/01/publishing-to-jekyll-from-ios/), I've ended up writing more and publishing sooner.
 
@@ -29,7 +32,10 @@ It also saves a lot of time. In the past, I'd email the link to myself. This clu
 ## Links I Want to Come Back To
 Again, Pocket and IFTTT do the heavy lifting here. I save the link to Pocket and tag it `mac`. IFTTT then watches for that tag, and adds the item to an email digest that's emailed daily at 7am. If there are no new links, no email is sent. Here's what the recipe looks like:
 
-{% figure extendout /uploads/2016/02/pocket-to-email.jpg "Pocket to Email Digest Recipe." %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2016/02/pocket-to-email.jpg" alt="Pocket to Email Digest Recipe.">
+  <figcaption>Pocket to Email Digest Recipe.</figcaption>
+</figure>
 
 Sure, someone might not want yet another email, but I honestly don't get much. Instead of just having a barrage of emails with links to myself, I have one email with all the links from the night before.
 

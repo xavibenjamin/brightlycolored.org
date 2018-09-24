@@ -13,8 +13,10 @@ price: 2799
 vendor: the Apple Store
 review_url: https://www.apple.com/shop/buy-mac/macbook-pro/15-inch
 ---
-
-{% figure extendout /uploads/2016/12/macbook-pro-2016.jpg "Taking a good picture of this laptop is hard" %}
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/2016/12/macbook-pro-2016.jpg" alt="Taking a good picture of this laptop is hard">
+  <figcaption>Taking a good picture of this laptop is hard</figcaption>
+</figure>
 
 For the first time since 2010, I went out and bought a brand new computer. I chose the 15-inch Space Gray, 2.7 GHz Intel Core i7 MacBook Pro with 512GB SSD and 16 GB of RAM. [Setting up the new machine was easy because I've automated the heck out of it](/2016/12/speeding-up-your-new-mac-setup/). Here are my brief thoughts on the laptop:
 
