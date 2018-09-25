@@ -36,3 +36,8 @@ defaults:
       author: timsmith
       custom_type: link
       subtitle:
+
+collections:
+  uploads:
+    title: Uploads
+    output: true  
