@@ -9,6 +9,7 @@ custom_type: post
 
 <figure class="extendout">
   <img src="{{ site.url }}/uploads/pull-list-09-26-2018.jpg" alt="Comics from last week">
+  <figcaption><strong>From left to right:</strong> West Coast Avengers #2, Return of Wolverine #1, and Mr. & Mrs. X #3</figcaption>
 </figure>
 
 It's that time again! New comics come out tomorrow, so here's what I read last week and what I'm picking up this week.
