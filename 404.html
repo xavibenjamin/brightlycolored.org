@@ -17,7 +17,7 @@ excerpt: This is not the page you are looking for… or is it?
 {% capture tags %}
   {% for tag in site.tags limit: 15 %}
     <li data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}">
-       <a href="#{{ tag[0] | downcase | replace:' ','-' }}">{{ tag[0] | titlecase }}</a>
+       <a href="/topics/#{{ tag[0] | downcase | replace:' ','-' }}">{{ tag[0] | titlecase }}</a>
     </li>
   {% endfor %}
 {% endcapture %}
