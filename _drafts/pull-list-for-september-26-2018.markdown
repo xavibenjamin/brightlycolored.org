@@ -7,6 +7,10 @@ tags:
 custom_type: post
 ---
 
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/pull-list-09-26-2018.jpg" alt="Comics from last week">
+</figure>
+
 It's that time again! New comics come out tomorrow, so here's what I read last week and what I'm picking up this week.
 
 ## What I read last week
