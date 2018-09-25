@@ -1,6 +1,6 @@
 ---
 title: New Logo and Identity for Uber | Brand New
-date: 2018-09-25 09:28:00 -05:00
+date: 2018-09-25 09:42:00 -05:00
 tags:
 - design
 - tech
