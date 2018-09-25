@@ -3,6 +3,7 @@ title: Fix Broken Images from Siteleaf
 date: 2018-09-24 21:41:00 -05:00
 tags:
 - development
+subtitle: Images weren't working for me, but I finally figured out what was wrong
 custom_type: post
 ---
 
