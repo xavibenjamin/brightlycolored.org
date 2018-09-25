@@ -14,4 +14,4 @@ I was so excited to talk with Suz. She's a wonderful person, and I loved hearing
 
 Sponsored by:
 
-- [Linode](https://linode.com/changelog) - **Our cloud server of choice.** Deploy a fast, efficient, native SSD cloud server for only $5/month. Get 4 months free using the code `changelog2018`. Start your server - head to [linode.com/changelog](https://linode.com/changelog)
+- [Linode](https://linode.com/changelog) - Deploy a fast, efficient, native SSD cloud server for only $5/month. Get 4 months free using the code `changelog2018`. Start your server - head to [linode.com/changelog](https://linode.com/changelog)
