@@ -1,10 +1,11 @@
 ---
 title: Pull List for September 26, 2018
-date: 2018-09-21 19:53:00 -05:00
+date: 2018-09-24 21:22:00 -05:00
 tags:
 - comics
 - pull list
 custom_type: post
+featured_image: uploads/pull-list-09-26-2018.jpg
 ---
 
 <figure class="extendout">
