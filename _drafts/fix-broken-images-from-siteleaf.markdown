@@ -18,4 +18,4 @@ collection:
     output: true
 ```
 
-Voilà! Images work now.
+Voilà! Hope this helps you.
