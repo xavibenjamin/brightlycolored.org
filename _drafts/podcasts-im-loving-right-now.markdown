@@ -6,7 +6,10 @@ tags:
 custom_type: post
 ---
 
-- Reply All
+
+- **Reply All** - Been listening to this podcast from the first episode. PJ and Alex have great chemistry, and I always love the stories Sruthi Pinnamaneni reports on. Here are two episodes I recommend:
+  - [#13: Love is Lies](https://www.gimletmedia.com/reply-all/13-love-is-lies)
+  - [#16: Why is Mason Reese Crying?](https://www.gimletmedia.com/reply-all/16-why-is-mason-reese-crying)
 - Welcome to Macintosh
 - Today Explained
 - Death, Sex & Money
