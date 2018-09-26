@@ -12,7 +12,7 @@ custom_type: post
   - [#16: Why is Mason Reese Crying?](https://www.gimletmedia.com/reply-all/16-why-is-mason-reese-crying)
 - **Welcome to Macintosh** - Sure, there are many shows about Apple news, but *Welcome to Macintosh* focuses on the impact it's had on people. This is hands down the best produced show on Apple.
   - [#4: The End of Macworld As We Know It](https://www.macintosh.fm/episodes/4)
-  - [15: The Orchard](https://www.macintosh.fm/episodes/15)
+  - [#15: The Orchard](https://www.macintosh.fm/episodes/15)
 - **Today Explained** - Keeps me informed on what's going on in the world.
 - **Death, Sex & Money** - Love this show. Anna Sale has some amazing conversations with celebrities and "regular" people alike about things that are sometimes difficult to talk about. Turns out, us humans have a lot in common.
   - [Nick Offerman Can Take Directions](http://www.wnycstudios.org/story/nick-offerman-death-sex-money/)
