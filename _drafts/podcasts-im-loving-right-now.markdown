@@ -17,11 +17,12 @@ custom_type: post
 - **Death, Sex & Money** - Love this show. Anna Sale has some amazing conversations with celebrities and "regular" people alike about things that are sometimes difficult to talk about. Turns out, us humans have a lot in common.
   - [Nick Offerman Can Take Directions](http://www.wnycstudios.org/story/nick-offerman-death-sex-money/)
   - [Autism Isn’t What I Signed Up For](http://www.wnyc.org/story/autism-death-sex-money/)
-- **Switched on Pop**
-- **Heavyweight**
-- **Science Vs** - We live in a world where the gap between what people believe and what is true seems to be widening. Love that this show tackles common things and examines the science behind them.
+- **Science Vs** - We live in a world where the gap between what people believe and what is true seems to be widening. This show tackles things that have a certain buzz around them and examines the science behind it.
   - [Circumcision: To Snip or Not to Snip](https://www.gimletmedia.com/science-vs/circumcision-to-snip-or-not-to-snip)
   - [The G-spot](https://www.gimletmedia.com/science-vs/6-the-g-spot)
-- **Song Exploder**
-- **Away from Keyboard**
-- **Changelog Master Feed**
+- **Song Exploder** - I love music, and am the type of person that listens carefully to hear the different instruments and effects that were probably used to create the song. If you're like me, you'll love this show.
+  - [Episode 45: Thundercat](http://songexploder.net/thundercat)
+  - [Episode 53: The Martian](http://songexploder.net/the-martian)
+- **Away from Keyboard** - Ok, so some shameless self-promotion here, but I love this show. Not only am I proud of the work I've put into it, in a short amount of time, I've had the chance to tell the stories of some great people.
+  - [Ashley Baxter is excited about… insurance?](https://changelog.com/afk/3)
+  - [Jeff Robbins is an actual rockstar](https://changelog.com/afk/4)
