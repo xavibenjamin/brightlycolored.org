@@ -7,6 +7,11 @@ tags:
 custom_type: post
 ---
 
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/things-i-read-09-26-2018.jpg" alt="Things I read on Sept 26, 2018">
+  <figcaption><strong>From left to right:</strong>Saga Vol. 4, X-Men: Red #8, The New World #3, and Man-Eaters #1</figcaption>
+</figure>
+
 ## What I read last week
 
 - **Man-Eaters #1** - After reading [this profile of Chelsea Cain](https://www.thedailybeast.com/chelsea-cain-returns-yeah-im-dead-to-marvel-trust-me), I became an instant fan. She just seems awesome. So I picked up this first issue and couldn't be more pleased. I thought the premise was funny and the book delivered. Looking forward to future issues.
