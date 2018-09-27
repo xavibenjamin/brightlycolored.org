@@ -14,12 +14,14 @@ defaults:
     path: ''
     type: posts
   values:
-    subtitle: 
     custom_type: link
+    subtitle: 
+    excerpt:
     layout: post
     author: timsmith
     link_url: 
-    featured_image: 
+    featured_image:
+    rss_only: 
     review:
       type: 
       rating: 
