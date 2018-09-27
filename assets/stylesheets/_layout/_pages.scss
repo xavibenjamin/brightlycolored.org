@@ -45,12 +45,14 @@
   align-items: center;
   .author__name {
     font-size: 1.4rem;
+    letter-spacing: -.8px;
   }
 
   .author__title {
     color: lighten($body-color, 15%);
     @extend %sans;
     font-size: .9rem;
+    letter-spacing: -.8px;
     margin-bottom: 1rem;
     margin-top: 0;
     text-transform: none;
