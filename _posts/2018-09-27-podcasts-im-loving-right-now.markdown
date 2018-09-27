@@ -1,6 +1,6 @@
 ---
 title: Podcasts I’m Loving Right Now
-date: 2018-09-22 14:23:00 -05:00
+date: 2018-09-27 11:45:00 -05:00
 tags:
 - podcasts
 subtitle: Let me recommend you some podcasts
@@ -13,7 +13,7 @@ featured_image: uploads/iphone-playing-podcast.jpg
   <figcaption><em>Heavyweight</em> playing in Overcast.</figcaption>
 </figure>
 
-Not only do I produce podcasts for a living at Changelog Media, I happen to be a big fan of them too. If you're looking for new things to listen to, let me recommend some. I even included two of my favorite episodes with each recommendation. These are in no particular order.
+Not only do I produce podcasts for a living at [Changelog Media](https://changelog.com/), I happen to be a big fan of them too. If you're looking for new things to listen to, here's a list of my current favorites. I even included two of my favorite episodes with each recommendation. These are in no particular order.
 
 - **Reply All** - Been listening to this podcast from the first episode. PJ and Alex have great chemistry, and I always love the stories Sruthi Pinnamaneni reports on.
   - [#13: Love is Lies](https://www.gimletmedia.com/reply-all/13-love-is-lies)
