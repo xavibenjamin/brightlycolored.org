@@ -1,3 +1,4 @@
+{% if page.tags.size > 0 %}
 {% assign maxRelated = 3 %}
 
 {% assign minCommonTags =  1 %}
@@ -39,3 +40,4 @@
     {% endfor %}
   </ul>
 </div>
+{% endif %}

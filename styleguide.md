@@ -23,7 +23,7 @@ Secondary headings are used to separate portions of text. I don't ever use links
   <figcaption>This image style can be used with the <code>.extendout</code> class</figcaption>
 </figure>
 
-As normal, you've got styles for `inline code`, *italics*,  and **bold text**. Inline code is used when the code isn't multi-line. Italics are used for emphasis, and bold is hardly used but when it is, it's used for the necessary visual contrast.
+As normal, you've got styles for `inline code`, *italics*,  and **bold text**. Inline code is used when the code isn't multi-line. Italics are used for emphasis, and bold is hardly used but when it is, it's used for the necessary visual contrast. <mark>This is highlighted text.</mark>
 
 - This is an unordered list.
 - Second list item
