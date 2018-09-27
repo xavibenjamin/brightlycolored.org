@@ -9,7 +9,7 @@ custom_type: post
 
 <figure class="extendout">
   <img src="{{ site.url }}/uploads/things-i-read-09-26-2018.jpg" alt="Things I read on Sept 26, 2018">
-  <figcaption><strong>From left to right:</strong>Saga Vol. 4, X-Men: Red #8, The New World #3, and Man-Eaters #1</figcaption>
+  <figcaption><strong>From left to right:</strong> Saga Vol. 4, X-Men: Red #8, The New World #3, and Man-Eaters #1</figcaption>
 </figure>
 
 ## What I read last week
