@@ -3,6 +3,8 @@ title: Podcasts I’m Loving Right Now
 date: 2018-09-27 11:45:00 -05:00
 tags:
 - podcasts
+excerpt: Not only do I produce podcasts for a living at Changelog Media, I happen
+  to be a big fan of them too.
 subtitle: Let me recommend you some podcasts
 custom_type: post
 featured_image: uploads/iphone-playing-podcast.jpg
