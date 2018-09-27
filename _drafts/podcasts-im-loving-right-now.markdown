@@ -3,13 +3,17 @@ title: Podcasts I’m Loving Right Now
 date: 2018-09-22 14:23:00 -05:00
 tags:
 - podcasts
+subtitle: Let me recommend you some podcasts
 custom_type: post
+featured_image: uploads/iphone-playing-podcast.jpg
 ---
 
 <figure class="extendout">
   <img src="{{ site.url }}/uploads/iphone-playing-podcast.jpg" alt="iPhone playing Heavyweight">
   <figcaption><em>Heavyweight</em> playing in Overcast.</figcaption>
 </figure>
+
+Not only do I produce podcasts for a living at Changelog Media, I happen to be a big fan of them too. If you're looking for new things to listen to, let me recommend some. I even included two of my favorite episodes with each recommendation. These are in no particular order.
 
 - **Reply All** - Been listening to this podcast from the first episode. PJ and Alex have great chemistry, and I always love the stories Sruthi Pinnamaneni reports on.
   - [#13: Love is Lies](https://www.gimletmedia.com/reply-all/13-love-is-lies)
@@ -27,6 +31,11 @@ custom_type: post
 - **Song Exploder** - I love music, and am the type of person that listens carefully to hear the different instruments and effects that were probably used to create the song. If you're like me, you'll love this show.
   - [Episode 45: Thundercat](http://songexploder.net/thundercat)
   - [Episode 53: The Martian](http://songexploder.net/the-martian)
+- **Heavyweight** - Jonathan Goldstein is a master storyteller. These are deeply personal stories that at times have me in tears. 
+  - [#5: Galit](https://www.gimletmedia.com/heavyweight/5-galit)
+  - [#10: Rose](https://www.gimletmedia.com/heavyweight/10-rose)
 - **Away from Keyboard** - Ok, so some shameless self-promotion here, but I love this show. Not only am I proud of the work I've put into it, in a short amount of time, I've had the chance to tell the stories of some great people.
   - [Ashley Baxter is excited about… insurance?](https://changelog.com/afk/3)
   - [Jeff Robbins is an actual rockstar](https://changelog.com/afk/4)
+
+Happy podcast listening!
