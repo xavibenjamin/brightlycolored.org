@@ -16,11 +16,11 @@ defaults:
   values:
     custom_type: link
     subtitle: 
-    excerpt:
+    excerpt: 
     layout: post
     author: timsmith
     link_url: 
-    featured_image:
+    featured_image: 
     rss_only: 
     review:
       type: 
