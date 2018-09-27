@@ -6,6 +6,10 @@ tags:
 custom_type: post
 ---
 
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/iphone-playing-podcast.jpg" alt="iPhone playing Heavyweight">
+  <figcaption><em>Heavyweight</em> playing in Overcast.</figcaption>
+</figure>
 
 - **Reply All** - Been listening to this podcast from the first episode. PJ and Alex have great chemistry, and I always love the stories Sruthi Pinnamaneni reports on.
   - [#13: Love is Lies](https://www.gimletmedia.com/reply-all/13-love-is-lies)
