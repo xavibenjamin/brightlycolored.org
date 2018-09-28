@@ -8,12 +8,17 @@ tags:
 custom_type: post
 excerpt: Dark Phoenix is the last X-Men film 20th Century Fox will produce before
   handing the back the characters to Marvel Studios.
+featured_image: uploads/x-men-dark-phoenix.jpg
 ---
 
 <div class="iframe-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QWbMckU3AOQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
-20th Century Fox's swang song is *Dark Phoenix*, the last X-Men movie they'll produce before the characters go back to Marvel Studios. *X-Men: Days of Future Past* is probably my favorite X-Men film of the ones made, and while I'll miss some of this cast (not you, Jennifer Lawrence), I'm so excited to get to MCU X-Men.
+20th Century Fox's swan song is *Dark Phoenix*, the last X-Men movie they'll produce before the characters go back to Marvel Studios. I'm anxious to see Sophie Turner reprise her role as Jean Grey. We didn't get to see her do much in *X-Men: Apocalypse*.
 
-*Dark Phoenix* premiers on February 14, 2019.
+*X-Men: Days of Future Past* is probably my favorite X-Men film so far, and while I'll miss most of this cast (not you, Jennifer Lawrence), I can't wait for the X-Men to be part of the MCU. In [Kevin Feige](https://en.wikipedia.org/wiki/Kevin_Feige) we trust!
+
+If you'd like more information on what this movie is about, be sure to watch [Emergency Awesome's excellent video](https://youtu.be/loarJ7u3TN0.
+
+*Dark Phoenix* debuts on February 14, 2019.
