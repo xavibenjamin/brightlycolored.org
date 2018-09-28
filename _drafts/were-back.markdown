@@ -5,10 +5,10 @@ tags:
 - from the editor
 - site news
 custom_type: post
-subtitle: "*Brightly Colored* lives again"
+subtitle: Brightly Colored lives again
 ---
 
-Ok, so "we" is a lot of people, but I'm writing to tell you that this site is back. You may have noticed I've been writing for the past few days. I missed it.
+Ok, so "we" is a lot of people, it's really just me, but I'm writing to tell you that this site is back. You may have noticed I've been writing for the past few days. I missed it.
 
 But this time around, I've set a few rules for myself:
 
