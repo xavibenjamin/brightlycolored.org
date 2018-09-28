@@ -1,0 +1,19 @@
+---
+title: We're Back!
+date: 2018-09-28 13:38:00 -05:00
+tags:
+- from the editor
+- site news
+custom_type: post
+subtitle: "*Brightly Colored* lives again"
+---
+
+Ok, so "we" is a lot of people, but I'm writing to tell you that this site is back. You may have noticed I've been writing for the past few days. I missed it.
+
+But this time around, I've set a few rules for myself:
+
+- I'll write whenever I feel like it, and won't worry if it's not perfect
+- I **will not** look at stats of any kind (subscriber count, retweets, favorites, or whatever the hell else becomes a thing)
+- I will write because it's fun and has a personal archival purpose, **not** because I want recognition or validation
+
+Thanks for reading. Hope you had a great summer.
