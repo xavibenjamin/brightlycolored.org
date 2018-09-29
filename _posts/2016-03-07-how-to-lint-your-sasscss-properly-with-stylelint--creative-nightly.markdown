@@ -4,7 +4,7 @@ date: 2016-03-07 09:03:00 -06:00
 tags:
 - CSS
 - development
-- sass
+- Sass
 layout: post
 custom_type: link
 link_url: http://www.creativenightly.com/2016/02/How-to-lint-your-css-with-stylelint/

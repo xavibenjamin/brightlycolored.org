@@ -2,7 +2,7 @@
 title: Apple Removing Ports from MacBook Pro?
 date: 2016-09-15 11:00:00 -05:00
 tags:
-- MacBook pro
+- MacBook Pro
 - headphone jack
 layout: post
 author: tjdraper

@@ -2,7 +2,7 @@
 title: Laura Kalbag on Being Open
 date: 2013-10-17 11:49:07 -05:00
 tags:
-- a list apart
+- A List Apart
 - business
 layout: post
 custom_type: link

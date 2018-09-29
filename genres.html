@@ -25,7 +25,7 @@ excerpt: Genres covered on Brightly Colored.
       {% if genre[1].size == i  %}
         <li>
           <a href="#{{ genre[0] | downcase | replace:' ','-' }}" title="{{ i }} posts">
-            {{ genre[0] | titlecase }}
+            {{ genre[0] }}
             <span>{{ i }}</span>
           </a>
         </li>
@@ -49,8 +49,8 @@ excerpt: Genres covered on Brightly Colored.
                 {% for post in genre.last %}
                   <li class="group-post__item group-post__item--bold">
                     <a href="{{ post.url }}">
-                      <span class="group-post__meta-info">{{ post.review.type | titlecase }} Review</span>
-                      {{ post.title | caps }}
+                      <span class="group-post__meta-info">{{ post.review.type | capitalize }} Review</span>
+                      {{ post.title }}
                     </a>
                   </li>
                 {% endfor %}

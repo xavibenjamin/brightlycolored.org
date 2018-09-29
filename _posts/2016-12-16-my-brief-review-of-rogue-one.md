@@ -6,7 +6,7 @@ categories:
 - adventure
 - sci-fi
 tags:
-- star wars
+- Star Wars
 - brief review
 - movies
 - movie review

@@ -3,7 +3,7 @@ title: Starting with Sass
 date: 2013-10-07 13:50:16 -05:00
 tags:
 - development
-- sass
+- Sass
 layout: post
 custom_type: link
 link_url: http://chrisbowler.com/journal/sass

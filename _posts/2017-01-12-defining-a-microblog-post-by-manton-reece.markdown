@@ -2,7 +2,7 @@
 title: Defining a Microblog Post by Manton Reece
 date: 2017-01-12 10:51:00 -06:00
 tags:
-- twitter
+- Twitter
 - microblogging
 custom_type: link
 link_url: http://www.manton.org/2014/09/defining-a-microblog-post.html

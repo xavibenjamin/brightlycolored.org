@@ -2,7 +2,7 @@
 title: Two Ulysses “Problems” People Have | The Brooks Review
 date: 2016-03-21 00:00:00 -05:00
 tags:
-- ulysses
+- Ulysses
 - apps
 layout: post
 custom_type: link

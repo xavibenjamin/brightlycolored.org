@@ -4,7 +4,7 @@ date: 2017-12-19 10:47:00 -06:00
 tags:
 - Marvel
 - movies
-- star wars
+- Star Wars
 link_url: http://www.bbc.com/news/business-42353545
 ---
 

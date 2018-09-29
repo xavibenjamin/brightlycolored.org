@@ -3,7 +3,7 @@ title: Why I Quit Twitter — and Left Behind 35,000 Followers | Th New York Tim
 date: 2016-06-14 10:49:00 -05:00
 tags:
 - online abuse
-- twitter
+- Twitter
 layout: post
 custom_type: link
 link_url: http://www.nytimes.com/2016/06/10/insider/why-i-quit-twitter-and-left-behind-35000-followers.html

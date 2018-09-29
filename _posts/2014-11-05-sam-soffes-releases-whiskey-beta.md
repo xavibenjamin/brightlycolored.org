@@ -3,7 +3,7 @@ title: Sam Soffes Releases Whiskey Beta
 date: 2014-11-05 12:12:38 -06:00
 tags:
 - apps
-- markdown
+- Markdown
 layout: post
 custom_type: link
 link_url: http://sam.roon.io/value-of-beta

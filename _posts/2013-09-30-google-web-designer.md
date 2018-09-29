@@ -2,7 +2,7 @@
 title: Google Web Designer
 date: 2013-09-30 11:41:11 -05:00
 tags:
-- google
+- Google
 - design
 layout: post
 custom_type: link

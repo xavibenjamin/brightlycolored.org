@@ -31,7 +31,7 @@
     justify-content: space-between;
     padding: .4rem 0;
     text-decoration: none;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     &:hover,
     &:focus {
       color: $primary-color;
@@ -127,11 +127,9 @@
   align-items: center;
   display: flex;
   @extend %sans;
-  font-size: .9rem;
+  font-size: 1rem;
   font-weight: 600;
-  letter-spacing: .5px;
   margin-top: 0;
-  text-transform: uppercase;
 }
 
 .group__count {

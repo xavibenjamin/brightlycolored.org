@@ -2,7 +2,7 @@
 title: James Christie on Sustainable Web Design
 date: 2013-09-24 10:10:39 -05:00
 tags:
-- a list apart
+- A List Apart
 - web performance
 - development
 layout: post

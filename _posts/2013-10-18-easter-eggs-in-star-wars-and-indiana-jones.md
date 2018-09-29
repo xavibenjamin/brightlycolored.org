@@ -2,7 +2,7 @@
 title: Easter Eggs in Star Wars and Indiana Jones
 date: 2013-10-18 10:58:22 -05:00
 tags:
-- star wars
+- Star Wars
 - movies
 layout: post
 custom_type: link

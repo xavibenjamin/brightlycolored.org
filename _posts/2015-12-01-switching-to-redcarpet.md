@@ -4,7 +4,7 @@ date: 2015-12-01 00:28:46 -06:00
 tags:
 - development
 - Jekyll
-- markdown
+- Markdown
 layout: post
 custom_type: post
 ---

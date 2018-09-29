@@ -2,7 +2,7 @@
 title: Does the Web Industry Have a Drinking Problem?
 date: 2013-10-24 11:49:34 -05:00
 tags:
-- a list apart
+- A List Apart
 - industry issues
 layout: post
 custom_type: link

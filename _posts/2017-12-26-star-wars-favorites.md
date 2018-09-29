@@ -2,7 +2,7 @@
 title: My Favorite Star Wars Movies
 date: 2017-12-26 15:29:00 -06:00
 tags:
-- star wars
+- Star Wars
 - movies
 custom_type: post
 ---
