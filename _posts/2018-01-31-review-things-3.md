@@ -15,7 +15,7 @@ review:
   price: 9.99-$49.99
   vendor: Mac App Store
   url: https://itunes.apple.com/us/app/things-3/id904280696?mt=12
-featured_image: /uploads/2018/01/things-review-01.jpg
+featured_image: "/uploads/2018/01/things-review-01.jpg"
 excerpt: A task manager you will actually want to use
 ---
 

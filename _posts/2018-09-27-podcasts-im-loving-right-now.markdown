@@ -7,7 +7,7 @@ excerpt: Not only do I produce podcasts for a living at Changelog Media, I happe
   to be a big fan of them too.
 subtitle: Let me recommend you some podcasts
 custom_type: post
-featured_image: /uploads/iphone-playing-podcast.jpg
+featured_image: "/uploads/iphone-playing-podcast.jpg"
 ---
 
 <figure class="extendout">

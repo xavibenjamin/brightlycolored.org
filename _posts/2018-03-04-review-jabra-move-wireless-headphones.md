@@ -15,7 +15,7 @@ review:
   price: 69.99
   url: http://amzn.to/2oHSIEd
   vendor: Amazon
-featured_image: /uploads/2018/03/jabra-featured.jpg
+featured_image: "/uploads/2018/03/jabra-featured.jpg"
 ---
 
 <figure class="extendout">
