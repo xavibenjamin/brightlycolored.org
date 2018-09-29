@@ -8,7 +8,7 @@ tags:
 excerpt: Though I didn't personally read this comic, I *obviously* saw pictures. You
   barely see enough to realize that Batman is packin'.
 link_url: https://www.bleedingcool.com/2018/09/27/dc-comics-reprint-batman-damned-1-2-late/
-featured_image: uploads/batman-damned-1.jpg
+featured_image: /uploads/batman-damned-1.jpg
 ---
 
 Rich Johnston for *Bleeding Cool*:

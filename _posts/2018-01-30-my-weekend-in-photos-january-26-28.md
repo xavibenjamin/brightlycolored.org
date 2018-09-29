@@ -5,7 +5,7 @@ tags:
 - photography
 subtitle: January 26–28, 2018
 custom_type: post
-featured_image: uploads/2018/01/20180127-IMG_1906.jpg
+featured_image: /uploads/2018/01/20180127-IMG_1906.jpg
 ---
 
 I rented a lens for the weekend. Some of the photos have quite a bit of noise, which is a huge bummer. Biggest lesson of the weekend is to buy an off-camera flash. I've decided to go with the [YONGNUO YN660](http://amzn.to/2BDqONt). It's very affordable, and can be extended with more flashes because of its built-in transmitter and receiver. I rented a two thousand dollar lens, and it didn't disappoint. Here are the pictures.

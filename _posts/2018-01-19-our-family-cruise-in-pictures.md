@@ -4,7 +4,7 @@ date: 2018-01-19 18:14:00 -06:00
 tags:
 - photography
 custom_type: post
-featured_image: uploads/2018/01/cruise-featured.jpg
+featured_image: /uploads/2018/01/cruise-featured.jpg
 ---
 
 Earlier this week, I promised to share some of my favorite photos from the cruise. This was only the second time I'd taken my camera on a trip, and as you might be able to tell, much to learn I still have.

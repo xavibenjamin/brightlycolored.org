@@ -8,7 +8,7 @@ tags:
 custom_type: post
 excerpt: Dark Phoenix is the last X-Men film 20th Century Fox will produce before
   handing the back the characters to Marvel Studios.
-featured_image: uploads/x-men-dark-phoenix.jpg
+featured_image: /uploads/x-men-dark-phoenix.jpg
 ---
 
 <div class="iframe-container">
