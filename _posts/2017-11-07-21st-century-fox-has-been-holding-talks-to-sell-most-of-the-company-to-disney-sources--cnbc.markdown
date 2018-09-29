@@ -5,7 +5,7 @@ date: 2017-11-07 10:25:00 -06:00
 tags:
 - movies
 - star wars
-- marvel
+- Marvel
 link_url: https://www.cnbc.com/2017/11/06/21st-century-fox-has-been-holding-talks-to-sell-most-of-company-to-disney-sources.html
 ---
 

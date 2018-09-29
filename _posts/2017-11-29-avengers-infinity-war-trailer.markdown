@@ -3,7 +3,7 @@ title: "‘Avengers: Infinity War’ Trailer"
 date: 2017-11-29 13:27:00 -06:00
 tags:
 - movies
-- marvel
+- Marvel
 custom_type: post
 ---
 

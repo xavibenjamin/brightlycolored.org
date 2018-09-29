@@ -7,7 +7,7 @@ categories:
 - sci-fi
 tags:
 - movies
-- marvel
+- Marvel
 - movie review
 - review
 - my videos

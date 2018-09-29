@@ -3,7 +3,7 @@ title: Magneto Blamed for JFK Murder
 date: 2013-11-27 09:48:03 -06:00
 tags:
 - movies
-- marvel
+- Marvel
 layout: post
 custom_type: link
 link_url: http://www.theverge.com/2013/11/26/5148024/x-men-viral-site-magneto-responsible-for-jfk-murder
