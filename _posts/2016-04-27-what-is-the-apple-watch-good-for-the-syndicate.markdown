@@ -2,7 +2,7 @@
 title: What Is the Apple Watch Good For? |The Syndicate
 date: 2016-04-27 08:48:00 -05:00
 tags:
-- apple watch
+- Apple Watch
 - tech
 layout: post
 custom_type: link

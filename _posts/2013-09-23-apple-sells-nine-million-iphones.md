@@ -2,7 +2,7 @@
 title: Apple Sells Nine Million iPhones in a Weekend
 date: 2013-09-23 11:43:37 -05:00
 tags:
-- apple
+- Apple
 - iPhone
 layout: post
 custom_type: link

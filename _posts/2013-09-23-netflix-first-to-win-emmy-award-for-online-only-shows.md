@@ -2,7 +2,7 @@
 title: Netflix First to Win Emmy Award for Online-Only Shows
 date: 2013-09-23 14:03:04 -05:00
 tags:
-- netflix
+- Netflix
 - tech
 - TV
 layout: post

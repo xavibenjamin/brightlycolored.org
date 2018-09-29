@@ -2,7 +2,7 @@
 title: What the Mac Needs in 2018 | Macworld
 date: 2018-01-22 10:43:00 -06:00
 tags:
-- apple
+- Apple
 - macOS
 link_url: https://www.macworld.com/article/3244657/macs/what-the-mac-needs-in-2018.html
 ---

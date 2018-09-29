@@ -2,8 +2,8 @@
 title: Marco Arment on Apple’s Recent Event
 date: 2013-10-25 12:19:57 -05:00
 tags:
-- apple
-- apple event
+- Apple
+- Apple event
 layout: post
 custom_type: link
 link_url: http://www.marco.org/2013/10/24/off

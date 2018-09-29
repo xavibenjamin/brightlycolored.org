@@ -2,7 +2,7 @@
 title: Display Spaces and The Dock
 date: 2016-10-06 11:30:00 -05:00
 tags:
-- apple
+- Apple
 - macOS
 layout: post
 author: tjdraper

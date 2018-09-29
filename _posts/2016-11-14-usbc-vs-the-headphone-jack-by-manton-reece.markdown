@@ -2,7 +2,7 @@
 title: USB-C vs. the Headphone Jack by Manton Reece
 date: 2016-11-14 14:57:00 -06:00
 tags:
-- apple
+- Apple
 - headphone jack
 - tech
 layout: post

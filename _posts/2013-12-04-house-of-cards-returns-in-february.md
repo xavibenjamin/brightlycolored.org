@@ -2,7 +2,7 @@
 title: "‘House of Cards’ Returns in February"
 date: 2013-12-04 12:14:46 -06:00
 tags:
-- netflix
+- Netflix
 - TV
 layout: post
 custom_type: link

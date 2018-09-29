@@ -2,7 +2,7 @@
 title: The App Store Problem
 date: 2013-09-25 11:50:17 -05:00
 tags:
-- apple
+- Apple
 - app store
 - apps
 layout: post

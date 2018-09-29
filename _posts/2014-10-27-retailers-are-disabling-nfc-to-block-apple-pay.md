@@ -2,7 +2,7 @@
 title: "‘Retailers Are Disabling NFC to Block Apple Pay’"
 date: 2014-10-27 14:18:49 -05:00
 tags:
-- apple
+- Apple
 - tech
 layout: post
 custom_type: link

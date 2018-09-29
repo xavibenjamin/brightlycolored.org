@@ -2,7 +2,7 @@
 title: Marvel Creating Superhero Shows for Netflix
 date: 2013-11-07 12:55:45 -06:00
 tags:
-- netflix
+- Netflix
 - Marvel
 - TV
 layout: post

@@ -2,7 +2,7 @@
 title: 'Hey, Apple: It’s Time to Rethink iCloud | Macworld'
 date: 2016-09-09 11:19:00 -05:00
 tags:
-- apple
+- Apple
 - iOS
 layout: post
 custom_type: link

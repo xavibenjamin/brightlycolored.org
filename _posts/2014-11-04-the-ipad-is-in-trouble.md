@@ -2,7 +2,7 @@
 title: The iPad Is in Trouble?
 date: 2014-11-04 14:31:19 -06:00
 tags:
-- apple
+- Apple
 - iPad
 layout: post
 custom_type: link

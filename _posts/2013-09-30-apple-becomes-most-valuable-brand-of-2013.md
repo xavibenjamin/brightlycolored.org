@@ -2,7 +2,7 @@
 title: Apple Becomes ‘Most Valuable Brand’ of 2013
 date: 2013-09-30 12:05:04 -05:00
 tags:
-- apple
+- Apple
 - tech
 layout: post
 custom_type: link

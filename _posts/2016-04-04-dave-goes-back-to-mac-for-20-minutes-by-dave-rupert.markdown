@@ -2,7 +2,7 @@
 title: Dave Goes Back to Mac for 20 Minutes by Dave Rupert
 date: 2016-04-04 08:50:00 -05:00
 tags:
-- microsoft
+- Microsoft
 - web performance
 layout: post
 custom_type: link

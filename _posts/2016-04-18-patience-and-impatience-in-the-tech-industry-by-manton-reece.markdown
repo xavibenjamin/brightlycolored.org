@@ -2,7 +2,7 @@
 title: Patience and Impatience in the Tech Industry by Manton Reece
 date: 2016-04-18 08:34:00 -05:00
 tags:
-- apple
+- Apple
 - tech
 layout: post
 custom_type: link

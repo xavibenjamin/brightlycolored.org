@@ -2,7 +2,7 @@
 title: Netflix Breaking From All-At-Once Release Strategy with ‘Turbo Fast’
 date: 2013-12-04 12:17:50 -06:00
 tags:
-- netflix
+- Netflix
 - TV
 layout: post
 custom_type: link

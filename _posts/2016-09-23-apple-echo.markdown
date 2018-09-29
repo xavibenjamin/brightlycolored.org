@@ -3,7 +3,7 @@ title: Apple Echo
 date: 2016-09-23 13:55:00 -05:00
 tags:
 - tech
-- apple
+- Apple
 layout: post
 author: tjdraper
 custom_type: link
