@@ -3,7 +3,7 @@ title: Hello, Jekyll by Trent Walton
 date: 2016-11-09 11:45:00 -06:00
 tags:
 - development
-- jekyll
+- Jekyll
 layout: post
 custom_type: link
 link_url: http://trentwalton.com/notes/2016/11/01/jekyll.html

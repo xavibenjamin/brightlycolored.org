@@ -3,7 +3,7 @@ title: Pinging FeedPress with Rake
 date: 2014-10-27 16:08:45 -05:00
 tags:
 - RSS
-- jekyll
+- Jekyll
 - development
 layout: post
 custom_type: link

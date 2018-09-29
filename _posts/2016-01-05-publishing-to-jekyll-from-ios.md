@@ -3,7 +3,7 @@ title: Publishing To Jekyll From iOS
 date: 2016-01-05 01:25:00 -06:00
 tags:
 - development
-- jekyll
+- Jekyll
 - iOS
 layout: post
 custom_type: post

@@ -2,7 +2,7 @@
 title: Remove Table of Contents From a Jekyll RSS Feed
 date: 2017-11-07 07:30:00 -06:00
 tags:
-- jekyll
+- Jekyll
 - development
 custom_type: post
 subtitle: How is this not a post on the internet yet?
