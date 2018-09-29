@@ -5,7 +5,7 @@ tags:
 - comics
 - pull list
 custom_type: post
-featured_image: uploads/pull-list-09-26-2018.jpg
+featured_image: /uploads/pull-list-09-26-2018.jpg
 ---
 
 <figure class="extendout">
