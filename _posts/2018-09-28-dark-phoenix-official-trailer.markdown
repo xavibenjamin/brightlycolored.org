@@ -21,4 +21,6 @@ featured_image: uploads/x-men-dark-phoenix.jpg
 
 If you'd like more information on what this movie is about, be sure to watch [Emergency Awesome's excellent video](https://youtu.be/loarJ7u3TN0).
 
-*Dark Phoenix* debuts on February 14, 2019.
+*Dark Phoenix* debuts on June 7, 2019.
+
+**Update on 09/28/2018 at 6:59pm CDT**: Updated release date after [Deadline reported the delay](https://deadline.com/2018/09/dark-phoenix-alita-battle-angel-deadpool-gambit-release-date-changes-1202473229/).
