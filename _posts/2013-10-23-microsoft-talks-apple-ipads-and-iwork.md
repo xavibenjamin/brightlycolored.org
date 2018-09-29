@@ -2,8 +2,8 @@
 title: Microsoft Talks Apple iPads and iWork
 date: 2013-10-23 16:30:34 -05:00
 tags:
-- microsoft
-- apple
+- Microsoft
+- Apple
 - iPad
 layout: post
 custom_type: link

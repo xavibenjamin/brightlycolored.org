@@ -3,7 +3,7 @@ title: "‘Not Just a Boy Scout’"
 date: 2014-04-24 00:00:00 -05:00
 tags:
 - podcasts
-- marvel
+- Marvel
 - comics
 layout: post
 custom_type: link

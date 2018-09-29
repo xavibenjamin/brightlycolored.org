@@ -3,7 +3,7 @@ title: "‘Incredibles 2’ Teaser"
 date: 2017-11-27 15:44:00 -06:00
 tags:
 - movies
-- pixar
+- Pixar
 custom_type: post
 ---
 

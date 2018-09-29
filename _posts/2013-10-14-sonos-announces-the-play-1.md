@@ -2,7 +2,7 @@
 title: Sonos Announces the Play:1
 date: 2013-10-14 11:57:23 -05:00
 tags:
-- sonos
+- Sonos
 - tech
 layout: post
 custom_type: link

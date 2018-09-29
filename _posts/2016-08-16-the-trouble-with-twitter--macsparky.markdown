@@ -2,7 +2,7 @@
 title: The Trouble with Twitter — MacSparky
 date: 2016-08-16 08:52:00 -05:00
 tags:
-- twitter
+- Twitter
 - online abuse
 layout: post
 custom_type: link

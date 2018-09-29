@@ -4,7 +4,7 @@ title: "‘Justice League’ Cinematographer Endorses Zack Snyder’s Cut as Fan
 date: 2017-11-27 16:08:00 -06:00
 tags:
 - movies
-- DC comics
+- DC Comics
 link_url: https://batman-news.com/2017/11/21/justice-league-zack-snyder-cut-fan-petition/
 ---
 

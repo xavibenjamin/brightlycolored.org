@@ -2,8 +2,8 @@
 title: Organize that Sass!
 date: 2013-11-27 10:18:11 -06:00
 tags:
-- sass
-- a list apart
+- Sass
+- A List Apart
 - development
 layout: post
 custom_type: link

@@ -2,7 +2,7 @@
 title: Apple iPhone Touchscreen Faster than Android Devices
 date: 2013-09-23 14:17:25 -05:00
 tags:
-- apple
+- Apple
 - iPhone
 layout: post
 custom_type: link

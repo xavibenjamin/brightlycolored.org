@@ -2,7 +2,7 @@
 title: Why People Write on Medium
 date: 2014-11-12 13:05:11 -06:00
 tags:
-- jekyll
+- Jekyll
 - writing
 custom_type: post
 ---

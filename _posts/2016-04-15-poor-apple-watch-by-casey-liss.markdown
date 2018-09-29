@@ -2,7 +2,7 @@
 title: Poor Apple Watch by Casey Liss
 date: 2016-04-15 00:57:00 -05:00
 tags:
-- apple
+- Apple
 - tech
 layout: post
 custom_type: link

@@ -2,7 +2,7 @@
 title: Netflix Likely to Have Overtaken HBO in Paid US Subscribers
 date: 2013-10-21 12:19:57 -05:00
 tags:
-- netflix
+- Netflix
 - HBO
 - TV
 layout: post

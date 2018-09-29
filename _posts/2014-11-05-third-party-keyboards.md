@@ -2,7 +2,7 @@
 title: "‘iOS 8, Accessibility, and Third-Party Keyboards’"
 date: 2014-11-05 11:57:27 -06:00
 tags:
-- apple
+- Apple
 - iOS
 layout: post
 custom_type: link

@@ -3,8 +3,8 @@ title: Switching to Redcarpet
 date: 2015-12-01 00:28:46 -06:00
 tags:
 - development
-- jekyll
-- markdown
+- Jekyll
+- Markdown
 layout: post
 custom_type: post
 ---

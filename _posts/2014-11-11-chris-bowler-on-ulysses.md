@@ -3,7 +3,7 @@ title: Chris Bowler on Ulysses
 date: 2014-11-11 13:38:55 -06:00
 tags:
 - apps
-- ulysses
+- Ulysses
 layout: post
 custom_type: link
 link_url: http://chrisbowler.com/journal/ulysses

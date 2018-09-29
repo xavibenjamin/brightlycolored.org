@@ -2,8 +2,8 @@
 title: Apple Event Day
 date: 2013-10-22 10:40:36 -05:00
 tags:
-- apple
-- apple event
+- Apple
+- Apple event
 layout: post
 custom_type: post
 ---

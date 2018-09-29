@@ -4,7 +4,7 @@ date: 2017-03-10 11:56:00 -06:00
 tags:
 - CSS
 - microblogging
-- apple
+- Apple
 - development
 - writing
 - sexual harassment

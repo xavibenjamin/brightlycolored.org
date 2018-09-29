@@ -2,8 +2,8 @@
 title: 'Teaser for ‘Star Wars: The Last Jedi’'
 date: 2017-04-14 11:44:00 -05:00
 tags:
-- star wars
-- episode VIII
+- Star Wars
+- Episode VIII
 custom_type: link
 link_url: https://www.youtube.com/watch?v=zB4I68XVPzQ
 ---

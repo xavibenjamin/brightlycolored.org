@@ -2,7 +2,7 @@
 title: Courage by Marco Arment
 date: 2017-09-25 11:15:00 -05:00
 tags:
-- apple
+- Apple
 - tech
 - iPhone X
 custom_type: link

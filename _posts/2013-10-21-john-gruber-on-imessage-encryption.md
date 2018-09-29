@@ -2,7 +2,7 @@
 title: John Gruber on iMessage Encryption
 date: 2013-10-21 13:02:22 -05:00
 tags:
-- apple
+- Apple
 - security
 layout: post
 custom_type: link

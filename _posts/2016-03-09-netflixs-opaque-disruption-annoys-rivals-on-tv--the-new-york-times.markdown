@@ -2,7 +2,7 @@
 title: Netflix’s Opaque Disruption Annoys Rivals on TV | The New York Times
 date: 2016-03-09 09:13:00 -06:00
 tags:
-- netflix
+- Netflix
 - tech
 layout: post
 custom_type: link

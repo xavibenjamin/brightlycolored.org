@@ -7,7 +7,7 @@ categories:
 - fantasy
 tags:
 - movies
-- DC comics
+- DC Comics
 - movie review
 - review
 - my videos

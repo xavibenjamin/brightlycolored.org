@@ -2,7 +2,7 @@
 title: Exclude Posts From RSS in Jekyll
 date: 2017-11-09 10:39:00 -06:00
 tags:
-- jekyll
+- Jekyll
 - development
 subtitle: Two different solutions depending on your circumstance
 custom_type: post

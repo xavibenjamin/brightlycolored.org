@@ -2,9 +2,9 @@
 title: Apple iPad Event on October 22
 date: 2013-10-08 19:20:18 -05:00
 tags:
-- apple
+- Apple
 - iPad
-- apple event
+- Apple event
 layout: post
 custom_type: link
 link_url: http://allthingsd.com/20131008/apple-will-hold-fall-ipad-event-on-october-22

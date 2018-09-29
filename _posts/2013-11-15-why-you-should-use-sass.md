@@ -2,8 +2,8 @@
 title: Why You Should Use Sass
 date: 2013-11-15 14:31:59 -06:00
 tags:
-- a list apart
-- sass
+- A List Apart
+- Sass
 - development
 layout: post
 custom_type: link

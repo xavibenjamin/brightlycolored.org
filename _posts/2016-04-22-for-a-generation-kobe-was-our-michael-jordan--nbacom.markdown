@@ -2,7 +2,7 @@
 title: For a Generation, Kobe Was ‘Our Michael Jordan’ | NBA.com
 date: 2016-04-22 00:14:00 -05:00
 tags:
-- kobe bryant
+- Kobe Bryant
 - NBA
 layout: post
 custom_type: link

@@ -3,8 +3,8 @@ title: 'The Force Belongs To Us: The LAST JEDI’s Beautiful Refocusing of Star 
   | FILM CRIT HULK! HULK BLOG!'
 date: 2017-12-18 14:22:00 -06:00
 tags:
-- star wars
-- episode VIII
+- Star Wars
+- Episode VIII
 link_url: https://filmcrithulk.blog/2017/12/15/the-force-belongs-to-us-the-last-jedis-beautiful-refocusing-of-star-wars/
 ---
 

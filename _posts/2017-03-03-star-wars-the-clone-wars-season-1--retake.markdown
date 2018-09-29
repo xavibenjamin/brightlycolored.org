@@ -2,7 +2,7 @@
 title: 'Star Wars: The Clone Wars, Season 1 | Retake'
 date: 2017-03-03 10:38:00 -06:00
 tags:
-- star wars
+- Star Wars
 - podcasts
 custom_type: link
 link_url: https://nightowl.fm/retake/22

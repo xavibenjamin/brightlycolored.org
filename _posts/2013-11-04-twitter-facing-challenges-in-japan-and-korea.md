@@ -2,7 +2,7 @@
 title: Twitter Facing Monetary Challenges in Japan and Korea
 date: 2013-11-04 10:39:46 -06:00
 tags:
-- twitter
+- Twitter
 - tech
 - business
 layout: post

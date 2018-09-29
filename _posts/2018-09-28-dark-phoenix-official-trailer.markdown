@@ -3,7 +3,7 @@ title: "‘Dark Phoenix’ Official Trailer"
 date: 2018-09-28 10:24:00 -05:00
 tags:
 - X-Men
-- marvel
+- Marvel
 - movies
 custom_type: post
 excerpt: Dark Phoenix is the last X-Men film 20th Century Fox will produce before

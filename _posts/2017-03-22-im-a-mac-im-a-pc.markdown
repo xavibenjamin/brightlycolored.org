@@ -2,7 +2,7 @@
 title: Hello, I'm a Mac. And I'm a PC
 date: 2017-03-22 15:30:00 -05:00
 tags:
-- mac
+- Mac
 - macOS
 - Windows
 - Microsoft

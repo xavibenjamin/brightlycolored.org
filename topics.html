@@ -9,7 +9,7 @@ excerpt: Topics covered on Brightly Colored.
 <div class="page">
   <header class="page__header page__header--full">
     <h1 class="page-header__title" id="page-title">Topics</h1>
-    <p class="page-header__description">{{ "I love to talk about [Star Wars](#star-wars), [CSS](#css), [Jekyll](#jekyll), [the NBA](#nba), [tech](#tech), [design](#design), [Apple](#apple), and [development](#development). I also have a few series I recommend: [Brief Review](#brief-review), [Year in Review](#year-in-review), and [Jekyll on Heroku](#jekyll-on-heroku). You can also find movie, music, and book reviews by [genre](/genres/)." | markdownify | smartify | widont | remove: '<p>' | remove: '</p>' }}</p>
+    <p class="page-header__description">{{ "I love to write about [comics](#comics), [Star Wars](#star-wars), [Jekyll](#jekyll), [the NBA](#nba), [tech](#tech), and [Apple](#apple). I've also written a few series you might want to read: [Brief Review](#brief-review), [Year in Review](#year-in-review), and [Jekyll on Heroku](#jekyll-on-heroku). You can also find movie, music, and book reviews by [genre](/genres/)." | markdownify | smartify | widont | remove: '<p>' | remove: '</p>' }}</p>
   </header>
 
 
@@ -49,19 +49,20 @@ excerpt: Topics covered on Brightly Colored.
     {% for tag in site.tags %}
       {% if tag[1].size == i %}
         <section class="group-section" id="{{ tag[0] | downcase | replace:' ','-' }}">
-            <h2 class="group__name">{{ tag[0] | titlecase }} <small class="group__count">{{ i }}</small></h2>
-            {% if tag[0] == 'development' %}<p>Since I do this for work, I have a <em>few</em> opinions about it.</p>{% endif %}
+            <h2 class="group__name">{{ tag[0] }} <small class="group__count">{{ i }}</small></h2>
+            {% if tag[0] == 'development' %}<p>I used to do this for work, I have a <em>few</em> opinions about it.</p>{% endif %}
             {% if tag[0] == 'movies' %}<p>I love watching movies, sometimes I write about them.</p>{% endif %}
             {% if tag[0] == 'brief review' %}<p>My series of reviews that I keep brief.</p>{% endif %}
-            {% if tag[0] == 'apple' %}<p>It’s not an Apple blog, but I sure do talk about them a lot.</p>{% endif %}
-            {% if tag[0] == 'jekyll' %}<p>This blog is built with it, so naturally I love to write about it.</p>{% endif %}
-            {% if tag[0] == 'jekyll on heroku' %}<p>Series on hosting Jekyll with Heroku.</p>{% endif %}
-            {% if tag[0] == 'star wars' %}<p>These <em>are</em> the words you’re looking for.</p>{% endif %}
+            {% if tag[0] == 'Apple' %}<p>It’s not an Apple blog, but I sure do talk about them a lot.</p>{% endif %}
+            {% if tag[0] == 'Jekyll' %}<p>This blog is built with it, so naturally I love to write about it.</p>{% endif %}
+            {% if tag[0] == 'Jekyll on Heroku' %}<p>Series on hosting Jekyll with Heroku.</p>{% endif %}
+            {% if tag[0] == 'Star Wars' %}<p>These <em>are</em> the words you’re looking for.</p>{% endif %}
             {% if tag[0] == 'NBA' %}<p>Basketball is my favorite sport. I like the way they dribble up and down the court.</p>{% endif %}
             {% if tag[0] == 'year in review' %}<p>My yearly tradition of summing up what I’ve done in the past year.</p>{% endif %}
             {% if tag[0] == 'CSS' %}<p>The frontend technology I’ve focused my career on.</p>{% endif %}
             {% if tag[0] == 'review' %}<p>A collection of all the movie, app, product, and book reviews I’ve done.</p>{% endif %}
             {% if tag[0] == 'reviews' %}<p>These are all reviews I’ve linked to and <strong>were not</strong> written by me.</p>{% endif %}
+            {% if tag[0] == 'comics' %}<p>Writing about comics brings me <em>almost</em> as much joy as reading them.</p>{% endif %}
             <ul class="group__post-list group__post-list--2-col">
               {% for post in tag.last %}
                 <li class="group-post__item">

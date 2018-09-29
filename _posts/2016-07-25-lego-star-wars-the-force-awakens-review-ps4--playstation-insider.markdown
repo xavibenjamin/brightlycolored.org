@@ -2,7 +2,7 @@
 title: 'Lego Star Wars: The Force Awakens Review (PS4) | PlayStation Insider'
 date: 2016-07-25 08:53:00 -05:00
 tags:
-- star wars
+- Star Wars
 - video games
 layout: post
 custom_type: link

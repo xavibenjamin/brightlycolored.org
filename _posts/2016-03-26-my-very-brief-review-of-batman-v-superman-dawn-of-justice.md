@@ -6,7 +6,7 @@ categories:
 - adventure
 - sci-fi
 tags:
-- DC comics
+- DC Comics
 - brief review
 - movies
 - movie review

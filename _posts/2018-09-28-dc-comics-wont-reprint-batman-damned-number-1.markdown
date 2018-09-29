@@ -2,7 +2,7 @@
 title: 'DC Comics Won’t Reprint Batman: Damned #1'
 date: 2018-09-28 17:53:00 -05:00
 tags:
-- DC comics
+- DC Comics
 - comics
 - Batman
 excerpt: Though I didn't personally read this comic, I *obviously* saw pictures. You

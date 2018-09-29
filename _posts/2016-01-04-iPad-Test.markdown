@@ -3,7 +3,7 @@ title: iPad Test
 date: 2016-01-04 10:56:00 -06:00
 tags:
 - development
-- jekyll
+- Jekyll
 - iOS
 layout: post
 custom_type: post

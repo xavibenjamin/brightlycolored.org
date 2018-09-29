@@ -2,7 +2,7 @@
 title: Khoi Vinh’s Thoughts on Yosemite
 date: 2014-10-27 15:46:53 -05:00
 tags:
-- apple
+- Apple
 - macOS
 - design
 layout: post

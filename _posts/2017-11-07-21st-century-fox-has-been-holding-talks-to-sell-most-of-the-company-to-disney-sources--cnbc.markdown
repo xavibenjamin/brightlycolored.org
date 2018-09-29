@@ -4,8 +4,8 @@ title: '21st Century Fox Has Been Holding Talks to Sell Most of the Company to D
 date: 2017-11-07 10:25:00 -06:00
 tags:
 - movies
-- star wars
-- marvel
+- Star Wars
+- Marvel
 link_url: https://www.cnbc.com/2017/11/06/21st-century-fox-has-been-holding-talks-to-sell-most-of-company-to-disney-sources.html
 ---
 

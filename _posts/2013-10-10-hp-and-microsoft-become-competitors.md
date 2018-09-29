@@ -2,7 +2,7 @@
 title: HP and Microsoft Become ‘Competitors’
 date: 2013-10-10 11:46:04 -05:00
 tags:
-- microsoft
+- Microsoft
 - tech
 layout: post
 custom_type: link

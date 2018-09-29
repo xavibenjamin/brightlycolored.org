@@ -4,7 +4,7 @@ title: How Apple Watch Saved One Man’s Life — and How It’s Empowering Him 
 date: 2017-12-18 10:43:00 -06:00
 tags:
 - tech
-- apple watch
+- Apple Watch
 link_url: https://9to5mac.com/2017/12/15/apple-watch-saves-life-managing-heart-attack/
 ---
 

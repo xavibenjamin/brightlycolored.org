@@ -2,8 +2,8 @@
 title: 'Star Wars: The Last Jedi | Retake'
 date: 2017-12-26 15:26:00 -06:00
 tags:
-- episode VII
-- star wars
+- Episode VII
+- Star Wars
 - movie review
 - podcasts
 - review

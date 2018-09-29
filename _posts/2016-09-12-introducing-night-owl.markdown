@@ -3,7 +3,7 @@ title: Introducing Night Owl
 date: 2016-09-12 13:35:00 -05:00
 tags:
 - podcasts
-- star wars
+- Star Wars
 layout: post
 custom_type: link
 link_url: https://nightowl.fm/

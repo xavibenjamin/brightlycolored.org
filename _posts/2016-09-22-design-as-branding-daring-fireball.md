@@ -2,7 +2,7 @@
 title: Design as Branding | Daring Fireball
 date: 2016-09-22 09:56:13 -05:00
 tags:
-- apple
+- Apple
 - design
 layout: post
 custom_type: link

@@ -2,8 +2,8 @@
 title: 'The Official Title for Star Wars: Episode VIII Revealed | StarWars.com'
 date: 2017-01-23 11:30:00 -06:00
 tags:
-- star wars
-- episode VIII
+- Star Wars
+- Episode VIII
 custom_type: link
 link_url: http://www.starwars.com/news/the-official-title-for-star-wars-episode-viii-revealed
 ---

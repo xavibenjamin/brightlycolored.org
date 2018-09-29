@@ -3,9 +3,9 @@ title: Moving to Netlify
 date: 2017-04-03 11:33:00 -05:00
 tags:
 - development
-- jekyll
-- jekyll on heroku
-- jekyll on netlify
+- Jekyll
+- Jekyll on Heroku
+- Jekyll on Netlify
 subtitle: My time hosting Jekyll sites on Heroku draws to a close
 custom_type: post
 ---

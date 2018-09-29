@@ -2,7 +2,7 @@
 title: 'Welcome to Macintosh Season 3 Kickstarter '
 date: 2016-10-21 10:19:00 -05:00
 tags:
-- apple
+- Apple
 - podcasts
 layout: post
 custom_type: link

@@ -2,7 +2,7 @@
 title: Apple, It’s Time to Move on From “OS X” by Pauli Olavi Ojala
 date: 2016-03-16 09:54:00 -05:00
 tags:
-- apple
+- Apple
 - macOS
 layout: post
 custom_type: link

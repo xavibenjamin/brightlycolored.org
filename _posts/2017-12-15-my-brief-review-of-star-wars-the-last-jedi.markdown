@@ -8,9 +8,9 @@ categories:
 tags:
 - movies
 - movie review
-- star wars
+- Star Wars
 - brief review
-- episode VIII
+- Episode VIII
 - review
 subtitle: The latest of the Star Wars saga films is a fresh, new, and exciting chapter
   of my favorite franchise
