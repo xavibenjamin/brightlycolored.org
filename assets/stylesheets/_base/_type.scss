@@ -225,6 +225,7 @@ blockquote {
     }
   }
   > ol {
+    margin-left: 0;
     @media #{$small-only} {
       margin-left: .3rem;
     }
