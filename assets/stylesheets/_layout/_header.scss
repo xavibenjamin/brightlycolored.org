@@ -7,9 +7,16 @@
   background-color: $primary-color;
   display: flex;
   justify-content: space-between;
-  padding: .5rem 1rem;
+  padding: .7rem 1rem;
   position: relative;
   z-index: 5;
+  @media #{$medium-up} {
+    background-color: transparent;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+    padding: 0;
+  }
   &.js-menu-is-open {
     left: 0;
     position: fixed;
@@ -22,11 +29,29 @@
 
 .header__branding {
   flex: 1 1 auto;
-  height: 35.8px;
+  height: 59px;
+  @media #{$medium-up} {
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+.header__byline {
+  color: rgba(white, .75);
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
 }
 
 .brightly-colored-logo {
   width: 180px;
+  @media #{$medium-up} {
+    width: 250px;
+  }
 }
 
 .logo__first-word {

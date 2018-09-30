@@ -5,7 +5,7 @@ $primary-color: #1DC0D6;
 $secondary-color: #3A4B54;
 
 body {
-  background-color: lighten($secondary-color, 20%);
+  background-color: $primary-color;
 }
 
 
@@ -27,9 +27,20 @@ body {
   }
 }
 
-.header,
-.footer {
+.header {
   background-color: $primary-color;
+}
+
+.footer {
+  background-color: $secondary-color;
+
+  .icon {
+    fill: $primary-color;
+  }
+
+  a {
+    color: rgba(white, .6);
+  }
 }
 
 .footer__about {
@@ -70,10 +81,18 @@ blockquote {
 }
 
 .btn--primary.btn--outline {
-  box-shadow: 0 0 0 1px $primary-color;
-  color: $primary-color;
-  &:hover,
-  &:focus {
-    background-color: rgba($primary-color, 0.05);
+  @media screen and (max-width: 39.9375em) {
+    box-shadow: 0 0 0 1px $primary-color;
+    color: $primary-color;
+    &:hover,
+    &:focus {
+      background-color: rgba($primary-color, 0.05);
+    }
+  }
+}
+
+.footnotes {
+  &:before {
+    background-color: $primary-color;
   }
 }

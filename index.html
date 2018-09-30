@@ -65,6 +65,9 @@ excerpt: Brightly Colored (previously The Bold Report) is a personal blog writte
           </footer>
 
         </article>
+        {% if forloop.first %}
+           {% include ad.html %}
+        {% endif %}
         {% if forloop.last %}
         </div>
         {% endif %}

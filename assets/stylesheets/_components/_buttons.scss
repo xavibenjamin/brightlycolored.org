@@ -29,9 +29,13 @@
     background-color: transparent;
     box-shadow: 0 0 0 1px $primary-color;
     color: $primary-color;
-    &:hover,
-    &:focus {
-      background-color: rgba($primary-color, .05);;
+    @media #{$medium-up} {
+      box-shadow: 0 0 0 1px rgba(white, .7);
+      color: white;
+      &:hover,
+      &:focus {
+        background-color: rgba($primary-color, .05);
+      }
     }
   }
 }

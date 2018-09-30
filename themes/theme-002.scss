@@ -3,18 +3,12 @@
 
 $primary-color: #FF6978;
 $secondary-color: #894CBF;
-
 body {
-  background-color: $secondary-color;
-}
-
-.footer__subscribe {
-  background-color: darken($secondary-color, 35%);
+  background-color: $primary-color;
 }
 
 .sidebar {
   background-color: lighten($secondary-color, 43%);
-  border-right-color: lighten($secondary-color, 38%);
 }
 
 .navigation a {
@@ -26,21 +20,19 @@ body {
   }
 }
 
-.header,
-.footer {
+.header {
   background-color: $primary-color;
 }
 
-.footer__copyright {
-  background-color: darken($secondary-color, 25%);
-
-  small,
-  a {
-    color: desaturate(lighten($secondary-color, 40%), 10%);
-  }
+.footer {
+  background-color: $secondary-color;
 
   .icon {
     fill: $primary-color;
+  }
+
+  a {
+    color: rgba(white, .6);
   }
 }
 
@@ -61,11 +53,18 @@ blockquote {
 }
 
 .btn--primary.btn--outline {
-  box-shadow: 0 0 0 1px $primary-color;
-  color: $primary-color;
-  &:hover,
-  &:focus {
-    background-color: rgba($primary-color, 0.05);
+  @media screen and (max-width: 39.9375em) {
+    box-shadow: 0 0 0 1px $primary-color;
+    color: $primary-color;
+    &:hover,
+    &:focus {
+      background-color: rgba($primary-color, 0.05);
+    }
   }
 }
 
+.footnotes {
+  &:before {
+    background-color: $primary-color;
+  }
+}
