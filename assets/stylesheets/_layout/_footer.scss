@@ -10,7 +10,7 @@
   max-width: 1000px;
   padding: 4rem 0;
 
-  @media #{$medium-up} {
+  @media #{$large-up} {
     border-radius: $global-radius;
     margin-bottom: 2rem;
     margin-top: 4rem;

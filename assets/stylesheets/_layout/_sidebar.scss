@@ -10,12 +10,14 @@
   transition: height 300ms ease;
   z-index: 4;
   @media #{$medium-up} {
-    border-radius: 0 0 $global-radius $global-radius;
     height: auto;
     margin: 0 auto;
     max-width: 1000px;
     overflow: auto;
     position: static;
+  }
+  @media #{$large-up} {
+    border-radius: 0 0 $global-radius $global-radius;
   }
   &.js-menu-is-open {
     height: 196px;

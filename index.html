@@ -30,7 +30,6 @@ excerpt: Brightly Colored (previously The Bold Report) is a personal blog writte
         <article class="posts__post p-body format-{% if post.custom_type %}{{ post.custom_type }}{% endif %}">
           {% if post.custom_type == 'post' %}
           <header class="post__header">
-            {% include small-author.html %}
             <h1>
               <a href="{{ post.url }}">{{ post.title | smartify }}</a>
             </h1>
@@ -50,7 +49,6 @@ excerpt: Brightly Colored (previously The Bold Report) is a personal blog writte
             <h1>
               <a href="{{ post.link_url }}">{{ post.title | smartify }}</a>&nbsp;<span class="arrow">&rarr;</span>
             </h1>
-            {% include small-author.html %}
           </header>
         
           {{ post.content }}
