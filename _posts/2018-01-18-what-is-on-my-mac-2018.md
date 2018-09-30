@@ -3,7 +3,7 @@ title: 'What''s on My Mac: 2018'
 date: 2018-01-18 15:09:00 -06:00
 subtitle: A list of apps that make Mac experience better
 custom_type: post
-rss_only: true
+is_rss_only: true
 ---
 
 In March of *last year*, I saw [this cool post from Keir Whitaker about his essential Mac and web apps](https://keirwhitaker.com/blog/essential-mac-apps/). Almost a year later, I've finally got around to sharing my own list of apps. Unlike Keir's, I'm only including native Mac Apps.

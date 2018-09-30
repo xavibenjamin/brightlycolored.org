@@ -21,7 +21,7 @@ defaults:
     author: timsmith
     link_url: 
     featured_image: 
-    rss_only: 
+    is_rss_only: 
     review:
       type: 
       rating: 

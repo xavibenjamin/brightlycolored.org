@@ -7,7 +7,7 @@ layout: no-title
 <h2 class="subheader">Recent Posts</h2>
 
 <ul class="author-archive">
-  {% assign posts = site.posts | where_exp: "item", "item.rss_only != true" | where: 'author', page.author %}
+  {% assign posts = site.posts | where_exp: "item", "item.is_rss_only != true" | where: 'author', page.author %}
   {% for p in posts limit: 10 %}
     <li>
       <a href="{{ site.url }}{{ p.url }}">

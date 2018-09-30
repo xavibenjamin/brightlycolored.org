@@ -10,7 +10,7 @@ excerpt: Brightly Colored (previously The Bold Report) is a personal blog writte
 ---
 
 <section class="posts">
-  {% assign filteredPosts = site.posts | where_exp: "item", "item.rss_only != true" %}
+  {% assign filteredPosts = site.posts | where_exp: "item", "item.is_rss_only != true" %}
   {% for post in filteredPosts limit: 5 %}
     {% assign current_day = post.date | date: "%A, %B %d, %Y" %}
     

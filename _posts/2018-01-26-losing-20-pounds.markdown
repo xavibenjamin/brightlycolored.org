@@ -3,7 +3,7 @@ title: Losing 20 Pounds
 date: 2018-01-26 12:07:00 -06:00
 subtitle: Making small changes with big results
 custom_type: post
-rss_only: true
+is_rss_only: true
 ---
 
 I weighed myself yesterday, and I've lost 21 pounds since November. Losing that type of weight is a game changer—clothes that once fit me tight, now fit loose. I feel better, and that helps me control my anxiety in turn.

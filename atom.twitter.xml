@@ -19,7 +19,7 @@ layout:
       <email>{{ author[1].email }}</email>
     </author>
   {% endfor %}
-  {% assign posts = site.posts | where_exp: "item", "item.rss_only != true" %}
+  {% assign posts = site.posts | where_exp: "item", "item.is_rss_only != true" %}
   {% for post in posts limit:20 %}
     <entry>
       <id>https://brightlycolored.org{{ post.id }}</id>
