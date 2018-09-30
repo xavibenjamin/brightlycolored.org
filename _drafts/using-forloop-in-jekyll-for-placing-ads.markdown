@@ -22,3 +22,18 @@ Thankfully, Jekyll (actually, Liquid) allows us to do this with the `forloop` ob
 </ul>{% endraw %}
 ```
 
+Ok, so this a pretty basic post loop. We're using an unordered list to group our posts. Now, we'll place our ad using `forloop`.
+
+```html
+{% raw %}
+    …
+    <span class="post-description">{{ post.excerpt }}</span>
+  </li>
+  {% if forloop.first %}
+    <! -- put your ad markup in here -->
+  {% endif %}
+{% endfor %}
+</ul>{% endraw %}
+```
+
+
