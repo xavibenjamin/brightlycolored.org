@@ -1,15 +1,11 @@
 ---
 ---
 
-$primary-color: #F88962;
+$primary-color: #FF6F04;
 $secondary-color: #383C40;
 
 body {
-  background-color: #508FAB;
-}
-
-.footer__subscribe {
-  background-color: $secondary-color;
+  background-color: $primary-color;
 }
 
 .sidebar {
@@ -26,23 +22,18 @@ body {
   }
 }
 
-.header,
-.footer {
+.header {
   background-color: $primary-color;
 }
 
-.footer__copyright {
-  background-color: darken($secondary-color, 8%);
-
-  small,
-  a {
-    color: lighten($secondary-color, 20%);
-  }
+.footer {
+  background-color: #222;
 
   .icon {
     fill: $primary-color;
   }
 }
+
 
 .card--light {
   background-color: lighten($secondary-color, 70%);
@@ -61,11 +52,18 @@ blockquote {
 }
 
 .btn--primary.btn--outline {
-  box-shadow: 0 0 0 1px $primary-color;
-  color: $primary-color;
-  &:hover,
-  &:focus {
-    background-color: rgba($primary-color, 0.05);
+  @media screen and (max-width: 39.9375em) {
+    box-shadow: 0 0 0 1px $primary-color;
+    color: $primary-color;
+    &:hover,
+    &:focus {
+      background-color: rgba($primary-color, 0.05);
+    }
   }
 }
 
+.footnotes {
+  &:before {
+    background-color: $primary-color;
+  }
+}

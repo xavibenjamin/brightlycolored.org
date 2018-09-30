@@ -2,6 +2,15 @@
 // PAGES
 // -------------------------------
 
+.page {
+  background-color: white;
+  // padding: 3rem 0;
+  @media #{$medium-up} {
+    border-radius: $global-radius;
+    padding: 4rem 2rem;
+  }
+}
+
 .page__header {
   margin-bottom: 2rem;
 }

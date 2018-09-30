@@ -3,7 +3,9 @@
 // -------------------------------
 
 .main {
-  background-color: white;
+  @media #{$small-only} {
+    background-color: white;
+  }
   @media #{$medium-up} {
     min-height: calc( 100vh - 370px );
   }
@@ -11,41 +13,71 @@
     min-height: calc( 100vh - 237px );
   }
 }
+
 .content {
-  padding-bottom: 8rem;
-  padding-top: 2.5rem;
+  @media #{$small-only} {
+    padding: 3rem 0;
+  }
 }
 
 // Shareable Post Styles ---------
 
 .posts__date {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
+
+  @media #{$medium-up} {
+    margin-bottom: 2rem;
+  }
 
   .current-day {
-    color: lighten($body-color, 15%);
+    color: #666;
     display: block;
     font-size: .75rem;
     font-weight: 600;
-    letter-spacing: 1.8px;
+    letter-spacing: 3px;
+    text-align: center;
     text-transform: uppercase;
+    @media #{$medium-up} {
+      color: rgba(white, .85);
+    }
   }
 }
 
 .day-posts {
   + .day-posts {
-    border-top: 1px solid $border-color;
-    margin-top: 4rem;
-    padding-top: 4rem;
+    margin-top: 6rem;
   }
   + .posts__date {
-    border-top: 1px solid $border-color;
     margin-top: 4rem;
-    padding-top: 4rem;
+    @media #{$medium-up} {
+      margin-top: 10rem;
+    }
   }
   .posts__post + .posts__post {
-    border-top: 1px solid $border-color;
+    @media #{$small-only} {
+      border-top: 1px solid $border-color;
+      margin-top: 3rem;
+      padding-top: 3rem;
+    }
+    @media #{$medium-up} {
+      margin-top: 6rem;
+    }
+  }
+}
+
+.posts__date:first-child {
+  @media #{$medium-up} {
     margin-top: 4rem;
-    padding-top: 4rem;
+  }
+}
+
+.posts__post,
+.post {
+  background-color: white;
+
+  @media #{$medium-up} {
+    border-radius: $global-radius;
+    padding: 4rem 2rem;
   }
 }
 
@@ -104,7 +136,10 @@
 .archive-link {
   display: flex;
   justify-content: center;
-  margin-top: 6rem;
+  margin-top: 4rem;
+  @media #{$medium-up} {
+    margin-bottom: 4rem;
+  }
 }
 
 .post__rss-only {
