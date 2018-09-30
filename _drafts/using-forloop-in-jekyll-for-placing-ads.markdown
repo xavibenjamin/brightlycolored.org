@@ -36,4 +36,7 @@ Ok, so this a pretty basic post loop. We're using an unordered list to group our
 </ul>{% endraw %}
 ```
 
+With this if statement, we're saying that if this is the first item in our loop, then place the ad directly after it. Boom!
+
+Now, our ad integrates better with the content, and is better experience for readers because they're aren't hit with an ad as the first thing they see.
 
