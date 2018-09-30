@@ -4,5 +4,6 @@ date: 2018-09-30 00:14:00 -05:00
 tags:
 - development
 - Jekyll
+custom_type: post
 ---
 
