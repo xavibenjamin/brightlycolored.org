@@ -2,7 +2,6 @@
 title: Version 3.0.0
 date: 2018-09-30 14:39:00 -05:00
 custom_type: post
-is_rss_only: true
 ---
 
 Hey peeps! I got a little tired of the design so I made a new one. It's "technically" version three of the site, but who cares. I did the whole thing in one commit, which if you're a developer you'll know how horrible that is.
