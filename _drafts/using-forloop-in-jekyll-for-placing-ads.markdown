@@ -39,6 +39,6 @@ Now, we'll place our ad using `forloop.first`. `forloop.first` will return `true
 </ul>{% endraw %}
 ```
 
-In plain English, this if statement is saying that if it's the first item in the loop, then place the ad directly after it.
+<mark>In plain English, this if statement is saying that if it's the first item in the loop, then place the ad directly after it.</mark>
 
 Boom! Now our ad integrates better with the content, and is a better experience for readers because they're aren't hit with an ad as the first thing they see.
