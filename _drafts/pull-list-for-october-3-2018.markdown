@@ -31,4 +31,7 @@ Can't stop reading this amazing series! Brian K. Vaughan keeps writing fascinati
 
 ## Picking up this week
 
-- **Paper Girls #25**
+- **Paper Girls #25**  
+I haven't caught up completely on this series just yet, but I'm buying this single issue anyway. If you haven't read Paper Girls, I definitely recommend it.
+- **Analog Vol. 1 Trade Paperback**  
+*Analog* is a new creator-owned series from Gerry Duggan (who's written Deadpool in the past) and David O'Sullivan. The premise is that the internet is no longer secure, so secrets are no transported by "Paper Jockeys." Looks like an exciting espionage-style story.
