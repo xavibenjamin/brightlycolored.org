@@ -1,5 +1,5 @@
 ---
-title: Using forloop in Jekyll for placing ads
+title: Using forloop in Jekyll for Placing Ads
 date: 2018-09-30 00:14:00 -05:00
 tags:
 - development
