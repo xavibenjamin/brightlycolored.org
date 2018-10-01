@@ -5,6 +5,7 @@ tags:
 - design
 custom_type: link
 link_url: https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_2018_brand_new_conference_by_underconsideration.php
+featured_image: "/uploads/bn-conf-2018-featured-image.jpg"
 ---
 
 Armin Vit on *Brand New*:
