@@ -22,21 +22,22 @@ Thankfully, Jekyll (actually, Liquid) allows us to do this with the `forloop` ob
 </ul>{% endraw %}
 ```
 
-Ok, so this a pretty basic post loop. We're using an unordered list to group our posts. Now, we'll place our ad using `forloop`.
+Now, we'll place our ad using `forloop.first`. `forloop.first` will return `true` if it's the first iteration of the loop.
 
 ```html
-{% raw %}
-    …
-    <span class="post-description">{{ post.excerpt }}</span>
-  </li>
-  {% if forloop.first %}
-    <! -- put your ad markup in here -->
-  {% endif %}
-{% endfor %}
+{% raw %}<ul class="posts">
+  {% for post in site.posts %}
+    <li>
+      <span class="post-title">{{ post.title }}</span>
+      <span class="post-description">{{ post.excerpt }}</span>
+    </li>
+    {% if forloop.first %}
+      <! -- put your ad markup in here -->
+    {% endif %}
+  {% endfor %}
 </ul>{% endraw %}
 ```
 
-With this if statement, we're saying that if this is the first item in our loop, then place the ad directly after it. Boom!
+In plain English, this if statement is saying that if it's the first item in the loop, then place the ad directly after it.
 
-Now, our ad integrates better with the content, and is better experience for readers because they're aren't hit with an ad as the first thing they see.
-
+Boom! Now our ad integrates better with the content, and is a better experience for readers because they're aren't hit with an ad as the first thing they see.
