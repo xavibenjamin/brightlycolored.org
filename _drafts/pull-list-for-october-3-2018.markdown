@@ -1,6 +1,6 @@
 ---
 title: Pull List for October 3, 2018
-date: 2018-09-26 20:47:00 -05:00
+date: 2018-09-30 20:47:00 -05:00
 tags:
 - comics
 - pull list
