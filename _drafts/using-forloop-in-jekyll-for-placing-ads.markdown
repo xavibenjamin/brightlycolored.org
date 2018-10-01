@@ -5,6 +5,7 @@ tags:
 - development
 - Jekyll
 custom_type: post
+subtitle: A quick look at how I made ads less obtrusive for smaller screens
 ---
 
 One of the things I didn't like about the previous version of this site's design was how prominent the ad was on smaller screens. Instead, I wanted to place the ad after the first post on the homepage.
