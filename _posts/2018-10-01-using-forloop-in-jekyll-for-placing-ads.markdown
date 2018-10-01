@@ -14,12 +14,12 @@ Thankfully, Jekyll (actually, Liquid) allows us to do this with the `forloop` ob
 
 ```html
 {% raw %}<ul class="posts">
-{% for post in site.posts %}
-  <li>
-    <span class="post-title">{{ post.title }}</span>
-    <span class="post-description">{{ post.excerpt }}</span>
-  </li>
-{% endfor %}
+  {% for post in site.posts %}
+    <li>
+      <span class="post-title">{{ post.title }}</span>
+      <span class="post-description">{{ post.excerpt }}</span>
+    </li>
+  {% endfor %}
 </ul>{% endraw %}
 ```
 
