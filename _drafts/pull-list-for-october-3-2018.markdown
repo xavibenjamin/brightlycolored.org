@@ -12,6 +12,8 @@ custom_type: post
   <figcaption><strong>From left to right:</strong> Saga Vol. 4, X-Men: Red #8, The New World #3, and Man-Eaters #1</figcaption>
 </figure>
 
+Another week is here, and that means there are new comic books to read, new stories to be enveloped in, and new artwork to be entranced by. Here's what I read last week and what I'm picking up this week. 
+
 ## What I read last week
 
 - **Man-Eaters #1**  
