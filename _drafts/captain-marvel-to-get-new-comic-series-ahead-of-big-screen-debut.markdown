@@ -8,6 +8,7 @@ tags:
 excerpt: Kelly Thompson and Carmen Carnero are set to create a new Captain Marvel
   series coming out in January 2019
 link_url: https://www.nytimes.com/2018/10/02/arts/captain-marvel-new-comic-series.html
+featured_image: "/uploads/cap-marvel-featured.jpg"
 ---
 
 George Gene Gustines reporting for *The New York Times*:
