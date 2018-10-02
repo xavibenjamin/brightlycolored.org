@@ -20,4 +20,4 @@ George Gene Gustines reporting for *The New York Times*:
 
 What amazing news! Kelly Thompson is one of my favorite comics writers right now, and Carmen Carnero has been absolutely killing it on *X-Men: Red*.
 
-*Captain Marvel* #1 goes on sale January 2, 2019.
+Update your pull lists people, *Captain Marvel* #1 goes on sale January 2, 2019.
