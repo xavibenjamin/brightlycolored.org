@@ -1,23 +1,23 @@
 ---
 ---
 
-$primary-color: #3b3947;
-$secondary-color: #ff7296;
+$primary-color: #ff008f;
+$secondary-color: #9c1c90;
 
 body {
   background-color: $primary-color;
 }
 
 .sidebar {
-  background-color: lighten($secondary-color, 20%);
+  background-color: lighten($secondary-color, 50%);
 }
 
 .navigation a {
-  border-top-color: lighten($secondary-color, 38%);
-  color: $secondary-color;
+  border-top-color: lighten($secondary-color, 45%);
+  color: lighten($secondary-color, 15%);
   &:hover,
   &:focus {
-    color: darken($secondary-color, 5);
+    color: $secondary-color;
   }
 }
 
@@ -26,24 +26,27 @@ body {
 }
 
 .header__byline {
-  color: $secondary-color;
+  color: #ffe000;
 }
 
 .footer {
   background-color: $secondary-color;
   color: rgba(white, .75);
 
-  .icon {
-    fill: #ffde7b;
-  }
-
   a {
     color: rgba(white, .75);
+    &:hover,
+    &:focus {
+      color: white;
+    }
+  }
+  .icon {
+    fill: #ffe000;
   }
 }
 
 .card--light {
-  background-color: lighten($secondary-color, 22%);
+  background-color: lighten($secondary-color, 55%);
 }
 
 blockquote {
@@ -51,7 +54,7 @@ blockquote {
 }
 
 .btn--primary {
-  background-color: $secondary-color;
+  background-color: $primary-color;
   &:hover,
   &:focus {
     background-color: darken($primary-color, 5%);

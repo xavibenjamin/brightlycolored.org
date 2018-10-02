@@ -1,23 +1,23 @@
 ---
 ---
 
-$primary-color: #3b3947;
-$secondary-color: #ff7296;
+$primary-color: #00b74c;
+$secondary-color: #fff400;
 
 body {
   background-color: $primary-color;
 }
 
 .sidebar {
-  background-color: lighten($secondary-color, 20%);
+  background-color: #222;
 }
 
 .navigation a {
-  border-top-color: lighten($secondary-color, 38%);
+  border-top-color: lighten(#222, 10%);
   color: $secondary-color;
   &:hover,
   &:focus {
-    color: darken($secondary-color, 5);
+    color: lighten($secondary-color, 20%);
   }
 }
 
@@ -29,21 +29,32 @@ body {
   color: $secondary-color;
 }
 
-.footer {
-  background-color: $secondary-color;
-  color: rgba(white, .75);
+.logo__first-word {
+  fill: #222;
+}
 
-  .icon {
-    fill: #ffde7b;
-  }
+.logo__second-word {
+  fill: $secondary-color;
+}
+
+.footer {
+  background-color: #222;
 
   a {
-    color: rgba(white, .75);
+    color: rgba(white, .6);
+    &:hover,
+    &:focus {
+      color: white;
+    }
+  }
+  
+  .icon {
+    fill: $secondary-color;
   }
 }
 
 .card--light {
-  background-color: lighten($secondary-color, 22%);
+  background-color: lighten(#222, 80%);
 }
 
 blockquote {
@@ -51,7 +62,7 @@ blockquote {
 }
 
 .btn--primary {
-  background-color: $secondary-color;
+  background-color: $primary-color;
   &:hover,
   &:focus {
     background-color: darken($primary-color, 5%);
