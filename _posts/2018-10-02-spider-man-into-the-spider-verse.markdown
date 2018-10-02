@@ -1,5 +1,5 @@
 ---
-title: "‘Spider-Man: Into the Spider-Verse’"
+title: "‘Spider-Man: Into the Spider-Verse’ Official Trailer #2"
 date: 2018-10-02 10:22:00 -05:00
 tags:
 - movies
