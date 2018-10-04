@@ -5,7 +5,16 @@ tags:
 - comics
 - pull list
 custom_type: post
+featured_image: "/uploads/pull-list-10-10-2018.jpg"
 ---
+
+![pull-list-10-10-2018.jpg]()
+
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/pull-list-10-10-2018.jpg" alt="Pull List Image for Oct 10, 2018">
+  <figcaption><strong>From left to right:</strong> Paper Girls #25, Dead Rabbit #1, Analog Vol.1 Trade Paperback</figcaption>
+</figure>
+
 
 ## What I read last week
 
