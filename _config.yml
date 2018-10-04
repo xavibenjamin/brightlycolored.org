@@ -66,4 +66,4 @@ kramdown:
   input: GFM
 sass:
   sass_dir: assets/stylesheets
-  style: :compressed
+  style: compressed
