@@ -1,10 +1,11 @@
 ---
 title: Pull List for October 10, 2018
-date: 2018-10-03 22:22:00 -05:00
+date: 2018-10-08 00:22:00 -05:00
 tags:
 - comics
 - pull list
 custom_type: post
+excerpt: Comics I'm picking up October 10, 2018.
 featured_image: "/uploads/pull-list-10-10-2018.jpg"
 ---
 
@@ -30,4 +31,4 @@ This is the best single-issue comic I'm picking up right now. Nick Spencer is do
 - **Catwoman #4**  
 I've said it before, and I'll say it again: Joëlle Jones is amazing. Both her art and writing on this arc has been fun to read.
 - **X-23 #5**  
-Mariko Tamaki's run on X-23 has been great so far. I hope there's more in this issue though, because the last issue left me wanting more.
+Mariko Tamaki's run on *X-23* has been a great transition from Tom Taylor's *[All-New Wolverine](https://en.wikipedia.org/wiki/All-New_Wolverine)*. Last month's issue didn't advance the plot much, so I'm hoping this one has a little more substance.
