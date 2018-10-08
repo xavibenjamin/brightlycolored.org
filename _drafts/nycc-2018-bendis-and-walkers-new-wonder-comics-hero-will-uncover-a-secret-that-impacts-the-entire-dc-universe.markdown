@@ -1,6 +1,6 @@
 ---
-title: 'NYCC 2018: Bendis and Walker’s new Wonder Comics hero will uncover a secret
-  that impacts the entire DC Universe'
+title: Bendis and Walker’s New Hero Will Uncover a Secret That Impacts the Entire
+  DC Universe | AiPT!
 date: 2018-10-08 00:44:00 -05:00
 tags:
 - DC Comics
