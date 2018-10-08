@@ -13,7 +13,7 @@ featured_image: "/uploads/naomi-featured.jpg"
 
 JJ Travers writing for *AiPT!*:
 
-> Several days ago, DC Comics writer Brian Michael Bendis made a surprise appearance during DC’s Meet the Publishers panel at New York Comic Con. While there, he announced Wonder Comics — a new young adult imprint under the DC umbrella.
+> Several days ago, DC Comics writer Brian Michael Bendis made a surprise appearance during DC’s Meet the Publishers panel at New York Comic Con. While there, he [announced](http://www.adventuresinpoortaste.com/2018/10/04/nycc-2018-dc-announces-wonder-comics-new-imprint-with-bendis-at-the-helm/) Wonder Comics — a new young adult imprint under the DC umbrella.
 >
 >…
 >
