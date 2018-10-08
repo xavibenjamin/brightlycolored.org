@@ -1,6 +1,6 @@
 ---
 title: MCBA Fall ComiCon 2018
-date: 2018-10-01 08:33:00 -05:00
+date: 2018-10-07 22:58:00 -05:00
 tags:
 - comics
 - comic con
