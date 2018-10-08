@@ -29,6 +29,6 @@ I'll be honest, I bought this because I couldn't pass the cover up. It's so nice
 - **The Amazing Spider-Man #7**  
 This is the best single-issue comic I'm picking up right now. Nick Spencer is doing a great job with this story. Not loving Humberto Ramos' art, but it's by no means terrible.
 - **Catwoman #4**  
-I've said it before, and I'll say it again: Joëlle Jones is amazing. Both her art and writing on this arc has been fun to read.
+I've said it before, and I'll say it again: Joëlle Jones is amazing. Both her art and writing on this arc has been fun to read. Those Artgerm variants are beautiful too.
 - **X-23 #5**  
 Mariko Tamaki's run on *X-23* has been a great transition from Tom Taylor's *[All-New Wolverine](https://en.wikipedia.org/wiki/All-New_Wolverine)*. Last month's issue didn't advance the plot much, so I'm hoping this one has a little more substance.
