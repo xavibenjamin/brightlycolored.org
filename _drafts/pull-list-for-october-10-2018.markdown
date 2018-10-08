@@ -25,6 +25,9 @@ I'll be honest, I bought this because I couldn't pass the cover up. It's so nice
 
 ## Picking up this week
 
-- **The Amazing Spider-Man #7**
-- **Catwoman #4**
-- **X-23 #5**
+- **The Amazing Spider-Man #7**  
+This is the best single-issue comic I'm picking up right now. Nick Spencer is doing a great job with this story. Not loving Humberto Ramos' art, but it's by no means terrible.
+- **Catwoman #4**  
+I've said it before, and I'll say it again: Joëlle Jones is amazing. Both her art and writing on this arc has been fun to read.
+- **X-23 #5**  
+Mariko Tamaki's run on X-23 has been great so far. I hope there's more in this issue though, because the last issue left me wanting more.
