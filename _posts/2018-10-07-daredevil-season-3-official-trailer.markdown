@@ -1,5 +1,5 @@
 ---
-title: 'Daredevil: Season 3 Official Trailer'
+title: "‘Daredevil’ Season 3 Official Trailer"
 date: 2018-10-07 23:16:00 -05:00
 tags:
 - Marvel
