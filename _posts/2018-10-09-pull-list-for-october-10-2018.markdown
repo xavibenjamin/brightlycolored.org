@@ -1,6 +1,6 @@
 ---
 title: Pull List for October 10, 2018
-date: 2018-10-08 00:22:00 -05:00
+date: 2018-10-09 10:14:00 -05:00
 tags:
 - comics
 - pull list
