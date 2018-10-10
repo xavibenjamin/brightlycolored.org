@@ -1,6 +1,6 @@
 ---
 title: A New Peter Parker Tale is Coming in Friendly Neighborhood Spider-Man | Marvel.com
-date: 2018-10-08 00:45:00 -05:00
+date: 2018-10-10 08:43:00 -05:00
 tags:
 - comics
 - Marvel
