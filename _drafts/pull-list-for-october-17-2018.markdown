@@ -18,7 +18,7 @@ Not really feeling this. Didn't really like the humor or the story. Looks like t
 - **Catwoman #4**  
 As usual, the art and colors of this book are nothing short of amazing. Also, the A cover is done with an awesome-looking foil. But the issue left me confused. I don't really understand how this issue contributes to the story arc.
 - **X-23 #5**  
-I'm sad to say the end of this arc was disappointing. In fact, the last two issues of the arc were disappointing. Mariko Tamaki's run felt like such a great continuation tone-wise, but the end of the arc feels like it lost its way. I'll be watching closely to decide whether I continue picking this up.
+I'm sad to say the end of this arc was disappointing. In fact, the last two issues of the arc were disappointing. Mariko Tamaki's run felt like such a great continuation tone-wise, but it somehow lost its way. I'll be watching closely to decide whether I continue picking this up.
 
 **Favorite of the week:** The Last Space Race #1
 
