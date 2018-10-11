@@ -6,8 +6,6 @@ subtitle: My depression-ridden thoughts on adulthood
 is_rss_only: true
 ---
 
-# Thank You
-
 When you’re a kid, I don’t think you realize how many your goals, dreams, and expectations get absolutely crushed. I always dreamed of living in New York, and yet with each passing year, the possibility dwindles more. Most people would describe me as a bit nerdy or geeky, terms that have been used both affectionately and to make fun of me for a long time. 
 
 People never really accept you for who you are. Most want to say that they do, but the reality is much different. Everyone has expectations of who you should be, what you should do with your time and life, and for some reason it’s never their fault for having expectations, it’s yours because you couldn’t (or didn’t want to) meet them.
