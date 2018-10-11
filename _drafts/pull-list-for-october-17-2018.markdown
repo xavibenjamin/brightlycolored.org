@@ -12,7 +12,7 @@ custom_type: post
 - **The Amazing Spider-Man #7**  
 I'm still loving this book! We haven't seen Spidey in his suit for two issues, and you would think that'd be a bad thing, but the character development on Boomerang has been fascinating to read. Especially in this issue. Nick Spencer keeps killing it with killer story and great humor.
 - **The Last Space Race #1**  
-Picked this up on a whim because Peter Calloway was writing it (he's worked on shows like *Legion*). I enjoyed the humor and as a fan of space exploration, I love the premise. This comic is definitely going on my pull list. 
+Picked this up on a whim because Peter Calloway was writing it (he's worked on shows like *Legion*). The writing is clever and funny, and as a fan of space exploration, I love the premise. This comic is definitely going on my pull list. 
 - **Spider-Geddon #1**  
 Not really feeling this. Didn't really like the humor or the story. Looks like this is mostly just me though, others seem to like it.
 - **Catwoman #4**  
