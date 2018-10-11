@@ -13,8 +13,10 @@ custom_type: post
 I'm still loving this book! We haven't seen Spidey in his suit for two issues. Now, you would think that'd be a bad thing, but the character development on Boomerang has been fascinating to read. Especially in this issue.
 - **The Last Space Race #1**  
 Picked this up on a whim because Peter Calloway was writing it (he's worked on shows like *Legion*). I enjoyed the humor and as a fan of space exploration, I love the premise. This comic is definitely going on my pull list. 
-- Spider-Geddon #1
-- Catwoman #4
+- **Spider-Geddon #1**  
+Not really feeling this. Didn't really like the humor or the story. Looks like this is mostly just me though, others seem to like it.
+- **Catwoman #4**  
+As usual, the art and colors of this book are nothing short of amazing. Also, the A cover is done with an awesome-looking foil. But the issue left me confused. I don't really understand how this issue contributes to the story arc.
 - X-23 #5
 
 **Favorite of the week:** The Last Space Race #1
