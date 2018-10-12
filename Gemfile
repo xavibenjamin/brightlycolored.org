@@ -10,6 +10,7 @@ gem 'nokogiri', '~> 1.8', '>= 1.8.1'
 
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
+  gem 'jekyll-typogrify', '~> 0.3.5'
 end
 
 group :development do

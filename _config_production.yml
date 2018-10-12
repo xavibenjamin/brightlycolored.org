@@ -25,6 +25,10 @@ markdown_ext:  markdown,mkdown,mkdn,mkd,md,mdown
 kramdown:
   input: GFM
 
+# Gems
+gems:
+- jekyll-typogrify
+
 # Defaults
 defaults:
   -

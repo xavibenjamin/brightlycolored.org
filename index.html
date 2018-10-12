@@ -31,10 +31,10 @@ excerpt: Brightly Colored (previously The Bold Report) is a personal blog writte
           {% if post.custom_type == 'post' %}
           <header class="post__header">
             <h1>
-              <a href="{{ post.url }}">{{ post.title | smartify }}</a>
+              <a href="{{ post.url }}">{{ post.title | smartify | widont }}</a>
             </h1>
             {% if post.subtitle %}
-            <h2 class="post__subtitle">{{ post.subtitle | smartify }}</h2>
+            <h2 class="post__subtitle">{{ post.subtitle | smartify | widont }}</h2>
             {% endif %}
             
             {% if post.review.type %}
@@ -42,16 +42,16 @@ excerpt: Brightly Colored (previously The Bold Report) is a personal blog writte
             {% endif %}
           </header>
         
-          {{ post.content }}
+          {{ post.content | improve }}
 
         {% elsif post.custom_type == 'link' %}
           <header class="post__header"> 
             <h1>
-              <a href="{{ post.link_url }}">{{ post.title | smartify }}</a>&nbsp;<span class="arrow">&rarr;</span>
+              <a href="{{ post.link_url }}">{{ post.title | smartify | widont }}</a>&nbsp;<span class="arrow">&rarr;</span>
             </h1>
           </header>
         
-          {{ post.content }}
+          {{ post.content | improve }}
 
           <small class="post__permalink">
             <a href="{{ post.url }}" title="Permalink for {{ post.title }}">Permalink</a>
