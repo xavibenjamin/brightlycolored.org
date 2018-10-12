@@ -10,7 +10,7 @@ featured_image: "/uploads/pull-list-10-17-2018.jpg"
 
 <figure class="extendout">
   <img src="{{ site.url }}/uploads/pull-list-10-17-2018.jpg" alt="">
-  <figcaption><strong>From left to right starting from the back:</strong> {{ "**True Believers: What If Spider-Man Had Rescued Gwen Stacy?** #1, **X-23** #5, **Catwoman** #4, **Spider-Geddon** #1, **Oblivion Song** #1, **The Amazing Spider-Man** #7, **The Last Space Race** #1"  | markdownify }}</figcaption>
+  <figcaption><strong>From left to right starting from the back:</strong> True Believers: What If Spider-Man Had Rescued Gwen Stacy?** #1, X-23 #5, Catwoman #4, Spider-Geddon #1, Oblivion Song #1, The Amazing Spider-Man #7, The Last Space Race #1</figcaption>
 </figure>
 
 
