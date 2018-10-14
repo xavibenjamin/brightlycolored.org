@@ -6,5 +6,6 @@
   {% include javascripts/heading-anchors.js %}
   {% include javascripts/group-list.js %}
   {% include javascripts/mobile-menu.js %}
+  {% include javascripts/toc.js %}
 {% endcapture %}
 {{ scripts | strip }}
