@@ -13,6 +13,8 @@ featured_image: "/uploads/pull-list-10-17-2018.jpg"
   <figcaption><strong>From left to right starting from the back:</strong> <em>True Believers: What If Spider-Man Had Rescued Gwen Stacy?</em> #1, <em>X-23</em> #5, <em>Catwoman</em> #4, <em>Spider-Geddon</em> #1, <em>Oblivion Song</em> #1, <em>The Amazing Spider-Man</em> #7, <em>The Last Space Race</em> #1</figcaption>
 </figure>
 
+Boy, last week was packed some great comics! It was just one of those weeks where I thought I'd only pick up a few books, and next thing I know, I'm walking out with seven. Here's what I read last week, and what I'm picking up this week.
+
 ## What I read last week
 
 - **The Amazing Spider-Man #7**  
