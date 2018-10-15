@@ -1,6 +1,6 @@
 ---
 title: Pull List for October 17, 2018
-date: 2018-10-15 23:50:00 -05:00
+date: 2018-10-15 11:50:00 -05:00
 tags:
 - pull list
 - comics
