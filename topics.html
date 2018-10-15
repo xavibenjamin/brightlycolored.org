@@ -25,7 +25,7 @@ excerpt: Topics covered on Brightly Colored.
     {% if tag[1].size == i  %}
       <li>
         <a href="#{{ tag[0] | downcase | replace:' ','-' }}" title="{{ i }} posts">
-          {{ tag[0] | titlecase }}
+          {{ tag[0] }}
           <span>{{ i }}</span>
         </a>
       </li>
