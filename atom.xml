@@ -40,7 +40,7 @@ layout:
           {% if post.subtitle %}
             <h2>{{ post.subtitle }}</h2>
           {% endif %}
-          {{ post.content }}
+          {{ post.content | strip_toc }}
           {% if post.custom_type == 'link' %}
             <p><a title="Permalink to ‘{{ post.title }}’" href="{{ site.url | xml_escape }}{{ post.url | xml_escape }}">∞ Read on <em>Brightly Colored</em></a></p>
           {% endif %}
