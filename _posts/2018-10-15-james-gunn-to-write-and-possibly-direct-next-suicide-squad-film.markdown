@@ -1,6 +1,6 @@
 ---
 title: James Gunn to Write and Possibly Direct Next ‘Suicide Squad’ Film
-date: 2018-10-14 20:28:00 -05:00
+date: 2018-10-15 17:30:00 -05:00
 tags:
 - DC Comics
 - movies
