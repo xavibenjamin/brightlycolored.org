@@ -1,8 +1,11 @@
 ---
 title: Review of Brian Michael Bendis’ Latest Comic ‘Cover’
-date: 2018-10-15 01:30:30.877000000 -05:00
+date: 2018-10-16 05:30:00 -05:00
+tags:
+- comics
+- reviews
 link_url: http://www.ign.com/articles/2018/09/06/dcs-newest-jinxworld-comic-is-the-best-yet-cover-1-review
-featured_image: https://assets1.ignimgs.com/2018/09/06/gallerycomics-1920x1080-20180905-cover-cv1-5b6a15af53e19901801145-1536193407517_1280w.jpg
+featured_image: "/uploads/cover-comic-featured.jpg"
 ---
 
 Jesse Schedeen writing for *IGN*:
