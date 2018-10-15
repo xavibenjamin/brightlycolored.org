@@ -4,6 +4,8 @@ date: 2018-10-14 20:28:00 -05:00
 tags:
 - DC Comics
 - movies
+excerpt: Looks like James Gunn is going to write (and maybe direct) the next Suicide
+  Squad film, eh?
 link_url: https://deadline.com/2018/10/james-gunn-boards-suicide-squad-2-to-write-and-possibly-direct-1202479455/
 ---
 
