@@ -1,8 +1,8 @@
 ---
 title: Scheduled Posts in Jekyll with Zapier
+date: 2018-10-15 10:50:00 -05:00
 subtitle: Turned out to be a lot less difficult than anticipated
 custom_type: post
-date: 2018-10-15 10:50:00 -05:00
 ---
 
 One of the tradeoffs of using a static site generator like Jekyll is not having scheduled posts. Sure you can add a date in the future, but static means exactly that, there's no dynamic part to find and compare dates and times. Without complex hacks, I hadn't found an easy way to do scheduled posts with Jekyll. That is, until now.
