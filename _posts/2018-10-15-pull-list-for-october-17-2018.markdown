@@ -44,4 +44,4 @@ It brings me sadness to say that I'm not enjoying this. Like I've said many time
 - **The New World #4**  
 A love story mixed in with politics and family drama. Really enjoying this miniseries whose last issue will be #5. The art in this is *different*, I don't love it or hate it, it's just *different*.
 - **Shuri #1**  
-Shuri is a character I really enjoyed in the *Black Panther* film that came out in February. <mark>She's incredibly smart and funny, and *Infinity War* confirms she's smarter than Bruce Banner and Tony Stark combined.</mark> So yes, I'm picking up this first issue. Also, have you seen the gorgeous covers?!
+Shuri is a character I really enjoyed in the *Black Panther* film that came out in February. <mark>She's incredibly smart and funny, and <em>Infinity War</em> confirms she's smarter than Bruce Banner and Tony Stark combined.</mark> So yes, I'm picking up this first issue. Also, have you seen the gorgeous covers?!
