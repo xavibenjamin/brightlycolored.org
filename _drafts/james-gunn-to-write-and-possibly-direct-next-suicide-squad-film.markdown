@@ -7,6 +7,7 @@ tags:
 excerpt: Looks like James Gunn is going to write (and maybe direct) the next Suicide
   Squad film, eh?
 link_url: https://deadline.com/2018/10/james-gunn-boards-suicide-squad-2-to-write-and-possibly-direct-1202479455/
+featured_image: "/uploads/james-gunn-featured.jpg"
 ---
 
 Mike Fleming Jr. writing for *Deadline*:
