@@ -15,6 +15,8 @@ subtitle: Avoid pulling your hair out like I did.
 ---
 I love using Jekyll. I use it for this blog, my personal site, and it’s the first thing I suggest when people want something with content that needs to be updated. However, deploying gets complicated when you’re using a variety of plugins and you don’t want to host with GitHub Pages.
 
+{% include toc.html %}
+
 I had setup [Deploy](https://www.deployhq.com/) to do this automatically when new commits were pushed to the master branch. But I wanted something better; something that didn’t feel like so much of a hack. I was having to compile the whole site locally, and sometimes I’d forget to use the right config file, so things would break and I’d have to scramble to fix quickly.
 
 One day, the lightbulb when off, and I started to wonder if I could use [Heroku](https://www.heroku.com/home) to host my Jekyll sites. After doing some calculations, I felt like I could improve the deploy workflow, and save a little money.

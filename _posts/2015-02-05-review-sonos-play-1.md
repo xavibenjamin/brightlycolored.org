@@ -18,6 +18,8 @@ review:
 
 Sonos is widely regarded as a premier speaker system for your home. Their newest product, the Play:1, is their most affordable one, and could potentially get more people into the Sonos ecosystem.
 
+{% include toc.html %}
+
 ## First Impressions
 
 - The speaker may be small, but it's loud. I was very surprised by the power of the small speaker.

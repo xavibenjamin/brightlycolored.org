@@ -8,6 +8,8 @@ excerpt: Writing style guide for Brightly Colored.
 
 I can be a very forgetful person. Case in point, I tend to forget my personal rules and guidelines for my writing. Hence, here's a written guide for me to reference when I need it.
 
+{% include toc.html %}
+
 ## Personality and Tone
 
 Articles and commentary on links written by me, should sound like me. My personality and tone is:
