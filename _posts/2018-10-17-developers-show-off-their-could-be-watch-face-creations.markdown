@@ -1,6 +1,6 @@
 ---
-title: Developers Show What They Could Make if Apple Opened Up Watch Face Development
-date: 2018-10-15 23:49:00 -05:00
+title: Developers Show Off Their Could-Be Watch Face Creations
+date: 2018-10-17 11:50:00 -05:00
 tags:
 - Apple Watch
 - tech
