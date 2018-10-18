@@ -1,7 +1,17 @@
 ---
 title: Pull List for October 24, 2018
 date: 2018-10-17 20:45:00 -05:00
+tags:
+- comics
+- pull list
+featured_image: "/uploads/pull-list-10-24-2018.jpg"
 ---
+
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/pull-list-10-24-2018.jpg" alt="Pull List for October 24, 2018">
+  <figcaption><strong>From left to right:</strong> <em>The New World</em> #4, <em>Shuri</em> #1, <em>Cover</em> #2, <em>Daredevil</em> #609</figcaption>
+</figure>
+
 
 ## What I read last week
 
