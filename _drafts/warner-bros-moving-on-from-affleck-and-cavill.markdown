@@ -1,5 +1,5 @@
 ---
-title: Warner Bros. Moving on from Affleck and Cavill in DCEU
+title: Warner Bros. Moving on from Affleck and Cavill
 date: 2018-10-20 00:26:00 -05:00
 tags:
 - DC Comics
