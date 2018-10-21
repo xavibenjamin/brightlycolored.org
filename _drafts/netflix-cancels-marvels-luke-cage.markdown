@@ -1,8 +1,9 @@
 ---
 title: Netflix Cancels Marvel’s Luke Cage
 date: 2018-10-20 00:09:00 -05:00
+excerpt: Shocking news.
 link_url: https://www.cbr.com/netflix-marvels-luke-cage-canceled/
-featured_image: https://www.cbr.com/wp-content/uploads/2018/05/luke-cage-header.jpg
+featured_image: "/uploads/luke-cage-featured.jpg"
 ---
 
 Justin Carter writing for CBR:
