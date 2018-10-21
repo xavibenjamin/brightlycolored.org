@@ -1,6 +1,6 @@
 ---
 title: "‘Luke Cage’ Cancelled by Netflix"
-date: 2018-10-23 05:50:00 -05:00
+date: 2018-10-24 05:50:00 -05:00
 tags:
 - Marvel
 - TV
