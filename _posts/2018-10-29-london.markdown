@@ -1,9 +1,11 @@
 ---
 title: London
-date: 2018-10-29 13:46:00 -05:00
+date: 2018-10-29 16:22:00 -05:00
 tags:
 - photography
 custom_type: post
+excerpt: Some of my favorite shots from London
+featured_image: "/uploads/london-featured.jpg"
 ---
 
 Kelly and I spent a beautiful four days in London this past week. Modern travel (while cramped and uncomfortable) is a marvel. The idea that we were half way across the world just a few days ago is nothing short of incredible.
