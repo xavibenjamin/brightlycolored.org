@@ -6,7 +6,22 @@ tags:
 custom_type: post
 ---
 
-Kelly and I spent a beautiful 4 days in London this past week. Modern travel, while cramped and uncomfortable, really is a marvel. The idea that we were half way across the world just a few days ago continues to amaze me.
+Kelly and I spent a beautiful four days in London this past week. Modern travel (while cramped and uncomfortable) is a marvel. The idea that we were half way across the world just a few days ago is nothing short of incredible.
 
-**Camera:** Sony α7 III
+**Camera:** Sony α7 III  
 **Lens:** Sony 24-70mm ƒ/2.8 GM
+
+<figure class="photo-grid photo-grid--four">
+  <img src="{{ site.url }}/uploads/2018/10/london-001.jpg" alt="London street in front of the Ambassador Bloomsbury hotel" style="grid-column: span 3">
+  <img src="{{ site.url }}/uploads/2018/10/london-002.jpg" alt="Kelly on London street" style="grid-column: span 3">
+  <img src="{{ site.url }}/uploads/2018/10/london-003.jpg" alt="Building in London" style="grid-column: 3 / span 4">
+  <img src="{{ site.url }}/uploads/2018/10/london-004.jpg" alt="View of the London Tower Bridge" style="grid-column: span 6">
+  <img src="{{ site.url }}/uploads/2018/10/london-006.jpg" alt="Kelly next to a telephone booth" style="grid-column: span 2">
+  <img src="{{ site.url }}/uploads/2018/10/london-007.jpg" alt="Kelly inside the stinky telephone booth" style="grid-column: span 4">
+  <img src="{{ site.url }}/uploads/2018/10/london-008.jpg" alt="Kelly leaning on a telephone booth from a different angle" style="grid-column: span 4">
+  <img src="{{ site.url }}/uploads/2018/10/london-010.jpg" alt="Kelly in front of London Eye" style="grid-column: span 6">
+  <img src="{{ site.url }}/uploads/2018/10/london-012.jpg" alt="View of the London Eye" style="grid-column: span 4">
+  <img src="{{ site.url }}/uploads/2018/10/london-013.jpg" alt="Kelly on the Bridge with London Eye in the background" style="grid-column: span 2">
+  <img src="{{ site.url }}/uploads/2018/10/london-014.jpg" alt="Tim on the bridge with London Eye in the background" style="grid-column: span 3">
+  <img src="{{ site.url }}/uploads/2018/10/london-015.jpg" alt="Kelly on the bridge with Big Ben in the background" style="grid-column: span 3">
+</figure>
