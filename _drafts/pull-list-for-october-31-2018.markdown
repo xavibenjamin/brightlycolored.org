@@ -5,17 +5,27 @@ custom_type: post
 ---
 
 ## What I read last week
-- **The Amazing Spider-Man #8**
-- **Burnouts #2**
-- **X-Men: Red #9**
-- **Saga Vol. 9 TP**
-- **Paper Girls Vol. 4 TP**
+
+- **The Amazing Spider-Man #8**  
+While I love the local and pretty grounded stories this title has been exploring so far, this new arc looks to include more characters in the Marvel universe. Loved the cameos in this one.
+- **Burnouts #2**  
+So the premise is hilarious: there's an alien invasion and you can't tell unless you're baked. Interested in seeing where this goes.
+- **X-Men: Red #9**  
+Another one of my favorite titles right now. I don't think Marvel has officially announced the cancellation of this title, but it looks like that's what'll happen. This issue has a pretty big twist and some fantastic and heroic moments. Jean Grey is spectacular in this series.
+- **Paper Girls Vol. 4 TP**  
+For three volumes now, Brian K. Vaughan has taken me on a few different journeys through time, introduced me to many characters, yet without much explanation of the broader conflict. Volume four begins to shed light on the war happening through time and the motivations of each side. I can't wait to find more answers in volume five.
+- **Saga Vol. 9 TP**  
+Can Brian K. Vaughan do wrong? This next installation of *Saga* would point to no. The stakes are raised once again after what felt like such a happy ending and reunion at the end of volume eight. The collaboration between Vaughan and Staples continues to shine as some of the most important panels of the book are completely textless yet no less evocative. I applaud [their decision to take a year off](https://www.cbr.com/saga-hiatus-brian-vaughan-fiona-staples/), and it'll all be worth it when we get the next chapter of this rivetting epic.
 
 **Favorite of the week:** Saga Vol. 9 TP
 
 ## Picking up this week
 
-- **Daredevil #610**
-- **Jessica Jones: Blindspot TP**
-- **Man-Eaters #2**
-- **West Coast Avengers #3**
+- **Daredevil #610**  
+This is part two of the new arc where it looks like Daredevil will die. After finishing Season Three of *Daredevil* on Netflix, I'm hungry for more Daredevil stories.
+- **Jessica Jones: Blindspot TP**  
+Read the first issue of this and loved it. Kelly Thompson does a fantastic job writing Jessica Jones and I'm looking forward to reading the whole arc in print.
+- **Man-Eaters #2**  
+The first issue of this was so good, I can't wait to read this one.
+- **West Coast Avengers #3**  
+Another one of my favorite titles. The humor Kelly Thompson injects into this awesome team is always a fun ride.
