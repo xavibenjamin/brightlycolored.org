@@ -1,6 +1,6 @@
 ---
 title: Pull List for October 31, 2018
-date: 2018-10-29 16:22:00 -05:00
+date: 2018-10-30 13:10:00 -05:00
 tags:
 - comics
 - pull list
@@ -13,6 +13,8 @@ featured_image: "/uploads/pull-list-10-31-2018.jpg"
   <img src="{{ site.url }}/uploads/pull-list-10-31-2018.jpg" alt="Things I read last week">
   <figcaption><strong>From left to right, back to front:</strong> <em>Paper Girls</em> Vol. 4 <span class="caps">TP</span>, <em>Burnouts</em> #2, <em>X-Men: Red</em> #9, <em>Saga</em> Vol. 9 <span class="caps">TP</span>, <em>The Amazing Spider-Man</em> #8</figcaption>
 </figure>
+
+Another exciting week of comics is here! I ended up going to the comic book store upon returning from London, so here's what I read last week and what I'm picking up tomorrow.
 
 
 ## What I read last week
