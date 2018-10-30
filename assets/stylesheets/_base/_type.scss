@@ -202,7 +202,8 @@ sup {
 }
 
 p,
-li {
+li,
+figcaption {
   .caps {
     @extend %sans-small;
   }
