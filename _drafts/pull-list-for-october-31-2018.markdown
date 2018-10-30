@@ -6,7 +6,14 @@ tags:
 - pull list
 custom_type: post
 excerpt: Comics I read last week and what I'm picking up this week.
+featured_image: "/uploads/pull-list-10-31-2018.jpg"
 ---
+
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/pull-list-10-31-2018.jpg" alt="Things I read last week">
+  <figcaption><strong>From left to right, back to front:</strong> <em>Paper Girls</em> Vol. 4 <span class="caps">TP</span>, <em>Burnouts</em> #2, <em>X-Men: Red</em> #9, <em>Saga</em> Vol. 9 <span class="caps">TP</span>, <em>Amazing Spider-Man<em> #8</figcaption>
+</figure>
+
 
 ## What I read last week
 
