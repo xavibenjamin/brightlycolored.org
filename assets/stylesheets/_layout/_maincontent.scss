@@ -171,6 +171,9 @@
   color: lighten($body-color, 15%);
   span {
     display: block;
+    span {
+      display: inline-block;
+    }
   }
   .post__date {
     font-size: .7rem;

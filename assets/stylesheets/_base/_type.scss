@@ -203,7 +203,8 @@ sup {
 
 p,
 li,
-figcaption {
+figcaption,
+.post__date {
   .caps {
     @extend %sans-small;
   }

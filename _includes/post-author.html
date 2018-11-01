@@ -5,6 +5,6 @@
   <div class="author__text">
     <span class="author__name"><a href="/authors/{{ author.author_path }}" title="{{ page.title }} written by {{ author.display_name }}">{{ author.display_name }}</a></span>
     <span class="author__title">{{ author.title | markdownify | remove: '<p>' }}</span>
-    <span class="post__date"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%a, %b %d, %Y" }}</time></span>
+    <span class="post__date"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%a, %b %d, %Y at %I:%M%P <span class='caps'>%Z</span>" }}</time></span>
   </div>
 </div>
