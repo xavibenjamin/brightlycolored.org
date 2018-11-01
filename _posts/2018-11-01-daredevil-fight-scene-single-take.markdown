@@ -1,8 +1,13 @@
 ---
-title: "‘How <em>Daredevil</em> Filmed Its 10-Minute Prison Fight in a Single Take’"
-date: 2018-10-31 22:51:00 -05:00
+title: "‘Daredevil’ Director Alex Garcia Lopez Knew the Fight Scene Should Be Done
+  in a Single Take"
+date: 2018-11-01 11:50:00 -05:00
+tags:
+- Marvel
+- TV
+excerpt: Holy moly, what a ton of work.
 link_url: http://www.vulture.com/2018/10/daredevil-season-3-one-take-fight-scene.html
-featured_image: https://pixel.nymag.com/imgs/daily/vulture/2018/10/22/daredevil/22-dare-devil-5.w1200.h630.jpg
+featured_image: "/uploads/daredevil-featured-447b11.jpg"
 ---
 
 One of *Daredevil*'s season three episode directors, Alex Garcia Lopez, in a quote given to Abraham Riesman writing for *Vulture*:
