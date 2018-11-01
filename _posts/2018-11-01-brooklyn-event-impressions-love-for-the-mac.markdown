@@ -1,12 +1,12 @@
 ---
 title: Jason Snell's Mac Impressions from Apple's Brooklyn Event
-date: 2018-10-31 22:02:00 -05:00
+date: 2018-11-01 08:15:00 -05:00
 tags:
 - Apple
 - Apple event
 - Mac
+excerpt: Apple is once again starting to make the Macs they *should* be making.
 link_url: https://sixcolors.com/post/2018/10/brooklyn-event-impressions-love-for-the-mac/
-featured_image: https://sixcolors.com/images/content/2018/914EBD8F-6A3F-488C-B920-86F51D24986F.jpeg
 ---
 
 Jason Snell writing on his site *Six Colors*:
