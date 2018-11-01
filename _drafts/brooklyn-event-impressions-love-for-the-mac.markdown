@@ -1,9 +1,15 @@
 ---
 title: Jason Snell's Mac Impressions from Apple's Brooklyn Event
 date: 2018-10-31 22:02:00 -05:00
+tags:
+- Apple
+- Apple event
+- Mac
 link_url: https://sixcolors.com/post/2018/10/brooklyn-event-impressions-love-for-the-mac/
 featured_image: https://sixcolors.com/images/content/2018/914EBD8F-6A3F-488C-B920-86F51D24986F.jpeg
 ---
+
+Jason Snell writing on his site *Six Colors*:
 
 > This was the first time in four years since the Mac mini got love on stage, and that last update was completely underwhelming. This one’s *waaaaay* better. In fact, I have to say that it pretty much checked every box I wanted it to check. This is the Mac mini Apple should be making.
 
