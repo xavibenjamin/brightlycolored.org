@@ -5,6 +5,9 @@ link_url: http://www.vulture.com/2018/10/daredevil-season-3-one-take-fight-scene
 featured_image: https://pixel.nymag.com/imgs/daily/vulture/2018/10/22/daredevil/22-dare-devil-5.w1200.h630.jpg
 ---
 
-One *Daredevil*'s season three episode directors, Alex Garcia Lopez in a quote given to Abraham Riesman writing for *Vulture*:
+One of *Daredevil*'s season three episode directors, Alex Garcia Lopez, in a quote given to Abraham Riesman writing for *Vulture*:
 
-> “I got the script on the first day, and I came upon, like, page 11 or whatever it was, and it started to describe this amazing sequence,” he recalls. “I just kept reading it and it just kept yelling at me, This should be a oner. So I finished the script and I literally called Erik, the showrunner, and I was like, ‘Mate, I think we have an incredible chance here to do a fantastic oner.’”
+> “I got the script on the first day, and I came upon, like, page 11 or whatever it was, and it started to describe this amazing sequence,” he recalls. “I just kept reading it and it just kept yelling at me, *This should be a oner*. So I finished the script and I literally called Erik, the showrunner, and I was like, ‘Mate, I think we have an incredible chance here to do a fantastic oner.’”
+
+Hands down one of the best scenes I've ever watched in television or film. I had no idea the work involved in making something like this.
+
