@@ -36,3 +36,20 @@
     fill: $primary-color;
   }
 }
+
+.offline-ready {
+  background: #CFE8C6;
+  bottom: 0;
+  color: darken(#CFE8C6, 50%);
+  display: none;
+  @extend %sans-small;
+  left: 0;
+  padding: .8rem;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  z-index: 5;
+  &.active {
+    display: block;
+  }
+}

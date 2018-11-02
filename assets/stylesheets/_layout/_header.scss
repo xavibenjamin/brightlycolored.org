@@ -41,10 +41,11 @@
 
 .header__byline {
   color: rgba(white, .75);
-  font-size: .68rem;
+  @extend %sans-small;
+  font-size: .9rem;
   font-weight: 600;
   letter-spacing: 1.1px;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 }
 
 .brightly-colored-logo {

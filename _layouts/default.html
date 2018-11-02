@@ -19,6 +19,10 @@ layout: compress
       {% include footer.html %}
       
     </div>
-
+    
+    {% if jekyll.environment == "production" %}
+      {% include service-worker.html %}
+      <div class="offline-ready">Site is ready for Offline Use</div>
+    {% endif %}
   </body>
 </html>
