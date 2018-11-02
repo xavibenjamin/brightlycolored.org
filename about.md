@@ -14,11 +14,11 @@ Just as a person goes through different phases of life, so has this site. There 
 
 I felt the name *Brightly Colored* matched my personality. You'll normally find me wearing bright and vibrant things like yellow shorts, bright-patterned socks, and red shoes.
 
-## About Tim
-
 <figure class="small__right">
   <img src="{{ site.url }}/uploads/tim@2x.jpg" alt="Tim Smith">
 </figure>
+
+## About Tim
 
 Writing about yourself is tough, but here we go.
 
