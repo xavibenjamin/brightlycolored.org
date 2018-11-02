@@ -1,15 +1,22 @@
 ---
 ---
 
-const staticCacheName = "brightlycolored-v1";
+const version = '{{ site.time | date: '%Y%m%d%H%M%S' }}';
+const staticCacheName = `brightlycolored-${version}`;
 
 console.log("installing service worker");
 
 const filesToCache = [
-  {% for page in site.html_pages %}
-  '{{ page.url }}',
-  {% endfor %}
-  {% for post in site.posts %}
+  '404.html',
+  '/about/',
+  '/archive/',
+  '/genres/',
+  '/subscribe/',
+  '/topics/',
+  '/offline/',
+  '/',
+
+  {% for post in site.posts limit: 3 %}
   '{{ post.url }}',
   {% endfor %}
 
@@ -17,6 +24,7 @@ const filesToCache = [
   "https://gravatar.com/avatar/febbffcb54abe1be1435720fc2268237?s=100",
   "/uploads/tim@2x.jpg",
   "/assets/stylesheets/global.css",
+  "/assets/app.js",
   "/themes/theme-001.css",
   "/themes/theme-002.css",
   "/themes/theme-003.css",
@@ -52,6 +60,19 @@ self.addEventListener("activate", function (e) {
 });
 
 self.addEventListener("fetch", function (e) {
+
+  if (e.request.method !== 'GET') {
+    e.respondWith(fetch(e.request));
+    return;
+  }
+
+  if (e.request.headers.get('Accept').indexOf('text/html') !== -1) {
+    e.respondWith(
+      fetch(e.request).catch(() => caches.match('/offline/'))
+    );
+    return;
+  }
+
   e.respondWith(
     caches.match(e.request).then(function (response) {
       return response || fetch(e.request);
