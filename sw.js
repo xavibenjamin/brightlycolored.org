@@ -60,22 +60,29 @@ self.addEventListener("activate", function (e) {
 });
 
 self.addEventListener("fetch", function (e) {
+  let request = e.request;
 
-  if (e.request.method !== 'GET') {
-    e.respondWith(fetch(e.request));
+
+  if (request.method !== 'GET') {
+    e.respondWith(fetch(request));
     return;
   }
 
-  if (e.request.headers.get('Accept').indexOf('text/html') !== -1) {
+  if (request.headers.get('Accept').indexOf('text/html') !== -1) {
     e.respondWith(
-      fetch(e.request).catch(() => caches.match('/offline/'))
+      fetch(request).catch(function(error) {
+        return caches.match(request);
+      })
+      // .catch(function() {
+      //   return caches.match('/offline/');
+      // })
     );
     return;
   }
 
   e.respondWith(
-    caches.match(e.request).then(function (response) {
-      return response || fetch(e.request);
+    caches.match(request).then(function (response) {
+      return response || fetch(request);
     })
   )
 });
