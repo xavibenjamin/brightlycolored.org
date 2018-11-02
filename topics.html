@@ -9,7 +9,7 @@ excerpt: Topics covered on Brightly Colored.
 <div class="page">
   <header class="page__header page__header--full">
     <h1 class="page-header__title" id="page-title">Topics</h1>
-    <p class="page-header__description">{{ "I love to write about [comics](#comics), [Star Wars](#star-wars), [Jekyll](#jekyll), [the NBA](#nba), [tech](#tech), and [Apple](#apple). I've also written a few series you might want to read: [Brief Review](#brief-review), [Year in Review](#year-in-review), and [Jekyll on Heroku](#jekyll-on-heroku). You can also find movie, music, and book reviews by [genre](/genres/)." | markdownify | smartify | widont | remove: '<p>' | remove: '</p>' }}</p>
+    <p class="page-header__description">{{ "I love to write about [comics](#comics), my weekly [pull list](#pull-list), [Star Wars](#star-wars), [Jekyll](#jekyll), [the NBA](#nba), [tech](#tech), and [Apple](#apple). I've also written a few series you might want to read: [Brief Review](#brief-review), [Year in Review](#year-in-review), and [Jekyll on Heroku](#jekyll-on-heroku). You can also find movie, music, and book reviews by [genre](/genres/)." | markdownify | smartify | widont | remove: '<p>' | remove: '</p>' }}</p>
   </header>
 
 
@@ -63,6 +63,8 @@ excerpt: Topics covered on Brightly Colored.
             {% if tag[0] == 'review' %}<p>A collection of all the movie, app, product, and book reviews I’ve done.</p>{% endif %}
             {% if tag[0] == 'reviews' %}<p>These are all reviews I’ve linked to and <strong>were not</strong> written by me.</p>{% endif %}
             {% if tag[0] == 'comics' %}<p>Writing about comics brings me <em>almost</em> as much joy as reading them.</p>{% endif %}
+            {% if tag[0] == 'pull list' %}<p>The list of comic books I’m buying every week.</p>{% endif
+            %}
             <ul class="group__post-list group__post-list--2-col">
               {% for post in tag.last %}
                 <li class="group-post__item">
