@@ -4,6 +4,7 @@ date: 2018-08-08 20:02:00 -05:00
 tags:
 - comics
 - pull list
+custom_type: post
 ---
 
 Another Wednesday is here, which means it’s New Comic Book Day! Here are my thoughts on what I picked up last week, and what I’m picking up today.
