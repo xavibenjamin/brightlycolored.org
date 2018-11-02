@@ -59,7 +59,7 @@ Send me an email anytime. I love getting email from actual people. If you have a
 - [Adobe Lightroom Classic CC](https://www.adobe.com/products/photoshop-lightroom-classic.html)
 - [VSCO](https://itunes.apple.com/app/vsco-cam/id588013838?ls=1&mt=8)
 
-### Cameras
+### Camera
 
 - [Sony α7 III](https://amzn.to/2QSa7GG)
 
