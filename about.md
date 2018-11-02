@@ -8,6 +8,8 @@ layout: page
 
 *Brightly Colored* is designed and developed by me, [Tim Smith](http://ttimsmith.com), in beautiful [St. Paul, Minnesota](https://www.stpaul.gov/). This publication covers a whole range of things including, but not limited to: design, development, technology, Geek culture, and Apple.
 
+Just as a person goes through different phases of life, so has this site. There have been periods where I write a lot about a certain topic, then move on to another. There was also a time when I wasn't the only one to write here, which you can learn more about below. The constant however, has always been me. Most of *Brightly Colored* is a reflection of my life, my personal growth, my successes, and my sorrows.
+
 ## Why "Brightly Colored"?
 
 I felt the name *Brightly Colored* matched my personality. You'll normally find me wearing bright and vibrant things like yellow shorts, bright-patterned socks, and red shoes.
@@ -31,8 +33,6 @@ Since then, I've had the chance to work with some pretty amazing people. Some of
 In 2018, I decided I no longer wanted to work as a designer and developer for the web and became the Senior Producer for [Changelog Media](https://changelog.com/). I now make audio and video things for a living, and I love it.
 
 I originally started this site thinking I'd be the next [John Gruber](https://en.wikipedia.org/wiki/John_Gruber), but quickly realized I didn't actually want that (not to mention, I'm not nearly as great a writer). Ever since, this wonderful place is where I write about all that interests me.
-
-Just as a person goes through different phases of life, so has this site. There have been periods where I write a lot about a certain topic, then move on to another. There was also a time when I wasn't the only one to write on this site, which you can learn more about below. The constant however, has always been me. Most of this site is a reflection of my life, my personal growth, my successes, and my sorrows.
 
 ## Contact
 
