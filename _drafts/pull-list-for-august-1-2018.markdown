@@ -12,6 +12,8 @@ Tryouts this week! Only the best comics will survive the chopping block! Here’
 - **The Amazing Spider-Man #2**
 - **Mr. & Mrs. X #1** - Decided to give this a try because I heard lots of buzz around the book. I ended up really liking it. Kelly Thompson did a great job with this first issue (those honeymoon panels were steamy!), and the ending left me very curious of what’ll happen next.
 
-**Favorite of the week:**
-
 ## Picking up this week
+
+- **Captain America #2** - Lots of buzz around this book, and I love Ta-Nehisi Coates. Let’s see what he’s doing with Cap.
+- **Immortal Hulk #4** - Again, lots of buzz around this book, so I’m giving a try. Hulk is one of my favorite characters.
+- **Teen Titans #20** - This book came out last week, and while I’ve never really been into *Teen Titans*, the team of characters looks fun.
