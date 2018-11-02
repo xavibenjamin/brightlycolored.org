@@ -4,8 +4,6 @@
   var filesToCache = [
     '.',
     'https://gravatar.com/avatar/febbffcb54abe1be1435720fc2268237?s=100',
-    'search.js',
-    'index.html',
     'offline/index.html',
     'themes/theme-001.css',
     'themes/theme-002.css',
