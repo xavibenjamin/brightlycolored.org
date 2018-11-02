@@ -5,10 +5,12 @@ tags:
 - comics
 - pull list
 custom_type: post
+excerpt: What I read last week and picking up this week.
+featured_image: "/uploads/pull-list-11-07-2018.jpg"
 ---
 
 <figure class="extendout">
-  <img src="{{ site.url }}" alt="">
+  <img src="{{ site.url }}/uploads/pull-list-11-07-2018.jpg" alt="">
   <figcaption><strong>From left to right:</strong> <em>Batman Secret Files</em> #1, <em>West Coast Avengers</em> #3, <em>Man-Eaters</em> #2, and <em>Jessica Jones: Blindspot</em>&nbsp;<span class="caps">TP</span></figcaption>
 </figure>
 
