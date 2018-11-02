@@ -13,3 +13,19 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/loadCSS/2.0.1/cssrelpreload.min.js"></script>
 
 <script src="/assets/app.js"></script>
+
+
+{% if jekyll.environment == "production" %}
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('serviceworker.js')
+        .then(function (registration) {
+          console.log('Service Worker registration successful with scope: ',
+            registration.scope);
+        })
+        .catch(function (err) {
+          console.log('Service Worker registration failed: ', err);
+        });
+    }
+  </script>
+{% endif %}
