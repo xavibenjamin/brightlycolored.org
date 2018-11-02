@@ -1,16 +1,16 @@
 ---
 title: About Brightly Colored
 permalink: "/about/"
-layout: page
 exclude_from_search: true
 excerpt: Find out more about Brightly Colored.
+layout: page
 ---
 
 *Brightly Colored* is designed and developed by me, [Tim Smith](http://ttimsmith.com), in beautiful [St. Paul, Minnesota](https://www.stpaul.gov/). This publication covers a whole range of things including, but not limited to: design, development, technology, Geek culture, and Apple.
 
 ## Why "Brightly Colored"?
 
-I felt name *Brightly Colored* matched my personality. You'll normally find me wearing bright and vibrant things like yellow shorts, bright-patterned socks, and red shoes.
+I felt the name *Brightly Colored* matched my personality. You'll normally find me wearing bright and vibrant things like yellow shorts, bright-patterned socks, and red shoes.
 
 ## About Tim
 
@@ -28,7 +28,11 @@ I started my adventure into design and development in 2006 when I was fifteen. I
 
 Since then, I've had the chance to work with some pretty amazing people. Some of those amazing people work for companies like [Relay FM](https://www.relay.fm/), [Carbon Ads](https://carbonads.net/), [&Yet](https://andyet.com/), [Lullabot](https://www.lullabot.com/), [Crush & Lovely](http://crushlovely.com/), and The Clinton Foundation.
 
+In 2018, I decided I no longer wanted to work as a designer and developer for the web and became the Senior Producer for [Changelog Media](https://changelog.com/). I now make audio and video things for a living, and I love it.
+
 I originally started this site thinking I'd be the next [John Gruber](https://en.wikipedia.org/wiki/John_Gruber), but quickly realized I didn't actually want that (not to mention, I'm not nearly as great a writer). Ever since, this wonderful place is where I write about all that interests me.
+
+Just as a person goes through different phases of life, so has this site. There have been periods where I write a lot about a certain topic, then move on to another. There was also a time when I wasn't the only one to write on this site, which you can learn more about below. The constant however, has always been me. Most of this site is a reflection of my life, my personal growth, my successes, and my sorrows.
 
 ## Contact
 
@@ -50,10 +54,10 @@ Send me an email anytime. I love getting email from actual people. If you have a
 
 ### Software
 
-- [iA Writer](https://ia.net/writer)
-- [Editorial](http://omz-software.com/editorial/)
+- [Siteleaf](https://www.siteleaf.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Adobe Lightroom Classic CC](https://www.adobe.com/products/photoshop-lightroom-classic.html)
+- [VSCO](https://itunes.apple.com/app/vsco-cam/id588013838?ls=1&mt=8)
 
 ### Cameras
 
@@ -68,7 +72,7 @@ Send me an email anytime. I love getting email from actual people. If you have a
 
 The site is hosted by [Netlify](https://www.netlify.com/), and powered by [Jekyll](http://jekyllrb.com). *Brightly Colored* is typeset in Whitney by [Hoefler & Co.](http://www.typography.com/)
 
-A huge thanks to the friends who've contributed to this site: [TJ Draper](/authors/tjdraper) and [Keaton Taylor](/authors/keatontaylor). Also thanks to [Sonya Mann](https://twitter.com/sonyaellenmann) for editing a few articles here and there, making me sound much better. Of course, a huge thank you to my partner in crime, Kelly Smith who listens to ideas and helps proofread from time to time.
+A huge thanks to the friends who've contributed to this site: [TJ Draper](/authors/tjdraper) and [Keaton Taylor](/authors/keatontaylor). Also thanks to [Sonya Mann](https://twitter.com/sonyaellenmann) for editing a few articles here and there, making me sound much better. Of course, a huge thank you to my partner in crime, Kelly Smith, who listens to ideas and helps proofread from time to time.
 
 ## Affiliate Links
 
