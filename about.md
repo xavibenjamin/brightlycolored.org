@@ -17,7 +17,7 @@ I felt the name *Brightly Colored* matched my personality. You'll normally find 
 ## About Tim
 
 <figure class="small__right">
-  <img src="{{ site.url }}/uploads/2013/09/tim_680x510.jpg" alt="Tim Smith">
+  <img src="{{ site.url }}/uploads/tim@2x.jpg" alt="Tim Smith">
 </figure>
 
 Writing about yourself is tough, but here we go.
