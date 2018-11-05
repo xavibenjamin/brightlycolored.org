@@ -12,3 +12,4 @@ Jessica Goldstein writing for *Vulture*:
 
 *Spoiler warning. Don't click through on this recap unless you're ok with that.*
 
+Jessica nails it with her criticism of this final episode and final season. It was disappointing to see a show that began so incredibly well to end so horribly.
