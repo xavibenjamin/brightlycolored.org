@@ -7,6 +7,8 @@ tags:
 link_url: https://www.theverge.com/2018/11/1/18053012/apple-q4-earnings-report-iphone-ipad-macbook-price-bump
 ---
 
+Natt Garun writing for *The Verge*:
+
 > Apple’s Q4 quarter ended in September, meaning it only accounted for the first few weeks of the new iPhone XS and XS Max going on sale. (The iPhone XR, which was also announced in September, did not become available for preorder until October.) Despite the slow sales growth, the average selling price per iPhone is now $793, [up from $724 in Q3](https://www.theverge.com/2018/7/31/17636608/apple-q3-earnings-2018-trillion-market-value).
 >
 > The increase suggests that Apple’s price hike strategy appears to be working; the trillion-dollar company introduced its first smartphone to cross the thousand-dollar starting price in 2017 with the 10th anniversary iPhone, and continued the trend of pricier phones this year with the $749 iPhone XR, $999 iPhone XS, and $1,099 iPhone XS Max.
