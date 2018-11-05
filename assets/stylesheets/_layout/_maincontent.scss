@@ -160,32 +160,18 @@
 // Post Author -------------------
 
 .post__author {
-  align-items: center;
-  display: grid;
-  grid-gap: .7rem;
-  grid-template-columns: 50px auto;
-  margin-bottom: 2rem;
+  color: lighten($body-color, 15%);
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .5px;
+  margin-bottom: .5rem;
+  text-transform: uppercase;
 }
 
-.author__text {
-  color: lighten($body-color, 15%);
-  span {
-    display: block;
-    span {
-      display: inline-block;
-    }
-  }
-  .post__date {
-    font-size: .7rem;
-  }
-}
 
 .author__name {
   color: $heading-base-color;
-  font-size: .75rem;
-  font-weight: 600;
   margin: 0;
-  text-transform: none;
   a {
     color: $heading-base-color;
     text-decoration: none;
