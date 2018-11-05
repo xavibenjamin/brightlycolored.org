@@ -1,5 +1,5 @@
 ---
-title: Apple’s price hike strategy is great for everyone but the consumer
+title: Apple’s price increases are great for everyone but the consumer
 date: 2018-11-05 11:45:00 -06:00
 published: false
 tags:
