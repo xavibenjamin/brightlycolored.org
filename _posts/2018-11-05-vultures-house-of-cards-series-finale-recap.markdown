@@ -1,9 +1,11 @@
 ---
 title: Vulture's ‘House of Cards’ Series Finale Recap
-date: 2018-11-04 19:45:00 -06:00
-published: false
+date: 2018-11-05 10:45:00 -06:00
+tags:
+- TV
+excerpt: What a stupid ending.
 link_url: http://www.vulture.com/2018/11/house-of-cards-recap-season-6-episode-8-finale.html
-featured_image: https://pixel.nymag.com/imgs/daily/vulture/2018/11/03/03-house-of-cards-finale.w1200.h630.jpg
+featured_image: "/uploads/house-of-cards-featured.jpg"
 ---
 
 Jessica Goldstein writing for *Vulture*:
