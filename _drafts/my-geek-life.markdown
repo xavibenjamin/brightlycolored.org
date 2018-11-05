@@ -1,7 +1,7 @@
 ---
 title: My Geek Life
-subtitle: The geekery… it's always been there
 date: 2018-11-03 10:49:00 -05:00
+subtitle: The geekery… it's always been there
 custom_type: post
 ---
 
