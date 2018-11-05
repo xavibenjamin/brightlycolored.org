@@ -1,5 +1,5 @@
 ---
-title: 'House of Cards Series Finale Recap: I Just Died in Your Arms Tonight'
+title: Vulture's ‘House of Cards’ Series Finale Recap
 date: 2018-11-04 19:45:00 -06:00
 published: false
 link_url: http://www.vulture.com/2018/11/house-of-cards-recap-season-6-episode-8-finale.html
