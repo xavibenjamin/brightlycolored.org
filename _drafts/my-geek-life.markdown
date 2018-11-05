@@ -1,9 +1,19 @@
 ---
 title: My Geek Life
-date: 2018-11-03 10:49:00 -05:00
-subtitle: The geekery… it's always been there
+date: 2018-11-05 05:45:00 -06:00
+tags:
+- comics
 custom_type: post
+subtitle: The geekery… it's always been there
+excerpt: 'Embracing my geek and realizing that I loved to read, just hadn''t found
+  the medium for me: comics.'
+featured_image: "/uploads/my-geek-life.jpg"
 ---
+
+<figure class="extendout">
+  <img src="{{ site.url }}/uploads/my-geek-life.jpg" alt="Some comics I read recently">
+  <figcaption>Some comics I read recently</figcaption>
+</figure>
 
 Back in 2016, I wrote about [making my way back to comics](/2016/05/going-back-to-comics/). Then last week, I read this cool post from Jason Dettbarn where he [talks about how he started reading comic books](https://www.relicscout.com/2018/10/26/my-comic-collecting-origin-story/). I was inspired to share a little of my story, and just like Jason, offer you some recommendations of where to get started.
 
