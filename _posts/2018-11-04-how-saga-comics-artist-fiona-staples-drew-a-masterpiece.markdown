@@ -1,5 +1,5 @@
 ---
-title: How Saga Comics Artist Fiona Staples Drew a Masterpiece
+title: Vulture Interviews ‘Saga’ Artist Fiona Staples
 date: 2018-11-04 10:22:00 -06:00
 published: false
 link_url: http://www.vulture.com/2018/10/saga-comics-artist-fiona-staples-sketches-script.html
