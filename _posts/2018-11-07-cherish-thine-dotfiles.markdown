@@ -1,12 +1,12 @@
 ---
 title: Cherish Thine .dotfiles
-date: 2018-11-07 23:23:00 -06:00
+date: 2018-11-07 11:23:00 -06:00
 tags:
 - development
 - setup
 - tech
-subtitle: Setting up a new Mac is so much easier these days
 custom_type: post
+subtitle: Setting up a new Mac is so much easier these days
 ---
 
 Earlier this year, I started to feel it was time to buy a new Mac, but wanted to make a sensible and adult decision. I'd wait till the Fall, see what Apple had announced for the year, and then decide.
