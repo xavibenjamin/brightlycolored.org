@@ -1,6 +1,6 @@
 ---
 title: Cherish Thine .dotfiles
-date: 2018-11-07 11:23:00 -06:00
+date: 2018-11-12 11:23:00 -06:00
 tags:
 - development
 - setup
