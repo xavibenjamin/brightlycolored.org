@@ -1,7 +1,6 @@
 ---
 title: 'Can DC Ever Make a Film On the Scale of Avengers: Infinity War?'
-date: 2018-11-03 09:40:28.969000000 -05:00
-published: false
+date: 2018-11-03 09:40:00 -05:00
 link_url: https://www.cbr.com/dc-extended-universe-avengers-infinity-war/
 featured_image: https://static0.cbrimages.com/wp-content/uploads/2018/10/justice-league-group-shot1.jpg
 ---
