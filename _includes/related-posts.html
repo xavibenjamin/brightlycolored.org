@@ -27,7 +27,7 @@
         <li class="post-list__item">
           <a href="{{ post.url }}" title="{{ post.title | smartify }}">
             <small class="related__date">
-              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %d, %Y'}}</time>
             </small>
             <span class="related__title">{{ post.title | smartify }}</span>
           </a>
