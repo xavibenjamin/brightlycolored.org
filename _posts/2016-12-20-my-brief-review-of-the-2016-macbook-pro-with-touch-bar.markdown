@@ -1,5 +1,5 @@
 ---
-title: My Brief Review of the 2016 MacBook Pro with Touch Bar briefreview
+title: My Brief Review of the 2016 MacBook Pro with Touch Bar
 date: 2016-12-20 15:19:00 -06:00
 tags:
 - MacBook Pro
@@ -7,11 +7,14 @@ tags:
 custom_type: post
 subtitle: Earlier this year, Apple updated its MacBook Pro. Here are my thoughts on
   the new computer
-rating: 4.5
-brand: Apple
-price: 2799
-vendor: the Apple Store
-review_url: https://www.apple.com/shop/buy-mac/macbook-pro/15-inch
+review:
+  type: product
+  rating: 4.5
+  product:
+    brand: Apple
+  price: 2799
+  vendor: the Apple Store
+  url: https://www.apple.com/shop/buy-mac/macbook-pro/15-inch
 ---
 
 <figure class="extendout">
