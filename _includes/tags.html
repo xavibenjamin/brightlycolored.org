@@ -10,11 +10,11 @@
   </ul>
 {% endif %}
 {% if post.tags.size > 0 %}
-  <h6 class="post-tags__title">On the Topic of…</h6>
-  <ul class="post__tags">
+  <ul class="post__topics">
+    {% include icons/icon-tag.html %}
     {% assign sortedTags = post.tags | sort %}
     {% for tag in sortedTags %}
-      <li>
+      <li class="topic">
         <a href="{{ site.url }}/topics/#{{ tag | downcase | replace:' ','-'}}" title="Posts tagged {{ tag }}">{{ tag }}</a>
       </li>
     {% endfor %}
