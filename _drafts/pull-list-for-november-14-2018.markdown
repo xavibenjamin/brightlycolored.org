@@ -6,6 +6,7 @@ tags:
 - pull list
 custom_type: post
 ---
+
 <figure class="extendout">
   <img src="{{ site.url }}/uploads/pull-list-11-14-2018.jpg" alt="Comics I read last week">
   <figcaption><strong>From left to right, from the back:</strong> <em>The Green Lantern</em> #1, <em>X-Men: Red</em> #10, <em>Deadpool</em> #6, <em>Bully Wars</em> #3, and <em>Dead Rabbit</em> #2</figcaption>
