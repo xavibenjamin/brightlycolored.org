@@ -334,43 +334,29 @@
   }
 }
 
-// Post Tags ---------------------
+// Post Topics -----------------------------
 
-.post-tags__title {
-  color: $heading-base-color;
-  @extend %sans;
-  font-size: .7rem;
-  margin-bottom: .4rem;
-}
-
-.post__tags {
-  margin-bottom: 0;
-  @media #{$medium-up} {
-    display: flex;
-    flex-wrap: wrap;
+.post__topics {
+  align-items: center;
+  display: flex;
+  font-size: .75rem;
+  .icon {
+    fill: #CCC;
+    height: 1.1em;
+    margin-right: .5rem;
+    width: 1.1em;
   }
-  li {
-    font-size: .75rem;
-    font-weight: 600;
-    @media #{$medium-up} {
-      + li {
-        margin-left: 2rem;
-        position: relative;
-        &:before {
-          color: darken($border-color, 10%);
-          content: '/';
-          font-size: 1.1rem;
-          font-weight: normal;
-          left: -21px;
-          position: absolute;
-          top: -4px;
-        }
-      }
+  li + li {
+    margin-left: .35rem;
+  }
+  li:not(:last-child) {
+    display: inherit;
+    &:after {
+      content: ',';
     }
   }
-  a,
-  a:hover,
-  a:focus {
+  a {
+    font-weight: 600;
     text-decoration: none;
   }
 }
@@ -378,7 +364,7 @@
 // Related Posts -----------------
 
 .related-posts {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   max-width: 215px;
 }
 
