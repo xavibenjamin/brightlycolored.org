@@ -1,7 +1,6 @@
 ---
 title: Kevin Feige Addresses Marvel's Plans for Disney Streaming Series
-date: 2018-11-03 20:42:29.740000000 -05:00
-published: false
+date: 2018-11-03 20:42:00 -05:00
 link_url: https://www.cbr.com/kevin-feige-addresses-marvels-plans-disney-streaming/
 featured_image: https://static2.cbrimages.com/wp-content/uploads/2018/10/Loki-Scarlet-Witch.jpg
 ---

@@ -1,7 +1,6 @@
 ---
 title: The 2018 iPad Pros
-date: 2018-11-07 23:23:16.439000000 -06:00
-published: false
+date: 2018-11-07 23:23:00 -06:00
 link_url: https://daringfireball.net/2018/11/the_2018_ipad_pros
 featured_image: https://daringfireball.net/graphics/df-square-1024
 ---
