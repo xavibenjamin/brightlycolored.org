@@ -1,6 +1,10 @@
 ---
 title: The Type of Person Dave Rupert Wants to Be
 date: 2018-11-13 10:43:00 -06:00
+tags:
+- personal
+- tech
+excerpt: I agree with Dave.
 link_url: https://daverupert.com/2018/11/the-good-path/
 ---
 
