@@ -1,8 +1,11 @@
 ---
-title: The Good Path
-date: 2018-11-12 18:43:00 -06:00
+title: The Type of Person Dave Rupert Wants to Be
+date: 2018-11-13 10:43:00 -06:00
 link_url: https://daverupert.com/2018/11/the-good-path/
-featured_image: https://daverupert.com/images/global/newshammericon.png
 ---
 
-I fell off the blogging horse a bit this fall. A multitude of reasons; busy at work, a weird new keyboard, an ailing uncle in the hospital, and my wife tore her ACL playing tennis thus my parenting duties skyrocketed as she recovers. Grey hairs added to my beard, my stress manifested.
+Dave Rupert:
+
+> I had a slew of vociferous tech industry blog posts queued up, but luckily I feel like caught myself going down a bad path(sic). I realized that wasn’t the kind of blogger I wanted to be. I realized that the people I admire most don’t *only* criticize technology they dislike. Rather, they amplify the things they enjoy. I want to be that type of person.
+
+I had a similar realization. We get to decide what type of person we want to be. There's no shortage of negativity, cynism, or much worse. But if this site is a reflection of *my personality*, I want that reflection to be filled with kindness, optimism, positivity, and the vast number of things I appreciate.
