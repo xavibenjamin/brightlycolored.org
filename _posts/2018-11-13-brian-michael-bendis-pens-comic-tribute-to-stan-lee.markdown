@@ -1,8 +1,11 @@
 ---
 title: Brian Michael Bendis Pens Comic Tribute to Stan Lee
-date: 2018-11-12 17:27:00 -06:00
+date: 2018-11-13 09:04:00 -06:00
+tags:
+- obituaries
+excerpt: Stan Lee passed away at the age of 95.
 link_url: https://www.nytimes.com/2018/11/12/obituaries/my-moments-with-stan.html
-featured_image: https://static01.nyt.com/images/2018/11/12/arts/12StanLee_5/12StanLee_5-facebookJumbo.jpg
+featured_image: "/uploads/stan-lee-obit-featured.jpg"
 ---
 
 Stan Lee passed away yesterday at the age of 95.
