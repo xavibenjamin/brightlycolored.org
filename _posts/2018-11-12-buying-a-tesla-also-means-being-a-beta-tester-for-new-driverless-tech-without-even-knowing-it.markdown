@@ -9,6 +9,8 @@ excerpt: Tesla is beta testing some pretty cool features with drivers.
 link_url: https://www.wired.com/story/tesla-navigate-on-autopilot/
 ---
 
+Jack Stewart writing for *Wired*:
+
 > Every Tesla built since the end of 2016 comes with eight cameras around the car, a radar behind the front bumper, and ultrasonic proximity sensors embedded into the front and back bumpers.
 >
 > …
