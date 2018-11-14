@@ -1,9 +1,13 @@
 ---
 title: J.J. Abrams’ Episode IX a ‘Course Correction’ After Dissapointing Box Office
   Numbers for Solo
-date: 2018-11-14 10:40:00 -06:00
+date: 2018-11-14 09:03:00 -06:00
+tags:
+- Star Wars
+- Episode IX
+excerpt: J.J. is a safe bet, but not the one I think Lucasfilm should take.
 link_url: https://www.cbr.com/star-wars-episode-ix-course-correction/
-featured_image: https://static2.cbrimages.com/wordpress/wp-content/uploads/2018/08/J.J.-Abrams-Star-Wars-Episode-IX.jpg
+featured_image: "/uploads/jj-featured.jpg"
 ---
 
 L.D. Nolan reporting for *CBR*:
@@ -16,8 +20,8 @@ L.D. Nolan reporting for *CBR*:
 
 While *Solo* wasn't an exceptional film, it was *still good*. I enjoyed it a lot more than *Rogue One*. It's not fair to judge a film so harshly when the original directors left, and [Ron Howard proceeded to reshoot most of the film](https://www.cbr.com/han-solo-ron-howard-reshoots/).
 
-I should add, assigning J.J. Abrams to put *Star Wars* back on the right track is a dissapointing strategy. For the life of me, I can't find the link of where I said it, but J.J. is the safe bet. And that's no disrespect to the spectacular job he did rebooting this favorite franchise of mine. But after Rian Johnson's wonderful and different *The Last Jedi*, I wanted more of that.
+I should add, assigning J.J. Abrams to put *Star Wars* back on the right track is a disappointing strategy. For the life of me, I can't find the link of where I said it, but J.J. is the safe bet. And that's no disrespect to the spectacular job he did rebooting this favorite franchise of mine. But after [Rian Johnson's wonderful and different *The Last Jedi*](/2017/12/my-brief-review-of-star-wars-the-last-jedi/), I wanted more of that.
 
 One thing is for sure, I don't envy Kathleen Kennedy's job. *Star Wars* fans are hard to please.
 
-J.J. Abrams’ Episode IX a ‘Course Correction’ After Dissapointing Box Office Numbers for Solo
+J.J. Abrams’ Episode IX a ‘Course Correction’ After Disappointing Box Office Numbers for Solo
