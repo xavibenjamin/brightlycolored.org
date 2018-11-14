@@ -23,5 +23,3 @@ While *Solo* wasn't an exceptional film, it was *still good*. I enjoyed it a lot
 I should add, assigning J.J. Abrams to put *Star Wars* back on the right track is a disappointing strategy. For the life of me, I can't find the link of where I said it, but J.J. is the safe bet. And that's no disrespect to the spectacular job he did rebooting this favorite franchise of mine. But after [Rian Johnson's wonderful and different *The Last Jedi*](/2017/12/my-brief-review-of-star-wars-the-last-jedi/), I wanted more of that.
 
 One thing is for sure, I don't envy Kathleen Kennedy's job. *Star Wars* fans are hard to please.
-
-J.J. Abrams’ Episode IX a ‘Course Correction’ After Disappointing Box Office Numbers for Solo
