@@ -4,6 +4,7 @@ date: 2018-11-14 10:10:00 -06:00
 link_url: https://thesweetsetup.com/how-i-use-apple-photos/
 featured_image: https://thesweetsetup.com/wp-content/uploads/2018/11/apple-photos-app-hero-1.jpg
 ---
+
 Shawn Blanc on *The Sweet Setup*:
 
 >What would you guess was the average answer for how many photos people have in their iPhone camera roll?
