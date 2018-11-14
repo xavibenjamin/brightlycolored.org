@@ -1,6 +1,7 @@
 ---
-title: 'J.J. Abrams’ Episode IX a ‘Course Correction’ After Dissapointing Box Office Numbers for Solo'
-date: 2018-11-14 11:40:00 -05:00
+title: J.J. Abrams’ Episode IX a ‘Course Correction’ After Dissapointing Box Office
+  Numbers for Solo
+date: 2018-11-14 10:40:00 -06:00
 link_url: https://www.cbr.com/star-wars-episode-ix-course-correction/
 featured_image: https://static2.cbrimages.com/wordpress/wp-content/uploads/2018/08/J.J.-Abrams-Star-Wars-Episode-IX.jpg
 ---
