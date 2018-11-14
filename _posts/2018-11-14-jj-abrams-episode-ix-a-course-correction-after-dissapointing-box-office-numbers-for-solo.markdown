@@ -1,5 +1,5 @@
 ---
-title: J.J. Abrams’ Episode IX a ‘Course Correction’ After Dissapointing Box Office
+title: J.J. Abrams’ Episode IX a ‘Course Correction’ After Disappointing Box Office
   Numbers for Solo
 date: 2018-11-14 09:03:00 -06:00
 tags:
