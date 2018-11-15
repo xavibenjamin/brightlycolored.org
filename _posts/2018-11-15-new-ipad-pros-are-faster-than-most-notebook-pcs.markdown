@@ -4,8 +4,8 @@ date: 2018-11-15 09:18:00 -06:00
 tags:
 - iPad
 - tech
-link_url: https://daringfireball.net/2018/11/the_2018_ipad_pros
 excerpt: Well, I don't know how to feel about this.
+link_url: https://daringfireball.net/2018/11/the_2018_ipad_pros
 ---
 
 John Gruber on the iPad Pro:
