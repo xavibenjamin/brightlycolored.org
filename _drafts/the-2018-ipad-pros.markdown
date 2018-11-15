@@ -1,8 +1,0 @@
----
-title: The 2018 iPad Pros
-date: 2018-11-07 23:23:00 -06:00
-link_url: https://daringfireball.net/2018/11/the_2018_ipad_pros
-featured_image: https://daringfireball.net/graphics/df-square-1024
----
-
-The iPad Pro is like a computer from an alternate universe. In the normal universe, Moore’s Law has stopped delivering significant year-over-year returns, and high-performance portables need fans to cool them.
