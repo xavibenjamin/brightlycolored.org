@@ -3,13 +3,16 @@
 // -------------------------------
 
 .main {
-  @media #{$small-only} {
-    background-color: white;
-  }
+  background-color: white;
+  padding: 3rem 0;
   @media #{$medium-up} {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
     min-height: calc( 100vh - 370px );
   }
   @media #{$large-up} {
+    max-width: 80%;
     min-height: calc( 100vh - 237px );
   }
 }
@@ -23,34 +26,38 @@
 // Shareable Post Styles ---------
 
 .posts__date {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 
   @media #{$medium-up} {
     margin-bottom: 2rem;
   }
 
   .current-day {
-    color: #666;
+    color: #757575;
     display: block;
-    font-size: .75rem;
+    font-size: .68rem;
     font-weight: 600;
     letter-spacing: 3px;
-    text-align: center;
     text-transform: uppercase;
-    @media #{$medium-up} {
-      color: rgba(white, .85);
+    &:before {
+      background-color: $primary-color;
+      content: '';
+      display: block;
+      height: 1px;
+      margin-bottom: 5px;
+      width: 130px;
     }
   }
 }
 
 .day-posts {
   + .day-posts {
-    margin-top: 6rem;
+    margin-top: 10rem;
   }
   + .posts__date {
     margin-top: 4rem;
     @media #{$medium-up} {
-      margin-top: 10rem;
+      margin-top: 8rem;
     }
   }
   .posts__post + .posts__post {
@@ -60,25 +67,13 @@
       padding-top: 3rem;
     }
     @media #{$medium-up} {
-      margin-top: 6rem;
+      margin-top: 8rem;
     }
   }
 }
 
 .posts__date:first-child {
-  @media #{$medium-up} {
-    margin-top: 4rem;
-  }
-}
-
-.posts__post,
-.post {
-  background-color: white;
-
-  @media #{$medium-up} {
-    border-radius: $global-radius;
-    padding: 4rem 2rem;
-  }
+  margin-top: 0;
 }
 
 .small-author {
@@ -136,10 +131,7 @@
 .archive-link {
   display: flex;
   justify-content: center;
-  margin-top: 4rem;
-  @media #{$medium-up} {
-    margin-bottom: 4rem;
-  }
+  padding-top: 4rem;
 }
 
 .post__rss-only {
@@ -418,9 +410,9 @@
 .card > * {
   margin-left: auto;
   margin-right: auto;
+  max-width: 575px;
   width: 90%;
-  @media #{$medium-up} {
-    max-width: 575px;
+  @media #{$large-up} {
     width: 100%;
   }
 }
