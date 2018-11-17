@@ -94,6 +94,7 @@
   h1 {
     a {
       color: $heading-base-color;
+      font-weight: 600;
       -webkit-hyphens: none;
       hyphens: none;
       text-decoration: none;
@@ -103,7 +104,7 @@
       }
     }
     + h2 {
-      margin-top: .2rem;
+      margin-top: .1rem;
     }
   }
 }
@@ -115,17 +116,9 @@
   line-height: 1.2;
 }
 
-.post__permalink {
-  display: block;
-  font-size: .75rem;
-  margin-top: 1.8rem;
-  a {
-    color: lighten($body-color, 15%);
-  }
-}
 
 .post__footer {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .archive-link {
@@ -156,7 +149,7 @@
   font-size: .68rem;
   font-weight: 600;
   letter-spacing: .5px;
-  margin-bottom: .5rem;
+  margin-bottom: 1.4rem;
   text-transform: uppercase;
 }
 
@@ -187,6 +180,7 @@
   }
   h1 {
     font-size: 1.8rem;
+    font-weight: 600;
     letter-spacing: -1.2px;
     line-height: 1.2;
   }
@@ -286,18 +280,19 @@
 
 .format-link {
   .post__header {
-    margin-bottom: .8rem;
+    margin-bottom: .4rem;
   }
   h1 {
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 1.3;
   }
-  .arrow {
-    color: lighten($heading-base-color, 35%);
-    font-size: 1.3rem;
-    line-height: 100%;
-    margin-left: .8rem;
+  .post__permalink {
+    bottom: 1px;
+    color: #AAA;
+    font-size: 1.2rem;
+    margin-left: .6rem;
+    position: relative;
   }
 }
 
@@ -356,7 +351,7 @@
 // Related Posts -----------------
 
 .related-posts {
-  margin-top: 1.5rem;
+  margin-top: 1.8rem;
   max-width: 215px;
 }
 
