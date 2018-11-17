@@ -2,23 +2,23 @@
 // SIDEBAR
 // -------------------------------
 
-.sidebar {
+.site__navigation {
   background-color: lighten($secondary-color, 76%);
-  bottom: 0;
-  height: 0;
-  overflow: hidden;
-  transition: height 300ms ease;
-  z-index: 4;
+
   @media #{$medium-up} {
     height: auto;
-    margin: 0 auto;
-    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
     overflow: auto;
     position: static;
   }
+
   @media #{$large-up} {
-    border-radius: 0 0 $global-radius $global-radius;
+    border-radius: $global-radius $global-radius 0 0;
+    max-width: 1150px;
   }
+
   &.js-menu-is-open {
     height: 196px;
   }
@@ -26,19 +26,15 @@
 
 .navigation {
   display: flex;
-  flex-direction: column;
-  @media #{$medium-up} {
-    flex-direction: row;
-    justify-content: center;
-  }
+  justify-content: center;
 
   a {
     border-top: 1px solid lighten($jazz-color, 33%);
-    color: $jazz-color;
+    color: lighten($secondary-color, 25%);
     display: block;
     font-size: .75rem;
     font-weight: 600;
-    padding: 1rem 1.3rem;
+    padding: .8rem 1rem;
     text-decoration: none;
     text-transform: uppercase;
     @media #{$medium-up} {
@@ -47,7 +43,7 @@
     }
 
     &:hover {
-      color: darken($jazz-color, 10%);
+      color: lighten($secondary-color, 40%);
     }
   }
 }

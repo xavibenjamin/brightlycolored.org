@@ -12,14 +12,8 @@
     min-height: calc( 100vh - 370px );
   }
   @media #{$large-up} {
-    max-width: 80%;
+    max-width: 1150px;
     min-height: calc( 100vh - 237px );
-  }
-}
-
-.content {
-  @media #{$small-only} {
-    padding: 3rem 0;
   }
 }
 
