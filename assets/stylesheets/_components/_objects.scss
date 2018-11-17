@@ -255,6 +255,12 @@
   }
 }
 
+.post + .bc-ad-container {
+  @media #{$medium-up} {
+    margin-bottom: 0;
+  }
+}
+
 .carbon-wrap {
   align-items: center;
   background-color: #F2F2F2;

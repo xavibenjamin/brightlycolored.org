@@ -12,11 +12,13 @@ layout: compress
         </a>
         <p class="header__description">A web-column about comics, <em>Star Wars</em>, Apple, technology, movies, and other geekery.</p>
       </header>
+
+      {% include navigation.html %}
     {% else %}
       {% include header.html %}
     {% endif %}
-
-    {% include navigation.html %}
+    
+    
 
     <main class="main">
       {{ content }}

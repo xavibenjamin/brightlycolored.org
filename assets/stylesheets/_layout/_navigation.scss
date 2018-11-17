@@ -18,9 +18,11 @@
     border-radius: $global-radius $global-radius 0 0;
     max-width: 1150px;
   }
+}
 
-  &.js-menu-is-open {
-    height: 196px;
+.header__navigation {
+  @media #{$small-only} {
+    background-color: lighten($secondary-color, 76%);
   }
 }
 
@@ -29,7 +31,6 @@
   justify-content: center;
 
   a {
-    border-top: 1px solid lighten($jazz-color, 33%);
     color: lighten($secondary-color, 25%);
     display: block;
     font-size: .75rem;
@@ -38,12 +39,23 @@
     text-decoration: none;
     text-transform: uppercase;
     @media #{$medium-up} {
-      border-top: 0;
       padding: .8rem 1.3rem;
     }
 
     &:hover {
       color: lighten($secondary-color, 40%);
+    }
+  }
+
+  @media #{$medium-up} {
+    .header & {
+      a {
+        color: white;
+        &:focus,
+        &:hover {
+          color: rgba(white, .8);
+        }
+      }
     }
   }
 }
