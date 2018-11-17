@@ -19,6 +19,12 @@
 
 // Shareable Post Styles ---------
 
+.p-body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+}
+
 .posts__date {
   margin-bottom: 2rem;
 
@@ -191,6 +197,7 @@
         display: inline-block;
         opacity: 1;
         pointer-events: auto;
+        text-decoration: none;
       }
     }
   }
