@@ -36,6 +36,29 @@
   .icon {
     fill: $primary-color;
   }
+
+  a {
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      color: lighten($link-color, 10%);
+    }
+  }
+}
+
+.footer__links {
+  display: flex;
+  font-size: .75rem;
+  margin-bottom: .8rem;
+  margin-top: .8rem;
+  li + li {
+    margin-left: .45rem;
+    &:before {
+      color: rgba(white, .4);
+      content: '•';
+      margin-right: .45rem;
+    }
+  }
 }
 
 .offline-ready {

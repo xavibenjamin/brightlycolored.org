@@ -253,11 +253,11 @@ a {
   color: $link-color;
   -webkit-hyphens: none;
   hyphens: none;
-  text-decoration: underline;
+  text-decoration: underline solid #8CC8FF;
   text-decoration-skip: ink;
   transition: color .2s ease-in-out;
   &:hover,
   &:focus {
-    color: lighten($link-color, 10%);
+    text-decoration: underline solid $link-color;
   }
 }
