@@ -48,16 +48,29 @@
 }
 
 .footer__links {
-  display: flex;
+  column-count: 2;
   font-size: .75rem;
-  margin-bottom: .8rem;
-  margin-top: .8rem;
+  margin-bottom: 1.2rem;
+  margin-top: 1.2rem;
+
   li + li {
-    margin-left: .45rem;
-    &:before {
-      color: rgba(white, .4);
-      content: '•';
-      margin-right: .45rem;
+    margin-top: .3rem;
+  }
+
+  @media #{$medium-up} {
+    column-count: 0;
+    display: flex;
+    margin-bottom: .8rem;
+    margin-top: .8rem;
+
+    li + li {
+      margin-left: .45rem;
+      margin-top: 0;
+      &:before {
+        color: rgba(white, .4);
+        content: '•';
+        margin-right: .45rem;
+      }
     }
   }
 }
