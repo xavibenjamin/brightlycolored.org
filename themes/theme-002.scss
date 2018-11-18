@@ -8,21 +8,22 @@ body {
   background-color: $primary-color;
 }
 
-.sidebar {
-  background-color: lighten($secondary-color, 20%);
+.site__navigation {
+  background-color: lighten($secondary-color, 23%);
 }
 
-.navigation a {
-  border-top-color: lighten($secondary-color, 38%);
-  color: $secondary-color;
-  &:hover,
-  &:focus {
-    color: darken($secondary-color, 5);
+.header__navigation {
+  @media screen and (max-width: 39.9375em) {
+    background-color: lighten($secondary-color, 23%);
   }
 }
 
-.header {
-  background-color: $primary-color;
+.navigation a {
+  color: darken($secondary-color, 10%);
+  &:hover,
+  &:focus {
+    color: $secondary-color;
+  }
 }
 
 .header__byline {
@@ -30,47 +31,45 @@ body {
 }
 
 .footer {
-  background-color: $secondary-color;
+  background-color: darken($primary-color, 10%);
   color: rgba(white, .75);
 
   .icon {
-    fill: #ffde7b;
+    fill: $secondary-color;
   }
 
   a {
-    color: rgba(white, .75);
+    color: $secondary-color;
+    &:hover,
+    &:focus {
+      color: $secondary-color;
+      text-decoration: underline solid $secondary-color;
+    }
   }
 }
 
 .card--light {
-  background-color: lighten($secondary-color, 22%);
+  background-color: lighten($secondary-color, 24%);
 }
 
 blockquote {
-  border-left-color: $primary-color;
+  border-left-color: $secondary-color;
+}
+
+.posts__date .current-day:before {
+  background-color: $secondary-color;
 }
 
 .btn--primary {
   background-color: $secondary-color;
   &:hover,
   &:focus {
-    background-color: darken($primary-color, 5%);
-  }
-}
-
-.btn--primary.btn--outline {
-  @media screen and (max-width: 39.9375em) {
-    box-shadow: 0 0 0 1px $primary-color;
-    color: $primary-color;
-    &:hover,
-    &:focus {
-      background-color: rgba($primary-color, 0.05);
-    }
+    background-color: $primary-color;
   }
 }
 
 .footnotes {
   &:before {
-    background-color: $primary-color;
+    background-color: $secondary-color;
   }
 }

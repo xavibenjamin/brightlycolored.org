@@ -3,54 +3,61 @@
 // -------------------------------
 
 .main {
-  @media #{$small-only} {
-    background-color: white;
-  }
+  background-color: white;
+  padding: 3rem 0;
   @media #{$medium-up} {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
     min-height: calc( 100vh - 370px );
   }
   @media #{$large-up} {
+    max-width: 1150px;
     min-height: calc( 100vh - 237px );
-  }
-}
-
-.content {
-  @media #{$small-only} {
-    padding: 3rem 0;
   }
 }
 
 // Shareable Post Styles ---------
 
+.p-body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+}
+
 .posts__date {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 
   @media #{$medium-up} {
     margin-bottom: 2rem;
   }
 
   .current-day {
-    color: #666;
+    color: #757575;
     display: block;
-    font-size: .75rem;
+    font-size: .68rem;
     font-weight: 600;
     letter-spacing: 3px;
-    text-align: center;
     text-transform: uppercase;
-    @media #{$medium-up} {
-      color: rgba(white, .85);
+    &:before {
+      background-color: $primary-color;
+      content: '';
+      display: block;
+      height: 1px;
+      margin-bottom: 5px;
+      width: 130px;
     }
   }
 }
 
 .day-posts {
   + .day-posts {
-    margin-top: 6rem;
+    margin-top: 10rem;
   }
   + .posts__date {
     margin-top: 4rem;
     @media #{$medium-up} {
-      margin-top: 10rem;
+      margin-top: 8rem;
     }
   }
   .posts__post + .posts__post {
@@ -60,25 +67,13 @@
       padding-top: 3rem;
     }
     @media #{$medium-up} {
-      margin-top: 6rem;
+      margin-top: 8rem;
     }
   }
 }
 
 .posts__date:first-child {
-  @media #{$medium-up} {
-    margin-top: 4rem;
-  }
-}
-
-.posts__post,
-.post {
-  background-color: white;
-
-  @media #{$medium-up} {
-    border-radius: $global-radius;
-    padding: 4rem 2rem;
-  }
+  margin-top: 0;
 }
 
 .small-author {
@@ -99,6 +94,7 @@
   h1 {
     a {
       color: $heading-base-color;
+      font-weight: 600;
       -webkit-hyphens: none;
       hyphens: none;
       text-decoration: none;
@@ -108,7 +104,7 @@
       }
     }
     + h2 {
-      margin-top: .2rem;
+      margin-top: .1rem;
     }
   }
 }
@@ -120,26 +116,15 @@
   line-height: 1.2;
 }
 
-.post__permalink {
-  display: block;
-  font-size: .75rem;
-  margin-top: 1.8rem;
-  a {
-    color: lighten($body-color, 15%);
-  }
-}
 
 .post__footer {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .archive-link {
   display: flex;
   justify-content: center;
-  margin-top: 4rem;
-  @media #{$medium-up} {
-    margin-bottom: 4rem;
-  }
+  padding-top: 4rem;
 }
 
 .post__rss-only {
@@ -159,13 +144,24 @@
 
 // Post Author -------------------
 
-.post__author {
+.post__meta {
   color: lighten($body-color, 15%);
   font-size: .68rem;
   font-weight: 600;
   letter-spacing: .5px;
-  margin-bottom: .5rem;
+  margin-bottom: 1.4rem;
   text-transform: uppercase;
+}
+
+.post__author {
+  a {
+    text-decoration: underline dotted $link-color;
+    &:hover,
+    &:focus {
+      background-color: rgba($link-color, .1);
+      text-decoration: underline dotted $link-color;
+    }
+  }
 }
 
 
@@ -195,6 +191,7 @@
   }
   h1 {
     font-size: 1.8rem;
+    font-weight: 600;
     letter-spacing: -1.2px;
     line-height: 1.2;
   }
@@ -211,6 +208,7 @@
         display: inline-block;
         opacity: 1;
         pointer-events: auto;
+        text-decoration: none;
       }
     }
   }
@@ -294,18 +292,19 @@
 
 .format-link {
   .post__header {
-    margin-bottom: .8rem;
+    margin-bottom: .4rem;
   }
   h1 {
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 1.3;
   }
-  .arrow {
-    color: lighten($heading-base-color, 35%);
-    font-size: 1.3rem;
-    line-height: 100%;
-    margin-left: .8rem;
+  .post__permalink {
+    bottom: 1px;
+    color: #AAA;
+    font-size: 1.2rem;
+    margin-left: .6rem;
+    position: relative;
   }
 }
 
@@ -364,7 +363,7 @@
 // Related Posts -----------------
 
 .related-posts {
-  margin-top: 1.5rem;
+  margin-top: 1.8rem;
   max-width: 215px;
 }
 
@@ -387,6 +386,7 @@
     color: lighten($body-color, 25%);
     display: block;
     font-size: .7rem;
+    font-weight: normal;
   }
   .related__title {
     font-weight: 600;
@@ -418,9 +418,9 @@
 .card > * {
   margin-left: auto;
   margin-right: auto;
+  max-width: 575px;
   width: 90%;
-  @media #{$medium-up} {
-    max-width: 575px;
+  @media #{$large-up} {
     width: 100%;
   }
 }

@@ -46,7 +46,7 @@ h1,
 h2,
 h5 {
   color: $heading-base-color;
-  letter-spacing: -1px;
+  letter-spacing: -1.1px;
 }
 
 // TEXT --------------------------
@@ -251,13 +251,14 @@ hr {
 
 a {
   color: $link-color;
+  font-weight: 600;
   -webkit-hyphens: none;
   hyphens: none;
-  text-decoration: underline;
+  text-decoration: underline solid #8CC8FF;
   text-decoration-skip: ink;
   transition: color .2s ease-in-out;
   &:hover,
   &:focus {
-    color: lighten($link-color, 10%);
+    text-decoration: underline solid $link-color;
   }
 }

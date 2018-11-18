@@ -8,23 +8,24 @@ body {
   background-color: $primary-color;
 }
 
-.sidebar {
-  background-color: lighten($secondary-color, 75%);
-  border-right-color: lighten($secondary-color, 68%)
+.site__navigation {
+  background-color: lighten($primary-color, 35%);
 }
 
-.navigation a {
-  border-top-color: lighten($secondary-color, 68%);
-  color: lighten($secondary-color, 20%);
-  &:hover,
-  &:focus {
-    color: #444;
+.header__navigation {
+  @media screen and (max-width: 39.9375em) {
+    background-color: lighten($primary-color, 35%);
   }
 }
 
-.header {
-  background-color: $primary-color;
+.navigation a {
+  color: darken($primary-color, 15%);
+  &:hover,
+  &:focus {
+    color: darken($primary-color, 10%);
+  }
 }
+
 
 .footer {
   background-color: #222;
@@ -36,11 +37,15 @@ body {
 
 
 .card--light {
-  background-color: lighten($secondary-color, 70%);
+  background-color: lighten($secondary-color, 72%);
 }
 
 blockquote {
   border-left-color: $primary-color;
+}
+
+.posts__date .current-day:before {
+  background-color: $primary-color;
 }
 
 .btn--primary {
@@ -51,16 +56,6 @@ blockquote {
   }
 }
 
-.btn--primary.btn--outline {
-  @media screen and (max-width: 39.9375em) {
-    box-shadow: 0 0 0 1px $primary-color;
-    color: $primary-color;
-    &:hover,
-    &:focus {
-      background-color: rgba($primary-color, 0.05);
-    }
-  }
-}
 
 .footnotes {
   &:before {

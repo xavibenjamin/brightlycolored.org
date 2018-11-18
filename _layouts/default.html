@@ -4,22 +4,28 @@ layout: compress
 
 {% include head.html %}
 
-    <div class="site__container">
-      {% include sidebar.html %}
+    {% if page.url == '/' %}
+      <header class="home__header">
+        <p class="header__byline">Timothy B. Smith Presents:</p>
+        <a href="/" class="logo">
+          {% include icons/icon-logo.html %}
+        </a>
+        <p class="header__description">A web-column about comics, <em>Star Wars</em>, Apple, technology, movies, and other geekery.</p>
+      </header>
 
-      <main class="main">
-        
-        {% include header.html %}
-        
-        <section id="main-content" class="content">
-          {{ content }}
-        </section>
-      </main>
-
-      {% include footer.html %}
-      
-    </div>
+      {% include navigation.html %}
+    {% else %}
+      {% include header.html %}
+    {% endif %}
     
+    
+
+    <main class="main">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+        
     {% if jekyll.environment == "production" %}
       {% include service-worker.html %}
       <div class="offline-ready">Site is ready for Offline Use</div>

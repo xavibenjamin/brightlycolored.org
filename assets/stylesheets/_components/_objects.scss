@@ -250,14 +250,21 @@
   }
 
   @media #{$medium-up} {
-    margin-bottom: 5rem;
-    margin-top: 5rem;
+    margin-bottom: -2rem;
+    margin-top: 6rem;
+  }
+}
+
+.post + .bc-ad-container {
+  @media #{$medium-up} {
+    margin-bottom: 0;
+    margin-top: 3rem;
   }
 }
 
 .carbon-wrap {
   align-items: center;
-  background-color: #F8F8F8;
+  background-color: #F2F2F2;
   border-radius: $global-radius;
   display: grid;
   grid-column-gap: 15px;
@@ -266,10 +273,7 @@
   a {
     color: $body-color;
     text-decoration: none;
-  }
-
-  @media #{$medium-up} {
-    background-color: white;
+    font-weight: normal;
   }
 }
 
@@ -298,7 +302,8 @@
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  @media #{$medium-up} {
-    color: rgba(white, .75);
+  &:hover,
+  &:focus {
+    text-decoration: underline solid #aaa;
   }
 }
