@@ -16,9 +16,21 @@
   }
 
   .logo {
-    display: inline-block;
+    display: block;
     @media #{$small-only} {
-      padding: .6rem 5%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: .6rem 0;
+      width: 90%;
+    }
+  }
+
+  .navigation {
+    justify-content: flex-start;
+    @media #{$small-only} {
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
     }
   }
 }
@@ -50,7 +62,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.8rem;
-  max-width: 90%;
+  max-width: 80%;
   .brightly-colored-logo {
     width: 230px;
     @media #{$medium-up} {

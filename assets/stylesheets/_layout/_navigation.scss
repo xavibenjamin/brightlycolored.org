@@ -29,18 +29,20 @@
 .navigation {
   display: flex;
   justify-content: center;
+  padding-bottom: .9rem;
+  padding-top: .9rem;
+
+  li + li {
+    margin-left: 1.4rem;
+  }
 
   a {
     color: lighten($secondary-color, 25%);
     display: block;
     font-size: .75rem;
     font-weight: 600;
-    padding: .8rem 1rem;
     text-decoration: none;
     text-transform: uppercase;
-    @media #{$medium-up} {
-      padding: .8rem 1.3rem;
-    }
 
     &:hover {
       color: lighten($secondary-color, 40%);
