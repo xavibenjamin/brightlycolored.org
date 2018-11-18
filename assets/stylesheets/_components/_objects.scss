@@ -273,6 +273,7 @@
   a {
     color: $body-color;
     text-decoration: none;
+    font-weight: normal;
   }
 }
 
@@ -301,4 +302,8 @@
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  &:hover,
+  &:focus {
+    text-decoration: underline solid #aaa;
+  }
 }
