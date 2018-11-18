@@ -26,7 +26,7 @@ kramdown:
   input: GFM
 
 # Gems
-gems:
+plugins:
 - jekyll-typogrify
 
 # Defaults
