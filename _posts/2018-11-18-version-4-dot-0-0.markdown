@@ -1,0 +1,14 @@
+---
+title: Version 4.0.0
+date: 2018-11-18 00:14:00 -06:00
+tags:
+- site news
+- from the editor
+- release notes
+---
+
+Dear Reader,
+
+Just wanted to let you know that I redesigned the site over the weekend. I'm calling it Version `4.0.0`, but it's probably more of a `3.5.0`. This site has gone through so many iterations over the years, that a lot of the bones stay exactly the same, just the aesthetics change.
+
+Anyway, if you normally read from your RSS reader, click through and take a look. Let me know what you think.
