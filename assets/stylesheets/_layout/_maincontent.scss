@@ -155,7 +155,7 @@
 
 .post__author {
   a {
-    text-decoration: underline dotted $link-color;;
+    text-decoration: underline dotted $link-color;
     &:hover,
     &:focus {
       background-color: rgba($link-color, .1);
