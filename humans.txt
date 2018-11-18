@@ -10,7 +10,7 @@ Launched: September 23, 2013
 Hosted with: Netlify
 
 /* Tools */
-MacBook Pro 2016
+MacBook Pro 2018
 Atom
 Hyper
 Editorial
