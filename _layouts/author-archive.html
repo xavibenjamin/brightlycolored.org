@@ -1,21 +1,46 @@
 ---
-layout: no-title
+layout: default
 ---
 
-{% include full-author.html %}
+<div class="page">
+  {% include full-author.html %}
 
-<h2 class="subheader">Recent Posts</h2>
+  {% assign authorPosts = site.posts | where: 'author', page.author %}
+  <h2>Posts written by {{ author.display_name }} </h2>
+  <p>{{ author.display_name }} has written <strong>{{ authorPosts | size }}</strong> {% if authorPosts.size > 1 %}entries{% else %}entry{% endif %}.</p>
 
-<ul class="author-archive">
-  {% assign posts = site.posts | where_exp: "item", "item.is_rss_only != true" | where: 'author', page.author %}
-  {% for p in posts limit: 10 %}
+  <ul class="groups-list groups-list--3-col">
+    {% assign postsInYear = site.posts | where: 'author', page.author | group_by_exp: "post",
+    "post.date | date: '%Y'" %}
+    {% for year in postsInYear %}
     <li>
-      <a href="{{ site.url }}{{ p.url }}">
-        <small class="pubdate">
-          <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%a, %b %d, %Y" }}</time>
-        </small>
-        {{ p.title }}
+      <a href="#{{ year.name }}">
+        {{ year.name }}
+        <span>{{ year.items | size }}</span>
       </a>
     </li>
+    {% endfor %}
+  </ul>
+
+  {% assign postsByYear = site.posts | where: 'author', page.author | group_by_exp:"post", "post.date
+  | date: '%Y'" %}
+  {% for year in postsByYear %}
+  <section class="group-section" id="{{ year.name }}">
+    <h2 class="group__name">{{ year.name }}<small class="group__count">{{ year.items | size }}</small></h2>
+
+    <ul class="group__post-list group__post-list--2-col">
+      {% for post in year.items %}
+      <li class="group-post__item group-post__item--bold">
+        <a href="{{ post.url }}">
+          <span class="group-post__meta-info">{{ post.date | date: '%a, %b %d'}}</span>
+          {{ post.title | caps }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <a href="#page-title" class="group__return-home">Back to Top &uarr;</a>
+  </section>
   {% endfor %}
-</ul>
+
+</div>

@@ -1,12 +1,10 @@
 {% assign author = site.data.authors[page.author] %}
-<div class="author {% if page.layout == 'author-archive' %}author--single{% endif %}">
-  <img src="//gravatar.com/avatar/{{ author.gravatar}}?s=200" alt="Picture of {{ author.display_name }}" class="author__picture" height="200" width="200" />
-  <div class="author__info">
-    <h4 class="author__name">{{ author.display_name }}</h4>
-    <h5 class="author__title">{{ author.title | markdownify | remove: '<p>' }}</h5>
+<header class="author author--single">
+  <img src="//gravatar.com/avatar/{{ author.gravatar}}?s=500" alt="Picture of {{ author.display_name }}" class="author__picture" height="200" width="200" />
+  <h1 id="page-title" class="author__name">{{ author.display_name }}</h1>
+  <h2 class="author__title">{{ author.title | markdownify | remove: '<p>' }}</h2>
+
+  <p class="author__bio">{{ author.bio | markdownify | remove: '<p>'  | remove: '</p>' }}</p>
     
-    {% if page.layout == 'author-archive' %}
-      {% include author-profiles.html %}
-    {% endif %}
-  </div><!-- /.author__info -->
-</div>
+  {% include author-profiles.html %}
+</header>

@@ -144,13 +144,24 @@
 
 // Post Author -------------------
 
-.post__author {
+.post__meta {
   color: lighten($body-color, 15%);
   font-size: .68rem;
   font-weight: 600;
   letter-spacing: .5px;
   margin-bottom: 1.4rem;
   text-transform: uppercase;
+}
+
+.post__author {
+  a {
+    text-decoration: underline dotted $link-color;;
+    &:hover,
+    &:focus {
+      background-color: rgba($link-color, .1);
+      text-decoration: underline dotted $link-color;
+    }
+  }
 }
 
 
