@@ -8,13 +8,22 @@ body {
   background-color: $primary-color;
 }
 
-.sidebar {
-  background-color: lighten($secondary-color, 50%);
+.site__navigation {
+  background-color: lighten($secondary-color, 53%);
+}
+
+.header__navigation {
+  @media screen and (max-width: 39.9375em) {
+    background-color: lighten($secondary-color, 53%);
+  }
+}
+
+.header__description {
+  color: #ffe000;
 }
 
 .navigation a {
-  border-top-color: lighten($secondary-color, 45%);
-  color: lighten($secondary-color, 15%);
+  color: lighten($secondary-color, 10%);
   &:hover,
   &:focus {
     color: $secondary-color;
@@ -26,7 +35,7 @@ body {
 }
 
 .header__byline {
-  color: #ffe000;
+  color: white;
 }
 
 .footer {
@@ -46,11 +55,15 @@ body {
 }
 
 .card--light {
-  background-color: lighten($secondary-color, 55%);
+  background-color: lighten($secondary-color, 60%);
 }
 
 blockquote {
   border-left-color: $primary-color;
+}
+
+.posts__date .current-day:before {
+  background-color: $primary-color;
 }
 
 .btn--primary {
@@ -58,17 +71,6 @@ blockquote {
   &:hover,
   &:focus {
     background-color: darken($primary-color, 5%);
-  }
-}
-
-.btn--primary.btn--outline {
-  @media screen and (max-width: 39.9375em) {
-    box-shadow: 0 0 0 1px $primary-color;
-    color: $primary-color;
-    &:hover,
-    &:focus {
-      background-color: rgba($primary-color, 0.05);
-    }
   }
 }
 

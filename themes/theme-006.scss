@@ -8,29 +8,30 @@ body {
   background-color: $primary-color;
 }
 
-.sidebar {
-  background-color: #222;
+.site__navigation {
+  background-color: lighten($primary-color, 51%);
 }
 
-.navigation a {
-  border-top-color: lighten(#222, 10%);
-  color: $secondary-color;
-  &:hover,
-  &:focus {
-    color: lighten($secondary-color, 20%);
+.header__navigation {
+  @media screen and (max-width: 39.9375em) {
+    background-color: lighten($primary-color, 51%);
   }
 }
 
-.header {
-  background-color: $primary-color;
+.navigation a {
+  color: darken($primary-color, 5%);
+  &:hover,
+  &:focus {
+    color: $primary-color;
+  }
 }
 
 .header__byline {
   color: $secondary-color;
 }
 
-.logo__first-word {
-  fill: #222;
+.header__description {
+  color: white;
 }
 
 .logo__second-word {
@@ -41,10 +42,11 @@ body {
   background-color: #222;
 
   a {
-    color: rgba(white, .6);
+    color: rgba(white, .7);
     &:hover,
     &:focus {
-      color: white;
+      color: $secondary-color;
+      text-decoration: underline solid $secondary-color;
     }
   }
   
@@ -54,11 +56,15 @@ body {
 }
 
 .card--light {
-  background-color: lighten(#222, 80%);
+  background-color: lighten(#222, 82%);
 }
 
 blockquote {
   border-left-color: $primary-color;
+}
+
+.posts__date .current-day:before {
+  background-color: $primary-color;
 }
 
 .btn--primary {
@@ -66,17 +72,6 @@ blockquote {
   &:hover,
   &:focus {
     background-color: darken($primary-color, 5%);
-  }
-}
-
-.btn--primary.btn--outline {
-  @media screen and (max-width: 39.9375em) {
-    box-shadow: 0 0 0 1px $primary-color;
-    color: $primary-color;
-    &:hover,
-    &:focus {
-      background-color: rgba($primary-color, 0.05);
-    }
   }
 }
 

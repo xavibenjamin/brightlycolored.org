@@ -8,27 +8,26 @@ body {
   background-color: $primary-color;
 }
 
-
-.footer__subscribe {
-  background-color: $secondary-color;
+.site__navigation {
+  background-color: lighten($secondary-color, 63%);
 }
 
-.sidebar {
-  background-color: lighten($secondary-color, 65%);
-  border-right-color: lighten($secondary-color, 56%);
+.header__navigation {
+  @media screen and (max-width: 39.9375em) {
+    background-color: lighten($secondary-color, 63%);
+  }
+}
+
+.header__description {
+  color: darken($primary-color, 25%);
 }
 
 .navigation a {
-  border-top-color: lighten($secondary-color, 56%);
-  color: lighten($secondary-color, 20%);
+  color: darken($primary-color, 15%);
   &:hover,
   &:focus {
     color: $secondary-color;
   }
-}
-
-.header {
-  background-color: $primary-color;
 }
 
 .footer {
@@ -39,37 +38,25 @@ body {
   }
 
   a {
-    color: rgba(white, .6);
+    color: rgba(white, .7);
+    &:hover,
+    &:focus {
+      color: $primary-color;
+      text-decoration: underline solid $primary-color;
+    }
   }
 }
-
-.footer__about {
-  p {
-    color: darken($primary-color, 20%);
-  }
-}
-
-.footer__copyright {
-  background-color: darken($secondary-color, 10%);
-
-  small,
-  a {
-    color: lighten($secondary-color, 20%);
-  }
-
-  .icon {
-    fill: $primary-color;
-  }
-}
-
-
 
 .card--light {
-  background-color: lighten($secondary-color, 65%);
+  background-color: lighten($secondary-color, 67%);
 }
 
 blockquote {
   border-left-color: $primary-color;
+}
+
+.posts__date .current-day:before {
+  background-color: $primary-color;
 }
 
 .btn--primary {
@@ -77,17 +64,6 @@ blockquote {
   &:hover,
   &:focus {
     background-color: darken($primary-color, 5%);
-  }
-}
-
-.btn--primary.btn--outline {
-  @media screen and (max-width: 39.9375em) {
-    box-shadow: 0 0 0 1px $primary-color;
-    color: $primary-color;
-    &:hover,
-    &:focus {
-      background-color: rgba($primary-color, 0.05);
-    }
   }
 }
 
