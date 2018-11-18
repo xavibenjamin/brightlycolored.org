@@ -1,7 +1,7 @@
 # Please place Gems in alpha order.
 source 'https://rubygems.org'
 
-ruby '2.5.0'
+ruby '2.4.3'
 
 gem 'jekyll', '~> 3.8', '>= 3.8.4'
 gem 'rake'
