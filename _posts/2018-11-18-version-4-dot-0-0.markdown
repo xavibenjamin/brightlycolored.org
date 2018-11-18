@@ -5,6 +5,7 @@ tags:
 - site news
 - from the editor
 - release notes
+custom_type: post
 ---
 
 Dear Reader,
