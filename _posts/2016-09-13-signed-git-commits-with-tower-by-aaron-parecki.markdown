@@ -16,7 +16,7 @@ I also happen to love Tower, so setting things up so that I could do signed comm
 
 ```shell
 # First you’ll sign the tag
-$ git tag -s v.1.1.0
+$ git tag -s v1.1.0
 
 # Then you’ll verify the tag
 $ git tag -v v1.1.0
