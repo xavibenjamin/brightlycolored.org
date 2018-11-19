@@ -17,6 +17,7 @@
 
   .logo {
     display: block;
+    margin-right: 1rem;
     @media #{$small-only} {
       margin-left: auto;
       margin-right: auto;
