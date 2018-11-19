@@ -1,0 +1,103 @@
+---
+---
+
+$primary-color: #b50554;
+$secondary-color: #b0f7c5;
+
+body {
+  background-color: $secondary-color;
+}
+
+.header__byline {
+  color: $primary-color;
+}
+
+.header__description {
+  color: darken($secondary-color, 55%);
+}
+
+.logo__first-word {
+  fill: darken($secondary-color, 55%);
+}
+
+.logo__second-word {
+  fill: $primary-color;
+}
+
+.site__navigation {
+  background-color: lighten($secondary-color, 11%);
+}
+
+.header__navigation {
+  @media screen and (max-width: 39.9375em) {
+    background-color: lighten($secondary-color, 11%);
+  } 
+}
+
+.header .navigation a {
+  @media screen and (min-width: 40em) {
+    color: $primary-color;
+    &:hover,
+    &:focus {
+      color: lighten($primary-color, 10%);
+    }
+  }
+}
+
+.navigation a {
+  color: $primary-color;
+  &:hover,
+  &:focus {
+    color: lighten($primary-color, 10%);
+  }
+}
+
+.footer {
+  background-color: $primary-color;
+  color: rgba(white, .8);
+
+  p:first-child {
+    color: $secondary-color;
+    font-weight: 600;
+  }
+
+  a {
+    color: rgba(white, .7);
+    &:hover,
+    &:focus {
+      color: $secondary-color;
+      text-decoration: underline solid $secondary-color;
+    }
+  }
+  
+  .icon {
+    fill: $secondary-color;
+  }
+}
+
+
+.card--light {
+  background-color: lighten($primary-color, 60%);
+}
+
+blockquote {
+  border-left-color: $primary-color;
+}
+
+.posts__date .current-day:before {
+  background-color: $primary-color;
+}
+
+.btn--primary {
+  background-color: $primary-color;
+  &:hover,
+  &:focus {
+    background-color: darken($primary-color, 5%);
+  }
+}
+
+.footnotes {
+  &:before {
+    background-color: $primary-color;
+  }
+}
