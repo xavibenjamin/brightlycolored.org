@@ -5,10 +5,10 @@ tags:
 - photography
 - iCloud Photo Library
 excerpt: Apple Photos is pretty great.
-link_url: https://thesweetsetup.com/how-i-use-apple-photos/
+custom_type: post
 ---
 
-Shawn Blanc on *The Sweet Setup*:
+[Shawn Blanc on *The Sweet Setup*](https://thesweetsetup.com/how-i-use-apple-photos/):
 
 >What would you guess was the average answer for how many photos people have in their iPhone camera roll?
 >

@@ -6,11 +6,11 @@ tags:
 - Star Wars
 - Episode IX
 excerpt: J.J. is a safe bet, but not the one I think Lucasfilm should take.
-link_url: https://www.cbr.com/star-wars-episode-ix-course-correction/
 featured_image: "/uploads/jj-featured.jpg"
+custom_type: post
 ---
 
-L.D. Nolan reporting for *CBR*:
+[L.D. Nolan reporting for *CBR*](https://www.cbr.com/star-wars-episode-ix-course-correction/):
 
 > A new report indicates that Lucasfilm hopes *Star Wars: Episode IX* will put the franchise back on the right track after a disappointing box office haul for *Solo: A Star Wars Story*.
 >

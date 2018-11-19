@@ -5,10 +5,10 @@ tags:
 - iPad
 - tech
 excerpt: Well, I don't know how to feel about this.
-link_url: https://daringfireball.net/2018/11/the_2018_ipad_pros
+custom_type: post
 ---
 
-John Gruber on the iPad Pro:
+[John Gruber on the iPad Pro](https://daringfireball.net/2018/11/the_2018_ipad_pros):
 
 > Apple bragged during the iPad Pro introduction that they are faster than 92 percent of notebook PCs sold in the last year. That’s not so funny when you consider that “PCs”, in this formulation, includes MacBooks. iPads were popular and useful when they were much slower than typical notebooks. Now they’re faster than all but the highest-end notebook PCs.
 
