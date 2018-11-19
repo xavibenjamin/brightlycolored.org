@@ -118,13 +118,16 @@ figcaption {
 
 .photo-grid--two {
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 450px max-content;
+  grid-template-rows: 450px auto;
+  @media #{$small-only} {
+    grid-template-rows: 250px auto;
+  }
 }
 
 .photo-grid--three {
   grid-template-columns: 200px 1fr 2fr;
-  grid-template-rows: 200px 350px auto;
-  @media #{$large-up} {
+  grid-template-rows: 220px 200px auto;
+  @media #{$medium-up} {
     grid-template-columns: 40px 250px 1fr 1fr;
     grid-template-rows: 380px 250px 130px;
 
@@ -141,21 +144,21 @@ figcaption {
 
   > :nth-child(1) {
     grid-column: span 2;
-    @media #{$large-up} {
+    @media #{$medium-up} {
       grid-column: span 3;
     }
   }
 
   > :nth-child(2) {
     grid-column: span 1;
-    @media #{$large-up} {
+    @media #{$medium-up} {
       grid-column: 2 / span 1;
     }
   }
 
   > :nth-child(3) {
     grid-column: span 3;
-    @media #{$large-up} {
+    @media #{$medium-up} {
       grid-column: 3 / span 2;
       grid-row: span 2;
     }

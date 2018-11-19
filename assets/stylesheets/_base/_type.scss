@@ -3,9 +3,15 @@
 // -------------------------------
 
 html {
-  font-size: 16px;
+  font-size: 17px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  @media #{$medium-up} {
+    font-size: 17px;
+  }
+  @media #{$xlarge-up} {
+    font-size: 20px;
+  }
 }
 
 body {

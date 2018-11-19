@@ -6,24 +6,14 @@
   background-color: white;
   padding: 3rem 0;
   @media #{$medium-up} {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 90%;
     min-height: calc( 100vh - 370px );
   }
   @media #{$large-up} {
-    max-width: 1150px;
     min-height: calc( 100vh - 237px );
   }
 }
 
 // Shareable Post Styles ---------
-
-.p-body {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 900px;
-}
 
 .posts__date {
   margin-bottom: 2rem;
@@ -296,7 +286,6 @@
   }
   h1 {
     font-size: 1.4rem;
-    font-weight: normal;
     line-height: 1.3;
   }
   .post__permalink {
@@ -305,6 +294,15 @@
     font-size: 1.2rem;
     margin-left: .6rem;
     position: relative;
+  }
+  h1 a:not(.post__permalink) {
+    background-color: rgba($heading-base-color, .05);
+    color: $link-color;
+    transition: background-color .2s ease-in-out;
+    &:focus,
+    &:hover {
+      background-color: rgba($link-color, .1);
+    }
   }
 }
 
@@ -399,13 +397,13 @@
 
 // TEXT GRID ---------------------
 
-.content {
-  max-width: 1000px;
-  position: relative;
-  @media #{$medium-up} {
-    margin-left: auto;
-    margin-right: auto;
-    width: 94%;
+.p-body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+
+  @media #{$xlarge-up} {
+    max-width: 1200px;
   }
 }
 
@@ -415,12 +413,16 @@
 .highlighter-rouge,
 .photo-grid > *:not(img),
 .extendout > *:not(img),
-.card > * {
+.card > *,
+.footer > * {
   margin-left: auto;
   margin-right: auto;
   max-width: 575px;
   width: 90%;
   @media #{$large-up} {
     width: 100%;
+  }
+  @media #{$xlarge-up} {
+    max-width: 700px;
   }
 }

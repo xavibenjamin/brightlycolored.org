@@ -1,3 +1,27 @@
+// -----------------------------------------
+// MAIN LAYOUT COMPONENTS
+// -----------------------------------------
+
+.header,
+.home__header,
+.site__navigation,
+.main,
+.footer {
+  @media #{$medium-up} {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+  }
+  @media #{$large-up} {
+    max-width: 1150px;
+  }
+  @media #{$xlarge-up} {
+    max-width: 1300px;
+  }
+}
+
+
+
 // -------------------------------
 // PAGES
 // -------------------------------
