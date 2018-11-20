@@ -1,8 +1,6 @@
 ---
-title: Image Comics And Forbidden Planet Sued By New York Bar Dead Rabbit For $2 Million
-  Over Trademark
-date: 2018-11-20 14:43:07.389000000 -06:00
-published: false
+title: "‘Dead Rabbit’ Comic Recalled After $2 Million Lawsuit From New York Pub"
+date: 2018-11-20 14:43:00 -06:00
 link_url: http://www.theouthousers.com/index.php/news/141567-image-comics-and-forbidden-planet-sued-by-new-york-bar-dead-rabbit-for-2-million-over-trademark.html
 featured_image: http://www.theouthousers.com/images/templates/thumbnails/141567/deadrabbit_size3.jpg
 ---
