@@ -3,14 +3,14 @@
 // -------------------------------
 
 html {
-  font-size: 17px;
+  font-size: 16.7px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   @media #{$medium-up} {
-    font-size: 17px;
+    font-size: 16.5px;
   }
   @media #{$xlarge-up} {
-    font-size: 20px;
+    font-size: 19.6px;
   }
 }
 
