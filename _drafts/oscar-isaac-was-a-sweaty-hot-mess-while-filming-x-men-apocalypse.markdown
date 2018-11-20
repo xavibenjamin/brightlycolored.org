@@ -1,7 +1,12 @@
 ---
 title: 'Oscar Isaac Was a Sweaty, Hot Mess while Filming ‘X-Men: Apocalypse’'
 date: 2018-11-21 05:45:00 -06:00
+tags:
+- X-Men
+- movies
+- Marvel
 custom_type: post
+excerpt: Poor guy. Filming this movie sounds like a nightmare.
 featured_image: "/uploads/oscar-isaac-as-apocalypse.jpg"
 ---
 
