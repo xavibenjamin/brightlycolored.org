@@ -250,8 +250,8 @@
   }
 
   @media #{$medium-up} {
-    margin-bottom: -2rem;
-    margin-top: 6rem;
+    margin-bottom: 8rem;
+    margin-top: 8rem;
   }
 }
 
@@ -272,8 +272,8 @@
   padding: 1rem;
   a {
     color: $body-color;
-    text-decoration: none;
     font-weight: normal;
+    text-decoration: none;
   }
 }
 
@@ -304,6 +304,6 @@
   text-transform: uppercase;
   &:hover,
   &:focus {
-    text-decoration: underline solid #aaa;
+    text-decoration: underline solid #AAA;
   }
 }
