@@ -1,8 +1,9 @@
 ---
 title: POW! Entertainment Responds to Bill Maher's Classless Comments in Open Letter
 date: 2018-11-20 08:58:00 -06:00
+tags:
+- comics
 custom_type: post
-tags: comics
 ---
 
 [Team Stan in an open letter on Stan Lee’s official website](http://therealstanlee.com/open-letter-to-bill-maher.html):
