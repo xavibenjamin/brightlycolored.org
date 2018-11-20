@@ -1,5 +1,5 @@
 ---
-title: "Oscar Isaac Was a Sweaty, Hot Mess while Filming ‘X-Men: Apocalypse’"
+title: 'Oscar Isaac Was a Sweaty, Hot Mess while Filming ‘X-Men: Apocalypse’'
 date: 2018-11-16 09:14:00 -06:00
 featured_image: https://static1.cbrimages.com/wordpress/wp-content/uploads/2018/07/Apocalypse.jpg
 custom_type: post
