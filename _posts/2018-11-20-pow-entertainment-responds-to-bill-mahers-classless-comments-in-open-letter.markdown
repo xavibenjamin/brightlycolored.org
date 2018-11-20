@@ -4,6 +4,7 @@ date: 2018-11-20 08:58:00 -06:00
 tags:
 - comics
 custom_type: post
+excerpt: Love this response from Team Stan.
 ---
 
 [Team Stan in an open letter on Stan Lee’s official website](http://therealstanlee.com/open-letter-to-bill-maher.html):
