@@ -1,7 +1,8 @@
 ---
-title: POW! Entertainment Responds to Bill Maher in Open Letter
-date: 2018-11-19 21:51:00 -06:00
+title: POW! Entertainment Responds to Bill Maher's Classless Comments in Open Letter
+date: 2018-11-20 08:58:00 -06:00
 custom_type: post
+tags: comics
 ---
 
 [Team Stan in an open letter on Stan Lee’s official website](http://therealstanlee.com/open-letter-to-bill-maher.html):
@@ -10,4 +11,4 @@ custom_type: post
 
 What a classy response to such [tasteless and ignorant remarks from Bill Maher](https://comicbook.com/marvel/2018/11/17/bill-maher-comics-industry-reactions/). Unfortunately, there are many who consider comics childish and stupid, as if we love them because we’re too lazy to read a “real” book. 
 
-However, those who choose to find out for themselves learn that comics—just like other story-telling mediums—explore profound themes, comment on important issues, and teach valuable lessons. As I’ve said before, [comics are much more than just super-powered people](https://brightlycolored.org/2018/11/my-geek-life/) flying around in capes.
+However, those who choose to find out for themselves learn that comics—just like other story-telling mediums—explore profound themes, comment on important issues, and teach valuable lessons. As I’ve said before, [comics are much more than just super-powered people](/2018/11/my-geek-life/) flying around in capes.
