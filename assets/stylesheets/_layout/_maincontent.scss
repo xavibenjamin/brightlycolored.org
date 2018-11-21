@@ -5,11 +5,13 @@
 .main {
   background-color: white;
   padding: 3rem 0;
+
   @media #{$medium-up} {
-    min-height: calc( 100vh - 370px );
+    min-height: calc(100vh - 370px);
   }
+
   @media #{$large-up} {
-    min-height: calc( 100vh - 237px );
+    min-height: calc(100vh - 237px);
   }
 }
 
@@ -25,10 +27,11 @@
   .current-day {
     color: #757575;
     display: block;
-    font-size: .68rem;
+    font-size: 0.68rem;
     font-weight: 600;
     letter-spacing: 3px;
     text-transform: uppercase;
+
     &:before {
       background-color: $primary-color;
       content: '';
@@ -44,18 +47,22 @@
   + .day-posts {
     margin-top: 10rem;
   }
+
   + .posts__date {
     margin-top: 6rem;
+
     @media #{$medium-up} {
       margin-top: 8rem;
     }
   }
+
   .posts__post + .posts__post {
     @media #{$small-only} {
       border-top: 1px solid $border-color;
       margin-top: 3rem;
       padding-top: 3rem;
     }
+
     @media #{$medium-up} {
       margin-top: 8rem;
     }
@@ -69,14 +76,16 @@
 .small-author {
   color: lighten($body-color, 35%);
   display: block;
-  font-size: .65rem;
+  font-size: 0.65rem;
   font-weight: 600;
-  margin-bottom: .6rem;
+  margin-bottom: 0.6rem;
+
   a {
     color: lighten($body-color, 35%);
   }
+
   .format-link & {
-    margin-top: .3rem;
+    margin-top: 0.3rem;
   }
 }
 
@@ -88,13 +97,15 @@
       -webkit-hyphens: none;
       hyphens: none;
       text-decoration: none;
+
       &:hover,
       &:focus {
         color: $link-color;
       }
     }
+
     + h2 {
-      margin-top: .1rem;
+      margin-top: 0.1rem;
     }
   }
 }
@@ -105,7 +116,6 @@
   font-weight: normal;
   line-height: 1.2;
 }
-
 
 .post__footer {
   margin-top: 2rem;
@@ -122,10 +132,12 @@
   border-radius: $global-radius;
   margin-bottom: 1.1rem;
   margin-top: 2rem;
-  padding: .4rem;
+  padding: 0.4rem;
+
   p {
     color: lighten($body-color, 10%);
-    font-size: .85rem;
+    font-size: 0.85rem;
+
     a {
       color: lighten($body-color, 10%);
     }
@@ -136,9 +148,9 @@
 
 .post__meta {
   color: lighten($body-color, 15%);
-  font-size: .68rem;
+  font-size: 0.68rem;
   font-weight: 600;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   margin-bottom: 1.4rem;
   text-transform: uppercase;
 }
@@ -146,18 +158,19 @@
 .post__author {
   a {
     text-decoration: underline dotted $link-color;
+
     &:hover,
     &:focus {
-      background-color: rgba($link-color, .1);
+      background-color: rgba($link-color, 0.1);
       text-decoration: underline dotted $link-color;
     }
   }
 }
 
-
 .author__name {
   color: $heading-base-color;
   margin: 0;
+
   a {
     color: $heading-base-color;
     text-decoration: none;
@@ -165,7 +178,7 @@
 }
 
 .author__title {
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-weight: normal;
 }
 
@@ -179,6 +192,7 @@
   .post__header {
     margin-bottom: 1.5rem;
   }
+
   h1 {
     font-size: 1.8rem;
     font-weight: 600;
@@ -207,8 +221,8 @@
 .heading-link {
   color: lighten($heading-base-color, 45%);
   display: none;
-  font-size: .85em;
-  margin-left: .4rem;
+  font-size: 0.85em;
+  margin-left: 0.4rem;
   opacity: 0;
   pointer-events: none;
   position: relative;
@@ -217,63 +231,72 @@
 }
 
 .toc-wrapper {
-  border: 1px solid rgba($body-color, .1);
+  border: 1px solid rgba($body-color, 0.1);
   border-radius: $global-radius;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
+
   h2 {
     align-items: center;
-    background-color: rgba($body-color, .05);
+    background-color: rgba($body-color, 0.05);
     cursor: pointer;
     display: flex;
     @extend %sans;
-    font-size: .75rem;
+    font-size: 0.75rem;
     justify-content: space-between;
-    letter-spacing: -.2px;
+    letter-spacing: -0.2px;
     margin: 0;
-    padding: .6rem 1rem;
+    padding: 0.6rem 1rem;
     text-transform: uppercase;
+
     svg {
       fill: lighten($body-color, 30%);
       transition: transform 350ms ease;
       width: 16px;
     }
+
     &.js-toc-is-open {
       svg {
         transform: rotate(180deg);
       }
     }
   }
+
   #markdown-toc {
     display: none;
-    font-size: .75rem;
+    font-size: 0.75rem;
     height: 0;
     list-style: decimal-leading-zero;
     overflow: hidden;
     padding-left: 2.5rem;
     transition: height 350ms ease;
+
     &.js-toc-is-open {
       display: block;
       height: auto;
     }
   }
+
   li {
-    padding: .3rem 0;
+    padding: 0.3rem 0;
+
     a {
       border-bottom: 1px dotted transparent;
       display: inline-block;
-      font-size: .75rem;
+      font-size: 0.75rem;
       font-weight: 600;
       text-decoration: none;
+
       &:hover,
       &:focus {
-        background-color: rgba($link-color, .1);
+        background-color: rgba($link-color, 0.1);
         border-bottom: 1px dotted $link-color;
       }
     }
+
     ol {
       list-style-type: lower-roman;
-      padding-left: .5rem;
+      padding-left: 0.5rem;
     }
   }
 }
@@ -282,26 +305,30 @@
 
 .format-link {
   .post__header {
-    margin-bottom: .4rem;
+    margin-bottom: 0.4rem;
   }
+
   h1 {
     font-size: 1.4rem;
     line-height: 1.3;
   }
+
   .post__permalink {
     bottom: 1px;
-    color: #AAA;
+    color: #aaa;
     font-size: 1.2rem;
-    margin-left: .6rem;
+    margin-left: 0.6rem;
     position: relative;
   }
+
   h1 a:not(.post__permalink) {
-    background-color: rgba($heading-base-color, .05);
+    background-color: rgba($heading-base-color, 0.05);
     color: $link-color;
-    transition: background-color .2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+
     &:focus,
     &:hover {
-      background-color: rgba($link-color, .1);
+      background-color: rgba($link-color, 0.1);
     }
   }
 }
@@ -310,6 +337,7 @@
 
 .footnotes {
   margin-top: 2rem;
+
   &:before {
     background-color: $primary-color;
     content: '';
@@ -318,16 +346,19 @@
     margin-bottom: 1rem;
     width: 120px;
   }
+
   li,
   p {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
+
   ol {
     list-style-type: decimal-leading-zero;
     padding-left: 2rem;
   }
+
   li + li {
-    margin-top: .5rem;
+    margin-top: 0.5rem;
   }
 }
 
@@ -336,22 +367,26 @@
 .post__topics {
   align-items: center;
   display: flex;
-  font-size: .75rem;
+  font-size: 0.75rem;
+
   .icon {
-    fill: #CCC;
+    fill: #ccc;
     height: 1.1em;
-    margin-right: .5rem;
+    margin-right: 0.5rem;
     width: 1.1em;
   }
+
   li + li {
-    margin-left: .25rem;
+    margin-left: 0.25rem;
   }
+
   li:not(:last-child) {
     display: inherit;
     &:after {
       content: ',';
     }
   }
+
   a {
     font-weight: 600;
     text-decoration: none;
@@ -367,33 +402,37 @@
 
 .related-posts__title {
   @extend %sans;
-  font-size: .7rem;
+  font-size: 0.7rem;
   letter-spacing: 0;
   margin-top: 0;
+
   &:before {
     content: none;
   }
 }
 
 .post-list__item {
-  font-size: .75rem;
+  font-size: 0.75rem;
+
   a {
     text-decoration: none;
   }
+
   .related__date {
     color: lighten($body-color, 25%);
     display: block;
-    font-size: .7rem;
+    font-size: 0.7rem;
     font-weight: normal;
   }
+
   .related__title {
     font-weight: 600;
   }
+
   + .post-list__item {
-    margin-top: .5rem;
+    margin-top: 0.5rem;
   }
 }
-
 
 // TEXT GRID ---------------------
 
@@ -407,7 +446,8 @@
   }
 }
 
-.p-body > *:not(.iframe-container):not(.card):not(.extendout):not(.photo-grid):not(.alignleft):not(.alignright):not(.small__right):not(.small__left):not(.highlighter-rouge):not(.post__footer):not(.tag__section):not(table):not(.post__section):not(.page__header--full),
+.p-body
+  > *:not(.iframe-container):not(.card):not(.extendout):not(.photo-grid):not(.alignleft):not(.alignright):not(.small__right):not(.small__left):not(.highlighter-rouge):not(.post__footer):not(.tag__section):not(table):not(.post__section):not(.page__header--full),
 .posts__date > .current-day,
 .post__footer,
 .highlighter-rouge,

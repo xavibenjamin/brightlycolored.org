@@ -5,10 +5,12 @@
 table {
   border: 1px solid $border-color;
   border-collapse: collapse;
-  font-family: 'Operator Mono', Inconsolata, 'Inconsolata-g for Powerline', monospace;
-  font-size: .9rem;
+  font-family: 'Operator Mono', Inconsolata, 'Inconsolata-g for Powerline',
+    monospace;
+  font-size: 0.9rem;
   margin: 1.5rem auto;
   width: 90%;
+
   tbody tr:nth-child(odd) {
     background-color: lighten($border-color, 4%);
   }
@@ -24,5 +26,5 @@ th,
 td {
   border-bottom: 1px solid $border-color;
   border-right: 1px solid $border-color;
-  padding: .5rem .8rem;
+  padding: 0.5rem 0.8rem;
 }

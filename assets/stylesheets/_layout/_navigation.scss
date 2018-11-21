@@ -29,8 +29,8 @@
 .navigation {
   display: flex;
   justify-content: center;
-  padding-bottom: .9rem;
-  padding-top: .9rem;
+  padding-bottom: 0.9rem;
+  padding-top: 0.9rem;
 
   li + li {
     margin-left: 1.4rem;
@@ -39,7 +39,7 @@
   a {
     color: lighten($secondary-color, 25%);
     display: block;
-    font-size: .75rem;
+    font-size: 0.75rem;
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
@@ -53,9 +53,10 @@
     .header & {
       a {
         color: white;
+
         &:focus,
         &:hover {
-          color: rgba(white, .8);
+          color: rgba(white, 0.8);
         }
       }
     }

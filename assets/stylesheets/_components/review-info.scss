@@ -6,8 +6,8 @@
 // -----------------------------------------
 
 .review-info {
-  font-size: .7rem;
-  margin-top: .8rem;
+  font-size: 0.7rem;
+  margin-top: 0.8rem;
 
   @media #{$medium-up} {
     border-top: 1px solid $border-color;
@@ -17,22 +17,22 @@
 }
 
 .review-info__item {
-  padding-bottom: .5rem;
-  padding-top: .5rem;
-
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
 
   @media #{$medium-up} {
-    padding-bottom: .2rem;
-    padding-top: .7rem;
+    padding-bottom: 0.2rem;
+    padding-top: 0.7rem;
   }
 
   + .review-info__item {
     border-top: 1px solid $border-color;
+
     @media #{$medium-up} {
       border-left: 1px solid $border-color;
       border-top: 0;
-      margin-left: .7rem;
-      padding-left: .7rem;
+      margin-left: 0.7rem;
+      padding-left: 0.7rem;
     }
   }
 
@@ -66,15 +66,18 @@
 
 .review-info--rating {
   min-width: 95px;
+
   span {
     display: flex;
-    margin-top: .2rem;
+    margin-top: 0.2rem;
   }
+
   svg {
     height: 17px;
     width: 17px;
+
     + svg {
-      margin-left: .15rem;
+      margin-left: 0.15rem;
     }
   }
 }

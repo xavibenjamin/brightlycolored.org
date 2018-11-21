@@ -4,12 +4,12 @@
 
 .footer {
   background-color: $secondary-color;
-  color: rgba(white, .6);
+  color: rgba(white, 0.6);
   margin-left: auto;
   padding: 3rem 0;
 
   p {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
 
   p:first-child {
@@ -33,44 +33,45 @@
 
 .footer__links {
   column-count: 2;
-  font-size: .75rem;
+  font-size: 0.75rem;
   margin-bottom: 1.2rem;
   margin-top: 1.2rem;
 
   li + li {
-    margin-top: .3rem;
+    margin-top: 0.3rem;
   }
 
   @media #{$medium-up} {
     column-count: 0;
     display: flex;
-    margin-bottom: .8rem;
-    margin-top: .8rem;
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
 
     li + li {
-      margin-left: .45rem;
+      margin-left: 0.45rem;
       margin-top: 0;
       &:before {
-        color: rgba(white, .4);
+        color: rgba(white, 0.4);
         content: '•';
-        margin-right: .45rem;
+        margin-right: 0.45rem;
       }
     }
   }
 }
 
 .offline-ready {
-  background: #CFE8C6;
+  background: #cfe8c6;
   bottom: 0;
-  color: darken(#CFE8C6, 50%);
+  color: darken(#cfe8c6, 50%);
   display: none;
   @extend %sans-small;
   left: 0;
-  padding: .8rem;
+  padding: 0.8rem;
   position: fixed;
   right: 0;
   text-align: center;
   z-index: 5;
+
   &.active {
     display: block;
   }

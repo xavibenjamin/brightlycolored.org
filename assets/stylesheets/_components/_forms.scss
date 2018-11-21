@@ -2,38 +2,13 @@
 // FORMS
 // -------------------------------
 
-
-// -----------------------------------------
-// HEADER SEARCH
-// -----------------------------------------
-
-.header__search {
-  .search-input {
-    -webkit-appearance: none;
-    background-color: white;
-    border-radius: $global-radius;
-    box-shadow: 0 2px 4px rgba(black, .15);
-    font-size: .9rem;
-    padding: .7rem;
-    width: 100%;
-    &:focus {
-      &::placeholder {
-        color: lighten($body-color, 40%);
-      }
-    }
-    &::placeholder {
-      transition: color 300ms ease-in-out;
-    }
-  }
-}
-
 // -------------------------------
 // NEWSLETTER INPUT
 // -------------------------------
 .newsletter {
   form {
     display: grid;
-    grid-gap: .5rem;
+    grid-gap: 0.5rem;
     margin-top: 1rem;
     @media #{$medium-up} {
       grid-template-columns: auto 110px;
@@ -42,19 +17,19 @@
   input {
     border-radius: $global-radius;
     color: $body-color;
-    font-size: .85rem;
+    font-size: 0.85rem;
     max-height: 45px;
-    padding: .65rem;
-    transition: .2s ease-in-out;
+    padding: 0.65rem;
+    transition: 0.2s ease-in-out;
     width: 100%;
     &:focus {
-      background: lighten(#FEFFDA, 3%);
+      background: lighten(#feffda, 3%);
     }
   }
   .btn {
-    font-size: .85rem;
-    padding-bottom: .65rem;
-    padding-top: .65rem;
+    font-size: 0.85rem;
+    padding-bottom: 0.65rem;
+    padding-top: 0.65rem;
     width: 100%;
   }
   p {
@@ -64,13 +39,13 @@
 
 .newsletter__inputs {
   display: grid;
-  grid-gap: .5rem;
+  grid-gap: 0.5rem;
   grid-template-columns: 1fr 1fr;
 }
 
 .newsletter__thankyou {
-  margin-top: .8rem;
+  margin-top: 0.8rem;
   p {
-    font-size: .85rem;
+    font-size: 0.85rem;
   }
 }

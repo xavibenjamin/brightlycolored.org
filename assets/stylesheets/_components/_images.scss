@@ -15,13 +15,15 @@ figure {
 figcaption {
   color: lighten($body-color, 20%);
   @extend %sans;
-  font-size: .8rem;
+  font-size: 0.8rem;
   line-height: 1.6;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
+
   code {
-    font-size: .9rem;
+    font-size: 0.9rem;
+
     @media #{$medium-up} {
-      font-size: .8rem;
+      font-size: 0.8rem;
     }
   }
 }
@@ -33,15 +35,18 @@ figcaption {
     margin-right: auto;
     width: 90%;
   }
+
   @media #{$medium-up} {
     align-items: flex-end;
     display: flex;
   }
+
   img {
     @media #{$medium-up} {
       width: 75%;
     }
   }
+
   figcaption {
     @media #{$medium-up} {
       padding-left: 1.8%;
@@ -61,9 +66,11 @@ figcaption {
   float: right;
   margin-left: 1.875rem;
   width: 40%;
+
   @media #{$large-up} {
     width: 45%;
   }
+
   figcaption {
     margin: 0 auto;
     width: 90%;
@@ -87,12 +94,15 @@ figcaption {
   align-items: stretch;
   display: grid;
   grid-gap: 2px;
+
   @media #{$large-up} {
     grid-gap: 3px;
   }
+
   img {
     object-fit: cover;
   }
+
   figcaption {
     align-self: start;
     grid-column: 1 / -1;
@@ -102,6 +112,7 @@ figcaption {
 .photo-grid--one {
   grid-auto-rows: minmax(50px, auto);
   grid-template-columns: repeat(6, 1fr);
+
   > :nth-child(1),
   > :nth-child(2),
   > :nth-child(3) {
@@ -119,6 +130,7 @@ figcaption {
 .photo-grid--two {
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 450px auto;
+
   @media #{$small-only} {
     grid-template-rows: 250px auto;
   }
@@ -127,6 +139,7 @@ figcaption {
 .photo-grid--three {
   grid-template-columns: 200px 1fr 2fr;
   grid-template-rows: 220px 200px auto;
+
   @media #{$medium-up} {
     grid-template-columns: 40px 250px 1fr 1fr;
     grid-template-rows: 380px 250px 130px;
@@ -144,6 +157,7 @@ figcaption {
 
   > :nth-child(1) {
     grid-column: span 2;
+
     @media #{$medium-up} {
       grid-column: span 3;
     }
@@ -151,6 +165,7 @@ figcaption {
 
   > :nth-child(2) {
     grid-column: span 1;
+
     @media #{$medium-up} {
       grid-column: 2 / span 1;
     }
@@ -158,6 +173,7 @@ figcaption {
 
   > :nth-child(3) {
     grid-column: span 3;
+
     @media #{$medium-up} {
       grid-column: 3 / span 2;
       grid-row: span 2;

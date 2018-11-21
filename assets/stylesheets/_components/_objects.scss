@@ -30,9 +30,11 @@
 
 .card {
   padding: 3.5rem 0;
+
   @media #{$medium-up} {
     border-radius: $global-radius;
   }
+
   h2 {
     margin-top: 0;
   }
@@ -43,36 +45,13 @@
 }
 
 .card--light {
-  background-color: lighten($jazz-color, 43%);
+  background-color: lighten($secondary-color, 76%);
   color: $body-color;
+
   h2 {
     color: $heading-base-color;
   }
 }
-
-.card--dark {
-  background-color: $slate-color;
-  color: lighten($slate-color, 40%);
-  h2 {
-    color: white;
-  }
-}
-
-.card--jazz {
-  background-color: $primary-color;
-  color: lighten($primary-color, 30%);
-  h2 {
-    color: white;
-  }
-  .button--primary {
-    background: $secondary-color;
-    &:focus,
-    &:hover {
-      background: lighten($secondary-color, 10%);
-    }
-  }
-}
-
 
 // Slash List --------------------
 // List component with little sla-
@@ -82,13 +61,16 @@
 .slash-list {
   display: flex;
   flex-wrap: wrap;
+
   li {
     align-items: center;
     display: flex;
-    font-size: .75rem;
+    font-size: 0.75rem;
     line-height: 1.2;
+
     &:not(:last-of-type) {
       margin-right: 15px;
+
       &:after {
         color: darken($border-color, 10%);
         content: '/';
@@ -100,6 +82,7 @@
       }
     }
   }
+
   a {
     text-decoration: none;
   }
@@ -107,15 +90,17 @@
 
 .slash-list--large {
   li {
-    font-size: .85rem;
+    font-size: 0.85rem;
     line-height: 1.4;
   }
 }
 
 .slash-list--secondary {
   color: lighten($heading-base-color, 25%);
+
   a {
     color: lighten($heading-base-color, 25%);
+
     &:hover,
     &:focus {
       color: lighten($heading-base-color, 25%);
@@ -129,110 +114,10 @@
 
 .slash-list__title {
   @extend %sans;
-  font-size: .6rem;
+  font-size: 0.6rem;
   line-height: 1;
-  margin-bottom: .2rem;
+  margin-bottom: 0.2rem;
 }
-
-// Popover -----------------------
-// Component that looks like a
-// tooltip, but has more info in
-// it.
-// -------------------------------
-
-.popover {
-  background-color: white;
-  border: 1px solid rgba($body-color, .2);
-  border-radius: 3px;
-  box-shadow: 0 2px 5px rgba($body-color, .15);
-  left: 0;
-  opacity: 0;
-  pointer-events: none;
-  position: absolute;
-  right: 0;
-  top: 110%;
-  transition: opacity .15s ease-in-out;
-  z-index: 100;
-  @media #{$medium-up} {
-    left: auto;
-    right: 0;
-  }
-  .header-search__title {
-    background-color: #F2F2F2;
-    color: $heading-base-color;
-    @extend %sans;
-    font-size: .7rem;
-    font-weight: 600;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: .6rem 1.2rem;
-    position: sticky;
-    top: 0;
-  }
-  &.is-open {
-    opacity: 1;
-    pointer-events: auto;
-  }
-  .search-results-list {
-    a {
-      display: block;
-      padding: .35rem 1.2rem;
-      text-decoration: none;
-      &:hover,
-      &:focus {
-        background-color: rgba($body-color, .03);
-      }
-    }
-
-    h3 {
-      @extend %sans;
-      font-size: .75rem;
-      font-weight: 600;
-      margin: 0;
-      text-transform: none;
-    }
-
-    .pubdate {
-      color: lighten($body-color, 25%);
-      display: block;
-      font-size: .7rem;
-      font-weight: normal;
-    }
-
-    p,
-    .light-text {
-      color: lighten($body-color, 25%);
-      font-size: .75rem;
-      padding: .5rem 1.2rem;
-    }
-  }
-}
-
-.popover--medium {
-  @media #{$medium-up} {
-    width: 500px;
-  }
-}
-
-.popover--search {
-  max-height: 500px;
-  min-height: 180px;
-  overflow: scroll;
-  -webkit-overflow-scrolling: touch;
-  @media #{$medium-up} {
-    max-height: 250px;
-  }
-}
-
-.popover__shadow {
-  background: linear-gradient(rgba(white, .0), white);
-  bottom: 0;
-  height: 40px;
-  margin-top: -20px;
-  pointer-events: none;
-  position: sticky;
-}
-
 
 // -----------------------------------------
 // CARBON AD STYLES
@@ -264,12 +149,13 @@
 
 .carbon-wrap {
   align-items: center;
-  background-color: #F2F2F2;
+  background-color: $light-bg-color;
   border-radius: $global-radius;
   display: grid;
   grid-column-gap: 15px;
   grid-template-columns: 130px minmax(auto, 247px);
   padding: 1rem;
+
   a {
     color: $body-color;
     font-weight: normal;
@@ -283,27 +169,28 @@
 
 .carbon-text {
   display: block;
-  font-size: .8rem;
+  font-size: 0.8rem;
   line-height: 1.5;
   text-align: left;
+
   @media #{$medium-up} {
-    font-size: .75rem;
-    margin-top: .5rem;
+    font-size: 0.8rem;
   }
 }
 
 .carbon-poweredby {
-  color: #555;
+  color: lighten($body-color, 10%);
   display: block;
-  font-size: .65rem;
+  font-size: 0.65rem;
   line-height: 1;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   right: 0;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+
   &:hover,
   &:focus {
-    text-decoration: underline solid #AAA;
+    text-decoration: underline solid #aaa;
   }
 }
