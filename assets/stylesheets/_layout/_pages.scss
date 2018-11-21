@@ -23,8 +23,6 @@
   }
 }
 
-
-
 // -------------------------------
 // PAGES
 // -------------------------------
@@ -45,6 +43,7 @@
     margin-right: auto;
     width: 90%;
   }
+
   @media #{$large-up} {
     width: 70%;
   }
@@ -54,7 +53,7 @@
   color: $heading-base-color;
   font-size: 2rem;
   letter-spacing: -1.3px;
-  margin-bottom: .65rem;
+  margin-bottom: 0.65rem;
 }
 
 .page-header__description {
@@ -72,6 +71,7 @@
   grid-column-gap: 1rem;
   grid-template-columns: 75px auto;
   margin-bottom: 3rem;
+
   @media #{$medium-up} {
     grid-column-gap: 1.4rem;
     grid-template-columns: 200px minmax(auto, 575px);
@@ -94,6 +94,7 @@
     font-weight: 600;
     letter-spacing: -1.3px;
     margin-bottom: 0;
+
     @media #{$medium-up} {
       font-size: 1.8rem;
     }
@@ -107,17 +108,20 @@
     margin-bottom: 0;
     margin-top: 0;
     text-transform: none;
+
     &:before {
       content: none;
     }
+
     @media #{$medium-up} {
       font-size: 1.4rem;
-      margin-bottom: .6rem;
+      margin-bottom: 0.6rem;
     }
   }
 
   .author__bio {
     line-height: 1.6;
+
     @media #{$small-only} {
       display: none;
     }
