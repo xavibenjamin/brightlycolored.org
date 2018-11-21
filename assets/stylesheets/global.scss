@@ -9,8 +9,6 @@
 
 @import '_vendor/normalize';
 @import '_base/reset';
-@import '_base/mixins';
-
 
 // VARIABLES
 // -----------------------------------------
@@ -44,7 +42,6 @@
 @import '_components/group-page';
 @import '_components/review-info';
 
-
 // LAYOUT
 // -----------------------------------------
 // @layout
@@ -57,7 +54,6 @@
 @import '_layout/pages';
 @import '_layout/footer';
 
-
 // CODE HIGHLIGHTING
 // -----------------------------------------
 // @syntax
@@ -65,4 +61,3 @@
 // -----------------------------------------
 
 @import '_base/syntax';
-  
