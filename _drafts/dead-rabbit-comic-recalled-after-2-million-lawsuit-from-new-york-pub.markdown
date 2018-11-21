@@ -4,6 +4,7 @@ date: 2018-11-20 17:43:00 -06:00
 featured_image: http://www.theouthousers.com/images/templates/thumbnails/141567/deadrabbit_size3.jpg
 custom_type: post
 ---
+
 [Tim Midura writing for *The Outhouse*](http://www.theouthousers.com/index.php/news/141567-image-comics-and-forbidden-planet-sued-by-new-york-bar-dead-rabbit-for-2-million-over-trademark.html):
 
 > The New York bar **Dead Rabbit** has filed a trademark lawsuit against **Image Comics** and **Forbidden Planet** for $2 million. In September, a trademark registration by DRT (Dead Rabbit) for Dead Rabbit to cover "Comic books; Fiction books on a variety of topics; Non-fiction books on a variety of topics; Recipe books," was approved by the US government.
