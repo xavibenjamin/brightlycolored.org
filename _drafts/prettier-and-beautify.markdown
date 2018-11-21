@@ -1,7 +1,6 @@
 ---
 title: Prettier & Beautify
-date: 2018-11-20 21:42:13.890000000 -06:00
-published: false
+date: 2018-11-20 21:42:00 -06:00
 link_url: https://css-tricks.com/prettier-beautify/
 featured_image: https://css-tricks.com/wp-content/uploads/2018/11/prettier-beautify.jpg
 ---

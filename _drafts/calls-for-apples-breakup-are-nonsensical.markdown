@@ -1,7 +1,6 @@
 ---
 title: Calls for Apple’s breakup are nonsensical
-date: 2018-11-20 21:57:47.151000000 -06:00
-published: false
+date: 2018-11-20 21:57:00 -06:00
 link_url: https://sixcolors.com/post/2018/11/calls-for-apples-breakup-are-nonsensical/
 ---
 

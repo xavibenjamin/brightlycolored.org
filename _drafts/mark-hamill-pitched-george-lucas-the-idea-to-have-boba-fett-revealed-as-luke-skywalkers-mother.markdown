@@ -1,8 +1,7 @@
 ---
 title: Mark Hamill Pitched George Lucas The Idea To Have Boba Fett Revealed As Luke
   Skywalker’s Mother
-date: 2018-11-20 21:42:12.038000000 -06:00
-published: false
+date: 2018-11-20 21:42:00 -06:00
 link_url: https://www.slashfilm.com/boba-fett-as-luke-skywalkers-mother/
 featured_image: https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/Boba-Fett-as-Luke-Skywalkers-mother.jpg
 ---
