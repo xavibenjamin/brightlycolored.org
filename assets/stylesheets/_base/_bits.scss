@@ -1,23 +1,35 @@
-
-// -------------------------------
+// -----------------------------------------
 // BITS
-// -------------------------------
-
+// -----------------------------------------
 
 // COLORS ------------------------
-$primary-color: #F30F4C;
+$primary-color: #f30f4c;
 $secondary-color: #212836;
-$slate-color: #383C40;
-$jazz-color: #4C9CBF;
 
 // TEXT COLOR --------------------
 $body-color: #444;
 $heading-base-color: $body-color;
-$link-color: #0881B3;
+$highlight-color: #fffedb;
+$link-color: #0881b3;
+$link-underline: lighten(saturate($link-color, 10%), 40%);
 
 // BG AND BORDER COLORS ----------
-$border-color: #EEE;
-$light-bg-color: lighten($border-color, 4%);
+$border-color: #eee;
+$light-bg-color: #f2f2f2;
 
 // GLOBAL RADIUS
 $global-radius: 2px;
+
+// -----------------------------------------
+// MEDIA QUERIES
+// -----------------------------------------
+
+$small-only: 'screen and (max-width: 39.9375em)';
+$medium-up: 'screen and (min-width: 40em)';
+$medium-only: 'screen and (min-width: 40em) and (max-width: 63.9375em)';
+$large-up: 'screen and (min-width: 64em)';
+$large-only: 'screen and (min-width: 64em) and (max-width: 74.9375em)';
+$large-up: 'screen and (min-width: 64em)';
+$xlarge-up: 'screen and (min-width: 90.063em)';
+$xlarge-only: 'screen and (min-width: 90.063em) and (max-width: 120em)';
+$xxlarge-up: 'screen and (min-width: 120.063em)';

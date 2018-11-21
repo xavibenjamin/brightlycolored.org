@@ -19,22 +19,25 @@ body {
   @extend %sans;
   -webkit-hyphens: auto;
   hyphens: auto;
-  letter-spacing: -.3px;
+  letter-spacing: -0.3px;
   line-height: 1.4;
 }
 
 // FONTS -------------------------
 
 %sans {
-  font-family: 'Whitney SSm A', 'Whitney SSm B', system, -apple-system, BlinkMacSystemFont, Avenir, sans-serif;
+  font-family: 'Whitney SSm A', 'Whitney SSm B', system, -apple-system,
+    BlinkMacSystemFont, Avenir, sans-serif;
 }
 
 %sans-small {
-  font-family: 'Whitney SSm Small A', 'Whitney SSm Small B', system, -apple-system, BlinkMacSystemFont, Avenir, sans-serif;
+  font-family: 'Whitney SSm Small A', 'Whitney SSm Small B', system,
+    -apple-system, BlinkMacSystemFont, Avenir, sans-serif;
 }
 
 %code {
-  font-family: Operator Mono, Inconsolata, 'Inconsolata-g for Powerline', monospace;
+  font-family: Operator Mono, Inconsolata, 'Inconsolata-g for Powerline',
+    monospace;
 }
 
 // HEADINGS ----------------------
@@ -73,7 +76,7 @@ h2 {
   font-size: 1.2rem;
   font-weight: 600;
   line-height: 1.2;
-  margin: 2.5rem 0 .2rem;
+  margin: 2.5rem 0 0.2rem;
   + h3 {
     margin-top: 1.3rem;
   }
@@ -81,26 +84,25 @@ h2 {
 
 h3 {
   color: lighten($heading-base-color, 10%);
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  margin: 2.5rem 0 .4rem;
+  margin: 2.5rem 0 0.4rem;
   text-transform: uppercase;
 }
-
 
 h4 {
   color: lighten($heading-base-color, 30%);
   font-size: 1.2rem;
   font-weight: 600;
-  margin: 2.2rem 0 .1875rem;
+  margin: 2.2rem 0 0.1875rem;
   text-transform: uppercase;
 }
 
 h5 {
-  font-size: .85rem;
+  font-size: 0.85rem;
   font-weight: 600;
-  letter-spacing: .3px;
-  margin: 3rem 0 .6rem;
+  letter-spacing: 0.3px;
+  margin: 3rem 0 0.6rem;
   text-transform: uppercase;
   &:before {
     background-color: $border-color;
@@ -114,7 +116,7 @@ h5 {
 
 h6 {
   color: lighten($body-color, 20%);
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -136,7 +138,7 @@ blockquote > ul {
     ul {
       list-style: square;
       margin-left: 1.5rem;
-      margin-top: .5rem;
+      margin-top: 0.5rem;
     }
   }
   > li {
@@ -162,7 +164,7 @@ blockquote > ol {
     ol {
       list-style-type: lower-roman;
       margin-left: 1.5rem;
-      margin-top: .5rem;
+      margin-top: 0.5rem;
     }
   }
   > li {
@@ -175,7 +177,7 @@ blockquote > ol {
 
 strong {
   font-weight: 600;
-  letter-spacing: -.4px;
+  letter-spacing: -0.4px;
   em {
     font-style: italic;
     font-weight: 600;
@@ -189,12 +191,12 @@ cite {
 }
 
 mark {
-  background-color: #FFFEDB;
+  background-color: $highlight-color;
   padding: 0 3px;
 }
 
 sup {
-  font-size: .7rem;
+  font-size: 0.7rem;
   a {
     background: darken($light-bg-color, 10%);
     border-radius: 50%;
@@ -222,7 +224,7 @@ blockquote {
   color: desaturate(lighten($body-color, 15%), 5);
   margin-bottom: 1.1rem;
   margin-top: 1.1rem;
-  padding-left: .75rem;
+  padding-left: 0.75rem;
   > blockquote {
     margin-left: 0;
   }
@@ -235,10 +237,10 @@ blockquote {
   > ol {
     margin-left: 0;
     @media #{$small-only} {
-      margin-left: .3rem;
+      margin-left: 0.3rem;
     }
     @media #{$medium-only} {
-      margin-left: .3rem;
+      margin-left: 0.3rem;
     }
   }
 }
@@ -260,9 +262,9 @@ a {
   font-weight: 600;
   -webkit-hyphens: none;
   hyphens: none;
-  text-decoration: underline solid #8CC8FF;
+  text-decoration: underline solid $link-underline;
   text-decoration-skip: ink;
-  transition: color .2s ease-in-out;
+  transition: color 0.2s ease-in-out;
   &:hover,
   &:focus {
     text-decoration: underline solid $link-color;
