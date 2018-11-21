@@ -1,8 +1,12 @@
 ---
 title: "‘Dead Rabbit’ Comic Recalled After $2 Million Lawsuit From New York Pub"
 date: 2018-11-20 17:43:00 -06:00
-featured_image: http://www.theouthousers.com/images/templates/thumbnails/141567/deadrabbit_size3.jpg
+tags:
+- comics
+- Image Comics
 custom_type: post
+excerpt: Ooooh! I suddenly have a rare comic in my possession.
+featured_image: "/uploads/dead-rabbit-featured.jpg"
 ---
 
 [Tim Midura writing for *The Outhouse*](http://www.theouthousers.com/index.php/news/141567-image-comics-and-forbidden-planet-sued-by-new-york-bar-dead-rabbit-for-2-million-over-trademark.html):
