@@ -1,5 +1,8 @@
 <footer class="footer" role="contentinfo">
-  <p><em>Brightly Colored</em> is a web-column about comics, <em>Star Wars</em>, Apple, technology, movies, and other geekery.</p>
+  <p>
+    <em>Brightly Colored</em> is a web-column about comics, <em>Star Wars</em>,
+    Apple, technology, movies, and other geekery.
+  </p>
 
   <ul class="footer__links">
     <li><a href="/archive/">Post Archive</a></li>
@@ -10,15 +13,29 @@
     <li><a href="/contribute/">Contribute</a></li>
   </ul>
 
-  <p><em>Brightly Colored</em> &copy; 2013&ndash;{{ site.time | date: "%Y" }} Timothy B. Smith. All Rights Reserved. Hosted with <a href="https://www.netlify.com">Netlify</a>.</p>
+  <p>
+    <em>Brightly Colored</em> &copy; 2013&ndash;{{
+      site.time | date: '%Y'
+    }}
+    Timothy B. Smith. All Rights Reserved. Hosted with
+    <a href="https://www.netlify.com">Netlify</a>.
+  </p>
 
-  <p>Made with {% include icons/icon-heart.html css_classes="icon--inline icon--medium" %} in Saint Paul, MN.</p>
+  <p>
+    Made with {% include icons/icon-heart.html css_classes="icon--inline
+    icon--medium" %} in Saint Paul, MN.
+  </p>
 </footer>
 
 <!-- JS libraries -->
-<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"
+></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/loadCSS/2.0.1/loadCSS.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/loadCSS/2.0.1/cssrelpreload.min.js"></script>
 
 <script src="/assets/app.js"></script>
+
+{% webmentions_js %}
