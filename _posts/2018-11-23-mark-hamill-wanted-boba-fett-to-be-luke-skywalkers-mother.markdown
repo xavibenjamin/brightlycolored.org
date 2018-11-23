@@ -1,9 +1,11 @@
 ---
-title: Mark Hamill Wanted Boba Fett to be Luke Skywalker’s Mother
+title: Mark Hamill Wanted Boba Fett to Be Luke Skywalker’S Mother
 date: 2018-11-23 17:31:00 -06:00
 tags:
 - Star Wars
 custom_type: post
+excerpt: This would actually be pretty cool.
+featured_image: "/uploads/boba-fett-featured.jpg"
 ---
 
 [Mark Hamill on Twitter reveals his idea for Boba Fett in the original trilogy](https://twitter.com/HamillHimself/status/1063349506073194496):
