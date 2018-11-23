@@ -69,3 +69,4 @@ sass:
   style: compressed
 webmentions:
   username: brightlycolored.org
+  debug: true

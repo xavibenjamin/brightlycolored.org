@@ -49,3 +49,9 @@ collections:
 # Webmentions
 webmentions:
   username: brightlycolored.org
+  cache_bad_uris_for: 7
+  html_proofer: true
+  throttle_lookups:
+    last_month: daily
+    last_year: weekly
+    older: every 2 months
