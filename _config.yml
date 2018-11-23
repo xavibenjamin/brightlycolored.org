@@ -1,3 +1,4 @@
+---
 title: Brightlycolored.Org
 timezone: America/Chicago
 collections:
@@ -9,52 +10,51 @@ collections:
     title: Uploads
     output: true
 defaults:
-  - scope:
-      path: ''
-      type: posts
-    values:
-      custom_type: link
-      subtitle:
-      excerpt:
-      layout: post
-      author: timsmith
-      link_url:
-      featured_image:
-      is_rss_only:
-      review:
-        type:
-        rating:
-        movie:
-          director:
-          rating:
-        product:
-          brand:
-        app:
-          developer:
-        album:
-          artist:
-          favesong:
-        book:
-          author:
-        price:
-        url:
-        vendor:
+- scope:
+    path: ''
+    type: posts
+  values:
+    custom_type: link
+    subtitle: 
+    excerpt: 
+    layout: post
+    author: timsmith
+    link_url: 
+    featured_image: 
+    is_rss_only: 
+    review:
+      type: 
+      rating: 
+      movie:
+        director: 
+        rating: 
+      product:
+        brand: 
+      app:
+        developer: 
+      album:
+        artist: 
+        favesong: 
+      book:
+        author: 
+      price: 
+      url: 
+      vendor: 
 name: Development | Brightly Colored
 url: http://localhost:4000
-description:
-  An exploration of design, development, tech, Geek culture, Apple, and
+description: An exploration of design, development, tech, Geek culture, Apple, and
   more.
-permalink: '/:year/:month/:title/'
+permalink: "/:year/:month/:title/"
 exclude:
-  - README.md
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
-  - '.asset-cache'
+- README.md
+- Rakefile
+- Gemfile
+- Gemfile.lock
+- ".asset-cache"
 lunr_excludes:
-  - atom.xml
-  - atom.articles.xml
-  - sitemap.xml
+- atom.xml
+- atom.articles.xml
+- sitemap.xml
 highlighter: rouge
 port: 4200
 post:
