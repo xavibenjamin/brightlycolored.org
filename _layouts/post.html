@@ -3,37 +3,54 @@ layout: default
 custom_css_class: single
 ---
 
-<article class="post format-{% if page.custom_type %}{{ page.custom_type }}{% endif %} p-body">
+<article
+  class="post format-{% if page.custom_type %}{{ page.custom_type }}{% endif %} p-body"
+>
   <header class="post__header">
-    {% include post-author.html %}
-
-    {% if page.link_url %}
-      <h1><a href="{{ page.link_url }}">{{ page.title | smartify | widont }}</a><a href="{{ post.url }}" title="Permalink for {{ post.title }}" class="post__permalink">&infin;</a></h1>
+    {% include post-author.html %} {% if page.link_url %}
+    <h1>
+      <a href="{{ page.link_url }}">{{ page.title | smartify | widont }}</a
+      ><a
+        href="{{ post.url }}"
+        title="Permalink for {{ post.title }}"
+        class="post__permalink"
+        >&infin;</a
+      >
+    </h1>
     {% else %}
-      <h1>{{ page.title | smartify | widont }}</h1>
-      {% if page.subtitle %}
-        <h2 class="post__subtitle">{{ page.subtitle | smartify | widont }}</h2>
-      {% endif %}
-    {% endif %}
-    
-    {% if page.review.type %}
-      {% include review-info.html %}
-    {% endif %}
+    <h1>{{ page.title | smartify | widont }}</h1>
+    {% if page.subtitle %}
+    <h2 class="post__subtitle">{{ page.subtitle | smartify | widont }}</h2>
+    {% endif %} {% endif %} {% if page.review.type %} {% include
+    review-info.html %} {% endif %}
   </header>
 
   {% if page.is_rss_only %}
   <aside class="post__rss-only">
-    <p>This article is top secret! <a href="/rss-club/">Read more <span class="caps">RSS</span> Club posts.</a></p>
+    <p>
+      This article is top secret!
+      <a href="/rss-club/"
+        >Read more <span class="caps">RSS</span> Club posts.</a
+      >
+    </p>
   </aside>
   {% endif %}
 
   {{ content | improve }}
 
   <footer class="post__footer">
-    {% include tags.html %}
+    {% include tags.html %} {% include related-posts.html %}
 
-    {% include related-posts.html %}
+    <section id="webmentions" class="entry__comments dont-read">
+      <h2>Webmentions</h2>
+      {% webmentions page.url posts replies links %}
 
+      <h3>Likes</h3>
+      {% webmention_likes page.url %}
+
+      <h3>Shares</h3>
+      {% webmention_reposts page.url %}
+    </section>
   </footer>
 </article>
 

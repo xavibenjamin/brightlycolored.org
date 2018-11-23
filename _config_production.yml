@@ -4,7 +4,8 @@ url: https://brightlycolored.org
 description: 'An exploration of design, development, tech, Geek culture, Apple, and more.'
 timezone: America/Chicago
 permalink: /:year/:month/:title/
-exclude: ['README.md', 'Rakefile', 'vendor', 'Gemfile.lock', '.asset-cache', 'bin']
+exclude:
+  ['README.md', 'Rakefile', 'vendor', 'Gemfile.lock', '.asset-cache', 'bin']
 lunr_excludes: ['atom.xml', 'atom.articles.xml', 'sitemap.xml']
 
 # Syntax Highlighting
@@ -20,21 +21,20 @@ sass:
 
 # Markdown Rendering
 markdown: kramdown
-markdown_ext:  markdown,mkdown,mkdn,mkd,md,mdown
+markdown_ext: markdown,mkdown,mkdn,mkd,md,mdown
 
 kramdown:
   input: GFM
 
 # Gems
 plugins:
-- jekyll-typogrify
+  - jekyll-typogrify
 
 # Defaults
 defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
+  - scope:
+      path: ''
+      type: 'posts'
     values:
       layout: post
       author: timsmith
@@ -44,4 +44,14 @@ defaults:
 collections:
   uploads:
     title: Uploads
-    output: true  
+    output: true
+
+# Webmentions
+webmentions:
+  username: brightlycolored.org
+  cache_bad_uris_for: 7
+  html_proofer: true
+  throttle_lookups:
+    last_month: daily
+    last_year: weekly
+    older: every 2 months
