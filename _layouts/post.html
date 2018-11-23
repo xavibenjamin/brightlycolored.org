@@ -39,16 +39,18 @@ custom_css_class: single
   {{ content | improve }}
 
   <footer class="post__footer">
-    {% include tags.html %} {% include related-posts.html %}
+    {% include tags.html %}
+    
+    {% include related-posts.html %}
 
-    <section id="webmentions" class="entry__comments dont-read">
-      <h2>Webmentions</h2>
+    <section id="webmentions" class="post__comments">
+      <h5 class="post-webmentions__title">Webmentions</h5>
       {% webmentions page.url posts replies links %}
 
-      <h3>Likes</h3>
+      <h5 class="post-webmentions__title">Likes</h5>
       {% webmention_likes page.url %}
 
-      <h3>Shares</h3>
+      <h5 class="post-webmentions__title">Shares</h5>
       {% webmention_reposts page.url %}
     </section>
   </footer>
