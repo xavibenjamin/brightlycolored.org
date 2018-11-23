@@ -76,8 +76,12 @@
       content="https://brightlycolored.org{% if page.featured_image %}{{ page.featured_image }}{% else %}/brightlycolored-avatar.png{% endif %}"
     />
 
-    <!-- Micro.blog Verification -->
-    <link href="https://micro.blog/smith" rel="me" />
+    <!-- Indie Web -->
+    {% if jekyll.environment == "production" %}
+      {% for link in site.social.links %}
+        <link rel="me" href="{{ link }}" />
+      {% endfor %}
+    {% endif %}
 
     <!-- RSS Feeds -->
     <link

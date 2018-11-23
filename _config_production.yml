@@ -55,3 +55,13 @@ webmentions:
     last_month: daily
     last_year: weekly
     older: every 2 months
+
+# Social
+social:
+  links:
+    - https://twitter.com/smithtimmytim
+    - https://github.com/smithtimmytim
+    - https://www.linkedin.com/in/smithtimmytim
+    - https://www.instagram.com/smithtimmytim/
+    - https://www.flickr.com/photos/smithtimmytim
+    - https://micro.blog/smith
