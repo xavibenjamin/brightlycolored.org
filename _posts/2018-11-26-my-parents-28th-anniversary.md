@@ -1,10 +1,10 @@
 ---
 title: My Parents' 28th Anniversary
-date: 2018-11-26 11:00 -6:00
-custom_type: post
+date: 2018-11-26 11:00:00 -06:00
 tags:
-  - photography
-featured_image: /uploads/2018/11/anni-04.jpg
+- photography
+custom_type: post
+featured_image: "/uploads/2018/11/anni-04.jpg"
 ---
 
 My parents celebrated their 28th anniversary this November. They don't have many pictures of just the two of them, so I offered to take some photos for them. They seemed to really enjoy it.
