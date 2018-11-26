@@ -1,0 +1,20 @@
+
+{% if include.quality %}
+  {% assign quality = include.quality %}
+{% else %}
+  {% assign quality = 50 %}
+{% endif %}
+
+{% if jekyll.environment == "production" %}
+<img
+  src="{{ include.src | imgix_url: w: 500, q: 50 }}"
+  sizes="{{ site.sizes }}"
+  srcset="{% for width in site.srcset %}{{ include.src | imgix_url: w: width, q: quality }} {{ width }}w{% if forloop.last == false %}, {% endif %}{% endfor %}"
+  {% if include.alt %}alt="{{ include.alt }}"{% endif %}
+  style="{{ include.style }}">
+{% else %}
+<img
+  src="{{ site.url }}/uploads{{ include.src }}"
+  {% if include.alt %}alt="{{ include.alt }}"{% endif %}
+  {% if include.style %}style="{{ include.style }}"{% endif %}>
+{% endif %}

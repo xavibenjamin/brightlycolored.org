@@ -77,11 +77,10 @@
     />
 
     <!-- Indie Web -->
-    {% if jekyll.environment == "production" %}
-      {% for link in site.social.links %}
-        <link rel="me" href="{{ link }}" />
-      {% endfor %}
-    {% endif %}
+    {% if jekyll.environment == "production" %} {% for link in site.social.links
+    %}
+    <link rel="me" href="{{ link }}" />
+    {% endfor %} {% endif %}
 
     <!-- RSS Feeds -->
     <link
@@ -137,8 +136,6 @@
     </noscript>
 
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
-    {% webmentions_head %}
   </head>
   <body>
     <!--

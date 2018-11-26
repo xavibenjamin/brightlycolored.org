@@ -66,3 +66,16 @@ social:
     - https://www.flickr.com/photos/smithtimmytim
     - https://micro.blog/smith
     - https://twitter.com/BrightlyColord
+
+# Imgix
+imgix:
+  source: brightlycolored.imgix.net
+  secure_url_token: xbqVkEuWUQGMJa6e
+
+sizes: '(min-width: 90em) 1300px, (min-width: 70em) 1000px, (min-width: 50em) 750px, (min-width: 31.5em) 500px, 100vw'
+
+srcset:
+  - 500
+  - 750
+  - 1000
+  - 1300

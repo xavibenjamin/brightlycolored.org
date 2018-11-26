@@ -11,9 +11,5 @@ gem 'nokogiri', '~> 1.8', '>= 1.8.1'
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-typogrify', '~> 0.3.5'
-  gem 'jekyll-webmention_io', '~> 3.3', '>= 3.3.2'
-end
-
-group :development do
-  # gem 'siteleaf', '~> 2.1'
+  gem 'jekyll-imgix', '~> 1.1'
 end
