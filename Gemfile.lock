@@ -12,9 +12,9 @@ GEM
     execjs (2.7.0)
     ffi (1.9.25)
     forwardable-extended (2.6.0)
+    htmlbeautifier (1.3.1)
     http_parser.rb (0.6.0)
-    httparty (0.16.3)
-      mime-types (~> 3.0)
+    httparty (0.15.7)
       multi_xml (>= 0.5.2)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
@@ -51,26 +51,32 @@ GEM
       typogruby
     jekyll-watch (2.1.2)
       listen (~> 3.0)
+    jekyll-webmention_io (3.3.2)
+      htmlbeautifier (~> 1.1)
+      jekyll (>= 3.2.0, < 4.0)
+      json (~> 2.0)
+      openssl (~> 2.0)
+      string_inflection (~> 0.1)
+      uglifier (~> 4.1)
+      webmention (~> 0.1.6)
+    json (2.1.0)
     kramdown (1.17.0)
+    link_header (0.0.8)
     liquid (4.0.1)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
-    mime-types (3.2.2)
-      mime-types-data (~> 3.2015)
-    mime-types-data (3.2018.0812)
     mini_portile2 (2.3.0)
     multi_xml (0.6.0)
     nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
     nuggets (1.6.0)
+    openssl (2.1.2)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    psych (3.0.3)
     public_suffix (3.0.3)
-    rack (2.0.6)
     rake (12.3.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
@@ -84,16 +90,17 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    siteleaf (2.1.0)
-      httparty (>= 0.16.0)
-      jekyll (>= 1.4.1)
-      psych (>= 2.1.0)
-      rack
+    string_inflection (0.1.2)
     titlecase (0.1.1)
     typogruby (1.0.18)
       rubypants
     uglifier (4.1.20)
       execjs (>= 0.3.0, < 3)
+    webmention (0.1.6)
+      httparty (~> 0.15.5)
+      json
+      link_header (~> 0.0.8)
+      nokogiri
 
 PLATFORMS
   ruby
@@ -105,9 +112,9 @@ DEPENDENCIES
   jekyll-sitemap
   jekyll-tagging-related_posts (~> 1.0)
   jekyll-typogrify (~> 0.3.5)
+  jekyll-webmention_io (~> 3.3, >= 3.3.2)
   nokogiri (~> 1.8, >= 1.8.1)
   rake
-  siteleaf (~> 2)
   uglifier
 
 RUBY VERSION

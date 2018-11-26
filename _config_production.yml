@@ -55,6 +55,10 @@ webmentions:
     last_month: daily
     last_year: weekly
     older: every 2 months
+  templates:
+    likes: _includes/webmentions/like.html
+    reposts: _includes/webmentions/repost.html
+    webmentions: _includes/webmentions/webmention.html
 
 # Social
 social:

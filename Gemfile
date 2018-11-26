@@ -14,8 +14,9 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-tagging-related_posts', '~> 1.0'
   gem 'jekyll-typogrify', '~> 0.3.5'
+  gem 'jekyll-webmention_io', '~> 3.3', '>= 3.3.2'
 end
 
 group :development do
-  gem 'siteleaf', '~>2'
+  # gem 'siteleaf', '~>2'
 end

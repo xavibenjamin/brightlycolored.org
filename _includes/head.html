@@ -72,10 +72,11 @@
     />
 
     <!-- Indie Web -->
-    {% if jekyll.environment == "production" %} {% for link in site.social.links
-    %}
-    <link rel="me" href="{{ link }}" />
-    {% endfor %} {% endif %}
+    {% if jekyll.environment == "production" %} 
+      {% for link in site.social.links %}
+        <link rel="me" href="{{ link }}" />
+      {% endfor %}
+    {% endif %}
 
     <!-- RSS Feeds -->
     <link
@@ -126,8 +127,13 @@
       />	
     </noscript>
 
+    {% if jekyll.environment == "production" %}
+      {% webmentions_head %}
+    {% endif %}
+
   </head>
   <body>
     <!--
       Don't read the source like a caveperson! It's all on GitHub: https://github.com/smithtimmytim/brightlycolored.org
     -->
+  
