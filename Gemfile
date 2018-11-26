@@ -13,3 +13,7 @@ group :jekyll_plugins do
   gem 'jekyll-typogrify', '~> 0.3.5'
   gem 'jekyll-imgix', '~> 1.1'
 end
+
+group :development do
+  gem 'siteleaf', '~>2'
+end
