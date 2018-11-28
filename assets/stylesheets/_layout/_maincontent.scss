@@ -118,7 +118,7 @@
 }
 
 .post__footer {
-  margin-top: 2rem;
+  margin-top: 2.4rem;
 }
 
 .archive-link {
@@ -366,38 +366,120 @@
 
 .post__topics {
   align-items: center;
-  display: flex;
+
   font-size: 0.75rem;
 
-  .icon {
-    fill: #ccc;
-    height: 1.1em;
-    margin-right: 0.5rem;
-    width: 1.1em;
-  }
-
   li + li {
-    margin-left: 0.25rem;
+    margin-top: 0.4rem;
   }
 
-  li:not(:last-child) {
-    display: inherit;
-    &:after {
-      content: ',';
+  @media #{$medium-up} {
+    display: flex;
+    li + li {
+      margin-top: 0;
+      margin-left: 0.6rem;
     }
   }
 
   a {
+    color: lighten($body-color, 30%);
     font-weight: 600;
     text-decoration: none;
+    &:hover,
+    &:focus {
+      color: $link-color;
+    }
+  }
+}
+
+// Social Links ----------------------------
+
+$twitter-color: #1da1f2;
+$facebook-color: #3b5998;
+$reddit-color: #ff4500;
+
+.post__share {
+  margin-top: 1.6rem;
+}
+
+.post-share__title {
+  font-size: 0.7rem;
+  letter-spacing: 0;
+  margin-top: 0;
+
+  &:before {
+    width: 42px;
+  }
+}
+
+.social-links {
+  display: flex;
+  list-style: none;
+  margin-bottom: 1rem;
+  width: 100%;
+
+  li {
+    font-size: 0.75rem;
+  }
+
+  a {
+    color: lighten($body-color, 25%);
+    display: flex;
+    padding: 0.6rem;
+    text-decoration: none;
+    transition: opacity 0.2s ease-in-out;
+
+    &:focus {
+      outline: 0;
+    }
+
+    &:hover,
+    &:focus {
+      opacity: 0.7;
+    }
+
+    .icon {
+      fill: white;
+      width: 13px;
+      height: 13px;
+    }
+  }
+
+  .social--facebook {
+    background-color: $facebook-color;
+  }
+
+  .social--reddit {
+    background-color: $reddit-color;
+  }
+
+  .social--twitter {
+    background-color: $twitter-color;
+  }
+
+  .social__label {
+    left: -9999px;
+    position: absolute;
+    top: -9999px;
   }
 }
 
 // Related Posts -----------------
 
 .related-posts {
-  margin-top: 1.8rem;
-  max-width: 215px;
+  margin-top: 1.6rem;
+  ul {
+    display: grid;
+    margin-top: 1rem;
+    @media #{$small-only} {
+      max-width: 215px;
+      grid-row-gap: 0.6rem;
+    }
+    @media #{$medium-up} {
+      grid-template-columns: repeat(3, 1fr);
+      grid-column-gap: 0.6rem;
+    }
+  }
 }
 
 .related-posts__title {
@@ -406,7 +488,7 @@
   margin-top: 0;
 
   &:before {
-    content: none;
+    width: 42px;
   }
 }
 
@@ -422,14 +504,11 @@
     display: block;
     font-size: 0.7rem;
     font-weight: normal;
+    margin-bottom: 0.2rem;
   }
 
   .related__title {
     font-weight: 600;
-  }
-
-  + .post-list__item {
-    margin-top: 0.5rem;
   }
 }
 
