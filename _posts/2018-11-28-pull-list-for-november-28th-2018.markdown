@@ -2,11 +2,11 @@
 title: Pull List for November 28, 2018
 date: 2018-11-28 05:48:00 -06:00
 tags:
-- comics
-- pull list
+  - comics
+  - pull list
 custom_type: post
 excerpt: Comics I read last week, and ones I’m picking up this week.
-featured_image: "/uploads/pull-list-11-28-2018.jpg"
+featured_image: '/uploads/pull-list-11-28-2018.jpg'
 ---
 
 <figure class="extendout">
@@ -30,7 +30,7 @@ Every Wednesday, new comic books hit the shelves with new stories to be engrosse
 
 ## Picking up this week
 
-- **The Amazing Spider-Man #11** - Last issue before we get Ryan Ottley back!! So excited. I still can't believe how much I've loved this series. Eleven issues in and I haven't had much (if anything) to complain about.
+- **The Amazing Spider-Man #10** - Last issue before we get Ryan Ottley back!! So excited. I still can't believe how much I've loved this series. Ten issues in and I haven't had much (if anything) to complain about.
 - **Daredevil #612** - Picking up this last arc of Soule's, but going to wait till it's finished to read.
 - **Fantastic Four #4** - For sure picking this up until the wedding and I'll decide from there. I loved the last issue so I'm hoping for more heartwarming moments. Not a big fan of Dan Slott though.
 - **Man-Eaters #3** - I see a bunch of guys say, "oh I'm picking this up for my girlfriend, or wife, or whatever." No! I'm picking this up for me and loving it.
