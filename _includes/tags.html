@@ -1,21 +1,19 @@
 {% if page.tags.size > 0 %}
   <ul class="post__topics">
-    {% include icons/icon-tag.html %}
     {% assign sortedTags = page.tags | sort %}
     {% for tag in sortedTags %}
       <li class="topic">
-        <a href="{{ site.url }}/topics/#{{ tag | downcase | replace:' ','-'}}" title="Posts tagged {{ tag }}">{{ tag }}</a>
+        <a href="{{ site.url }}/topics/#{{ tag | downcase | replace:' ','-'}}" title="Posts tagged {{ tag }}">#{{ tag }}</a>
       </li>
     {% endfor %}
   </ul>
 {% endif %}
 {% if post.tags.size > 0 %}
   <ul class="post__topics">
-    {% include icons/icon-tag.html %}
     {% assign sortedTags = post.tags | sort %}
     {% for tag in sortedTags %}
       <li class="topic">
-        <a href="{{ site.url }}/topics/#{{ tag | downcase | replace:' ','-'}}" title="Posts tagged {{ tag }}">{{ tag }}</a>
+        <a href="{{ site.url }}/topics/#{{ tag | downcase | replace:' ','-'}}" title="Posts tagged {{ tag }}">#{{ tag }}</a>
       </li>
     {% endfor %}
   </ul>
