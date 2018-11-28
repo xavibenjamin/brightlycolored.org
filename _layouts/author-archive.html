@@ -6,7 +6,7 @@ layout: default
   {% include full-author.html %}
 
   <ul class="groups-list groups-list--3-col">
-    {% assign postsInYear = site.posts | where: 'author', page.author | group_by_exp: "post",
+    {% assign postsInYear = site.posts | where_exp: "item", "item.is_rss_only != true" | where: 'author', page.author | group_by_exp: "post",
     "post.date | date: '%Y'" %}
     {% for year in postsInYear %}
     <li>
@@ -18,7 +18,7 @@ layout: default
     {% endfor %}
   </ul>
 
-  {% assign postsByYear = site.posts | where: 'author', page.author | group_by_exp:"post", "post.date
+  {% assign postsByYear = site.posts | where_exp: "item", "item.is_rss_only != true" | where: 'author', page.author | group_by_exp:"post", "post.date
   | date: '%Y'" %}
   {% for year in postsByYear %}
   <section class="group-section" id="{{ year.name }}">
