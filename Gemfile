@@ -12,6 +12,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-typogrify', '~> 0.3.5'
   gem 'jekyll-imgix', '~> 1.1'
+  gem 'jekyll-tagging-related_posts', '~> 1.0'
 end
 
 group :development do
