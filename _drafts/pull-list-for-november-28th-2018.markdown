@@ -1,10 +1,10 @@
 ---
 title: Pull List for November 28, 2018
 date: 2018-11-27 13:07:00 -06:00
-custom_type: post
 tags:
-  - comics
-  - pull list
+- comics
+- pull list
+custom_type: post
 ---
 
 <figure class="extendout">
