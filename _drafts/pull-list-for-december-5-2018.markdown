@@ -19,3 +19,8 @@ Every Wednesday, new comic books hit the shelves with new stories to be engrosse
 **Favorite of the week:**
 
 ## Picking up this week
+
+- Bully Wars #4
+- Deadpool #7
+- Paper Girls Vol. 5 TP
+- Shazam! #1
