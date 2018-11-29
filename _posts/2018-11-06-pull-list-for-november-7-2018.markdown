@@ -2,11 +2,11 @@
 title: Pull List for November 7, 2018
 date: 2018-11-06 05:50:00 -06:00
 tags:
-  - comics
-  - pull list
+- comics
+- pull list
 custom_type: post
 excerpt: What I read last week and picking up this week.
-featured_image: '/uploads/pull-list-11-07-2018.jpg'
+featured_image: "/uploads/pull-list-11-07-2018.jpg"
 ---
 
 <figure class="extendout">

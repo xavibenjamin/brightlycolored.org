@@ -1,11 +1,11 @@
 ---
 title: Pull List for December 5, 2018
-custom_type: post
 date: 2018-11-29 09:49:00 -06:00
 tags:
-  - comics
-  - pull list
-featured_image: /pull-list-12-05-2018.jpg
+- comics
+- pull list
+custom_type: post
+featured_image: "/pull-list-12-05-2018.jpg"
 ---
 
 <figure class="extendout">

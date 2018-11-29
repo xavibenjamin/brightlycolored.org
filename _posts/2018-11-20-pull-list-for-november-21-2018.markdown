@@ -2,14 +2,13 @@
 title: Pull List for November 21, 2018
 date: 2018-11-20 05:50:00 -06:00
 tags:
-  - comics
-  - pull list
+- comics
+- pull list
 custom_type: post
-excerpt:
-  Every Wednesday, new comic books hit the shelves with new stories to be engrossed
+excerpt: Every Wednesday, new comic books hit the shelves with new stories to be engrossed
   in, and new art to be fascinated by. This is my weekly write-up where I share what
   comic books I read last week, and my pull list of comics for this week.
-featured_image: '/uploads/pull-list-07-21-2018.jpg'
+featured_image: "/uploads/pull-list-07-21-2018.jpg"
 ---
 
 <figure class="extendout">

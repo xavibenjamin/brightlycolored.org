@@ -2,11 +2,11 @@
 title: Pull List for October 31, 2018
 date: 2018-10-30 13:10:00 -05:00
 tags:
-  - comics
-  - pull list
+- comics
+- pull list
 custom_type: post
 excerpt: Comics I read last week and what I'm picking up this week.
-featured_image: '/uploads/pull-list-10-31-2018.jpg'
+featured_image: "/uploads/pull-list-10-31-2018.jpg"
 ---
 
 <figure class="extendout">

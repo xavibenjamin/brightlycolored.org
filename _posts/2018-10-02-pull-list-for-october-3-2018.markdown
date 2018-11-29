@@ -2,14 +2,13 @@
 title: Pull List for October 3, 2018
 date: 2018-10-02 08:30:00 -05:00
 tags:
-  - comics
-  - pull list
+- comics
+- pull list
 custom_type: post
-excerpt:
-  Another week is here, and that means there are new comic books to read, new
+excerpt: Another week is here, and that means there are new comic books to read, new
   stories to be enveloped in, and new artwork to be entranced by. Here's what I read
   last week and what I'm picking up this week.
-featured_image: '/uploads/things-i-read-09-26-2018.jpg'
+featured_image: "/uploads/things-i-read-09-26-2018.jpg"
 ---
 
 <figure class="extendout">
