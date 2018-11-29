@@ -2,17 +2,18 @@
 title: Pull List for November 21, 2018
 date: 2018-11-20 05:50:00 -06:00
 tags:
-- comics
-- pull list
+  - comics
+  - pull list
 custom_type: post
-excerpt: Every Wednesday, new comic books hit the shelves with new stories to be engrossed
+excerpt:
+  Every Wednesday, new comic books hit the shelves with new stories to be engrossed
   in, and new art to be fascinated by. This is my weekly write-up where I share what
   comic books I read last week, and my pull list of comics for this week.
-featured_image: "/uploads/pull-list-07-21-2018.jpg"
+featured_image: '/uploads/pull-list-07-21-2018.jpg'
 ---
 
 <figure class="extendout">
-  <img src="{{ site.url }}/uploads/pull-list-07-21-2018.jpg" alt="Pull List for November 21, 2018">
+  {% include imgic.html src="/pull-list-07-21-2018.jpg" alt="Pull List for November 21, 2018" %}
   <figcaption><strong>From left to right, back to front:</strong> <em>Oblivion Song</em> #9, <em>Daredevil</em> #611, <em>The Amazing Spider-Man</em> #9, <em>Wonder Woman</em> #58, and <em>Uncanny X-Men</em> #1</figcaption>
 </figure>
 
@@ -27,10 +28,10 @@ Every Wednesday, new comic books hit the shelves with new stories to be engrosse
 - **Oblivion Song #9** - Robert Kirkman did a really good job of exploring Ed’s perspective in this issue. <mark>Not only did I feel I understood how Ed feels, I agree with him. Really, it’s Kirkman’s commentary on the rat race of our society, which I felt was profound.</mark> Love this series.
 - **Wonder Woman #58** - Jenny Frisson’s cover of this issue is even more beautiful in person. The art on the inside, was a bit confusing with Diana looking like different people throughout some of the pages. While I enjoyed the story of this issue—and the brief moment we see with Steve Trevor—there wasn’t enough for me to add this to my pull list.
 
-**Favorite of the week:** *Oblivion Song* #9
+**Favorite of the week:** _Oblivion Song_ #9
 
 ## Picking up this week
 
-- **Cover #3** - Here's another series that I'm *loving*. This is a clever idea, turned into an interesting series.
+- **Cover #3** - Here's another series that I'm _loving_. This is a clever idea, turned into an interesting series.
 - **The New World #5** - Last issue of this mini-series. Interested to see how this gets wrapped up.
 - **West Coast Avengers #4** Kelly Thompson is absolutely killing it with this series! It's funny and a joy to read. Will Kate Bishop stay as a giant bird monster? We'll see!

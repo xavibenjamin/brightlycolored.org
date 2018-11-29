@@ -2,15 +2,15 @@
 title: Pull List for November 14, 2018
 date: 2018-11-13 05:24:00 -06:00
 tags:
-- comics
-- pull list
+  - comics
+  - pull list
 custom_type: post
 excerpt: Comics I read last week, and one's I'm picking up this week.
-featured_image: "/uploads/pull-list-11-14-2018.jpg"
+featured_image: '/uploads/pull-list-11-14-2018.jpg'
 ---
 
 <figure class="extendout">
-  <img src="{{ site.url }}/uploads/pull-list-11-14-2018.jpg" alt="Comics I read last week">
+  {% include imgic.html src="/pull-list-11-14-2018.jpg" alt="Comics I read last week" %}
   <figcaption><strong>From left to right, from the back:</strong> <em>The Green Lantern</em> #1, <em>X-Men: Red</em> #10, <em>Deadpool</em> #6, <em>Bully Wars</em> #3, and <em>Dead Rabbit</em> #2</figcaption>
 </figure>
 
@@ -29,6 +29,6 @@ featured_image: "/uploads/pull-list-11-14-2018.jpg"
 - **Catwoman #5** - Holy moly. [That Artgerm variant](https://leagueofcomicgeeks.com/comic/4860616/catwoman-5?variant=3285525). Really hoping my LCS has one for me. I was a bit confused with the point of the last issue, but now I understand it was to expand on Selina's backstory. Looking forward to getting back to the main story in this one.
 - **Daredevil #611**- My LCS didn't have any extras of #610, so I'm a bit behind here.
 - **Fantastic Four #3**- Delays, delays! The last issue we got was in September. I really want to like this series, but I may drop after this first arc.
-- **Oblivion Song #9** - Here's the one I'm looking forward to the most! Robert Kirkman is telling a really cool story! If you're not reading *Oblivion Song*, definitely give it a try.
-- **Uncanny X-Men #1** - I love Tom Taylor's *X-Men: Red* so much that I kind of resent this new series. But Kelly Thompson is involved, and I love her work.
-- **Wonder Woman #58** - New creative team! G. Willow Wilson is the new writer, so I'm really hoping this is a *Wonder Woman* run I can get into. Also, really want [the Jenny Frison variant](https://leagueofcomicgeeks.com/comic/6373462/wonder-woman-58?variant=4993135).
+- **Oblivion Song #9** - Here's the one I'm looking forward to the most! Robert Kirkman is telling a really cool story! If you're not reading _Oblivion Song_, definitely give it a try.
+- **Uncanny X-Men #1** - I love Tom Taylor's _X-Men: Red_ so much that I kind of resent this new series. But Kelly Thompson is involved, and I love her work.
+- **Wonder Woman #58** - New creative team! G. Willow Wilson is the new writer, so I'm really hoping this is a _Wonder Woman_ run I can get into. Also, really want [the Jenny Frison variant](https://leagueofcomicgeeks.com/comic/6373462/wonder-woman-58?variant=4993135).
