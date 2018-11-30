@@ -1,11 +1,11 @@
 ---
 title: Russo Brothers Say Chris Evans May Not Be Done With Captain America Yet
 date: 2018-11-30 05:45:00 -06:00
-custom_type: post
 tags:
-  - Marvel
-  - Movies
-excerpt: "I'm torn on how to feel about this"
+- Marvel
+- Movies
+custom_type: post
+excerpt: I'm torn on how to feel about this
 ---
 
 [Hoai-Tran Bui writing for _/Film_](https://www.slashfilm.com/chris-evans-captain-america-not-done-russo-brothers/):
