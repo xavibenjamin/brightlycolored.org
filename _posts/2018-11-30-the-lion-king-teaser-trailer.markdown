@@ -1,10 +1,10 @@
 ---
 title: "'The Lion King' Teaser Trailer"
 date: 2018-11-30 10:09:00 -06:00
-custom_type: post
 tags:
-  - Disney
-  - movies
+- Disney
+- movies
+custom_type: post
 ---
 
 <div class="iframe-container">
