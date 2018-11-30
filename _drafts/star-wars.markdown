@@ -1,7 +1,6 @@
 ---
 title: Star Wars
-date: 2018-11-29 17:10:40.023000000 -06:00
-published: false
+date: 2018-11-29 17:10:00 -06:00
 link_url: http://www.theforce.net/story/front/Star_Wars_The_Force_Awakens_Teaser_Debuted_Today_In_2014_182543.asp
 ---
 
