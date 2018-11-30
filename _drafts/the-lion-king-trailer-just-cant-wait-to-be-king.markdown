@@ -1,7 +1,6 @@
 ---
 title: "'The Lion King' Trailer Just Can't Wait To Be King"
-date: 2018-11-29 17:10:44.276000000 -06:00
-published: false
+date: 2018-11-29 17:10:00 -06:00
 link_url: https://www.slashfilm.com/the-lion-king-trailer-just-cant-wait-to-be-king/
 featured_image: https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/the-lion-king-trailer.jpg
 ---
