@@ -1,7 +1,6 @@
 ---
 title: Capturing the Strength of Ahsoka Tano in Gentle Giant’s Mini Bust
-date: 2018-11-29 17:10:40.918000000 -06:00
-published: false
+date: 2018-11-29 17:10:00 -06:00
 link_url: https://www.starwars.com/news/interview-ahsoka-tano-gentle-giant-mini-bust
 featured_image: https://starwarsblog.starwars.com/wp-content/uploads/2018/11/ahsoka-bust-tall.jpg
 ---
