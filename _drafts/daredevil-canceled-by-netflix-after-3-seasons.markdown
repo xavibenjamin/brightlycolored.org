@@ -1,7 +1,6 @@
 ---
 title: "‘Daredevil’ Canceled By Netflix After 3 Seasons"
-date: 2018-11-29 22:24:33.791000000 -06:00
-published: false
+date: 2018-11-29 22:24:00 -06:00
 link_url: https://deadline.com/2018/11/daredevil-canceled-netflix-3-seasons-1202511521/
 featured_image: https://pmcdeadline2.files.wordpress.com/2018/10/daredevil-s3-ep-1.jpg?w=605
 ---
