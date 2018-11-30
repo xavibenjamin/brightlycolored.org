@@ -11,6 +11,6 @@ custom_type: post
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4CbLXeGSDxg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Ok, I'm officially hyped for this movie. Thank you Jon Favreau for bringing back James Early Jones to play Mufasa. I would've called for a boycott otherwise.
+Ok, I'm officially hyped for this movie. Thank you Jon Favreau for bringing back James Earl Jones to play Mufasa. I would've called for a boycott otherwise.
 
 _The Lion King_ debuts July 19, 2019.
