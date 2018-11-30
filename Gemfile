@@ -9,10 +9,11 @@ gem 'uglifier'
 gem 'nokogiri', '~> 1.8', '>= 1.8.1'
 
 group :jekyll_plugins do
-  gem 'jekyll-sitemap'
-  gem 'jekyll-typogrify', '~> 0.3.5'
+  gem 'jekyll-compose', '~> 0.8.0'
   gem 'jekyll-imgix', '~> 1.1'
+  gem 'jekyll-sitemap'
   gem 'jekyll-tagging-related_posts', '~> 1.0'
+  gem 'jekyll-typogrify', '~> 0.3.5'
 end
 
 group :development do
