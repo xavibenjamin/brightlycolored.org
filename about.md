@@ -7,6 +7,7 @@ layout: page
 
 <figure class="extendout">
   {% include imgic.html src="/tim-02-16x9.jpg" alt="Tim Smith's Photo" %}
+  <figcaption>Photo by <a href="https://www.jaimielaurenphoto.com/">Jaimie Lauren</a>.</figcaption>
 </figure>
 
 _Brightly Colored_ is designed and developed by me, [Tim Smith](http://ttimsmith.com), in beautiful [St. Paul, Minnesota](https://www.stpaul.gov/). This publication covers a whole range of things including, but not limited to: design, development, technology, Geek culture, and Apple.
