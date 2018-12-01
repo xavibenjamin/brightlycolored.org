@@ -1,22 +1,22 @@
 ---
 title: About Brightly Colored
-permalink: "/about/"
-exclude_from_search: true
+permalink: '/about/'
 excerpt: Find out more about Brightly Colored.
 layout: page
 ---
 
-*Brightly Colored* is designed and developed by me, [Tim Smith](http://ttimsmith.com), in beautiful [St. Paul, Minnesota](https://www.stpaul.gov/). This publication covers a whole range of things including, but not limited to: design, development, technology, Geek culture, and Apple.
+<figure class="extendout">
+  {% include imgic.html src="/tim-02-16x9.jpg" alt="Tim Smith's Photo" %}
+  <figcaption>Photo by <a href="https://www.jaimielaurenphoto.com/">Jaimie Lauren</a>.</figcaption>
+</figure>
 
-Just as a person goes through different phases of life, so has this site. There have been periods where I write a lot about a certain topic, then move on to another. There was also a time when I wasn't the only one to write here, which you can learn more about below. The constant however, has always been me. Most of *Brightly Colored* is a reflection of my life, my personal growth, my successes, and my sorrows.
+_Brightly Colored_ is designed and developed by me, [Tim Smith](http://ttimsmith.com), in beautiful [St. Paul, Minnesota](https://www.stpaul.gov/). This publication covers a whole range of things including, but not limited to: design, development, technology, Geek culture, and Apple.
+
+Just as a person goes through different phases of life, so has this site. There have been periods where I write a lot about a certain topic, then move on to another. There was also a time when I wasn't the only one to write here, which you can learn more about below. The constant however, has always been me. Most of _Brightly Colored_ is a reflection of my life, my personal growth, my successes, and my sorrows.
 
 ## Why "Brightly Colored"?
 
-I felt the name *Brightly Colored* matched my personality. You'll normally find me wearing bright and vibrant things like yellow shorts, bright-patterned socks, and red shoes.
-
-<figure class="small__right">
-  <img src="{{ site.url }}/uploads/tim@2x.jpg" alt="Tim Smith">
-</figure>
+I felt the name _Brightly Colored_ matched my personality. You'll normally find me wearing bright and vibrant things like yellow shorts, bright-patterned socks, and red shoes.
 
 ## About Tim
 
@@ -70,10 +70,10 @@ Send me an email anytime. I love getting email from actual people. If you have a
 - [Sony FE 50mm ƒ/1.8](https://amzn.to/2NCmYyP)
 - [Sony FE 85mm ƒ/1.8](https://amzn.to/2I9zNLf)
 
-The site is hosted by [Netlify](https://www.netlify.com/), and powered by [Jekyll](http://jekyllrb.com). *Brightly Colored* is typeset in Whitney by [Hoefler & Co.](http://www.typography.com/)
+The site is hosted by [Netlify](https://www.netlify.com/), and powered by [Jekyll](http://jekyllrb.com). _Brightly Colored_ is typeset in Whitney by [Hoefler & Co.](http://www.typography.com/)
 
 A huge thanks to the friends who've contributed to this site: [TJ Draper](/authors/tjdraper) and [Keaton Taylor](/authors/keatontaylor). Also thanks to [Sonya Mann](https://twitter.com/sonyaellenmann) for editing a few articles here and there, making me sound much better. Of course, a huge thank you to my partner in crime, Kelly Smith, who listens to ideas and helps proofread from time to time.
 
 ## Affiliate Links
 
-Some of the links on this site are affiliate links. When you use them, *Brightly Colored* gets a small commission for what you buy at no cost to you. Thank you for your support of *Brightly Colored*.
+Some of the links on this site are affiliate links. When you use them, _Brightly Colored_ gets a small commission for what you buy at no cost to you. Thank you for your support of _Brightly Colored_.

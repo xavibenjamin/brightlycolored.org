@@ -22,7 +22,6 @@ const filesToCache = [
 
   // can be automated rather than manual entries
   "https://gravatar.com/avatar/febbffcb54abe1be1435720fc2268237?s=100",
-  "/uploads/tim@2x.jpg",
   "/assets/stylesheets/global.css",
   "/assets/app.js",
   "/themes/theme-001.css",
