@@ -13,18 +13,14 @@
     <li><a href="/contribute/">Contribute</a></li>
   </ul>
 
-  <p>
-    <em>Brightly Colored</em> &copy; 2013&ndash;{{
-      site.time | date: '%Y'
-    }}
-    Timothy B. Smith. All Rights Reserved. Hosted with
-    <a href="https://www.netlify.com">Netlify</a>.
-  </p>
+  {% unless page.url == '/search/' %}
+    {% include search-form.html %}
+  {% endunless %}
 
-  <p>
-    Made with {% include icons/icon-heart.html css_classes="icon--inline
-    icon--medium" %} in Saint Paul, MN.
-  </p>
+  <p><em>Brightly Colored</em> &copy; 2013&ndash;{{ site.time | date: '%Y' }} Timothy B. Smith. All Rights Reserved. Hosted with <a href="https://www.netlify.com">Netlify</a>.</p>
+
+  <p>Made with {% include icons/icon-heart.html css_classes="icon--inline
+    icon--medium" %} in Saint Paul, MN.</p>
 </footer>
 
 <!-- JS libraries -->

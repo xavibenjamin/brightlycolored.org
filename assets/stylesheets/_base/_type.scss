@@ -121,7 +121,7 @@ h6 {
   text-transform: uppercase;
 }
 
-.p-body > ul:not(.slash-list):not(.author-archive),
+.p-body > ul:not(.slash-list):not(.author-archive):not(.search__results),
 blockquote > ul {
   list-style-type: circle;
   margin-bottom: 1.1rem;

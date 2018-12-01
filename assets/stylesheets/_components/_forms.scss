@@ -49,3 +49,33 @@
     font-size: 0.85rem;
   }
 }
+
+// -----------------------------------------
+// SEARCH FORM
+// -----------------------------------------
+
+.search--footer {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.search__input {
+  background-color: white;
+  border-radius: $global-radius;
+  font-size: 0.85rem;
+  padding: 0.8rem 0.6rem;
+  width: 100%;
+
+  &:focus {
+    background: lighten(#feffda, 3%);
+  }
+}
+
+.search__input--secondary {
+  background-color: $light-bg-color;
+
+  &:focus {
+    background-color: $light-bg-color;
+    box-shadow: inset 0 0 0 1px darken($light-bg-color, 15%);
+  }
+}
