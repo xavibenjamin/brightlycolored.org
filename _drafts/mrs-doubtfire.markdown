@@ -2,19 +2,21 @@
 title: Mrs. Doubtfire
 date: 2018-12-04 05:44:00 -06:00
 categories:
-- comedy
-- family
-- drama
+  - comedy
+  - family
+  - drama
 tags:
-- movies
-- movie review
+  - movies
+  - movie review
 custom_type: post
-subtitle: Robin Williams delivers a fantastic performance in the movie about love,
+subtitle:
+  Robin Williams delivers a fantastic performance in this movie about love,
   family, and adapting to new circumstances
-excerpt: I'd forgotten how terrible Sally Field's character looks in this film. Sure,
+excerpt:
+  I'd forgotten how terrible Sally Field's character looks in this film. Sure,
   co-parenting with someone like Daniel must be hell. He's the eternal good cop, which
   means the other parent ends up _always_ being the bad guy.
-featured_image: "/uploads/mrs-doubtfire-featured.jpg"
+featured_image: '/uploads/mrs-doubtfire-featured.jpg'
 review:
   type: movie
   rating: 3.5
@@ -24,15 +26,13 @@ review:
 ---
 
 <figure class="extendout">
-  {% include imgic.html src="/mrs-doubtfire-featured.jpg" alt="Mrs. Doubtfire"
-  <figcaption>Robin Williams as Mrs. Doubtfire (© 20th Century Fox)</figcaption>
+  {% include imgic.html src="/mrs-doubtfire-featured.jpg" alt="Mrs. Doubtfire" %}
+  <figcaption>Robin Williams as Mrs. Doubtfire <span class="image__copyright">© 20th Century Fox</span></figcaption>
 </figure>
 
-*This review contains spoilers.*
+_This review contains spoilers._
 
----
-
-I'd forgotten how terrible Sally Field's character looks in this film. Sure, co-parenting with someone like Daniel must be hell. He's the eternal good cop, which means the other parent ends up _always_ being the bad guy. 
+I'd forgotten how terrible Sally Field's character looks in this film. Sure, co-parenting with someone like Daniel must be hell. He's the eternal good cop, which means the other parent ends up _always_ being the bad guy.
 
 Still, as their marriage falls apart, and custody hearings commence, he's treated as though he's some type of danger to his children when Daniel is nothing but a loving and caring father.
 

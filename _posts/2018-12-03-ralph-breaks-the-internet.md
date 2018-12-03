@@ -2,14 +2,14 @@
 title: Ralph Breaks the Internet
 date: 2018-12-03 10:48:00 -06:00
 categories:
-- animation
-- adventure
-- comedy
+  - animation
+  - adventure
+  - comedy
 tags:
-- movies
-- review
-- Disney
-- movie review
+  - movies
+  - review
+  - Disney
+  - movie review
 subtitle: Fun and action-packed, this film was entertaining with a great moral
 custom_type: post
 review:
@@ -17,14 +17,14 @@ review:
   rating: 4.5
   movie:
     director: Phil Johnston, Rich Moore
-    rating: PG-13
-featured_image: "/uploads/ralph-BTI-featured.jpg"
+    rating: PG
+featured_image: '/uploads/ralph-BTI-featured.jpg'
 excerpt: My thoughts on this great movie
 ---
 
 <figure class="extendout">
   {% include imgic.html src="/ralph-BTI-featured.jpg" alt="Ralph Breaks the Internet" %}
-  <figcaption>© Walt Disney Animation Studios</figcaption>
+  <figcaption><span class="image__copyright">© Walt Disney Animation Studios</span></figcaption>
 </figure>
 
 Went to see _Ralph Breaks the Internet_. Here are my thoughts:
@@ -38,4 +38,4 @@ Went to see _Ralph Breaks the Internet_. Here are my thoughts:
 - Vanellope's song brought a tear to my eye.
 - It's important to have a teaching moment in a movie aimed at kids, and this one definitely has it.
 
-If you haven't watched _Ralph Breaks the Internet_, or were planning on skipping it altogther, I wholeheartedly recommend it. No matter your age, I'm sure you'll enjoy it.
+If you haven't watched _Ralph Breaks the Internet_, or were planning on skipping it altogether, I wholeheartedly recommend it. No matter your age, I'm sure you'll enjoy it.
