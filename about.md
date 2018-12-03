@@ -1,16 +1,16 @@
 ---
 title: About Brightly Colored
-permalink: "/about/"
+permalink: '/about/'
 excerpt: Find out more about Brightly Colored.
 layout: page
 ---
+
+_Brightly Colored_ is designed and developed by me, [Tim Smith](http://ttimsmith.com), in beautiful [St. Paul, Minnesota](https://www.stpaul.gov/). This publication covers a whole range of things including, but not limited to: design, development, technology, Geek culture, and Apple.
 
 <figure class="extendout">
   {% include imgic.html src="/tim-02-16x9.jpg" alt="Tim Smith's Photo" %}
   <figcaption>Photo by <a href="https://www.jaimielaurenphoto.com/">Jaimie Lauren</a>.</figcaption>
 </figure>
-
-_Brightly Colored_ is designed and developed by me, [Tim Smith](http://ttimsmith.com), in beautiful [St. Paul, Minnesota](https://www.stpaul.gov/). This publication covers a whole range of things including, but not limited to: design, development, technology, Geek culture, and Apple.
 
 Just as a person goes through different phases of life, so has this site. There have been periods where I write a lot about a certain topic, then move on to another. There was also a time when I wasn't the only one to write here, which you can learn more about below. The constant however, has always been me. Most of _Brightly Colored_ is a reflection of my life, my personal growth, my successes, and my sorrows.
 
