@@ -17,7 +17,11 @@ function windowPopup(url, width, height) {
   );
 }
 
-$('.js-social-share').on('click', function(e) {
-  e.preventDefault();
-  windowPopup($(this).attr('href'), 500, 300);
-});
+var socialLink = document.querySelector('.js-social-share');
+
+if (socialLink) {
+  socialLink.addEventListener('click', function(e) {
+    e.preventDefault();
+    windowPopup(this.getAttribute('href'), 500, 300);
+  });
+}
