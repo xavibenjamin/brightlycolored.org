@@ -1,7 +1,16 @@
 ---
 title: Ralph Breaks the Internet
+date: 2018-12-03 10:48:00 -06:00
+categories:
+- animation
+- adventure
+- comedy
+tags:
+- movies
+- review
+- Disney
+- movie review
 subtitle: Fun and action-packed, this film was entertaining with a great moral
-date: 2018-12-03 10:48 -06:00
 custom_type: post
 review:
   type: movie
@@ -9,16 +18,7 @@ review:
   movie:
     director: Phil Johnston, Rich Moore
     rating: PG-13
-categories:
-  - animation
-  - adventure
-  - comedy
-tags:
-  - movies
-  - review
-  - Disney
-  - movie review
-featured_image: /uploads/ralph-BTI-featured.jpg
+featured_image: "/uploads/ralph-BTI-featured.jpg"
 excerpt: My thoughts on this great movie
 ---
 
