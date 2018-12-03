@@ -8,6 +8,7 @@ categories:
 tags:
 - movies
 - movie review
+- review
 custom_type: post
 subtitle: Robin Williams delivers a fantastic performance in this movie about love,
   family, and adapting to new circumstances
