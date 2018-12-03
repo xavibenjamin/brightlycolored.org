@@ -2,18 +2,17 @@
 title: 'My Brief Review of ‘Star Wars: The Last Jedi’'
 date: 2017-12-15 00:00:00 -06:00
 categories:
-  - action
-  - adventure
-  - sci-fi
+- action
+- adventure
+- sci-fi
 tags:
-  - movies
-  - movie review
-  - Star Wars
-  - brief review
-  - Episode VIII
-  - review
-subtitle:
-  The latest of the Star Wars saga films is a fresh, new, and exciting chapter
+- movies
+- movie review
+- Star Wars
+- brief review
+- Episode VIII
+- review
+subtitle: The latest of the Star Wars saga films is a fresh, new, and exciting chapter
   of my favorite franchise
 custom_type: post
 review:
