@@ -1,50 +1,50 @@
 ---
-title: 'My Brief Review of ‘Rogue One: A Star Wars Story’'
+title: 'Rogue One: A Star Wars Story'
 date: 2016-12-16 22:29:00 -06:00
 categories:
-- action
-- adventure
-- sci-fi
+  - action
+  - adventure
+  - sci-fi
 tags:
-- Star Wars
-- brief review
-- movies
-- movie review
-- review
+  - Star Wars
+  - movies
+  - movie review
+  - review
 custom_type: post
-subtitle: The first of the non-saga <em>Star Wars</em> movies has finally come out,
+subtitle:
+  The first of the non-saga <em>Star Wars</em> movies has finally come out,
   and I really liked it
 review:
   type: movie
   rating: 3.5
   movie:
     director: Gareth Edwards
-    rating: PG-13
+    date: 2016-12-15
 ---
 
 <figure class="extendout">
-  <img src="{{ site.url }}/uploads/2016/12/rogue-one-jyn-erso.jpg" alt="Felicity Jones as Jyn Erso in Rogue One.">
-  <figcaption>Felicity Jones as Jyn Erso in <em>Rogue One</em>.</figcaption>
+  {% include imgic.html src="/2016/12/rogue-one-jyn-erso.jpg" alt="Felicity Jones as Jyn Erso in Rogue One." %}
+  <figcaption>Felicity Jones as Jyn Erso in <em>Rogue One</em><span class="image__copyright">© Disney/Lucasfilm</span></figcaption>
 </figure>
 
-Kelly and I went to go watch *Rogue One* on opening night. I purposely didn't read anything about the film, and was completely spoiler-free going in. Here are my thoughts, **that are full of spoilers**.
+Kelly and I went to go watch _Rogue One_ on opening night. I purposely didn't read anything about the film, and was completely spoiler-free going in. Here are my thoughts, **that are full of spoilers**.
 
 Seriously people, **spoilers**. You've been warned.
 
-- It still felt like *Star Wars* without the crawl.
-- The score is ok. Michael Giacchino did a great job making it feel like *Star Wars* within the time he had to do it.
+- It still felt like _Star Wars_ without the crawl.
+- The score is ok. Michael Giacchino did a great job making it feel like _Star Wars_ within the time he had to do it.
 - Understanding what the Death Star is made with was cool.
-- I don't think we've visited so many places in one *Star Wars* movie.
+- I don't think we've visited so many places in one _Star Wars_ movie.
 - Felicity Jones and Diego Luna are amazing in this movie.
 - Vader. Oh my goodness. Vader, people. Vader. Vader.
 - I wanted more Vader.
 - James Earl Jones came back for Vader, and it was an awesome… 2 scenes 😭.
-- This story adds so much context to *A New Hope*.
-- Leia's motion capture face is *terrible*.
+- This story adds so much context to _A New Hope_.
+- Leia's motion capture face is _terrible_.
 - The first two acts are a bit slow, and unfortunately don't use the time to give more information about the supporting characters.
-- Everyone dies. *Everyone*. That was a surprise for me, but made sense.
-- All in all, I really liked it, but *The Force Awakens* is still my favorite of the recent *Star Wars* movies.
+- Everyone dies. _Everyone_. That was a surprise for me, but made sense.
+- All in all, I really liked it, but _The Force Awakens_ is still my favorite of the recent _Star Wars_ movies.
 
 ---
 
-I'll be doing an episode about *Rogue One* on *Retake*. [Subscribe to the show](https://nightowl.fm/retake), so you don't miss it!
+I'll be doing an episode about _Rogue One_ on _Retake_. [Subscribe to the show](https://nightowl.fm/retake), so you don't miss it!
