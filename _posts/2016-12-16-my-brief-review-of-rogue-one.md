@@ -2,24 +2,23 @@
 title: 'Rogue One: A Star Wars Story'
 date: 2016-12-16 22:29:00 -06:00
 categories:
-  - action
-  - adventure
-  - sci-fi
+- action
+- adventure
+- sci-fi
 tags:
-  - Star Wars
-  - movies
-  - movie review
-  - review
+- Star Wars
+- movies
+- movie review
+- review
 custom_type: post
-subtitle:
-  The first of the non-saga <em>Star Wars</em> movies has finally come out,
+subtitle: The first of the non-saga <em>Star Wars</em> movies has finally come out,
   and I really liked it
 review:
   type: movie
   rating: 3.5
   movie:
     director: Gareth Edwards
-    date: 2016-12-15
+    date: 2016-12-14 18:00:00 -06:00
 ---
 
 <figure class="extendout">

@@ -2,29 +2,27 @@
 title: Mrs. Doubtfire
 date: 2018-12-04 05:44:00 -06:00
 categories:
-  - comedy
-  - family
-  - drama
+- comedy
+- family
+- drama
 tags:
-  - movies
-  - movie review
-  - review
+- movies
+- movie review
+- review
 custom_type: post
-subtitle:
-  Robin Williams delivers a fantastic performance in this movie about love,
+subtitle: Robin Williams delivers a fantastic performance in this movie about love,
   family, and adapting to new circumstances
-excerpt:
-  I'd forgotten how terrible Sally Field's character looks in this film. Sure,
+excerpt: I'd forgotten how terrible Sally Field's character looks in this film. Sure,
   co-parenting with someone like Daniel must be hell. He's the eternal good cop, which
   means the other parent ends up _always_ being the bad guy.
-featured_image: '/uploads/mrs-doubtfire-featured.jpg'
+featured_image: "/uploads/mrs-doubtfire-featured.jpg"
 review:
   type: movie
   rating: 3.5
   movie:
     director: Chris Columbus
     is_rewatched: true
-    date: 2018-12-03
+    date: 2018-12-02 18:00:00 -06:00
 ---
 
 <figure class="extendout">

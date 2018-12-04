@@ -2,21 +2,21 @@
 title: Despicable Me 3
 date: 2017-07-05 00:00:00 -05:00
 categories:
-  - animation
-  - action
-  - adventure
+- animation
+- action
+- adventure
 tags:
-  - movies
-  - movie review
-  - review
-  - my videos
+- movies
+- movie review
+- review
+- my videos
 custom_type: post
 review:
   rating: 3
   type: movie
   movie:
     director: Kyle Balda, Pierre Coffin
-    date: 2017-07-04
+    date: 2017-07-03 19:00:00 -05:00
 ---
 
 <div class="iframe-container">

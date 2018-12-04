@@ -2,22 +2,22 @@
 title: Wonder Woman
 date: 2017-06-07 00:00:00 -05:00
 categories:
-  - action
-  - adventure
-  - fantasy
+- action
+- adventure
+- fantasy
 tags:
-  - movies
-  - DC Comics
-  - movie review
-  - review
-  - my videos
+- movies
+- DC Comics
+- movie review
+- review
+- my videos
 custom_type: post
 review:
   type: movie
   rating: 4.5
   movie:
     director: Patty Jenkins
-    date: 2017-06-06
+    date: 2017-06-05 19:00:00 -05:00
 ---
 
 <div class="iframe-container">
