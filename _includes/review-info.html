@@ -15,8 +15,8 @@
       {{ myPage.review.movie.director }}
     </li>
     <li class="review-info__item">
-      <strong class="review-info__heading"><span class="caps">MPAA</span> Rating</strong>
-      {{ myPage.review.movie.rating }}
+      <strong class="review-info__heading">{% if myPage.review.movie.is_rewatched %}Rewatched{% else %}Watched{% endif %} on</strong>
+      {{ myPage.review.movie.date | date: "%b %d, %Y" }}
     </li>
   {% endif %}
 
