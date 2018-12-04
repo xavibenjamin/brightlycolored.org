@@ -1,10 +1,10 @@
 ---
-title: ‘Star Wars Galaxy of Adventures’ to Introduce Star Wars to the Next Generation
-date: 2018-12-04 9:33:00 -06:00
-featured_image: /uploads/galaxyofadventures-featured.jpg
-custom_type: post
+title: "‘Star Wars Galaxy of Adventures’ to Introduce Star Wars to the Next Generation"
+date: 2018-12-04 09:33:00 -06:00
 tags:
 - Star Wars
+featured_image: "/uploads/galaxyofadventures-featured.jpg"
+custom_type: post
 ---
 
 [From *Coffee with Kenobi*](https://www.coffeewithkenobi.com/star-wars-galaxy-of-adventures-to-debut-on-all-new-star-wars-kids-website-and-youtube-channel/):
