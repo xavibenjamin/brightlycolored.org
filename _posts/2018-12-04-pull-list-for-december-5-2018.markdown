@@ -1,11 +1,12 @@
 ---
 title: Pull List for December 5, 2018
-date: 2018-11-29 09:49:00 -06:00
+date: 2018-12-04 00:09:00 -06:00
 tags:
-- comics
-- pull list
+  - comics
+  - pull list
 custom_type: post
-featured_image: "/pull-list-12-05-2018.jpg"
+featured_image: '/pull-list-12-05-2018.jpg'
+excerpt: "Comics I read last week, and ones I'm picking up this week"
 ---
 
 <figure class="extendout">
@@ -27,7 +28,8 @@ Every Wednesday, new comic books hit the shelves with new stories to be engrosse
 
 ## Picking up this week
 
-- **Bully Wars #4**
-- **Deadpool #7**
-- **Paper Girls Vol. 5 TP**
-- **Shazam! #1**
+- **Bully Wars #4** - I'll probably end up getting only this first arc, but I've enjoyed the series. As I've said before, the art is just fantastic and the story is fun too.
+- **Deadpool #7** - Another Skottie Young book on my list! He's been doing a great job with Deadpool. While the last issue wasn't my favorite, Young overall is on a great run.
+- **Paper Girls Vol. 5 TP** - I trade wait on _Paper Girls_ since I was a bit late to the game on this title. Vol. 4 started to answer some questions, and I'm hoping we get more of that in this one. Feels like the story may be coming to its end soon.
+- **Shazam! #1** - I know nothing about Shazam. But the upcoming movie looks funny, and Geoff Johns is writing, so I'll give it a shot.
+- **Star Wars: Age of Republic - Qui-Gon Jinn #1** - Really looking forward to all these Star Wars titles in the next few months. Qui-Gon Jinn was unfortunately underutilized in the prequel trilogy, so I'm excited to get more stories of him in comic book form.
