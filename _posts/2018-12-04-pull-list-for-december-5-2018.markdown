@@ -5,8 +5,8 @@ tags:
 - comics
 - pull list
 custom_type: post
-featured_image: "/pull-list-12-05-2018.jpg"
 excerpt: Comics I read last week, and ones I'm picking up this week
+featured_image: "/uploads/pull-list-12-05-2018.jpg"
 ---
 
 <figure class="extendout">
