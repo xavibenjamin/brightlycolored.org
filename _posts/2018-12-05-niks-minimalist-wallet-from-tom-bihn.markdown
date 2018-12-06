@@ -1,13 +1,13 @@
 ---
 title: Nik's Minimalist Wallet from Tom Bihn
+date: 2018-12-05 22:23:00 -06:00
+tags:
+- daily carry
+- wallets
 subtitle: Can't get any more minimal than this
 excerpt: Stylish, minimal, and affordable wallet
-date: 2018-12-05 22:23:00 -06:00
 custom_type: post
-featured_image: /uploads/2018/12/minimalist-wallet-001.jpg
-tags:
-  - daily carry
-  - wallets
+featured_image: "/uploads/2018/12/minimalist-wallet-001.jpg"
 ---
 
 <figure class="extendout">
