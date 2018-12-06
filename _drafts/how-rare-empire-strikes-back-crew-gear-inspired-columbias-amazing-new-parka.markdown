@@ -7,5 +7,5 @@ featured_image: "/uploads/empire-crew-parka-full.jpg"
 
 <figure class="reg">
   {% include imgic.html src="/empire-crew-parka-full.jpg" alt="Empire Strikes Back parka from Columbia" %}
-  <figcaption><span class="image__copyright">© Lucasfilm</figcaption>
+  <figcaption><span class="image__copyright">© Lucasfilm (Columbia)</span></figcaption>
 </figure>
