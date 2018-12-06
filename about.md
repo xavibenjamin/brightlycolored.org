@@ -1,6 +1,6 @@
 ---
 title: About Brightly Colored
-permalink: "/about/"
+permalink: '/about/'
 excerpt: Find out more about Brightly Colored.
 layout: page
 ---
@@ -40,17 +40,17 @@ Send me an email anytime. I love getting email from actual people. If you have a
 
 - Email: [smith@ttimsmith.com](mailto:smith@ttimsmith.com?subject=[brightlycolored.org] Hey Tim!)
 
+- Follow me on Micro.blog: [@smith](https://micro.blog/smith)
+- Follow me on [Flickr](https://www.flickr.com/photos/smithtimmytim/)
 - Follow me on Twitter: [@smithtimmytim](https://twitter.com/smithtimmytim)
-
-- Follow me on Instagram: [@smithtimmytim](https://www.instagram.com/smithtimmytim/)
 
 ## How It's Made
 
 ### Hardware
 
-- 2016 15" MacBook Pro with Touch Bar
+- 2018 15" MacBook Pro with Touch Bar
 - Apple iPad Pro 10.5"
-- Apple iPhone 7 Plus
+- Apple iPhone XS Max
 
 ### Software
 
@@ -72,7 +72,7 @@ Send me an email anytime. I love getting email from actual people. If you have a
 
 The site is hosted by [Netlify](https://www.netlify.com/), and powered by [Jekyll](http://jekyllrb.com). _Brightly Colored_ is typeset in Whitney by [Hoefler & Co.](http://www.typography.com/)
 
-A huge thanks to the friends who've contributed to this site: [TJ Draper](/authors/tjdraper) and [Keaton Taylor](/authors/keatontaylor). Also thanks to [Sonya Mann](https://twitter.com/sonyaellenmann) for editing a few articles here and there, making me sound much better. Of course, a huge thank you to my partner in crime, Kelly Smith, who listens to ideas and helps proofread from time to time.
+A huge thanks to the friends who've contributed to this site: [TJ Draper](/authors/tjdraper) and [Keaton Taylor](/authors/keatontaylor). Also thanks to [Sonya Mann](https://twitter.com/sonyaellenmann) for editing a few articles here and there, making me sound much better. Of course, a huge thank you to my partner in crime, [Kelly Smith](/authors/kellysmith), who reads drafts and sometimes writes herself.
 
 ## Affiliate Links
 
