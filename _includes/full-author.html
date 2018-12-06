@@ -1,11 +1,14 @@
 {% assign author = site.data.authors[page.author] %}
+{% capture author_pic_filename %}authors/{{ author.author_path }}.jpg{% endcapture %}
+
 <header class="author author--single">
   {% if author.gravatar %}
     <img src="//gravatar.com/avatar/{{ author.gravatar}}?s=500" alt="Picture of {{ author.display_name }}" class="author__picture" height="200" width="200" />
   {% else %}
     {% if jekyll.environment == "production" %}
+
     <img
-      src="{{ '/authors/{{ author.author_path }}.jpg' | imgix_url: w: 200, q: 70 }}"
+      src="{{ author_pic_filename | imgix_url: w: 400, q: 70 }}"
       class="author__picture"
       alt="Picture of {{ author.display_name }}"
       height="200"
