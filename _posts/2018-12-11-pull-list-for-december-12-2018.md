@@ -1,11 +1,11 @@
 ---
 title: Pull List for December 12, 2018
-date: 2018-12-11 05:33 -06:00
-custom_type: post
+date: 2018-12-11 05:33:00 -06:00
 tags:
-  - comics
-  - pull list
-featured_image: /uploads/pull-list-12-12-2018.jpg
+- comics
+- pull list
+custom_type: post
+featured_image: "/uploads/pull-list-12-12-2018.jpg"
 excerpt: Comics I'm reading this week and one's I read last week
 ---
 
