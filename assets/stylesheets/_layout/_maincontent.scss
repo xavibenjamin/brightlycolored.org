@@ -468,16 +468,22 @@ $reddit-color: #ff4500;
 
 .related-posts {
   margin-top: 1.6rem;
-  ul {
+
+  .post__topics {
+    margin-top: 0.4rem;
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 0.66rem;
+  }
+
+  .post-list__item {
     display: grid;
-    margin-top: 1rem;
-    @media #{$small-only} {
-      max-width: 215px;
-      grid-row-gap: 0.6rem;
-    }
-    @media #{$medium-up} {
-      grid-template-columns: repeat(3, 1fr);
-      grid-column-gap: 0.6rem;
+    grid-template-columns: 1fr 140px;
+    grid-column-gap: 1.4rem;
+    align-items: start;
+
+    + .post-list__item {
+      margin-top: 1.6rem;
     }
   }
 }
@@ -486,6 +492,8 @@ $reddit-color: #ff4500;
   font-size: 0.7rem;
   letter-spacing: 0;
   margin-top: 0;
+  margin-bottom: 1.4rem;
+  grid-column: 1;
 
   &:before {
     width: 42px;
@@ -493,7 +501,7 @@ $reddit-color: #ff4500;
 }
 
 .post-list__item {
-  font-size: 0.75rem;
+  font-size: 0.66rem;
 
   a {
     text-decoration: none;
@@ -502,73 +510,27 @@ $reddit-color: #ff4500;
   .related__date {
     color: lighten($body-color, 25%);
     display: block;
-    font-size: 0.7rem;
     font-weight: normal;
     margin-bottom: 0.2rem;
+    text-transform: uppercase;
   }
 
   .related__title {
+    font-size: 1.1rem;
     font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 1.2;
   }
-}
 
-// WEBMENTIONS -----------------------------
+  .related__image {
+    grid-column: 2;
+    grid-row: span 3;
 
-.post__comments p {
-  font-size: 0.8rem;
-}
-
-.post-webmentions__title {
-  font-size: 0.7rem;
-  letter-spacing: 0;
-
-  &:before {
-    content: none;
-  }
-}
-
-.webmentions__item {
-  position: relative;
-  padding-left: 3.5rem;
-  padding-top: 1.4rem;
-  padding-bottom: 1.4rem;
-  + .webmentions__item {
-    border-top: 1px solid $border-color;
-  }
-}
-
-.webmention__author__photo {
-  border-radius: 2px;
-  height: 2.2rem;
-  left: 0;
-  position: absolute;
-  width: 2.2rem;
-}
-
-.p-name,
-.webmention__content p,
-.webmention__meta {
-  font-size: 0.8rem;
-}
-
-.webmention__meta {
-  color: lighten($body-color, 25%);
-  margin-top: 0.8rem;
-}
-
-.webmentions--likes,
-.webmentions--reposts {
-  .webmentions__list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 2.2rem);
-    grid-gap: 0.4rem;
-    .webmentions__item {
-      padding: 0;
+    img {
+      height: 100px;
+      object-fit: cover;
+      border-radius: $global-radius;
     }
-  }
-
-  .webmention__author__photo {
-    position: static;
   }
 }
 
@@ -587,7 +549,7 @@ $reddit-color: #ff4500;
 .p-body
   > *:not(.iframe-container):not(.card):not(.extendout):not(.photo-grid):not(.alignleft):not(.alignright):not(.small__right):not(.small__left):not(.highlighter-rouge):not(.post__footer):not(.tag__section):not(table):not(.post__section):not(.page__header--full),
 .posts__date > .current-day,
-.post__footer,
+.post__footer > *:not(.card),
 .highlighter-rouge,
 .photo-grid > *:not(img),
 .extendout > *:not(img),

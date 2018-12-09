@@ -35,7 +35,11 @@ custom_css_class: single
 
   <footer class="post__footer">
     {% include tags.html %}
-    {% include social-links.html %}        
+    {% include social-links.html %}
+    <section class="card card--light card--large">
+      <h2>Brightly Colored Weekly</h2>
+      {% include newsletter-form.html text="Get more posts like this delivered straight to your inbox." %}
+    </section>
     {% include related-posts.html %}
   </footer>
 </article>

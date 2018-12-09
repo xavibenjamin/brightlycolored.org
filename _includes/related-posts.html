@@ -1,15 +1,24 @@
 {% if site.related_posts.size >= 1 %}
 <div class="related-posts">
-  <h5 class="related-posts__title">Related</h5>
+  <h5 class="related-posts__title">Read Next</h5>
   <ul>
-  {% for p in site.related_posts limit: 3 %}
+  {% for post in site.related_posts limit: 2 %}
     <li class="post-list__item">
-      <a href="{{ p.url }}" title="{{ p.title | smartify }}">
+      <a href="{{ post.url }}" title="{{ post.title | smartify }}">
         <small class="related__date">
-          <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%b %d, %Y" }}</time>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
         </small>
-        <span class="related__title">{{ p.title | smartify | widont | truncatewords: 7 }}</span>        
+        <span class="related__title">{{ post.title | smartify | widont }}</span>
       </a>
+      <ul class="post__topics">
+        {% assign sortedTags = post.tags | sort %}
+        {% for tag in sortedTags %}
+          <li class="topic">
+            <a href="{{ site.url }}/topics/#{{ tag | downcase | replace:' ','-'}}" title="Posts tagged {{ tag }}">#{{ tag }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+      {% if post.featured_image %}<a class="related__image" href="{{ post.url }}" title="{{ post.title | smartify }}"><img src="{{ post.featured_image }}" alt="Thumbnail for {{ post.title }}"></a>{% endif %}
     </li>
   {% endfor %}
   </ul>
