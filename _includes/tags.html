@@ -3,7 +3,7 @@
     {% assign sortedTags = page.tags | sort %}
     {% for tag in sortedTags %}
       <li class="topic">
-        <a href="{{ site.url }}/topics/#{{ tag | downcase | replace:' ','-'}}" title="Posts tagged {{ tag }}">#{{ tag }}</a>
+        <a href="/topics/#{{ tag | downcase | replace:' ','-'}}" title="Posts tagged {{ tag }}">#{{ tag }}</a>
       </li>
     {% endfor %}
   </ul>
@@ -13,7 +13,7 @@
     {% assign sortedTags = post.tags | sort %}
     {% for tag in sortedTags %}
       <li class="topic">
-        <a href="{{ site.url }}/topics/#{{ tag | downcase | replace:' ','-'}}" title="Posts tagged {{ tag }}">#{{ tag }}</a>
+        <a href="/topics/#{{ tag | downcase | replace:' ','-'}}" title="Posts tagged {{ tag }}">#{{ tag }}</a>
       </li>
     {% endfor %}
   </ul>

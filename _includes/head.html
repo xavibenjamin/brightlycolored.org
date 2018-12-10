@@ -117,13 +117,25 @@
 
     <!-- <link rel="stylesheet" href="/themes/theme-008.css"> -->
 
-    <link rel="stylesheet" href="https://use.typekit.net/pou4cvr.css">
+    <!-- preload the fonts -->
+    <link	
+      as="style"	
+      href="https://use.typekit.net/pou4cvr.css"	
+      onload="this.rel='stylesheet'"	
+      rel="preload"	
+    />	
+     <!-- non-JS fallback -->	
+    <noscript>	
+      <link	
+        href="https://use.typekit.net/pou4cvr.css"	
+        media="screen"	
+        rel="stylesheet"	
+        type="text/css"	
+      />	
+    </noscript>
 
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
     <!--
       Don't read the source like a caveperson! It's all on GitHub: https://github.com/smithtimmytim/brightlycolored.org
     -->
-  </body>
-</html>
