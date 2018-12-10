@@ -3,32 +3,28 @@
 // -------------------------------
 
 html {
-  font-size: 16.7px;
+  font-size: 19px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   @media #{$medium-up} {
     font-size: 19.8px;
   }
   @media #{$xlarge-up} {
-    font-size: 19.6px;
+    font-size: 22.1px;
   }
 }
 
 body {
   color: $body-color;
-  // @extend %sans;
   @extend %serif;
   -webkit-hyphens: auto;
   hyphens: auto;
-  // letter-spacing: -0.3px;
   line-height: 1.4;
 }
 
 // FONTS -------------------------
 
 %sans {
-  // font-family: 'Whitney SSm A', 'Whitney SSm B', system, -apple-system,
-  //   BlinkMacSystemFont, Avenir, sans-serif;
   font-family: freight-sans-pro, sans-serif;
 }
 
@@ -61,7 +57,6 @@ h1,
 h2,
 h5 {
   color: $heading-base-color;
-  // letter-spacing: -1.1px;
 }
 
 // TEXT --------------------------
@@ -83,6 +78,7 @@ h2 {
   font-weight: 600;
   line-height: 1.2;
   margin: 2.5rem 0 0.2rem;
+  @extend %sans;
   + h3 {
     margin-top: 1.3rem;
   }
@@ -103,14 +99,16 @@ h4 {
   font-weight: 600;
   margin: 2.2rem 0 0.1875rem;
   text-transform: uppercase;
+  @extend %sans;
 }
 
 h5 {
   font-size: 0.85rem;
   font-weight: 600;
-  letter-spacing: 0.3px;
   margin: 3rem 0 0.6rem;
   text-transform: uppercase;
+  @extend %sans;
+
   &:before {
     background-color: $border-color;
     content: '';
@@ -126,6 +124,7 @@ h6 {
   font-size: 0.9rem;
   font-weight: 600;
   text-transform: uppercase;
+  @extend %sans;
 }
 
 .p-body > ul:not(.slash-list):not(.author-archive):not(.search__results),

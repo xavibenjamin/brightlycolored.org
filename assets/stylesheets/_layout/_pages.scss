@@ -58,8 +58,9 @@
 
 .page-header__description {
   color: lighten($body-color, 20%);
-  font-size: 1.2rem;
-  line-height: 1.5;
+  font-size: 1.3rem;
+  line-height: 1.35;
+  @extend %sans;
 }
 
 // -----------------------------------------
@@ -92,7 +93,7 @@
   .author__name {
     font-size: 1.5rem;
     font-weight: 600;
-    letter-spacing: -1.3px;
+    letter-spacing: -0.6px;
     margin-bottom: 0;
 
     @media #{$medium-up} {
@@ -104,7 +105,7 @@
     color: lighten($body-color, 15%);
     @extend %sans;
     font-size: 1.2rem;
-    letter-spacing: -1.3px;
+    letter-spacing: -0.6px;
     margin-bottom: 0;
     margin-top: 0;
     text-transform: none;

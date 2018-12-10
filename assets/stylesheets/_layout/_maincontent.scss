@@ -29,7 +29,7 @@
     display: block;
     font-size: 0.68rem;
     font-weight: 600;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     text-transform: uppercase;
     @extend %sans;
     font-variant-numeric: lining-nums;
@@ -154,7 +154,7 @@
   color: lighten($body-color, 15%);
   font-size: 0.68rem;
   font-weight: 600;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.6px;
   margin-bottom: 1.4rem;
   text-transform: uppercase;
   @extend %sans;
@@ -241,16 +241,16 @@
   border-radius: $global-radius;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
+  @extend %sans;
 
   h2 {
     align-items: center;
     background-color: rgba($body-color, 0.05);
     cursor: pointer;
     display: flex;
-    @extend %sans;
     font-size: 0.75rem;
     justify-content: space-between;
-    letter-spacing: -0.2px;
+    letter-spacing: 0.6px;
     margin: 0;
     padding: 0.6rem 1rem;
     text-transform: uppercase;
@@ -413,7 +413,6 @@ $reddit-color: #ff4500;
 
 .post-share__title {
   font-size: 0.7rem;
-  letter-spacing: 0;
   margin-top: 0;
   @extend %sans;
 
