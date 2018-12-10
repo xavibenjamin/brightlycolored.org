@@ -74,9 +74,10 @@
   color: white;
   font-size: 0.7rem;
   font-weight: 600;
-  letter-spacing: 1.1px;
+  letter-spacing: 1.6px;
   margin-bottom: 0.8rem;
   text-transform: uppercase;
+  @extend %sans;
 }
 
 .header__description {
@@ -86,4 +87,5 @@
   margin-top: 0.4rem;
   max-width: 400px;
   text-align: center;
+  @extend %sans;
 }

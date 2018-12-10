@@ -3,6 +3,7 @@
 // -------------------------------
 
 img {
+  display: block;
   height: auto;
   width: 100%;
 }
@@ -16,14 +17,14 @@ figcaption {
   color: lighten($body-color, 20%);
   @extend %sans;
   font-size: 0.8rem;
-  line-height: 1.6;
-  margin-top: 0.5rem;
+  line-height: 1.35;
+  margin-top: 0.4rem;
 
   code {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 
     @media #{$medium-up} {
-      font-size: 0.8rem;
+      font-size: 0.75rem;
     }
   }
 
