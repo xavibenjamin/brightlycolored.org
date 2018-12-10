@@ -1,6 +1,6 @@
 ---
 title: About Brightly Colored
-permalink: '/about/'
+permalink: "/about/"
 excerpt: Find out more about Brightly Colored.
 layout: page
 ---
