@@ -1,6 +1,6 @@
 ---
 title: About Brightly Colored
-permalink: "/about/"
+permalink: '/about/'
 excerpt: Find out more about Brightly Colored.
 layout: page
 ---
@@ -70,7 +70,7 @@ Send me an email anytime. I love getting email from actual people. If you have a
 - [Sony FE 50mm ƒ/1.8](https://amzn.to/2NCmYyP)
 - [Sony FE 85mm ƒ/1.8](https://amzn.to/2I9zNLf)
 
-The site is hosted by [Netlify](https://www.netlify.com/), and powered by [Jekyll](http://jekyllrb.com). _Brightly Colored_ is typeset in Whitney by [Hoefler & Co.](http://www.typography.com/)
+The site is hosted by [Netlify](https://www.netlify.com/), and powered by [Jekyll](http://jekyllrb.com). _Brightly Colored_ is typeset in Freight Sans and Freight Text by [Joshua Darden](https://www.dardenstudio.com/typefaces#freight).
 
 A huge thanks to the friends who've contributed to this site: [TJ Draper](/authors/tjdraper) and [Keaton Taylor](/authors/keatontaylor). Also thanks to [Sonya Mann](https://twitter.com/sonyaellenmann) for editing a few articles here and there, making me sound much better. Of course, a huge thank you to my partner in crime, [Kelly Smith](/authors/kellysmith), who reads drafts and sometimes writes herself.
 
