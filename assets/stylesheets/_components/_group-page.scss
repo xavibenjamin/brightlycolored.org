@@ -14,6 +14,8 @@
   grid-template-columns: repeat(2, 1fr);
   margin-bottom: 1rem;
   margin-top: 1rem;
+  font-variant-numeric: lining-nums;
+  @extend %sans;
 
   @media #{$small-only} {
     margin-left: auto;
@@ -34,7 +36,6 @@
     justify-content: space-between;
     padding: 0.4rem 0;
     text-decoration: none;
-    // text-transform: uppercase;
     &:hover,
     &:focus {
       color: $primary-color;
@@ -43,6 +44,7 @@
 
   span {
     @extend %code;
+    font-size: 0.65rem;
   }
 }
 
@@ -149,6 +151,7 @@
   font-weight: 600;
   letter-spacing: -0.6px;
   margin-top: 0;
+  font-variant-numeric: lining-nums;
 }
 
 .group__count {
@@ -156,7 +159,7 @@
   border-radius: $global-radius;
   color: lighten($body-color, 10%);
   @extend %code;
-  font-size: 0.9em;
+  font-size: 0.75rem;
   font-weight: 400;
   line-height: 0.8;
   margin-left: 0.5rem;
@@ -213,6 +216,7 @@
   display: block;
   font-size: 0.7rem;
   font-weight: 400;
+  @extend %sans;
 }
 
 .group__return-home {

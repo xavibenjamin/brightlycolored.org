@@ -12,6 +12,7 @@
   padding: 0.65em 0.95em;
   text-decoration: none;
   transition: background-color 300ms ease-in-out;
+  @extend %sans;
   &:hover,
   &:focus {
     text-decoration: none;

@@ -19,7 +19,7 @@ code {
   border-radius: 3px;
   color: #bf616a;
   font-family: $monospace-font-stack;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   line-height: 1.5;
   padding: 1px 3px;
   white-space: pre;
@@ -27,7 +27,7 @@ code {
     color: inherit;
   }
   @media #{$medium-up} {
-    font-size: 1rem;
+    font-size: 0.85rem;
   }
   a & {
     color: inherit;

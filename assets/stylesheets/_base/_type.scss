@@ -7,7 +7,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   @media #{$medium-up} {
-    font-size: 17.5px;
+    font-size: 19.8px;
   }
   @media #{$xlarge-up} {
     font-size: 19.6px;
@@ -16,18 +16,24 @@ html {
 
 body {
   color: $body-color;
-  @extend %sans;
+  // @extend %sans;
+  @extend %serif;
   -webkit-hyphens: auto;
   hyphens: auto;
-  letter-spacing: -0.3px;
+  // letter-spacing: -0.3px;
   line-height: 1.4;
 }
 
 // FONTS -------------------------
 
 %sans {
-  font-family: 'Whitney SSm A', 'Whitney SSm B', system, -apple-system,
-    BlinkMacSystemFont, Avenir, sans-serif;
+  // font-family: 'Whitney SSm A', 'Whitney SSm B', system, -apple-system,
+  //   BlinkMacSystemFont, Avenir, sans-serif;
+  font-family: freight-sans-pro, sans-serif;
+}
+
+%serif {
+  font-family: freight-text-pro, serif;
 }
 
 %sans-small {
@@ -55,14 +61,14 @@ h1,
 h2,
 h5 {
   color: $heading-base-color;
-  letter-spacing: -1.1px;
+  // letter-spacing: -1.1px;
 }
 
 // TEXT --------------------------
 
 p {
   font-size: 1rem;
-  line-height: 1.7;
+  line-height: 1.6;
   + p {
     margin-top: 1rem;
   }
@@ -88,6 +94,7 @@ h3 {
   font-weight: 600;
   margin: 2.5rem 0 0.4rem;
   text-transform: uppercase;
+  @extend %sans;
 }
 
 h4 {
@@ -132,12 +139,12 @@ blockquote > ul {
     line-height: 1.7;
 
     + li {
-      margin-top: 1rem;
+      margin-top: 0.6rem;
     }
 
     ul {
       list-style: square;
-      margin-left: 1.5rem;
+      margin-left: 1rem;
       margin-top: 0.5rem;
     }
   }
@@ -158,12 +165,12 @@ blockquote > ol {
     line-height: 1.7;
 
     + li {
-      margin-top: 1rem;
+      margin-top: 0.6rem;
     }
 
     ol {
       list-style-type: lower-roman;
-      margin-left: 1.5rem;
+      margin-left: 1rem;
       margin-top: 0.5rem;
     }
   }
@@ -177,7 +184,6 @@ blockquote > ol {
 
 strong {
   font-weight: 600;
-  letter-spacing: -0.4px;
   em {
     font-style: italic;
     font-weight: 600;
@@ -198,16 +204,6 @@ mark {
 
 sup {
   font-size: 0.7rem;
-  a {
-    background: darken($light-bg-color, 10%);
-    border-radius: 50%;
-    font-weight: 600;
-    padding: 1px 6px;
-    text-decoration: none;
-    &:hover {
-      background: darken($light-bg-color, 15%);
-    }
-  }
 }
 
 p,
@@ -215,7 +211,10 @@ li,
 figcaption,
 .post__date {
   .caps {
-    @extend %sans-small;
+    font-variant-caps: all-small-caps;
+    -moz-font-feature-settings: 'c2sc';
+    -webkit-font-feature-settings: 'c2sc';
+    font-feature-settings: 'c2sc';
   }
 }
 
