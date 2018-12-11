@@ -1,5 +1,5 @@
 ---
-title: Further Proof that Facebook is Evil
+title: Facebook is Evil
 date: 2018-12-07 18:42:00 -06:00
 custom_type: post
 ---
