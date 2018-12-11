@@ -1,8 +1,14 @@
 ---
-title: Emails Show Facebook Is Well Aware That Tracking Contacts Is Creepy
+title: Further Proof that Facebook is Evil
 date: 2018-12-07 18:42:00 -06:00
 link_url: https://daringfireball.net/linked/2018/12/07/hill-facebook-emails
 featured_image: https://daringfireball.net/graphics/df-square-1024
 ---
 
-Then a man named Yul Kwon came to the rescue saying that the growth team had come up with a solution! Thanks to poor Android permission design at the time, there was a way to update the Facebook app to get “Read Call Log” permission without actually asking for it.
+Kashmir Hill writing for *Gizmodo*:
+
+> The business team wanted to get Bluetooth permissions so it could push ads to people’s phones when they walked into a store. Meanwhile, the growth team, which is responsible for getting more and more people to join Facebook, wanted to get “Read Call Log Permission” so that Facebook could track everyone whom an Android user called or texted with in order to make better friend recommendations to them.
+
+Kashmir goes on to detail how Facebook found a loophole where they could get call log permission on Android without having to ask for it. It's a chilling read that further proves that Facebook as a company is being evil, and that if you care at all about your privacy and personal data, you should have nothing to do with them or their affiliated companies.
+
+(via [Daring Fireball](https://daringfireball.net/linked/2018/12/07/hill-facebook-emails))
