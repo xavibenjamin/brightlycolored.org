@@ -1,11 +1,10 @@
 ---
 title: Further Proof that Facebook is Evil
 date: 2018-12-07 18:42:00 -06:00
-link_url: https://daringfireball.net/linked/2018/12/07/hill-facebook-emails
-featured_image: https://daringfireball.net/graphics/df-square-1024
+custom_type: post
 ---
 
-Kashmir Hill writing for *Gizmodo*:
+[Kashmir Hill writing for *Gizmodo*](https://gizmodo.com/facebook-was-fully-aware-that-tracking-who-people-call-1830884585/amp):
 
 > The business team wanted to get Bluetooth permissions so it could push ads to people’s phones when they walked into a store. Meanwhile, the growth team, which is responsible for getting more and more people to join Facebook, wanted to get “Read Call Log Permission” so that Facebook could track everyone whom an Android user called or texted with in order to make better friend recommendations to them.
 
