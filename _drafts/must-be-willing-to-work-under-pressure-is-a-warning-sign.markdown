@@ -1,7 +1,6 @@
 ---
 title: "‘Must be willing to work under pressure’ is a warning sign"
-date: 2018-12-07 14:06:58.287000000 -06:00
-published: false
+date: 2018-12-07 14:06:00 -06:00
 link_url: https://codewithoutrules.com/2018/12/03/work-under-pressure/
 featured_image: https://codewithoutrules.com/assets/titles/work-under-pressure.png
 ---

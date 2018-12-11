@@ -1,7 +1,6 @@
 ---
 title: Emails Show Facebook Is Well Aware That Tracking Contacts Is Creepy
-date: 2018-12-07 18:42:52.445000000 -06:00
-published: false
+date: 2018-12-07 18:42:00 -06:00
 link_url: https://daringfireball.net/linked/2018/12/07/hill-facebook-emails
 featured_image: https://daringfireball.net/graphics/df-square-1024
 ---
