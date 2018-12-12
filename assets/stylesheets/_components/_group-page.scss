@@ -185,7 +185,6 @@
   @media #{$medium-up} {
     column-count: 2;
     column-gap: 3rem;
-    column-rule: 1px solid $border-color;
   }
 
   @media #{$large-up} {
@@ -201,6 +200,7 @@
   line-height: 1.5;
   margin-bottom: 0.4rem;
   page-break-inside: avoid;
+  @extend %sans;
 
   a {
     text-decoration: none;
