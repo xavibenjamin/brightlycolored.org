@@ -6,7 +6,7 @@ tags:
 link_url: https://changelog.com/afk/9
 ---
 
-I had the great honor of having [Jeremy Fuksa](https://twitter.com/jeremyfuksa) on *Away from Keyboard*. We talked about the difficult times he's endured the past years while running his business, dealing with anxiety and depression, and how instead of looking at his now defunct business as a failure, the great lessons he learned from the experience.
+I had the great honor of having [Jeremy Fuksa](https://twitter.com/jeremyfuksa) on *Away from Keyboard*. We talked about the difficult times he's endured the past few years while running his business, dealing with anxiety and depression, and how instead of looking at his now defunct business as a failure, Jeremy is focused on the great lessons he learned from the experience.
 
 Sponsored by:
 
