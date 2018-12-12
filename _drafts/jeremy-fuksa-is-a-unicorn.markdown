@@ -1,5 +1,5 @@
 ---
-title: 'Away from Keyboard #9: Jeremy Fuksa is a unicorn'
+title: Jeremy Fuksa is a unicorn
 date: 2018-12-12 14:56:00 -06:00
 tags:
 - podcasts
