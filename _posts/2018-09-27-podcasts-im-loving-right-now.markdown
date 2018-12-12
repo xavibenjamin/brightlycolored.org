@@ -3,15 +3,15 @@ title: Podcasts I’m Loving Right Now
 date: 2018-09-27 11:45:00 -05:00
 tags:
 - podcasts
+custom_type: post
+subtitle: Let me recommend you some podcasts
 excerpt: Not only do I produce podcasts for a living at Changelog Media, I happen
   to be a big fan of them too.
-subtitle: Let me recommend you some podcasts
-custom_type: post
 featured_image: "/uploads/iphone-playing-podcast.jpg"
 ---
 
 <figure class="extendout">
-  <img src="{{ site.url }}/uploads/iphone-playing-podcast.jpg" alt="iPhone playing Heavyweight">
+  {% include imgic.html src="/iphone-playing-podcast.jpg" alt="iPhone playing Heavyweight">
   <figcaption><em>Heavyweight</em> playing in Overcast.</figcaption>
 </figure>
 
