@@ -11,7 +11,7 @@ featured_image: "/uploads/iphone-playing-podcast.jpg"
 ---
 
 <figure class="extendout">
-  {% include imgic.html src="/iphone-playing-podcast.jpg" alt="iPhone playing Heavyweight">
+  {% include imgic.html src="/iphone-playing-podcast.jpg" alt="iPhone playing Heavyweight" %}
   <figcaption><em>Heavyweight</em> playing in Overcast.</figcaption>
 </figure>
 
