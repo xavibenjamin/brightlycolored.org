@@ -1,10 +1,10 @@
 ---
 title: TKO Studios Trying to Break the Mold of Publishing Comics
 date: 2018-12-14 13:48:00 -06:00
-featured_image: /uploads/2018/12/tko-featured.jpg
-custom_type: post
 tags:
-  - comics
+- comics
+featured_image: "/uploads/2018/12/tko-featured.jpg"
+custom_type: post
 ---
 
 TKO Studios, a publisher I'd never heard of until recently [on The Outhouse](http://www.theouthousers.com/index.php/news/141655-tko-studios-is-trying-to-be-a-modern-comic-book-company.html) is trying something different in the comics publishing industry. [From their Twitter account](https://twitter.com/TKOpresents/status/1072261846688653312):
