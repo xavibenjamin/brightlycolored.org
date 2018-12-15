@@ -1,37 +1,37 @@
 ---
 ---
 
-$primary-color: #00b74c;
-$secondary-color: #fff400;
+$primary-color: #46bf2e;
+$secondary-color: #093945;
 
 body {
   background-color: $primary-color;
 }
 
 .site__navigation {
-  background-color: lighten($primary-color, 51%);
+  background-color: lighten($secondary-color, 75%);
 }
 
 .header__navigation {
   @media screen and (max-width: 39.9375em) {
-    background-color: lighten($primary-color, 51%);
+    background-color: lighten($secondary-color, 75%);
   }
 }
 
 .navigation a {
-  color: darken($primary-color, 5%);
+  color: lighten($secondary-color, 20%);
   &:hover,
   &:focus {
-    color: $primary-color;
+    color: lighten($secondary-color, 10%);
   }
 }
 
 .header__byline {
-  color: $secondary-color;
+  color: white;
 }
 
 .header__description {
-  color: white;
+  color: $secondary-color;
 }
 
 .logo__second-word {
@@ -39,24 +39,24 @@ body {
 }
 
 .footer {
-  background-color: #222;
+  background-color: $secondary-color;
 
   a {
-    color: rgba(white, .7);
+    color: rgba(white, 0.7);
     &:hover,
     &:focus {
-      color: $secondary-color;
-      text-decoration: underline solid $secondary-color;
+      color: $primary-color;
+      text-decoration: underline solid $primary-color;
     }
   }
-  
+
   .icon {
     fill: $secondary-color;
   }
 }
 
 .card--light {
-  background-color: lighten(#222, 82%);
+  background-color: desaturate(lighten($secondary-color, 76%), 35%);
 }
 
 blockquote {

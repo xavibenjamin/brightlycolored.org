@@ -1,54 +1,59 @@
 ---
 ---
 
-$primary-color: #1DC0D6;
-$secondary-color: #3A4B54;
+$primary-color: #8d1e67;
+$secondary-color: #a8c7c8;
 
 body {
-  background-color: $primary-color;
+  background-color: $secondary-color;
+}
+
+.header__byline,
+.header__description {
+  color: darken($secondary-color, 45%);
+}
+
+.logo__second-word {
+  fill: $primary-color;
 }
 
 .site__navigation {
-  background-color: lighten($secondary-color, 63%);
+  background-color: lighten($primary-color, 60%);
 }
 
 .header__navigation {
   @media screen and (max-width: 39.9375em) {
-    background-color: lighten($secondary-color, 63%);
+    background-color: lighten($primary-color, 60%);
   }
 }
 
-.header__description {
-  color: darken($primary-color, 25%);
-}
-
 .navigation a {
-  color: darken($primary-color, 15%);
+  color: lighten($primary-color, 20%);
   &:hover,
   &:focus {
-    color: $secondary-color;
+    color: lighten($primary-color, 10%);
   }
 }
 
 .footer {
-  background-color: $secondary-color;
-
-  .icon {
-    fill: $primary-color;
-  }
+  background-color: $primary-color;
 
   a {
-    color: rgba(white, .7);
+    color: rgba(white, 0.7);
     &:hover,
     &:focus {
-      color: $primary-color;
-      text-decoration: underline solid $primary-color;
+      color: $secondary-color;
+      text-decoration: underline solid $secondary-color;
     }
+  }
+
+  .icon {
+    fill: $secondary-color;
   }
 }
 
 .card--light {
-  background-color: lighten($secondary-color, 67%);
+  background-color: lighten($secondary-color, 20%);
 }
 
 blockquote {

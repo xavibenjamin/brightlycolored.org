@@ -31,19 +31,20 @@ body {
 }
 
 .footer {
-  background-color: darken($primary-color, 10%);
-  color: rgba(white, .75);
+  // background-color: darken($primary-color, 10%);
+  background-color: $secondary-color;
+  color: rgba(white, 0.75);
 
   .icon {
-    fill: $secondary-color;
+    fill: $primary-color;
   }
 
   a {
-    color: $secondary-color;
+    color: white;
     &:hover,
     &:focus {
-      color: $secondary-color;
-      text-decoration: underline solid $secondary-color;
+      color: rgba(white, 0.7);
+      text-decoration: underline solid rgba(white, 0.7);
     }
   }
 }
