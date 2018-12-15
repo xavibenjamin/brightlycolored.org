@@ -29,6 +29,8 @@ excerpt: Brightly Colored is a web-column about comics, Star Wars, Apple, techno
         <article class="posts__post p-body format-{% if post.custom_type %}{{ post.custom_type }}{% endif %}">
           {% if post.custom_type == 'post' %}
           <header class="post__header">
+            {% include small-author.html %}
+
             <h1>
               <a href="{{ post.url }}">{{ post.title | smartify | widont }}</a>
             </h1>
@@ -44,7 +46,8 @@ excerpt: Brightly Colored is a web-column about comics, Star Wars, Apple, techno
           {{ post.content | improve }}
 
         {% elsif post.custom_type == 'link' %}
-          <header class="post__header"> 
+          <header class="post__header">
+            {% include small-author.html %} 
             <h1>
               <a href="{{ post.link_url }}">{{ post.title | smartify | widont }}</a><a href="{{ post.url }}" title="Permalink for {{ post.title }}" class="post__permalink">&infin;</a>
             </h1>

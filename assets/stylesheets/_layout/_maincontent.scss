@@ -78,20 +78,42 @@
 .small-author {
   color: lighten($body-color, 35%);
   display: block;
-  font-size: 0.65rem;
+  font-size: 0.66rem;
   font-weight: 600;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.8rem;
+  display: grid;
+  grid-template-columns: 26px minmax(85px, auto);
+  grid-column-gap: 0.6rem;
+  align-items: center;
+
+  @media #{$large-up} {
+    position: absolute;
+    right: 106%;
+    top: 0.5rem;
+  }
+
+  @extend %sans;
+
+  img {
+    width: 26px;
+    border-radius: 3px;
+  }
+
+  span {
+    line-height: 1.1;
+  }
 
   a {
-    color: lighten($body-color, 35%);
+    display: block;
   }
 
   .format-link & {
-    margin-top: 0.3rem;
+    // margin-top: 0.3rem;
   }
 }
 
 .post__header {
+  position: relative;
   h1 {
     a {
       color: $heading-base-color;
@@ -190,6 +212,16 @@
 
 .author__picture {
   border-radius: 5px;
+}
+
+.author__credit {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.8rem;
+  color: lighten($body-color, 20%);
+  font-size: 0.75rem;
+  margin-bottom: 1.4rem;
+
+  @extend %sans;
 }
 
 // Format Post -------------------
