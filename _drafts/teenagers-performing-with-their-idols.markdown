@@ -1,7 +1,6 @@
 ---
 title: Teenagers Performing With Their Idols
-date: 2018-12-16 14:40:03.684000000 -06:00
-published: false
+date: 2018-12-16 14:40:00 -06:00
 link_url: https://kottke.org/18/12/teenagers-performing-with-their-idols
 featured_image: https://img.youtube.com/vi/IGVxaFJeYTo/0.jpg
 ---
