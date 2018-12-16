@@ -41,6 +41,17 @@ layout:
             <h2>{{ post.subtitle }}</h2>
           {% endif %}
           {{ post.content | strip_toc }}
+          {% if page.author != 'timsmith' %}
+            {% assign author = site.data.authors[page.author] %}
+            <p>
+              <a 
+                href="/authors/{{ author.author_path}}/"
+                title="{{ author.display_name }}">
+                {{ author.display_name }}
+              </a>
+              <em>is a {{ author.title | downcase }} for Brightly Colored.</em>
+            </p>
+          {% endif %}
           {% if post.custom_type == 'link' %}
             <p><a title="Permalink to ‘{{ post.title }}’" href="{{ site.url | xml_escape }}{{ post.url | xml_escape }}">∞ Read on <em>Brightly Colored</em></a></p>
           {% endif %}

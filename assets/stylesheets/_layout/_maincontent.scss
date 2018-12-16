@@ -215,13 +215,25 @@
 }
 
 .author__credit {
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 0.8rem;
+  align-items: center;
+  border: 1px solid #ddd;
   color: lighten($body-color, 20%);
+  display: grid;
   font-size: 0.75rem;
-  margin-bottom: 1.4rem;
-
+  grid-column-gap: 0.6rem;
+  grid-template-columns: 30px auto;
+  margin-bottom: 1.6rem;
+  padding: 0.6rem;
   @extend %sans;
+
+  p {
+    font-size: 0.75rem;
+  }
+
+  .author__picture {
+    width: 30px;
+    border-radius: 3px;
+  }
 }
 
 // Format Post -------------------

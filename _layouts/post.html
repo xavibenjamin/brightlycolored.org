@@ -35,15 +35,7 @@ custom_css_class: single
 
   <footer class="post__footer">
     {% if page.author != 'timsmith' %}
-      {% assign author = site.data.authors[page.author] %}
-      <p class="author__credit">
-        <a 
-          href="/authors/{{ author.author_path}}/"
-          title="{{ author.display_name }}">
-          {{ author.display_name }}
-        </a>
-        <em>is a {{ author.title | downcase }} for Brightly Colored.</em>
-      </p>
+      {% include author-credit.html %}
     {% endif %}
     {% include tags.html %}
     {% include social-links.html %}

@@ -1,0 +1,40 @@
+{% assign author = site.data.authors[page.author] %}
+{% capture author_pic_filename %}authors/{{ author.author_path }}.jpg{% endcapture %}
+
+<div class="author__credit">
+  {% if author.gravatar %}
+    <a href="/authors/{{ author.author_path }}" title="Profile for {{ author.display_name}}">
+      <img src="//gravatar.com/avatar/{{ author.gravatar}}?s=100" alt="Picture of {{ author.display_name }}" class="author__picture" height="50" width="50" />
+    </a>
+  {% else %}
+    {% if jekyll.environment == "production" %}
+    <a href="/authors/{{ author.author_path }}" title="Profile for {{ author.display_name}}">
+      <img
+        src="{{ author_pic_filename | imgix_url: w: 100, q: 70 }}"
+        class="author__picture"
+        alt="Picture of {{ author.display_name }}"
+        height="200"
+        width="200" />
+    </a>
+    {% else %}
+    <a href="/authors/{{ author.author_path }}" title="Profile for {{ author.display_name}}">
+      <img
+        src="{{ site.url }}/uploads/authors/{{ author.author_path }}.jpg"
+        class="author__picture"
+        alt="Picture of {{ author.display_name }}"
+        height="200"
+        width="200" />
+    </a>
+    {% endif %}
+  {% endif %}
+  <p>
+    <em>
+      <a 
+        href="/authors/{{ author.author_path}}/"
+        title="{{ author.display_name }}">
+        {{ author.display_name }}
+      </a>
+      is a {{ author.title | downcase }} for Brightly Colored.
+    </em>
+  </p>
+</div>

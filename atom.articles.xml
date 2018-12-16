@@ -37,6 +37,17 @@ layout:
           <h2>{{ post.subtitle }}</h2>
         {% endif %}
         {{ post.content | strip_toc }}
+        {% if page.author != 'timsmith' %}
+          {% assign author = site.data.authors[page.author] %}
+          <p>
+            <a 
+              href="/authors/{{ author.author_path}}/"
+              title="{{ author.display_name }}">
+              {{ author.display_name }}
+            </a>
+            <em>is a {{ author.title | downcase }} for Brightly Colored.</em>
+          </p>
+        {% endif %}
         {% if post.is_rss_only %}
         <hr>
         <p><em>This article is top secret! <a href="https://brightlycolored.org/2018/01/rss-club/">Learn more about RSS Club.</a></em></p>
