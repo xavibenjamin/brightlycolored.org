@@ -11,9 +11,9 @@ Hosted with: Netlify
 
 /* Tools */
 MacBook Pro 2018
-Atom
-Hyper
-Editorial
+VS Code
+iTerm2
+iA Writer
 Jekyll
 
 /* The Writing Team */
