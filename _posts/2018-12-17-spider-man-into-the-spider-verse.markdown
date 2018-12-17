@@ -18,7 +18,7 @@ review:
   type: movie
   rating: 5
   movie:
-    director: "Bob Persichetti\t, Peter Ramsey, Rodney Rothman"
+    director: Bob Persichetti, Peter Ramsey, Rodney Rothman
     date: 2018-12-14 19:15:00 -06:00
 ---
 
