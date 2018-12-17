@@ -40,8 +40,8 @@ layout:
           {% include review-info.html rss="true" %}
         {% endif %}
         {{ post.content | strip_toc }}
-        {% if page.author != 'timsmith' %}
-          {% assign author = site.data.authors[page.author] %}
+        {% if post.author != 'timsmith' %}
+          {% assign author = site.data.authors[post.author] %}
           <p>
             <a 
               href="/authors/{{ author.author_path}}/"
