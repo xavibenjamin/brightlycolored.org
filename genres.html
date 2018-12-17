@@ -44,7 +44,7 @@ excerpt: Genres covered on Brightly Colored.
       {% for genre in site.categories %}
         {% if genre[1].size == i %}
           <section class="group-section" id="{{ genre[0] | downcase | replace:' ','-' }}">
-              <h2 class="group__name">{{ genre[0] | titlecase }} <small class="group__count">{{ i }}</small></h2>
+              <h2 class="group__name">{{ genre[0] }} <small class="group__count">{{ i }}</small></h2>
               <ul class="group__post-list group__post-list--2-col">
                 {% for post in genre.last %}
                   <li class="group-post__item group-post__item--bold">
