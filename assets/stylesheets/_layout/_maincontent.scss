@@ -106,15 +106,12 @@
   a {
     display: block;
   }
-
-  .format-link & {
-    // margin-top: 0.3rem;
-  }
 }
 
 .post__header {
   position: relative;
   h1 {
+    font-variant-numeric: lining-nums;
     a {
       color: $heading-base-color;
       font-weight: 600;
