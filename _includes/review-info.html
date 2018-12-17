@@ -6,14 +6,20 @@
 
 <ul class="review-info">
   <li class="review-info__item review-info--rating">
-     {% include star-rating.html %}
+    {% if include.rss %}
+      {{ myPage.review.rating }}
+      <strong class="review-info__heading">Stars</strong>
+    {% else %}
+      {% include star-rating.html %}
+    {% endif %}
   </li>
   
   {% if myPage.review.type == 'movie' %}
-    <li class="review-info__item">
+    <li class="review-info__item review-info__item--director">
       <strong class="review-info__heading">Directed by</strong>
       {{ myPage.review.movie.director }}
     </li>
+    
     <li class="review-info__item">
       <strong class="review-info__heading">{% if myPage.review.movie.is_rewatched %}Rewatched{% else %}Watched{% endif %} on</strong>
       {{ myPage.review.movie.date | date: "%b %d, %Y" }}

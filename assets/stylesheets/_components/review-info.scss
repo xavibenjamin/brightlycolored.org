@@ -50,6 +50,12 @@
   }
 }
 
+.review-info__item--director {
+  @media #{$medium-up} {
+    max-width: 160px;
+  }
+}
+
 .review-info__item--genres {
   @media #{$medium-up} {
     max-width: 175px;
