@@ -40,6 +40,9 @@ layout:
           {% if post.subtitle %}
             <h2>{{ post.subtitle }}</h2>
           {% endif %}
+          {% if post.review.type %} 
+            {% include review-info.html rss="true" %}
+          {% endif %}
           {{ post.content | strip_toc }}
           {% if page.author != 'timsmith' %}
             {% assign author = site.data.authors[page.author] %}
