@@ -1,15 +1,24 @@
 ---
 title: 'Spider-Man: Into the Spider-Verse'
-date: 2018-12-16 16:37:00 -06:00
+date: 2018-12-17 05:45:00 -06:00
+categories:
+- animation
+- action
+- adventure
 tags:
 - Marvel
 - movies
 - movie review
 - review
-subtitle: Thrilling and reference-filled, this film is equal parts substance and fun
 custom_type: post
+subtitle: Thrilling and reference-filled, this film is equal parts substance and fun
 excerpt: Thrilling and reference-filled, this film is equal parts substance and fun
 featured_image: "/uploads/2018/12/spider-verse-review-featured.jpg"
+review:
+  type: movie
+  rating: 5
+  movie:
+    director: "Bob Persichetti\t, Peter Ramsey, Rodney Rothman"
 ---
 
 <figure class="extendout">
