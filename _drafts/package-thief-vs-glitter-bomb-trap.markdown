@@ -1,7 +1,6 @@
 ---
 title: Package Thief vs. Glitter Bomb Trap
-date: 2018-12-18 08:50:24.937000000 -06:00
-published: false
+date: 2018-12-18 08:50:00 -06:00
 link_url: http://www.youtube.com/watch?v=xoxhDk-hwuo
 ---
 

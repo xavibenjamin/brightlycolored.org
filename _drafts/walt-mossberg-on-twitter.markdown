@@ -1,7 +1,6 @@
 ---
 title: Walt Mossberg on Twitter
-date: 2018-12-18 08:35:41.356000000 -06:00
-published: false
+date: 2018-12-18 08:35:00 -06:00
 link_url: https://twitter.com/waltmossberg/status/1074689946571685888
 featured_image: https://pbs.twimg.com/profile_images/463735129698205696/lgV8ScFe_400x400.jpeg
 ---
