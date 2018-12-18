@@ -1,9 +1,9 @@
 ---
-title: "Walt Mossberg: ‘I’ve Decided to Quit Facebook’"
+title: 'Walt Mossberg: ‘I’ve Decided to Quit Facebook’'
 date: 2018-12-18 10:09:00 -06:00
-custom_type: post
 tags:
 - tech
+custom_type: post
 ---
 
 [Walt Mossberg on Twitter](https://twitter.com/waltmossberg/status/1074689946571685888):
