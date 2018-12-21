@@ -1,7 +1,6 @@
 ---
 title: Become A Facebook-Free Business
-date: 2018-12-19 23:17:41.031000000 -06:00
-published: false
+date: 2018-12-19 23:17:00 -06:00
 link_url: https://m.signalvnoise.com/become-a-facebook-free-business-5bfefc20c09d
 featured_image: https://cdn-images-1.medium.com/max/1200/1*gWRIwyd7mT2GNN7b5wAhQQ.png
 ---
