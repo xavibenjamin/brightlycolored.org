@@ -1,8 +1,11 @@
 ---
 title: Become A Facebook-Free Business
 date: 2018-12-19 23:17:00 -06:00
+tags:
+- tech
+- security
+- privacy
 link_url: https://m.signalvnoise.com/become-a-facebook-free-business-5bfefc20c09d
-featured_image: https://cdn-images-1.medium.com/max/1200/1*gWRIwyd7mT2GNN7b5wAhQQ.png
 ---
 
-If Facebook’s endless privacy scandals have shown one thing, it’s that the company has far too much data on its users, and that they can’t be trusted not to sell, barter, or abuse that data whether for profit, growth, or negligence.
+I'm glad that the irony of writing this post on Medium isn't lost on DHH. That aside, I agree. At this point, a business that decides not to associate itself with Facebook or it's other brands is a business I feel better about trusting.
