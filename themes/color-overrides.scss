@@ -45,6 +45,8 @@ mark {
 .page-header__description,
 .post__subtitle,
 .post__meta,
+.posts__post .post__topics:before,
+.related-posts .post__topics:before,
 figcaption {
   color: $text-color-light;
 }

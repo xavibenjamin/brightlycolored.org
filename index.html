@@ -43,8 +43,8 @@ excerpt: Brightly Colored is a web-column about comics, Star Wars, Apple, techno
     {% endif %}
 
       <footer class="post__footer">
-        {% include tags.html %}
         <a class="post__permalink" href="{{ post.url}}" title="Permalink to {{ post.title }}"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></a>
+        {% include tags.html %}
       </footer>
 
     </article>
