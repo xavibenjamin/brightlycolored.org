@@ -29,7 +29,6 @@ hr,
 .card--light,
 .post-list__item .related__title,
 .group-post__item a,
-.groups-list a,
 .carbon-wrap a,
 thead th,
 h1,
@@ -48,6 +47,11 @@ mark {
 .post__meta,
 figcaption {
   color: $text-color-light;
+}
+
+.groups-list a,
+h3 {
+  color: lighten($text-color, 10%);
 }
 
 blockquote {

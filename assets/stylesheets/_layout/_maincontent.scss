@@ -7,11 +7,11 @@
   padding: 4rem 0 6rem;
 
   @media #{$medium-up} {
-    min-height: calc(100vh - 370px);
+    min-height: calc(100vh - 169px);
   }
 
   @media #{$large-up} {
-    min-height: calc(100vh - 237px);
+    min-height: calc(100vh - 202px);
   }
 }
 
@@ -135,12 +135,9 @@
 
 .post__author {
   a {
-    text-decoration: underline dotted $link-color;
-
     &:hover,
     &:focus {
       background-color: rgba($link-color, 0.1);
-      text-decoration: underline dotted $link-color;
     }
   }
 }
@@ -453,6 +450,7 @@ $reddit-color: #ff4500;
 
   .post__topics {
     font-size: 0.66rem;
+    margin-top: 2px;
     a {
       color: $light-text-color;
       text-transform: uppercase;
@@ -483,7 +481,7 @@ $reddit-color: #ff4500;
 
 .related__meta {
   font-family: $font-code;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.6rem;
 }
 
 .post-list__item {
