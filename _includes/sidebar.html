@@ -1,0 +1,21 @@
+<aside class="sidebar">
+  {% include ad.html %}
+
+  <nav id="navigation" class="site__navigation">
+    <ul class="navigation">
+      <li><a href="/about/">About</a></li>
+      <li><a href="/archive/">Archive</a></li>
+      <li><a href="/topics/">Topics</a></li>
+      <li><a href="/styleguide/">Style Guide</a></li>
+    </ul>
+  </nav>
+
+  <small class="sidebar__subscribe">There a few different ways to get updates from this site. Take a look at your options on the <a href="/subscribe/">subscribe page</a>.</small>
+
+  {% unless page.url == '/search/' %}
+    {% include search-form.html %}
+  {% endunless %}
+
+  <small class="sidebar__copyright">&copy; 2018 Timothy B. Smith.</small>
+</aside>
+

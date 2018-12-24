@@ -41,11 +41,11 @@
 }
 
 .card--large {
-  margin: 1.8rem 0;
+  margin: 2.2rem 0;
 }
 
 .card--light {
-  background-color: lighten($secondary-color, 76%);
+  background-color: $light-bg-color;
   color: $body-color;
 
   h2 {
@@ -53,110 +53,18 @@
   }
 }
 
-// Slash List --------------------
-// List component with little sla-
-// shes in between items.
-// -------------------------------
-
-.slash-list {
-  display: flex;
-  flex-wrap: wrap;
-
-  li {
-    align-items: center;
-    display: flex;
-    font-size: 0.75rem;
-    line-height: 1.2;
-
-    &:not(:last-of-type) {
-      margin-right: 15px;
-
-      &:after {
-        color: darken($border-color, 10%);
-        content: '/';
-        font-size: 1.1rem;
-        font-weight: normal;
-        left: 7px;
-        position: relative;
-        top: -2px;
-      }
-    }
-  }
-
-  a {
-    text-decoration: none;
-  }
-}
-
-.slash-list--large {
-  li {
-    font-size: 0.85rem;
-    line-height: 1.4;
-  }
-}
-
-.slash-list--secondary {
-  color: lighten($heading-base-color, 25%);
-
-  a {
-    color: lighten($heading-base-color, 25%);
-
-    &:hover,
-    &:focus {
-      color: lighten($heading-base-color, 25%);
-    }
-  }
-}
-
-.slash-list--bold {
-  font-weight: 600;
-}
-
-.slash-list__title {
-  @extend %sans;
-  font-size: 0.6rem;
-  line-height: 1;
-  margin-bottom: 0.2rem;
-}
-
 // -----------------------------------------
 // CARBON AD STYLES
 // -----------------------------------------
 
 .bc-ad-container {
-  margin-bottom: 4rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 4rem;
-  max-width: 425px !important;
-  width: 90%;
-  @extend %sans;
-  .post & {
-    margin-bottom: 0;
-  }
-
+  margin-bottom: 2.2rem;
   @media #{$medium-up} {
-    margin-bottom: 8rem;
-    margin-top: 8rem;
-  }
-}
-
-.post + .bc-ad-container {
-  @media #{$medium-up} {
-    margin-bottom: 0;
-    margin-top: 5rem;
+    margin-bottom: 4rem;
   }
 }
 
 .carbon-wrap {
-  align-items: center;
-  background-color: $light-bg-color;
-  border-radius: $global-radius;
-  display: grid;
-  grid-column-gap: 15px;
-  grid-template-columns: 130px minmax(auto, 247px);
-  padding: 1rem;
-
   a {
     color: $body-color;
     font-weight: normal;
@@ -170,28 +78,17 @@
 
 .carbon-text {
   display: block;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   line-height: 1.5;
   text-align: left;
-
-  @media #{$medium-up} {
-    font-size: 0.8rem;
-  }
+  margin-top: 0.6rem;
 }
 
 .carbon-poweredby {
-  color: lighten($body-color, 10%);
   display: block;
-  font-size: 0.65rem;
+  font-size: 0.6rem;
   line-height: 1;
-  margin-top: 0.5rem;
-  right: 0;
-  text-align: center;
+  margin-top: 0.8rem;
   text-decoration: none;
   text-transform: uppercase;
-
-  &:hover,
-  &:focus {
-    text-decoration: underline solid #aaa;
-  }
 }

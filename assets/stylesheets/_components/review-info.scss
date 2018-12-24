@@ -8,7 +8,6 @@
 .review-info {
   font-size: 0.7rem;
   margin-top: 0.8rem;
-  @extend %sans;
 
   @media #{$medium-up} {
     border-top: 1px solid $border-color;
@@ -20,12 +19,12 @@
 .review-info__item {
   font-variant-numeric: lining-nums;
   line-height: 1.2;
-  padding-bottom: 0.6rem;
-  padding-top: 0.6rem;
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
 
   @media #{$medium-up} {
     padding-bottom: 0.2rem;
-    padding-top: 0.6rem;
+    padding-top: 0.8rem;
   }
 
   + .review-info__item {
@@ -34,8 +33,8 @@
     @media #{$medium-up} {
       border-left: 1px solid $border-color;
       border-top: 0;
-      margin-left: 0.6rem;
-      padding-left: 0.6rem;
+      margin-left: 0.8rem;
+      padding-left: 0.8rem;
     }
   }
 
@@ -89,4 +88,12 @@
       margin-left: 0.15rem;
     }
   }
+}
+
+.star--empty {
+  fill: $light-bg-color;
+}
+
+.star--filled {
+  fill: $primary-color;
 }

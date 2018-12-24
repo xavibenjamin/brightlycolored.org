@@ -11,63 +11,43 @@ excerpt: Brightly Colored is a web-column about comics, Star Wars, Apple, techno
 <section class="posts">
   {% assign filteredPosts = site.posts | where_exp: "item", "item.is_rss_only != true" %}
   {% for post in filteredPosts limit: 5 %}
-    {% assign current_day = post.date | date: "%A, %B %d, %Y" %}
+    <article class="posts__post p-body format-{% if post.custom_type %}{{ post.custom_type }}{% endif %}">
+      {% if post.custom_type == 'post' %}
+      <header class="post__header">
+        {% include small-author.html %}
+
+        <h1>
+          <a href="{{ post.url }}">{{ post.title | smartify | widont }}</a>
+        </h1>
+        {% if post.subtitle %}
+        <h2 class="post__subtitle">{{ post.subtitle | smartify | widont }}</h2>
+        {% endif %}
+        
+        {% if post.review.type %}
+          {% include review-info.html %}
+        {% endif %}
+      </header>
     
-    {% if current_day != previous_day %}
-      {% unless forloop.first %}
-        </div>
-      {% endunless %}
+      {{ post.content | improve }}
 
-      <div class="posts__date">
-        <span class="current-day">{{ current_day }}</span>
-      </div>
+    {% elsif post.custom_type == 'link' %}
+      <header class="post__header">
+        {% include small-author.html %} 
+        <h1>
+          <a href="{{ post.link_url }}">{{ post.title | smartify | widont }}</a>
+        </h1>
+      </header>
+    
+      {{ post.content | improve }}
 
-      <div class="day-posts">
-
-      {% assign previous_day = current_day %}
     {% endif %}
-        <article class="posts__post p-body format-{% if post.custom_type %}{{ post.custom_type }}{% endif %}">
-          {% if post.custom_type == 'post' %}
-          <header class="post__header">
-            {% include small-author.html %}
 
-            <h1>
-              <a href="{{ post.url }}">{{ post.title | smartify | widont }}</a>
-            </h1>
-            {% if post.subtitle %}
-            <h2 class="post__subtitle">{{ post.subtitle | smartify | widont }}</h2>
-            {% endif %}
-            
-            {% if post.review.type %}
-              {% include review-info.html %}
-            {% endif %}
-          </header>
-        
-          {{ post.content | improve }}
+      <footer class="post__footer">
+        {% include tags.html %}
+        <a class="post__permalink" href="{{ post.url}}" title="Permalink to {{ post.title }}"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></a>
+      </footer>
 
-        {% elsif post.custom_type == 'link' %}
-          <header class="post__header">
-            {% include small-author.html %} 
-            <h1>
-              <a href="{{ post.link_url }}">{{ post.title | smartify | widont }}</a><a href="{{ post.url }}" title="Permalink for {{ post.title }}" class="post__permalink">&infin;</a>
-            </h1>
-          </header>
-        
-          {{ post.content | improve }}
-
-        {% endif %}
-
-          <footer class="post__footer">
-            {% include tags.html %}
-          </footer>
-
-        </article>
-        {% if forloop.first %}
-           {% include ad.html %}
-        {% endif %}
-        {% if forloop.last %}
-        </div>
-        {% endif %}
+    </article>
   {% endfor %}
 </section>
 

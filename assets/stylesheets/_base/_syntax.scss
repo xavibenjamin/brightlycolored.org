@@ -1,10 +1,7 @@
-$monospace-font-stack: Operator Mono, Inconsolata, 'Inconsolata-g for Powerline',
-  monospace;
-
 // -------------------------------
 
 pre {
-  font-family: $monospace-font-stack;
+  font-family: Operator Mono, monospace;
   line-height: 1.5;
   overflow-x: auto;
   white-space: pre;
@@ -18,7 +15,7 @@ code {
   background: lighten(#f5f5f5, 1%);
   border-radius: 3px;
   color: #bf616a;
-  font-family: $monospace-font-stack;
+  font-family: Operator Mono, monospace;
   font-size: 0.95rem;
   line-height: 1.5;
   padding: 1px 3px;
@@ -27,7 +24,7 @@ code {
     color: inherit;
   }
   @media #{$medium-up} {
-    font-size: 0.85rem;
+    font-size: 1rem;
   }
   a & {
     color: inherit;
