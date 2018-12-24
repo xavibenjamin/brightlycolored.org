@@ -4,29 +4,34 @@
 
 body {
   @media #{$medium-up} {
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+  }
+
+  @media #{$large-up} {
     display: grid;
     grid-template-columns: auto 195px;
     max-width: 1300px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 90%;
   }
 }
 
 .main {
-  @media #{$medium-up} {
+  @media #{$large-up} {
     grid-column: span 1;
     grid-row: 2;
   }
 }
 
 .sidebar {
-  @media #{$medium-up} {
+  @media #{$large-up} {
     grid-row: 2;
   }
 }
 
 .footer {
-  @media #{$medium-up} {
+  @media #{$large-up} {
     grid-column: span 2;
     grid-row: 3;
   }

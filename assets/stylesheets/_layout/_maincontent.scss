@@ -525,9 +525,9 @@ $reddit-color: #ff4500;
   margin-right: auto;
   max-width: 900px;
 
-  @media #{$xlarge-up} {
-    max-width: 1200px;
-  }
+  // @media #{$xlarge-up} {
+  //   max-width: 1200px;
+  // }
 }
 
 .p-body
@@ -545,7 +545,7 @@ $reddit-color: #ff4500;
   @media #{$large-up} {
     width: 100%;
   }
-  @media #{$xlarge-up} {
-    max-width: 630px;
-  }
+  // @media #{$xlarge-up} {
+  //   max-width: 630px;
+  // }
 }
