@@ -17,6 +17,12 @@ body {
   }
 }
 
+.header {
+  @media #{$large-up} {
+    grid-column: span 2;
+  }
+}
+
 .main {
   @media #{$large-up} {
     grid-column: span 1;
