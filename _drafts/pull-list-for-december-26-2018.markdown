@@ -10,6 +10,12 @@ Every Wednesday, new comic books hit the shelves with new stories to be engrosse
 
 ## What I read last week
 
+- The Amazing Spider-Man #12
+- American Carnage #2
+- Aquaman #43
+- Catwoman #6
+- Cover #4
+
 **Favorite of the week:**
 
 ## Picking up this week
