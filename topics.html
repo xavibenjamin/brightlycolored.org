@@ -65,7 +65,7 @@ excerpt: Topics covered on Brightly Colored.
             {% if tag[0] == 'comics' %}<p>Writing about comics brings me <em>almost</em> as much joy as reading them.</p>{% endif %}
             {% if tag[0] == 'pull list' %}<p>The list of comic books I’m buying every week.</p>{% endif
             %}
-            <ul class="group__post-list group__post-list--3-col">
+            <ul class="group__post-list group__post-list--2-col">
               {% for post in tag.last %}
                 <li class="group-post__item">
                   <a href="{{ post.url }}">{{ post.title | caps }}</a>

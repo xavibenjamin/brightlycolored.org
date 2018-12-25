@@ -2,24 +2,38 @@
 // MAIN LAYOUT COMPONENTS
 // -----------------------------------------
 
-.header,
-.home__header,
-.site__navigation,
-.main,
-.footer {
-  margin-left: auto;
-  margin-right: auto;
-
+body {
   @media #{$medium-up} {
-    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
   }
 
   @media #{$large-up} {
-    max-width: 1150px;
+    display: grid;
+    grid-template-columns: auto 195px;
+    max-width: 1300px;
+    width: 90%;
   }
+}
 
-  @media #{$xlarge-up} {
-    max-width: 1400px;
+.main {
+  @media #{$large-up} {
+    grid-column: span 1;
+    grid-row: 2;
+  }
+}
+
+.sidebar {
+  @media #{$large-up} {
+    grid-row: 2;
+  }
+}
+
+.footer {
+  @media #{$large-up} {
+    grid-column: span 2;
+    grid-row: 3;
   }
 }
 
@@ -51,16 +65,16 @@
 
 .page-header__title {
   color: $heading-base-color;
-  font-size: 2rem;
-  letter-spacing: -0.3px;
-  margin-bottom: 0.65rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 0.2rem;
 }
 
 .page-header__description {
   color: lighten($body-color, 20%);
-  font-size: 1.3rem;
+  font-family: $font-display;
+  font-size: 1.4rem;
   line-height: 1.35;
-  @extend %sans;
 }
 
 // -----------------------------------------
@@ -93,8 +107,8 @@
   .author__name {
     font-size: 1.5rem;
     font-weight: 600;
-    letter-spacing: -0.6px;
-    margin-bottom: 0;
+    color: $heading-base-color;
+    margin: 0;
 
     @media #{$medium-up} {
       font-size: 1.8rem;
@@ -103,9 +117,7 @@
 
   .author__title {
     color: lighten($body-color, 15%);
-    @extend %sans;
     font-size: 1.2rem;
-    letter-spacing: -0.6px;
     margin-bottom: 0;
     margin-top: 0;
     text-transform: none;

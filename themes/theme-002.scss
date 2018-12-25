@@ -1,76 +1,18 @@
 ---
 ---
 
-$primary-color: #3b3947;
-$secondary-color: #ff7296;
+$primary-color: #ff7296;
+$secondary-color: #35314f;
 
-body {
-  background-color: $primary-color;
-}
+$bg-color: $primary-color;
+$footer-bg-color: $secondary-color;
 
-.site__navigation {
-  background-color: lighten($secondary-color, 23%);
-}
+$text-color: lighten($secondary-color, 15%);
+$text-color-light: lighten($text-color, 22%);
 
-.header__navigation {
-  @media screen and (max-width: 39.9375em) {
-    background-color: lighten($secondary-color, 23%);
-  }
-}
+$bg-color-light: lighten($primary-color, 24%);
+$border-color: lighten($secondary-color, 65%);
 
-.navigation a {
-  color: darken($secondary-color, 10%);
-  &:hover,
-  &:focus {
-    color: $secondary-color;
-  }
-}
+$footer-link-color: white;
 
-.header__byline {
-  color: $secondary-color;
-}
-
-.footer {
-  // background-color: darken($primary-color, 10%);
-  background-color: $secondary-color;
-  color: rgba(white, 0.75);
-
-  .icon {
-    fill: $primary-color;
-  }
-
-  a {
-    color: white;
-    &:hover,
-    &:focus {
-      color: rgba(white, 0.7);
-      text-decoration: underline solid rgba(white, 0.7);
-    }
-  }
-}
-
-.card--light {
-  background-color: lighten($secondary-color, 24%);
-}
-
-blockquote {
-  border-left-color: $secondary-color;
-}
-
-.posts__date .current-day:before {
-  background-color: $secondary-color;
-}
-
-.btn--primary {
-  background-color: $secondary-color;
-  &:hover,
-  &:focus {
-    background-color: $primary-color;
-  }
-}
-
-.footnotes {
-  &:before {
-    background-color: $secondary-color;
-  }
-}
+@import '../../themes/color-overrides';

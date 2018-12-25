@@ -1,5 +1,5 @@
 ---
-title: Become A Facebook-Free Business
+title: Become a Facebook-Free Business
 date: 2018-12-21 14:27:00 -06:00
 tags:
 - tech

@@ -1,5 +1,5 @@
 ---
-title: About Brightly Colored
+title: About
 permalink: "/about/"
 excerpt: Find out more about Brightly Colored.
 layout: page

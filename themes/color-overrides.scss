@@ -1,0 +1,132 @@
+body {
+  background-color: $bg-color;
+  color: $text-color;
+}
+
+.sidebar,
+.group__count,
+.card--light {
+  background-color: $bg-color-light;
+}
+
+h5 {
+  &:before {
+    background-color: $border-color;
+  }
+}
+
+hr,
+.groups-list a,
+.review-info,
+.review-info__item + .review-info__item {
+  border-color: $border-color;
+}
+
+.format-post h1 a,
+.page-header__title,
+.group__count,
+.card--light h2,
+.card--light,
+.post-list__item .related__title,
+.group-post__item a,
+.carbon-wrap a,
+.author--single .author__name,
+thead th,
+h1,
+h2,
+h5,
+mark {
+  color: $text-color;
+}
+
+.post__topics a,
+.post__permalink,
+.post-list__item .related__date,
+.related-posts .post__topics a,
+.page-header__description,
+.post__subtitle,
+.post__meta,
+.posts__post .post__topics:before,
+.related-posts .post__topics:before,
+.small-author:after,
+.slash-list li + li:before,
+.author__credit,
+.author--single .author__title,
+figcaption {
+  color: $text-color-light;
+}
+
+.groups-list a,
+h3 {
+  color: lighten($text-color, 10%);
+}
+
+blockquote {
+  border-left-color: $primary-color;
+  color: lighten($text-color, 13%);
+}
+
+.btn--primary {
+  background-color: $primary-color;
+  &:hover,
+  &:focus {
+    background-color: darken($primary-color, 5%);
+  }
+}
+
+.toc-wrapper {
+  border-color: rgba($secondary-color, 0.15);
+
+  h2 {
+    background-color: rgba($secondary-color, 0.05);
+  }
+}
+
+.footnotes {
+  &:before {
+    background-color: $primary-color;
+  }
+}
+
+.footer {
+  background-color: $footer-bg-color;
+
+  a {
+    color: $footer-link-color;
+  }
+
+  .icon {
+    fill: $primary-color;
+  }
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: $bg-color-light;
+}
+
+table,
+th,
+td {
+  border-color: $border-color;
+}
+
+::-webkit-input-placeholder {
+  color: $text-color-light;
+}
+::-moz-placeholder {
+  color: $text-color-light;
+}
+:-ms-input-placeholder {
+  color: $text-color-light;
+}
+:-moz-placeholder {
+  color: $text-color-light;
+}
+
+.star--empty {
+  fill: $border-color;
+}
+
+.star--filled {
+  fill: $primary-color;
+}

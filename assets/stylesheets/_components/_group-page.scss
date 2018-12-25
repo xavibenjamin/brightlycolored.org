@@ -15,7 +15,6 @@
   margin-bottom: 1rem;
   margin-top: 1rem;
   font-variant-numeric: lining-nums;
-  @extend %sans;
 
   @media #{$small-only} {
     margin-left: auto;
@@ -43,7 +42,7 @@
   }
 
   span {
-    @extend %code;
+    font-family: $font-code;
     font-size: 0.65rem;
   }
 }
@@ -146,19 +145,17 @@
 .group__name {
   align-items: center;
   display: flex;
-  @extend %sans;
   font-size: 1rem;
   font-weight: 600;
-  letter-spacing: -0.6px;
   margin-top: 0;
   font-variant-numeric: lining-nums;
 }
 
 .group__count {
-  background: darken($light-bg-color, 1%);
+  background: $light-bg-color;
   border-radius: $global-radius;
   color: lighten($body-color, 10%);
-  @extend %code;
+  font-family: $font-code;
   font-size: 0.75rem;
   font-weight: 400;
   line-height: 0.8;
@@ -196,14 +193,14 @@
   break-inside: avoid;
   -webkit-column-break-inside: avoid;
   display: block;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   line-height: 1.5;
-  margin-bottom: 0.4rem;
+  margin-bottom: 1rem;
   page-break-inside: avoid;
-  @extend %sans;
 
   a {
-    text-decoration: none;
+    color: $body-color;
+    font-weight: 400;
   }
 }
 
@@ -213,10 +210,9 @@
 
 .group-post__meta-info {
   color: lighten($body-color, 25%);
-  display: block;
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   font-weight: 400;
-  @extend %sans;
+  margin-left: 0.4rem;
 }
 
 .group__return-home {
@@ -230,5 +226,4 @@
   text-transform: uppercase;
   transition: opacity 0.2s ease-in-out;
   vertical-align: middle;
-  @extend %sans;
 }

@@ -1,0 +1,41 @@
+// -------------------------------
+// SIDEBAR
+// -------------------------------
+
+.sidebar {
+  background-color: $light-bg-color;
+  padding: 2rem 5%;
+  @media #{$medium-up} {
+    padding: 4rem 1.4rem 3rem;
+  }
+}
+
+.site__navigation {
+  li {
+    + li {
+      margin-top: 0.2rem;
+    }
+  }
+  a {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}
+
+// .sidebar__description {
+//   margin-top: 1rem;
+//   font-size: 0.7rem;
+//   line-height: 1.3;
+// }
+
+.sidebar__subscribe {
+  display: block;
+  font-size: 0.68rem;
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+.sidebar__copyright {
+  font-size: 0.65rem;
+}

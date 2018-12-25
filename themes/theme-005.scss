@@ -1,81 +1,18 @@
 ---
 ---
 
-$primary-color: #ff008f;
-$secondary-color: #9c1c90;
+$primary-color: #5bc3c1;
+$secondary-color: #2c0045;
 
-body {
-  background-color: $primary-color;
-}
+$bg-color: $primary-color;
+$footer-bg-color: $secondary-color;
 
-.site__navigation {
-  background-color: lighten($secondary-color, 53%);
-}
+$text-color: desaturate(lighten($secondary-color, 28%), 85%);
+$text-color-light: lighten($text-color, 16%);
 
-.header__navigation {
-  @media screen and (max-width: 39.9375em) {
-    background-color: lighten($secondary-color, 53%);
-  }
-}
+$bg-color-light: desaturate(lighten($primary-color, 37%), 17%);
+$border-color: desaturate(lighten($secondary-color, 77%), 35%);
 
-.header__description {
-  color: #ffe000;
-}
+$footer-link-color: white;
 
-.navigation a {
-  color: lighten($secondary-color, 10%);
-  &:hover,
-  &:focus {
-    color: $secondary-color;
-  }
-}
-
-.header {
-  background-color: $primary-color;
-}
-
-.header__byline {
-  color: white;
-}
-
-.footer {
-  background-color: $secondary-color;
-  color: rgba(white, .75);
-
-  a {
-    color: rgba(white, .75);
-    &:hover,
-    &:focus {
-      color: white;
-    }
-  }
-  .icon {
-    fill: #ffe000;
-  }
-}
-
-.card--light {
-  background-color: lighten($secondary-color, 60%);
-}
-
-blockquote {
-  border-left-color: $primary-color;
-}
-
-.posts__date .current-day:before {
-  background-color: $primary-color;
-}
-
-.btn--primary {
-  background-color: $primary-color;
-  &:hover,
-  &:focus {
-    background-color: darken($primary-color, 5%);
-  }
-}
-
-.footnotes {
-  &:before {
-    background-color: $primary-color;
-  }
-}
+@import '../../themes/color-overrides';
