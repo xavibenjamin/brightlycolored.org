@@ -25,11 +25,9 @@
 
 .post__permalink {
   color: $light-text-color;
-  font-weight: normal;
   display: block;
   font-family: $font-code;
   font-size: 0.7rem;
-  margin-top: 0.2rem;
   text-decoration: none;
   &:hover,
   &:focus {
@@ -97,6 +95,11 @@
 
 .post__footer {
   margin-top: 1.8rem;
+  @media #{$medium-up} {
+    .posts__post & {
+      display: flex;
+    }
+  }
 }
 
 .archive-link {
@@ -126,11 +129,9 @@
 
 .post__meta {
   color: $light-text-color;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-family: $font-code;
-  letter-spacing: 0.6px;
   margin-bottom: 1rem;
-  text-transform: uppercase;
 }
 
 .post__author {
@@ -191,10 +192,11 @@
 
   h1 {
     font-size: 2.1rem;
-    font-weight: 600;
-    line-height: 1.1;
+    font-weight: 700;
+    line-height: 1.15;
     a {
       color: $body-color;
+      font-weight: inherit;
     }
   }
 }
@@ -306,12 +308,12 @@
   }
 
   h1 {
-    font-size: 1.7rem;
+    font-size: 1.65rem;
     line-height: 1.3;
     font-weight: normal;
   }
 
-  h1 a:not(.post__permalink) {
+  h1 a {
     text-decoration: underline solid $link-underline;
 
     &:focus,
@@ -369,6 +371,24 @@
     &:hover,
     &:focus {
       color: $link-color;
+    }
+  }
+
+  @media #{$small-only} {
+    .posts__post & {
+      margin-top: 4px;
+    }
+  }
+
+  @media #{$medium-up} {
+    .posts__post & {
+      &:before {
+        color: $light-text-color;
+        content: '/';
+        margin-left: 0.6rem;
+        margin-right: 0.6rem;
+        font-weight: normal;
+      }
     }
   }
 }
@@ -451,9 +471,18 @@ $reddit-color: #ff4500;
   .post__topics {
     font-size: 0.66rem;
     margin-top: 2px;
+    @media #{$medium-up} {
+      margin-top: 0;
+
+      &:before {
+        content: '/';
+        color: $light-text-color;
+        margin-right: 0.6rem;
+        margin-left: 0.6rem;
+      }
+    }
     a {
       color: $light-text-color;
-      text-transform: uppercase;
     }
   }
 
@@ -482,6 +511,9 @@ $reddit-color: #ff4500;
 .related__meta {
   font-family: $font-code;
   margin-bottom: 0.6rem;
+  @media #{$medium-up} {
+    display: flex;
+  }
 }
 
 .post-list__item {
@@ -496,7 +528,6 @@ $reddit-color: #ff4500;
     font-weight: 600;
     display: block;
     font-variant-numeric: lining-nums;
-    text-transform: uppercase;
   }
 
   .related__title {
@@ -531,7 +562,8 @@ $reddit-color: #ff4500;
 .p-body
   > *:not(.iframe-container):not(.card):not(.extendout):not(.photo-grid):not(.alignleft):not(.alignright):not(.small__right):not(.small__left):not(.highlighter-rouge):not(.post__footer):not(.tag__section):not(table):not(.post__section):not(.page__header--full),
 .posts__date > .current-day,
-.post__footer > *:not(.card),
+.post .post__footer > *:not(.card),
+.posts__post .post__footer,
 .highlighter-rouge,
 .photo-grid > *:not(img),
 .extendout > *:not(img),
