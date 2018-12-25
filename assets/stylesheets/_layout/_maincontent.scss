@@ -28,6 +28,7 @@
   display: block;
   font-family: $font-code;
   font-size: 0.7rem;
+  font-weight: normal;
   text-decoration: none;
   &:hover,
   &:focus {
@@ -37,20 +38,16 @@
 }
 
 .small-author {
-  color: lighten($body-color, 35%);
-  display: block;
+  color: $light-text-color;
+  font-family: $font-code;
   font-size: 0.66rem;
-  font-weight: 600;
-  margin-bottom: 0.8rem;
-  display: grid;
-  grid-template-columns: 26px minmax(85px, auto);
-  grid-column-gap: 0.6rem;
-  align-items: center;
 
-  @media #{$large-up} {
-    position: absolute;
-    right: 106%;
-    top: 0.5rem;
+  @media #{$medium-up} {
+    &:after {
+      content: '/';
+      margin-left: 0.6rem;
+      margin-right: 0.6rem;
+    }
   }
 
   img {
@@ -59,11 +56,7 @@
   }
 
   span {
-    line-height: 1.1;
-  }
-
-  a {
-    display: block;
+    line-height: 1.3;
   }
 }
 
@@ -164,17 +157,15 @@
 
 .author__credit {
   align-items: center;
-  border: 1px solid $border-color;
-  color: lighten($body-color, 20%);
+  color: $light-text-color;
   display: grid;
-  font-size: 0.75rem;
+  font-family: $font-code;
   grid-column-gap: 0.6rem;
   grid-template-columns: 30px auto;
   margin-bottom: 1.6rem;
-  padding: 0.6rem;
 
   p {
-    font-size: 0.75rem;
+    font-size: 0.66rem;
   }
 
   .author__picture {
