@@ -107,7 +107,8 @@ body {
   .author__name {
     font-size: 1.5rem;
     font-weight: 600;
-    margin-bottom: 0;
+    color: $heading-base-color;
+    margin: 0;
 
     @media #{$medium-up} {
       font-size: 1.8rem;

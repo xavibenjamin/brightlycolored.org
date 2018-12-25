@@ -30,6 +30,7 @@ hr,
 .post-list__item .related__title,
 .group-post__item a,
 .carbon-wrap a,
+.author--single .author__name,
 thead th,
 h1,
 h2,
@@ -48,7 +49,9 @@ mark {
 .posts__post .post__topics:before,
 .related-posts .post__topics:before,
 .small-author:after,
+.slash-list li + li:before,
 .author__credit,
+.author--single .author__title,
 figcaption {
   color: $text-color-light;
 }

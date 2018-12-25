@@ -53,6 +53,39 @@
   }
 }
 
+// Slash List --------------------
+// List component with little sla-
+// shes in between items.
+// -------------------------------
+
+.slash-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    align-items: center;
+    display: flex;
+    font-size: 0.75rem;
+    line-height: 1.2;
+
+    + li {
+      &:before {
+        color: $light-text-color;
+        content: '/';
+        margin-left: 0.6rem;
+        margin-right: 0.6rem;
+      }
+    }
+  }
+}
+
+.slash-list__title {
+  line-height: 1;
+  font-size: 0.75rem;
+  margin-bottom: 0.4rem;
+  margin-top: 0;
+}
+
 // -----------------------------------------
 // CARBON AD STYLES
 // -----------------------------------------
