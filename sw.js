@@ -28,8 +28,7 @@ const filesToCache = [
   "/themes/theme-002.css",
   "/themes/theme-003.css",
   "/themes/theme-004.css",
-  "/themes/theme-005.css",
-  "/themes/theme-006.css"
+  "/themes/theme-005.css"
 ];
 
 
