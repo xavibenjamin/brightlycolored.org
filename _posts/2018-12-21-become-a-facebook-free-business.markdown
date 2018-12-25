@@ -2,9 +2,9 @@
 title: Become a Facebook-Free Business
 date: 2018-12-21 14:27:00 -06:00
 tags:
-  - tech
-  - security
-  - privacy
+- tech
+- security
+- privacy
 link_url: https://m.signalvnoise.com/become-a-facebook-free-business-5bfefc20c09d
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Style Guide
-permalink: '/styleguide/'
+permalink: "/styleguide/"
 layout: page
 exclude_from_search: true
 excerpt: Style guide for Brightly Colored.
