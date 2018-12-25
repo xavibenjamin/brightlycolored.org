@@ -1,11 +1,11 @@
 ---
 title: '2018: Year in Review'
-subtitle: Highlights of the past year
 date: 2018-12-24 00:14:00 -06:00
-custom_type: post
 tags:
 - personal
 - year in review
+subtitle: Highlights of the past year
+custom_type: post
 ---
 
 Due to depression, 2018 has been difficult for me. But reflecting on the year has helped me remember all the fun and great experiences I've had. This is my annual write-up where I share some of the highlights of the year and set goals for the next one.
