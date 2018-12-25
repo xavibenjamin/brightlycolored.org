@@ -338,11 +338,12 @@
 .post__topics {
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
   font-family: $font-code;
   font-size: 0.7rem;
 
-  li + li {
-    margin-left: 0.6rem;
+  li:not(:last-of-type) {
+    margin-right: 0.6rem;
   }
 
   a {
