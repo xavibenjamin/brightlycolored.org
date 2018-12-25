@@ -4,25 +4,14 @@ layout: compress
 
 {% include head.html %}
 
-    {% if page.url == '/' %}
-      <header class="home__header">
-        <p class="header__byline">Timothy B. Smith Presents:</p>
-        <a href="/" class="logo">
-          {% include icons/icon-logo.html %}
-        </a>
-        <p class="header__description">A web-column about comic books, <em>Star Wars</em>, Apple, technology, movies, and other geekery.</p>
-      </header>
+    {% include header.html %}
 
-      {% include navigation.html %}
-    {% else %}
-      {% include header.html %}
-    {% endif %}
-    
-    
 
     <main class="main">
       {{ content }}
     </main>
+
+    {% include sidebar.html %}
 
     {% include footer.html %}
         

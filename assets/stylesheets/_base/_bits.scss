@@ -7,15 +7,17 @@ $primary-color: #f30f4c;
 $secondary-color: #212836;
 
 // TEXT COLOR --------------------
-$body-color: #444;
+// $body-color: #444;
+$body-color: lighten($secondary-color, 12%);
 $heading-base-color: $body-color;
+$light-text-color: lighten($body-color, 25%);
 $highlight-color: #fffedb;
 $link-color: #0881b3;
 $link-underline: lighten(saturate($link-color, 10%), 40%);
 
 // BG AND BORDER COLORS ----------
-$border-color: #ddd;
-$light-bg-color: #f2f2f2;
+$border-color: lighten($secondary-color, 70%);
+$light-bg-color: lighten($secondary-color, 78%);
 
 // GLOBAL RADIUS
 $global-radius: 2px;
@@ -33,3 +35,15 @@ $large-up: 'screen and (min-width: 64em)';
 $xlarge-up: 'screen and (min-width: 90.063em)';
 $xlarge-only: 'screen and (min-width: 90.063em) and (max-width: 120em)';
 $xxlarge-up: 'screen and (min-width: 120.063em)';
+
+// -----------------------------------------
+// TYPOGRAPHY
+// -----------------------------------------
+
+$font-text: Whitney SSm A, Whitney SSm B, system, -apple-system,
+  BlinkMacSystemFont, Avenir, sans-serif;
+$font-small: Whitney SSm SmallCaps A, Whitney SSm SmallCaps B, system,
+  -apple-system, BlinkMacSystemFont, Avenir, sans-serif;
+$font-display: Whitney A, Whitney B, system, -apple-system, BlinkMacSystemFont,
+  Avenir, sans-serif;
+$font-code: Operator SSm A, Operator SSm B, Operator Mono, monospace;

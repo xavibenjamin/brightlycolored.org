@@ -4,95 +4,51 @@
 
 .main {
   background-color: white;
-  padding: 3rem 0;
+  padding: 4rem 0 6rem;
 
   @media #{$medium-up} {
-    min-height: calc(100vh - 370px);
+    min-height: calc(100vh - 169px);
   }
 
   @media #{$large-up} {
-    min-height: calc(100vh - 237px);
+    min-height: calc(100vh - 202px);
   }
 }
 
 // Shareable Post Styles ---------
 
-.posts__date {
-  margin-bottom: 2rem;
-
-  @media #{$medium-up} {
-    margin-bottom: 2rem;
-  }
-
-  .current-day {
-    color: #757575;
-    display: block;
-    font-size: 0.68rem;
-    font-weight: 600;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    @extend %sans;
-    font-variant-numeric: lining-nums;
-
-    &:before {
-      background-color: $primary-color;
-      content: '';
-      display: block;
-      height: 1px;
-      margin-bottom: 5px;
-      width: 130px;
-    }
+.posts__post {
+  + .posts__post {
+    margin-top: 8rem;
   }
 }
 
-.day-posts {
-  + .day-posts {
-    margin-top: 10rem;
+.post__permalink {
+  color: $light-text-color;
+  display: block;
+  font-family: $font-code;
+  font-size: 0.7rem;
+  font-weight: normal;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    color: $link-color;
+    text-decoration: none;
   }
-
-  + .posts__date {
-    margin-top: 6rem;
-
-    @media #{$medium-up} {
-      margin-top: 8rem;
-    }
-  }
-
-  .posts__post + .posts__post {
-    @media #{$small-only} {
-      border-top: 1px solid $border-color;
-      margin-top: 3rem;
-      padding-top: 3rem;
-    }
-
-    @media #{$medium-up} {
-      margin-top: 8rem;
-    }
-  }
-}
-
-.posts__date:first-child {
-  margin-top: 0;
 }
 
 .small-author {
-  color: lighten($body-color, 35%);
-  display: block;
+  color: $light-text-color;
+  font-family: $font-code;
   font-size: 0.66rem;
-  font-weight: 600;
-  margin-bottom: 0.8rem;
-  display: grid;
-  grid-template-columns: 26px minmax(85px, auto);
-  grid-column-gap: 0.6rem;
-  align-items: center;
 
-  @media #{$large-up} {
-    position: absolute;
-    right: 106%;
-    top: 0.5rem;
+  @media #{$medium-up} {
+    &:after {
+      content: '/';
+      margin-left: 0.6rem;
+      margin-right: 0.6rem;
+    }
   }
-
-  @extend %sans;
 
   img {
     width: 26px;
@@ -100,11 +56,7 @@
   }
 
   span {
-    line-height: 1.1;
-  }
-
-  a {
-    display: block;
+    line-height: 1.3;
   }
 }
 
@@ -112,17 +64,13 @@
   position: relative;
   h1 {
     font-variant-numeric: lining-nums;
+    -webkit-hyphens: none;
+    hyphens: none;
+
     a {
-      color: $heading-base-color;
-      font-weight: 600;
       -webkit-hyphens: none;
       hyphens: none;
       text-decoration: none;
-
-      &:hover,
-      &:focus {
-        color: $link-color;
-      }
     }
 
     + h2 {
@@ -133,15 +81,18 @@
 
 .post__subtitle {
   color: lighten($heading-base-color, 15%);
-  @extend %sans;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: normal;
   line-height: 1.1;
-  letter-spacing: -0.4px;
 }
 
 .post__footer {
-  margin-top: 1.6rem;
+  margin-top: 1.8rem;
+  @media #{$medium-up} {
+    .posts__post & {
+      display: flex;
+    }
+  }
 }
 
 .archive-link {
@@ -170,35 +121,18 @@
 // Post Author -------------------
 
 .post__meta {
-  color: lighten($body-color, 15%);
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.6px;
+  color: $light-text-color;
+  font-size: 0.75rem;
+  font-family: $font-code;
   margin-bottom: 1rem;
-  text-transform: uppercase;
-  @extend %sans;
-  font-variant-numeric: lining-nums;
 }
 
 .post__author {
   a {
-    text-decoration: underline dotted $link-color;
-
     &:hover,
     &:focus {
       background-color: rgba($link-color, 0.1);
-      text-decoration: underline dotted $link-color;
     }
-  }
-}
-
-.author__name {
-  color: $heading-base-color;
-  margin: 0;
-
-  a {
-    color: $heading-base-color;
-    text-decoration: none;
   }
 }
 
@@ -213,18 +147,15 @@
 
 .author__credit {
   align-items: center;
-  border: 1px solid #ddd;
-  color: lighten($body-color, 20%);
+  color: $light-text-color;
   display: grid;
-  font-size: 0.75rem;
+  font-family: $font-code;
   grid-column-gap: 0.6rem;
   grid-template-columns: 30px auto;
   margin-bottom: 1.6rem;
-  padding: 0.6rem;
-  @extend %sans;
 
   p {
-    font-size: 0.75rem;
+    font-size: 0.66rem;
   }
 
   .author__picture {
@@ -241,10 +172,13 @@
   }
 
   h1 {
-    font-size: 1.8rem;
-    font-weight: 600;
-    letter-spacing: -0.4px;
-    line-height: 1.1;
+    font-size: 2.1rem;
+    font-weight: 700;
+    line-height: 1.15;
+    a {
+      color: $body-color;
+      font-weight: inherit;
+    }
   }
 }
 
@@ -282,7 +216,6 @@
   border-radius: $global-radius;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
-  @extend %sans;
 
   h2 {
     align-items: center;
@@ -352,32 +285,20 @@
 
 .format-link {
   .post__header {
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.8rem;
   }
 
   h1 {
-    font-size: 1.4rem;
+    font-size: 1.65rem;
     line-height: 1.3;
     font-weight: normal;
   }
 
-  .post__permalink {
-    bottom: 1px;
-    color: #aaa;
-    font-size: 1.2rem;
-    font-weight: normal;
-    margin-left: 0.6rem;
-    position: relative;
-    vertical-align: middle;
-    @extend %sans;
-  }
-
-  h1 a:not(.post__permalink) {
+  h1 a {
     text-decoration: underline solid $link-underline;
 
     &:focus,
     &:hover {
-      color: $body-color;
       text-decoration: underline solid $link-color;
     }
   }
@@ -416,28 +337,39 @@
 
 .post__topics {
   align-items: center;
-  font-size: 0.75rem;
-  @extend %sans;
+  display: flex;
+  font-family: $font-code;
+  font-size: 0.7rem;
 
   li + li {
-    margin-top: 0.4rem;
-  }
-
-  @media #{$medium-up} {
-    display: flex;
-    li + li {
-      margin-top: 0;
-      margin-left: 0.6rem;
-    }
+    margin-left: 0.6rem;
   }
 
   a {
-    color: #757575;
+    color: $light-text-color;
     font-weight: normal;
     text-decoration: none;
     &:hover,
     &:focus {
       color: $link-color;
+    }
+  }
+
+  @media #{$small-only} {
+    .posts__post & {
+      margin-top: 4px;
+    }
+  }
+
+  @media #{$medium-up} {
+    .posts__post & {
+      &:before {
+        color: $light-text-color;
+        content: '/';
+        margin-left: 0.6rem;
+        margin-right: 0.6rem;
+        font-weight: normal;
+      }
     }
   }
 }
@@ -455,7 +387,6 @@ $reddit-color: #ff4500;
 .post-share__title {
   font-size: 0.7rem;
   margin-top: 0;
-  @extend %sans;
 
   &:before {
     width: 42px;
@@ -473,7 +404,6 @@ $reddit-color: #ff4500;
   }
 
   a {
-    color: lighten($body-color, 25%);
     display: flex;
     padding: 0.6rem;
     text-decoration: none;
@@ -521,11 +451,19 @@ $reddit-color: #ff4500;
 
   .post__topics {
     font-size: 0.66rem;
-    margin-left: 0.6rem;
+    margin-top: 2px;
+    @media #{$medium-up} {
+      margin-top: 0;
+
+      &:before {
+        content: '/';
+        color: $light-text-color;
+        margin-right: 0.6rem;
+        margin-left: 0.6rem;
+      }
+    }
     a {
-      font-weight: 600;
-      color: #aaa;
-      text-transform: uppercase;
+      color: $light-text-color;
     }
   }
 
@@ -543,10 +481,8 @@ $reddit-color: #ff4500;
 
 .related-posts__title {
   font-size: 0.7rem;
-  letter-spacing: 0;
   margin-top: 0;
   margin-bottom: 1.4rem;
-  @extend %sans;
 
   &:before {
     width: 42px;
@@ -554,8 +490,11 @@ $reddit-color: #ff4500;
 }
 
 .related__meta {
-  display: flex;
-  margin-bottom: 0.4rem;
+  font-family: $font-code;
+  margin-bottom: 0.6rem;
+  @media #{$medium-up} {
+    display: flex;
+  }
 }
 
 .post-list__item {
@@ -566,12 +505,10 @@ $reddit-color: #ff4500;
   }
 
   .related__date {
-    color: #888;
+    color: $light-text-color;
     font-weight: 600;
     display: block;
     font-variant-numeric: lining-nums;
-    text-transform: uppercase;
-    @extend %sans;
   }
 
   .related__title {
@@ -579,7 +516,6 @@ $reddit-color: #ff4500;
     font-size: 1.1rem;
     font-weight: 600;
     line-height: 1.2;
-    letter-spacing: -0.3px;
     text-decoration: underline solid $link-underline;
   }
 
@@ -599,20 +535,20 @@ $reddit-color: #ff4500;
   margin-right: auto;
   max-width: 900px;
 
-  @media #{$xlarge-up} {
-    max-width: 1200px;
-  }
+  // @media #{$xlarge-up} {
+  //   max-width: 1200px;
+  // }
 }
 
 .p-body
   > *:not(.iframe-container):not(.card):not(.extendout):not(.photo-grid):not(.alignleft):not(.alignright):not(.small__right):not(.small__left):not(.highlighter-rouge):not(.post__footer):not(.tag__section):not(table):not(.post__section):not(.page__header--full),
 .posts__date > .current-day,
-.post__footer > *:not(.card),
+.post .post__footer > *:not(.card),
+.posts__post .post__footer,
 .highlighter-rouge,
 .photo-grid > *:not(img),
 .extendout > *:not(img),
-.card > *,
-.footer > * {
+.card > * {
   margin-left: auto;
   margin-right: auto;
   max-width: 560px;
@@ -620,7 +556,7 @@ $reddit-color: #ff4500;
   @media #{$large-up} {
     width: 100%;
   }
-  @media #{$xlarge-up} {
-    max-width: 630px;
-  }
+  // @media #{$xlarge-up} {
+  //   max-width: 630px;
+  // }
 }

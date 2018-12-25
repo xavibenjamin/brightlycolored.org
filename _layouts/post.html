@@ -11,7 +11,7 @@ custom_css_class: single
     
     {% if page.link_url %}
       <h1>
-        <a href="{{ page.link_url }}">{{ page.title | smartify | widont }}</a><a href="{{ post.url }}" title="Permalink for {{ post.title }}" class="post__permalink">&infin;</a>
+        <a href="{{ page.link_url }}">{{ page.title | smartify | widont }}</a>
       </h1>
     {% else %}
       <h1>{{ page.title | smartify | widont }}</h1>
@@ -46,5 +46,3 @@ custom_css_class: single
     {% include related-posts.html %}
   </footer>
 </article>
-
-{% include ad.html %}
