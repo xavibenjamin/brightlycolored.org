@@ -29,11 +29,11 @@ After getting laid off late in 2017, I was left scrambling to find something new
 
 One day, I was chatting with my friend Adam Stacoviak, and he told me [Changelog](https://changelog.com) was looking for a Senior Producer. With my previous podcast experience, he thought I'd be a good fit.
 
-I'll be honest, I was scared at first. This was something completely different to what I've done professionally since… well… ever. But, I also knew I needed a break from the web. I was burnt out, didn't agree with how JavaScript-centric the industry has become, and disillusioned with how undervalued my CSS skillset is.
+I'll be honest, I was scared at first. This was something completely different to what I'd done professionally since… well… ever. But, I also knew I needed a break from the web. I was burnt out, didn't agree with how JavaScript-centric the industry has become, and disillusioned with how undervalued my CSS skillset is.
 
 <figure class="extendout">
   {% include imgic.html src="/2018/12/changelog-001.jpg" alt="The Changelog team." %}
-  <figcaption>The Changelog team.</figcaption>
+  <figcaption>The Changelog team</figcaption>
 </figure>
 
 
@@ -57,11 +57,11 @@ We went to Florida twice this year. In April, we went to St. Petersburg for [Fro
 
 In August, we went to Orlando as a late anniversary trip. While we had a great time, Florida in August was too hot. It wasn't any cooler than 95º the week we were there, and add to that how insanely humid it was.
 
-Kelly and I aren't made for that type of heat, but it was still a relaxing week. We slept in, went to Disney World, relaxed in the pool, watched a lot of movie, and read some great books.
+Kelly and I aren't made for that type of heat, but it was still a relaxing week. We slept in, went to Disney World, relaxed in the pool, watched a lot of movies, and read some great books.
 
 ## Denver with the Prados
 
-I don't know how much longer I'll be able to make it in Minnesota. This year marked my six year anniversary, and the winters are starting to grate on me. Denver is one of the places we'd possibly relocate to, so we decided to go visit.
+I don't know how much longer I'll be able to make it in Minnesota. This year marked my six year anniversary, and the winters are starting to grate on me. Denver is a place I've always been interested in, so we decided to visit. Our best friends, The Prados, decided to come along too.
 
 <figure class="photo-grid photo-grid--four">
   {% include imgic.html src="/2018/12/denver-001.jpg" alt="Graffiti on the tour" style="grid-column: span 2;" %}
@@ -70,9 +70,7 @@ I don't know how much longer I'll be able to make it in Minnesota. This year mar
   {% include imgic.html src="/2018/12/denver-005.jpg" alt="Felipe leaning against a wall." style="grid-column: span 2;" %}
 </figure>
 
-We had an amazing time. Denver is a beautiful place, and I'd forgotten how great it was to see mountains everywhere. We were only there for an extended weekend, but we were able to visit Boulder and do fun graffiti tour downtown.
-
-The Prados are our best friends, and we were so excited to make this trip with them.
+We had an amazing time. Denver is a beautiful place, filled with nice people and breathtaking topography. We were only there for an extended weekend, but we were able to visit Boulder and do a fun graffiti tour downtown.
 
 <figure class="small__right">
   {% include imgic.html src="/2018/12/london-001.jpg" alt="Kelly in front of the London Eye." %}
@@ -88,7 +86,7 @@ We only spent 4 days in London (much of it crazy jet-lagged), but we still got t
 
 ## Parents' 28th Anniversary
 
-Twenty-eight years isn't usually a big year for anniversaries, but I'm a sucky child that hadn't done much of anything for my parents' anniversary as an adult. That needed to change this year. With the help of Kelly and my aunt, we planned a nice, small dinner for my parents, and invited some of their friends. To our surprise, even some family from California came to celebrate too.
+Twenty-eight years isn't usually a big year for anniversaries, but I'm a sucky child that hadn't done much of anything for my parents' anniversary as an adult. That needed to change this year. With the help of Kelly and my aunt, we planned a nice, small dinner for my parents, and invited some of their friends. To our surprise, some family from California came to celebrate as well.
 
 <figure class="alignleft">
   {% include imgic.html src="/2018/12/anniversary-001.jpg" alt="My parents in downtown Saint Paul." %}
@@ -96,15 +94,15 @@ Twenty-eight years isn't usually a big year for anniversaries, but I'm a sucky c
 </figure>
 
 
-## Diving deeper in photography
+## Diving deeper into photography
 
 I've always taken a lot of pictures—it's been an interest of mine for a long time. This year was different though, I took more pictures than I've ever taken. 
 
-The big differentiator has been my camera. In April, I sold my Canon DSLR and bought a Sony α7 III. It's changed everything. Yes, the gear doesn't make the photographer, but α7 III is much easier to use. A camera that's easier to use, means you worry less about the technical aspects, and more on the actual photo. If you're curious to hear my reasons for moving to a Sony camera, [I made a video all about it](https://youtu.be/aGZ0ac4wgtI).
+The big differentiator has been my camera. In April, I sold my Canon DSLR and bought a Sony α7 III. It's changed everything. Yes, the gear doesn't make the photographer, but the α7 III is much easier to use. A camera that's easier to use, means you worry less about the technical aspects, and more on the actual photo. If you're curious to hear my reasons for moving to a Sony camera, [I made a video all about it](https://youtu.be/aGZ0ac4wgtI).
 
 ## Getting back into comics
 
-I read a lot of comics this year and loved every minute of it. In the past, most of my comics were superhero-related. 2018 was the year I tried to broaden my horizons. In the process, I found great comics like [Saga](https://amzn.to/2rSVfNh), [Analog](https://amzn.to/2CzGk0r), [Sex Criminals](https://amzn.to/2V8yx0X), [Oblivion Song](https://amzn.to/2SmolQK), and more.
+I read a lot of comics this year and loved every minute of it. In the past, most of my comics were superhero-related. 2018 was the year I tried to broaden my horizons. In the process, I found great comics like [Saga](https://amzn.to/2rSVfNh), [Analog](https://amzn.to/2CzGk0r), [Oblivion Song](https://amzn.to/2SmolQK), and more. Back in November, I wrote about [how I started reading comics and some of my current recommendations](/2018/11/my-geek-life/).
 
 <figure class="photo-grid photo-grid--one">
   {% include imgic.html src="/2018/12/comics-001.jpg" alt="" %}
@@ -115,12 +113,13 @@ I read a lot of comics this year and loved every minute of it. In the past, most
   <figcaption>Had so much fun taking pictures of comics</figcaption>
 </figure>
 
-
-In July, I started writing a weekly blog post for [my pull list](/topics/#pull-list), which has turned out to be a lot of fun. Thanks to [Dave Rupert](https://twitter.com/davatron5000/status/1042449998418518016), I started taking pictures of some of my favorite covers for the posts. Like Dave said from the beginning, it's killed two birds with one stone: the articles are more interesting, and it's helped me practice my photography. 
+In July, I started writing a blog post for [my weekly pull list](/topics/#pull-list), which has turned out to be a lot of fun. Thanks to [Dave Rupert](https://twitter.com/davatron5000/status/1042449998418518016), I started taking pictures of some of my favorite covers for the posts. Like Dave said from the beginning, it's killed two birds with one stone: the articles are more interesting, and it's helped me practice my photography. 
 
 ## What's in store for 2019
 
 All in all, 2018 was a fantastic year. As much as it's been difficult, we also traveled a lot, I found a job at an awesome company, and got lost in some incredible stories. 
+
+And that's why I write these. It's all too easy to focus on the negative. But taking a step back, I realize there is always much to be happy about, and so many things to be grateful for.
 
 Here are my goals for 2019:
 
@@ -132,3 +131,7 @@ Taking the camera everywhere isn't the most convenient thing, and I'm not the on
 I lost thirty pounds this year, then put fifteen back on. I'd like to lose forty next year, and keep them off.
 
 It’s going to be a great year.
+
+---
+
+*Kindly edited by [Kelly Smith](/authors/kellysmith/).*
