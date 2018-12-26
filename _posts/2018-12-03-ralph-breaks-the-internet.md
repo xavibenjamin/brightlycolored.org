@@ -2,14 +2,14 @@
 title: Ralph Breaks the Internet
 date: 2018-12-03 10:48:00 -06:00
 categories:
-  - animation
-  - adventure
-  - comedy
+- animation
+- adventure
+- comedy
 tags:
-  - movies
-  - review
-  - Disney
-  - movie review
+- movies
+- review
+- Disney
+- movie review
 subtitle: Fun and action-packed, this film was entertaining with a great moral
 custom_type: post
 review:
@@ -18,7 +18,7 @@ review:
   movie:
     director: Phil Johnston, Rich Moore
     date: 2018-11-21 18:00:00 -06:00
-featured_image: '/uploads/ralph-BTI-featured.jpg'
+featured_image: "/uploads/ralph-BTI-featured.jpg"
 excerpt: My thoughts on this great movie
 ---
 

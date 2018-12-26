@@ -2,8 +2,8 @@
 title: The New CSS Layout
 date: 2018-01-16 11:39:00 -06:00
 categories:
-  - design
-  - web design
+- design
+- web design
 custom_type: post
 review:
   type: book
