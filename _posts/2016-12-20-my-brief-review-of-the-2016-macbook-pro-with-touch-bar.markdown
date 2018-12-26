@@ -4,6 +4,7 @@ date: 2016-12-20 15:19:00 -06:00
 tags:
   - MacBook Pro
   - brief review
+  - review
 custom_type: post
 subtitle:
   Earlier this year, Apple updated its MacBook Pro. Here are my thoughts on

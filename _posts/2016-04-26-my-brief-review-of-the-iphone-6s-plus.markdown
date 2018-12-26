@@ -1,18 +1,23 @@
 ---
-title: My Brief Review of the iPhone 6s Plus briefreview
+title: My Brief Review of the iPhone 6s Plus
 date: 2016-04-26 08:54:00 -05:00
 tags:
-- iPhone
-- brief review
+  - iPhone
+  - brief review
+  - review
 layout: post
 custom_type: post
-subtitle: The iPhone 6s Plus is my favorite iPhone. I was hesitant, but I’m glad I
+subtitle:
+  The iPhone 6s Plus is my favorite iPhone. I was hesitant, but I’m glad I
   decided to try it.
-rating: 5
-brand: Apple
-price: 549
-review_url: https://www.apple.com/shop/buy-iphone/iphone6s
-vendor: the Apple Store
+review:
+  type: product
+  rating: 5
+  product:
+    brand: Apple
+  price: 549
+  url: https://www.apple.com/shop/buy-iphone/iphone6s
+  vendor: the Apple Store
 ---
 
 <figure class="extendout">
@@ -24,6 +29,6 @@ The bigger size is definitely noticeable in my hand. Using buttons in the upper 
 
 Interestingly the size isn’t noticeable in my pocket. It doesn’t feel huge when I sit down, and it fits nicely in the breast pocket of my suit. I had some shorts with a “mobile phone pocket” and unfortunately, it doesn’t fit in there anymore, but it’s not a deal breaker.
 
-I *love* the bigger screen size. My iPad is still my preferred reading device, but I don’t find myself immediately moving to it for lighter reading like I used to. I didn’t do any reading on my old iPhone. Videos look great on the screen, and are much more enjoyable.
+I _love_ the bigger screen size. My iPad is still my preferred reading device, but I don’t find myself immediately moving to it for lighter reading like I used to. I didn’t do any reading on my old iPhone. Videos look great on the screen, and are much more enjoyable.
 
 Apple has done an excellent job with this phone. If you’ve been on the fence, I don’t think you’ll regret it.
