@@ -59,6 +59,10 @@
   margin-left: auto;
   margin-right: auto;
 
+  @media #{$large-up} {
+    max-width: 420px;
+  }
+
   @media #{$xlarge-up} {
     max-width: 480px;
   }
