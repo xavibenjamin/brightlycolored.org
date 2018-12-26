@@ -48,10 +48,8 @@ excerpt: Genres covered on Brightly Colored.
               <ul class="group__post-list group__post-list--2-col">
                 {% for post in genre.last %}
                   <li class="group-post__item group-post__item--bold">
-                    <a href="{{ post.url }}">
-                      <span class="group-post__meta-info">{{ post.review.type | capitalize }} Review</span>
-                      {{ post.title }}
-                    </a>
+                    <a href="{{ post.url }}">{{ post.title }}{% if post.review.type %}{% include star-rating.html %}{% endif %}</a>
+                    <span class="group-post__meta-info">{{ post.review.type }}</span>
                   </li>
                 {% endfor %}
               </ul>

@@ -10,7 +10,12 @@
       {{ myPage.review.rating }}
       <strong class="review-info__heading">Stars</strong>
     {% else %}
-      {% include star-rating.html %}
+      {% if page.layout == 'post' %}
+        {% include star-rating.html page="true" %}
+      {% else %}
+        {% include star-rating.html %}
+      {% endif %}
+
     {% endif %}
   </li>
   

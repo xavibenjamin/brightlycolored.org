@@ -2,15 +2,16 @@
 title: 'Review: Human Solution Uplift Desk'
 date: 2016-04-28 01:51:00 -05:00
 tags:
-- furniture
-- review
+  - furniture
+  - review
 layout: post
 custom_type: post
-subtitle: Back in August of 2015, I decided to buy a standing desk. Here are some
+subtitle:
+  Back in August of 2015, I decided to buy a standing desk. Here are some
   of my thoughts.
 review:
   type: product
-  rating: 4.5
+  rating: 4
   product:
     brand: Human Solution
   price: 495
@@ -70,7 +71,7 @@ Configuring new presets is simple. You adjust it to the height you want, and you
 
 ## Price
 
-Price is the biggest hiccup when considering a standing desk. Here's the thing: a standing desk is an investment. It's an investment in your long-term health and well-being. Be prepared to spend at least $500.
+Price is the biggest hiccup when considering a standing desk. Here's the thing: a standing desk is an investment. It's an investment in your long-term health and well-being. Be prepared to spend at least \$500.
 
 When you think about it, you don't want a standing desk to be cheap. If the price is too low, shortcuts were taken in the quality of hardware. These hydraulics are holding up thousands of dollars of equipment, you don't want them to go out.
 
