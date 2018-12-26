@@ -478,6 +478,12 @@ $reddit-color: #ff4500;
       margin-top: 1.6rem;
     }
   }
+
+  .review__rating {
+    margin-left: 0.2rem;
+    width: 6.3em;
+    height: 1.2em;
+  }
 }
 
 .related-posts__title {
@@ -514,10 +520,9 @@ $reddit-color: #ff4500;
 
   .related__title {
     color: $heading-base-color;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     line-height: 1.2;
-    text-decoration: underline solid $link-underline;
   }
 
   .related__image {

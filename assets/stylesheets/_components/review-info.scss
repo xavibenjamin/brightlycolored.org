@@ -79,15 +79,11 @@
     display: flex;
     margin-top: 0.2rem;
   }
+}
 
-  svg {
-    height: 17px;
-    width: 17px;
-
-    + svg {
-      margin-left: 0.15rem;
-    }
-  }
+.review__rating {
+  height: 1.4em;
+  width: 7.6em;
 }
 
 .star--empty {
