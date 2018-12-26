@@ -23,6 +23,9 @@
   @media #{$medium-up} {
     width: 280px;
   }
+  @media #{$xlarge-up} {
+    width: 310px;
+  }
 }
 
 .logo__first-word {
@@ -55,6 +58,10 @@
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+
+  @media #{$xlarge-up} {
+    max-width: 480px;
+  }
 }
 
 .header__menu {
