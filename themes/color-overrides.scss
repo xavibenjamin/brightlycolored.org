@@ -124,7 +124,7 @@ td {
 }
 
 .star--empty {
-  fill: $border-color;
+  fill: lighten($text-color-light, 25%);
 }
 
 .star--filled {

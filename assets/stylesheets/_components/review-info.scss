@@ -91,7 +91,7 @@
 }
 
 .star--empty {
-  fill: $light-bg-color;
+  fill: lighten($light-text-color, 25%);
 }
 
 .star--filled {
