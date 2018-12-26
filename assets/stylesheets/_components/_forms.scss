@@ -24,7 +24,7 @@
     grid-gap: 0.5rem;
     margin-top: 1rem;
     @media #{$medium-up} {
-      grid-template-columns: auto 110px;
+      grid-template-columns: auto auto;
     }
   }
   input {
