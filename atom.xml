@@ -28,7 +28,7 @@ layout:
       {% else %}
         <link type="text/html" rel="alternate" href="https://brightlycolored.org{{ post.url }}"/>
       {% endif %}
-      <title>{% if post.custom_type == 'link' %}{{ post.title | xml_escape }} →{% else %}{{ post.title | xml_escape }}{% endif %}</title>
+      <title>{% if post.custom_type == 'link' %}{{ post.title | xml_escape }} →{% else %}{{ post.title | xml_escape }}{% if post.review.type %}{% include head-rating.html%}{% endif %}{% endif %}</title>
       <published>{{ post.date | date_to_xmlschema }}</published>
       <updated>{{ post.date | date_to_xmlschema }}</updated>
       <author>

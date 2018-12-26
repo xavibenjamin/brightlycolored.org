@@ -10,7 +10,7 @@
 
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>{% if page.url == "/" %}{{ page.title }}{% else %}{% if page.title %}{{ page.title }}{% if page.review.type %}{% include head-rating.html%}{% endif %} // {% endif %}{{ site.name }}{% endif %}
+    <title>{% if page.url == "/" %}{{ page.title }}{% else %}{% if page.title %}{{ page.title }}{% if page.review.type %}{% include head-rating.html page='true' %}{% endif %} // {% endif %}{{ site.name }}{% endif %}
     </title>
     <meta
       name="viewport"
@@ -36,7 +36,10 @@
     {% if page.custom_type %}
     <meta property="og:type" content="article" />
     {% endif %}
-    <meta property="og:title" content="{{ page.title }}" />
+    
+    <meta 
+      property="og:title" 
+      content="{{ page.title }}{% if page.review.type %}{% include head-rating.html page='true' %}{% endif %}" />
     <meta
       property="og:description"
       content="{{ page.excerpt | strip_html | strip_newlines | truncate: 156 }}"
@@ -50,10 +53,6 @@
       property="og:url"
       content="https://brightlycolored.org{{ page.url }}"
     />
-    <meta
-      property="og:title"
-      content="{% if page.title %}{{ page.title }}{% endif %}"
-    />
 
     <!-- Twitter Info -->
     {% if page.featured_image %}
@@ -62,7 +61,7 @@
     <meta name="twitter:card" content="summary" />
     {% endif %}
     <meta name="twitter:site" content="@brightlycolord" />
-    <meta name="twitter:title" content="{{ page.title }}" />
+    <meta name="twitter:title" content="{{ page.title }}{% if page.review.type %}{% include head-rating.html page='true' %}{% endif %}" />
     <meta
       name="twitter:description"
       content="{{ page.excerpt | strip_html | strip_newlines | truncate: 156 }}"
