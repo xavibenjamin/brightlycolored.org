@@ -1,0 +1,49 @@
+// -----------------------------------------
+// MAIN LAYOUT COMPONENTS
+// -----------------------------------------
+
+body {
+  @media #{$medium-up} {
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+  }
+
+  @media #{$large-up} {
+    display: grid;
+    grid-template-columns: auto 200px;
+    max-width: 1300px;
+    width: 95%;
+  }
+
+  @media #{$xlarge-up} {
+    max-width: 1450px;
+    grid-template-columns: auto 220px;
+  }
+}
+
+.header {
+  @media #{$large-up} {
+    grid-column: span 2;
+  }
+}
+
+.main {
+  @media #{$large-up} {
+    grid-column: span 1;
+    grid-row: 2;
+  }
+}
+
+.sidebar {
+  @media #{$large-up} {
+    grid-row: 2;
+  }
+}
+
+.footer {
+  @media #{$large-up} {
+    grid-column: span 2;
+    grid-row: 3;
+  }
+}

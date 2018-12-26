@@ -9,9 +9,12 @@ html {
   @media #{$medium-up} {
     font-size: 17px;
   }
-  // @media #{$xlarge-up} {
-  //   font-size: 22.6px;
-  // }
+  @media #{$large-up} {
+    font-size: 17.9px;
+  }
+  @media #{$xlarge-up} {
+    font-size: 19.1px;
+  }
 }
 
 body {
