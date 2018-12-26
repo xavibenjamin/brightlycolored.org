@@ -534,11 +534,18 @@ $reddit-color: #ff4500;
 .p-body {
   margin-left: auto;
   margin-right: auto;
-  max-width: 900px;
 
-  // @media #{$xlarge-up} {
-  //   max-width: 1200px;
-  // }
+  @media #{$medium-up} {
+    max-width: 750px;
+  }
+
+  @media #{$large-up} {
+    max-width: 850px;
+  }
+
+  @media #{$xlarge-up} {
+    max-width: 1000px;
+  }
 }
 
 .p-body
@@ -556,8 +563,9 @@ $reddit-color: #ff4500;
   width: 90%;
   @media #{$large-up} {
     width: 100%;
+    max-width: 590px;
   }
-  // @media #{$xlarge-up} {
-  //   max-width: 630px;
-  // }
+  @media #{$xlarge-up} {
+    max-width: 630px;
+  }
 }
