@@ -2,20 +2,20 @@
 title: 'Review: Things 3 for Mac and iOS'
 date: 2018-01-31 09:00:00 -06:00
 tags:
-- productivity
-- apps
-- review
+  - productivity
+  - apps
+  - review
 subtitle: A task manager you will actually want to use
 custom_type: post
 review:
-  rating: 4.5
+  rating: 4
   type: app
   app:
     developer: Cultured Code
   price: 9.99-$49.99
   vendor: Mac App Store
   url: https://itunes.apple.com/us/app/things-3/id904280696?mt=12
-featured_image: "/uploads/2018/01/things-review-01.jpg"
+featured_image: '/uploads/2018/01/things-review-01.jpg'
 excerpt: A task manager you will actually want to use
 ---
 
@@ -96,13 +96,13 @@ From [what I've read](https://twitter.com/culturedcode/status/958393691487571968
 ## Other Features You Should Know About
 
 - **Quick Entry**  
-Things 3 has a well-designed Quick Entry window, but I don't use it often since my tasks get input on iOS. You can customize the keyboard shortcut for Quick Entry to be whatever you'd. I have mine set to the longest keyboard shortcut ever, `⌃⌥⌘ + space`, which might add to the reasons I don't use it. Quick Entry is incredibly powerful, allowing you to enter almost all the same information you can input in the app, without moving your mouse.
+  Things 3 has a well-designed Quick Entry window, but I don't use it often since my tasks get input on iOS. You can customize the keyboard shortcut for Quick Entry to be whatever you'd. I have mine set to the longest keyboard shortcut ever, `⌃⌥⌘ + space`, which might add to the reasons I don't use it. Quick Entry is incredibly powerful, allowing you to enter almost all the same information you can input in the app, without moving your mouse.
 
 - **Apple Watch App**  
-Cultured Code was very smart when designing the Apple Watch app. All you can do is dictate a new task and decided whether to put it in your Inbox or Today. That's it. After seeing many Watch apps try to do more and fail, this is exactly what I want and need.
+  Cultured Code was very smart when designing the Apple Watch app. All you can do is dictate a new task and decided whether to put it in your Inbox or Today. That's it. After seeing many Watch apps try to do more and fail, this is exactly what I want and need.
 
 - **Checklists**  
-If you need to go further down the to-do-ception, Things 3 offers checklists inside of tasks. After you begin a checklist, you can hit `enter` to continue adding items. I appreciate Cultured Code for adding this type of deep granularity without it feeling cumbersome.
+  If you need to go further down the to-do-ception, Things 3 offers checklists inside of tasks. After you begin a checklist, you can hit `enter` to continue adding items. I appreciate Cultured Code for adding this type of deep granularity without it feeling cumbersome.
 
 ## Final Thoughts
 
@@ -110,4 +110,4 @@ I'm convinced that Things 3 is the best to-do app. No matter what Apple-made ope
 
 ---
 
-*Kindly edited by [TJ Draper](/authors/tjdraper)*
+_Kindly edited by [TJ Draper](/authors/tjdraper)_

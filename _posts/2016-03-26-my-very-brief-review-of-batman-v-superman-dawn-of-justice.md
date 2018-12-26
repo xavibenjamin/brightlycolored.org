@@ -2,23 +2,24 @@
 title: 'Batman v Superman: Dawn of Justice'
 date: 2016-03-26 01:06:42 -05:00
 categories:
-- action
-- adventure
-- sci-fi
+  - action
+  - adventure
+  - sci-fi
 tags:
-- DC Comics
-- movies
-- movie review
-- review
+  - DC Comics
+  - movies
+  - movie review
+  - review
 layout: post
 custom_type: post
 subtitle: Didn't love it, didn't hate it.
 review:
   type: movie
-  rating: 2.5
+  rating: 2
   movie:
     director: Zack Snyder
     date: 2016-03-23 19:00:00 -05:00
+featured_image: /uploads/2016/03/batmanvsuperman.jpg
 ---
 
 <figure class="extendout">
