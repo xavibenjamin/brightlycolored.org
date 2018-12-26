@@ -2,10 +2,17 @@
 title: Pull List for December 26, 2018
 date: 2018-12-25 14:58:00 -06:00
 tags:
-- comics
-- pull list
+  - comics
+  - pull list
 excerpt: Comics I read last week and ones I'm picking up this week.
+custom_type: post
+featured_image: /uploads/pull-list-12-26-2018.jpg
 ---
+
+<figure class="extendout">
+  {% include imgic.html src="/pull-list-12-26-2018.jpg" alt="Pull List for December 26, 2018." %}
+  <figcaption><strong>From left to right, back to front:</strong> <em>Catwoman</em> #6, <em>American Carnage</em> #2, <em>Aquaman</em> #43, <em>The Amazing Spider-Man</em> #12, and <em>Cover</em> #4</figcaption>
+</figure>
 
 Every Wednesday, new comic books hit the shelves with new stories to be engrossed in, and new art to be fascinated by. This is my weekly write-up where I share what comic books I read last week, and [my pull list](/topics/#pull-list) of comics for this week.
 
@@ -21,5 +28,5 @@ Every Wednesday, new comic books hit the shelves with new stories to be engrosse
 
 ## Picking up this week
 
-- **Fantastic Four #5** - Wedding issue! With all the  weddings that ended up pulling the rug out from under us readers, I'm glad we're getting this one. It's funny that Marvel has had to say that this is really happening. 
+- **Fantastic Four #5** - Wedding issue! With all the weddings that ended up pulling the rug out from under us readers, I'm glad we're getting this one. It's funny that Marvel has had to say that this is really happening.
 - **Man-Eaters #4** - This is such a fun read. The story is interesting, but the attention to detail in all the supporting content is amazing too. The jokes are hilarious.
