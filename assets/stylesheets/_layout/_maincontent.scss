@@ -281,6 +281,27 @@
   }
 }
 
+.letterboxd__link {
+  font-size: 0.8rem;
+  position: relative;
+  margin-bottom: 1rem;
+
+  svg {
+    width: 1.6em;
+    height: auto;
+
+    position: relative;
+    top: 5px;
+    margin-right: 0.3rem;
+
+    @media #{$medium-up} {
+      position: absolute;
+      right: 100.8%;
+      top: 0;
+    }
+  }
+}
+
 // Format Link -------------------
 
 .format-link {
