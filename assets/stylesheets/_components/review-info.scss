@@ -5,46 +5,7 @@
 // iew posts.
 // -----------------------------------------
 
-.review-info {
-  color: $light-text-color;
-  font-size: 0.68rem;
-  margin-top: 0.8rem;
-  font-family: $font-code;
-
-  @media #{$medium-up} {
-    display: flex;
-    align-items: center;
-    margin-top: 1.2rem;
-  }
-}
-
-.review-info__item {
-  line-height: 1.2;
-
-  @media #{$small-only} {
-    padding-bottom: 0.8rem;
-    padding-top: 0.8rem;
-  }
-
-  + .review-info__item {
-    border-top: 1px solid $border-color;
-
-    @media #{$medium-up} {
-      border-top: 0;
-      margin-left: 0.8rem;
-    }
-  }
-
-  a {
-    text-decoration: none;
-  }
-}
-
-.review-info__heading {
-  display: block;
-}
-
-.review__rating {
+.star__rating {
   width: 5.4rem;
   .post__header & {
     margin-top: 0.8rem;

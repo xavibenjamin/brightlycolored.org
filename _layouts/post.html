@@ -21,7 +21,7 @@ custom_css_class: single
     {% endif %}
 
     {% if page.review.type %}
-      {% include star-rating.html page='true' %}
+      {% include star-rating.html rating=page.review.rating %}
     {% endif %}
   </header>
 

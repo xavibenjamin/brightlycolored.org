@@ -20,7 +20,7 @@ excerpt: Brightly Colored is a web-column about comics, Star Wars, Apple, techno
         {% endif %}
 
         {% if post.review.type %}
-          {% include star-rating.html %}
+          {% include star-rating.html rating=post.review.rating %}
         {% endif %}
       </header>
     
