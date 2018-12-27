@@ -1,24 +1,19 @@
 ---
 title: 'Spider-Man: Homecoming'
 date: 2017-07-12 00:00:00 -05:00
-categories:
-- action
-- adventure
-- sci-fi
 tags:
-- movies
-- Marvel
-- movie review
-- review
-- my videos
-subtitle: "<em>Finally</em> a fun and well-done Spidey movie."
+  - movies
+  - Marvel
+  - movie review
+  - review
+  - my videos
+subtitle: '<em>Finally</em> a fun and well-done Spidey movie.'
 custom_type: post
 review:
   rating: 4
   type: movie
   movie:
-    director: Jon Watts
-    date: 2017-07-05 19:00:00 -05:00
+    letterboxd: https://letterboxd.com/ttimsmith/film/spider-man-homecoming/
 ---
 
 <div class="iframe-container">

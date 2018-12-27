@@ -1,31 +1,29 @@
 ---
 title: 'Rogue One: A Star Wars Story'
 date: 2016-12-16 22:29:00 -06:00
-categories:
-- action
-- adventure
-- sci-fi
 tags:
-- Star Wars
-- movies
-- movie review
-- review
+  - Star Wars
+  - movies
+  - movie review
+  - review
 custom_type: post
-subtitle: The first of the non-saga <em>Star Wars</em> movies has finally come out,
+subtitle:
+  The first of the non-saga <em>Star Wars</em> movies has finally come out,
   and I really liked it
 review:
   type: movie
-  rating: 3
+  rating: 3.5
   movie:
-    director: Gareth Edwards
-    date: 2016-12-14 18:00:00 -06:00
-featured_image: "/uploads/2016/12/rogue-one-jyn-erso.jpg"
+    letterboxd: https://letterboxd.com/ttimsmith/film/rogue-one-a-star-wars-story/
+featured_image: '/uploads/2016/12/rogue-one-jyn-erso.jpg'
 ---
 
 <figure class="extendout">
   {% include imgic.html src="/2016/12/rogue-one-jyn-erso.jpg" alt="Felicity Jones as Jyn Erso in Rogue One." %}
   <figcaption>Felicity Jones as Jyn Erso in <em>Rogue One</em><span class="image__copyright">© Disney/Lucasfilm</span></figcaption>
 </figure>
+
+_This review contains spoilers._
 
 Kelly and I went to go watch _Rogue One_ on opening night. I purposely didn't read anything about the film, and was completely spoiler-free going in. Here are my thoughts, **that are full of spoilers**.
 

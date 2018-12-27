@@ -5,85 +5,11 @@
 // iew posts.
 // -----------------------------------------
 
-.review-info {
-  font-size: 0.7rem;
-  margin-top: 0.8rem;
-
-  @media #{$medium-up} {
-    border-top: 1px solid $border-color;
-    display: flex;
-    margin-top: 1.2rem;
+.star__rating {
+  width: 5.4rem;
+  .post__header & {
+    margin-top: 0.8rem;
   }
-}
-
-.review-info__item {
-  font-variant-numeric: lining-nums;
-  line-height: 1.2;
-  padding-bottom: 0.8rem;
-  padding-top: 0.8rem;
-
-  @media #{$medium-up} {
-    padding-bottom: 0.2rem;
-    padding-top: 0.8rem;
-  }
-
-  + .review-info__item {
-    border-top: 1px solid $border-color;
-
-    @media #{$medium-up} {
-      border-left: 1px solid $border-color;
-      border-top: 0;
-      margin-left: 0.8rem;
-      padding-left: 0.8rem;
-    }
-  }
-
-  a {
-    text-decoration: none;
-  }
-}
-
-.review-info__item--best-song {
-  @media #{$medium-up} {
-    max-width: 145px;
-  }
-}
-
-.review-info__item--director {
-  @media #{$medium-up} {
-    max-width: 160px;
-  }
-}
-
-.review-info__item--genres {
-  @media #{$medium-up} {
-    max-width: 175px;
-    width: 100%;
-  }
-}
-
-.review-info__item--one-line {
-  align-items: center;
-  display: flex;
-  min-width: 110px;
-}
-
-.review-info__heading {
-  display: block;
-}
-
-.review-info--rating {
-  min-width: 95px;
-
-  span {
-    display: flex;
-    margin-top: 0.2rem;
-  }
-}
-
-.review__rating {
-  height: 1.4em;
-  width: 7.6em;
 }
 
 .star--empty {

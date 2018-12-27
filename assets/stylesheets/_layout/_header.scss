@@ -53,18 +53,18 @@
   font-size: 0.9rem;
   line-height: 1.3;
   margin-top: 0.8rem;
-  max-width: 400px;
+  max-width: 440px;
   text-align: center;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
 
   @media #{$large-up} {
-    max-width: 420px;
+    max-width: 460px;
   }
 
   @media #{$xlarge-up} {
-    max-width: 480px;
+    max-width: 500px;
   }
 }
 

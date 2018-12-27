@@ -68,7 +68,7 @@ excerpt: Topics covered on Brightly Colored.
             <ul class="group__post-list group__post-list--2-col">
               {% for post in tag.last %}
                 <li class="group-post__item">
-                  <a href="{{ post.url }}">{{ post.title | caps | widont }}{% if post.review.type %}{% include star-rating.html %}{% endif %}</a>
+                  <a href="{{ post.url }}">{{ post.title | caps | widont }}{% if post.review.type %}{% include star-rating.html rating=post.review.rating %}{% endif %}</a>
                 </li>
               {% endfor %}
             </ul>

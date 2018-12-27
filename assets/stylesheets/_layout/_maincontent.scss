@@ -122,7 +122,7 @@
 
 .post__meta {
   color: $light-text-color;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-family: $font-code;
   margin-bottom: 1rem;
 }
@@ -172,9 +172,9 @@
   }
 
   h1 {
-    font-size: 2.1rem;
+    font-size: 2.2rem;
     font-weight: 700;
-    line-height: 1.15;
+    line-height: 1.1;
     a {
       color: $body-color;
       font-weight: inherit;
@@ -277,6 +277,27 @@
     ol {
       list-style-type: lower-roman;
       padding-left: 0.5rem;
+    }
+  }
+}
+
+.letterboxd__link {
+  font-size: 0.8rem;
+  position: relative;
+  margin-bottom: 1rem;
+
+  svg {
+    width: 1.6em;
+    height: auto;
+
+    position: relative;
+    top: 5px;
+    margin-right: 0.3rem;
+
+    @media #{$medium-up} {
+      position: absolute;
+      right: 100.8%;
+      top: 0;
     }
   }
 }
@@ -479,10 +500,9 @@ $reddit-color: #ff4500;
     }
   }
 
-  .review__rating {
+  .star__rating {
     margin-left: 0.2rem;
-    width: 6.3em;
-    height: 1.2em;
+    width: 4rem;
   }
 }
 
@@ -525,6 +545,14 @@ $reddit-color: #ff4500;
     line-height: 1.2;
   }
 
+  .related__subtitle {
+    font-size: 0.78rem;
+    font-style: italic;
+    line-height: 1.4;
+    margin-top: 0.2rem;
+    color: $light-text-color;
+  }
+
   .related__image {
     img {
       height: 100px;
@@ -541,10 +569,6 @@ $reddit-color: #ff4500;
   margin-right: auto;
 
   @media #{$medium-up} {
-    max-width: 750px;
-  }
-
-  @media #{$large-up} {
     max-width: 850px;
   }
 
@@ -566,11 +590,11 @@ $reddit-color: #ff4500;
   margin-right: auto;
   max-width: 560px;
   width: 90%;
-  @media #{$large-up} {
+  @media #{$medium-up} {
     width: 100%;
-    max-width: 590px;
+    max-width: 630px;
   }
   @media #{$xlarge-up} {
-    max-width: 630px;
+    max-width: 700px;
   }
 }

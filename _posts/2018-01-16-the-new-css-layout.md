@@ -1,17 +1,14 @@
 ---
 title: The New CSS Layout
 date: 2018-01-16 11:39:00 -06:00
-categories:
-- design
-- web design
 custom_type: post
 review:
   type: book
-  book:
-    author: Rachel Andrew
   rating: 4
-  vendor: A Book Apart
-  url: https://abookapart.com/products/the-new-css-layout
+tags:
+  - development
+  - CSS
+  - books
 ---
 
 <figure class="extendout">

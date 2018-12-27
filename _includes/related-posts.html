@@ -18,7 +18,8 @@
             {% endfor %}
           </ul>
         </div>
-        <a href="{{ post.url }}" title="{{ post.title | smartify }}"><span class="related__title">{{ post.title | smartify | widont }}</span>&nbsp;{% if post.review.type %}{% include star-rating.html %}{% endif %}</a>
+        <a href="{{ post.url }}" title="{{ post.title | smartify }}"><span class="related__title">{{ post.title | smartify | widont }}</span>&nbsp;{% if post.review.type %}{% include star-rating.html rating=post.review.rating %}{% endif %}</a>
+        {% if post.subtitle %}<p class="related__subtitle">{{ post.subtitle | smartify | widont }}</p>{% endif %}
       </div>
         
       {% if post.featured_image %}<a class="related__image" href="{{ post.url }}" title="{{ post.title | smartify }}"><img src="{{ post.featured_image }}" alt="Thumbnail for {{ post.title }}"></a>{% endif %}

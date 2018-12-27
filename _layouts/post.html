@@ -20,8 +20,8 @@ custom_css_class: single
       {% endif %} 
     {% endif %}
 
-    {% if page.review.type %} 
-      {% include review-info.html %}
+    {% if page.review.type %}
+      {% include star-rating.html rating=page.review.rating %}
     {% endif %}
   </header>
 
@@ -34,11 +34,11 @@ custom_css_class: single
   {{ content | improve }}
 
   <footer class="post__footer">
+    {% include letterboxd-link.html %}
     {% if page.author != 'timsmith' %}
       {% include author-credit.html %}
     {% endif %}
     {% include tags.html %}
-    {% include social-links.html %}
     <section class="card card--light card--large">
       <h2>Brightly Colored Weekly</h2>
       {% include newsletter-form.html text="Get more posts like this delivered straight to your inbox." %}
