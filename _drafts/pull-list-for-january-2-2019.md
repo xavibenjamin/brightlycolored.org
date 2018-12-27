@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Pull List for January 2, 2019
-date: 2018-12-27 13:58 -06:00
+date: 2018-12-27 13:58:00 -06:00
+layout: post
 custom_type: post
 ---
 
