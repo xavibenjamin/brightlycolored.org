@@ -1,26 +1,20 @@
 ---
 title: 'Star Wars: The Last Jedi'
 date: 2017-12-15 00:00:00 -06:00
-categories:
-- action
-- adventure
-- sci-fi
 tags:
-- movies
-- movie review
-- Star Wars
-- Episode VIII
-- review
-subtitle: The latest of the Star Wars saga films is a fresh, new, and exciting chapter
+  - movies
+  - movie review
+  - Star Wars
+  - Episode VIII
+  - review
+subtitle:
+  The latest of the Star Wars saga films is a fresh, new, and exciting chapter
   of my favorite franchise
 custom_type: post
 review:
   type: movie
   rating: 5
-  movie:
-    director: Rian Johnson
-    date: 2017-12-14 18:00:00 -06:00
-featured_image: "/uploads/media/luke-skywalker.jpg"
+featured_image: '/uploads/media/luke-skywalker.jpg'
 ---
 
 <figure class="extendout">
