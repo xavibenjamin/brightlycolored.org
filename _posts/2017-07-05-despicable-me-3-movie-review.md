@@ -8,8 +8,10 @@ tags:
   - my videos
 custom_type: post
 review:
-  rating: 3
+  rating: 2.5
   type: movie
+  movie:
+    letterboxd: https://letterboxd.com/ttimsmith/film/despicable-me-3/
 ---
 
 <div class="iframe-container">

@@ -17,6 +17,8 @@ featured_image: '/uploads/mrs-doubtfire-featured.jpg'
 review:
   type: movie
   rating: 3.5
+  movie:
+    letterboxd: https://letterboxd.com/ttimsmith/film/mrs-doubtfire/
 ---
 
 <figure class="extendout">

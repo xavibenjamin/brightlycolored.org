@@ -1,0 +1,3 @@
+{% if page.review.movie.letterboxd %}
+  <p class="letterboxd__link">{% include icons/icon-letterboxd.html %}<em>Read this review on <a href="{{ page.review.movie.letterboxd }}" title="Read my review of ‘{{ page.title }}’ on Letterboxd">Letterboxd</a></em></p>
+{% endif %}

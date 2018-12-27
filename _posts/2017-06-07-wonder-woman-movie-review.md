@@ -11,6 +11,8 @@ custom_type: post
 review:
   type: movie
   rating: 4.5
+  movie:
+    letterboxd: https://letterboxd.com/ttimsmith/film/wonder-woman-2017/
 ---
 
 <div class="iframe-container">

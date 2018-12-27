@@ -13,6 +13,8 @@ subtitle:
 review:
   type: movie
   rating: 3.5
+  movie:
+    letterboxd: https://letterboxd.com/ttimsmith/film/rogue-one-a-star-wars-story/
 featured_image: '/uploads/2016/12/rogue-one-jyn-erso.jpg'
 ---
 
@@ -20,6 +22,8 @@ featured_image: '/uploads/2016/12/rogue-one-jyn-erso.jpg'
   {% include imgic.html src="/2016/12/rogue-one-jyn-erso.jpg" alt="Felicity Jones as Jyn Erso in Rogue One." %}
   <figcaption>Felicity Jones as Jyn Erso in <em>Rogue One</em><span class="image__copyright">© Disney/Lucasfilm</span></figcaption>
 </figure>
+
+_This review contains spoilers._
 
 Kelly and I went to go watch _Rogue One_ on opening night. I purposely didn't read anything about the film, and was completely spoiler-free going in. Here are my thoughts, **that are full of spoilers**.
 

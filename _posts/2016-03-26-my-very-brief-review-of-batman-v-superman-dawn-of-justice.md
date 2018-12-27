@@ -12,6 +12,8 @@ subtitle: Didn't love it, didn't hate it.
 review:
   type: movie
   rating: 2.5
+  movie:
+    letterboxd: https://letterboxd.com/ttimsmith/film/batman-v-superman-dawn-of-justice/
 featured_image: '/uploads/2016/03/batmanvsuperman.jpg'
 ---
 
@@ -19,6 +21,8 @@ featured_image: '/uploads/2016/03/batmanvsuperman.jpg'
   {% include imgic.html src="/2016/03/batmanvsuperman.jpg" alt="I specifically chose an image that had Wonder Woman in the center. She was my favorite character." %}
   <figcaption>Wonder Woman was my favorite character in the film <span class="image__copyright">© Warner Bros.</span></figcaption>
 </figure>
+
+_This review contains spoilers._
 
 Is it good? The answer is underwhelming, and frankly I'm ambivalent. I didn't hate it, but I didn't like it either. Although the movie has some great moments, in the end, the story is all over the place. So many things are happening, and the _Justice League_ setup takes precious time from this film standing on its own.
 

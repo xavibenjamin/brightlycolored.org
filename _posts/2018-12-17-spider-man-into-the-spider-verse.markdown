@@ -13,6 +13,8 @@ featured_image: '/uploads/2018/12/spider-verse-review-featured.jpg'
 review:
   type: movie
   rating: 5
+  movie:
+    letterboxd: https://letterboxd.com/ttimsmith/film/spider-man-into-the-spider-verse/
 ---
 
 <figure class="extendout">

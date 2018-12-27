@@ -12,6 +12,8 @@ custom_type: post
 review:
   rating: 4
   type: movie
+  movie:
+    letterboxd: https://letterboxd.com/ttimsmith/film/spider-man-homecoming/
 ---
 
 <div class="iframe-container">
