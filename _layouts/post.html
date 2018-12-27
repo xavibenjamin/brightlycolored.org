@@ -20,8 +20,8 @@ custom_css_class: single
       {% endif %} 
     {% endif %}
 
-    {% if page.review.type %} 
-      {% include review-info.html %}
+    {% if page.review.type %}
+      {% include star-rating.html page='true' %}
     {% endif %}
   </header>
 

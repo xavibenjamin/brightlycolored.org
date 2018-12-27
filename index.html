@@ -1,11 +1,9 @@
 ---
-title: 'Brightly Colored (@BrightlyColord): Star Wars, movies, technology, and more
-  from Tim Smith (@smithtimmytim) and friends.'
+title: 'Brightly Colored (@BrightlyColord): Star Wars, movies, technology, and more from Tim Smith (@smithtimmytim) and friends.'
 layout: default
 exclude_from_search: true
 custom_css_class: home
-excerpt: Brightly Colored is a web-column about comics, Star Wars, Apple, technology,
-  movies, and other geekery.
+excerpt: Brightly Colored is a web-column about comics, Star Wars, Apple, technology, movies, and other geekery.
 ---
 
 <section class="posts">
@@ -20,9 +18,9 @@ excerpt: Brightly Colored is a web-column about comics, Star Wars, Apple, techno
         {% if post.subtitle %}
         <h2 class="post__subtitle">{{ post.subtitle | smartify | widont }}</h2>
         {% endif %}
-        
+
         {% if post.review.type %}
-          {% include review-info.html %}
+          {% include star-rating.html %}
         {% endif %}
       </header>
     
