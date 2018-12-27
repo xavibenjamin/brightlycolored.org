@@ -10,6 +10,11 @@
   .post__header & {
     margin-top: 0.8rem;
   }
+
+  .p-body h2 &,
+  .p-body h3 & {
+    width: 4.6em;
+  }
 }
 
 .star--empty {

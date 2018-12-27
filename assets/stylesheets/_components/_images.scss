@@ -15,21 +15,17 @@ figure {
 
 figcaption {
   color: lighten($body-color, 15%);
-  font-size: 0.8rem;
+  font-size: $text-s;
   line-height: 1.4;
   margin-top: 0.6rem;
 
   code {
-    font-size: 0.8rem;
-
-    @media #{$medium-up} {
-      font-size: 0.75rem;
-    }
+    font-size: $text-s;
   }
 
   .image__copyright {
     display: block;
-    font-size: 0.65rem;
+    font-size: $text-xs;
     font-weight: 600;
     margin-top: 0.2rem;
   }

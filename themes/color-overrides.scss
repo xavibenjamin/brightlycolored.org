@@ -5,7 +5,8 @@ body {
 
 .sidebar,
 .group__count,
-.card--light {
+.card--light,
+.post__rss-only {
   background-color: $bg-color-light;
 }
 
@@ -30,6 +31,8 @@ hr,
 .post-list__item .related__title,
 .carbon-wrap a,
 .author--single .author__name,
+.p-body h3 a:not(.heading-link),
+.p-body h2 a:not(.heading-link),
 thead th,
 h1,
 h2,
@@ -52,6 +55,7 @@ mark {
 .author__credit,
 .author--single .author__title,
 .related__subtitle,
+.heading-link,
 figcaption {
   color: $text-color-light;
 }
@@ -129,4 +133,9 @@ td {
 
 .star--filled {
   fill: $primary-color;
+}
+
+.p-body h3 a:not(.heading-link),
+.p-body h2 a:not(.heading-link) {
+  border-color: $primary-color;
 }

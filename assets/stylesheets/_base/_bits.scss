@@ -47,3 +47,11 @@ $font-small: Whitney SSm SmallCaps A, Whitney SSm SmallCaps B, system,
 $font-display: Whitney A, Whitney B, system, -apple-system, BlinkMacSystemFont,
   Avenir, sans-serif;
 $font-code: Operator SSm A, Operator SSm B, Operator Mono, monospace;
+
+$magic-number: 1.55;
+
+$text-reg: 1rem;
+$text-xs: $text-reg / $magic-number;
+$text-s: $text-reg / 1.35;
+$text-m: $text-reg * $magic-number;
+$text-l: $text-m * $magic-number;

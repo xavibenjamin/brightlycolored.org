@@ -1,0 +1,25 @@
+{% if include.level == 2 %}
+   <h2 id="{{ include.text | slugify }}">
+    {% if include.url %}
+    <a href="{{ include.url }}">
+      {{ include.text }}
+      {% include star-rating.html rating=include.rating %}
+    </a>
+    {% else %}
+      {{ include.text }}
+      {% include star-rating.html rating=include.rating %}
+    {% endif %}
+  </h2>
+{% else %}
+  <h3 id="{{ include.text | slugify }}">
+    {% if include.url %}
+    <a href="{{ include.url }}">
+      {{ include.text }}
+      {% include star-rating.html rating=include.rating %}
+    </a>
+    {% else %}
+      {{ include.text }}
+      {% include star-rating.html rating=include.rating %}
+    {% endif %}
+  </h3>
+{% endif %}
