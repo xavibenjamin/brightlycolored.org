@@ -2,10 +2,10 @@
 title: Despicable Me 3
 date: 2017-07-05 00:00:00 -05:00
 tags:
-  - movies
-  - movie review
-  - review
-  - my videos
+- movies
+- movie review
+- review
+- my videos
 custom_type: post
 review:
   rating: 2.5

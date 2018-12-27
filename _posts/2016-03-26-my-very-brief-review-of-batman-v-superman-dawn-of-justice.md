@@ -2,10 +2,10 @@
 title: 'Batman v Superman: Dawn of Justice'
 date: 2016-03-26 01:06:42 -05:00
 tags:
-  - DC Comics
-  - movies
-  - movie review
-  - review
+- DC Comics
+- movies
+- movie review
+- review
 layout: post
 custom_type: post
 subtitle: Didn't love it, didn't hate it.
@@ -14,7 +14,7 @@ review:
   rating: 2.5
   movie:
     letterboxd: https://letterboxd.com/ttimsmith/film/batman-v-superman-dawn-of-justice/
-featured_image: '/uploads/2016/03/batmanvsuperman.jpg'
+featured_image: "/uploads/2016/03/batmanvsuperman.jpg"
 ---
 
 <figure class="extendout">

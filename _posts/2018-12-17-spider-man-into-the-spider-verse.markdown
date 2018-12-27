@@ -2,14 +2,14 @@
 title: 'Spider-Man: Into the Spider-Verse'
 date: 2018-12-17 05:45:00 -06:00
 tags:
-  - Marvel
-  - movies
-  - movie review
-  - review
+- Marvel
+- movies
+- movie review
+- review
 custom_type: post
 subtitle: Thrilling and reference-filled, this film is equal parts substance and fun
 excerpt: Thrilling and reference-filled, this film is equal parts substance and fun
-featured_image: '/uploads/2018/12/spider-verse-review-featured.jpg'
+featured_image: "/uploads/2018/12/spider-verse-review-featured.jpg"
 review:
   type: movie
   rating: 5

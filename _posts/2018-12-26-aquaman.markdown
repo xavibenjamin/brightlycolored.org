@@ -2,12 +2,11 @@
 title: Aquaman
 date: 2018-12-26 05:25:00 -06:00
 tags:
-  - DC Comics
-  - review
-  - movie review
-  - movies
-subtitle:
-  Neither Jason Mamoa's charisma nor amazing special effects can mask this
+- DC Comics
+- review
+- movie review
+- movies
+subtitle: Neither Jason Mamoa's charisma nor amazing special effects can mask this
   film's poorly written dialogue
 custom_type: post
 review:
@@ -15,9 +14,8 @@ review:
   type: movie
   movie:
     letterboxd: https://letterboxd.com/ttimsmith/film/aquaman-2018/
-featured_image: '/uploads/aquaman-featured.jpg'
-excerpt:
-  Neither Jason Mamoa's charisma nor amazing special effects can mask this
+featured_image: "/uploads/aquaman-featured.jpg"
+excerpt: Neither Jason Mamoa's charisma nor amazing special effects can mask this
   film's poorly written dialogue
 ---
 

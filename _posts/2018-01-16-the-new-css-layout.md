@@ -1,14 +1,14 @@
 ---
 title: The New CSS Layout
 date: 2018-01-16 11:39:00 -06:00
+tags:
+- development
+- CSS
+- books
 custom_type: post
 review:
   type: book
   rating: 4
-tags:
-  - development
-  - CSS
-  - books
 ---
 
 <figure class="extendout">

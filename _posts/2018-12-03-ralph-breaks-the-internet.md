@@ -2,10 +2,10 @@
 title: Ralph Breaks the Internet
 date: 2018-12-03 10:48:00 -06:00
 tags:
-  - movies
-  - review
-  - Disney
-  - movie review
+- movies
+- review
+- Disney
+- movie review
 subtitle: Fun and action-packed, this film was entertaining with a great moral
 custom_type: post
 review:
@@ -13,7 +13,7 @@ review:
   rating: 4.5
   movie:
     letterboxd: https://letterboxd.com/ttimsmith/film/ralph-breaks-the-internet/
-featured_image: '/uploads/ralph-BTI-featured.jpg'
+featured_image: "/uploads/ralph-BTI-featured.jpg"
 excerpt: My thoughts on this great movie
 ---
 

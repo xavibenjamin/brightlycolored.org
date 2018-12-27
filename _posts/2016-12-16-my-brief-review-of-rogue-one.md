@@ -2,20 +2,19 @@
 title: 'Rogue One: A Star Wars Story'
 date: 2016-12-16 22:29:00 -06:00
 tags:
-  - Star Wars
-  - movies
-  - movie review
-  - review
+- Star Wars
+- movies
+- movie review
+- review
 custom_type: post
-subtitle:
-  The first of the non-saga <em>Star Wars</em> movies has finally come out,
+subtitle: The first of the non-saga <em>Star Wars</em> movies has finally come out,
   and I really liked it
 review:
   type: movie
   rating: 3.5
   movie:
     letterboxd: https://letterboxd.com/ttimsmith/film/rogue-one-a-star-wars-story/
-featured_image: '/uploads/2016/12/rogue-one-jyn-erso.jpg'
+featured_image: "/uploads/2016/12/rogue-one-jyn-erso.jpg"
 ---
 
 <figure class="extendout">
