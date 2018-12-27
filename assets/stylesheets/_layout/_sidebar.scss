@@ -23,17 +23,20 @@
   }
 }
 
-// .sidebar__description {
-//   margin-top: 1rem;
-//   font-size: 0.7rem;
-//   line-height: 1.3;
-// }
-
 .sidebar__subscribe {
   display: block;
   font-size: 0.68rem;
   margin-top: 1rem;
   line-height: 1.5;
+}
+
+.search--sidebar {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  .search__input {
+    font-size: 0.68rem;
+    padding: 0.6rem;
+  }
 }
 
 .sidebar__copyright {

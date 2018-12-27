@@ -569,10 +569,6 @@ $reddit-color: #ff4500;
   margin-right: auto;
 
   @media #{$medium-up} {
-    max-width: 750px;
-  }
-
-  @media #{$large-up} {
     max-width: 850px;
   }
 
@@ -594,11 +590,11 @@ $reddit-color: #ff4500;
   margin-right: auto;
   max-width: 560px;
   width: 90%;
-  @media #{$large-up} {
+  @media #{$medium-up} {
     width: 100%;
-    max-width: 590px;
+    max-width: 630px;
   }
   @media #{$xlarge-up} {
-    max-width: 630px;
+    max-width: 700px;
   }
 }
