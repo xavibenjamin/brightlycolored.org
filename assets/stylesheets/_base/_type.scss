@@ -3,14 +3,14 @@
 // -------------------------------
 
 html {
-  font-size: percentage(16.5/16);
+  font-size: percentage(16/16);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   @media #{$medium-up} {
-    font-size: percentage(19/16);
+    font-size: percentage(18.5/16);
   }
   @media #{$large-up} {
-    font-size: percentage(20/16);
+    font-size: percentage(19/16);
   }
   @media #{$xlarge-up} {
     font-size: percentage(21/16);
@@ -46,7 +46,7 @@ h5 {
 // TEXT --------------------------
 
 p {
-  font-size: 1rem;
+  font-size: $text-reg;
   line-height: 1.7;
   + p {
     margin-top: 1rem;
@@ -58,8 +58,8 @@ h1 {
 }
 
 h2 {
-  font-size: 1.3rem;
-  font-weight: 600;
+  font-size: $text-m;
+  font-weight: 700;
   line-height: 1.2;
   margin: 2.5rem 0 0.2rem;
   + h3 {
@@ -69,22 +69,22 @@ h2 {
 
 h3 {
   color: lighten($heading-base-color, 10%);
-  font-size: 0.9rem;
-  font-weight: 600;
-  margin: 2.5rem 0 0.4rem;
+  font-size: $text-reg;
+  font-weight: 700;
+  margin: $text-l 0 0.4rem;
   text-transform: uppercase;
 }
 
 h4 {
-  color: lighten($heading-base-color, 30%);
-  font-size: 1.2rem;
-  font-weight: 600;
+  color: lighten($heading-base-color, 10%);
+  font-size: $text-s;
+  font-weight: 700;
   margin: 2.2rem 0 0.1875rem;
   text-transform: uppercase;
 }
 
 h5 {
-  font-size: 0.85rem;
+  font-size: $text-s;
   font-weight: 600;
   margin: 3rem 0 0.6rem;
   text-transform: uppercase;
@@ -101,7 +101,7 @@ h5 {
 
 h6 {
   color: lighten($body-color, 20%);
-  font-size: 0.9rem;
+  font-size: $text-reg;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -113,7 +113,7 @@ blockquote > ul {
   margin-left: 2rem;
   margin-top: 1.1rem;
   li {
-    font-size: 1rem;
+    font-size: $text-reg;
     line-height: 1.7;
 
     + li {
@@ -139,7 +139,7 @@ blockquote > ol {
   margin-left: 2rem;
   margin-top: 1.1rem;
   li {
-    font-size: 1rem;
+    font-size: $text-reg;
     line-height: 1.7;
 
     + li {
@@ -181,7 +181,7 @@ mark {
 }
 
 sup {
-  font-size: 0.7rem;
+  font-size: $text-s;
 }
 
 p,

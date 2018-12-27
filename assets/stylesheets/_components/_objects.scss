@@ -65,7 +65,7 @@
   li {
     align-items: center;
     display: flex;
-    font-size: 0.75rem;
+    font-size: $text-s;
     line-height: 1.2;
 
     + li {
@@ -81,7 +81,7 @@
 
 .slash-list__title {
   line-height: 1;
-  font-size: 0.75rem;
+  font-size: $text-s;
   margin-bottom: 0.4rem;
   margin-top: 0;
 }
@@ -111,7 +111,7 @@
 
 .carbon-text {
   display: block;
-  font-size: 0.7rem;
+  font-size: $text-s;
   line-height: 1.5;
   text-align: left;
   margin-top: 0.6rem;
@@ -119,7 +119,7 @@
 
 .carbon-poweredby {
   display: block;
-  font-size: 0.6rem;
+  font-size: $text-xs;
   line-height: 1;
   margin-top: 0.8rem;
   text-decoration: none;

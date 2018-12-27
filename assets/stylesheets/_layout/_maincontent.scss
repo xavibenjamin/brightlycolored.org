@@ -27,7 +27,7 @@
   color: $light-text-color;
   display: block;
   font-family: $font-code;
-  font-size: 0.7rem;
+  font-size: $text-s;
   font-weight: normal;
   text-decoration: none;
   &:hover,
@@ -40,7 +40,7 @@
 .small-author {
   color: $light-text-color;
   font-family: $font-code;
-  font-size: 0.66rem;
+  font-size: $text-xs;
 
   @media #{$medium-up} {
     &:after {
@@ -81,7 +81,7 @@
 
 .post__subtitle {
   color: lighten($heading-base-color, 15%);
-  font-size: 1.5rem;
+  font-size: $text-m;
   font-weight: normal;
   line-height: 1.1;
 }
@@ -109,11 +109,17 @@
   padding: 0.4rem;
 
   p {
-    color: lighten($body-color, 10%);
-    font-size: 0.85rem;
+    font-size: $text-s;
+  }
+}
 
-    a {
-      color: lighten($body-color, 10%);
+.p-body {
+  h3,
+  h2 {
+    a:not(.heading-link) {
+      color: $body-color;
+      border-bottom: 2px solid $primary-color;
+      text-decoration: none;
     }
   }
 }
@@ -122,7 +128,7 @@
 
 .post__meta {
   color: $light-text-color;
-  font-size: 0.7rem;
+  font-size: $text-s;
   font-family: $font-code;
   margin-bottom: 1rem;
 }
@@ -137,7 +143,7 @@
 }
 
 .author__title {
-  font-size: 0.75rem;
+  font-size: $text-s;
   font-weight: normal;
 }
 
@@ -155,7 +161,7 @@
   margin-bottom: 1.6rem;
 
   p {
-    font-size: 0.66rem;
+    font-size: $text-xs;
   }
 
   .author__picture {
@@ -172,7 +178,7 @@
   }
 
   h1 {
-    font-size: 2.2rem;
+    font-size: $text-l;
     font-weight: 700;
     line-height: 1.1;
     a {
@@ -222,7 +228,7 @@
     background-color: rgba($body-color, 0.05);
     cursor: pointer;
     display: flex;
-    font-size: 0.75rem;
+    font-size: $text-s;
     justify-content: space-between;
     letter-spacing: 0.6px;
     margin: 0;
@@ -244,7 +250,7 @@
 
   #markdown-toc {
     display: none;
-    font-size: 0.75rem;
+    font-size: $text-s;
     height: 0;
     list-style: decimal-leading-zero;
     overflow: hidden;
@@ -263,7 +269,7 @@
     a {
       border-bottom: 1px dotted transparent;
       display: inline-block;
-      font-size: 0.75rem;
+      font-size: $text-s;
       font-weight: 600;
       text-decoration: none;
 
@@ -282,7 +288,7 @@
 }
 
 .letterboxd__link {
-  font-size: 0.8rem;
+  font-size: $text-s;
   position: relative;
   margin-bottom: 1rem;
 
@@ -310,7 +316,7 @@
   }
 
   h1 {
-    font-size: 1.65rem;
+    font-size: $text-m;
     line-height: 1.3;
     font-weight: normal;
   }
@@ -341,7 +347,7 @@
 
   li,
   p {
-    font-size: 0.8rem;
+    font-size: $text-s;
   }
 
   ol {
@@ -361,7 +367,7 @@
   display: flex;
   flex-wrap: wrap;
   font-family: $font-code;
-  font-size: 0.7rem;
+  font-size: $text-s;
 
   li:not(:last-of-type) {
     margin-right: 0.6rem;
@@ -407,7 +413,7 @@ $reddit-color: #ff4500;
 }
 
 .post-share__title {
-  font-size: 0.7rem;
+  font-size: $text-s;
   margin-top: 0;
 
   &:before {
@@ -422,7 +428,7 @@ $reddit-color: #ff4500;
   width: 100%;
 
   li {
-    font-size: 0.75rem;
+    font-size: $text-s;
   }
 
   a {
@@ -472,7 +478,7 @@ $reddit-color: #ff4500;
   margin-top: 1.6rem;
 
   .post__topics {
-    font-size: 0.66rem;
+    font-size: $text-xs;
     margin-top: 2px;
     @media #{$medium-up} {
       margin-top: 0;
@@ -507,7 +513,7 @@ $reddit-color: #ff4500;
 }
 
 .related-posts__title {
-  font-size: 0.7rem;
+  font-size: $text-s;
   margin-top: 0;
   margin-bottom: 1.4rem;
 
@@ -525,7 +531,7 @@ $reddit-color: #ff4500;
 }
 
 .post-list__item {
-  font-size: 0.66rem;
+  font-size: $text-s;
 
   a {
     text-decoration: none;
@@ -540,15 +546,15 @@ $reddit-color: #ff4500;
 
   .related__title {
     color: $heading-base-color;
-    font-size: 1rem;
+    font-size: $text-reg;
     font-weight: 600;
     line-height: 1.2;
   }
 
   .related__subtitle {
-    font-size: 0.78rem;
+    font-size: $text-s;
     font-style: italic;
-    line-height: 1.4;
+    line-height: 1.3;
     margin-top: 0.2rem;
     color: $light-text-color;
   }
@@ -591,10 +597,13 @@ $reddit-color: #ff4500;
   max-width: 560px;
   width: 90%;
   @media #{$medium-up} {
+    max-width: 634px;
+  }
+  @media #{$large-up} {
     width: 100%;
-    max-width: 630px;
+    max-width: 650px;
   }
   @media #{$xlarge-up} {
-    max-width: 700px;
+    max-width: 720px;
   }
 }

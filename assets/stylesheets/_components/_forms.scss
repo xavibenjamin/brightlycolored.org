@@ -30,7 +30,7 @@
   input {
     border-radius: $global-radius;
     color: $body-color;
-    font-size: 0.85rem;
+    font-size: $text-s;
     max-height: 45px;
     padding: 0.65rem;
     transition: 0.2s ease-in-out;
@@ -40,7 +40,7 @@
     }
   }
   .btn {
-    font-size: 0.85rem;
+    font-size: $text-s;
     line-height: 1;
     max-height: 45px;
     padding-bottom: 0.75rem;
@@ -58,13 +58,6 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.newsletter__thankyou {
-  margin-top: 0.8rem;
-  p {
-    font-size: 0.85rem;
-  }
-}
-
 // -----------------------------------------
 // SEARCH FORM
 // -----------------------------------------
@@ -72,7 +65,7 @@
 .search__input {
   background-color: white;
   border-radius: $global-radius;
-  font-size: 0.85rem;
+  font-size: $text-s;
   padding: 0.8rem 0.6rem;
   width: 100%;
 
