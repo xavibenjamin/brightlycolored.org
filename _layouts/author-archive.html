@@ -27,7 +27,7 @@ layout: default
     <ul class="group__post-list group__post-list--2-col">
       {% for post in year.items %}
       <li class="group-post__item group-post__item--bold">
-        <a href="{{ post.url }}">{{ post.title | caps }}</a><span class="group-post__meta-info">{{ post.date | date: '%a, %b %d'}}</span>
+        <a href="{{ post.url }}">{{ post.title | caps }} {% if post.review.type %}{% include star-rating.html rating=post.review.rating %}{% endif %}</a><span class="group-post__meta-info">{{ post.date | date: '%a, %b %d'}}</span>
       </li>
       {% endfor %}
     </ul>

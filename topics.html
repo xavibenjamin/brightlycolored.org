@@ -9,7 +9,7 @@ excerpt: Topics covered on Brightly Colored.
 <div class="page">
   <header class="page__header page__header--full">
     <h1 class="page-header__title" id="page-title">Topics</h1>
-    <p class="page-header__description">{{ "I love to write about [comics](#comics), my weekly [pull list](#pull-list), [Star Wars](#star-wars), [Jekyll](#jekyll), [the NBA](#nba), [tech](#tech), and [Apple](#apple). I've also written a few series you might want to read: [Brief Review](#brief-review), [Year in Review](#year-in-review), and [Jekyll on Heroku](#jekyll-on-heroku). You can also find movie, music, and book reviews by [genre](/genres/)." | markdownify | smartify | widont | remove: '<p>' | remove: '</p>' }}</p>
+    <p class="page-header__description">I love to write about <a href="#comics">comics</a>, my weekly <a href="#pull-list">pull list</a>, <em><a href="#star-wars">Star Wars</a></em>, <a href="#movies">movies</a>, <a href="#apple">Apple</a>, and <a href="#tech">technology</a>. I've written a few series over the years you may find interesting too: <a href="#brief-review">Brief Review</a>, <a href="#year-in-review">Year in Review</a>, and <a href="#jekyll-on-heroku">Jekyll on Heroku</a>. <a href="/reviews/">Reviews</a> are on their own page categorized by&nbsp;type.</p>
   </header>
 
 
@@ -68,7 +68,7 @@ excerpt: Topics covered on Brightly Colored.
             <ul class="group__post-list group__post-list--2-col">
               {% for post in tag.last %}
                 <li class="group-post__item">
-                  <a href="{{ post.url }}">{{ post.title | caps | widont }}{% if post.review.type %}{% include star-rating.html rating=post.review.rating %}{% endif %}</a>
+                  <a href="{{ post.url }}">{{ post.title | caps | widont }} {% if post.review.type %}{% include star-rating.html rating=post.review.rating %}{% endif %}</a>
                 </li>
               {% endfor %}
             </ul>
