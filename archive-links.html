@@ -1,0 +1,43 @@
+---
+title: Link Archive
+permalink: "/archive/links/"
+layout: default
+custom_css_class: archives
+---
+
+<div class="page">
+  <header class="page__header page__header--full">
+    <h1 class="page-header__title" id="page-title">{{ page.title }}</h1>
+    <p class="page-header__description">Items I’ve linked to. Find <a href="/archive/">column articles here</a>.</p>
+  </header>
+
+<ul class="groups-list groups-list--3-col">
+  {% assign postsInYear = site.posts | where_exp: "item", "item.is_rss_only != true" | where_exp: "item", "item.custom_type != 'post'" | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% for year in postsInYear %}
+    <li>
+      <a href="#{{ year.name }}">
+        {{ year.name }} 
+        <span>{{ year.items | size }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+{% assign postsByYear = site.posts | where_exp: "item", "item.is_rss_only != true" | where_exp: "item", "item.custom_type != 'post'" | group_by_exp:"post", "post.date | date: '%Y'"  %}
+{% for year in postsByYear %}
+<section class="group-section" id="{{ year.name }}">
+  <h2 class="group__name">{{ year.name }}<small class="group__count">{{ year.items | size }}</small></h2>
+
+  <ul class="group__post-list group__post-list--2-col">
+    {% for post in year.items %}
+      <li class="group-post__item group-post__item--bold">
+        <a href="{{ post.url }}">{{ post.title | caps | widont }}{% if post.review.type %}{% include star-rating.html rating=post.review.rating %}{% endif %}</a><span class="group-post__meta-info">{{ post.date | date: '%b %d'}}</span>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <a href="#page-title" class="group__return-home">Back to Top &uarr;</a>
+</section>
+{% endfor %}
+
+</div>

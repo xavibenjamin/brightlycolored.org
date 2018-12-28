@@ -1,5 +1,5 @@
 ---
-title: Post Archive
+title: Archive
 layout: default
 custom_css_class: archives
 exclude_from_search: true
@@ -8,11 +8,11 @@ exclude_from_search: true
 <div class="page">
   <header class="page__header page__header--full">
     <h1 class="page-header__title" id="page-title">{{ page.title }}</h1>
-    <p class="page-header__description">This site has been published since 2013, and has <strong>{{ site.posts | size }}</strong> entries. If you know the exact post you’re looking for, I recommend you search. You can browse the <a href="/topics/">Topics page</a> if you’re feeling adventurous. You can also find movie, music, and book reviews by&nbsp;<a href="/genres/">genre</a>.</p>
+    <p class="page-header__description">This site has been published since 2013, and has <strong>{{ site.posts | size }}</strong> entries. Find <a href="/archive/links/">items I’ve linked to</a> here. You can browse the <a href="/topics/">Topics page</a> if you’re feeling&nbsp;adventurous. <a href="/reviews/">Reviews</a> are on their own page categorized by&nbsp;type.</p>
   </header>
 
 <ul class="groups-list groups-list--3-col">
-  {% assign postsInYear = site.posts | where_exp: "item", "item.is_rss_only != true" | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% assign postsInYear = site.posts | where_exp: "item", "item.is_rss_only != true" | where_exp: "item", "item.custom_type == 'post'" | group_by_exp: "post", "post.date | date: '%Y'" %}
   {% for year in postsInYear %}
     <li>
       <a href="#{{ year.name }}">
@@ -23,7 +23,7 @@ exclude_from_search: true
   {% endfor %}
 </ul>
 
-{% assign postsByYear = site.posts | where_exp: "item", "item.is_rss_only != true" | group_by_exp:"post", "post.date | date: '%Y'"  %}
+{% assign postsByYear = site.posts | where_exp: "item", "item.is_rss_only != true" | where_exp: "item", "item.custom_type == 'post'" | group_by_exp:"post", "post.date | date: '%Y'"  %}
 {% for year in postsByYear %}
 <section class="group-section" id="{{ year.name }}">
   <h2 class="group__name">{{ year.name }}<small class="group__count">{{ year.items | size }}</small></h2>
@@ -31,7 +31,7 @@ exclude_from_search: true
   <ul class="group__post-list group__post-list--2-col">
     {% for post in year.items %}
       <li class="group-post__item group-post__item--bold">
-        <a href="{{ post.url }}">{{ post.title | caps | widont }}{% if post.review.type %}{% include star-rating.html rating=post.review.rating %}{% endif %}</a><span class="group-post__meta-info">{{ post.date | date: '%b %d'}}</span>
+        <a href="{{ post.url }}">{{ post.title | caps | widont }} {% if post.review.type %}{% include star-rating.html rating=post.review.rating %}{% endif %}</a><span class="group-post__meta-info">{{ post.date | date: '%b %d'}}</span>
       </li>
     {% endfor %}
   </ul>
