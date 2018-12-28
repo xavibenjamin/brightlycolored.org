@@ -1,6 +1,6 @@
 ---
 title: Pull List for January 2, 2019
-date: 2018-12-27 13:58:00 -06:00
+date: 2019-01-01 13:58:00 -06:00
 layout: post
 custom_type: post
 ---
@@ -18,3 +18,6 @@ Creator-owned comics are my favorite. Issues like this are the reason why. The w
 **Favorite of the week:** Man-Eaters #4
 
 ## Picking up this week
+
+- **Deadpool #8** - Skottie Young isn't doing the typical 4-6 issue arc, and I'm enjoying it a lot. It offers the opportunity for some pretty cool self-contained stories.
+- **Star Wars: Age of Republic - Obi-Wan Kenobi #1** - I'm bummed these are all one-offs. I'd love a maxi-series on almost all of the characters they're doing an issue on.
