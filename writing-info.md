@@ -1,8 +1,9 @@
 ---
 title: Contribution Guidelines
-permalink: "/contribute/"
+permalink: '/contribute/'
 layout: page
-description: Helpful information for authors or soon-to-be-authors when writing content
+description:
+  Helpful information for authors or soon-to-be-authors when writing content
   for *Brightly Colored*.
 exclude_from_search: true
 excerpt: Guidelines for writing on Brightly Colored.
@@ -148,6 +149,8 @@ Include the following YAML front matter when writing a movie review:
 review:
   type: movie
   rating: 2.5 # Numbers that are supported are 1-5 and their .5 intervals
+  movie:
+    letterboxd: https://letterboxd.com/path/to/review # Link to Letterboxd review
 ```
 
 ### Product Reviews
