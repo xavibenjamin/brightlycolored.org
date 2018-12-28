@@ -1,17 +1,17 @@
 ---
 ---
 
-$primary-color: #5bc3c1;
-$secondary-color: #2c0045;
+$primary-color: #79c3c2;
+$secondary-color: #35314f;
 
 $bg-color: $primary-color;
 $footer-bg-color: $secondary-color;
 
-$text-color: desaturate(lighten($secondary-color, 28%), 85%);
-$text-color-light: lighten($text-color, 16%);
+$text-color: lighten($secondary-color, 15%);
+$text-color-light: lighten($text-color, 18%);
 
-$bg-color-light: desaturate(lighten($primary-color, 37%), 17%);
-$border-color: desaturate(lighten($secondary-color, 77%), 35%);
+$bg-color-light: desaturate(lighten($primary-color, 30%), 17%);
+$border-color: lighten($secondary-color, 65%);
 
 $footer-link-color: white;
 
