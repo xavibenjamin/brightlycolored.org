@@ -2,8 +2,8 @@
 title: Notable Films From 2018
 date: 2018-12-28 17:38:00 -06:00
 tags:
-  - movies
-  - review
+- movies
+- review
 custom_type: post
 ---
 
