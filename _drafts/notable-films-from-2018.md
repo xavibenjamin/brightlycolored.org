@@ -1,10 +1,10 @@
 ---
 title: Notable Films From 2018
-custom_type: post
-date: 2018-12-28 17:38 -06:00
+date: 2018-12-28 17:38:00 -06:00
 tags:
-  - movies
-  - review
+- movies
+- review
+custom_type: post
 ---
 
 Watching movies is one of my favorite pastimes, so it's no surprise I've watched a lot this year—thirty-four of which were released in 2018. Not all [my film reviews](https://letterboxd.com/ttimsmith/) are long enough to get [their own blog post](/topics/#movie-review), so I figured I'd collect some of the important ones.
