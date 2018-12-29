@@ -2,12 +2,40 @@
 title: Notable Films From 2018
 date: 2018-12-28 17:38:00 -06:00
 tags:
-- movies
-- review
+  - movies
+  - review
 custom_type: post
 ---
 
 Watching movies is one of my favorite pastimes, so it's no surprise I've watched a lot this year—thirty-four of which were released in 2018. Not all [my film reviews](https://letterboxd.com/ttimsmith/) are long enough to get [their own blog post](/topics/#movie-review), so I figured I'd collect some of the important ones.
+
+<div class="toc-wrapper" id="post-table-of-contents">
+  <h2 class="no_toc" id="toc-toggle">
+    Table of Contents
+    {% include icons/icon-chevron.html %}
+  </h2>
+
+  <ol id="markdown-toc">
+    <li><a href="#black-panther">Black Panther</a></li>
+    <li><a href="#maniac">Maniac</a></li>
+    <li><a href="#sierra-burgess-is-a-loser">Sierra Burgess Is a Loser</a></li>
+    <li><a href="#a-star-is-born">A Star Is Born</a></li>
+    <li><a href="#to-all-the-boys-i-ve-loved-before">To All The Boys I’ve Loved Before</a></li>
+    <li><a href="#crazy-rich-asians">Crazy Rich Asians</a></li>
+    <li><a href="#mission-impossible-fallout">Mission: Impossible - Fallout</a></li>
+    <li><a href="#ocean-s-eight">Ocean’s Eight</a></li>
+    <li><a href="#incredibles-2">Incredibles 2</a></li>
+    <li><a href="#solo-a-star-wars-story">Solo: A Star Wars Story</a></li>
+    <li><a href="#the-week-of">The Week Of</a></li>
+    <li><a href="#avengers-infinity-war">Avengers: Infinity War</a></li>
+    <li><a href="#bao">Bao</a></li>
+    <li><a href="#blockers">Blockers</a></li>
+    <li><a href="#a-quiet-place">A Quiet Place</a></li>
+    <li><a href="#get-out">Get Out</a></li>
+    <li><a href="#there-s-something-about-mary">There’s Something About Mary</a></li>
+    <li><a href="#big">Big</a></li>
+  </ol>
+</div>
 
 {% include h-rating.html text="Black Panther" rating=4.5 level=2 url="https://letterboxd.com/ttimsmith/film/black-panther-2018/" %}
 
