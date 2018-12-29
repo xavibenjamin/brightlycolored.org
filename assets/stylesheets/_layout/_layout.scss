@@ -13,7 +13,8 @@ body {
   }
 
   @media #{$xlarge-up} {
-    max-width: 1380px;
+    grid-template-columns: auto 250px;
+    max-width: 1440px;
   }
 }
 
