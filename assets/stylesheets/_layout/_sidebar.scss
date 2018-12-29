@@ -8,6 +8,10 @@
   @media #{$medium-up} {
     padding: 4rem 1.4rem 3rem;
   }
+
+  > * {
+    max-width: 250px;
+  }
 }
 
 .site__navigation {
