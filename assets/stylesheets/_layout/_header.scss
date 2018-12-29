@@ -38,19 +38,19 @@
 
 .header__byline {
   color: white;
-  font-size: $text-xs;
+  font-size: $ratio-2;
   font-weight: 600;
   letter-spacing: 1.6px;
   margin-bottom: 0.4rem;
   text-transform: uppercase;
   @media #{$medium-up} {
-    font-size: $text-s;
+    font-size: $ratio-1;
   }
 }
 
 .header__description {
   color: rgba(white, 0.8);
-  font-size: $text-reg;
+  font-size: $ratio;
   line-height: 1.3;
   margin-top: 0.8rem;
   max-width: 440px;

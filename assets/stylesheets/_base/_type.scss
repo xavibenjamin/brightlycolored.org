@@ -46,7 +46,7 @@ h5 {
 // TEXT --------------------------
 
 p {
-  font-size: $text-reg;
+  font-size: $ratio;
   line-height: 1.7;
   + p {
     margin-top: 1rem;
@@ -58,33 +58,27 @@ h1 {
 }
 
 h2 {
-  font-size: $text-m;
+  font-size: $ratio1;
   font-weight: 700;
   line-height: 1.2;
-  margin: 2.5rem 0 0.2rem;
+  margin-top: $ratio1;
+  margin-bottom: $ratio-3;
   + h3 {
-    margin-top: 1.3rem;
+    margin-top: $ratio1;
   }
 }
 
 h3 {
   color: lighten($heading-base-color, 10%);
-  font-size: $text-reg;
+  font-size: $ratio;
   font-weight: 700;
-  margin: $text-l 0 0.4rem;
-  text-transform: uppercase;
-}
-
-h4 {
-  color: lighten($heading-base-color, 10%);
-  font-size: $text-s;
-  font-weight: 700;
-  margin: 2.2rem 0 0.1875rem;
+  margin-top: $ratio2;
+  margin-bottom: $ratio-3;
   text-transform: uppercase;
 }
 
 h5 {
-  font-size: $text-s;
+  font-size: $ratio-1;
   font-weight: 600;
   margin: 3rem 0 0.6rem;
   text-transform: uppercase;
@@ -99,13 +93,6 @@ h5 {
   }
 }
 
-h6 {
-  color: lighten($body-color, 20%);
-  font-size: $text-reg;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
 .p-body > ul:not(.slash-list):not(.author-archive):not(.search__results),
 blockquote > ul {
   list-style-type: circle;
@@ -113,7 +100,7 @@ blockquote > ul {
   margin-left: 2rem;
   margin-top: 1.1rem;
   li {
-    font-size: $text-reg;
+    font-size: $ratio;
     line-height: 1.7;
 
     + li {
@@ -139,7 +126,7 @@ blockquote > ol {
   margin-left: 2rem;
   margin-top: 1.1rem;
   li {
-    font-size: $text-reg;
+    font-size: $ratio;
     line-height: 1.7;
 
     + li {
@@ -181,7 +168,7 @@ mark {
 }
 
 sup {
-  font-size: $text-s;
+  font-size: $ratio-1;
 }
 
 p,

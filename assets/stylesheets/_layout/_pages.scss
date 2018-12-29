@@ -26,7 +26,7 @@
 
 .page-header__title {
   color: $heading-base-color;
-  font-size: $text-l;
+  font-size: $ratio2;
   font-weight: 400;
   margin-bottom: 0.2rem;
 }
@@ -34,7 +34,7 @@
 .page-header__description {
   color: lighten($body-color, 20%);
   font-family: $font-display;
-  font-size: $text-m;
+  font-size: $ratio1;
   line-height: 1.35;
 }
 
@@ -66,7 +66,7 @@
   }
 
   .author__name {
-    font-size: $text-l;
+    font-size: $ratio2;
     font-weight: 600;
     color: $heading-base-color;
     margin: 0;
@@ -74,7 +74,7 @@
 
   .author__title {
     color: lighten($body-color, 15%);
-    font-size: $text-m;
+    font-size: $ratio1;
     margin-bottom: 0;
     margin-top: 0;
     text-transform: none;

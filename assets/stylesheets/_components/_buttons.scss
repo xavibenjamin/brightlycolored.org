@@ -8,7 +8,7 @@
   border: 0;
   border-radius: $global-radius;
   display: inline-block;
-  font-size: $text-reg;
+  font-size: $ratio;
   font-weight: 600;
   padding: 0.65em 0.95em;
   text-decoration: none;
@@ -20,7 +20,7 @@
 }
 
 .btn--small {
-  font-size: $text-s;
+  font-size: $ratio-1;
 }
 
 .btn--primary {

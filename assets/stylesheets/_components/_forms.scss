@@ -30,7 +30,7 @@
   input {
     border-radius: $global-radius;
     color: $body-color;
-    font-size: $text-s;
+    font-size: $ratio-1;
     max-height: 45px;
     padding: 0.65rem;
     transition: 0.2s ease-in-out;
@@ -40,7 +40,7 @@
     }
   }
   .btn {
-    font-size: $text-s;
+    font-size: $ratio-1;
     line-height: 1;
     max-height: 45px;
     padding-bottom: 0.75rem;
@@ -65,7 +65,7 @@
 .search__input {
   background-color: white;
   border-radius: $global-radius;
-  font-size: $text-s;
+  font-size: $ratio-1;
   padding: 0.8rem 0.6rem;
   width: 100%;
 

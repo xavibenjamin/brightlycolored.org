@@ -48,10 +48,15 @@ $font-display: Whitney A, Whitney B, system, -apple-system, BlinkMacSystemFont,
   Avenir, sans-serif;
 $font-code: Operator SSm A, Operator SSm B, Operator Mono, monospace;
 
-$magic-number: 1.55;
+// Spacing Ratio
 
-$text-reg: 1rem;
-$text-xs: $text-reg / $magic-number;
-$text-s: $text-reg / 1.35;
-$text-m: $text-reg * $magic-number;
-$text-l: $text-m * $magic-number;
+$magic-number: 1.48;
+
+$ratio: 1rem;
+
+$ratio-1: $ratio / 1.35;
+$ratio-2: $ratio / $magic-number;
+$ratio-3: $ratio-2 / $magic-number;
+
+$ratio1: $ratio * $magic-number;
+$ratio2: $ratio1 * $magic-number;

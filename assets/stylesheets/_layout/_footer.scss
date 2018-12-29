@@ -9,7 +9,7 @@
   text-align: center;
 
   p {
-    font-size: $text-s;
+    font-size: $ratio-1;
   }
 
   .icon {
@@ -30,7 +30,7 @@
   bottom: 0;
   color: darken(#cfe8c6, 50%);
   display: none;
-  font-size: $text-s;
+  font-size: $ratio-1;
   font-weight: 600;
   left: 0;
   padding: 0.8rem;

@@ -16,7 +16,7 @@ code {
   border-radius: 3px;
   color: #bf616a;
   font-family: Operator Mono, monospace;
-  font-size: $text-reg;
+  font-size: $ratio;
   line-height: 1.5;
   padding: 1px 3px;
   white-space: pre;
@@ -24,7 +24,7 @@ code {
     color: inherit;
   }
   @media #{$medium-up} {
-    font-size: $text-reg;
+    font-size: $ratio;
   }
   a & {
     color: inherit;
