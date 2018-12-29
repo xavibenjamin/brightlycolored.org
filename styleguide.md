@@ -1,6 +1,6 @@
 ---
 title: Style Guide
-permalink: "/styleguide/"
+permalink: '/styleguide/'
 layout: page
 exclude_from_search: true
 excerpt: Style guide for Brightly Colored.
@@ -67,6 +67,8 @@ I use horizontal rules for separating ideas in an article.
   <img src="{{ site.url }}/uploads/2013/10/1p4-mac-1p-mini-item-details.png" alt="1Password Mini details">
   <figcaption>For this image styling, use the <code>.alignleft</code> class. I like to use captions for the most part, not required though</figcaption>
 </figure>
+
+### Here's a level three heading
 
 Here's a `blockquote` for you. These are mostly used in link posts to quote writing from elsewhere. They're usually preceded by the person who said or wrote the quote.
 
