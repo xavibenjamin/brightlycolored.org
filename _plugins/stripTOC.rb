@@ -12,6 +12,12 @@ module Jekyll
         end
       end
 
+      for block in ['svg'] do
+        doc.css(block).each do |ele|
+          ele.remove if (ele['class'] == 'star__rating')
+        end
+      end
+
       doc.inner_html
 
     end
