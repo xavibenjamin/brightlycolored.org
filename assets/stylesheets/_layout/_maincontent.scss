@@ -4,9 +4,10 @@
 
 .main {
   background-color: white;
-  padding: 4rem 0 6rem;
+  padding: 2rem 0 4rem;
 
   @media #{$medium-up} {
+    padding: 4rem 0 6rem;
     min-height: calc(100vh - 169px);
   }
 

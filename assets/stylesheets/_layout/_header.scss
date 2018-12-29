@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: center;
   display: flex;
-  padding: 1.4rem 0;
+  padding: 0.8rem 0;
   position: relative;
   @media #{$medium-up} {
     padding: 2rem 0;
@@ -19,7 +19,7 @@
 }
 
 .brightly-colored-logo {
-  width: 235px;
+  width: 200px;
   @media #{$medium-up} {
     width: 280px;
   }
@@ -43,8 +43,13 @@
   letter-spacing: 1.6px;
   margin-bottom: 0.4rem;
   text-transform: uppercase;
+
   @media #{$medium-up} {
     font-size: $ratio-1;
+  }
+
+  @media #{$small-only} {
+    display: none;
   }
 }
 
@@ -58,6 +63,10 @@
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+
+  @media #{$small-only} {
+    display: none;
+  }
 
   @media #{$medium-up} {
     max-width: 480px;
@@ -75,7 +84,7 @@
   display: block;
   transition: opacity 0.2s ease-in-out;
   position: absolute;
-  top: 1.8rem;
+  top: 1.5rem;
   left: 5%;
   opacity: 0.6;
 
