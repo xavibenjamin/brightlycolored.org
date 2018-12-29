@@ -221,8 +221,8 @@
 .toc-wrapper {
   border: 1px solid rgba($body-color, 0.1);
   border-radius: $global-radius;
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 
   h2 {
     align-items: center;
@@ -265,7 +265,7 @@
   }
 
   li {
-    padding: 0.3rem 0;
+    padding: 0.35rem 0;
 
     a {
       border-bottom: 1px dotted transparent;
@@ -498,13 +498,15 @@ $reddit-color: #ff4500;
   }
 
   .post-list__item {
-    display: grid;
-    grid-template-columns: 1fr 140px;
-    grid-column-gap: 1.4rem;
-    align-items: center;
-
     + .post-list__item {
       margin-top: 1.6rem;
+    }
+
+    @media #{$medium-up} {
+      display: grid;
+      grid-template-columns: 1fr 170px;
+      grid-column-gap: $ratio2;
+      align-items: center;
     }
   }
 
@@ -561,8 +563,11 @@ $reddit-color: #ff4500;
   }
 
   .related__image {
+    @media #{$small-only} {
+      display: none;
+    }
     img {
-      height: 100px;
+      height: 110px;
       object-fit: cover;
       border-radius: $global-radius;
     }
