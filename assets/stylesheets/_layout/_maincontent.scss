@@ -584,6 +584,10 @@ $reddit-color: #ff4500;
     max-width: 875px;
   }
 
+  @media #{$large-up} {
+    max-width: 950px;
+  }
+
   @media #{$xlarge-up} {
     max-width: 1000px;
   }
