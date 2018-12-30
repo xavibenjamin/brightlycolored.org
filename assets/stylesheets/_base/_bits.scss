@@ -8,9 +8,9 @@ $secondary-color: #212836;
 
 // TEXT COLOR --------------------
 // $body-color: #444;
-$body-color: lighten($secondary-color, 12%);
+$body-color: lighten($secondary-color, 25%);
 $heading-base-color: $body-color;
-$light-text-color: lighten($body-color, 25%);
+$light-text-color: lighten($body-color, 17%);
 $highlight-color: #fffedb;
 $link-color: #0881b3;
 $link-underline: lighten(saturate($link-color, 10%), 40%);
@@ -48,7 +48,9 @@ $font-display: Whitney A, Whitney B, system, -apple-system, BlinkMacSystemFont,
   Avenir, sans-serif;
 $font-code: Operator SSm A, Operator SSm B, Operator Mono, monospace;
 
-// Spacing Ratio
+// -----------------------------------------
+// SPACING RATIO
+// -----------------------------------------
 
 $magic-number: 1.55;
 
