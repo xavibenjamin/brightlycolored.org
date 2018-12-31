@@ -1,11 +1,11 @@
 ---
-title: "A Sneak Peek at Star Wars: Galaxy’s Edge"
-date: 2018-12-31 11:15 -06:00
-custom_type: post
+title: 'A Sneak Peek at Star Wars: Galaxy’s Edge'
+date: 2018-12-31 11:15:00 -06:00
 tags:
 - Star Wars
 - Disney
-featured_image: /uploads/galaxys-edge-featured.jpg
+custom_type: post
+featured_image: "/uploads/galaxys-edge-featured.jpg"
 ---
 
 File this one under "reason's why I don't mind Disney owning Lucasfilm." It feels like they've been working on this for a while, but maybe that's my impression because [David Sparks is always hyping it up on Twitter](https://twitter.com/MacSparky/status/1075504380995022848).
