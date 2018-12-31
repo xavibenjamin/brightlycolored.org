@@ -91,7 +91,7 @@
       href="https://feedpress.me/brightlycolored-articles"
     />
 
-    <link rel="stylesheet" href="/assets/stylesheets/global.css" />
+    <link rel="stylesheet" href="/assets/stylesheets/global.css?ver={{ site.time | date: '%Y%m%d%H%M%S' }}" />
 
     <script>
       var siteThemes = [
@@ -103,7 +103,7 @@
       ];
       var siteTheme = siteThemes[Math.floor(Math.random() * siteThemes.length)];
       document.write(
-        '<link rel="stylesheet" href="/themes/' + siteTheme + '">'
+        '<link rel="stylesheet" href="/themes/' + siteTheme + '?ver={{ site.time | date: '%Y%m%d%H%M%S' }}">'
       );
     </script>
 
