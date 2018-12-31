@@ -1,11 +1,11 @@
 ---
 title: Pull List for January 2, 2019
-date: 2019-01-01 5:45:00 -06:00
-custom_type: post
+date: 2019-01-01 05:45:00 -06:00
 tags:
 - comics
 - pull list
-featured_image: /uploads/pull-list-for-jan-2-2019.jpg
+custom_type: post
+featured_image: "/uploads/pull-list-for-jan-2-2019.jpg"
 ---
 
 <figure class="extendout">
