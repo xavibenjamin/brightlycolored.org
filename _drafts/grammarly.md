@@ -1,10 +1,10 @@
 ---
 title: Grammarly
+date: 2019-01-03 01:15:00 -06:00
 custom_type: post
 review:
   type: app
   rating: 4.5
-date: 2019-01-03 01:15 -06:00
 ---
 
 Kelly and I got Hulu in November when they had their 99¢/month promotion. 99¢ is a killer price, but that price tier comes with ads (of course). As I binge-watched *Brooklyn Nine-Nine*—and was rudely interrupted with an ad—I came across an app I'd heard of many times: Grammarly.
