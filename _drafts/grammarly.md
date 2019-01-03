@@ -11,7 +11,7 @@ Kelly and I got Hulu in November when they had their 99¢/month promotion. 99¢ 
 
 Hot damn Hulu! One of your ads converted me!
 
-So here I am, writing these words into Grammarly as it wonderfully checks every word. I'm excited. I've considered hiring an editor many times for *Brightly Colored* but it, unfortunately, doesn't align with how fast I tend to publish articles at the moment.
+So here I am, writing this into Grammarly as it wonderfully checks every word. I'm excited. I've considered hiring an editor many times for *Brightly Colored* but it, unfortunately, doesn't align with how fast I tend to publish articles at the moment.
 
 Grammarly helps me just… write. I have a bad habit of editing myself as I write, which frequently blocks me from expressing what I actually feel. Grammarly does a lot of the editing work for me, so I don't have to. My only job is to write in the moment, then edit all those thoughts later.
 
