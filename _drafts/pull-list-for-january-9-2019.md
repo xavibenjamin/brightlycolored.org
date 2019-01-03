@@ -1,11 +1,14 @@
 ---
 title: Pull List for January 9, 2019
-custom_type: post
-date: 2019-01-08 05:45 -06:00
+date: 2019-01-08 05:45:00 -06:00
 tags:
 - comics
 - pull list
-excerpt: Every Wednesday, all-new comic books hit the shelves with original stories to be engrossed in, and new art to be fascinated by. This is my weekly write-up where I share what comic books I read last week, and [my pull list](/topics/#pull-list) of comics for this week.
+custom_type: post
+excerpt: Every Wednesday, all-new comic books hit the shelves with original stories
+  to be engrossed in, and new art to be fascinated by. This is my weekly write-up
+  where I share what comic books I read last week, and [my pull list](/topics/#pull-list)
+  of comics for this week.
 ---
 
 Every Wednesday, all-new comic books hit the shelves with original stories to be engrossed in, and new art to be fascinated by. This is my weekly write-up where I share what comic books I read last week, and [my pull list](/topics/#pull-list) of comics for this week.
