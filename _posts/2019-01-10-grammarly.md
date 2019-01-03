@@ -1,15 +1,16 @@
 ---
 title: Grammarly
-date: 2019-01-03 01:15:00 -06:00
+date: 2019-01-10 10:00:00 -06:00
 tags:
 - apps
 - review
 - writing
+custom_type: post
 subtitle: No matter the task, this writing assistant helps your text be concise, articulate,
   and correct
 excerpt: No matter the task, this writing assistant helps your text be concise, articulate,
   and correct
-custom_type: post
+featured_image: "/uploads/2019/01/grammarly-review-featured.jpg"
 review:
   type: app
   rating: 4.5
