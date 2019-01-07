@@ -1,12 +1,12 @@
 ---
 title: January in Oceanside
-date: 2019-01-07 12:09 -06:00
-custom_type: post
+date: 2019-01-07 12:09:00 -06:00
 tags:
 - photography
 - personal
 - snowbirding
-featured_image: /uploads/2019/01/jan-in-ca-005.jpg
+custom_type: post
+featured_image: "/uploads/2019/01/jan-in-ca-005.jpg"
 ---
 
 This past Friday, Kelly and I left our Minnesota home and embarked on a three-day road trip to Oceanside, CA. Oceanside will be our home for the next month as we try to get away from the cold and enjoy a working vacation of sorts just a few blocks away from the beach, and only a few minutes away from where I grew up.
