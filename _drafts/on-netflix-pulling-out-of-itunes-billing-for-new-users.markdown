@@ -1,7 +1,6 @@
 ---
 title: On Netflix Pulling Out of iTunes Billing for New Users
-date: 2019-01-03 23:09:35.133000000 -06:00
-published: false
+date: 2019-01-03 23:09:00 -06:00
 link_url: https://daringfireball.net/2019/01/netflix_itunes_billing
 featured_image: https://daringfireball.net/graphics/df-square-1024
 ---

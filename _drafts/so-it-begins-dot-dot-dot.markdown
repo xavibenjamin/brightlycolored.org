@@ -1,7 +1,6 @@
 ---
 title: So it begins...
-date: 2019-01-05 09:15:22.969000000 -06:00
-published: false
+date: 2019-01-05 09:15:00 -06:00
 link_url: https://www.reddit.com/r/timberwolves/comments/acm5u0/so_it_begins/
 featured_image: https://external-preview.redd.it/KQKg8PpUG_3LP2tgclGMha5mi4OwqBDMUcF1aQetSQE.jpg?auto=webp&s=9061969aef864a3c69479df005e87be81261f3f7
 ---
