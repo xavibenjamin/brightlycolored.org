@@ -1,10 +1,10 @@
 ---
 title: Disneyland Plans to Gouge Star Wars Fans Even More
 date: 2019-01-07 17:24:00 -06:00
-custom_type: post
 tags:
 - Disney
 - Star Wars
+custom_type: post
 ---
 
 [Mira Jacobs writing for *CBR*](https://www.cbr.com/disneyland-prices-increase/):
