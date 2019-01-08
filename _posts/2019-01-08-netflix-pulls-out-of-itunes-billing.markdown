@@ -1,6 +1,6 @@
 ---
 title: On Netflix Pulling Out of iTunes Billing for New Users
-date: 2019-01-09 11:45:00 -06:00
+date: 2019-01-08 11:45:00 -06:00
 tags:
 - Apple
 - Netflix
