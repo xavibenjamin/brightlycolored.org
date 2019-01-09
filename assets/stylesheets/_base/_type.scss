@@ -3,18 +3,9 @@
 // -------------------------------
 
 html {
-  font-size: percentage(17.5/16);
+  font-size: calc(16px + 0.25vw);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  @media #{$medium-up} {
-    font-size: percentage(18.5/16);
-  }
-  @media #{$large-up} {
-    font-size: percentage(19/16);
-  }
-  @media #{$xlarge-up} {
-    font-size: percentage(21/16);
-  }
 }
 
 body {

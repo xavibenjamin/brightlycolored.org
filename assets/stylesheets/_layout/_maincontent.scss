@@ -579,18 +579,7 @@ $reddit-color: #ff4500;
 .p-body {
   margin-left: auto;
   margin-right: auto;
-
-  @media #{$medium-up} {
-    max-width: 831px;
-  }
-
-  @media #{$large-up} {
-    max-width: 850px;
-  }
-
-  @media #{$xlarge-up} {
-    max-width: 925px;
-  }
+  max-width: 44em;
 }
 
 .p-body
@@ -604,16 +593,8 @@ $reddit-color: #ff4500;
 .card > * {
   margin-left: auto;
   margin-right: auto;
-  max-width: 560px;
-  width: 90%;
+  max-width: 90%;
   @media #{$medium-up} {
-    max-width: 681px;
-  }
-  @media #{$large-up} {
-    width: 100%;
-    max-width: 700px;
-  }
-  @media #{$xlarge-up} {
-    max-width: 775px;
+    max-width: 36.9rem;
   }
 }

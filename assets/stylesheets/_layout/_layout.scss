@@ -5,16 +5,10 @@
 body {
   @media #{$large-up} {
     display: grid;
-    grid-template-columns: auto 230px;
+    grid-template-columns: auto 12rem;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1300px;
-    width: 95%;
-  }
-
-  @media #{$xlarge-up} {
-    grid-template-columns: auto 250px;
-    max-width: 1440px;
+    max-width: 63rem;
   }
 }
 

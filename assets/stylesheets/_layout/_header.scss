@@ -16,16 +16,11 @@
 
 .logo {
   display: grid;
+  width: 14rem;
 }
 
 .brightly-colored-logo {
-  width: 200px;
-  @media #{$medium-up} {
-    width: 280px;
-  }
-  @media #{$xlarge-up} {
-    width: 310px;
-  }
+  width: 100%;
 }
 
 .logo__first-word {
@@ -58,25 +53,13 @@
   font-size: $ratio;
   line-height: 1.3;
   margin-top: 0.8rem;
-  max-width: 440px;
   text-align: center;
-  width: 90%;
+  width: 26rem;
   margin-left: auto;
   margin-right: auto;
 
   @media #{$small-only} {
     display: none;
-  }
-
-  @media #{$medium-up} {
-    max-width: 480px;
-  }
-  @media #{$large-up} {
-    max-width: 490px;
-  }
-
-  @media #{$xlarge-up} {
-    max-width: 540px;
   }
 }
 

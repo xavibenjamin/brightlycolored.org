@@ -18,10 +18,6 @@
     margin-right: auto;
     width: 90%;
   }
-
-  @media #{$large-up} {
-    width: 80%;
-  }
 }
 
 .page-header__title {
@@ -50,7 +46,7 @@
 
   @media #{$medium-up} {
     grid-column-gap: 1.4rem;
-    grid-template-columns: 200px minmax(auto, 575px);
+    grid-template-columns: 200px minmax(auto, 35rem);
   }
 }
 
