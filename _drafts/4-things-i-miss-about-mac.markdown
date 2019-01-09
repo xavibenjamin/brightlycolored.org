@@ -1,7 +1,6 @@
 ---
 title: 4 Things I Miss About Mac
-date: 2019-01-09 02:05:35.643000000 -06:00
-published: false
+date: 2019-01-09 02:05:00 -06:00
 link_url: https://daverupert.com/2019/01/things-i-miss-about-mac/
 featured_image: https://daverupert.com/images/global/newshammericon.png
 ---
