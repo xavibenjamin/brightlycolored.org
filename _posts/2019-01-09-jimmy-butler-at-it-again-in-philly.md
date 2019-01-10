@@ -1,10 +1,11 @@
 ---
 title: Jimmy Butler at It Again in Philly
 date: 2019-01-09 17:16:00 -06:00
-custom_type: post
 tags:
-  - NBA
-excerpt: 'I hate to say it, but Jimmy Butler may be the next Dwight Howard: a talented player whose very presence causes the implosion of otherwise good teams.'
+- NBA
+custom_type: post
+excerpt: 'I hate to say it, but Jimmy Butler may be the next Dwight Howard: a talented
+  player whose very presence causes the implosion of otherwise good teams.'
 ---
 
 [Romana Shelburne and Adrian Wojnarowski reporting for ESPN:](http://www.espn.com/nba/story/_/id/25684980/jimmy-butler-challenging-philadelphia-76ers-coach-brett-brown-offensive-role)
