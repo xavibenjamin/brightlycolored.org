@@ -1,12 +1,12 @@
 ---
 title: Pop Culture Detective's Video Essay on ‘The Last Jedi’
-custom_type: post
 date: 2019-01-10 10:09:00 -06:00
 tags:
 - Episode VIII
 - Episode IX
 - Star Wars
-featured_image: /uploads/2019/01/last-jedi-video-featured.jpg
+custom_type: post
+featured_image: "/uploads/2019/01/last-jedi-video-featured.jpg"
 ---
 
 There are many people (mostly men) on the internet that didn't like *The Last Jedi*. I think this video does a beautiful job of explaining why. *The Last Jedi* is constantly challenging masculinity, what it means to be a man, and what it means to be a hero.
