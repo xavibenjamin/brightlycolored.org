@@ -10,7 +10,7 @@ const filesToCache = [
   '404.html',
   '/about/',
   '/archive/',
-  '/genres/',
+  '/reviews/',
   '/subscribe/',
   '/topics/',
   '/offline/',
