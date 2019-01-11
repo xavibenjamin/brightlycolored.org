@@ -111,17 +111,17 @@
 
 .carbon-text {
   display: block;
-  font-size: $ratio-1;
+  font-size: $ratio-2;
   line-height: 1.5;
   text-align: left;
-  margin-top: 0.6rem;
+  margin-top: $ratio-2;
 }
 
 .carbon-poweredby {
   display: block;
   font-size: $ratio-2;
   line-height: 1;
-  margin-top: 0.8rem;
+  margin-top: $ratio-2;
   text-decoration: none;
   text-transform: uppercase;
 }
