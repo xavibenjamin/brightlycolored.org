@@ -583,6 +583,8 @@ $reddit-color: #ff4500;
 }
 
 .p-body
+  > *:not(.iframe-container):not(.card):not(.extendout):not(.photo-grid):not(.alignleft):not(.alignright):not(.small__right):not(.small__left):not(.highlighter-rouge):not(.post__footer):not(.tag__section):not(table):not(.post__section):not(.page__header--full):not(.e-content),
+.e-content
   > *:not(.iframe-container):not(.card):not(.extendout):not(.photo-grid):not(.alignleft):not(.alignright):not(.small__right):not(.small__left):not(.highlighter-rouge):not(.post__footer):not(.tag__section):not(table):not(.post__section):not(.page__header--full),
 .posts__date > .current-day,
 .post .post__footer > *:not(.card),
