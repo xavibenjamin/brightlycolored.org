@@ -11,10 +11,10 @@ excerpt: Brightly Colored is a web-column about comics, Star Wars, Apple, techno
 <section class="posts">
   {% assign filteredPosts = site.posts | where_exp: "item", "item.is_rss_only != true" %}
   {% for post in filteredPosts limit: 5 %}
-    <article class="posts__post p-body format-{% if post.custom_type %}{{ post.custom_type }}{% endif %}">
+    <article class="posts__post p-body format-{% if post.custom_type %}{{ post.custom_type }}{% endif %} h-entry">
       {% if post.custom_type == 'post' %}
       <header class="post__header">
-        <h1>
+        <h1 class="p-name">
           <a href="{{ post.url }}">{{ post.title | smartify | widont }}</a>
         </h1>
         {% if post.subtitle %}
@@ -26,22 +26,22 @@ excerpt: Brightly Colored is a web-column about comics, Star Wars, Apple, techno
         {% endif %}
       </header>
     
-      {{ post.content | improve }}
+      <div class="e-content">{{ post.content | improve }}</div>
 
     {% elsif post.custom_type == 'link' %}
       <header class="post__header">
-        <h1>
+        <h1 class="p-name">
           <a href="{{ post.link_url }}">{{ post.title | smartify | widont }}</a>
         </h1>
       </header>
     
-      {{ post.content | improve }}
+      <div class="e-content">{{ post.content | improve }}</div>
 
     {% endif %}
 
       <footer class="post__footer">
         {% include small-author.html %}
-        <a class="post__permalink" href="{{ post.url}}" title="Permalink to {{ post.title }}"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d" }}</time></a>
+        <a class="post__permalink" href="{{ post.url}}" title="Permalink to {{ post.title }}"><time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d" }}</time></a>
         {% include tags.html %}
       </footer>
 

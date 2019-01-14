@@ -2,6 +2,6 @@
 
 {% if post.author != 'timsmith' %}
 <small class="small-author">
-  <a href="/authors/{{ author.author_path }}" title="Profile for {{ author.display_name}}">{{ author.display_name }}</a>
+  <a class="p-author h-card" href="/authors/{{ author.author_path }}" title="Profile for {{ author.display_name}}">{{ author.display_name }}</a>
 </small>
 {% endif %}

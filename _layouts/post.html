@@ -4,17 +4,17 @@ custom_css_class: single
 ---
 
 <article
-  class="post format-{% if page.custom_type %}{{ page.custom_type }}{% endif %} p-body"
+  class="post format-{% if page.custom_type %}{{ page.custom_type }}{% endif %} p-body h-entry"
 >
   <header class="post__header">
     {% include post-author.html %}
     
     {% if page.link_url %}
-      <h1>
+      <h1 class="p-name">
         <a href="{{ page.link_url }}">{{ page.title | smartify | widont }}</a>
       </h1>
     {% else %}
-      <h1>{{ page.title | smartify | widont }}</h1>
+      <h1 class="p-name">{{ page.title | smartify | widont }}</h1>
       {% if page.subtitle %}
         <h2 class="post__subtitle">{{ page.subtitle | smartify | widont }}</h2>
       {% endif %} 
@@ -31,7 +31,7 @@ custom_css_class: single
   </aside>
   {% endif %}
 
-  {{ content | improve }}
+  <div class="e-content">{{ content | improve }}</div>
 
   <footer class="post__footer">
     {% include letterboxd-link.html %}

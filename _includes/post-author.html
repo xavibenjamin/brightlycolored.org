@@ -1,5 +1,5 @@
 <!-- Post Meta -->
 {% assign author = site.data.authors[page.author] %}
 <div class="post__meta">
-  <span class="post__author"><a href="/authors/{{ author.author_path }}" title="View more posts written by {{ author.display_name }}">{{ author.display_name }}</a></span>&emsp;<span class="post__date"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y" }}</time></span>
+  <span class="post__author"><a class="p-author h-card" href="/authors/{{ author.author_path }}" title="View more posts written by {{ author.display_name }}">{{ author.display_name }}</a></span>&emsp;<span class="post__date"><time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y" }}</time></span>
 </div>
