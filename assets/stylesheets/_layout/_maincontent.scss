@@ -189,19 +189,17 @@
   }
 }
 
-.post > {
+.post .e-content > {
   h2,
   h3,
   h4,
   h5,
   h6 {
-    &:hover {
-      .heading-link {
-        display: inline-block;
-        opacity: 1;
-        pointer-events: auto;
-        text-decoration: none;
-      }
+    .heading-link {
+      display: inline-block;
+      opacity: 1;
+      pointer-events: auto;
+      text-decoration: none;
     }
   }
 }
@@ -579,7 +577,7 @@ $reddit-color: #ff4500;
 .p-body {
   margin-left: auto;
   margin-right: auto;
-  max-width: 44em;
+  max-width: $content-width;
 }
 
 .p-body
@@ -597,6 +595,6 @@ $reddit-color: #ff4500;
   margin-right: auto;
   max-width: 90%;
   @media #{$medium-up} {
-    max-width: 36.9rem;
+    max-width: $text-width;
   }
 }
