@@ -1,10 +1,14 @@
 ---
 title: Pull List for January 16, 2019
-date: 2019-01-11 15:44:00 -06:00
+date: 2019-01-15 10:34:00 -06:00
 tags:
 - comics
 - pull list
 custom_type: post
+excerpt: Every Wednesday, all-new comic books hit the shelves with original stories
+  to be engrossed in, and new art to be fascinated by. This is my weekly write-up
+  where I share what comic books I read last week, and [my pull list](/topics/#pull-list)
+  of comics for this week.
 featured_image: "/uploads/2019/01/pull-list-for-jan-16-2019.jpg"
 ---
 
