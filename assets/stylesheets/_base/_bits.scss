@@ -48,17 +48,27 @@ $font-display: Whitney A, Whitney B, system, -apple-system, BlinkMacSystemFont,
   Avenir, sans-serif;
 $font-code: Operator SSm A, Operator SSm B, Operator Mono, monospace;
 
+$base-font-size: 16px;
+
 // -----------------------------------------
 // SPACING RATIO
 // -----------------------------------------
 
-$magic-number: 1.55;
-
 $ratio: 1rem;
 
-$ratio-1: $ratio / 1.35;
-$ratio-2: $ratio / $magic-number;
-$ratio-3: $ratio-2 / $magic-number;
+$ratio-1: 0.75rem;
+$ratio-2: 0.65rem;
+$ratio-3: 0.4rem;
 
-$ratio1: $ratio * $magic-number;
-$ratio2: $ratio1 * $magic-number;
+$ratio1: 1.3rem;
+$ratio2: 2.4rem;
+
+// -----------------------------------------
+// Content Widths
+// -----------------------------------------
+
+$text-width: 35.2rem;
+$sidebar-width: 11rem;
+
+$content-width: $text-width * 1.2;
+$wrapper-width: ($content-width + $sidebar-width) * 1.15;
