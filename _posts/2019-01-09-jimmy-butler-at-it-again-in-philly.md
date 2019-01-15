@@ -1,10 +1,11 @@
 ---
-title: Jimmy Butler at It Again in Philly
+title: Jimmy Butler at It Again
 date: 2019-01-09 17:16:00 -06:00
 tags:
-- NBA
+  - NBA
 custom_type: post
-excerpt: 'I hate to say it, but Jimmy Butler may be the next Dwight Howard: a talented
+excerpt:
+  'I hate to say it, but Jimmy Butler may be the next Dwight Howard: a talented
   player whose very presence causes the implosion of otherwise good teams.'
 ---
 
