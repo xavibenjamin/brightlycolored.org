@@ -3,7 +3,7 @@
 // -------------------------------
 
 html {
-  font-size: calc(17.5px + 0.25vw);
+  font-size: calc(#{$base-font-size} + 0.25vw);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -38,7 +38,7 @@ h5 {
 
 p {
   font-size: $ratio;
-  line-height: 1.6;
+  line-height: 1.7;
   + p {
     margin-top: 1rem;
   }
@@ -85,6 +85,7 @@ h5 {
 }
 
 .p-body > ul:not(.slash-list):not(.author-archive):not(.search__results),
+.e-content > ul,
 blockquote > ul {
   list-style-type: circle;
   margin-bottom: 1.1rem;
@@ -111,6 +112,7 @@ blockquote > ul {
 }
 
 .p-body > ol,
+.e-content > ol,
 blockquote > ol {
   list-style-type: decimal-leading-zero;
   margin-bottom: 1.1rem;
