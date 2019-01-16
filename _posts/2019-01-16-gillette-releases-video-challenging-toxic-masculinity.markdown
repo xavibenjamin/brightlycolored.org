@@ -1,11 +1,16 @@
 ---
 title: Gillette Releases Video Challenging Toxic Masculinity
-date: 2019-01-16 12:45:00 -06:00
+date: 2019-01-16 11:17:00 -06:00
 tags:
 - masculinity
+- life
+- philosophy
+custom_type: post
 ---
 
-In what Gillette is calling a short film, we see several common things men say. It's a fantastic video, which all men should take to heart. As boys, we're victims of toxic masculinity, and that creeps into our lives as adults. But as men, it's necessary to think twice about things we were taught and evaluate whether they're right. Most often, we find that they aren't. "Boys will be boys" turns out to be a terrible saying, because those same boys turn out to be the horrible men.
+In what Gillette is calling a short film, we see depicted several things men say and do. It's a fantastic video, that challenges what masculinity is, and boldly shows what it *should* be.
+
+As boys, we're victims of toxic masculinity. Maybe we grew up around men who were misogynists, people that told us that "real men fight," or to "man up." But when you grow up, it's the responsibility of every man to challenge that upbringing, and grow beyond it.
 
 I agree with my friend [Chris Courtney](https://twitter.com/designhawg/status/1085399328275996673):
 
