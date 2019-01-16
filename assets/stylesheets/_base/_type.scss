@@ -31,7 +31,7 @@ h6 {
 h1,
 h2,
 h5 {
-  color: $heading-base-color;
+  color: $heading-color;
 }
 
 // TEXT --------------------------
@@ -60,7 +60,7 @@ h2 {
 }
 
 h3 {
-  color: lighten($heading-base-color, 10%);
+  color: lighten($heading-color, 10%);
   font-size: $ratio;
   font-weight: 700;
   margin-top: $ratio2;

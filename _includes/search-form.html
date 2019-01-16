@@ -1,4 +1,4 @@
-<div class="search{% unless page.url == '/search/' %} search--sidebar{% endunless %}">
+<div class="search{% unless page.url == '/search/' %} search--header{% endunless %}">
   <form action="/search/" method="get">
     <label for="search-box" class="screen-reader-hide">Search</label>
     <input type="text" id="search-box" name="query" class="search__input{% if page.url == '/search/' %} search__input--secondary{% endif %}" placeholder="Search…">

@@ -3,21 +3,20 @@
 // -----------------------------------------
 
 // COLORS ------------------------
-$primary-color: #f30f4c;
-$secondary-color: #212836;
+$primary-color: #f3771a;
+$secondary-color: #425970;
 
 // TEXT COLOR --------------------
-// $body-color: #444;
-$body-color: lighten($secondary-color, 25%);
-$heading-base-color: $body-color;
-$light-text-color: lighten($body-color, 17%);
+$body-color: $secondary-color;
+$heading-color: darken($secondary-color, 15%);
+$light-text-color: lighten($body-color, 20%);
 $highlight-color: #fffedb;
-$link-color: #0881b3;
+$link-color: #0993cb;
 $link-underline: lighten(saturate($link-color, 10%), 40%);
 
 // BG AND BORDER COLORS ----------
-$border-color: lighten($secondary-color, 70%);
-$light-bg-color: lighten($secondary-color, 78%);
+$border-color: lighten($secondary-color, 56%);
+$light-bg-color: saturate(lighten($secondary-color, 58%), 10%);
 
 // GLOBAL RADIUS
 $global-radius: 2px;
@@ -68,7 +67,6 @@ $ratio2: 2.4rem;
 // -----------------------------------------
 
 $text-width: 35.2rem;
-$sidebar-width: 11rem;
 
-$content-width: $text-width * 1.2;
-$wrapper-width: ($content-width + $sidebar-width) * 1.15;
+$content-width: $text-width * 1.25;
+$wrapper-width: $content-width * 1.35;

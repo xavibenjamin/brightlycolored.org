@@ -84,6 +84,7 @@
       title="Master Feed for Brightly Colored"
       href="https://feedpress.me/brightlycolored"
     />
+    
     <link
       rel="alternate"
       type="application/rss+xml"
@@ -92,22 +93,6 @@
     />
 
     <link rel="stylesheet" href="/assets/stylesheets/global.css?ver={{ site.time | date: '%Y%m%d%H%M%S' }}" />
-
-    <script>
-      var siteThemes = [
-        'theme-001.css',
-        'theme-002.css',
-        'theme-003.css',
-        'theme-004.css',
-        'theme-005.css'
-      ];
-      var siteTheme = siteThemes[Math.floor(Math.random() * siteThemes.length)];
-      document.write(
-        '<link rel="stylesheet" href="/themes/' + siteTheme + '?ver={{ site.time | date: '%Y%m%d%H%M%S' }}">'
-      );
-    </script>
-
-    {% comment %} <link rel="stylesheet" href="/themes/theme-005.css"> {% endcomment %}
 
     <!-- preload the fonts -->
     <link	

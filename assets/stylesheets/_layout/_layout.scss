@@ -2,38 +2,11 @@
 // MAIN LAYOUT COMPONENTS
 // -----------------------------------------
 
-body {
-  @media #{$large-up} {
-    display: grid;
-    grid-template-columns: auto $sidebar-width;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: $wrapper-width;
-  }
-}
-
-.header {
-  @media #{$large-up} {
-    grid-column: span 2;
-  }
-}
-
-.main {
-  @media #{$large-up} {
-    grid-column: span 1;
-    grid-row: 2;
-  }
-}
-
-.sidebar {
-  @media #{$large-up} {
-    grid-row: 2;
-  }
-}
-
+.header,
+.main,
 .footer {
-  @media #{$large-up} {
-    grid-column: span 2;
-    grid-row: 3;
-  }
+  width: 100%;
+  max-width: $wrapper-width;
+  margin-left: auto;
+  margin-right: auto;
 }

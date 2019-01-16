@@ -81,7 +81,7 @@
 }
 
 .post__subtitle {
-  color: lighten($heading-base-color, 15%);
+  color: $light-text-color;
   font-size: $ratio1;
   font-weight: normal;
   line-height: 1.1;
@@ -183,7 +183,7 @@
     font-weight: 700;
     line-height: 1.1;
     a {
-      color: $body-color;
+      color: $heading-color;
       font-weight: inherit;
     }
   }
@@ -205,7 +205,7 @@
 }
 
 .heading-link {
-  color: lighten($heading-base-color, 45%);
+  color: $light-text-color;
   display: none;
   font-size: 0.85em;
   margin-left: 0.4rem;
@@ -546,7 +546,7 @@ $reddit-color: #ff4500;
   }
 
   .related__title {
-    color: $heading-base-color;
+    color: $heading-color;
     font-size: $ratio;
     font-weight: 600;
     line-height: 1.2;

@@ -1,13 +1,22 @@
 <header class="header" role="banner">
-  <p class="header__byline">Timothy B. Smith Presents:</p>
-  <a href="/" class="logo">
-    {% include icons/icon-logo.html %}
-  </a>
-  <p class="header__description">A web-column about comic books, <em>Star Wars</em>, Apple, technology, movies, and other geekery.</p>
 
-  <a href="#sidebar" class="header__menu">
-    <span class="menu__line"></span>
-    <span class="menu__line"></span>
-    <span class="menu__line"></span>
-  </a>
+  <div class="site__branding">
+    <a href="/" class="logo">
+      {% include icons/icon-logo.html %}
+    </a>
+    <p class="header__byline"><span class="caps">A web-column by Timothy B. Smith</span></p>
+  </div>
+
+  <nav id="navigation" class="site__navigation">
+    <ul class="navigation">
+      <li><a href="/about/">About</a></li>
+      <li><a href="/topics/">Topics</a></li>
+      <li><a href="/subscribe/">Subscribe</a></li>
+      <li><a href="/styleguide/">Style Guide</a></li>
+    </ul>
+
+    {% unless page.url == '/search/' %}
+      {% include search-form.html %}
+    {% endunless %}   
+  </nav>
 </header>
